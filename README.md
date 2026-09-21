@@ -44,10 +44,29 @@ tested independently:
 
 | Module | Status |
 |---|---|
-| `/dataset` | Not started — folder scaffolded |
-| `/graph-model` | Prototype call-graph extractor (`extract_call_graph.py`, javalang-based) built and tested against `apache/commons-lang`; lives on branch `Person2/Graph`, not yet merged to `main` |
-| `/eval-system` | Not started — folder scaffolded |
-| `/docs` | Not started — folder scaffolded |
+| `/dataset` | Started. `verified_samples.csv` holds 10 hand-verified BUMP examples (project, repo URL, dependency group/artifact, old/new version, failure category). All 10 are breaking updates; there are no safe-update examples yet. The GitHub crawler / mining code is not implemented. |
+| `/graph-model` | Call-graph extractor done (`extract_call_graph.py`, javalang-based). It turns a cloned Java repo into an edge list of `(file, function, calls, external)` and was tested on `apache/commons-lang`. The ML model and any dependency-impact scoring are not implemented. |
+| `/eval-system` | CLI (`cli.py`) and evaluation metrics (`evaluator.py`: Precision, Recall, F1, ROC-AUC) are working. `analyzer.py` is still a **mock** that returns deterministic fake scores and impacted files; it is not yet connected to `/graph-model` or `/dataset`. |
+| `/docs` | Empty. |
+
+## Quick start
+
+Each module has its own setup and usage instructions:
+
+- **Call-graph extractor** — see [`graph-model/README.md`](graph-model/README.md):
+  `python extract_call_graph.py <path-to-cloned-repo> <output.json>`
+- **CLI and evaluation harness** — see [`eval-system/README.md`](eval-system/README.md):
+  `python cli.py --repo-path <path> --dependency <name> --old-version <v> --new-version <v>`
+- **Dataset** — see `dataset/verified_samples.csv`
+
+## Next steps
+
+- Connect `eval-system/analyzer.py` to the call-graph extractor so the
+  impacted files/functions come from real analysis instead of the mock.
+- Extend the dataset with safe (non-breaking) updates and automate mining
+  with the GitHub crawler.
+- Build the risk model on features from the call graph, and evaluate it
+  with `evaluator.py` against the BUMP-derived labels.
 
 ## Team workflow
 
@@ -65,6 +84,3 @@ git clone https://github.com/Sanjanavadari/VerSync.git
 cd VerSync
 git checkout -b Person<N>/<Topic>
 ```
-
-Each module folder has (or will have) its own README with setup and usage
-instructions specific to that part of the pipeline.
