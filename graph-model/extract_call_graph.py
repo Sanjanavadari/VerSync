@@ -5,7 +5,9 @@ extract_call_graph.py
 Walks a cloned Java repository, parses every .java file with javalang, and
 builds a lightweight method-level call graph edge list distinguishing
 internal calls (within the same project) from external API calls
-(methods belonging to imported third-party / JDK libraries).
+(methods belonging to imported third-party / JDK libraries). External calls
+are additionally resolved, on a best-effort basis, to the Maven dependency
+that provides them (see dependency_resolver.py).
 
 Usage:
     python extract_call_graph.py <path-to-cloned-repo> <output.json>
@@ -30,6 +32,8 @@ from javalang.tree import (
     MethodDeclaration,
     MethodInvocation,
 )
+
+from dependency_resolver import load_declared_dependencies, resolve_dependency
 
 # This javalang version predates Java `record` support, so record
 # declarations are simply not parsed (see README limitations).
@@ -221,7 +225,8 @@ def resolve_call(qualifier, member, enclosing_class, var_types, type_to_fqn,
     return f"{qualifier}.{member}", True
 
 
-def extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_methods_by_class):
+def extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_methods_by_class,
+                            declared_dependencies, dependency_cache):
     edges = []
 
     for type_decl in iter_type_declarations(comp_unit):
@@ -250,11 +255,18 @@ def extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_metho
                     internal_methods_by_class,
                 )
 
+                dependency = None
+                if is_external:
+                    if calls_str not in dependency_cache:
+                        dependency_cache[calls_str] = resolve_dependency(calls_str, declared_dependencies)
+                    dependency = dependency_cache[calls_str]
+
                 edges.append({
                     "file": rel_path,
                     "function": method_name,
                     "calls": calls_str,
                     "external": is_external,
+                    "dependency": dependency,
                 })
 
     return edges
@@ -289,10 +301,15 @@ def main():
 
     internal_classes, internal_methods_by_class = build_project_symbol_table(parsed_units)
 
+    declared_dependencies = load_declared_dependencies(repo_path)
+    print(f"found {len(declared_dependencies)} declared Maven dependencies (from pom.xml)")
+    dependency_cache = {}
+
     all_edges = []
     for path, comp_unit in parsed_units:
         rel_path = os.path.relpath(path, repo_path)
-        edges = extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_methods_by_class)
+        edges = extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_methods_by_class,
+                                        declared_dependencies, dependency_cache)
         all_edges.extend(edges)
 
     repo_name = os.path.basename(os.path.normpath(repo_path))
@@ -307,6 +324,12 @@ def main():
     external_count = sum(1 for e in all_edges if e["external"])
     internal_count = len(all_edges) - external_count
     print(f"wrote {len(all_edges)} edges ({internal_count} internal, {external_count} external) to {args.output_json}")
+
+    resolved_count = sum(1 for e in all_edges if e["dependency"] not in (None, "unknown"))
+    unknown_count = sum(1 for e in all_edges if e["dependency"] == "unknown")
+    if external_count:
+        print(f"dependency resolution: {resolved_count}/{external_count} external edges resolved to a "
+              f"known dependency or 'jdk', {unknown_count} left as 'unknown'")
 
     if failed_files:
         print(f"\n{len(failed_files)} file(s) could not be parsed (skipped):", file=sys.stderr)

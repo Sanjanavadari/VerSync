@@ -1,0 +1,477 @@
+{
+  "repo": "spring-petclinic",
+  "nodes": [
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isTrue",
+      "type": "FUNCTION",
+      "name": "isTrue"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "api:java.lang.String.equalsIgnoreCase",
+      "type": "API",
+      "name": "java.lang.String.equalsIgnoreCase"
+    },
+    {
+      "id": "api:p.getName",
+      "type": "API",
+      "name": "p.getName"
+    },
+    {
+      "id": "api:java.util.concurrent.ExecutorService.shutdown",
+      "type": "API",
+      "name": "java.util.concurrent.ExecutorService.shutdown"
+    },
+    {
+      "id": "function:src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java::findById",
+      "type": "FUNCTION",
+      "name": "findById"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::filter",
+      "type": "FUNCTION",
+      "name": "filter"
+    },
+    {
+      "id": "dependency:org.springframework.boot:spring-boot",
+      "type": "DEPENDENCY",
+      "name": "org.springframework.boot:spring-boot"
+    },
+    {
+      "id": "api:java.util.concurrent.CountDownLatch.countDown",
+      "type": "API",
+      "name": "java.util.concurrent.CountDownLatch.countDown"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:java.util.concurrent.CountDownLatch.await",
+      "type": "API",
+      "name": "java.util.concurrent.CountDownLatch.await"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicInteger.incrementAndGet",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicInteger.incrementAndGet"
+    },
+    {
+      "id": "dependency:org.assertj:assertj-core",
+      "type": "DEPENDENCY",
+      "name": "org.assertj:assertj-core"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "type": "FUNCTION",
+      "name": "testDuplicatePetNameRaceConditionIsBlocked"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isPresent",
+      "type": "FUNCTION",
+      "name": "isPresent"
+    },
+    {
+      "id": "api:org.springframework.boot.restclient.RestTemplateBuilder.baseUri",
+      "type": "API",
+      "name": "org.springframework.boot.restclient.RestTemplateBuilder.baseUri"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isEqualTo",
+      "type": "FUNCTION",
+      "name": "isEqualTo"
+    },
+    {
+      "id": "api:java.util.Optional.get",
+      "type": "API",
+      "name": "java.util.Optional.get"
+    },
+    {
+      "id": "api:java.lang.String.contains",
+      "type": "API",
+      "name": "java.lang.String.contains"
+    },
+    {
+      "id": "dependency:org.springframework:spring-core",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-core"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::size",
+      "type": "FUNCTION",
+      "name": "size"
+    },
+    {
+      "id": "api:org.springframework.http.ResponseEntity.getBody",
+      "type": "API",
+      "name": "org.springframework.http.ResponseEntity.getBody"
+    },
+    {
+      "id": "api:java.util.concurrent.Executors.newFixedThreadPool",
+      "type": "API",
+      "name": "java.util.concurrent.Executors.newFixedThreadPool"
+    },
+    {
+      "id": "file:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "type": "FILE",
+      "name": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicInteger.get",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicInteger.get"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::stream",
+      "type": "FUNCTION",
+      "name": "stream"
+    },
+    {
+      "id": "dependency:org.springframework:spring-web",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-web"
+    },
+    {
+      "id": "api:org.springframework.util.MultiValueMap.add",
+      "type": "API",
+      "name": "org.springframework.util.MultiValueMap.add"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::count",
+      "type": "FUNCTION",
+      "name": "count"
+    },
+    {
+      "id": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "API",
+      "name": "org.assertj.core.api.Assertions.assertThat"
+    },
+    {
+      "id": "api:org.springframework.http.ResponseEntity.getStatusCode",
+      "type": "API",
+      "name": "org.springframework.http.ResponseEntity.getStatusCode"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "function:src/main/java/org/springframework/samples/petclinic/owner/Owner.java::getPet",
+      "type": "FUNCTION",
+      "name": "getPet"
+    },
+    {
+      "id": "api:org.springframework.http.HttpHeaders.setContentType",
+      "type": "API",
+      "name": "org.springframework.http.HttpHeaders.setContentType"
+    },
+    {
+      "id": "api:java.util.concurrent.ExecutorService.submit",
+      "type": "API",
+      "name": "java.util.concurrent.ExecutorService.submit"
+    },
+    {
+      "id": "function:src/main/java/org/springframework/samples/petclinic/owner/Owner.java::getPets",
+      "type": "FUNCTION",
+      "name": "getPets"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isNull",
+      "type": "FUNCTION",
+      "name": "isNull"
+    },
+    {
+      "id": "api:org.springframework.web.client.RestTemplate.postForEntity",
+      "type": "API",
+      "name": "org.springframework.web.client.RestTemplate.postForEntity"
+    },
+    {
+      "id": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::is2xxSuccessful",
+      "type": "FUNCTION",
+      "name": "is2xxSuccessful"
+    },
+    {
+      "id": "api:System.out.println",
+      "type": "API",
+      "name": "System.out.println"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java::findById",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.Optional.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/main/java/org/springframework/samples/petclinic/owner/Owner.java::getPets",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/main/java/org/springframework/samples/petclinic/owner/Owner.java::getPet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.boot.restclient.RestTemplateBuilder.baseUri",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.Executors.newFixedThreadPool",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.ExecutorService.submit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.CountDownLatch.countDown",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.CountDownLatch.await",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.http.HttpHeaders.setContentType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.util.MultiValueMap.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.web.client.RestTemplate.postForEntity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.http.ResponseEntity.getBody",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:org.springframework.http.ResponseEntity.getStatusCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::is2xxSuccessful",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.atomic.AtomicInteger.incrementAndGet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.ExecutorService.shutdown",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:System.out.println",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.util.concurrent.atomic.AtomicInteger.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::stream",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::filter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:java.lang.String.equalsIgnoreCase",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "api:p.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::testDuplicatePetNameRaceConditionIsBlocked",
+      "target": "function:src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java::count",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.Assertions.assertThat",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.Optional.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.boot.restclient.RestTemplateBuilder.baseUri",
+      "target": "dependency:org.springframework.boot:spring-boot",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.Executors.newFixedThreadPool",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.ExecutorService.submit",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.CountDownLatch.countDown",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.CountDownLatch.await",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.http.HttpHeaders.setContentType",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.util.MultiValueMap.add",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.web.client.RestTemplate.postForEntity",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.http.ResponseEntity.getBody",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:org.springframework.http.ResponseEntity.getStatusCode",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.lang.String.contains",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicInteger.incrementAndGet",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.ExecutorService.shutdown",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:System.out.println",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicInteger.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:java.lang.String.equalsIgnoreCase",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "api:p.getName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    }
+  ]
+}
