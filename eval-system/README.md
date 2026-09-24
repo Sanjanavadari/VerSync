@@ -65,9 +65,10 @@ python cli.py --repo-path /path/to/repo --dependency pandas --old-version 2.1.4 
 | Flag | Required | Description |
 |---|---|---|
 | `--repo-path` | Yes | Path to the target repository. |
-| `--dependency` | Yes | Name of the dependency being updated (e.g. `pandas`). |
-| `--old-version` | Yes | Current version string (e.g. `2.1.4`). |
-| `--new-version` | Yes | Target version string (e.g. `2.2.0`). |
+| `--dependency` | Yes | Name of the dependency being updated (e.g. `spring-web`). |
+| `--old-version` | Yes | Current version string (e.g. `5.3.24`). |
+| `--new-version` | Yes | Target version string (e.g. `6.0.7`). |
+| `--dig-path` | No | Path to a precomputed Dependency-Impact Graph JSON file (e.g. `graph-model/dig_sample_output.json`). |
 | `--format` | No | `text` (default) or `json`. |
 
 ### 2. Run the Evaluation Metrics Demo

@@ -128,6 +128,11 @@ def main() -> None:
     parser.add_argument("--old-version", required=True, help="Current version of the dependency.")
     parser.add_argument("--new-version", required=True, help="Target version of the dependency.")
     parser.add_argument(
+        "--dig-path",
+        default=None,
+        help="Optional path to a precomputed Dependency-Impact Graph (DIG) JSON file.",
+    )
+    parser.add_argument(
         "--format",
         choices=["text", "json"],
         default="text",
@@ -144,6 +149,7 @@ def main() -> None:
             dependency=args.dependency,
             old_version=args.old_version,
             new_version=args.new_version,
+            dig_path=args.dig_path,
         )
     except Exception as exc:  # pragma: no cover - defensive guard for CLI usage
         print(f"Error: failed to analyze update ({exc})", file=sys.stderr)
