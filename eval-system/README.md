@@ -155,3 +155,24 @@ print_metrics_table({
 
 See `run_eval_demo.py` for a complete, runnable example of this pattern
 using synthetic data.
+
+### 3. Run the Baseline Model & Ablation Harness
+
+Train and evaluate the baseline models against Person 1's verified BUMP dataset:
+
+```bash
+python train_baseline.py
+```
+
+This runs a 5-fold `StratifiedGroupKFold` cross-validation (grouped by repository)
+with out-of-fold probability pooling and reports a 5-arm ablation table:
+- **Majority Baseline** ("always breaking")
+- **SemVer only (all 59 samples)**
+- **SemVer only (graph subset)**
+- **Graph only (graph subset)**
+- **SemVer + Graph (graph subset)**
+
+To generate pre-update DIGs for dataset samples:
+```bash
+python batch_build_digs.py [--limit <N>] [--safe-only]
+```
