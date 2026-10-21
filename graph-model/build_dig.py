@@ -114,10 +114,17 @@ def build_dig(repo_path):
 
     for path, comp_unit in parsed_units:
         rel_path = os.path.relpath(path, repo_path)
-        call_edges = extract_edges_for_file(
-            rel_path, comp_unit, internal_classes, internal_methods_by_class,
-            declared_dependencies, dependency_cache,
-        )
+        # A single file whose AST trips up edge extraction (e.g. a construct
+        # javalang parsed but our resolver doesn't expect) is skipped rather
+        # than failing the whole repository.
+        try:
+            call_edges = extract_edges_for_file(
+                rel_path, comp_unit, internal_classes, internal_methods_by_class,
+                declared_dependencies, dependency_cache,
+            )
+        except Exception as e:
+            failed_files.append((path, f"edge extraction: {e}"))
+            continue
         all_edges_for_reference.extend(call_edges)
 
         f_node = file_node_id(rel_path)
