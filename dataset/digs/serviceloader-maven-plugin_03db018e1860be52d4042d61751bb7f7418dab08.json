@@ -1,13 +1,18 @@
 {
-  "repo": "serviceloader-maven-plugin",
+  "repo": "serviceloader-maven-plugin_03db018e1860be52d4042d61751bb7f7418dab08",
   "nodes": [
     {
-      "id": "file:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java",
+      "id": "file:example/src/main/java/eu/somatik/serviceloader/Operation.java",
       "type": "FILE",
-      "name": "example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java"
+      "name": "example/src/main/java/eu/somatik/serviceloader/Operation.java"
     },
     {
-      "id": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java::main",
+      "id": "file:example/src/main/java/eu/somatik/serviceloader/App.java",
+      "type": "FILE",
+      "name": "example/src/main/java/eu/somatik/serviceloader/App.java"
+    },
+    {
+      "id": "function:example/src/main/java/eu/somatik/serviceloader/App.java::main",
       "type": "FUNCTION",
       "name": "main"
     },
@@ -37,74 +42,234 @@
       "name": "o.execute"
     },
     {
-      "id": "file:example\\src\\main\\java\\eu\\somatik\\serviceloader\\Operation.java",
+      "id": "file:example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java",
       "type": "FILE",
-      "name": "example\\src\\main\\java\\eu\\somatik\\serviceloader\\Operation.java"
+      "name": "example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java"
     },
     {
-      "id": "file:example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java",
-      "type": "FILE",
-      "name": "example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java"
-    },
-    {
-      "id": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java::execute",
+      "id": "function:example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java::execute",
       "type": "FUNCTION",
       "name": "execute"
     },
     {
-      "id": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
+      "id": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
       "type": "FILE",
-      "name": "src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java"
+      "name": "src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
+      "type": "FUNCTION",
+      "name": "testListCompiledClasses"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
+      "type": "FUNCTION",
+      "name": "setBuildContext"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "type": "FUNCTION",
+      "name": "listCompiledClasses"
+    },
+    {
+      "id": "api:org.junit.Assert.assertEquals",
+      "type": "API",
+      "name": "org.junit.Assert.assertEquals"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:List.size",
+      "type": "API",
+      "name": "List.size"
+    },
+    {
+      "id": "api:org.junit.Assert.assertTrue",
+      "type": "API",
+      "name": "org.junit.Assert.assertTrue"
+    },
+    {
+      "id": "api:List.contains",
+      "type": "API",
+      "name": "List.contains"
+    },
+    {
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "type": "FUNCTION",
+      "name": "testMojoWithExcludes"
+    },
+    {
+      "id": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
+      "type": "API",
+      "name": "org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject"
+    },
+    {
+      "id": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "DEPENDENCY",
+      "name": "org.codehaus.plexus:plexus-utils"
+    },
+    {
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
+      "type": "FUNCTION",
+      "name": "Collections"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "FUNCTION",
       "name": "execute"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "type": "FUNCTION",
-      "name": "skipProject"
+      "id": "api:org.codehaus.plexus.util.FileUtils.fileRead",
+      "type": "API",
+      "name": "org.codehaus.plexus.util.FileUtils.fileRead"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
       "type": "FUNCTION",
-      "name": "getLog"
+      "name": "testMojoWithIncludes"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "type": "FUNCTION",
-      "name": "info"
+      "name": "testMojoWithAbstractClass"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "type": "FUNCTION",
-      "name": "generateClassPathUrls"
+      "id": "api:Arrays.asList",
+      "type": "API",
+      "name": "Arrays.asList"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "type": "FUNCTION",
-      "name": "loadServiceClasses"
+      "id": "api:java.lang.String.trim",
+      "type": "API",
+      "name": "java.lang.String.trim"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::split",
       "type": "FUNCTION",
-      "name": "findImplementations"
+      "name": "split"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "type": "FUNCTION",
-      "name": "writeServiceFiles"
+      "name": "testMojoWithConcreteClass"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getOutputDirectory",
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
       "type": "FUNCTION",
-      "name": "getOutputDirectory"
+      "name": "testNotFailOnMissingClass"
+    },
+    {
+      "id": "api:org.junit.Assert.assertFalse",
+      "type": "API",
+      "name": "org.junit.Assert.assertFalse"
     },
     {
       "id": "api:java.io.File.exists",
       "type": "API",
       "name": "java.io.File.exists"
+    },
+    {
+      "id": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "type": "FUNCTION",
+      "name": "testFailOnMissingClass"
+    },
+    {
+      "id": "file:src/test/java/com/foo/FooImpl2.java",
+      "type": "FILE",
+      "name": "src/test/java/com/foo/FooImpl2.java"
+    },
+    {
+      "id": "function:src/test/java/com/foo/FooImpl2.java::doSomething",
+      "type": "FUNCTION",
+      "name": "doSomething"
+    },
+    {
+      "id": "file:src/test/java/com/foo/AbstractFoo.java",
+      "type": "FILE",
+      "name": "src/test/java/com/foo/AbstractFoo.java"
+    },
+    {
+      "id": "file:src/test/java/com/foo/FooImpl.java",
+      "type": "FILE",
+      "name": "src/test/java/com/foo/FooImpl.java"
+    },
+    {
+      "id": "function:src/test/java/com/foo/FooImpl.java::doSomething",
+      "type": "FUNCTION",
+      "name": "doSomething"
+    },
+    {
+      "id": "file:src/test/java/com/foo/bar/Hello.java",
+      "type": "FILE",
+      "name": "src/test/java/com/foo/bar/Hello.java"
+    },
+    {
+      "id": "file:src/test/java/com/baz/BazExt.java",
+      "type": "FILE",
+      "name": "src/test/java/com/baz/BazExt.java"
+    },
+    {
+      "id": "file:src/test/java/com/baz/BazExt2.java",
+      "type": "FILE",
+      "name": "src/test/java/com/baz/BazExt2.java"
+    },
+    {
+      "id": "file:src/test/java/com/baz/Baz.java",
+      "type": "FILE",
+      "name": "src/test/java/com/baz/Baz.java"
+    },
+    {
+      "id": "file:src/test/java/com/bar/Bar.java",
+      "type": "FILE",
+      "name": "src/test/java/com/bar/Bar.java"
+    },
+    {
+      "id": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "type": "FUNCTION",
+      "name": "skipProject"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "type": "FUNCTION",
+      "name": "generateClassPathUrls"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "type": "FUNCTION",
+      "name": "loadServiceClasses"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "type": "FUNCTION",
+      "name": "findImplementations"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "type": "FUNCTION",
+      "name": "writeServiceFiles"
+    },
+    {
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getOutputDirectory",
+      "type": "FUNCTION",
+      "name": "getOutputDirectory"
     },
     {
       "id": "api:java.io.File.mkdirs",
@@ -152,12 +317,12 @@
       "name": "java.io.FileWriter.close"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::error",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::error",
       "type": "FUNCTION",
       "name": "error"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getServices",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getServices",
       "type": "FUNCTION",
       "name": "getServices"
     },
@@ -182,22 +347,17 @@
       "name": "interfaceClass.getName"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getClassFolder",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getClassFolder",
       "type": "FUNCTION",
       "name": "getClassFolder"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "type": "FUNCTION",
-      "name": "listCompiledClasses"
-    },
-    {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::isDebugEnabled",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::isDebugEnabled",
       "type": "FUNCTION",
       "name": "isDebugEnabled"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::debug",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::debug",
       "type": "FUNCTION",
       "name": "debug"
     },
@@ -247,7 +407,7 @@
       "name": "java.util.Map.get"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::add",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::add",
       "type": "FUNCTION",
       "name": "add"
     },
@@ -262,12 +422,7 @@
       "name": "org.codehaus.plexus.util.SelectorUtils.match"
     },
     {
-      "id": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "DEPENDENCY",
-      "name": "org.codehaus.plexus:plexus-utils"
-    },
-    {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::warn",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::warn",
       "type": "FUNCTION",
       "name": "warn"
     },
@@ -327,7 +482,7 @@
       "name": "file.substring"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::replace",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::replace",
       "type": "FUNCTION",
       "name": "replace"
     },
@@ -342,7 +497,7 @@
       "name": "java.lang.String.length"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
       "type": "FUNCTION",
       "name": "listCompiledClassesRegex"
     },
@@ -382,7 +537,7 @@
       "name": "file.getName"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::endsWith",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::endsWith",
       "type": "FUNCTION",
       "name": "endsWith"
     },
@@ -397,7 +552,7 @@
       "name": "java.util.regex.Pattern.matcher"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::group",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::group",
       "type": "FUNCTION",
       "name": "group"
     },
@@ -407,7 +562,7 @@
       "name": "java.lang.String.replace"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getCompileClasspath",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getCompileClasspath",
       "type": "FUNCTION",
       "name": "getCompileClasspath"
     },
@@ -417,17 +572,17 @@
       "name": "java.lang.String.endsWith"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toURI",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toURI",
       "type": "FUNCTION",
       "name": "toURI"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toString",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toString",
       "type": "FUNCTION",
       "name": "toString"
     },
     {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toURL",
+      "id": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toURL",
       "type": "FUNCTION",
       "name": "toURL"
     },
@@ -455,171 +610,16 @@
       "id": "api:java.lang.String.equals",
       "type": "API",
       "name": "java.lang.String.equals"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\bar\\Bar.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\bar\\Bar.java"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\baz\\Baz.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\baz\\Baz.java"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\baz\\BazExt.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\baz\\BazExt.java"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\baz\\BazExt2.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\baz\\BazExt2.java"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\foo\\AbstractFoo.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\foo\\AbstractFoo.java"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\foo\\FooImpl.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\foo\\FooImpl.java"
-    },
-    {
-      "id": "function:src\\test\\java\\com\\foo\\FooImpl.java::doSomething",
-      "type": "FUNCTION",
-      "name": "doSomething"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\foo\\FooImpl2.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\foo\\FooImpl2.java"
-    },
-    {
-      "id": "function:src\\test\\java\\com\\foo\\FooImpl2.java::doSomething",
-      "type": "FUNCTION",
-      "name": "doSomething"
-    },
-    {
-      "id": "file:src\\test\\java\\com\\foo\\bar\\Hello.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\com\\foo\\bar\\Hello.java"
-    },
-    {
-      "id": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "type": "FILE",
-      "name": "src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
-      "type": "FUNCTION",
-      "name": "testListCompiledClasses"
-    },
-    {
-      "id": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
-      "type": "FUNCTION",
-      "name": "setBuildContext"
-    },
-    {
-      "id": "api:org.junit.Assert.assertEquals",
-      "type": "API",
-      "name": "org.junit.Assert.assertEquals"
-    },
-    {
-      "id": "dependency:junit:junit",
-      "type": "DEPENDENCY",
-      "name": "junit:junit"
-    },
-    {
-      "id": "api:List.size",
-      "type": "API",
-      "name": "List.size"
-    },
-    {
-      "id": "api:org.junit.Assert.assertTrue",
-      "type": "API",
-      "name": "org.junit.Assert.assertTrue"
-    },
-    {
-      "id": "api:List.contains",
-      "type": "API",
-      "name": "List.contains"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
-      "type": "FUNCTION",
-      "name": "testMojoWithExcludes"
-    },
-    {
-      "id": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
-      "type": "API",
-      "name": "org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
-      "type": "FUNCTION",
-      "name": "Collections"
-    },
-    {
-      "id": "api:org.codehaus.plexus.util.FileUtils.fileRead",
-      "type": "API",
-      "name": "org.codehaus.plexus.util.FileUtils.fileRead"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
-      "type": "FUNCTION",
-      "name": "testMojoWithIncludes"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
-      "type": "FUNCTION",
-      "name": "testMojoWithAbstractClass"
-    },
-    {
-      "id": "api:Arrays.asList",
-      "type": "API",
-      "name": "Arrays.asList"
-    },
-    {
-      "id": "api:java.lang.String.trim",
-      "type": "API",
-      "name": "java.lang.String.trim"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::split",
-      "type": "FUNCTION",
-      "name": "split"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
-      "type": "FUNCTION",
-      "name": "testMojoWithConcreteClass"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
-      "type": "FUNCTION",
-      "name": "testNotFailOnMissingClass"
-    },
-    {
-      "id": "api:org.junit.Assert.assertFalse",
-      "type": "API",
-      "name": "org.junit.Assert.assertFalse"
-    },
-    {
-      "id": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
-      "type": "FUNCTION",
-      "name": "testFailOnMissingClass"
     }
   ],
   "edges": [
     {
-      "source": "file:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java",
-      "target": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java::main",
+      "source": "file:example/src/main/java/eu/somatik/serviceloader/App.java",
+      "target": "function:example/src/main/java/eu/somatik/serviceloader/App.java::main",
       "type": "CONTAINS"
     },
     {
-      "source": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java::main",
+      "source": "function:example/src/main/java/eu/somatik/serviceloader/App.java::main",
       "target": "api:java.util.ServiceLoader.load",
       "type": "CALLS"
     },
@@ -629,7 +629,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java::main",
+      "source": "function:example/src/main/java/eu/somatik/serviceloader/App.java::main",
       "target": "api:System.out.println",
       "type": "CALLS"
     },
@@ -639,7 +639,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\App.java::main",
+      "source": "function:example/src/main/java/eu/somatik/serviceloader/App.java::main",
       "target": "api:o.execute",
       "type": "CALLS"
     },
@@ -649,827 +649,32 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "file:example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java",
-      "target": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java::execute",
+      "source": "file:example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java",
+      "target": "function:example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java::execute",
       "type": "CONTAINS"
     },
     {
-      "source": "function:example\\src\\main\\java\\eu\\somatik\\serviceloader\\SimpleOperation.java::execute",
+      "source": "function:example/src/main/java/eu/somatik/serviceloader/SimpleOperation.java::execute",
       "target": "api:System.out.println",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getOutputDirectory",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.io.File.exists",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.File.exists",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.io.File.mkdirs",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.File.mkdirs",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.util.Map.entrySet",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Map.entrySet",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:interfaceClassName.getKey",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceClassName.getKey",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.io.File.getAbsolutePath",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.File.getAbsolutePath",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:interfaceClassName.getValue",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceClassName.getValue",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.io.FileWriter.write",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.FileWriter.write",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:org.sonatype.plexus.build.incremental.BuildContext.refresh",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.sonatype.plexus.build.incremental.BuildContext.refresh",
-      "target": "dependency:org.sonatype.plexus:plexus-build-api",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "api:java.io.FileWriter.close",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.FileWriter.close",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::writeServiceFiles",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::error",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getServices",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "target": "api:ClassLoader.loadClass",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:ClassLoader.loadClass",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "target": "api:java.util.List.add",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.List.add",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::loadServiceClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.Map.put",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Map.put",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:interfaceClass.getName",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceClass.getName",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getClassFolder",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::isDebugEnabled",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::debug",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:ClassLoader.loadClass",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.Class.getModifiers",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.Class.getModifiers",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.Class.isAnonymousClass",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.Class.isAnonymousClass",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.Class.isInterface",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.Class.isInterface",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.Class.isEnum",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.Class.isEnum",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.reflect.Modifier.isAbstract",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.reflect.Modifier.isAbstract",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.lang.reflect.Modifier.isPublic",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.reflect.Modifier.isPublic",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:interfaceCls.equals",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceCls.equals",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:interfaceCls.isAssignableFrom",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceCls.isAssignableFrom",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.Map.get",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Map.get",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::add",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:interfaceCls.getName",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:interfaceCls.getName",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:org.codehaus.plexus.util.SelectorUtils.match",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.SelectorUtils.match",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::warn",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.Map.entrySet",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:entry.getValue",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:entry.getValue",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.List.listIterator",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.List.listIterator",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.ListIterator.hasNext",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.ListIterator.hasNext",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.ListIterator.next",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.ListIterator.next",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::findImplementations",
-      "target": "api:java.util.ListIterator.remove",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.ListIterator.remove",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:java.io.File.exists",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setBasedir",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setBasedir",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setIncludes",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setIncludes",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setExcludes",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setExcludes",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:org.codehaus.plexus.util.DirectoryScanner.scan",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.DirectoryScanner.scan",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:org.codehaus.plexus.util.DirectoryScanner.getIncludedFiles",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.codehaus.plexus.util.DirectoryScanner.getIncludedFiles",
-      "target": "dependency:org.codehaus.plexus:plexus-utils",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:file.substring",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:file.substring",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::replace",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:file.length",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:file.length",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:java.lang.String.length",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.String.length",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "target": "api:java.util.List.add",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.Stack.push",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Stack.push",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.io.File.getAbsolutePath",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::info",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.regex.Pattern.compile",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.regex.Pattern.compile",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.Stack.isEmpty",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Stack.isEmpty",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.Stack.pop",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.Stack.pop",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.io.File.listFiles",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.io.File.listFiles",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:file.isDirectory",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:file.isDirectory",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:file.getName",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:file.getName",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::endsWith",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:file.getAbsolutePath",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:file.getAbsolutePath",
-      "target": "dependency:unknown",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.regex.Pattern.matcher",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.regex.Pattern.matcher",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::group",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.lang.String.replace",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.String.replace",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::debug",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClassesRegex",
-      "target": "api:java.util.List.add",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getCompileClasspath",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "api:java.lang.String.endsWith",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.String.endsWith",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toURI",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toString",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::toURL",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "api:java.util.List.add",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "api:java.util.List.toArray",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.List.toArray",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::generateClassPathUrls",
-      "target": "api:java.util.List.size",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.util.List.size",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "file:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "target": "api:org.apache.maven.project.MavenProject.getPackaging",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:org.apache.maven.project.MavenProject.getPackaging",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::getLog",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::warn",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::skipProject",
-      "target": "api:java.lang.String.equals",
-      "type": "CALLS"
-    },
-    {
-      "source": "api:java.lang.String.equals",
-      "target": "dependency:jdk",
-      "type": "PROVIDED_BY"
-    },
-    {
-      "source": "file:src\\test\\java\\com\\foo\\FooImpl.java",
-      "target": "function:src\\test\\java\\com\\foo\\FooImpl.java::doSomething",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\test\\java\\com\\foo\\FooImpl.java::doSomething",
-      "target": "api:System.out.println",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\test\\java\\com\\foo\\FooImpl2.java",
-      "target": "function:src\\test\\java\\com\\foo\\FooImpl2.java::doSomething",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\test\\java\\com\\foo\\FooImpl2.java::doSomething",
-      "target": "api:System.out.println",
-      "type": "CALLS"
-    },
-    {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
-      "type": "CONTAINS"
-    },
-    {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::listCompiledClasses",
-      "type": "CALLS"
-    },
-    {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
       "target": "api:org.junit.Assert.assertEquals",
       "type": "CALLS"
     },
@@ -1479,7 +684,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
       "target": "api:List.size",
       "type": "CALLS"
     },
@@ -1489,7 +694,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
       "target": "api:org.junit.Assert.assertTrue",
       "type": "CALLS"
     },
@@ -1499,7 +704,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testListCompiledClasses",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testListCompiledClasses",
       "target": "api:List.contains",
       "type": "CALLS"
     },
@@ -1509,17 +714,17 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
@@ -1529,17 +734,17 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
       "target": "api:org.codehaus.plexus.util.FileUtils.fileRead",
       "type": "CALLS"
     },
@@ -1549,77 +754,77 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithExcludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithExcludes",
       "target": "api:org.junit.Assert.assertEquals",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
       "target": "api:org.codehaus.plexus.util.FileUtils.fileRead",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithIncludes",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithIncludes",
       "target": "api:org.junit.Assert.assertEquals",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "target": "api:org.codehaus.plexus.util.FileUtils.fileRead",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "target": "api:Arrays.asList",
       "type": "CALLS"
     },
@@ -1629,7 +834,7 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "target": "api:java.lang.String.trim",
       "type": "CALLS"
     },
@@ -1639,92 +844,92 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::split",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::split",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithAbstractClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithAbstractClass",
       "target": "api:org.junit.Assert.assertEquals",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "target": "api:org.codehaus.plexus.util.FileUtils.fileRead",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "target": "api:Arrays.asList",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "target": "api:java.lang.String.trim",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::split",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::split",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testMojoWithConcreteClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testMojoWithConcreteClass",
       "target": "api:org.junit.Assert.assertEquals",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
       "target": "api:org.junit.Assert.assertFalse",
       "type": "CALLS"
     },
@@ -1734,34 +939,838 @@
       "type": "PROVIDED_BY"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testNotFailOnMissingClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testNotFailOnMissingClass",
       "target": "api:java.io.File.exists",
       "type": "CALLS"
     },
     {
-      "source": "file:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "source": "api:java.io.File.exists",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
       "type": "CONTAINS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::setBuildContext",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::setBuildContext",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
       "target": "api:org.codehaus.plexus.util.ReflectionUtils.setVariableValueInObject",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
-      "target": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::Collections",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "target": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::Collections",
       "type": "CALLS"
     },
     {
-      "source": "function:src\\test\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojoTest.java::testFailOnMissingClass",
-      "target": "function:src\\main\\java\\eu\\somatik\\maven\\serviceloader\\ServiceloaderMojo.java::execute",
+      "source": "function:src/test/java/eu/somatik/maven/serviceloader/ServiceloaderMojoTest.java::testFailOnMissingClass",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/foo/FooImpl2.java",
+      "target": "function:src/test/java/com/foo/FooImpl2.java::doSomething",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/foo/FooImpl2.java::doSomething",
+      "target": "api:System.out.println",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/foo/FooImpl.java",
+      "target": "function:src/test/java/com/foo/FooImpl.java::doSomething",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/foo/FooImpl.java::doSomething",
+      "target": "api:System.out.println",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::execute",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getOutputDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.io.File.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.io.File.mkdirs",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.mkdirs",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.util.Map.entrySet",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.entrySet",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:interfaceClassName.getKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceClassName.getKey",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.io.File.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.getAbsolutePath",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:interfaceClassName.getValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceClassName.getValue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.io.FileWriter.write",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileWriter.write",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:org.sonatype.plexus.build.incremental.BuildContext.refresh",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.sonatype.plexus.build.incremental.BuildContext.refresh",
+      "target": "dependency:org.sonatype.plexus:plexus-build-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "api:java.io.FileWriter.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileWriter.close",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::writeServiceFiles",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getServices",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "target": "api:ClassLoader.loadClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ClassLoader.loadClass",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::loadServiceClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.put",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:interfaceClass.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceClass.getName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getClassFolder",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::isDebugEnabled",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::debug",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:ClassLoader.loadClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.Class.getModifiers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Class.getModifiers",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.Class.isAnonymousClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Class.isAnonymousClass",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.Class.isInterface",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Class.isInterface",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.Class.isEnum",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Class.isEnum",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.reflect.Modifier.isAbstract",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.reflect.Modifier.isAbstract",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.lang.reflect.Modifier.isPublic",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.reflect.Modifier.isPublic",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:interfaceCls.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceCls.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:interfaceCls.isAssignableFrom",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceCls.isAssignableFrom",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.Map.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:interfaceCls.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:interfaceCls.getName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:org.codehaus.plexus.util.SelectorUtils.match",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.SelectorUtils.match",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.Map.entrySet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:entry.getValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:entry.getValue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.List.listIterator",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.listIterator",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.ListIterator.hasNext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ListIterator.hasNext",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.ListIterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ListIterator.next",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::findImplementations",
+      "target": "api:java.util.ListIterator.remove",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ListIterator.remove",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:java.io.File.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setBasedir",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setBasedir",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setIncludes",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setIncludes",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.setExcludes",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.setExcludes",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.scan",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.scan",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.getIncludedFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.getIncludedFiles",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:file.substring",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:file.substring",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::replace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:file.length",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:file.length",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:java.lang.String.length",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.length",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClasses",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.Stack.push",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Stack.push",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.io.File.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.regex.Pattern.compile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.regex.Pattern.compile",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.Stack.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Stack.isEmpty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.Stack.pop",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Stack.pop",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.io.File.listFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.listFiles",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:file.isDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:file.isDirectory",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:file.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:file.getName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::endsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:file.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:file.getAbsolutePath",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.regex.Pattern.matcher",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.regex.Pattern.matcher",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::group",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.lang.String.replace",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.replace",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::debug",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::listCompiledClassesRegex",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getCompileClasspath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "api:java.lang.String.endsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.endsWith",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toURI",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::toURL",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "api:java.util.List.toArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.toArray",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::generateClassPathUrls",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.size",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "target": "api:org.apache.maven.project.MavenProject.getPackaging",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.MavenProject.getPackaging",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "target": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/eu/somatik/maven/serviceloader/ServiceloaderMojo.java::skipProject",
+      "target": "api:java.lang.String.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.equals",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     }
-  ]
+  ],
+  "build_metadata": {
+    "checkout_mode": "parent_commit",
+    "checkout_commit": "b640f3dfd4b1360e9d2b91991cfa5042fdac0222",
+    "java_files": 14,
+    "parse_failed_files": 1,
+    "parse_failed_examples": [
+      "example/src/main/java/eu/somatik/serviceloader/module-info.java: "
+    ]
+  }
 }

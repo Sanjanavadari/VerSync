@@ -1,0 +1,3484 @@
+{
+  "repo": "allure-maven_16ae40b1e17e14ee3ae20ac211647e47399a01a9",
+  "nodes": [
+    {
+      "id": "file:maven/quality-configs/spotless/header.java",
+      "type": "FILE",
+      "name": "maven/quality-configs/spotless/header.java"
+    },
+    {
+      "id": "file:.mvn/wrapper/MavenWrapperDownloader.java",
+      "type": "FILE",
+      "name": ".mvn/wrapper/MavenWrapperDownloader.java"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "type": "FUNCTION",
+      "name": "main"
+    },
+    {
+      "id": "api:System.out.println",
+      "type": "API",
+      "name": "System.out.println"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:File.getAbsolutePath",
+      "type": "API",
+      "name": "File.getAbsolutePath"
+    },
+    {
+      "id": "api:File.exists",
+      "type": "API",
+      "name": "File.exists"
+    },
+    {
+      "id": "api:java.util.Properties.load",
+      "type": "API",
+      "name": "java.util.Properties.load"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "api:java.util.Properties.getProperty",
+      "type": "API",
+      "name": "java.util.Properties.getProperty"
+    },
+    {
+      "id": "api:FileInputStream.close",
+      "type": "API",
+      "name": "FileInputStream.close"
+    },
+    {
+      "id": "api:File.getParentFile",
+      "type": "API",
+      "name": "File.getParentFile"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::exists",
+      "type": "FUNCTION",
+      "name": "exists"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::mkdirs",
+      "type": "FUNCTION",
+      "name": "mkdirs"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::getAbsolutePath",
+      "type": "FUNCTION",
+      "name": "getAbsolutePath"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "type": "FUNCTION",
+      "name": "downloadFileFromURL"
+    },
+    {
+      "id": "api:java.lang.System.exit",
+      "type": "API",
+      "name": "java.lang.System.exit"
+    },
+    {
+      "id": "api:e.printStackTrace",
+      "type": "API",
+      "name": "e.printStackTrace"
+    },
+    {
+      "id": "api:java.lang.System.getenv",
+      "type": "API",
+      "name": "java.lang.System.getenv"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::toCharArray",
+      "type": "FUNCTION",
+      "name": "toCharArray"
+    },
+    {
+      "id": "api:Authenticator.setDefault",
+      "type": "API",
+      "name": "Authenticator.setDefault"
+    },
+    {
+      "id": "api:Channels.newChannel",
+      "type": "API",
+      "name": "Channels.newChannel"
+    },
+    {
+      "id": "api:URL.openStream",
+      "type": "API",
+      "name": "URL.openStream"
+    },
+    {
+      "id": "api:FileOutputStream.getChannel",
+      "type": "API",
+      "name": "FileOutputStream.getChannel"
+    },
+    {
+      "id": "function:.mvn/wrapper/MavenWrapperDownloader.java::transferFrom",
+      "type": "FUNCTION",
+      "name": "transferFrom"
+    },
+    {
+      "id": "api:FileOutputStream.close",
+      "type": "API",
+      "name": "FileOutputStream.close"
+    },
+    {
+      "id": "api:ReadableByteChannel.close",
+      "type": "API",
+      "name": "ReadableByteChannel.close"
+    },
+    {
+      "id": "file:src/test/java/io/qameta/allure/maven/TestHelper.java",
+      "type": "FILE",
+      "name": "src/test/java/io/qameta/allure/maven/TestHelper.java"
+    },
+    {
+      "id": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "type": "FUNCTION",
+      "name": "checkReportDirectory"
+    },
+    {
+      "id": "api:java.nio.file.Path.resolve",
+      "type": "API",
+      "name": "java.nio.file.Path.resolve"
+    },
+    {
+      "id": "api:org.junit.Assert.assertThat",
+      "type": "API",
+      "name": "org.junit.Assert.assertThat"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:ru.yandex.qatools.matchers.nio.PathMatchers.exists",
+      "type": "API",
+      "name": "ru.yandex.qatools.matchers.nio.PathMatchers.exists"
+    },
+    {
+      "id": "dependency:ru.yandex.qatools.matchers:nio-matchers",
+      "type": "DEPENDENCY",
+      "name": "ru.yandex.qatools.matchers:nio-matchers"
+    },
+    {
+      "id": "api:ru.yandex.qatools.matchers.nio.PathMatchers.isDirectory",
+      "type": "API",
+      "name": "ru.yandex.qatools.matchers.nio.PathMatchers.isDirectory"
+    },
+    {
+      "id": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "type": "FUNCTION",
+      "name": "getTestCases"
+    },
+    {
+      "id": "api:org.hamcrest.Matchers.hasSize",
+      "type": "API",
+      "name": "org.hamcrest.Matchers.hasSize"
+    },
+    {
+      "id": "dependency:org.hamcrest:hamcrest",
+      "type": "DEPENDENCY",
+      "name": "org.hamcrest:hamcrest"
+    },
+    {
+      "id": "api:java.util.Arrays.asList",
+      "type": "API",
+      "name": "java.util.Arrays.asList"
+    },
+    {
+      "id": "api:java.nio.file.Path.toFile",
+      "type": "API",
+      "name": "java.nio.file.Path.toFile"
+    },
+    {
+      "id": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::list",
+      "type": "FUNCTION",
+      "name": "list"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureCommandline.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "type": "FUNCTION",
+      "name": "generateReport"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::checkAllureExists",
+      "type": "FUNCTION",
+      "name": "checkAllureExists"
+    },
+    {
+      "id": "api:org.apache.commons.io.FileUtils.deleteQuietly",
+      "type": "API",
+      "name": "org.apache.commons.io.FileUtils.deleteQuietly"
+    },
+    {
+      "id": "dependency:commons-io:commons-io",
+      "type": "DEPENDENCY",
+      "name": "commons-io:commons-io"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "FUNCTION",
+      "name": "getAllureExecutablePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toAbsolutePath",
+      "type": "FUNCTION",
+      "name": "toAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toFile",
+      "type": "FUNCTION",
+      "name": "toFile"
+    },
+    {
+      "id": "api:org.apache.commons.exec.CommandLine.addArgument",
+      "type": "API",
+      "name": "org.apache.commons.exec.CommandLine.addArgument"
+    },
+    {
+      "id": "dependency:org.apache.commons:commons-exec",
+      "type": "DEPENDENCY",
+      "name": "org.apache.commons:commons-exec"
+    },
+    {
+      "id": "api:resultsPath.toAbsolutePath",
+      "type": "API",
+      "name": "resultsPath.toAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "api:java.nio.file.Path.toAbsolutePath",
+      "type": "API",
+      "name": "java.nio.file.Path.toAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "type": "FUNCTION",
+      "name": "execute"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "type": "FUNCTION",
+      "name": "serve"
+    },
+    {
+      "id": "api:java.lang.String.matches",
+      "type": "API",
+      "name": "java.lang.String.matches"
+    },
+    {
+      "id": "api:java.util.Objects.toString",
+      "type": "API",
+      "name": "java.util.Objects.toString"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "type": "FUNCTION",
+      "name": "allureNotExists"
+    },
+    {
+      "id": "api:TimeUnit.SECONDS.toMillis",
+      "type": "API",
+      "name": "TimeUnit.SECONDS.toMillis"
+    },
+    {
+      "id": "api:org.apache.commons.exec.DefaultExecutor.setWatchdog",
+      "type": "API",
+      "name": "org.apache.commons.exec.DefaultExecutor.setWatchdog"
+    },
+    {
+      "id": "api:org.apache.commons.exec.DefaultExecutor.setExitValue",
+      "type": "API",
+      "name": "org.apache.commons.exec.DefaultExecutor.setExitValue"
+    },
+    {
+      "id": "api:org.apache.commons.exec.DefaultExecutor.execute",
+      "type": "API",
+      "name": "org.apache.commons.exec.DefaultExecutor.execute"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "type": "FUNCTION",
+      "name": "isWindows"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureHome",
+      "type": "FUNCTION",
+      "name": "getAllureHome"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::resolve",
+      "type": "FUNCTION",
+      "name": "resolve"
+    },
+    {
+      "id": "api:java.lang.String.format",
+      "type": "API",
+      "name": "java.lang.String.format"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "type": "FUNCTION",
+      "name": "allureExists"
+    },
+    {
+      "id": "api:java.nio.file.Files.exists",
+      "type": "API",
+      "name": "java.nio.file.Files.exists"
+    },
+    {
+      "id": "api:java.nio.file.Files.isExecutable",
+      "type": "API",
+      "name": "java.nio.file.Files.isExecutable"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "type": "FUNCTION",
+      "name": "downloadWithMaven"
+    },
+    {
+      "id": "api:org.apache.maven.execution.MavenSession.getProjectBuildingRequest",
+      "type": "API",
+      "name": "org.apache.maven.execution.MavenSession.getProjectBuildingRequest"
+    },
+    {
+      "id": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven:maven-plugin-api"
+    },
+    {
+      "id": "api:org.apache.maven.project.ProjectBuildingRequest.setResolveDependencies",
+      "type": "API",
+      "name": "org.apache.maven.project.ProjectBuildingRequest.setResolveDependencies"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.setGroupId",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.setGroupId"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.setArtifactId",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.setArtifactId"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.setVersion",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.setVersion"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.setType",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.setType"
+    },
+    {
+      "id": "api:org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver.resolveDependencies",
+      "type": "API",
+      "name": "org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver.resolveDependencies"
+    },
+    {
+      "id": "dependency:org.apache.maven.shared:maven-artifact-transfer",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven.shared:maven-artifact-transfer"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::iterator",
+      "type": "FUNCTION",
+      "name": "iterator"
+    },
+    {
+      "id": "api:java.util.Collections.singletonList",
+      "type": "API",
+      "name": "java.util.Collections.singletonList"
+    },
+    {
+      "id": "api:java.util.Iterator.hasNext",
+      "type": "API",
+      "name": "java.util.Iterator.hasNext"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "type": "FUNCTION",
+      "name": "unpack"
+    },
+    {
+      "id": "api:java.util.Iterator.next",
+      "type": "API",
+      "name": "java.util.Iterator.next"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getArtifact",
+      "type": "FUNCTION",
+      "name": "getArtifact"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getFile",
+      "type": "FUNCTION",
+      "name": "getFile"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "type": "FUNCTION",
+      "name": "download"
+    },
+    {
+      "id": "api:java.nio.file.Files.createTempFile",
+      "type": "API",
+      "name": "java.nio.file.Files.createTempFile"
+    },
+    {
+      "id": "api:org.apache.maven.settings.Proxy.getHost",
+      "type": "API",
+      "name": "org.apache.maven.settings.Proxy.getHost"
+    },
+    {
+      "id": "api:org.apache.maven.settings.Proxy.getPort",
+      "type": "API",
+      "name": "org.apache.maven.settings.Proxy.getPort"
+    },
+    {
+      "id": "api:org.apache.maven.settings.Proxy.getUsername",
+      "type": "API",
+      "name": "org.apache.maven.settings.Proxy.getUsername"
+    },
+    {
+      "id": "api:org.apache.maven.settings.Proxy.getPassword",
+      "type": "API",
+      "name": "org.apache.maven.settings.Proxy.getPassword"
+    },
+    {
+      "id": "api:java.net.Authenticator.setDefault",
+      "type": "API",
+      "name": "java.net.Authenticator.setDefault"
+    },
+    {
+      "id": "api:java.net.URL.openConnection",
+      "type": "API",
+      "name": "java.net.URL.openConnection"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getInputStream",
+      "type": "FUNCTION",
+      "name": "getInputStream"
+    },
+    {
+      "id": "api:java.nio.file.Files.copy",
+      "type": "API",
+      "name": "java.nio.file.Files.copy"
+    },
+    {
+      "id": "api:org.apache.commons.io.FileUtils.copyURLToFile",
+      "type": "API",
+      "name": "org.apache.commons.io.FileUtils.copyURLToFile"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getPasswordAuthentication",
+      "type": "FUNCTION",
+      "name": "getPasswordAuthentication"
+    },
+    {
+      "id": "api:proxyPassword.toCharArray",
+      "type": "API",
+      "name": "proxyPassword.toCharArray"
+    },
+    {
+      "id": "api:net.lingala.zip4j.core.ZipFile.extractAll",
+      "type": "API",
+      "name": "net.lingala.zip4j.core.ZipFile.extractAll"
+    },
+    {
+      "id": "dependency:net.lingala.zip4j:zip4j",
+      "type": "DEPENDENCY",
+      "name": "net.lingala.zip4j:zip4j"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getInstallationDirectory",
+      "type": "FUNCTION",
+      "name": "getInstallationDirectory"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::setExecutable",
+      "type": "FUNCTION",
+      "name": "setExecutable"
+    },
+    {
+      "id": "api:java.lang.System.getProperty",
+      "type": "API",
+      "name": "java.lang.System.getProperty"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toLowerCase",
+      "type": "FUNCTION",
+      "name": "toLowerCase"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::contains",
+      "type": "FUNCTION",
+      "name": "contains"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureServeMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureServeMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "type": "FUNCTION",
+      "name": "getInputDirectories"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "type": "FUNCTION",
+      "name": "getInputDirectoryAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::isDirectoryExists",
+      "type": "FUNCTION",
+      "name": "isDirectoryExists"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::error",
+      "type": "FUNCTION",
+      "name": "error"
+    },
+    {
+      "id": "api:java.util.Collections.emptyList",
+      "type": "API",
+      "name": "java.util.Collections.emptyList"
+    },
+    {
+      "id": "api:java.nio.file.Paths.get",
+      "type": "API",
+      "name": "java.nio.file.Paths.get"
+    },
+    {
+      "id": "api:java.nio.file.Path.isAbsolute",
+      "type": "API",
+      "name": "java.nio.file.Path.isAbsolute"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::resolve",
+      "type": "FUNCTION",
+      "name": "resolve"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "type": "FUNCTION",
+      "name": "generateReport"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getReportDirectory",
+      "type": "FUNCTION",
+      "name": "getReportDirectory"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInstallDirectory",
+      "type": "FUNCTION",
+      "name": "getInstallDirectory"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureReportMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureReportMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "type": "FUNCTION",
+      "name": "getInputDirectories"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "type": "FUNCTION",
+      "name": "getInputDirectoryAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::isDirectoryExists",
+      "type": "FUNCTION",
+      "name": "isDirectoryExists"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::error",
+      "type": "FUNCTION",
+      "name": "error"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::resolve",
+      "type": "FUNCTION",
+      "name": "resolve"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureBaseMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureBaseMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBaseMojo.java::getOutputName",
+      "type": "FUNCTION",
+      "name": "getOutputName"
+    },
+    {
+      "id": "api:org.apache.maven.plugin.descriptor.PluginDescriptor.getArtifactId",
+      "type": "API",
+      "name": "org.apache.maven.plugin.descriptor.PluginDescriptor.getArtifactId"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/DownloadUtils.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/DownloadUtils.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::getAllureDownloadUrl",
+      "type": "FUNCTION",
+      "name": "getAllureDownloadUrl"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "type": "FUNCTION",
+      "name": "versionCompare"
+    },
+    {
+      "id": "api:java.lang.String.split",
+      "type": "API",
+      "name": "java.lang.String.split"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "api:java.lang.Integer.valueOf",
+      "type": "API",
+      "name": "java.lang.Integer.valueOf"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::compareTo",
+      "type": "FUNCTION",
+      "name": "compareTo"
+    },
+    {
+      "id": "api:java.lang.Integer.signum",
+      "type": "API",
+      "name": "java.lang.Integer.signum"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureBulkMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "type": "FUNCTION",
+      "name": "getInputDirectories"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::toAbsolutePath",
+      "type": "FUNCTION",
+      "name": "toAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::isDirectoryExists",
+      "type": "FUNCTION",
+      "name": "isDirectoryExists"
+    },
+    {
+      "id": "api:java.util.List.add",
+      "type": "API",
+      "name": "java.util.List.add"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::warn",
+      "type": "FUNCTION",
+      "name": "warn"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "type": "FUNCTION",
+      "name": "getInputDirectories"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::error",
+      "type": "FUNCTION",
+      "name": "error"
+    },
+    {
+      "id": "api:child.getBuild",
+      "type": "API",
+      "name": "child.getBuild"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getDirectory",
+      "type": "FUNCTION",
+      "name": "getDirectory"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::toAbsolutePath",
+      "type": "FUNCTION",
+      "name": "toAbsolutePath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::isDirectoryExists",
+      "type": "FUNCTION",
+      "name": "isDirectoryExists"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::warn",
+      "type": "FUNCTION",
+      "name": "warn"
+    },
+    {
+      "id": "api:child.getName",
+      "type": "API",
+      "name": "child.getName"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getOutputDirectory",
+      "type": "FUNCTION",
+      "name": "getOutputDirectory"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getReportDirectory",
+      "type": "FUNCTION",
+      "name": "getReportDirectory"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "type": "FUNCTION",
+      "name": "executeReport"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "type": "FUNCTION",
+      "name": "installAllure"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getMojoName",
+      "type": "FUNCTION",
+      "name": "getMojoName"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getInputDirectories",
+      "type": "FUNCTION",
+      "name": "getInputDirectories"
+    },
+    {
+      "id": "api:java.util.List.isEmpty",
+      "type": "API",
+      "name": "java.util.List.isEmpty"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::warn",
+      "type": "FUNCTION",
+      "name": "warn"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "type": "FUNCTION",
+      "name": "loadProperties"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "type": "FUNCTION",
+      "name": "loadCategories"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "type": "FUNCTION",
+      "name": "copyExecutorInfo"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "type": "FUNCTION",
+      "name": "generateReport"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "type": "FUNCTION",
+      "name": "render"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getSink",
+      "type": "FUNCTION",
+      "name": "getSink"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getName",
+      "type": "FUNCTION",
+      "name": "getName"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::addPropertyIfAbsent",
+      "type": "FUNCTION",
+      "name": "addPropertyIfAbsent"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getProject",
+      "type": "FUNCTION",
+      "name": "getProject"
+    },
+    {
+      "id": "api:dir.resolve",
+      "type": "API",
+      "name": "dir.resolve"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValue",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.writeValue"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "id": "api:java.util.Map.containsKey",
+      "type": "API",
+      "name": "java.util.Map.containsKey"
+    },
+    {
+      "id": "api:java.util.Map.put",
+      "type": "API",
+      "name": "java.util.Map.put"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "type": "FUNCTION",
+      "name": "createProjectClassLoader"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getResource",
+      "type": "FUNCTION",
+      "name": "getResource"
+    },
+    {
+      "id": "api:java.net.URL.toURI",
+      "type": "API",
+      "name": "java.net.URL.toURI"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "type": "FUNCTION",
+      "name": "readPropertiesFile"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "type": "FUNCTION",
+      "name": "readPropertiesFileFromClasspath"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "type": "FUNCTION",
+      "name": "readPropertiesFromMap"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "type": "FUNCTION",
+      "name": "prepareProperties"
+    },
+    {
+      "id": "api:java.nio.file.Files.newOutputStream",
+      "type": "API",
+      "name": "java.nio.file.Files.newOutputStream"
+    },
+    {
+      "id": "api:java.util.Properties.store",
+      "type": "API",
+      "name": "java.util.Properties.store"
+    },
+    {
+      "id": "api:dir.toString",
+      "type": "API",
+      "name": "dir.toString"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getVersion",
+      "type": "FUNCTION",
+      "name": "getVersion"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "type": "FUNCTION",
+      "name": "getProxy"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::error",
+      "type": "FUNCTION",
+      "name": "error"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getInstallDirectory",
+      "type": "FUNCTION",
+      "name": "getInstallDirectory"
+    },
+    {
+      "id": "api:java.nio.file.Files.newInputStream",
+      "type": "API",
+      "name": "java.nio.file.Files.newInputStream"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getResourceAsStream",
+      "type": "FUNCTION",
+      "name": "getResourceAsStream"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::entrySet",
+      "type": "FUNCTION",
+      "name": "entrySet"
+    },
+    {
+      "id": "api:property.getKey",
+      "type": "API",
+      "name": "property.getKey"
+    },
+    {
+      "id": "api:property.getValue",
+      "type": "API",
+      "name": "property.getValue"
+    },
+    {
+      "id": "api:java.util.Properties.setProperty",
+      "type": "API",
+      "name": "java.util.Properties.setProperty"
+    },
+    {
+      "id": "api:java.util.Properties.putAll",
+      "type": "API",
+      "name": "java.util.Properties.putAll"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getProperties",
+      "type": "FUNCTION",
+      "name": "getProperties"
+    },
+    {
+      "id": "api:java.lang.System.getProperties",
+      "type": "API",
+      "name": "java.lang.System.getProperties"
+    },
+    {
+      "id": "api:java.util.Properties.stringPropertyNames",
+      "type": "API",
+      "name": "java.util.Properties.stringPropertyNames"
+    },
+    {
+      "id": "api:org.apache.commons.lang3.text.StrSubstitutor.replace",
+      "type": "API",
+      "name": "org.apache.commons.lang3.text.StrSubstitutor.replace"
+    },
+    {
+      "id": "dependency:org.apache.commons:commons-lang3",
+      "type": "DEPENDENCY",
+      "name": "org.apache.commons:commons-lang3"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.head",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.head"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.title",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.title"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.text",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.text"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.title_",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.title_"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.head_",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.head_"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.body",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.body"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.lineBreak",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.lineBreak"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::relativize",
+      "type": "FUNCTION",
+      "name": "relativize"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.rawText",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.rawText"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.link",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.link"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.body_",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.body_"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.flush",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.flush"
+    },
+    {
+      "id": "api:org.apache.maven.doxia.sink.Sink.close",
+      "type": "API",
+      "name": "org.apache.maven.doxia.sink.Sink.close"
+    },
+    {
+      "id": "api:project.getTestClasspathElements",
+      "type": "API",
+      "name": "project.getTestClasspathElements"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toUri",
+      "type": "FUNCTION",
+      "name": "toUri"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toURL",
+      "type": "FUNCTION",
+      "name": "toURL"
+    },
+    {
+      "id": "api:java.util.List.toArray",
+      "type": "API",
+      "name": "java.util.List.toArray"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::canGenerateReport",
+      "type": "FUNCTION",
+      "name": "canGenerateReport"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isAggregate",
+      "type": "FUNCTION",
+      "name": "isAggregate"
+    },
+    {
+      "id": "api:project.isExecutionRoot",
+      "type": "API",
+      "name": "project.isExecutionRoot"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isDirectoryExists",
+      "type": "FUNCTION",
+      "name": "isDirectoryExists"
+    },
+    {
+      "id": "api:java.nio.file.Files.isDirectory",
+      "type": "API",
+      "name": "java.nio.file.Files.isDirectory"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/AllureInstallMojo.java"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "type": "FUNCTION",
+      "name": "execute"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::error",
+      "type": "FUNCTION",
+      "name": "error"
+    },
+    {
+      "id": "file:src/main/java/io/qameta/allure/maven/ProxyUtils.java",
+      "type": "FILE",
+      "name": "src/main/java/io/qameta/allure/maven/ProxyUtils.java"
+    },
+    {
+      "id": "api:org.apache.maven.execution.MavenSession.getSettings",
+      "type": "API",
+      "name": "org.apache.maven.execution.MavenSession.getSettings"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxies",
+      "type": "FUNCTION",
+      "name": "getProxies"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::isEmpty",
+      "type": "FUNCTION",
+      "name": "isEmpty"
+    },
+    {
+      "id": "api:org.slf4j.Logger.info",
+      "type": "API",
+      "name": "org.slf4j.Logger.info"
+    },
+    {
+      "id": "dependency:org.slf4j:slf4j-api",
+      "type": "DEPENDENCY",
+      "name": "org.slf4j:slf4j-api"
+    },
+    {
+      "id": "api:proxy.isActive",
+      "type": "API",
+      "name": "proxy.isActive"
+    },
+    {
+      "id": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::decryptProxy",
+      "type": "FUNCTION",
+      "name": "decryptProxy"
+    },
+    {
+      "id": "api:org.apache.maven.settings.crypto.SettingsDecrypter.decrypt",
+      "type": "API",
+      "name": "org.apache.maven.settings.crypto.SettingsDecrypter.decrypt"
+    },
+    {
+      "id": "api:org.apache.maven.settings.crypto.SettingsDecryptionResult.getProxy",
+      "type": "API",
+      "name": "org.apache.maven.settings.crypto.SettingsDecryptionResult.getProxy"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:.mvn/wrapper/MavenWrapperDownloader.java",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:System.out.println",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:System.out.println",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:File.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:File.getAbsolutePath",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:File.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:File.exists",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.util.Properties.load",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.load",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.util.Properties.getProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.getProperty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:FileInputStream.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:FileInputStream.close",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:File.getParentFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:File.getParentFile",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::mkdirs",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.lang.System.exit",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.exit",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:e.printStackTrace",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:.mvn/wrapper/MavenWrapperDownloader.java",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:java.lang.System.getenv",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.getenv",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::toCharArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:Authenticator.setDefault",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Authenticator.setDefault",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:Channels.newChannel",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Channels.newChannel",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:URL.openStream",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:URL.openStream",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:FileOutputStream.getChannel",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:FileOutputStream.getChannel",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::transferFrom",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:FileOutputStream.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:FileOutputStream.close",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:ReadableByteChannel.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ReadableByteChannel.close",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/qameta/allure/maven/TestHelper.java",
+      "target": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "api:java.nio.file.Path.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Path.resolve",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "api:org.junit.Assert.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Assert.assertThat",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "api:ru.yandex.qatools.matchers.nio.PathMatchers.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ru.yandex.qatools.matchers.nio.PathMatchers.exists",
+      "target": "dependency:ru.yandex.qatools.matchers:nio-matchers",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "api:ru.yandex.qatools.matchers.nio.PathMatchers.isDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ru.yandex.qatools.matchers.nio.PathMatchers.isDirectory",
+      "target": "dependency:ru.yandex.qatools.matchers:nio-matchers",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::checkReportDirectory",
+      "target": "api:org.hamcrest.Matchers.hasSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.hamcrest.Matchers.hasSize",
+      "target": "dependency:org.hamcrest:hamcrest",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/qameta/allure/maven/TestHelper.java",
+      "target": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Arrays.asList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Path.toFile",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::getTestCases",
+      "target": "function:src/test/java/io/qameta/allure/maven/TestHelper.java::list",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::checkAllureExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "api:org.apache.commons.io.FileUtils.deleteQuietly",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.FileUtils.deleteQuietly",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "api:org.apache.commons.exec.CommandLine.addArgument",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.exec.CommandLine.addArgument",
+      "target": "dependency:org.apache.commons:commons-exec",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "api:resultsPath.toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:resultsPath.toAbsolutePath",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "api:java.nio.file.Path.toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Path.toAbsolutePath",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::checkAllureExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:org.apache.commons.io.FileUtils.deleteQuietly",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:org.apache.commons.exec.CommandLine.addArgument",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:java.lang.String.matches",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.matches",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:java.util.Objects.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Objects.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "api:resultsPath.toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::checkAllureExists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::checkAllureExists",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "target": "api:TimeUnit.SECONDS.toMillis",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:TimeUnit.SECONDS.toMillis",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "target": "api:org.apache.commons.exec.DefaultExecutor.setWatchdog",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.exec.DefaultExecutor.setWatchdog",
+      "target": "dependency:org.apache.commons:commons-exec",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "target": "api:org.apache.commons.exec.DefaultExecutor.setExitValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.exec.DefaultExecutor.setExitValue",
+      "target": "dependency:org.apache.commons:commons-exec",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::execute",
+      "target": "api:org.apache.commons.exec.DefaultExecutor.execute",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.exec.DefaultExecutor.execute",
+      "target": "dependency:org.apache.commons:commons-exec",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureHome",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureHome",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureHome",
+      "target": "api:java.nio.file.Path.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureHome",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.format",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "target": "api:java.nio.file.Files.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.exists",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "target": "api:java.nio.file.Files.isExecutable",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.isExecutable",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.execution.MavenSession.getProjectBuildingRequest",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.execution.MavenSession.getProjectBuildingRequest",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.project.ProjectBuildingRequest.setResolveDependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.ProjectBuildingRequest.setResolveDependencies",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.model.Dependency.setGroupId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.setGroupId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.model.Dependency.setArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.setArtifactId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.model.Dependency.setVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.setVersion",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.model.Dependency.setType",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.setType",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver.resolveDependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.shared.transfer.dependencies.resolve.DependencyResolver.resolveDependencies",
+      "target": "dependency:org.apache.maven.shared:maven-artifact-transfer",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::iterator",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:java.util.Collections.singletonList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Collections.singletonList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:java.util.Iterator.hasNext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Iterator.hasNext",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "api:java.util.Iterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Iterator.next",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.nio.file.Files.createTempFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.createTempFile",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:org.apache.maven.settings.Proxy.getHost",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.Proxy.getHost",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:org.apache.maven.settings.Proxy.getPort",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.Proxy.getPort",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:org.apache.maven.settings.Proxy.getUsername",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.Proxy.getUsername",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:org.apache.maven.settings.Proxy.getPassword",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.Proxy.getPassword",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.net.Authenticator.setDefault",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.Authenticator.setDefault",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.net.URL.openConnection",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.openConnection",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getInputStream",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.nio.file.Files.copy",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.copy",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:org.apache.commons.io.FileUtils.copyURLToFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.FileUtils.copyURLToFile",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getPasswordAuthentication",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getPasswordAuthentication",
+      "target": "api:proxyPassword.toCharArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:proxyPassword.toCharArray",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "api:net.lingala.zip4j.core.ZipFile.extractAll",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:net.lingala.zip4j.core.ZipFile.extractAll",
+      "target": "dependency:net.lingala.zip4j:zip4j",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getInstallationDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getAllureExecutablePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "api:java.nio.file.Files.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::unpack",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::setExecutable",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureCommandline.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "target": "api:java.lang.System.getProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.getProperty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::toLowerCase",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::isWindows",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureServeMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::isDirectoryExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "api:java.util.Collections.singletonList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectories",
+      "target": "api:java.util.Collections.emptyList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Collections.emptyList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureServeMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Paths.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "target": "api:java.nio.file.Path.isAbsolute",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Path.isAbsolute",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInputDirectoryAbsolutePath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureServeMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getReportDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getInstallDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::serve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureServeMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureReportMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::isDirectoryExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "api:java.util.Collections.singletonList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectories",
+      "target": "api:java.util.Collections.emptyList",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureReportMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "target": "api:java.nio.file.Path.isAbsolute",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::getInputDirectoryAbsolutePath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureReportMojo.java::resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureBaseMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBaseMojo.java::getOutputName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBaseMojo.java::getOutputName",
+      "target": "api:org.apache.maven.plugin.descriptor.PluginDescriptor.getArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.descriptor.PluginDescriptor.getArtifactId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/DownloadUtils.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::getAllureDownloadUrl",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::getAllureDownloadUrl",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/DownloadUtils.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "target": "api:java.lang.String.split",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.split",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "target": "api:java.lang.Integer.valueOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Integer.valueOf",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::compareTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::versionCompare",
+      "target": "api:java.lang.Integer.signum",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Integer.signum",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "api:java.lang.String.split",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::isDirectoryExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureBulkMojo.java::warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:java.nio.file.Path.isAbsolute",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:java.util.Collections.emptyList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:child.getBuild",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:child.getBuild",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:java.nio.file.Path.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::toAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::isDirectoryExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AlureAggregateMojo.java::getInputDirectories",
+      "target": "api:child.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:child.getName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getOutputDirectory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getOutputDirectory",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getReportDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getMojoName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getReportDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getInputDirectories",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "api:java.util.List.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.isEmpty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getSink",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::executeReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::addPropertyIfAbsent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getProject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "api:dir.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:dir.resolve",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValue",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::copyExecutorInfo",
+      "target": "api:java.nio.file.Path.toFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::addPropertyIfAbsent",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::addPropertyIfAbsent",
+      "target": "api:java.util.Map.containsKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.containsKey",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::addPropertyIfAbsent",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.put",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getResource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "api:java.net.URL.toURI",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.toURI",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "api:java.nio.file.Files.copy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadCategories",
+      "target": "api:dir.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "api:java.nio.file.Files.newOutputStream",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.newOutputStream",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "api:dir.resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "api:java.util.Properties.store",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.store",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::loadProperties",
+      "target": "api:dir.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:dir.toString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::getAllureDownloadUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::installAllure",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getReportDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getInstallDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::generateReport",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::generateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "target": "api:java.nio.file.Files.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "target": "api:java.nio.file.Files.newInputStream",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.newInputStream",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFile",
+      "target": "api:java.util.Properties.load",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getResourceAsStream",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFileFromClasspath",
+      "target": "api:java.util.Properties.load",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::entrySet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "target": "api:property.getKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:property.getKey",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "target": "api:property.getValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:property.getValue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::readPropertiesFromMap",
+      "target": "api:java.util.Properties.setProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.setProperty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:java.util.Properties.putAll",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.putAll",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getProject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:java.lang.System.getProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.getProperties",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:java.util.Properties.stringPropertyNames",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.stringPropertyNames",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:java.util.Properties.setProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:org.apache.commons.lang3.text.StrSubstitutor.replace",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang3.text.StrSubstitutor.replace",
+      "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::prepareProperties",
+      "target": "api:java.util.Properties.getProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.head",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.head",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.title",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.title",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.text",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.text",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.title_",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.title_",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.head_",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.head_",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.body",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.body",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.lineBreak",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.lineBreak",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::getReportDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::relativize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.rawText",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.rawText",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.link",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.link",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.body_",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.body_",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.flush",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.flush",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::render",
+      "target": "api:org.apache.maven.doxia.sink.Sink.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.doxia.sink.Sink.close",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "api:project.getTestClasspathElements",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:project.getTestClasspathElements",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toUri",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::toURL",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::createProjectClassLoader",
+      "target": "api:java.util.List.toArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.toArray",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::canGenerateReport",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::canGenerateReport",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isAggregate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::canGenerateReport",
+      "target": "api:project.isExecutionRoot",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:project.isExecutionRoot",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isDirectoryExists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isDirectoryExists",
+      "target": "api:java.nio.file.Files.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureGenerateMojo.java::isDirectoryExists",
+      "target": "api:java.nio.file.Files.isDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.nio.file.Files.isDirectory",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::allureNotExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/DownloadUtils.java::getAllureDownloadUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::downloadWithMaven",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureCommandline.java::download",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::execute",
+      "target": "function:src/main/java/io/qameta/allure/maven/AllureInstallMojo.java::error",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/ProxyUtils.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:org.apache.maven.execution.MavenSession.getSettings",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.execution.MavenSession.getSettings",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxies",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:org.slf4j.Logger.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.slf4j.Logger.info",
+      "target": "dependency:org.slf4j:slf4j-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:proxy.isActive",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:proxy.isActive",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::decryptProxy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:org.apache.maven.settings.Proxy.getHost",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:org.apache.maven.settings.Proxy.getPort",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::getProxy",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/qameta/allure/maven/ProxyUtils.java",
+      "target": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::decryptProxy",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::decryptProxy",
+      "target": "api:org.apache.maven.settings.crypto.SettingsDecrypter.decrypt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.crypto.SettingsDecrypter.decrypt",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/qameta/allure/maven/ProxyUtils.java::decryptProxy",
+      "target": "api:org.apache.maven.settings.crypto.SettingsDecryptionResult.getProxy",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.settings.crypto.SettingsDecryptionResult.getProxy",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    }
+  ],
+  "build_metadata": {
+    "checkout_mode": "breaking~1",
+    "checkout_commit": "57e24141d4e23a9b1ada3f1957a85944ae3227f2",
+    "java_files": 13,
+    "parse_failed_files": 0,
+    "parse_failed_examples": []
+  }
+}
