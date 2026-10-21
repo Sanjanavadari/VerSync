@@ -48,6 +48,14 @@ from extract_call_graph import find_java_files
 GIT_TIMEOUT = 180  # seconds
 BUILD_TIMEOUT = 900  # seconds per repository for parsing + DIG construction
 
+# Repositories that moved since the dataset was mined. Each entry was verified
+# to contain the sample's BUMP breaking commit. Applied here (not in person1/)
+# so Person 1's dataset stays untouched.
+REPO_URL_OVERRIDES = {
+    # 249c3b39 "Bump snakeyaml from 1.17 to 1.31 in /polyglot-yaml"
+    "https://github.com/sonatype-nexus-community/polyglot-maven.git": "https://github.com/takari/polyglot-maven.git",
+}
+
 REPORT_FIELDS = [
     "project", "source_json", "classification", "status", "stage", "reason",
     "checkout_mode", "checkout_commit", "java_files", "parse_failed_files",
@@ -112,7 +120,7 @@ def load_dataset_with_commits(
         entry = {
             **r,
             "stem": stem,
-            "clean_repo_url": clean_repo_url(r["repo_url"]),
+            "clean_repo_url": REPO_URL_OVERRIDES.get(clean_repo_url(r["repo_url"]), clean_repo_url(r["repo_url"])),
             "pr_number": pr_number(r["repo_url"]),
             "parent_commit": parent_commit,
             "breaking_commit": breaking_commit,
