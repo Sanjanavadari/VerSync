@@ -1,0 +1,16 @@
+# eval-system: baseline + model training / evaluation
+# Install with:  pip install -r eval-system/requirements.txt
+-r ../graph-model/requirements.txt   # javalang (DIG building via batch_build_digs.py)
+
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3          # train_baseline.py, train_models.py
+xgboost>=2.0               # train_models.py (XGBoost arms)
+matplotlib>=3.7            # results/feature_importance.png
+
+# Optional
+shap>=0.44                 # OOF SHAP importance (skipped if not installed)
+torch>=2.1                 # GNN arm (skip with train_models.py --no-gnn)
+
+# Versions used to produce results/: javalang 0.13.0, numpy 2.5.4, scipy 1.18.1,
+# scikit-learn 1.9.1, xgboost 3.4.1, matplotlib 3.11.2, shap 0.54.1, torch 2.14.1 (Python 3.13, macOS arm64)
