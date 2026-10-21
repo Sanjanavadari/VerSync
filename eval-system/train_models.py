@@ -66,7 +66,7 @@ from train_baseline import (
     format_row,
     load_and_featurize_dataset,
 )
-from graph_features import STRUCTURAL_COLS, extract_structural_features
+from graph_features import DEP_STRUCT_COLS, REPO_CONTEXT_COLS, STRUCTURAL_COLS, extract_structural_features
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(HERE, ".."))
@@ -199,6 +199,8 @@ def load_all_features(dataset: str, dig_dir: Optional[str]) -> Dict[str, Any]:
             "SemVer": mat(feat_dicts, SEMVER_COLS),
             "Graph": mat(feat_dicts, GRAPH_COLS),
             "Struct": mat(struct_dicts, STRUCTURAL_COLS),
+            "DepStruct": mat(struct_dicts, DEP_STRUCT_COLS),
+            "RepoCtx": mat(struct_dicts, REPO_CONTEXT_COLS),
         },
     }
 
@@ -207,13 +209,17 @@ FEATURE_SETS = {
     "SemVer": ["SemVer"],
     "Graph": ["Graph"],
     "Struct": ["Struct"],
+    "DepStruct": ["DepStruct"],
+    "RepoCtx": ["RepoCtx"],
     "SemVer+Graph": ["SemVer", "Graph"],
+    "SemVer+Graph+DepStruct": ["SemVer", "Graph", "DepStruct"],
     "SemVer+Graph+Struct": ["SemVer", "Graph", "Struct"],
 }
 
 
 def feature_names(fs: str) -> List[str]:
-    cols = {"SemVer": SEMVER_COLS, "Graph": GRAPH_COLS, "Struct": STRUCTURAL_COLS}
+    cols = {"SemVer": SEMVER_COLS, "Graph": GRAPH_COLS, "Struct": STRUCTURAL_COLS,
+            "DepStruct": DEP_STRUCT_COLS, "RepoCtx": REPO_CONTEXT_COLS}
     return [c for block in FEATURE_SETS[fs] for c in cols[block]]
 
 
@@ -386,6 +392,9 @@ def run(args: argparse.Namespace) -> None:
         ("LR", "SemVer"), ("LR", "Graph"), ("LR", "SemVer+Graph"), ("LR", "SemVer+Graph+Struct"),
         ("RF", "SemVer"), ("RF", "SemVer+Graph"), ("RF", "Struct"), ("RF", "SemVer+Graph+Struct"),
         ("XGB", "SemVer"), ("XGB", "SemVer+Graph"), ("XGB", "Struct"), ("XGB", "SemVer+Graph+Struct"),
+        # Confound controls: dependency-specific structure vs repo-level context only
+        ("RF", "SemVer+Graph+DepStruct"), ("XGB", "SemVer+Graph+DepStruct"),
+        ("RF", "RepoCtx"), ("XGB", "RepoCtx"),
     ]
     for kind, fs in arms:
         X = feature_matrix(data, fs, sub_idx)
@@ -394,7 +403,8 @@ def run(args: argparse.Namespace) -> None:
             folds = None
         else:
             p, folds = cv_oof_probs(kind, X, y_sub, g_sub)
-        name = f"{kind} {fs} ({tag})" if len(f"{kind} {fs} ({tag})") <= 30 else f"{kind} {fs}"
+        short = fs.replace("SemVer+Graph+", "SV+G+")
+        name = f"{kind} {short} ({tag})" if len(f"{kind} {short} ({tag})") <= 30 else f"{kind} {short}"
         record(name, kind, fs, sub_idx, p, kind != "LR")
         if folds is not None:
             fold_store[name] = (folds, X, kind, fs)

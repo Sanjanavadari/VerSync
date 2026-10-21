@@ -64,6 +64,19 @@ STRUCTURAL_COLS = [
     "unknown_api_share",
 ]
 
+# Repo-level context that does not depend on which dependency is updated. Kept
+# separate so we can check whether a model is learning "which repo is this"
+# (a confound: SAFE and BREAKING samples come from different mining sources)
+# rather than how the updated dependency is used.
+REPO_CONTEXT_COLS = [
+    "graph_nodes_log",
+    "graph_files_log",
+    "graph_density_log10",
+    "declared_deps",
+    "unknown_api_share",
+]
+DEP_STRUCT_COLS = [c for c in STRUCTURAL_COLS if c not in REPO_CONTEXT_COLS]
+
 _NON_LIBRARY_DEPS = {"dependency:jdk", "dependency:unknown"}
 _TEST_DIR_RE = re.compile(r"(^|/)(src/test|test|tests|it|src/it)(/|$)")
 
