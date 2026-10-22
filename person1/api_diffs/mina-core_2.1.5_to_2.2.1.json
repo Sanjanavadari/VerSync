@@ -1,0 +1,336 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.mina.filter.codec.AbstractProtocolDecoderOutput#getMessageQueue()",
+      "signature": "java.util.Queue<java.lang.Object> getMessageQueue()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput#getMessageQueue()",
+      "signature": "java.util.Queue<java.lang.Object> getMessageQueue()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.AbstractProtocolEncoderOutput#mergeAll()",
+      "signature": "void mergeAll()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.ProtocolCodecFilter$ProtocolDecoderOutputImpl#flush(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)",
+      "signature": "void flush(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.ProtocolCodecFilter$ProtocolEncoderOutputImpl#flush()",
+      "signature": "org.apache.mina.core.future.WriteFuture flush()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.ProtocolEncoderOutput#flush()",
+      "signature": "abstract org.apache.mina.core.future.WriteFuture flush()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.ProtocolEncoderOutput#mergeAll()",
+      "signature": "abstract void mergeAll()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#exceptionCaught(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession, java.lang.Throwable)",
+      "signature": "void exceptionCaught(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession, java.lang.Throwable)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#filterClose(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)",
+      "signature": "void filterClose(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#getSslSession(org.apache.mina.core.session.IoSession)",
+      "signature": "javax.net.ssl.SSLSession getSslSession(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#initiateHandshake(org.apache.mina.core.session.IoSession)",
+      "signature": "void initiateHandshake(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#isSecured(org.apache.mina.core.session.IoSession)",
+      "signature": "boolean isSecured(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#isSslStarted(org.apache.mina.core.session.IoSession)",
+      "signature": "boolean isSslStarted(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#isUseClientMode()",
+      "signature": "boolean isUseClientMode()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#setUseClientMode(boolean)",
+      "signature": "void setUseClientMode(boolean)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#startSsl(org.apache.mina.core.session.IoSession)",
+      "signature": "boolean startSsl(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#stopSsl(org.apache.mina.core.session.IoSession)",
+      "signature": "org.apache.mina.core.future.WriteFuture stopSsl(org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter$EncryptedWriteRequest#getFuture()",
+      "signature": "org.apache.mina.core.future.WriteFuture getFuture()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter$EncryptedWriteRequest#getMessage()",
+      "signature": "java.lang.Object getMessage()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter$EncryptedWriteRequest#getParentRequest()",
+      "signature": "org.apache.mina.core.write.WriteRequest getParentRequest()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter$SslFilterMessage#toString()",
+      "signature": "java.lang.String toString()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.apache.mina.core.future.CloseFuture#addListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture addListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.CloseFuture#removeListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture removeListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.ConnectFuture#addListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture addListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.ConnectFuture#removeListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture removeListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.ReadFuture#addListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture addListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.ReadFuture#removeListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture removeListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.WriteFuture#addListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture addListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.future.WriteFuture#removeListener(org.apache.mina.core.future.IoFutureListener)",
+      "signature": "default org.apache.mina.core.future.IoFuture removeListener(org.apache.mina.core.future.IoFutureListener)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#getThroughputCalculationInterval()",
+      "signature": "int getThroughputCalculationInterval()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#getThroughputCalculationIntervalInMillis()",
+      "signature": "long getThroughputCalculationIntervalInMillis()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isLastReadTimeCalcEnabled()",
+      "signature": "boolean isLastReadTimeCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isLastWriteTimeCalcEnabled()",
+      "signature": "boolean isLastWriteTimeCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isReadBytesCalcEnabled()",
+      "signature": "boolean isReadBytesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isReadMessagesCalcEnabled()",
+      "signature": "boolean isReadMessagesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isScheduledWriteBytesCalcEnabled()",
+      "signature": "boolean isScheduledWriteBytesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isScheduledWriteMessagesCalcEnabled()",
+      "signature": "boolean isScheduledWriteMessagesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isStatisticsCalcEnabled()",
+      "signature": "boolean isStatisticsCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isWrittenBytesCalcEnabled()",
+      "signature": "boolean isWrittenBytesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#isWrittenMessagesCalcEnabled()",
+      "signature": "boolean isWrittenMessagesCalcEnabled()"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setLastReadTimeCalcEnabled(boolean)",
+      "signature": "void setLastReadTimeCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setLastWriteTimeCalcEnabled(boolean)",
+      "signature": "void setLastWriteTimeCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setReadBytesCalcEnabled(boolean)",
+      "signature": "void setReadBytesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setReadMessagesCalcEnabled(boolean)",
+      "signature": "void setReadMessagesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setScheduledWriteBytesCalcEnabled(boolean)",
+      "signature": "void setScheduledWriteBytesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setScheduledWriteMessagesCalcEnabled(boolean)",
+      "signature": "void setScheduledWriteMessagesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setStatisticsCalcEnabled(boolean)",
+      "signature": "void setStatisticsCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setThroughputCalculationInterval(int)",
+      "signature": "void setThroughputCalculationInterval(int)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setWrittenBytesCalcEnabled(boolean)",
+      "signature": "void setWrittenBytesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.service.IoServiceStatistics$Config#setWrittenMessagesCalcEnabled(boolean)",
+      "signature": "void setWrittenMessagesCalcEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.mina.core.session.AbstractIoSession#isServer()",
+      "signature": "boolean isServer()"
+    },
+    {
+      "key": "org.apache.mina.core.session.IoSession#isServer()",
+      "signature": "abstract boolean isServer()"
+    },
+    {
+      "key": "org.apache.mina.filter.codec.AbstractProtocolDecoderOutput#flush(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)",
+      "signature": "void flush(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.EncryptedWriteRequest#getOriginalRequest()",
+      "signature": "org.apache.mina.core.write.WriteRequest getOriginalRequest()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#ack(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)",
+      "signature": "void ack(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#close(org.apache.mina.core.filterchain.IoFilter$NextFilter, boolean)",
+      "signature": "void close(org.apache.mina.core.filterchain.IoFilter$NextFilter, boolean)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#flush(org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+      "signature": "void flush(org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#isConnected()",
+      "signature": "boolean isConnected()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#isOpen()",
+      "signature": "boolean isOpen()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#open(org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+      "signature": "void open(org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#receive(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.buffer.IoBuffer)",
+      "signature": "void receive(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.buffer.IoBuffer)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SSLHandlerG0#write(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)",
+      "signature": "void write(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslFilter#sessionOpened(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)",
+      "signature": "void sessionOpened(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.session.IoSession)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#ack(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)",
+      "signature": "abstract void ack(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#close(org.apache.mina.core.filterchain.IoFilter$NextFilter, boolean)",
+      "signature": "abstract void close(org.apache.mina.core.filterchain.IoFilter$NextFilter, boolean)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#isConnected()",
+      "signature": "abstract boolean isConnected()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#isOpen()",
+      "signature": "abstract boolean isOpen()"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#open(org.apache.mina.core.filterchain.IoFilter$NextFilter)",
+      "signature": "abstract void open(org.apache.mina.core.filterchain.IoFilter$NextFilter)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#receive(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.buffer.IoBuffer)",
+      "signature": "abstract void receive(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.buffer.IoBuffer)"
+    },
+    {
+      "key": "org.apache.mina.filter.ssl.SslHandler#write(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)",
+      "signature": "abstract void write(org.apache.mina.core.filterchain.IoFilter$NextFilter, org.apache.mina.core.write.WriteRequest)"
+    },
+    {
+      "key": "org.apache.mina.util.BasicThreadFactory#newThread(java.lang.Runnable)",
+      "signature": "java.lang.Thread newThread(java.lang.Runnable)"
+    },
+    {
+      "key": "org.apache.mina.util.StackInspector#callee()",
+      "signature": "java.lang.StackTraceElement callee()"
+    },
+    {
+      "key": "org.apache.mina.util.StackInspector#get()",
+      "signature": "org.apache.mina.util.StackInspector get()"
+    },
+    {
+      "key": "org.apache.mina.util.StackInspector#get(java.lang.String)",
+      "signature": "org.apache.mina.util.StackInspector get(java.lang.String)"
+    },
+    {
+      "key": "org.apache.mina.util.StackInspector#get(java.lang.Throwable)",
+      "signature": "org.apache.mina.util.StackInspector get(java.lang.Throwable)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.apache.mina.filter.ssl.SslFilter#setEnabledCipherSuites",
+      "old": "void setEnabledCipherSuites(java.lang.String[])",
+      "new": "void setEnabledCipherSuites(java.lang.String...)",
+      "old_key": "org.apache.mina.filter.ssl.SslFilter#setEnabledCipherSuites(java.lang.String[])",
+      "new_key": "org.apache.mina.filter.ssl.SslFilter#setEnabledCipherSuites(java.lang.String...)"
+    },
+    {
+      "name": "org.apache.mina.filter.ssl.SslFilter#setEnabledProtocols",
+      "old": "void setEnabledProtocols(java.lang.String[])",
+      "new": "void setEnabledProtocols(java.lang.String...)",
+      "old_key": "org.apache.mina.filter.ssl.SslFilter#setEnabledProtocols(java.lang.String[])",
+      "new_key": "org.apache.mina.filter.ssl.SslFilter#setEnabledProtocols(java.lang.String...)"
+    }
+  ],
+  "counts": {
+    "old_methods": 2753,
+    "new_methods": 2786,
+    "removed": 21,
+    "added": 54,
+    "changed": 2
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.mina_mina-core_2.1.5.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.mina_mina-core_2.2.1.jar",
+  "group_id": "org.apache.mina",
+  "artifact_id": "mina-core",
+  "old_version": "2.1.5",
+  "new_version": "2.2.1",
+  "project": "quickfixj"
+}

@@ -1,0 +1,2549 @@
+{
+  "removed": [
+    {
+      "key": "javax.validation.BootstrapConfiguration#getClockProviderClassName()",
+      "signature": "abstract java.lang.String getClockProviderClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getConstraintMappingResourcePaths()",
+      "signature": "abstract java.util.Set<java.lang.String> getConstraintMappingResourcePaths()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getConstraintValidatorFactoryClassName()",
+      "signature": "abstract java.lang.String getConstraintValidatorFactoryClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getDefaultProviderClassName()",
+      "signature": "abstract java.lang.String getDefaultProviderClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getDefaultValidatedExecutableTypes()",
+      "signature": "abstract java.util.Set<javax.validation.executable.ExecutableType> getDefaultValidatedExecutableTypes()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getMessageInterpolatorClassName()",
+      "signature": "abstract java.lang.String getMessageInterpolatorClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getParameterNameProviderClassName()",
+      "signature": "abstract java.lang.String getParameterNameProviderClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getProperties()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getProperties()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getTraversableResolverClassName()",
+      "signature": "abstract java.lang.String getTraversableResolverClassName()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#getValueExtractorClassNames()",
+      "signature": "abstract java.util.Set<java.lang.String> getValueExtractorClassNames()"
+    },
+    {
+      "key": "javax.validation.BootstrapConfiguration#isExecutableValidationEnabled()",
+      "signature": "abstract boolean isExecutableValidationEnabled()"
+    },
+    {
+      "key": "javax.validation.ClockProvider#getClock()",
+      "signature": "abstract java.time.Clock getClock()"
+    },
+    {
+      "key": "javax.validation.Configuration#addMapping(java.io.InputStream)",
+      "signature": "abstract T addMapping(java.io.InputStream)"
+    },
+    {
+      "key": "javax.validation.Configuration#addProperty(java.lang.String, java.lang.String)",
+      "signature": "abstract T addProperty(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "javax.validation.Configuration#addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)",
+      "signature": "abstract T addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)"
+    },
+    {
+      "key": "javax.validation.Configuration#buildValidatorFactory()",
+      "signature": "abstract javax.validation.ValidatorFactory buildValidatorFactory()"
+    },
+    {
+      "key": "javax.validation.Configuration#clockProvider(javax.validation.ClockProvider)",
+      "signature": "abstract T clockProvider(javax.validation.ClockProvider)"
+    },
+    {
+      "key": "javax.validation.Configuration#constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "signature": "abstract T constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "javax.validation.Configuration#getBootstrapConfiguration()",
+      "signature": "abstract javax.validation.BootstrapConfiguration getBootstrapConfiguration()"
+    },
+    {
+      "key": "javax.validation.Configuration#getDefaultClockProvider()",
+      "signature": "abstract javax.validation.ClockProvider getDefaultClockProvider()"
+    },
+    {
+      "key": "javax.validation.Configuration#getDefaultConstraintValidatorFactory()",
+      "signature": "abstract javax.validation.ConstraintValidatorFactory getDefaultConstraintValidatorFactory()"
+    },
+    {
+      "key": "javax.validation.Configuration#getDefaultMessageInterpolator()",
+      "signature": "abstract javax.validation.MessageInterpolator getDefaultMessageInterpolator()"
+    },
+    {
+      "key": "javax.validation.Configuration#getDefaultParameterNameProvider()",
+      "signature": "abstract javax.validation.ParameterNameProvider getDefaultParameterNameProvider()"
+    },
+    {
+      "key": "javax.validation.Configuration#getDefaultTraversableResolver()",
+      "signature": "abstract javax.validation.TraversableResolver getDefaultTraversableResolver()"
+    },
+    {
+      "key": "javax.validation.Configuration#ignoreXmlConfiguration()",
+      "signature": "abstract T ignoreXmlConfiguration()"
+    },
+    {
+      "key": "javax.validation.Configuration#messageInterpolator(javax.validation.MessageInterpolator)",
+      "signature": "abstract T messageInterpolator(javax.validation.MessageInterpolator)"
+    },
+    {
+      "key": "javax.validation.Configuration#parameterNameProvider(javax.validation.ParameterNameProvider)",
+      "signature": "abstract T parameterNameProvider(javax.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "javax.validation.Configuration#traversableResolver(javax.validation.TraversableResolver)",
+      "signature": "abstract T traversableResolver(javax.validation.TraversableResolver)"
+    },
+    {
+      "key": "javax.validation.Constraint#validatedBy()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.ConstraintValidator<?, ?>>[] validatedBy()"
+    },
+    {
+      "key": "javax.validation.ConstraintTarget#valueOf(java.lang.String)",
+      "signature": "javax.validation.ConstraintTarget valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.ConstraintTarget#values()",
+      "signature": "javax.validation.ConstraintTarget[] values()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidator#initialize(A)",
+      "signature": "default void initialize(A)"
+    },
+    {
+      "key": "javax.validation.ConstraintValidator#isValid(T, javax.validation.ConstraintValidatorContext)",
+      "signature": "abstract boolean isValid(T, javax.validation.ConstraintValidatorContext)"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext#disableDefaultConstraintViolation()",
+      "signature": "abstract void disableDefaultConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext#getClockProvider()",
+      "signature": "abstract javax.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext#getDefaultConstraintMessageTemplate()",
+      "signature": "abstract java.lang.String getDefaultConstraintMessageTemplate()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract javax.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorFactory#getInstance(java.lang.Class<T>)",
+      "signature": "abstract <T extends javax.validation.ConstraintValidator<?, ?>> T getInstance(java.lang.Class<T>)"
+    },
+    {
+      "key": "javax.validation.ConstraintValidatorFactory#releaseInstance(javax.validation.ConstraintValidator<?, ?>)",
+      "signature": "abstract void releaseInstance(javax.validation.ConstraintValidator<?, ?>)"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getConstraintDescriptor()",
+      "signature": "abstract javax.validation.metadata.ConstraintDescriptor<?> getConstraintDescriptor()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getExecutableParameters()",
+      "signature": "abstract java.lang.Object[] getExecutableParameters()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getExecutableReturnValue()",
+      "signature": "abstract java.lang.Object getExecutableReturnValue()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getInvalidValue()",
+      "signature": "abstract java.lang.Object getInvalidValue()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getLeafBean()",
+      "signature": "abstract java.lang.Object getLeafBean()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getMessage()",
+      "signature": "abstract java.lang.String getMessage()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getMessageTemplate()",
+      "signature": "abstract java.lang.String getMessageTemplate()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getPropertyPath()",
+      "signature": "abstract javax.validation.Path getPropertyPath()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getRootBean()",
+      "signature": "abstract T getRootBean()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#getRootBeanClass()",
+      "signature": "abstract java.lang.Class<T> getRootBeanClass()"
+    },
+    {
+      "key": "javax.validation.ConstraintViolation#unwrap(java.lang.Class<U>)",
+      "signature": "abstract <U> U unwrap(java.lang.Class<U>)"
+    },
+    {
+      "key": "javax.validation.ConstraintViolationException#getConstraintViolations()",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<?>> getConstraintViolations()"
+    },
+    {
+      "key": "javax.validation.ElementKind#valueOf(java.lang.String)",
+      "signature": "javax.validation.ElementKind valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.ElementKind#values()",
+      "signature": "javax.validation.ElementKind[] values()"
+    },
+    {
+      "key": "javax.validation.GroupSequence#value()",
+      "signature": "abstract java.lang.Class<?>[] value()"
+    },
+    {
+      "key": "javax.validation.MessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)",
+      "signature": "abstract java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)"
+    },
+    {
+      "key": "javax.validation.MessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)",
+      "signature": "abstract java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)"
+    },
+    {
+      "key": "javax.validation.MessageInterpolator$Context#getConstraintDescriptor()",
+      "signature": "abstract javax.validation.metadata.ConstraintDescriptor<?> getConstraintDescriptor()"
+    },
+    {
+      "key": "javax.validation.MessageInterpolator$Context#getValidatedValue()",
+      "signature": "abstract java.lang.Object getValidatedValue()"
+    },
+    {
+      "key": "javax.validation.MessageInterpolator$Context#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "javax.validation.OverridesAttribute#constraint()",
+      "signature": "abstract java.lang.Class<? extends java.lang.annotation.Annotation> constraint()"
+    },
+    {
+      "key": "javax.validation.OverridesAttribute#constraintIndex()",
+      "signature": "abstract int constraintIndex()"
+    },
+    {
+      "key": "javax.validation.OverridesAttribute#name()",
+      "signature": "abstract java.lang.String name()"
+    },
+    {
+      "key": "javax.validation.OverridesAttribute$List#value()",
+      "signature": "abstract javax.validation.OverridesAttribute[] value()"
+    },
+    {
+      "key": "javax.validation.ParameterNameProvider#getParameterNames(java.lang.reflect.Constructor<?>)",
+      "signature": "abstract java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Constructor<?>)"
+    },
+    {
+      "key": "javax.validation.ParameterNameProvider#getParameterNames(java.lang.reflect.Method)",
+      "signature": "abstract java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Method)"
+    },
+    {
+      "key": "javax.validation.Path#toString()",
+      "signature": "abstract java.lang.String toString()"
+    },
+    {
+      "key": "javax.validation.Path$BeanNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "javax.validation.Path$BeanNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "javax.validation.Path$ConstructorNode#getParameterTypes()",
+      "signature": "abstract java.util.List<java.lang.Class<?>> getParameterTypes()"
+    },
+    {
+      "key": "javax.validation.Path$ContainerElementNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "javax.validation.Path$ContainerElementNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "javax.validation.Path$MethodNode#getParameterTypes()",
+      "signature": "abstract java.util.List<java.lang.Class<?>> getParameterTypes()"
+    },
+    {
+      "key": "javax.validation.Path$Node#getIndex()",
+      "signature": "abstract java.lang.Integer getIndex()"
+    },
+    {
+      "key": "javax.validation.Path$Node#getKey()",
+      "signature": "abstract java.lang.Object getKey()"
+    },
+    {
+      "key": "javax.validation.Path$Node#getKind()",
+      "signature": "abstract javax.validation.ElementKind getKind()"
+    },
+    {
+      "key": "javax.validation.Path$Node#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "javax.validation.Path$Node#isInIterable()",
+      "signature": "abstract boolean isInIterable()"
+    },
+    {
+      "key": "javax.validation.Path$Node#toString()",
+      "signature": "abstract java.lang.String toString()"
+    },
+    {
+      "key": "javax.validation.Path$ParameterNode#getParameterIndex()",
+      "signature": "abstract int getParameterIndex()"
+    },
+    {
+      "key": "javax.validation.Path$PropertyNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "javax.validation.Path$PropertyNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "javax.validation.TraversableResolver#isCascadable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "abstract boolean isCascadable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "javax.validation.TraversableResolver#isReachable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "abstract boolean isReachable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "javax.validation.Validation#buildDefaultValidatorFactory()",
+      "signature": "javax.validation.ValidatorFactory buildDefaultValidatorFactory()"
+    },
+    {
+      "key": "javax.validation.Validation#byDefaultProvider()",
+      "signature": "javax.validation.bootstrap.GenericBootstrap byDefaultProvider()"
+    },
+    {
+      "key": "javax.validation.Validation#byProvider(java.lang.Class<U>)",
+      "signature": "<T extends javax.validation.Configuration<T>, U extends javax.validation.spi.ValidationProvider<T>> javax.validation.bootstrap.ProviderSpecificBootstrap<T> byProvider(java.lang.Class<U>)"
+    },
+    {
+      "key": "javax.validation.Validation$DefaultValidationProviderResolver#getValidationProviders()",
+      "signature": "java.util.List<javax.validation.spi.ValidationProvider<?>> getValidationProviders()"
+    },
+    {
+      "key": "javax.validation.Validation$GenericBootstrapImpl#configure()",
+      "signature": "javax.validation.Configuration<?> configure()"
+    },
+    {
+      "key": "javax.validation.Validation$GenericBootstrapImpl#getDefaultValidationProviderResolver()",
+      "signature": "javax.validation.ValidationProviderResolver getDefaultValidationProviderResolver()"
+    },
+    {
+      "key": "javax.validation.Validation$GenericBootstrapImpl#getValidationProviderResolver()",
+      "signature": "javax.validation.ValidationProviderResolver getValidationProviderResolver()"
+    },
+    {
+      "key": "javax.validation.Validation$GenericBootstrapImpl#providerResolver(javax.validation.ValidationProviderResolver)",
+      "signature": "javax.validation.bootstrap.GenericBootstrap providerResolver(javax.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "javax.validation.Validation$GetValidationProviderListAction#clearCache()",
+      "signature": "void clearCache()"
+    },
+    {
+      "key": "javax.validation.Validation$GetValidationProviderListAction#getValidationProviderList()",
+      "signature": "java.util.List<javax.validation.spi.ValidationProvider<?>> getValidationProviderList()"
+    },
+    {
+      "key": "javax.validation.Validation$GetValidationProviderListAction#run()",
+      "signature": "java.lang.Object run()"
+    },
+    {
+      "key": "javax.validation.Validation$NewProviderInstance#run()",
+      "signature": "java.lang.Object run()"
+    },
+    {
+      "key": "javax.validation.Validation$ProviderSpecificBootstrapImpl#configure()",
+      "signature": "T configure()"
+    },
+    {
+      "key": "javax.validation.Validation$ProviderSpecificBootstrapImpl#providerResolver(javax.validation.ValidationProviderResolver)",
+      "signature": "javax.validation.bootstrap.ProviderSpecificBootstrap<T> providerResolver(javax.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "javax.validation.ValidationProviderResolver#getValidationProviders()",
+      "signature": "abstract java.util.List<javax.validation.spi.ValidationProvider<?>> getValidationProviders()"
+    },
+    {
+      "key": "javax.validation.Validator#forExecutables()",
+      "signature": "abstract javax.validation.executable.ExecutableValidator forExecutables()"
+    },
+    {
+      "key": "javax.validation.Validator#getConstraintsForClass(java.lang.Class<?>)",
+      "signature": "abstract javax.validation.metadata.BeanDescriptor getConstraintsForClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "javax.validation.Validator#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "javax.validation.Validator#validate(T, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validate(T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.Validator#validateProperty(T, java.lang.String, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateProperty(T, java.lang.String, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.Validator#validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)",
+      "signature": "abstract javax.validation.ValidatorContext addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#clockProvider(javax.validation.ClockProvider)",
+      "signature": "abstract javax.validation.ValidatorContext clockProvider(javax.validation.ClockProvider)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "signature": "abstract javax.validation.ValidatorContext constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#getValidator()",
+      "signature": "abstract javax.validation.Validator getValidator()"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#messageInterpolator(javax.validation.MessageInterpolator)",
+      "signature": "abstract javax.validation.ValidatorContext messageInterpolator(javax.validation.MessageInterpolator)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#parameterNameProvider(javax.validation.ParameterNameProvider)",
+      "signature": "abstract javax.validation.ValidatorContext parameterNameProvider(javax.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "javax.validation.ValidatorContext#traversableResolver(javax.validation.TraversableResolver)",
+      "signature": "abstract javax.validation.ValidatorContext traversableResolver(javax.validation.TraversableResolver)"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#close()",
+      "signature": "abstract void close()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getClockProvider()",
+      "signature": "abstract javax.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getConstraintValidatorFactory()",
+      "signature": "abstract javax.validation.ConstraintValidatorFactory getConstraintValidatorFactory()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getMessageInterpolator()",
+      "signature": "abstract javax.validation.MessageInterpolator getMessageInterpolator()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getParameterNameProvider()",
+      "signature": "abstract javax.validation.ParameterNameProvider getParameterNameProvider()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getTraversableResolver()",
+      "signature": "abstract javax.validation.TraversableResolver getTraversableResolver()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#getValidator()",
+      "signature": "abstract javax.validation.Validator getValidator()"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "javax.validation.ValidatorFactory#usingContext()",
+      "signature": "abstract javax.validation.ValidatorContext usingContext()"
+    },
+    {
+      "key": "javax.validation.bootstrap.GenericBootstrap#configure()",
+      "signature": "abstract javax.validation.Configuration<?> configure()"
+    },
+    {
+      "key": "javax.validation.bootstrap.GenericBootstrap#providerResolver(javax.validation.ValidationProviderResolver)",
+      "signature": "abstract javax.validation.bootstrap.GenericBootstrap providerResolver(javax.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "javax.validation.bootstrap.ProviderSpecificBootstrap#configure()",
+      "signature": "abstract T configure()"
+    },
+    {
+      "key": "javax.validation.bootstrap.ProviderSpecificBootstrap#providerResolver(javax.validation.ValidationProviderResolver)",
+      "signature": "abstract javax.validation.bootstrap.ProviderSpecificBootstrap<T> providerResolver(javax.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "javax.validation.constraints.AssertFalse#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertFalse#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertFalse#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertFalse$List#value()",
+      "signature": "abstract javax.validation.constraints.AssertFalse[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertTrue#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertTrue#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertTrue#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.AssertTrue$List#value()",
+      "signature": "abstract javax.validation.constraints.AssertTrue[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax#inclusive()",
+      "signature": "abstract boolean inclusive()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax#value()",
+      "signature": "abstract java.lang.String value()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMax$List#value()",
+      "signature": "abstract javax.validation.constraints.DecimalMax[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin#inclusive()",
+      "signature": "abstract boolean inclusive()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin#value()",
+      "signature": "abstract java.lang.String value()"
+    },
+    {
+      "key": "javax.validation.constraints.DecimalMin$List#value()",
+      "signature": "abstract javax.validation.constraints.DecimalMin[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits#fraction()",
+      "signature": "abstract int fraction()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits#integer()",
+      "signature": "abstract int integer()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Digits$List#value()",
+      "signature": "abstract javax.validation.constraints.Digits[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Email#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Email#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Email#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Email#regexp()",
+      "signature": "abstract java.lang.String regexp()"
+    },
+    {
+      "key": "javax.validation.constraints.Email$List#value()",
+      "signature": "abstract javax.validation.constraints.Email[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Future#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Future#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Future#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Future$List#value()",
+      "signature": "abstract javax.validation.constraints.Future[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.FutureOrPresent#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.FutureOrPresent#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.FutureOrPresent#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.FutureOrPresent$List#value()",
+      "signature": "abstract javax.validation.constraints.FutureOrPresent[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Max#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Max#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Max#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Max#value()",
+      "signature": "abstract long value()"
+    },
+    {
+      "key": "javax.validation.constraints.Max$List#value()",
+      "signature": "abstract javax.validation.constraints.Max[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Min#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Min#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Min#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Min#value()",
+      "signature": "abstract long value()"
+    },
+    {
+      "key": "javax.validation.constraints.Min$List#value()",
+      "signature": "abstract javax.validation.constraints.Min[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Negative#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Negative#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Negative#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Negative$List#value()",
+      "signature": "abstract javax.validation.constraints.Negative[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.NegativeOrZero#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.NegativeOrZero#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.NegativeOrZero#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.NegativeOrZero$List#value()",
+      "signature": "abstract javax.validation.constraints.NegativeOrZero[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.NotBlank#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.NotBlank#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.NotBlank#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.NotBlank$List#value()",
+      "signature": "abstract javax.validation.constraints.NotBlank[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.NotEmpty#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.NotEmpty#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.NotEmpty#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.NotEmpty$List#value()",
+      "signature": "abstract javax.validation.constraints.NotEmpty[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.NotNull#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.NotNull#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.NotNull#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.NotNull$List#value()",
+      "signature": "abstract javax.validation.constraints.NotNull[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Null#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Null#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Null#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Null$List#value()",
+      "signature": "abstract javax.validation.constraints.Null[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Past#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Past#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Past#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Past$List#value()",
+      "signature": "abstract javax.validation.constraints.Past[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.PastOrPresent#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.PastOrPresent#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.PastOrPresent#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.PastOrPresent$List#value()",
+      "signature": "abstract javax.validation.constraints.PastOrPresent[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern#regexp()",
+      "signature": "abstract java.lang.String regexp()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern$Flag#getValue()",
+      "signature": "int getValue()"
+    },
+    {
+      "key": "javax.validation.constraints.Pattern$List#value()",
+      "signature": "abstract javax.validation.constraints.Pattern[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Positive#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Positive#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Positive#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Positive$List#value()",
+      "signature": "abstract javax.validation.constraints.Positive[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.PositiveOrZero#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.PositiveOrZero#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.PositiveOrZero#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.PositiveOrZero$List#value()",
+      "signature": "abstract javax.validation.constraints.PositiveOrZero[] value()"
+    },
+    {
+      "key": "javax.validation.constraints.Size#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "javax.validation.constraints.Size#max()",
+      "signature": "abstract int max()"
+    },
+    {
+      "key": "javax.validation.constraints.Size#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "javax.validation.constraints.Size#min()",
+      "signature": "abstract int min()"
+    },
+    {
+      "key": "javax.validation.constraints.Size#payload()",
+      "signature": "abstract java.lang.Class<? extends javax.validation.Payload>[] payload()"
+    },
+    {
+      "key": "javax.validation.constraints.Size$List#value()",
+      "signature": "abstract javax.validation.constraints.Size[] value()"
+    },
+    {
+      "key": "javax.validation.constraintvalidation.SupportedValidationTarget#value()",
+      "signature": "abstract javax.validation.constraintvalidation.ValidationTarget[] value()"
+    },
+    {
+      "key": "javax.validation.constraintvalidation.ValidationTarget#valueOf(java.lang.String)",
+      "signature": "javax.validation.constraintvalidation.ValidationTarget valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.constraintvalidation.ValidationTarget#values()",
+      "signature": "javax.validation.constraintvalidation.ValidationTarget[] values()"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableType#valueOf(java.lang.String)",
+      "signature": "javax.validation.executable.ExecutableType valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableType#values()",
+      "signature": "javax.validation.executable.ExecutableType[] values()"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableValidator#validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableValidator#validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableValidator#validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.executable.ExecutableValidator#validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<javax.validation.ConstraintViolation<T>> validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.executable.ValidateOnExecution#type()",
+      "signature": "abstract javax.validation.executable.ExecutableType[] type()"
+    },
+    {
+      "key": "javax.validation.groups.ConvertGroup#from()",
+      "signature": "abstract java.lang.Class<?> from()"
+    },
+    {
+      "key": "javax.validation.groups.ConvertGroup#to()",
+      "signature": "abstract java.lang.Class<?> to()"
+    },
+    {
+      "key": "javax.validation.groups.ConvertGroup$List#value()",
+      "signature": "abstract javax.validation.groups.ConvertGroup[] value()"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstrainedConstructors()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ConstructorDescriptor> getConstrainedConstructors()"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstrainedMethods(javax.validation.metadata.MethodType, javax.validation.metadata.MethodType...)",
+      "signature": "abstract java.util.Set<javax.validation.metadata.MethodDescriptor> getConstrainedMethods(javax.validation.metadata.MethodType, javax.validation.metadata.MethodType...)"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstrainedProperties()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.PropertyDescriptor> getConstrainedProperties()"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstraintsForConstructor(java.lang.Class<?>...)",
+      "signature": "abstract javax.validation.metadata.ConstructorDescriptor getConstraintsForConstructor(java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstraintsForMethod(java.lang.String, java.lang.Class<?>...)",
+      "signature": "abstract javax.validation.metadata.MethodDescriptor getConstraintsForMethod(java.lang.String, java.lang.Class<?>...)"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#getConstraintsForProperty(java.lang.String)",
+      "signature": "abstract javax.validation.metadata.PropertyDescriptor getConstraintsForProperty(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.metadata.BeanDescriptor#isBeanConstrained()",
+      "signature": "abstract boolean isBeanConstrained()"
+    },
+    {
+      "key": "javax.validation.metadata.CascadableDescriptor#getGroupConversions()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.GroupConversionDescriptor> getGroupConversions()"
+    },
+    {
+      "key": "javax.validation.metadata.CascadableDescriptor#isCascaded()",
+      "signature": "abstract boolean isCascaded()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getAnnotation()",
+      "signature": "abstract T getAnnotation()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getAttributes()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.Object> getAttributes()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getComposingConstraints()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ConstraintDescriptor<?>> getComposingConstraints()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getConstraintValidatorClasses()",
+      "signature": "abstract java.util.List<java.lang.Class<? extends javax.validation.ConstraintValidator<T, ?>>> getConstraintValidatorClasses()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getGroups()",
+      "signature": "abstract java.util.Set<java.lang.Class<?>> getGroups()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getMessageTemplate()",
+      "signature": "abstract java.lang.String getMessageTemplate()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getPayload()",
+      "signature": "abstract java.util.Set<java.lang.Class<? extends javax.validation.Payload>> getPayload()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getValidationAppliesTo()",
+      "signature": "abstract javax.validation.ConstraintTarget getValidationAppliesTo()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#getValueUnwrapping()",
+      "signature": "abstract javax.validation.metadata.ValidateUnwrappedValue getValueUnwrapping()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#isReportAsSingleViolation()",
+      "signature": "abstract boolean isReportAsSingleViolation()"
+    },
+    {
+      "key": "javax.validation.metadata.ConstraintDescriptor#unwrap(java.lang.Class<U>)",
+      "signature": "abstract <U> U unwrap(java.lang.Class<U>)"
+    },
+    {
+      "key": "javax.validation.metadata.ContainerDescriptor#getConstrainedContainerElementTypes()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ContainerElementTypeDescriptor> getConstrainedContainerElementTypes()"
+    },
+    {
+      "key": "javax.validation.metadata.ContainerElementTypeDescriptor#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "javax.validation.metadata.ContainerElementTypeDescriptor#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "javax.validation.metadata.CrossParameterDescriptor#getElementClass()",
+      "signature": "abstract java.lang.Class<?> getElementClass()"
+    },
+    {
+      "key": "javax.validation.metadata.ElementDescriptor#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "javax.validation.metadata.ElementDescriptor#getElementClass()",
+      "signature": "abstract java.lang.Class<?> getElementClass()"
+    },
+    {
+      "key": "javax.validation.metadata.ElementDescriptor#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "javax.validation.metadata.ElementDescriptor$ConstraintFinder#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "javax.validation.metadata.ElementDescriptor$ConstraintFinder#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<javax.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#getCrossParameterDescriptor()",
+      "signature": "abstract javax.validation.metadata.CrossParameterDescriptor getCrossParameterDescriptor()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#getParameterDescriptors()",
+      "signature": "abstract java.util.List<javax.validation.metadata.ParameterDescriptor> getParameterDescriptors()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#getReturnValueDescriptor()",
+      "signature": "abstract javax.validation.metadata.ReturnValueDescriptor getReturnValueDescriptor()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#hasConstrainedParameters()",
+      "signature": "abstract boolean hasConstrainedParameters()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#hasConstrainedReturnValue()",
+      "signature": "abstract boolean hasConstrainedReturnValue()"
+    },
+    {
+      "key": "javax.validation.metadata.ExecutableDescriptor#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "javax.validation.metadata.GroupConversionDescriptor#getFrom()",
+      "signature": "abstract java.lang.Class<?> getFrom()"
+    },
+    {
+      "key": "javax.validation.metadata.GroupConversionDescriptor#getTo()",
+      "signature": "abstract java.lang.Class<?> getTo()"
+    },
+    {
+      "key": "javax.validation.metadata.MethodType#valueOf(java.lang.String)",
+      "signature": "javax.validation.metadata.MethodType valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.metadata.MethodType#values()",
+      "signature": "javax.validation.metadata.MethodType[] values()"
+    },
+    {
+      "key": "javax.validation.metadata.ParameterDescriptor#getIndex()",
+      "signature": "abstract int getIndex()"
+    },
+    {
+      "key": "javax.validation.metadata.ParameterDescriptor#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "javax.validation.metadata.PropertyDescriptor#getPropertyName()",
+      "signature": "abstract java.lang.String getPropertyName()"
+    },
+    {
+      "key": "javax.validation.metadata.Scope#valueOf(java.lang.String)",
+      "signature": "javax.validation.metadata.Scope valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.metadata.Scope#values()",
+      "signature": "javax.validation.metadata.Scope[] values()"
+    },
+    {
+      "key": "javax.validation.metadata.ValidateUnwrappedValue#valueOf(java.lang.String)",
+      "signature": "javax.validation.metadata.ValidateUnwrappedValue valueOf(java.lang.String)"
+    },
+    {
+      "key": "javax.validation.metadata.ValidateUnwrappedValue#values()",
+      "signature": "javax.validation.metadata.ValidateUnwrappedValue[] values()"
+    },
+    {
+      "key": "javax.validation.spi.BootstrapState#getDefaultValidationProviderResolver()",
+      "signature": "abstract javax.validation.ValidationProviderResolver getDefaultValidationProviderResolver()"
+    },
+    {
+      "key": "javax.validation.spi.BootstrapState#getValidationProviderResolver()",
+      "signature": "abstract javax.validation.ValidationProviderResolver getValidationProviderResolver()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getClockProvider()",
+      "signature": "abstract javax.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getConstraintValidatorFactory()",
+      "signature": "abstract javax.validation.ConstraintValidatorFactory getConstraintValidatorFactory()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getMappingStreams()",
+      "signature": "abstract java.util.Set<java.io.InputStream> getMappingStreams()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getMessageInterpolator()",
+      "signature": "abstract javax.validation.MessageInterpolator getMessageInterpolator()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getParameterNameProvider()",
+      "signature": "abstract javax.validation.ParameterNameProvider getParameterNameProvider()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getProperties()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getProperties()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getTraversableResolver()",
+      "signature": "abstract javax.validation.TraversableResolver getTraversableResolver()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#getValueExtractors()",
+      "signature": "abstract java.util.Set<javax.validation.valueextraction.ValueExtractor<?>> getValueExtractors()"
+    },
+    {
+      "key": "javax.validation.spi.ConfigurationState#isIgnoreXmlConfiguration()",
+      "signature": "abstract boolean isIgnoreXmlConfiguration()"
+    },
+    {
+      "key": "javax.validation.spi.ValidationProvider#buildValidatorFactory(javax.validation.spi.ConfigurationState)",
+      "signature": "abstract javax.validation.ValidatorFactory buildValidatorFactory(javax.validation.spi.ConfigurationState)"
+    },
+    {
+      "key": "javax.validation.spi.ValidationProvider#createGenericConfiguration(javax.validation.spi.BootstrapState)",
+      "signature": "abstract javax.validation.Configuration<?> createGenericConfiguration(javax.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "javax.validation.spi.ValidationProvider#createSpecializedConfiguration(javax.validation.spi.BootstrapState)",
+      "signature": "abstract T createSpecializedConfiguration(javax.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "javax.validation.valueextraction.ExtractedValue#type()",
+      "signature": "abstract java.lang.Class<?> type()"
+    },
+    {
+      "key": "javax.validation.valueextraction.ValueExtractor#extractValues(T, javax.validation.valueextraction.ValueExtractor$ValueReceiver)",
+      "signature": "abstract void extractValues(T, javax.validation.valueextraction.ValueExtractor$ValueReceiver)"
+    },
+    {
+      "key": "javax.validation.valueextraction.ValueExtractor$ValueReceiver#indexedValue(java.lang.String, int, java.lang.Object)",
+      "signature": "abstract void indexedValue(java.lang.String, int, java.lang.Object)"
+    },
+    {
+      "key": "javax.validation.valueextraction.ValueExtractor$ValueReceiver#iterableValue(java.lang.String, java.lang.Object)",
+      "signature": "abstract void iterableValue(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "javax.validation.valueextraction.ValueExtractor$ValueReceiver#keyedValue(java.lang.String, java.lang.Object, java.lang.Object)",
+      "signature": "abstract void keyedValue(java.lang.String, java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "javax.validation.valueextraction.ValueExtractor$ValueReceiver#value(java.lang.String, java.lang.Object)",
+      "signature": "abstract void value(java.lang.String, java.lang.Object)"
+    }
+  ],
+  "added": [
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getClockProviderClassName()",
+      "signature": "abstract java.lang.String getClockProviderClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getConstraintMappingResourcePaths()",
+      "signature": "abstract java.util.Set<java.lang.String> getConstraintMappingResourcePaths()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getConstraintValidatorFactoryClassName()",
+      "signature": "abstract java.lang.String getConstraintValidatorFactoryClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getDefaultProviderClassName()",
+      "signature": "abstract java.lang.String getDefaultProviderClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getDefaultValidatedExecutableTypes()",
+      "signature": "abstract java.util.Set<jakarta.validation.executable.ExecutableType> getDefaultValidatedExecutableTypes()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getMessageInterpolatorClassName()",
+      "signature": "abstract java.lang.String getMessageInterpolatorClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getParameterNameProviderClassName()",
+      "signature": "abstract java.lang.String getParameterNameProviderClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getProperties()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getProperties()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getTraversableResolverClassName()",
+      "signature": "abstract java.lang.String getTraversableResolverClassName()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#getValueExtractorClassNames()",
+      "signature": "abstract java.util.Set<java.lang.String> getValueExtractorClassNames()"
+    },
+    {
+      "key": "jakarta.validation.BootstrapConfiguration#isExecutableValidationEnabled()",
+      "signature": "abstract boolean isExecutableValidationEnabled()"
+    },
+    {
+      "key": "jakarta.validation.ClockProvider#getClock()",
+      "signature": "abstract java.time.Clock getClock()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#addMapping(java.io.InputStream)",
+      "signature": "abstract T addMapping(java.io.InputStream)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#addProperty(java.lang.String, java.lang.String)",
+      "signature": "abstract T addProperty(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#addValueExtractor(jakarta.validation.valueextraction.ValueExtractor<?>)",
+      "signature": "abstract T addValueExtractor(jakarta.validation.valueextraction.ValueExtractor<?>)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#buildValidatorFactory()",
+      "signature": "abstract jakarta.validation.ValidatorFactory buildValidatorFactory()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#clockProvider(jakarta.validation.ClockProvider)",
+      "signature": "abstract T clockProvider(jakarta.validation.ClockProvider)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#constraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)",
+      "signature": "abstract T constraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getBootstrapConfiguration()",
+      "signature": "abstract jakarta.validation.BootstrapConfiguration getBootstrapConfiguration()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getDefaultClockProvider()",
+      "signature": "abstract jakarta.validation.ClockProvider getDefaultClockProvider()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getDefaultConstraintValidatorFactory()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorFactory getDefaultConstraintValidatorFactory()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getDefaultMessageInterpolator()",
+      "signature": "abstract jakarta.validation.MessageInterpolator getDefaultMessageInterpolator()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getDefaultParameterNameProvider()",
+      "signature": "abstract jakarta.validation.ParameterNameProvider getDefaultParameterNameProvider()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#getDefaultTraversableResolver()",
+      "signature": "abstract jakarta.validation.TraversableResolver getDefaultTraversableResolver()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#ignoreXmlConfiguration()",
+      "signature": "abstract T ignoreXmlConfiguration()"
+    },
+    {
+      "key": "jakarta.validation.Configuration#messageInterpolator(jakarta.validation.MessageInterpolator)",
+      "signature": "abstract T messageInterpolator(jakarta.validation.MessageInterpolator)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#parameterNameProvider(jakarta.validation.ParameterNameProvider)",
+      "signature": "abstract T parameterNameProvider(jakarta.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "jakarta.validation.Configuration#traversableResolver(jakarta.validation.TraversableResolver)",
+      "signature": "abstract T traversableResolver(jakarta.validation.TraversableResolver)"
+    },
+    {
+      "key": "jakarta.validation.Constraint#validatedBy()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.ConstraintValidator<?, ?>>[] validatedBy()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintTarget#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.ConstraintTarget valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintTarget#values()",
+      "signature": "jakarta.validation.ConstraintTarget[] values()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidator#initialize(A)",
+      "signature": "default void initialize(A)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidator#isValid(T, jakarta.validation.ConstraintValidatorContext)",
+      "signature": "abstract boolean isValid(T, jakarta.validation.ConstraintValidatorContext)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext#disableDefaultConstraintViolation()",
+      "signature": "abstract void disableDefaultConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext#getClockProvider()",
+      "signature": "abstract jakarta.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext#getDefaultConstraintMessageTemplate()",
+      "signature": "abstract java.lang.String getDefaultConstraintMessageTemplate()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$ContainerElementNodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderCustomizableContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeBuilderDefinedContext#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorContext$ConstraintViolationBuilder$NodeContextBuilder#addConstraintViolation()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorContext addConstraintViolation()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorFactory#getInstance(java.lang.Class<T>)",
+      "signature": "abstract <T extends jakarta.validation.ConstraintValidator<?, ?>> T getInstance(java.lang.Class<T>)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintValidatorFactory#releaseInstance(jakarta.validation.ConstraintValidator<?, ?>)",
+      "signature": "abstract void releaseInstance(jakarta.validation.ConstraintValidator<?, ?>)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getConstraintDescriptor()",
+      "signature": "abstract jakarta.validation.metadata.ConstraintDescriptor<?> getConstraintDescriptor()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getExecutableParameters()",
+      "signature": "abstract java.lang.Object[] getExecutableParameters()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getExecutableReturnValue()",
+      "signature": "abstract java.lang.Object getExecutableReturnValue()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getInvalidValue()",
+      "signature": "abstract java.lang.Object getInvalidValue()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getLeafBean()",
+      "signature": "abstract java.lang.Object getLeafBean()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getMessage()",
+      "signature": "abstract java.lang.String getMessage()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getMessageTemplate()",
+      "signature": "abstract java.lang.String getMessageTemplate()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getPropertyPath()",
+      "signature": "abstract jakarta.validation.Path getPropertyPath()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getRootBean()",
+      "signature": "abstract T getRootBean()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#getRootBeanClass()",
+      "signature": "abstract java.lang.Class<T> getRootBeanClass()"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolation#unwrap(java.lang.Class<U>)",
+      "signature": "abstract <U> U unwrap(java.lang.Class<U>)"
+    },
+    {
+      "key": "jakarta.validation.ConstraintViolationException#getConstraintViolations()",
+      "signature": "java.util.Set<jakarta.validation.ConstraintViolation<?>> getConstraintViolations()"
+    },
+    {
+      "key": "jakarta.validation.ElementKind#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.ElementKind valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.ElementKind#values()",
+      "signature": "jakarta.validation.ElementKind[] values()"
+    },
+    {
+      "key": "jakarta.validation.GroupSequence#value()",
+      "signature": "abstract java.lang.Class<?>[] value()"
+    },
+    {
+      "key": "jakarta.validation.MessageInterpolator#interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context)",
+      "signature": "abstract java.lang.String interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context)"
+    },
+    {
+      "key": "jakarta.validation.MessageInterpolator#interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context, java.util.Locale)",
+      "signature": "abstract java.lang.String interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context, java.util.Locale)"
+    },
+    {
+      "key": "jakarta.validation.MessageInterpolator$Context#getConstraintDescriptor()",
+      "signature": "abstract jakarta.validation.metadata.ConstraintDescriptor<?> getConstraintDescriptor()"
+    },
+    {
+      "key": "jakarta.validation.MessageInterpolator$Context#getValidatedValue()",
+      "signature": "abstract java.lang.Object getValidatedValue()"
+    },
+    {
+      "key": "jakarta.validation.MessageInterpolator$Context#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "jakarta.validation.OverridesAttribute#constraint()",
+      "signature": "abstract java.lang.Class<? extends java.lang.annotation.Annotation> constraint()"
+    },
+    {
+      "key": "jakarta.validation.OverridesAttribute#constraintIndex()",
+      "signature": "abstract int constraintIndex()"
+    },
+    {
+      "key": "jakarta.validation.OverridesAttribute#name()",
+      "signature": "abstract java.lang.String name()"
+    },
+    {
+      "key": "jakarta.validation.OverridesAttribute$List#value()",
+      "signature": "abstract jakarta.validation.OverridesAttribute[] value()"
+    },
+    {
+      "key": "jakarta.validation.ParameterNameProvider#getParameterNames(java.lang.reflect.Constructor<?>)",
+      "signature": "abstract java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Constructor<?>)"
+    },
+    {
+      "key": "jakarta.validation.ParameterNameProvider#getParameterNames(java.lang.reflect.Method)",
+      "signature": "abstract java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Method)"
+    },
+    {
+      "key": "jakarta.validation.Path#toString()",
+      "signature": "abstract java.lang.String toString()"
+    },
+    {
+      "key": "jakarta.validation.Path$BeanNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "jakarta.validation.Path$BeanNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "jakarta.validation.Path$ConstructorNode#getParameterTypes()",
+      "signature": "abstract java.util.List<java.lang.Class<?>> getParameterTypes()"
+    },
+    {
+      "key": "jakarta.validation.Path$ContainerElementNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "jakarta.validation.Path$ContainerElementNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "jakarta.validation.Path$MethodNode#getParameterTypes()",
+      "signature": "abstract java.util.List<java.lang.Class<?>> getParameterTypes()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#getIndex()",
+      "signature": "abstract java.lang.Integer getIndex()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#getKey()",
+      "signature": "abstract java.lang.Object getKey()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#getKind()",
+      "signature": "abstract jakarta.validation.ElementKind getKind()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#isInIterable()",
+      "signature": "abstract boolean isInIterable()"
+    },
+    {
+      "key": "jakarta.validation.Path$Node#toString()",
+      "signature": "abstract java.lang.String toString()"
+    },
+    {
+      "key": "jakarta.validation.Path$ParameterNode#getParameterIndex()",
+      "signature": "abstract int getParameterIndex()"
+    },
+    {
+      "key": "jakarta.validation.Path$PropertyNode#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "jakarta.validation.Path$PropertyNode#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "jakarta.validation.TraversableResolver#isCascadable(java.lang.Object, jakarta.validation.Path$Node, java.lang.Class<?>, jakarta.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "abstract boolean isCascadable(java.lang.Object, jakarta.validation.Path$Node, java.lang.Class<?>, jakarta.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "jakarta.validation.TraversableResolver#isReachable(java.lang.Object, jakarta.validation.Path$Node, java.lang.Class<?>, jakarta.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "abstract boolean isReachable(java.lang.Object, jakarta.validation.Path$Node, java.lang.Class<?>, jakarta.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "jakarta.validation.Validation#buildDefaultValidatorFactory()",
+      "signature": "jakarta.validation.ValidatorFactory buildDefaultValidatorFactory()"
+    },
+    {
+      "key": "jakarta.validation.Validation#byDefaultProvider()",
+      "signature": "jakarta.validation.bootstrap.GenericBootstrap byDefaultProvider()"
+    },
+    {
+      "key": "jakarta.validation.Validation#byProvider(java.lang.Class<U>)",
+      "signature": "<T extends jakarta.validation.Configuration<T>, U extends jakarta.validation.spi.ValidationProvider<T>> jakarta.validation.bootstrap.ProviderSpecificBootstrap<T> byProvider(java.lang.Class<U>)"
+    },
+    {
+      "key": "jakarta.validation.Validation$DefaultValidationProviderResolver#getValidationProviders()",
+      "signature": "java.util.List<jakarta.validation.spi.ValidationProvider<?>> getValidationProviders()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GenericBootstrapImpl#configure()",
+      "signature": "jakarta.validation.Configuration<?> configure()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GenericBootstrapImpl#getDefaultValidationProviderResolver()",
+      "signature": "jakarta.validation.ValidationProviderResolver getDefaultValidationProviderResolver()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GenericBootstrapImpl#getValidationProviderResolver()",
+      "signature": "jakarta.validation.ValidationProviderResolver getValidationProviderResolver()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GenericBootstrapImpl#providerResolver(jakarta.validation.ValidationProviderResolver)",
+      "signature": "jakarta.validation.bootstrap.GenericBootstrap providerResolver(jakarta.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "jakarta.validation.Validation$GetValidationProviderListAction#clearCache()",
+      "signature": "void clearCache()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GetValidationProviderListAction#getValidationProviderList()",
+      "signature": "java.util.List<jakarta.validation.spi.ValidationProvider<?>> getValidationProviderList()"
+    },
+    {
+      "key": "jakarta.validation.Validation$GetValidationProviderListAction#run()",
+      "signature": "java.lang.Object run()"
+    },
+    {
+      "key": "jakarta.validation.Validation$NewProviderInstance#run()",
+      "signature": "java.lang.Object run()"
+    },
+    {
+      "key": "jakarta.validation.Validation$ProviderSpecificBootstrapImpl#configure()",
+      "signature": "T configure()"
+    },
+    {
+      "key": "jakarta.validation.Validation$ProviderSpecificBootstrapImpl#providerResolver(jakarta.validation.ValidationProviderResolver)",
+      "signature": "jakarta.validation.bootstrap.ProviderSpecificBootstrap<T> providerResolver(jakarta.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "jakarta.validation.ValidationProviderResolver#getValidationProviders()",
+      "signature": "abstract java.util.List<jakarta.validation.spi.ValidationProvider<?>> getValidationProviders()"
+    },
+    {
+      "key": "jakarta.validation.Validator#forExecutables()",
+      "signature": "abstract jakarta.validation.executable.ExecutableValidator forExecutables()"
+    },
+    {
+      "key": "jakarta.validation.Validator#getConstraintsForClass(java.lang.Class<?>)",
+      "signature": "abstract jakarta.validation.metadata.BeanDescriptor getConstraintsForClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "jakarta.validation.Validator#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "jakarta.validation.Validator#validate(T, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validate(T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.Validator#validateProperty(T, java.lang.String, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateProperty(T, java.lang.String, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.Validator#validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#addValueExtractor(jakarta.validation.valueextraction.ValueExtractor<?>)",
+      "signature": "abstract jakarta.validation.ValidatorContext addValueExtractor(jakarta.validation.valueextraction.ValueExtractor<?>)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#clockProvider(jakarta.validation.ClockProvider)",
+      "signature": "abstract jakarta.validation.ValidatorContext clockProvider(jakarta.validation.ClockProvider)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#constraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)",
+      "signature": "abstract jakarta.validation.ValidatorContext constraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#getValidator()",
+      "signature": "abstract jakarta.validation.Validator getValidator()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#messageInterpolator(jakarta.validation.MessageInterpolator)",
+      "signature": "abstract jakarta.validation.ValidatorContext messageInterpolator(jakarta.validation.MessageInterpolator)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#parameterNameProvider(jakarta.validation.ParameterNameProvider)",
+      "signature": "abstract jakarta.validation.ValidatorContext parameterNameProvider(jakarta.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorContext#traversableResolver(jakarta.validation.TraversableResolver)",
+      "signature": "abstract jakarta.validation.ValidatorContext traversableResolver(jakarta.validation.TraversableResolver)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#close()",
+      "signature": "abstract void close()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getClockProvider()",
+      "signature": "abstract jakarta.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getConstraintValidatorFactory()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorFactory getConstraintValidatorFactory()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getMessageInterpolator()",
+      "signature": "abstract jakarta.validation.MessageInterpolator getMessageInterpolator()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getParameterNameProvider()",
+      "signature": "abstract jakarta.validation.ParameterNameProvider getParameterNameProvider()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getTraversableResolver()",
+      "signature": "abstract jakarta.validation.TraversableResolver getTraversableResolver()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#getValidator()",
+      "signature": "abstract jakarta.validation.Validator getValidator()"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#unwrap(java.lang.Class<T>)",
+      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "jakarta.validation.ValidatorFactory#usingContext()",
+      "signature": "abstract jakarta.validation.ValidatorContext usingContext()"
+    },
+    {
+      "key": "jakarta.validation.bootstrap.GenericBootstrap#configure()",
+      "signature": "abstract jakarta.validation.Configuration<?> configure()"
+    },
+    {
+      "key": "jakarta.validation.bootstrap.GenericBootstrap#providerResolver(jakarta.validation.ValidationProviderResolver)",
+      "signature": "abstract jakarta.validation.bootstrap.GenericBootstrap providerResolver(jakarta.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "jakarta.validation.bootstrap.ProviderSpecificBootstrap#configure()",
+      "signature": "abstract T configure()"
+    },
+    {
+      "key": "jakarta.validation.bootstrap.ProviderSpecificBootstrap#providerResolver(jakarta.validation.ValidationProviderResolver)",
+      "signature": "abstract jakarta.validation.bootstrap.ProviderSpecificBootstrap<T> providerResolver(jakarta.validation.ValidationProviderResolver)"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertFalse#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertFalse#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertFalse#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertFalse$List#value()",
+      "signature": "abstract jakarta.validation.constraints.AssertFalse[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertTrue#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertTrue#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertTrue#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.AssertTrue$List#value()",
+      "signature": "abstract jakarta.validation.constraints.AssertTrue[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax#inclusive()",
+      "signature": "abstract boolean inclusive()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax#value()",
+      "signature": "abstract java.lang.String value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMax$List#value()",
+      "signature": "abstract jakarta.validation.constraints.DecimalMax[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin#inclusive()",
+      "signature": "abstract boolean inclusive()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin#value()",
+      "signature": "abstract java.lang.String value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.DecimalMin$List#value()",
+      "signature": "abstract jakarta.validation.constraints.DecimalMin[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits#fraction()",
+      "signature": "abstract int fraction()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits#integer()",
+      "signature": "abstract int integer()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Digits$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Digits[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Email#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Email#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Email#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Email#regexp()",
+      "signature": "abstract java.lang.String regexp()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Email$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Email[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Future#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Future#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Future#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Future$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Future[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.FutureOrPresent#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.FutureOrPresent#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.FutureOrPresent#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.FutureOrPresent$List#value()",
+      "signature": "abstract jakarta.validation.constraints.FutureOrPresent[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Max#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Max#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Max#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Max#value()",
+      "signature": "abstract long value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Max$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Max[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Min#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Min#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Min#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Min#value()",
+      "signature": "abstract long value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Min$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Min[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Negative#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Negative#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Negative#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Negative$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Negative[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NegativeOrZero#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NegativeOrZero#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NegativeOrZero#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NegativeOrZero$List#value()",
+      "signature": "abstract jakarta.validation.constraints.NegativeOrZero[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotBlank#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotBlank#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotBlank#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotBlank$List#value()",
+      "signature": "abstract jakarta.validation.constraints.NotBlank[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotEmpty#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotEmpty#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotEmpty#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotEmpty$List#value()",
+      "signature": "abstract jakarta.validation.constraints.NotEmpty[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotNull#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotNull#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotNull#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.NotNull$List#value()",
+      "signature": "abstract jakarta.validation.constraints.NotNull[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Null#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Null#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Null#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Null$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Null[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Past#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Past#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Past#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Past$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Past[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PastOrPresent#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PastOrPresent#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PastOrPresent#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PastOrPresent$List#value()",
+      "signature": "abstract jakarta.validation.constraints.PastOrPresent[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern#regexp()",
+      "signature": "abstract java.lang.String regexp()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern$Flag#getValue()",
+      "signature": "int getValue()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Pattern$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Pattern[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Positive#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Positive#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Positive#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Positive$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Positive[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PositiveOrZero#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PositiveOrZero#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PositiveOrZero#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.PositiveOrZero$List#value()",
+      "signature": "abstract jakarta.validation.constraints.PositiveOrZero[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size#groups()",
+      "signature": "abstract java.lang.Class<?>[] groups()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size#max()",
+      "signature": "abstract int max()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size#message()",
+      "signature": "abstract java.lang.String message()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size#min()",
+      "signature": "abstract int min()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size#payload()",
+      "signature": "abstract java.lang.Class<? extends jakarta.validation.Payload>[] payload()"
+    },
+    {
+      "key": "jakarta.validation.constraints.Size$List#value()",
+      "signature": "abstract jakarta.validation.constraints.Size[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraintvalidation.SupportedValidationTarget#value()",
+      "signature": "abstract jakarta.validation.constraintvalidation.ValidationTarget[] value()"
+    },
+    {
+      "key": "jakarta.validation.constraintvalidation.ValidationTarget#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.constraintvalidation.ValidationTarget valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.constraintvalidation.ValidationTarget#values()",
+      "signature": "jakarta.validation.constraintvalidation.ValidationTarget[] values()"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableType#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.executable.ExecutableType valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableType#values()",
+      "signature": "jakarta.validation.executable.ExecutableType[] values()"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableValidator#validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableValidator#validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableValidator#validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.executable.ExecutableValidator#validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "abstract <T> java.util.Set<jakarta.validation.ConstraintViolation<T>> validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.executable.ValidateOnExecution#type()",
+      "signature": "abstract jakarta.validation.executable.ExecutableType[] type()"
+    },
+    {
+      "key": "jakarta.validation.groups.ConvertGroup#from()",
+      "signature": "abstract java.lang.Class<?> from()"
+    },
+    {
+      "key": "jakarta.validation.groups.ConvertGroup#to()",
+      "signature": "abstract java.lang.Class<?> to()"
+    },
+    {
+      "key": "jakarta.validation.groups.ConvertGroup$List#value()",
+      "signature": "abstract jakarta.validation.groups.ConvertGroup[] value()"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstrainedConstructors()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ConstructorDescriptor> getConstrainedConstructors()"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstrainedMethods(jakarta.validation.metadata.MethodType, jakarta.validation.metadata.MethodType...)",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.MethodDescriptor> getConstrainedMethods(jakarta.validation.metadata.MethodType, jakarta.validation.metadata.MethodType...)"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstrainedProperties()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.PropertyDescriptor> getConstrainedProperties()"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstraintsForConstructor(java.lang.Class<?>...)",
+      "signature": "abstract jakarta.validation.metadata.ConstructorDescriptor getConstraintsForConstructor(java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstraintsForMethod(java.lang.String, java.lang.Class<?>...)",
+      "signature": "abstract jakarta.validation.metadata.MethodDescriptor getConstraintsForMethod(java.lang.String, java.lang.Class<?>...)"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#getConstraintsForProperty(java.lang.String)",
+      "signature": "abstract jakarta.validation.metadata.PropertyDescriptor getConstraintsForProperty(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.metadata.BeanDescriptor#isBeanConstrained()",
+      "signature": "abstract boolean isBeanConstrained()"
+    },
+    {
+      "key": "jakarta.validation.metadata.CascadableDescriptor#getGroupConversions()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.GroupConversionDescriptor> getGroupConversions()"
+    },
+    {
+      "key": "jakarta.validation.metadata.CascadableDescriptor#isCascaded()",
+      "signature": "abstract boolean isCascaded()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getAnnotation()",
+      "signature": "abstract T getAnnotation()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getAttributes()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.Object> getAttributes()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getComposingConstraints()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ConstraintDescriptor<?>> getComposingConstraints()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getConstraintValidatorClasses()",
+      "signature": "abstract java.util.List<java.lang.Class<? extends jakarta.validation.ConstraintValidator<T, ?>>> getConstraintValidatorClasses()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getGroups()",
+      "signature": "abstract java.util.Set<java.lang.Class<?>> getGroups()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getMessageTemplate()",
+      "signature": "abstract java.lang.String getMessageTemplate()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getPayload()",
+      "signature": "abstract java.util.Set<java.lang.Class<? extends jakarta.validation.Payload>> getPayload()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getValidationAppliesTo()",
+      "signature": "abstract jakarta.validation.ConstraintTarget getValidationAppliesTo()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#getValueUnwrapping()",
+      "signature": "abstract jakarta.validation.metadata.ValidateUnwrappedValue getValueUnwrapping()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#isReportAsSingleViolation()",
+      "signature": "abstract boolean isReportAsSingleViolation()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ConstraintDescriptor#unwrap(java.lang.Class<U>)",
+      "signature": "abstract <U> U unwrap(java.lang.Class<U>)"
+    },
+    {
+      "key": "jakarta.validation.metadata.ContainerDescriptor#getConstrainedContainerElementTypes()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ContainerElementTypeDescriptor> getConstrainedContainerElementTypes()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ContainerElementTypeDescriptor#getContainerClass()",
+      "signature": "abstract java.lang.Class<?> getContainerClass()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ContainerElementTypeDescriptor#getTypeArgumentIndex()",
+      "signature": "abstract java.lang.Integer getTypeArgumentIndex()"
+    },
+    {
+      "key": "jakarta.validation.metadata.CrossParameterDescriptor#getElementClass()",
+      "signature": "abstract java.lang.Class<?> getElementClass()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ElementDescriptor#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ElementDescriptor#getElementClass()",
+      "signature": "abstract java.lang.Class<?> getElementClass()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ElementDescriptor#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ElementDescriptor$ConstraintFinder#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ElementDescriptor$ConstraintFinder#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#getConstraintDescriptors()",
+      "signature": "abstract java.util.Set<jakarta.validation.metadata.ConstraintDescriptor<?>> getConstraintDescriptors()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#getCrossParameterDescriptor()",
+      "signature": "abstract jakarta.validation.metadata.CrossParameterDescriptor getCrossParameterDescriptor()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#getParameterDescriptors()",
+      "signature": "abstract java.util.List<jakarta.validation.metadata.ParameterDescriptor> getParameterDescriptors()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#getReturnValueDescriptor()",
+      "signature": "abstract jakarta.validation.metadata.ReturnValueDescriptor getReturnValueDescriptor()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#hasConstrainedParameters()",
+      "signature": "abstract boolean hasConstrainedParameters()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#hasConstrainedReturnValue()",
+      "signature": "abstract boolean hasConstrainedReturnValue()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ExecutableDescriptor#hasConstraints()",
+      "signature": "abstract boolean hasConstraints()"
+    },
+    {
+      "key": "jakarta.validation.metadata.GroupConversionDescriptor#getFrom()",
+      "signature": "abstract java.lang.Class<?> getFrom()"
+    },
+    {
+      "key": "jakarta.validation.metadata.GroupConversionDescriptor#getTo()",
+      "signature": "abstract java.lang.Class<?> getTo()"
+    },
+    {
+      "key": "jakarta.validation.metadata.MethodType#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.metadata.MethodType valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.metadata.MethodType#values()",
+      "signature": "jakarta.validation.metadata.MethodType[] values()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ParameterDescriptor#getIndex()",
+      "signature": "abstract int getIndex()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ParameterDescriptor#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "jakarta.validation.metadata.PropertyDescriptor#getPropertyName()",
+      "signature": "abstract java.lang.String getPropertyName()"
+    },
+    {
+      "key": "jakarta.validation.metadata.Scope#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.metadata.Scope valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.metadata.Scope#values()",
+      "signature": "jakarta.validation.metadata.Scope[] values()"
+    },
+    {
+      "key": "jakarta.validation.metadata.ValidateUnwrappedValue#valueOf(java.lang.String)",
+      "signature": "jakarta.validation.metadata.ValidateUnwrappedValue valueOf(java.lang.String)"
+    },
+    {
+      "key": "jakarta.validation.metadata.ValidateUnwrappedValue#values()",
+      "signature": "jakarta.validation.metadata.ValidateUnwrappedValue[] values()"
+    },
+    {
+      "key": "jakarta.validation.spi.BootstrapState#getDefaultValidationProviderResolver()",
+      "signature": "abstract jakarta.validation.ValidationProviderResolver getDefaultValidationProviderResolver()"
+    },
+    {
+      "key": "jakarta.validation.spi.BootstrapState#getValidationProviderResolver()",
+      "signature": "abstract jakarta.validation.ValidationProviderResolver getValidationProviderResolver()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getClockProvider()",
+      "signature": "abstract jakarta.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getConstraintValidatorFactory()",
+      "signature": "abstract jakarta.validation.ConstraintValidatorFactory getConstraintValidatorFactory()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getMappingStreams()",
+      "signature": "abstract java.util.Set<java.io.InputStream> getMappingStreams()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getMessageInterpolator()",
+      "signature": "abstract jakarta.validation.MessageInterpolator getMessageInterpolator()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getParameterNameProvider()",
+      "signature": "abstract jakarta.validation.ParameterNameProvider getParameterNameProvider()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getProperties()",
+      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getProperties()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getTraversableResolver()",
+      "signature": "abstract jakarta.validation.TraversableResolver getTraversableResolver()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#getValueExtractors()",
+      "signature": "abstract java.util.Set<jakarta.validation.valueextraction.ValueExtractor<?>> getValueExtractors()"
+    },
+    {
+      "key": "jakarta.validation.spi.ConfigurationState#isIgnoreXmlConfiguration()",
+      "signature": "abstract boolean isIgnoreXmlConfiguration()"
+    },
+    {
+      "key": "jakarta.validation.spi.ValidationProvider#buildValidatorFactory(jakarta.validation.spi.ConfigurationState)",
+      "signature": "abstract jakarta.validation.ValidatorFactory buildValidatorFactory(jakarta.validation.spi.ConfigurationState)"
+    },
+    {
+      "key": "jakarta.validation.spi.ValidationProvider#createGenericConfiguration(jakarta.validation.spi.BootstrapState)",
+      "signature": "abstract jakarta.validation.Configuration<?> createGenericConfiguration(jakarta.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "jakarta.validation.spi.ValidationProvider#createSpecializedConfiguration(jakarta.validation.spi.BootstrapState)",
+      "signature": "abstract T createSpecializedConfiguration(jakarta.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ExtractedValue#type()",
+      "signature": "abstract java.lang.Class<?> type()"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ValueExtractor#extractValues(T, jakarta.validation.valueextraction.ValueExtractor$ValueReceiver)",
+      "signature": "abstract void extractValues(T, jakarta.validation.valueextraction.ValueExtractor$ValueReceiver)"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ValueExtractor$ValueReceiver#indexedValue(java.lang.String, int, java.lang.Object)",
+      "signature": "abstract void indexedValue(java.lang.String, int, java.lang.Object)"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ValueExtractor$ValueReceiver#iterableValue(java.lang.String, java.lang.Object)",
+      "signature": "abstract void iterableValue(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ValueExtractor$ValueReceiver#keyedValue(java.lang.String, java.lang.Object, java.lang.Object)",
+      "signature": "abstract void keyedValue(java.lang.String, java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "jakarta.validation.valueextraction.ValueExtractor$ValueReceiver#value(java.lang.String, java.lang.Object)",
+      "signature": "abstract void value(java.lang.String, java.lang.Object)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 316,
+    "new_methods": 316,
+    "removed": 316,
+    "added": 316,
+    "changed": 0
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\jakarta.validation_jakarta.validation-api_2.0.2.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\jakarta.validation_jakarta.validation-api_3.0.1.jar",
+  "group_id": "jakarta.validation",
+  "artifact_id": "jakarta.validation-api",
+  "old_version": "2.0.2",
+  "new_version": "3.0.1",
+  "project": "wicket-crudifier"
+}

@@ -1,0 +1,353 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.ArtifactKey#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.ArtifactKey#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder#contextualize(org.codehaus.plexus.context.Context)",
+      "signature": "void contextualize(org.codehaus.plexus.context.Context)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyGraphBuilder#contextualize(org.codehaus.plexus.context.Context)",
+      "signature": "void contextualize(org.codehaus.plexus.context.Context)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.ExceptionHandler#create(java.lang.String, java.lang.Exception)",
+      "signature": "abstract T create(java.lang.String, java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyCollectorBuilder#collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyNode collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.Maven31DependencyGraphBuilder#buildDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyNode buildDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyCollectorBuilder#collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyNode collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.Maven3DependencyGraphBuilder#buildDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyNode buildDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter#transformGraph(org.sonatype.aether.graph.DependencyNode, org.sonatype.aether.collection.DependencyGraphTransformationContext)",
+      "signature": "org.sonatype.aether.graph.DependencyNode transformGraph(org.sonatype.aether.graph.DependencyNode, org.sonatype.aether.collection.DependencyGraphTransformationContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId#add(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId)",
+      "signature": "void add(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId#pullup(int)",
+      "signature": "void pullup(int)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictIdSorter$ConflictId#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver#transformGraph(org.sonatype.aether.graph.DependencyNode, org.sonatype.aether.collection.DependencyGraphTransformationContext)",
+      "signature": "org.sonatype.aether.graph.DependencyNode transformGraph(org.sonatype.aether.graph.DependencyNode, org.sonatype.aether.collection.DependencyGraphTransformationContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#getOptional()",
+      "signature": "java.lang.Boolean getOptional()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#getRoot()",
+      "signature": "org.sonatype.aether.graph.DependencyNode getRoot()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#getScope()",
+      "signature": "java.lang.String getScope()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#isIncluded(org.sonatype.aether.graph.DependencyNode)",
+      "signature": "boolean isIncluded(org.sonatype.aether.graph.DependencyNode)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#setOptional(java.lang.Boolean)",
+      "signature": "void setOptional(java.lang.Boolean)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#setScope(java.lang.String)",
+      "signature": "void setScope(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#setWinner(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem)",
+      "signature": "void setWinner(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#getDependency()",
+      "signature": "org.sonatype.aether.graph.Dependency getDependency()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#getDepth()",
+      "signature": "int getDepth()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#getNode()",
+      "signature": "org.sonatype.aether.graph.DependencyNode getNode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#getOptionalities()",
+      "signature": "int getOptionalities()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#getScopes()",
+      "signature": "java.util.Collection<java.lang.String> getScopes()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#isSibling(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem)",
+      "signature": "boolean isSibling(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictItem#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$OptionalitySelector#selectOptionality(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "abstract void selectOptionality(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext#getChildScope()",
+      "signature": "java.lang.String getChildScope()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext#getDerivedScope()",
+      "signature": "java.lang.String getDerivedScope()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext#getParentScope()",
+      "signature": "java.lang.String getParentScope()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext#setDerivedScope(java.lang.String)",
+      "signature": "void setDerivedScope(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeDeriver#deriveScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext)",
+      "signature": "abstract void deriveScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeSelector#selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "abstract void selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$VersionSelector#selectVersion(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "abstract void selectVersion(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector#deriveChildSelector(org.sonatype.aether.collection.DependencyCollectionContext)",
+      "signature": "org.sonatype.aether.collection.DependencySelector deriveChildSelector(org.sonatype.aether.collection.DependencyCollectionContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector#selectDependency(org.sonatype.aether.graph.Dependency)",
+      "signature": "boolean selectDependency(org.sonatype.aether.graph.Dependency)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector$ExclusionComparator#compare(java.lang.Object, java.lang.Object)",
+      "signature": "int compare(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.ExclusionDependencySelector$ExclusionComparator#compare(org.sonatype.aether.graph.Exclusion, org.sonatype.aether.graph.Exclusion)",
+      "signature": "int compare(org.sonatype.aether.graph.Exclusion, org.sonatype.aether.graph.Exclusion)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeDeriver#deriveScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext)",
+      "signature": "void deriveScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ScopeContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.JavaScopeSelector#selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "void selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector#deriveChildSelector(org.sonatype.aether.collection.DependencyCollectionContext)",
+      "signature": "org.sonatype.aether.collection.DependencySelector deriveChildSelector(org.sonatype.aether.collection.DependencyCollectionContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.Maven3DirectScopeDependencySelector#selectDependency(org.sonatype.aether.graph.Dependency)",
+      "signature": "boolean selectDependency(org.sonatype.aether.graph.Dependency)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.NearestVersionSelector#selectVersion(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "void selectVersion(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.NearestVersionSelector$ConflictGroup#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.SimpleOptionalitySelector#selectOptionality(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "void selectOptionality(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.VerboseJavaScopeSelector#selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)",
+      "signature": "void selectScope(org.apache.maven.shared.dependency.graph.internal.maven30.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.Object, java.lang.Object)",
+      "signature": "int compare(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven30.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.String, java.lang.String)",
+      "signature": "int compare(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector#deriveChildSelector(org.eclipse.aether.collection.DependencyCollectionContext)",
+      "signature": "org.eclipse.aether.collection.DependencySelector deriveChildSelector(org.eclipse.aether.collection.DependencyCollectionContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.Maven31DirectScopeDependencySelector#selectDependency(org.eclipse.aether.graph.Dependency)",
+      "signature": "boolean selectDependency(org.eclipse.aether.graph.Dependency)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.VerboseJavaScopeSelector#selectScope(org.eclipse.aether.util.graph.transformer.ConflictResolver$ConflictContext)",
+      "signature": "void selectScope(org.eclipse.aether.util.graph.transformer.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.Object, java.lang.Object)",
+      "signature": "int compare(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.maven31.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.String, java.lang.String)",
+      "signature": "int compare(java.lang.String, java.lang.String)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorBuilder#collectDependencyGraph(org.apache.maven.shared.dependency.graph.DependencyCollectorRequest)",
+      "signature": "abstract org.apache.maven.shared.dependency.graph.DependencyNode collectDependencyGraph(org.apache.maven.shared.dependency.graph.DependencyCollectorRequest)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#addConfigProperty(java.lang.String, java.lang.Object)",
+      "signature": "void addConfigProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#dependencyGraphTransformer(org.eclipse.aether.collection.DependencyGraphTransformer)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest dependencyGraphTransformer(org.eclipse.aether.collection.DependencyGraphTransformer)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#dependencySelector(org.eclipse.aether.collection.DependencySelector)",
+      "signature": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest dependencySelector(org.eclipse.aether.collection.DependencySelector)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#getBuildingRequest()",
+      "signature": "org.apache.maven.project.ProjectBuildingRequest getBuildingRequest()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#getConfigProperties()",
+      "signature": "java.util.Map<java.lang.String, java.lang.Object> getConfigProperties()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#getDependencyGraphTransformer()",
+      "signature": "org.eclipse.aether.collection.DependencyGraphTransformer getDependencyGraphTransformer()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#getDependencySelector()",
+      "signature": "org.eclipse.aether.collection.DependencySelector getDependencySelector()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#getFilter()",
+      "signature": "org.apache.maven.artifact.resolver.filter.ArtifactFilter getFilter()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.DependencyCollectorRequest#removeConfigProperty(java.lang.String)",
+      "signature": "void removeConfigProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DirectScopeDependencySelector#deriveChildSelector(org.eclipse.aether.collection.DependencyCollectionContext)",
+      "signature": "org.eclipse.aether.collection.DependencySelector deriveChildSelector(org.eclipse.aether.collection.DependencyCollectionContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DirectScopeDependencySelector#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DirectScopeDependencySelector#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.DirectScopeDependencySelector#selectDependency(org.eclipse.aether.graph.Dependency)",
+      "signature": "boolean selectDependency(org.eclipse.aether.graph.Dependency)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.VerboseJavaScopeSelector#selectScope(org.eclipse.aether.util.graph.transformer.ConflictResolver$ConflictContext)",
+      "signature": "void selectScope(org.eclipse.aether.util.graph.transformer.ConflictResolver$ConflictContext)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.Object, java.lang.Object)",
+      "signature": "int compare(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.maven.shared.dependency.graph.internal.VerboseJavaScopeSelector$ScopeComparator#compare(java.lang.String, java.lang.String)",
+      "signature": "int compare(java.lang.String, java.lang.String)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder#collectDependencyGraph",
+      "old": "org.apache.maven.shared.dependency.graph.DependencyNode collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "new": "org.apache.maven.shared.dependency.graph.DependencyNode collectDependencyGraph(org.apache.maven.shared.dependency.graph.DependencyCollectorRequest)",
+      "old_key": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder#collectDependencyGraph(org.apache.maven.project.ProjectBuildingRequest, org.apache.maven.artifact.resolver.filter.ArtifactFilter)",
+      "new_key": "org.apache.maven.shared.dependency.graph.internal.DefaultDependencyCollectorBuilder#collectDependencyGraph(org.apache.maven.shared.dependency.graph.DependencyCollectorRequest)"
+    }
+  ],
+  "counts": {
+    "old_methods": 121,
+    "new_methods": 74,
+    "removed": 64,
+    "added": 17,
+    "changed": 1
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.maven.shared_maven-dependency-tree_3.1.1.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.maven.shared_maven-dependency-tree_3.2.1.jar",
+  "group_id": "org.apache.maven.shared",
+  "artifact_id": "maven-dependency-tree",
+  "old_version": "3.1.1",
+  "new_version": "3.2.1",
+  "project": "license-maven-plugin"
+}

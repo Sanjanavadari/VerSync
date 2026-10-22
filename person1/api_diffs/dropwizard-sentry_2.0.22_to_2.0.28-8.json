@@ -1,0 +1,273 @@
+{
+  "removed": [
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addError(java.lang.String)",
+      "signature": "void addError(java.lang.String)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addError(java.lang.String, java.lang.Throwable)",
+      "signature": "void addError(java.lang.String, java.lang.Throwable)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addFilter(ch.qos.logback.core.filter.Filter<ch.qos.logback.classic.spi.ILoggingEvent>)",
+      "signature": "void addFilter(ch.qos.logback.core.filter.Filter<ch.qos.logback.classic.spi.ILoggingEvent>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addInfo(java.lang.String)",
+      "signature": "void addInfo(java.lang.String)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addInfo(java.lang.String, java.lang.Throwable)",
+      "signature": "void addInfo(java.lang.String, java.lang.Throwable)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addStatus(ch.qos.logback.core.status.Status)",
+      "signature": "void addStatus(ch.qos.logback.core.status.Status)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addWarn(java.lang.String)",
+      "signature": "void addWarn(java.lang.String)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#addWarn(java.lang.String, java.lang.Throwable)",
+      "signature": "void addWarn(java.lang.String, java.lang.Throwable)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#clearAllFilters()",
+      "signature": "void clearAllFilters()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#doAppend(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "void doAppend(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#doAppend(java.lang.Object)",
+      "signature": "void doAppend(java.lang.Object)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#getContext()",
+      "signature": "ch.qos.logback.core.Context getContext()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#getCopyOfAttachedFiltersList()",
+      "signature": "java.util.List<ch.qos.logback.core.filter.Filter<ch.qos.logback.classic.spi.ILoggingEvent>> getCopyOfAttachedFiltersList()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#getFilterChainDecision(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "ch.qos.logback.core.spi.FilterReply getFilterChainDecision(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#getFilterChainDecision(java.lang.Object)",
+      "signature": "ch.qos.logback.core.spi.FilterReply getFilterChainDecision(java.lang.Object)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#isStarted()",
+      "signature": "boolean isStarted()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#setContext(ch.qos.logback.core.Context)",
+      "signature": "void setContext(ch.qos.logback.core.Context)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#setName(java.lang.String)",
+      "signature": "void setName(java.lang.String)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.DelegateAppender#stop()",
+      "signature": "void stop()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getArgumentArray()",
+      "signature": "java.lang.Object[] getArgumentArray()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getCallerData()",
+      "signature": "java.lang.StackTraceElement[] getCallerData()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getFormattedMessage()",
+      "signature": "java.lang.String getFormattedMessage()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getLevel()",
+      "signature": "ch.qos.logback.classic.Level getLevel()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getLoggerContextVO()",
+      "signature": "ch.qos.logback.classic.spi.LoggerContextVO getLoggerContextVO()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getLoggerName()",
+      "signature": "java.lang.String getLoggerName()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getMDCPropertyMap()",
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getMDCPropertyMap()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getMarker()",
+      "signature": "org.slf4j.Marker getMarker()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getMdc()",
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getMdc()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getMessage()",
+      "signature": "java.lang.String getMessage()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getThreadName()",
+      "signature": "java.lang.String getThreadName()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getThrowableProxy()",
+      "signature": "ch.qos.logback.classic.spi.IThrowableProxy getThrowableProxy()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#getTimeStamp()",
+      "signature": "long getTimeStamp()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#hasCallerData()",
+      "signature": "boolean hasCallerData()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext#prepareForDeferredProcessing()",
+      "signature": "void prepareForDeferredProcessing()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getDsn()",
+      "signature": "java.lang.String getDsn()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getEnvironment()",
+      "signature": "java.util.Optional<java.lang.String> getEnvironment()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getExtra()",
+      "signature": "java.util.Optional<java.util.Map<java.lang.String, java.lang.Object>> getExtra()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getMdcTags()",
+      "signature": "java.util.Optional<java.util.Set<java.lang.String>> getMdcTags()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getRelease()",
+      "signature": "java.util.Optional<java.lang.String> getRelease()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getSentryClientFactory()",
+      "signature": "java.util.Optional<java.lang.String> getSentryClientFactory()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getServerName()",
+      "signature": "java.util.Optional<java.lang.String> getServerName()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getStacktraceAppPackages()",
+      "signature": "java.util.Optional<java.util.List<java.lang.String>> getStacktraceAppPackages()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#getTags()",
+      "signature": "java.util.Optional<java.util.Map<java.lang.String, java.lang.String>> getTags()"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setDsn(java.lang.String)",
+      "signature": "void setDsn(java.lang.String)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setEnvironment(java.util.Optional<java.lang.String>)",
+      "signature": "void setEnvironment(java.util.Optional<java.lang.String>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setExtra(java.util.Optional<java.util.Map<java.lang.String, java.lang.Object>>)",
+      "signature": "void setExtra(java.util.Optional<java.util.Map<java.lang.String, java.lang.Object>>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setMdcTags(java.util.Optional<java.util.Set<java.lang.String>>)",
+      "signature": "void setMdcTags(java.util.Optional<java.util.Set<java.lang.String>>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setRelease(java.util.Optional<java.lang.String>)",
+      "signature": "void setRelease(java.util.Optional<java.lang.String>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setSentryClientFactory(java.util.Optional<java.lang.String>)",
+      "signature": "void setSentryClientFactory(java.util.Optional<java.lang.String>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setServerName(java.util.Optional<java.lang.String>)",
+      "signature": "void setServerName(java.util.Optional<java.lang.String>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setStacktraceAppPackages(java.util.Optional<java.util.List<java.lang.String>>)",
+      "signature": "void setStacktraceAppPackages(java.util.Optional<java.util.List<java.lang.String>>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryAppenderFactory#setTags(java.util.Optional<java.util.Map<java.lang.String, java.lang.String>>)",
+      "signature": "void setTags(java.util.Optional<java.util.Map<java.lang.String, java.lang.String>>)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, boolean)",
+      "signature": "void bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, boolean)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+      "signature": "void bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+      "signature": "void bootstrap(java.lang.String, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.UncaughtExceptionHandlers$Exiter#uncaughtException(java.lang.Thread, java.lang.Throwable)",
+      "signature": "void uncaughtException(java.lang.Thread, java.lang.Throwable)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.dhatim.dropwizard.sentry.SentryConfigurator#configure(io.sentry.SentryOptions)",
+      "signature": "abstract void configure(io.sentry.SentryOptions)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)",
+      "signature": "void bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)"
+    },
+    {
+      "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)",
+      "signature": "void bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap",
+      "old": "void bootstrap(java.lang.String, java.util.Optional<java.lang.String>, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+      "new": "void bootstrap(java.lang.String, java.lang.String, java.lang.String, boolean)",
+      "old_key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.util.Optional<java.lang.String>, java.util.Optional<java.util.Set<java.lang.String>>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, java.util.Optional<java.lang.String>, boolean)",
+      "new_key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.lang.String, java.lang.String, boolean)"
+    }
+  ],
+  "counts": {
+    "old_methods": 65,
+    "new_methods": 10,
+    "removed": 58,
+    "added": 3,
+    "changed": 1
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.dhatim_dropwizard-sentry_2.0.22.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.dhatim_dropwizard-sentry_2.0.28-8.jar",
+  "group_id": "org.dhatim",
+  "artifact_id": "dropwizard-sentry",
+  "old_version": "2.0.22",
+  "new_version": "2.0.28-8",
+  "project": "pay-cardid"
+}

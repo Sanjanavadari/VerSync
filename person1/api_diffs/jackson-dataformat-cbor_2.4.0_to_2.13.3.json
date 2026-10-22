@@ -1,0 +1,345 @@
+{
+  "removed": [
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#_getBufferRecycler()",
+      "signature": "com.fasterxml.jackson.core.util.BufferRecycler _getBufferRecycler()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStringField(java.lang.String, java.lang.String)",
+      "signature": "void writeStringField(java.lang.String, java.lang.String)"
+    }
+  ],
+  "added": [
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#builder()",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder builder()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#canUseCharArrays()",
+      "signature": "boolean canUseCharArrays()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#getFormatGeneratorFeatures()",
+      "signature": "int getFormatGeneratorFeatures()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#getFormatParserFeatures()",
+      "signature": "int getFormatParserFeatures()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactory#rebuild()",
+      "signature": "com.fasterxml.jackson.core.TSFBuilder rebuild()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#build()",
+      "signature": "com.fasterxml.jackson.core.JsonFactory build()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#configure(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, boolean)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder configure(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, boolean)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#configure(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, boolean)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder configure(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, boolean)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#disable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder disable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#disable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature...)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder disable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature...)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#disable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder disable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#disable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature...)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder disable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature...)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#enable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder enable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#enable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature...)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder enable(com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature, com.fasterxml.jackson.dataformat.cbor.CBORGenerator$Feature...)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#enable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder enable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#enable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature...)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder enable(com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature, com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature...)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#formatGeneratorFeaturesMask()",
+      "signature": "int formatGeneratorFeaturesMask()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder#formatParserFeaturesMask()",
+      "signature": "int formatParserFeaturesMask()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#assignCurrentValue(java.lang.Object)",
+      "signature": "void assignCurrentValue(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#copyCurrentEvent(com.fasterxml.jackson.core.JsonParser)",
+      "signature": "void copyCurrentEvent(com.fasterxml.jackson.core.JsonParser)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#copyCurrentStructure(com.fasterxml.jackson.core.JsonParser)",
+      "signature": "void copyCurrentStructure(com.fasterxml.jackson.core.JsonParser)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#currentValue()",
+      "signature": "java.lang.Object currentValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#getCurrentValue()",
+      "signature": "java.lang.Object getCurrentValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#getFormatFeatures()",
+      "signature": "int getFormatFeatures()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#getOutputBuffered()",
+      "signature": "int getOutputBuffered()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#getOutputContext()",
+      "signature": "com.fasterxml.jackson.core.JsonStreamContext getOutputContext()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#getWriteCapabilities()",
+      "signature": "com.fasterxml.jackson.core.util.JacksonFeatureSet<com.fasterxml.jackson.core.StreamWriteCapability> getWriteCapabilities()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#overrideFormatFeatures(int, int)",
+      "signature": "com.fasterxml.jackson.core.JsonGenerator overrideFormatFeatures(int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#overrideStdFeatures(int, int)",
+      "signature": "com.fasterxml.jackson.core.JsonGenerator overrideStdFeatures(int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#setCurrentValue(java.lang.Object)",
+      "signature": "void setCurrentValue(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeArray(double[], int, int)",
+      "signature": "void writeArray(double[], int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeArray(int[], int, int)",
+      "signature": "void writeArray(int[], int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeArray(long[], int, int)",
+      "signature": "void writeArray(long[], int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeFieldId(long)",
+      "signature": "void writeFieldId(long)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartArray(int)",
+      "signature": "void writeStartArray(int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartArray(java.lang.Object)",
+      "signature": "void writeStartArray(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartArray(java.lang.Object, int)",
+      "signature": "void writeStartArray(java.lang.Object, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartObject(int)",
+      "signature": "void writeStartObject(int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartObject(java.lang.Object)",
+      "signature": "void writeStartObject(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeTag(int)",
+      "signature": "void writeTag(int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#_decodeSimpleValue(int, int)",
+      "signature": "com.fasterxml.jackson.core.JsonToken _decodeSimpleValue(int, int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#finishToken()",
+      "signature": "void finishToken()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#getCurrentTag()",
+      "signature": "int getCurrentTag()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#getFormatFeatures()",
+      "signature": "int getFormatFeatures()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#getNumberValueExact()",
+      "signature": "java.lang.Number getNumberValueExact()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#getReadCapabilities()",
+      "signature": "com.fasterxml.jackson.core.util.JacksonFeatureSet<com.fasterxml.jackson.core.StreamReadCapability> getReadCapabilities()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#getText(java.io.Writer)",
+      "signature": "int getText(java.io.Writer)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#isNaN()",
+      "signature": "boolean isNaN()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#nextFieldName()",
+      "signature": "java.lang.String nextFieldName()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#nextFieldName(com.fasterxml.jackson.core.SerializableString)",
+      "signature": "boolean nextFieldName(com.fasterxml.jackson.core.SerializableString)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser#nextTextValue()",
+      "signature": "java.lang.String nextTextValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORParser$Feature#enabledIn(int)",
+      "signature": "boolean enabledIn(int)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORReadContext#getCurrentValue()",
+      "signature": "java.lang.Object getCurrentValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORReadContext#getRemainingExpectedLength()",
+      "signature": "int getRemainingExpectedLength()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORReadContext#setCurrentValue(java.lang.Object)",
+      "signature": "void setCurrentValue(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORReadContext#startLocation(com.fasterxml.jackson.core.io.ContentReference)",
+      "signature": "com.fasterxml.jackson.core.JsonLocation startLocation(com.fasterxml.jackson.core.io.ContentReference)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORSimpleValue#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORSimpleValue#getValue()",
+      "signature": "int getValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORSimpleValue#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORSimpleValue#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#clearAndGetParent()",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext clearAndGetParent()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#createChildArrayContext(java.lang.Object)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext createChildArrayContext(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#createChildObjectContext(java.lang.Object)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext createChildObjectContext(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#createRootContext(com.fasterxml.jackson.core.json.DupDetector)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext createRootContext(com.fasterxml.jackson.core.json.DupDetector)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#getCurrentName()",
+      "signature": "java.lang.String getCurrentName()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#getCurrentValue()",
+      "signature": "java.lang.Object getCurrentValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#getDupDetector()",
+      "signature": "com.fasterxml.jackson.core.json.DupDetector getDupDetector()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#getParent()",
+      "signature": "com.fasterxml.jackson.core.JsonStreamContext getParent()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#hasCurrentName()",
+      "signature": "boolean hasCurrentName()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#setCurrentValue(java.lang.Object)",
+      "signature": "void setCurrentValue(java.lang.Object)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#withDupDetector(com.fasterxml.jackson.core.json.DupDetector)",
+      "signature": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext withDupDetector(com.fasterxml.jackson.core.json.DupDetector)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#writeFieldId(long)",
+      "signature": "boolean writeFieldId(long)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#writeFieldName(java.lang.String)",
+      "signature": "boolean writeFieldName(java.lang.String)"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext#writeValue()",
+      "signature": "boolean writeValue()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper#copy()",
+      "signature": "com.fasterxml.jackson.databind.ObjectMapper copy()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper#getFactory()",
+      "signature": "com.fasterxml.jackson.core.JsonFactory getFactory()"
+    },
+    {
+      "key": "com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper#version()",
+      "signature": "com.fasterxml.jackson.core.Version version()"
+    }
+  ],
+  "changed": [
+    {
+      "name": "com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper#constructParser",
+      "old": "com.fasterxml.jackson.dataformat.cbor.CBORParser constructParser(int, int, boolean, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer)",
+      "new": "com.fasterxml.jackson.dataformat.cbor.CBORParser constructParser(int, int, int, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer)",
+      "old_key": "com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper#constructParser(int, int, boolean, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer)",
+      "new_key": "com.fasterxml.jackson.dataformat.cbor.CBORParserBootstrapper#constructParser(int, int, int, com.fasterxml.jackson.core.ObjectCodec, com.fasterxml.jackson.core.sym.ByteQuadsCanonicalizer)"
+    }
+  ],
+  "counts": {
+    "old_methods": 121,
+    "new_methods": 196,
+    "removed": 2,
+    "added": 77,
+    "changed": 1
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.4.0.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.13.3.jar",
+  "group_id": "com.fasterxml.jackson.dataformat",
+  "artifact_id": "jackson-dataformat-cbor",
+  "old_version": "2.4.0",
+  "new_version": "2.13.3",
+  "project": "avans"
+}

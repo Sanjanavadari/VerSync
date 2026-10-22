@@ -1,0 +1,863 @@
+{
+  "removed": [
+    {
+      "key": "ch.qos.logback.classic.BasicConfigurator#configure(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void configure(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.ColumnName#valueOf(java.lang.String)",
+      "signature": "ch.qos.logback.classic.db.names.ColumnName valueOf(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.ColumnName#values()",
+      "signature": "ch.qos.logback.classic.db.names.ColumnName[] values()"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.DBNameResolver#getColumnName(N)",
+      "signature": "abstract <N extends java.lang.Enum<?>> java.lang.String getColumnName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.DBNameResolver#getTableName(N)",
+      "signature": "abstract <N extends java.lang.Enum<?>> java.lang.String getTableName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.DefaultDBNameResolver#getColumnName(N)",
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getColumnName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.DefaultDBNameResolver#getTableName(N)",
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getTableName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#getColumnName(N)",
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getColumnName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#getTableName(N)",
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getTableName(N)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#setColumnNamePrefix(java.lang.String)",
+      "signature": "void setColumnNamePrefix(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#setColumnNameSuffix(java.lang.String)",
+      "signature": "void setColumnNameSuffix(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#setTableNamePrefix(java.lang.String)",
+      "signature": "void setTableNamePrefix(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.SimpleDBNameResolver#setTableNameSuffix(java.lang.String)",
+      "signature": "void setTableNameSuffix(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.TableName#valueOf(java.lang.String)",
+      "signature": "ch.qos.logback.classic.db.names.TableName valueOf(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.db.names.TableName#values()",
+      "signature": "ch.qos.logback.classic.db.names.TableName[] values()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#getLoggerEffectiveLevel(java.lang.String)",
+      "signature": "java.lang.String getLoggerEffectiveLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#getLoggerLevel(java.lang.String)",
+      "signature": "java.lang.String getLoggerLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#getLoggerList()",
+      "signature": "java.util.List<java.lang.String> getLoggerList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#getStatuses()",
+      "signature": "java.util.List<java.lang.String> getStatuses()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#isResetResistant()",
+      "signature": "boolean isResetResistant()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#onLevelChange(ch.qos.logback.classic.Logger, ch.qos.logback.classic.Level)",
+      "signature": "void onLevelChange(ch.qos.logback.classic.Logger, ch.qos.logback.classic.Level)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#onReset(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void onReset(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#onStart(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void onStart(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#onStop(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void onStop(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#reloadByFileName(java.lang.String)",
+      "signature": "void reloadByFileName(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#reloadByURL(java.net.URL)",
+      "signature": "void reloadByURL(java.net.URL)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#reloadDefaultConfiguration()",
+      "signature": "void reloadDefaultConfiguration()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#setLoggerLevel(java.lang.String, java.lang.String)",
+      "signature": "void setLoggerLevel(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfigurator#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerEffectiveLevel(java.lang.String)",
+      "signature": "abstract java.lang.String getLoggerEffectiveLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerLevel(java.lang.String)",
+      "signature": "abstract java.lang.String getLoggerLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerList()",
+      "signature": "abstract java.util.List<java.lang.String> getLoggerList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getStatuses()",
+      "signature": "abstract java.util.List<java.lang.String> getStatuses()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadByFileName(java.lang.String)",
+      "signature": "abstract void reloadByFileName(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadByURL(java.net.URL)",
+      "signature": "abstract void reloadByURL(java.net.URL)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadDefaultConfiguration()",
+      "signature": "abstract void reloadDefaultConfiguration()"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#setLoggerLevel(java.lang.String, java.lang.String)",
+      "signature": "abstract void setLoggerLevel(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.MBeanUtil#createAndRegisterJMXConfigurator(javax.management.MBeanServer, ch.qos.logback.classic.LoggerContext, ch.qos.logback.classic.jmx.JMXConfigurator, javax.management.ObjectName, java.lang.Object)",
+      "signature": "void createAndRegisterJMXConfigurator(javax.management.MBeanServer, ch.qos.logback.classic.LoggerContext, ch.qos.logback.classic.jmx.JMXConfigurator, javax.management.ObjectName, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.MBeanUtil#getObjectNameFor(java.lang.String, java.lang.Class)",
+      "signature": "java.lang.String getObjectNameFor(java.lang.String, java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.MBeanUtil#isRegistered(javax.management.MBeanServer, javax.management.ObjectName)",
+      "signature": "boolean isRegistered(javax.management.MBeanServer, javax.management.ObjectName)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.MBeanUtil#string2ObjectName(ch.qos.logback.core.Context, java.lang.Object, java.lang.String)",
+      "signature": "javax.management.ObjectName string2ObjectName(ch.qos.logback.core.Context, java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.jmx.MBeanUtil#unregister(ch.qos.logback.classic.LoggerContext, javax.management.MBeanServer, javax.management.ObjectName, java.lang.Object)",
+      "signature": "void unregister(ch.qos.logback.classic.LoggerContext, javax.management.MBeanServer, javax.management.ObjectName, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.JoranConfigurator#addInstanceRules(ch.qos.logback.core.joran.spi.RuleStore)",
+      "signature": "void addInstanceRules(ch.qos.logback.core.joran.spi.RuleStore)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ConfigurationAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ConfigurationAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ContextNameAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ContextNameAction#body(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void body(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ContextNameAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.InsertFromJNDIAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.JMXConfiguratorAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.JMXConfiguratorAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LevelAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LevelAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LevelAction#finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+      "signature": "void finish(ch.qos.logback.core.joran.spi.InterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LoggerAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LoggerAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LoggerAction#finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+      "signature": "void finish(ch.qos.logback.core.joran.spi.InterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.LoggerContextListenerAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ReceiverAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.ReceiverAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.RootLoggerAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.RootLoggerAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.action.RootLoggerAction#finish(ch.qos.logback.core.joran.spi.InterpretationContext)",
+      "signature": "void finish(ch.qos.logback.core.joran.spi.InterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.AppenderFactoryUsingJoran#getSiftingJoranConfigurator(java.lang.String)",
+      "signature": "ch.qos.logback.core.sift.SiftingJoranConfiguratorBase<ch.qos.logback.classic.spi.ILoggingEvent> getSiftingJoranConfigurator(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.SiftAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "signature": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.SiftAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "signature": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.SiftAction#getSeList()",
+      "signature": "java.util.List<ch.qos.logback.core.joran.event.SaxEvent> getSeList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.SiftAction#inPlay(ch.qos.logback.core.joran.event.SaxEvent)",
+      "signature": "void inPlay(ch.qos.logback.core.joran.event.SaxEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.sift.SiftingJoranConfigurator#getAppender()",
+      "signature": "ch.qos.logback.core.Appender<ch.qos.logback.classic.spi.ILoggingEvent> getAppender()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.Configurator#configure(ch.qos.logback.classic.LoggerContext)",
+      "signature": "abstract void configure(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getMarker()",
+      "signature": "org.slf4j.Marker getMarker()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#setMarker(org.slf4j.Marker)",
+      "signature": "void setMarker(org.slf4j.Marker)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEventVO#getMarker()",
+      "signature": "org.slf4j.Marker getMarker()"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.ContextInitializer#findURLOfDefaultConfigurationFile(boolean)",
+      "signature": "java.net.URL findURLOfDefaultConfigurationFile(boolean)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.DefaultNestedComponentRules#addDefaultNestedComponentRegistryRules(ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry)",
+      "signature": "void addDefaultNestedComponentRegistryRules(ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.EnvUtil#isGroovyAvailable()",
+      "signature": "boolean isGroovyAvailable()"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.EnvUtil#loadFromServiceLoader(java.lang.Class<T>)",
+      "signature": "<T> T loadFromServiceLoader(java.lang.Class<T>)"
+    },
+    {
+      "key": "org.slf4j.impl.StaticLoggerBinder#getLoggerFactory()",
+      "signature": "org.slf4j.ILoggerFactory getLoggerFactory()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticLoggerBinder#getLoggerFactoryClassStr()",
+      "signature": "java.lang.String getLoggerFactoryClassStr()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticLoggerBinder#getSingleton()",
+      "signature": "org.slf4j.impl.StaticLoggerBinder getSingleton()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticMDCBinder#getMDCA()",
+      "signature": "org.slf4j.spi.MDCAdapter getMDCA()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticMDCBinder#getMDCAdapterClassStr()",
+      "signature": "java.lang.String getMDCAdapterClassStr()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticMarkerBinder#getMarkerFactory()",
+      "signature": "org.slf4j.IMarkerFactory getMarkerFactory()"
+    },
+    {
+      "key": "org.slf4j.impl.StaticMarkerBinder#getMarkerFactoryClassStr()",
+      "signature": "java.lang.String getMarkerFactoryClassStr()"
+    }
+  ],
+  "added": [
+    {
+      "key": "ch.qos.logback.classic.Level#convertAnSLF4JLevel(org.slf4j.event.Level)",
+      "signature": "ch.qos.logback.classic.Level convertAnSLF4JLevel(org.slf4j.event.Level)"
+    },
+    {
+      "key": "ch.qos.logback.classic.Logger#makeLoggingEventBuilder(org.slf4j.event.Level)",
+      "signature": "org.slf4j.spi.LoggingEventBuilder makeLoggingEventBuilder(org.slf4j.event.Level)"
+    },
+    {
+      "key": "ch.qos.logback.classic.LoggerContext#getSequenceNumberGenerator()",
+      "signature": "ch.qos.logback.core.spi.SequenceNumberGenerator getSequenceNumberGenerator()"
+    },
+    {
+      "key": "ch.qos.logback.classic.LoggerContext#setSequenceNumberGenerator(ch.qos.logback.core.spi.SequenceNumberGenerator)",
+      "signature": "void setSequenceNumberGenerator(ch.qos.logback.core.spi.SequenceNumberGenerator)"
+    },
+    {
+      "key": "ch.qos.logback.classic.helpers.WithLayoutListAppender#getPattern()",
+      "signature": "java.lang.String getPattern()"
+    },
+    {
+      "key": "ch.qos.logback.classic.helpers.WithLayoutListAppender#setPattern(java.lang.String)",
+      "signature": "void setPattern(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.helpers.WithLayoutListAppender#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "ch.qos.logback.classic.joran.JoranConfigurator#addElementSelectorAndActionAssociations(ch.qos.logback.core.joran.spi.RuleStore)",
+      "signature": "void addElementSelectorAndActionAssociations(ch.qos.logback.core.joran.spi.RuleStore)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#getDebugStr()",
+      "signature": "java.lang.String getDebugStr()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#getPackagingDataStr()",
+      "signature": "java.lang.String getPackagingDataStr()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#getScanPeriodStr()",
+      "signature": "java.lang.String getScanPeriodStr()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#getScanStr()",
+      "signature": "java.lang.String getScanStr()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#setDebugStr(java.lang.String)",
+      "signature": "void setDebugStr(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#setPackagingDataStr(java.lang.String)",
+      "signature": "void setPackagingDataStr(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#setScanPeriodStr(java.lang.String)",
+      "signature": "void setScanPeriodStr(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.ConfigurationModel#setScanStr(java.lang.String)",
+      "signature": "void setScanStr(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LevelModel#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LevelModel#getValue()",
+      "signature": "java.lang.String getValue()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LevelModel#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LevelModel#setValue(java.lang.String)",
+      "signature": "void setValue(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#getAdditivity()",
+      "signature": "java.lang.String getAdditivity()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#getLevel()",
+      "signature": "java.lang.String getLevel()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#setAdditivity(java.lang.String)",
+      "signature": "void setAdditivity(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#setLevel(java.lang.String)",
+      "signature": "void setLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#setName(java.lang.String)",
+      "signature": "void setName(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.LoggerModel#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.RootLoggerModel#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.RootLoggerModel#getLevel()",
+      "signature": "java.lang.String getLevel()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.RootLoggerModel#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.RootLoggerModel#setLevel(java.lang.String)",
+      "signature": "void setLevel(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ConfigurationModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ConfigurationModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ContextNameModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ContextNameModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LevelModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LevelModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LogbackClassicDefaultNestedComponentRules#addDefaultNestedComponentRegistryRules(ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry)",
+      "signature": "void addDefaultNestedComponentRegistryRules(ch.qos.logback.core.joran.spi.DefaultNestedComponentRegistry)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LogbackClassicDefaultNestedComponentRules#createTuplesList()",
+      "signature": "java.util.List<ch.qos.logback.core.joran.util.ParentTag_Tag_Class_Tuple> createTuplesList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerContextListenerModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerContextListenerModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerContextListenerModelHandler#postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.LoggerModelHandler#postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ReceiverModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ReceiverModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.ReceiverModelHandler#postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.RootLoggerModelHandler#handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void handle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.RootLoggerModelHandler#makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)",
+      "signature": "ch.qos.logback.core.model.processor.ModelHandlerBase makeInstance(ch.qos.logback.core.Context, ch.qos.logback.core.model.processor.ModelInterpretationContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.processor.RootLoggerModelHandler#postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)",
+      "signature": "void postHandle(ch.qos.logback.core.model.processor.ModelInterpretationContext, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.model.util.DefaultClassNameHelper#injectDefaultComponentClasses(ch.qos.logback.core.model.Model, ch.qos.logback.core.model.Model)",
+      "signature": "void injectDefaultComponentClasses(ch.qos.logback.core.model.Model, ch.qos.logback.core.model.Model)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.EnsureExceptionHandling#compositeHandlesThrowable(ch.qos.logback.core.pattern.CompositeConverter<ch.qos.logback.classic.spi.ILoggingEvent>)",
+      "signature": "boolean compositeHandlesThrowable(ch.qos.logback.core.pattern.CompositeConverter<ch.qos.logback.classic.spi.ILoggingEvent>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.KeyValuePairConverter#convert(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "java.lang.String convert(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.KeyValuePairConverter#convert(java.lang.Object)",
+      "signature": "java.lang.String convert(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.KeyValuePairConverter#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.MicrosecondConverter#convert(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "java.lang.String convert(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.MicrosecondConverter#convert(java.lang.Object)",
+      "signature": "java.lang.String convert(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.NamedConverter#getCacheMissRate()",
+      "signature": "double getCacheMissRate()"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.NamedConverter#getCacheMisses()",
+      "signature": "int getCacheMisses()"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.SequenceNumberConverter#convert(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "java.lang.String convert(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.SequenceNumberConverter#convert(java.lang.Object)",
+      "signature": "java.lang.String convert(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.SequenceNumberConverter#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "ch.qos.logback.classic.pattern.TargetLengthBasedClassNameAbbreviator2#abbreviate(java.lang.String)",
+      "signature": "java.lang.String abbreviate(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ILoggingEvent#getInstant()",
+      "signature": "default java.time.Instant getInstant()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ILoggingEvent#getKeyValuePairs()",
+      "signature": "abstract java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ILoggingEvent#getMarkerList()",
+      "signature": "abstract java.util.List<org.slf4j.Marker> getMarkerList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ILoggingEvent#getNanoseconds()",
+      "signature": "abstract int getNanoseconds()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ILoggingEvent#getSequenceNumber()",
+      "signature": "abstract long getSequenceNumber()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.IThrowableProxy#isCyclic()",
+      "signature": "abstract boolean isCyclic()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#getLoggerFactory()",
+      "signature": "org.slf4j.ILoggerFactory getLoggerFactory()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#getMDCAdapter()",
+      "signature": "org.slf4j.spi.MDCAdapter getMDCAdapter()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#getMarkerFactory()",
+      "signature": "org.slf4j.IMarkerFactory getMarkerFactory()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#getRequestedApiVersion()",
+      "signature": "java.lang.String getRequestedApiVersion()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#initialize()",
+      "signature": "void initialize()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#addKeyValuePair(org.slf4j.event.KeyValuePair)",
+      "signature": "void addKeyValuePair(org.slf4j.event.KeyValuePair)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#addMarker(org.slf4j.Marker)",
+      "signature": "void addMarker(org.slf4j.Marker)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getInstant()",
+      "signature": "java.time.Instant getInstant()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getKeyValuePairs()",
+      "signature": "java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getMarkerList()",
+      "signature": "java.util.List<org.slf4j.Marker> getMarkerList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getNanoseconds()",
+      "signature": "int getNanoseconds()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#getSequenceNumber()",
+      "signature": "long getSequenceNumber()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#setInstant(java.time.Instant)",
+      "signature": "void setInstant(java.time.Instant)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#setKeyValuePairs(java.util.List<org.slf4j.event.KeyValuePair>)",
+      "signature": "void setKeyValuePairs(java.util.List<org.slf4j.event.KeyValuePair>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#setLoggerContext(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void setLoggerContext(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEvent#setSquenceNumber(long)",
+      "signature": "void setSquenceNumber(long)"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEventVO#getKeyValuePairs()",
+      "signature": "java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEventVO#getMarkerList()",
+      "signature": "java.util.List<org.slf4j.Marker> getMarkerList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEventVO#getNanoseconds()",
+      "signature": "int getNanoseconds()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.LoggingEventVO#getSequenceNumber()",
+      "signature": "long getSequenceNumber()"
+    },
+    {
+      "key": "ch.qos.logback.classic.spi.ThrowableProxyVO#isCyclic()",
+      "signature": "boolean isCyclic()"
+    },
+    {
+      "key": "ch.qos.logback.classic.turbo.MDCFilter#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.ClassicEnvUtil#isGroovyAvailable()",
+      "signature": "boolean isGroovyAvailable()"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.ClassicEnvUtil#loadFromServiceLoader(java.lang.Class<T>, java.lang.ClassLoader)",
+      "signature": "<T> java.util.List<T> loadFromServiceLoader(java.lang.Class<T>, java.lang.ClassLoader)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.ContextInitializer#autoConfig(java.lang.ClassLoader)",
+      "signature": "void autoConfig(java.lang.ClassLoader)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.DefaultJoranConfigurator#configureByResource(java.net.URL)",
+      "signature": "void configureByResource(java.net.URL)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.DefaultJoranConfigurator#findURLOfDefaultConfigurationFile(boolean)",
+      "signature": "java.net.URL findURLOfDefaultConfigurationFile(boolean)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.LogbackMDCAdapter#clearDequeByKey(java.lang.String)",
+      "signature": "void clearDequeByKey(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.LogbackMDCAdapter#getCopyOfDequeByKey(java.lang.String)",
+      "signature": "java.util.Deque<java.lang.String> getCopyOfDequeByKey(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.LogbackMDCAdapter#popByKey(java.lang.String)",
+      "signature": "java.lang.String popByKey(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.LogbackMDCAdapter#pushByKey(java.lang.String, java.lang.String)",
+      "signature": "void pushByKey(java.lang.String, java.lang.String)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#doFilter",
+      "old": "void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)",
+      "new": "void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)",
+      "old_key": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)",
+      "new_key": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)"
+    },
+    {
+      "name": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#init",
+      "old": "void init(javax.servlet.FilterConfig)",
+      "new": "void init(jakarta.servlet.FilterConfig)",
+      "old_key": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#init(javax.servlet.FilterConfig)",
+      "new_key": "ch.qos.logback.classic.helpers.MDCInsertingServletFilter#init(jakarta.servlet.FilterConfig)"
+    },
+    {
+      "name": "ch.qos.logback.classic.joran.action.ConsolePluginAction#begin",
+      "old": "void begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "new": "void begin(ch.qos.logback.core.joran.spi.SaxEventInterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "old_key": "ch.qos.logback.classic.joran.action.ConsolePluginAction#begin(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String, org.xml.sax.Attributes)",
+      "new_key": "ch.qos.logback.classic.joran.action.ConsolePluginAction#begin(ch.qos.logback.core.joran.spi.SaxEventInterpretationContext, java.lang.String, org.xml.sax.Attributes)"
+    },
+    {
+      "name": "ch.qos.logback.classic.joran.action.ConsolePluginAction#end",
+      "old": "void end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "new": "void end(ch.qos.logback.core.joran.spi.SaxEventInterpretationContext, java.lang.String)",
+      "old_key": "ch.qos.logback.classic.joran.action.ConsolePluginAction#end(ch.qos.logback.core.joran.spi.InterpretationContext, java.lang.String)",
+      "new_key": "ch.qos.logback.classic.joran.action.ConsolePluginAction#end(ch.qos.logback.core.joran.spi.SaxEventInterpretationContext, java.lang.String)"
+    },
+    {
+      "name": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextDestroyed",
+      "old": "void contextDestroyed(javax.servlet.ServletContextEvent)",
+      "new": "void contextDestroyed(jakarta.servlet.ServletContextEvent)",
+      "old_key": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextDestroyed(javax.servlet.ServletContextEvent)",
+      "new_key": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextDestroyed(jakarta.servlet.ServletContextEvent)"
+    },
+    {
+      "name": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextInitialized",
+      "old": "void contextInitialized(javax.servlet.ServletContextEvent)",
+      "new": "void contextInitialized(jakarta.servlet.ServletContextEvent)",
+      "old_key": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextInitialized(javax.servlet.ServletContextEvent)",
+      "new_key": "ch.qos.logback.classic.selector.servlet.ContextDetachingSCL#contextInitialized(jakarta.servlet.ServletContextEvent)"
+    },
+    {
+      "name": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#doFilter",
+      "old": "void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)",
+      "new": "void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)",
+      "old_key": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)",
+      "new_key": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)"
+    },
+    {
+      "name": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#init",
+      "old": "void init(javax.servlet.FilterConfig)",
+      "new": "void init(jakarta.servlet.FilterConfig)",
+      "old_key": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#init(javax.servlet.FilterConfig)",
+      "new_key": "ch.qos.logback.classic.selector.servlet.LoggerContextFilter#init(jakarta.servlet.FilterConfig)"
+    },
+    {
+      "name": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer#onStartup",
+      "old": "void onStartup(java.util.Set<java.lang.Class<?>>, javax.servlet.ServletContext)",
+      "new": "void onStartup(java.util.Set<java.lang.Class<?>>, jakarta.servlet.ServletContext)",
+      "old_key": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer#onStartup(java.util.Set<java.lang.Class<?>>, javax.servlet.ServletContext)",
+      "new_key": "ch.qos.logback.classic.servlet.LogbackServletContainerInitializer#onStartup(java.util.Set<java.lang.Class<?>>, jakarta.servlet.ServletContext)"
+    },
+    {
+      "name": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextDestroyed",
+      "old": "void contextDestroyed(javax.servlet.ServletContextEvent)",
+      "new": "void contextDestroyed(jakarta.servlet.ServletContextEvent)",
+      "old_key": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextDestroyed(javax.servlet.ServletContextEvent)",
+      "new_key": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextDestroyed(jakarta.servlet.ServletContextEvent)"
+    },
+    {
+      "name": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextInitialized",
+      "old": "void contextInitialized(javax.servlet.ServletContextEvent)",
+      "new": "void contextInitialized(jakarta.servlet.ServletContextEvent)",
+      "old_key": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextInitialized(javax.servlet.ServletContextEvent)",
+      "new_key": "ch.qos.logback.classic.servlet.LogbackServletContextListener#contextInitialized(jakarta.servlet.ServletContextEvent)"
+    }
+  ],
+  "counts": {
+    "old_methods": 625,
+    "new_methods": 644,
+    "removed": 86,
+    "added": 105,
+    "changed": 11
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\ch.qos.logback_logback-classic_1.2.11.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\ch.qos.logback_logback-classic_1.4.1.jar",
+  "group_id": "ch.qos.logback",
+  "artifact_id": "logback-classic",
+  "old_version": "1.2.11",
+  "new_version": "1.4.1",
+  "project": "pay-adminusers"
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "bump_breaking",
+  "project": "jspc-maven-plugin",
+  "pr_url": "https://github.com/leonardehrenfried/jspc-maven-plugin/pull/165",
+  "dependency": "org.codehaus.plexus:plexus-utils",
+  "old_version": "3.5.1",
+  "new_version": "4.0.0",
+  "failure_category": "TEST_FAILURE",
+  "github_compare": "https://github.com/codehaus-plexus/plexus-utils/compare/plexus-utils-3.5.1...plexus-utils-4.0.0",
+  "maven_source_link": "",
+  "sources": [
+    "bump_compare_link"
+  ],
+  "sections": {
+    "github_compare_link": "https://github.com/codehaus-plexus/plexus-utils/compare/plexus-utils-3.5.1...plexus-utils-4.0.0"
+  },
+  "evidence_status": "LINK_ONLY",
+  "source_json": "125f1253d8331f14752a4a8d49559445301ab02d.json",
+  "comparison_evidence": {
+    "url": "https://github.com/codehaus-plexus/plexus-utils/compare/plexus-utils-3.5.1...plexus-utils-4.0.0",
+    "status": "EXTRACTED",
+    "commit_messages": [
+      "[maven-release-plugin] prepare for next development iteration",
+      "View commit details",
+      "Delete codeql-analysis.yml",
+      "Bump shared ci workflow to v0.0.5",
+      "Bump maven-resources-plugin from 2.7 to 3.3.1 (",
+      ")",
+      "remove xml package for plexus-utils 4",
+      "Add dependency on plexus-xml to keep compatibility and deprecate the …",
+      "link to plexus-xml Git repo",
+      "Add deploy job",
+      "Add ossrh snapshot repository",
+      "Use codehaus-plexus workflow",
+      "Switch build ci workflow to master branch (",
+      "Remove unused/unmaintained jira export (",
+      "Switch to junit 5 (",
+      "Fix false difference detected with CachingOutputStream/CachingWriter …",
+      "Fix non contiguous imports (",
+      "Fix SCM information (",
+      "Update to parent 13",
+      "Reformat using spotless:apply",
+      "Switch to released version of plexus-xml 4.0.0",
+      "[maven-release-plugin] prepare release plexus-utils-4.0.0"
+    ],
+    "http_status": 200
+  }
+}

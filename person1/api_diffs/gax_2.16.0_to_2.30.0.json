@@ -1,0 +1,57 @@
+{
+  "removed": [
+    {
+      "key": "com.google.api.gax.nativeimage.substitutions.ApiClientVersionSubstitutions#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.google.api.gax.nativeimage.substitutions.ApiClientVersionSubstitutions$OnlyIfInClassPath#getAsBoolean()",
+      "signature": "boolean getAsBoolean()"
+    },
+    {
+      "key": "com.google.api.gax.nativeimage.substitutions.GaxPropertiesSubstitutions$OnlyIfInClassPath#getAsBoolean()",
+      "signature": "boolean getAsBoolean()"
+    }
+  ],
+  "added": [
+    {
+      "key": "com.google.api.gax.paging.Page#streamAll()",
+      "signature": "default java.util.stream.Stream<ResourceT> streamAll()"
+    },
+    {
+      "key": "com.google.api.gax.paging.Page#streamValues()",
+      "signature": "default java.util.stream.Stream<ResourceT> streamValues()"
+    },
+    {
+      "key": "com.google.api.gax.rpc.RequestParamsBuilder#add(java.lang.String, java.lang.String)",
+      "signature": "void add(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "com.google.api.gax.rpc.ServerStream#stream()",
+      "signature": "java.util.stream.Stream<V> stream()"
+    },
+    {
+      "key": "com.google.api.gax.rpc.ServerStreamingCallSettings#getWaitTimeout()",
+      "signature": "org.threeten.bp.Duration getWaitTimeout()"
+    },
+    {
+      "key": "com.google.api.gax.rpc.ServerStreamingCallSettings$Builder#getWaitTimeout()",
+      "signature": "org.threeten.bp.Duration getWaitTimeout()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 971,
+    "new_methods": 974,
+    "removed": 3,
+    "added": 6,
+    "changed": 0
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.google.api_gax_2.16.0.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.google.api_gax_2.30.0.jar",
+  "group_id": "com.google.api",
+  "artifact_id": "gax",
+  "old_version": "2.16.0",
+  "new_version": "2.30.0",
+  "project": "snowflake-jdbc"
+}

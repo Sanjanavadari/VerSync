@@ -1,0 +1,433 @@
+{
+  "removed": [
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions$FlowStyle#getStyleBoolean()",
+      "signature": "java.lang.Boolean getStyleBoolean()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.TypeDescription#getListPropertyType(java.lang.String)",
+      "signature": "java.lang.Class<? extends java.lang.Object> getListPropertyType(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.TypeDescription#getMapKeyType(java.lang.String)",
+      "signature": "java.lang.Class<? extends java.lang.Object> getMapKeyType(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.TypeDescription#getMapValueType(java.lang.String)",
+      "signature": "java.lang.Class<? extends java.lang.Object> getMapValueType(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.TypeDescription#setTag(java.lang.String)",
+      "signature": "void setTag(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.TypeDescription#setTag(org.yaml.snakeyaml.nodes.Tag)",
+      "signature": "void setTag(org.yaml.snakeyaml.nodes.Tag)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.Reader, java.lang.Class<T>)",
+      "signature": "<T> T loadAs(java.io.Reader, java.lang.Class<T>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#loadAs(java.lang.String, java.lang.Class<T>)",
+      "signature": "<T> T loadAs(java.lang.String, java.lang.Class<T>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.AliasEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.DocumentEndEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.DocumentStartEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.MappingEndEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.MappingStartEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.ScalarEvent#getStyle()",
+      "signature": "java.lang.Character getStyle()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.ScalarEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.SequenceEndEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.SequenceStartEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.StreamEndEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.StreamStartEvent#is(org.yaml.snakeyaml.events.Event$ID)",
+      "signature": "boolean is(org.yaml.snakeyaml.events.Event$ID)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#isResolved()",
+      "signature": "boolean isResolved()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.ScalarNode#getStyle()",
+      "signature": "java.lang.Character getStyle()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions#getIndentWithIndicator()",
+      "signature": "boolean getIndentWithIndicator()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions#isProcessComments()",
+      "signature": "boolean isProcessComments()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions#setIndentWithIndicator(boolean)",
+      "signature": "void setIndentWithIndicator(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions#setNonPrintableStyle(org.yaml.snakeyaml.DumperOptions$NonPrintableStyle)",
+      "signature": "void setNonPrintableStyle(org.yaml.snakeyaml.DumperOptions$NonPrintableStyle)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.DumperOptions#setProcessComments(boolean)",
+      "signature": "void setProcessComments(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#getAllowRecursiveKeys()",
+      "signature": "boolean getAllowRecursiveKeys()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#getCodePointLimit()",
+      "signature": "int getCodePointLimit()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#getMaxAliasesForCollections()",
+      "signature": "int getMaxAliasesForCollections()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#getNestingDepthLimit()",
+      "signature": "int getNestingDepthLimit()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#getTagInspector()",
+      "signature": "org.yaml.snakeyaml.inspector.TagInspector getTagInspector()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#isEnumCaseSensitive()",
+      "signature": "boolean isEnumCaseSensitive()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#isProcessComments()",
+      "signature": "boolean isProcessComments()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setAllowRecursiveKeys(boolean)",
+      "signature": "void setAllowRecursiveKeys(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setCodePointLimit(int)",
+      "signature": "void setCodePointLimit(int)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setEnumCaseSensitive(boolean)",
+      "signature": "void setEnumCaseSensitive(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setMaxAliasesForCollections(int)",
+      "signature": "void setMaxAliasesForCollections(int)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setNestingDepthLimit(int)",
+      "signature": "void setNestingDepthLimit(int)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setProcessComments(boolean)",
+      "signature": "org.yaml.snakeyaml.LoaderOptions setProcessComments(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.LoaderOptions#setTagInspector(org.yaml.snakeyaml.inspector.TagInspector)",
+      "signature": "void setTagInspector(org.yaml.snakeyaml.inspector.TagInspector)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#addImplicitResolver(org.yaml.snakeyaml.nodes.Tag, java.util.regex.Pattern, java.lang.String, int)",
+      "signature": "void addImplicitResolver(org.yaml.snakeyaml.nodes.Tag, java.util.regex.Pattern, java.lang.String, int)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.Reader, java.lang.Class<? super T>)",
+      "signature": "<T> T loadAs(java.io.Reader, java.lang.Class<? super T>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#loadAs(java.lang.String, java.lang.Class<? super T>)",
+      "signature": "<T> T loadAs(java.lang.String, java.lang.Class<? super T>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.Yaml#serialize(org.yaml.snakeyaml.nodes.Node, java.io.Writer)",
+      "signature": "void serialize(org.yaml.snakeyaml.nodes.Node, java.io.Writer)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentEventsCollector#collectEvents()",
+      "signature": "org.yaml.snakeyaml.comments.CommentEventsCollector collectEvents()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentEventsCollector#collectEvents(org.yaml.snakeyaml.events.Event)",
+      "signature": "org.yaml.snakeyaml.events.Event collectEvents(org.yaml.snakeyaml.events.Event)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentEventsCollector#collectEventsAndPoll(org.yaml.snakeyaml.events.Event)",
+      "signature": "org.yaml.snakeyaml.events.Event collectEventsAndPoll(org.yaml.snakeyaml.events.Event)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentEventsCollector#consume()",
+      "signature": "java.util.List<org.yaml.snakeyaml.comments.CommentLine> consume()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentEventsCollector#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentLine#getCommentType()",
+      "signature": "org.yaml.snakeyaml.comments.CommentType getCommentType()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentLine#getEndMark()",
+      "signature": "org.yaml.snakeyaml.error.Mark getEndMark()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentLine#getStartMark()",
+      "signature": "org.yaml.snakeyaml.error.Mark getStartMark()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentLine#getValue()",
+      "signature": "java.lang.String getValue()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentLine#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentType#valueOf(java.lang.String)",
+      "signature": "org.yaml.snakeyaml.comments.CommentType valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.comments.CommentType#values()",
+      "signature": "org.yaml.snakeyaml.comments.CommentType[] values()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.constructor.BaseConstructor#getLoadingConfig()",
+      "signature": "org.yaml.snakeyaml.LoaderOptions getLoadingConfig()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.constructor.BaseConstructor#isEnumCaseSensitive()",
+      "signature": "boolean isEnumCaseSensitive()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.constructor.BaseConstructor#setEnumCaseSensitive(boolean)",
+      "signature": "void setEnumCaseSensitive(boolean)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#getScalar()",
+      "signature": "java.lang.String getScalar()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isAllowBlock()",
+      "signature": "boolean isAllowBlock()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isAllowBlockPlain()",
+      "signature": "boolean isAllowBlockPlain()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isAllowFlowPlain()",
+      "signature": "boolean isAllowFlowPlain()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isAllowSingleQuoted()",
+      "signature": "boolean isAllowSingleQuoted()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.emitter.ScalarAnalysis#isMultiline()",
+      "signature": "boolean isMultiline()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.env.EnvScalarConstructor#apply(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
+      "signature": "java.lang.String apply(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.env.EnvScalarConstructor#getEnv(java.lang.String)",
+      "signature": "java.lang.String getEnv(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.env.EnvScalarConstructor$ConstructEnv#construct(org.yaml.snakeyaml.nodes.Node)",
+      "signature": "java.lang.Object construct(org.yaml.snakeyaml.nodes.Node)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.CommentEvent#getCommentType()",
+      "signature": "org.yaml.snakeyaml.comments.CommentType getCommentType()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.events.CommentEvent#getValue()",
+      "signature": "java.lang.String getValue()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.inspector.TagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
+      "signature": "abstract boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.inspector.TrustedPrefixesTagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
+      "signature": "boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.inspector.TrustedTagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
+      "signature": "boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.inspector.UnTrustedTagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
+      "signature": "boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.internal.Logger#getLogger(java.lang.String)",
+      "signature": "org.yaml.snakeyaml.internal.Logger getLogger(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.internal.Logger#isLoggable(org.yaml.snakeyaml.internal.Logger$Level)",
+      "signature": "boolean isLoggable(org.yaml.snakeyaml.internal.Logger$Level)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.internal.Logger#warn(java.lang.String)",
+      "signature": "void warn(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#getAnchor()",
+      "signature": "java.lang.String getAnchor()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#getBlockComments()",
+      "signature": "java.util.List<org.yaml.snakeyaml.comments.CommentLine> getBlockComments()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#getEndComments()",
+      "signature": "java.util.List<org.yaml.snakeyaml.comments.CommentLine> getEndComments()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#getInLineComments()",
+      "signature": "java.util.List<org.yaml.snakeyaml.comments.CommentLine> getInLineComments()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#setAnchor(java.lang.String)",
+      "signature": "void setAnchor(java.lang.String)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#setBlockComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)",
+      "signature": "void setBlockComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#setEndComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)",
+      "signature": "void setEndComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Node#setInLineComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)",
+      "signature": "void setInLineComments(java.util.List<org.yaml.snakeyaml.comments.CommentLine>)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.nodes.Tag#isCustomGlobal()",
+      "signature": "boolean isCustomGlobal()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueCommentList#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryValue#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseFlowEndComment#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryKey#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryValue#produce()",
+      "signature": "org.yaml.snakeyaml.events.Event produce()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.resolver.Resolver#addImplicitResolver(org.yaml.snakeyaml.nodes.Tag, java.util.regex.Pattern, java.lang.String, int)",
+      "signature": "void addImplicitResolver(org.yaml.snakeyaml.nodes.Tag, java.util.regex.Pattern, java.lang.String, int)"
+    },
+    {
+      "key": "org.yaml.snakeyaml.resolver.ResolverTuple#getLimit()",
+      "signature": "int getLimit()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.tokens.CommentToken#getCommentType()",
+      "signature": "org.yaml.snakeyaml.comments.CommentType getCommentType()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.tokens.CommentToken#getValue()",
+      "signature": "java.lang.String getValue()"
+    },
+    {
+      "key": "org.yaml.snakeyaml.util.EnumUtils#findEnumInsensitiveCase(java.lang.Class<T>, java.lang.String)",
+      "signature": "<T extends java.lang.Enum<T>> T findEnumInsensitiveCase(java.lang.Class<T>, java.lang.String)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.yaml.snakeyaml.Yaml#loadAs",
+      "old": "<T> T loadAs(java.io.InputStream, java.lang.Class<T>)",
+      "new": "<T> T loadAs(java.io.InputStream, java.lang.Class<? super T>)",
+      "old_key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.InputStream, java.lang.Class<T>)",
+      "new_key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.InputStream, java.lang.Class<? super T>)"
+    }
+  ],
+  "counts": {
+    "old_methods": 474,
+    "new_methods": 529,
+    "removed": 23,
+    "added": 78,
+    "changed": 1
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.yaml_snakeyaml_1.24.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.yaml_snakeyaml_2.0.jar",
+  "group_id": "org.yaml",
+  "artifact_id": "snakeyaml",
+  "old_version": "1.24",
+  "new_version": "2.0",
+  "project": "simplelocalize-cli"
+}

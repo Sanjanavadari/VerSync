@@ -1,0 +1,3498 @@
+{
+  "removed": [
+    {
+      "key": "org.springframework.cglib.core.CodeEmitter$State#getAttribute()",
+      "signature": "org.springframework.asm.Attribute getAttribute()"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#newInstance(java.lang.String, java.lang.String[], java.lang.String)",
+      "signature": "abstract java.lang.Object newInstance(java.lang.String, java.lang.String[], java.lang.String)"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#newInstance(java.lang.String, java.lang.String[], org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter>, org.springframework.asm.Type[], boolean, boolean, java.lang.Long)",
+      "signature": "abstract java.lang.Object newInstance(java.lang.String, java.lang.String[], org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter>, org.springframework.asm.Type[], boolean, boolean, java.lang.Long)"
+    },
+    {
+      "key": "org.springframework.cglib.transform.AbstractProcessTask#addFileset(org.apache.tools.ant.types.FileSet)",
+      "signature": "void addFileset(org.apache.tools.ant.types.FileSet)"
+    },
+    {
+      "key": "org.springframework.cglib.transform.AbstractProcessTask#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.springframework.cglib.transform.AbstractTransformTask#setVerbose(boolean)",
+      "signature": "void setVerbose(boolean)"
+    },
+    {
+      "key": "org.springframework.cglib.transform.ClassTransformer#setTarget(org.springframework.asm.ClassVisitor)",
+      "signature": "abstract void setTarget(org.springframework.asm.ClassVisitor)"
+    },
+    {
+      "key": "org.springframework.core.NestedCheckedException#getMessage()",
+      "signature": "java.lang.String getMessage()"
+    },
+    {
+      "key": "org.springframework.core.NestedIOException#getMessage()",
+      "signature": "java.lang.String getMessage()"
+    },
+    {
+      "key": "org.springframework.core.NestedRuntimeException#getMessage()",
+      "signature": "java.lang.String getMessage()"
+    },
+    {
+      "key": "org.springframework.core.codec.StringDecoder#allMimeTypes(boolean)",
+      "signature": "org.springframework.core.codec.StringDecoder allMimeTypes(boolean)"
+    },
+    {
+      "key": "org.springframework.core.codec.StringDecoder#textPlainOnly(boolean)",
+      "signature": "org.springframework.core.codec.StringDecoder textPlainOnly(boolean)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#containsKey(java.lang.Object)",
+      "signature": "boolean containsKey(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#containsValue(java.lang.Object)",
+      "signature": "boolean containsValue(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#get(java.lang.Object)",
+      "signature": "java.lang.Object get(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#keySet()",
+      "signature": "java.util.Set<java.lang.String> keySet()"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#put(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object put(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#put(java.lang.String, java.lang.String)",
+      "signature": "java.lang.String put(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#putAll(java.util.Map<? extends java.lang.String, ? extends java.lang.String>)",
+      "signature": "void putAll(java.util.Map<? extends java.lang.String, ? extends java.lang.String>)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#remove(java.lang.Object)",
+      "signature": "java.lang.Object remove(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#size()",
+      "signature": "int size()"
+    },
+    {
+      "key": "org.springframework.core.env.ReadOnlySystemAttributesMap#values()",
+      "signature": "java.util.Collection<java.lang.String> values()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#asInputStream()",
+      "signature": "java.io.InputStream asInputStream()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#asInputStream(boolean)",
+      "signature": "java.io.InputStream asInputStream(boolean)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#asOutputStream()",
+      "signature": "java.io.OutputStream asOutputStream()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#ensureCapacity(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureCapacity(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferOutputStream#write(byte[], int, int)",
+      "signature": "void write(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferOutputStream#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#asInputStream()",
+      "signature": "java.io.InputStream asInputStream()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#asInputStream(boolean)",
+      "signature": "java.io.InputStream asInputStream(boolean)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#asOutputStream()",
+      "signature": "java.io.OutputStream asOutputStream()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#ensureCapacity(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureCapacity(int)"
+    },
+    {
+      "key": "org.springframework.core.io.support.ResourcePropertiesPersister#loadFromXml(java.util.Properties, java.io.InputStream)",
+      "signature": "void loadFromXml(java.util.Properties, java.io.InputStream)"
+    },
+    {
+      "key": "org.springframework.core.io.support.ResourcePropertiesPersister#storeToXml(java.util.Properties, java.io.OutputStream, java.lang.String)",
+      "signature": "void storeToXml(java.util.Properties, java.io.OutputStream, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.io.support.ResourcePropertiesPersister#storeToXml(java.util.Properties, java.io.OutputStream, java.lang.String, java.lang.String)",
+      "signature": "void storeToXml(java.util.Properties, java.io.OutputStream, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor#visit(java.lang.String, java.lang.Object)",
+      "signature": "void visit(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor#visitAnnotation(java.lang.String, java.lang.String)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor#visitArray(java.lang.String)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitArray(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor#visitEnum(java.lang.String, java.lang.String, java.lang.String)",
+      "signature": "void visitEnum(java.lang.String, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor#visitEnd()",
+      "signature": "void visitEnd()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getAllAnnotationAttributes(java.lang.String, boolean)",
+      "signature": "org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object> getAllAnnotationAttributes(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getAnnotatedMethods(java.lang.String)",
+      "signature": "java.util.Set<org.springframework.core.type.MethodMetadata> getAnnotatedMethods(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getAnnotationAttributes(java.lang.String, boolean)",
+      "signature": "java.util.Map getAnnotationAttributes(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getAnnotationTypes()",
+      "signature": "java.util.Set<java.lang.String> getAnnotationTypes()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getAnnotations()",
+      "signature": "org.springframework.core.annotation.MergedAnnotations getAnnotations()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getClassName()",
+      "signature": "java.lang.String getClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getEnclosingClassName()",
+      "signature": "java.lang.String getEnclosingClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getInterfaceNames()",
+      "signature": "java.lang.String[] getInterfaceNames()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getMemberClassNames()",
+      "signature": "java.lang.String[] getMemberClassNames()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getMetaAnnotationTypes(java.lang.String)",
+      "signature": "java.util.Set<java.lang.String> getMetaAnnotationTypes(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#getSuperClassName()",
+      "signature": "java.lang.String getSuperClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#hasAnnotatedMethods(java.lang.String)",
+      "signature": "boolean hasAnnotatedMethods(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#hasAnnotation(java.lang.String)",
+      "signature": "boolean hasAnnotation(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#hasEnclosingClass()",
+      "signature": "boolean hasEnclosingClass()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#hasMetaAnnotation(java.lang.String)",
+      "signature": "boolean hasMetaAnnotation(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isAbstract()",
+      "signature": "boolean isAbstract()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isAnnotated(java.lang.String)",
+      "signature": "boolean isAnnotated(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isAnnotation()",
+      "signature": "boolean isAnnotation()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isFinal()",
+      "signature": "boolean isFinal()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isIndependent()",
+      "signature": "boolean isIndependent()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#isInterface()",
+      "signature": "boolean isInterface()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])",
+      "signature": "void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitAnnotation(java.lang.String, boolean)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitAttribute(org.springframework.asm.Attribute)",
+      "signature": "void visitAttribute(org.springframework.asm.Attribute)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitEnd()",
+      "signature": "void visitEnd()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitField(int, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)",
+      "signature": "org.springframework.asm.FieldVisitor visitField(int, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int)",
+      "signature": "void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])",
+      "signature": "org.springframework.asm.MethodVisitor visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitOuterClass(java.lang.String, java.lang.String, java.lang.String)",
+      "signature": "void visitOuterClass(java.lang.String, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor#visitSource(java.lang.String, java.lang.String)",
+      "signature": "void visitSource(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationReadingVisitorUtils#convertClassValues(java.lang.Object, java.lang.ClassLoader, org.springframework.core.annotation.AnnotationAttributes, boolean)",
+      "signature": "org.springframework.core.annotation.AnnotationAttributes convertClassValues(java.lang.Object, java.lang.ClassLoader, org.springframework.core.annotation.AnnotationAttributes, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.AnnotationReadingVisitorUtils#getMergedAnnotationAttributes(org.springframework.util.LinkedMultiValueMap<java.lang.String, org.springframework.core.annotation.AnnotationAttributes>, java.util.Map<java.lang.String, java.util.Set<java.lang.String>>, java.lang.String)",
+      "signature": "org.springframework.core.annotation.AnnotationAttributes getMergedAnnotationAttributes(org.springframework.util.LinkedMultiValueMap<java.lang.String, org.springframework.core.annotation.AnnotationAttributes>, java.util.Map<java.lang.String, java.util.Set<java.lang.String>>, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#getClassName()",
+      "signature": "java.lang.String getClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#getEnclosingClassName()",
+      "signature": "java.lang.String getEnclosingClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#getInterfaceNames()",
+      "signature": "java.lang.String[] getInterfaceNames()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#getMemberClassNames()",
+      "signature": "java.lang.String[] getMemberClassNames()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#getSuperClassName()",
+      "signature": "java.lang.String getSuperClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#hasEnclosingClass()",
+      "signature": "boolean hasEnclosingClass()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#isAbstract()",
+      "signature": "boolean isAbstract()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#isAnnotation()",
+      "signature": "boolean isAnnotation()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#isFinal()",
+      "signature": "boolean isFinal()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#isIndependent()",
+      "signature": "boolean isIndependent()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#isInterface()",
+      "signature": "boolean isInterface()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])",
+      "signature": "void visit(int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitAnnotation(java.lang.String, boolean)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitAttribute(org.springframework.asm.Attribute)",
+      "signature": "void visitAttribute(org.springframework.asm.Attribute)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitEnd()",
+      "signature": "void visitEnd()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitField(int, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)",
+      "signature": "org.springframework.asm.FieldVisitor visitField(int, java.lang.String, java.lang.String, java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int)",
+      "signature": "void visitInnerClass(java.lang.String, java.lang.String, java.lang.String, int)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])",
+      "signature": "org.springframework.asm.MethodVisitor visitMethod(int, java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitOuterClass(java.lang.String, java.lang.String, java.lang.String)",
+      "signature": "void visitOuterClass(java.lang.String, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor#visitSource(java.lang.String, java.lang.String)",
+      "signature": "void visitSource(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor$EmptyAnnotationVisitor#visitAnnotation(java.lang.String, java.lang.String)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.ClassMetadataReadingVisitor$EmptyAnnotationVisitor#visitArray(java.lang.String)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitArray(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getAllAnnotationAttributes(java.lang.String, boolean)",
+      "signature": "org.springframework.util.MultiValueMap<java.lang.String, java.lang.Object> getAllAnnotationAttributes(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getAnnotationAttributes(java.lang.String, boolean)",
+      "signature": "java.util.Map getAnnotationAttributes(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getAnnotations()",
+      "signature": "org.springframework.core.annotation.MergedAnnotations getAnnotations()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getDeclaringClassName()",
+      "signature": "java.lang.String getDeclaringClassName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getMethodName()",
+      "signature": "java.lang.String getMethodName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#getReturnTypeName()",
+      "signature": "java.lang.String getReturnTypeName()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#isAbstract()",
+      "signature": "boolean isAbstract()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#isAnnotated(java.lang.String)",
+      "signature": "boolean isAnnotated(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#isFinal()",
+      "signature": "boolean isFinal()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#isOverridable()",
+      "signature": "boolean isOverridable()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#isStatic()",
+      "signature": "boolean isStatic()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.MethodMetadataReadingVisitor#visitAnnotation(java.lang.String, boolean)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, boolean)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.RecursiveAnnotationArrayVisitor#visit(java.lang.String, java.lang.Object)",
+      "signature": "void visit(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.RecursiveAnnotationArrayVisitor#visitAnnotation(java.lang.String, java.lang.String)",
+      "signature": "org.springframework.asm.AnnotationVisitor visitAnnotation(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.RecursiveAnnotationArrayVisitor#visitEnd()",
+      "signature": "void visitEnd()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.RecursiveAnnotationAttributesVisitor#visitEnd()",
+      "signature": "void visitEnd()"
+    },
+    {
+      "key": "org.springframework.util.CollectionUtils$EnumerationIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.springframework.util.CollectionUtils$EnumerationIterator#next()",
+      "signature": "E next()"
+    },
+    {
+      "key": "org.springframework.util.CollectionUtils$EnumerationIterator#remove()",
+      "signature": "void remove()"
+    },
+    {
+      "key": "org.springframework.util.ObjectUtils#hashCode(boolean)",
+      "signature": "int hashCode(boolean)"
+    },
+    {
+      "key": "org.springframework.util.ObjectUtils#hashCode(double)",
+      "signature": "int hashCode(double)"
+    },
+    {
+      "key": "org.springframework.util.ObjectUtils#hashCode(float)",
+      "signature": "int hashCode(float)"
+    },
+    {
+      "key": "org.springframework.util.ObjectUtils#hashCode(long)",
+      "signature": "int hashCode(long)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableTcpPort()",
+      "signature": "int findAvailableTcpPort()"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableTcpPort(int)",
+      "signature": "int findAvailableTcpPort(int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableTcpPort(int, int)",
+      "signature": "int findAvailableTcpPort(int, int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableTcpPorts(int)",
+      "signature": "java.util.SortedSet<java.lang.Integer> findAvailableTcpPorts(int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableTcpPorts(int, int, int)",
+      "signature": "java.util.SortedSet<java.lang.Integer> findAvailableTcpPorts(int, int, int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableUdpPort()",
+      "signature": "int findAvailableUdpPort()"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableUdpPort(int)",
+      "signature": "int findAvailableUdpPort(int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableUdpPort(int, int)",
+      "signature": "int findAvailableUdpPort(int, int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableUdpPorts(int)",
+      "signature": "java.util.SortedSet<java.lang.Integer> findAvailableUdpPorts(int)"
+    },
+    {
+      "key": "org.springframework.util.SocketUtils#findAvailableUdpPorts(int, int, int)",
+      "signature": "java.util.SortedSet<java.lang.Integer> findAvailableUdpPorts(int, int, int)"
+    },
+    {
+      "key": "org.springframework.util.StringUtils#mergeStringArrays(java.lang.String[], java.lang.String[])",
+      "signature": "java.lang.String[] mergeStringArrays(java.lang.String[], java.lang.String[])"
+    },
+    {
+      "key": "org.springframework.util.StringUtils#toLanguageTag(java.util.Locale)",
+      "signature": "java.lang.String toLanguageTag(java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#addComparator(java.util.Comparator<? extends T>)",
+      "signature": "void addComparator(java.util.Comparator<? extends T>)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#addComparator(java.util.Comparator<? extends T>, boolean)",
+      "signature": "void addComparator(java.util.Comparator<? extends T>, boolean)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#compare(T, T)",
+      "signature": "int compare(T, T)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#getComparatorCount()",
+      "signature": "int getComparatorCount()"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#invertOrder()",
+      "signature": "void invertOrder()"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#invertOrder(int)",
+      "signature": "void invertOrder(int)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#setAscendingOrder(int)",
+      "signature": "void setAscendingOrder(int)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#setComparator(int, java.util.Comparator<? extends T>)",
+      "signature": "void setComparator(int, java.util.Comparator<? extends T>)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#setComparator(int, java.util.Comparator<T>, boolean)",
+      "signature": "void setComparator(int, java.util.Comparator<T>, boolean)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#setDescendingOrder(int)",
+      "signature": "void setDescendingOrder(int)"
+    },
+    {
+      "key": "org.springframework.util.comparator.CompoundComparator#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#compare(T, T)",
+      "signature": "int compare(T, T)"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#invertOrder()",
+      "signature": "void invertOrder()"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#isAscending()",
+      "signature": "boolean isAscending()"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#setAscending(boolean)",
+      "signature": "void setAscending(boolean)"
+    },
+    {
+      "key": "org.springframework.util.comparator.InvertibleComparator#toString()",
+      "signature": "java.lang.String toString()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.springframework.aot.AotDetector#useGeneratedArtifacts()",
+      "signature": "boolean useGeneratedArtifacts()"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#forClass(java.lang.Class<?>)",
+      "signature": "org.springframework.aot.generate.AccessControl forClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#forMember(java.lang.reflect.Member)",
+      "signature": "org.springframework.aot.generate.AccessControl forMember(java.lang.reflect.Member)"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#forResolvableType(org.springframework.core.ResolvableType)",
+      "signature": "org.springframework.aot.generate.AccessControl forResolvableType(org.springframework.core.ResolvableType)"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#isAccessibleFrom(org.springframework.javapoet.ClassName)",
+      "signature": "boolean isAccessibleFrom(org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#isPublic()",
+      "signature": "boolean isPublic()"
+    },
+    {
+      "key": "org.springframework.aot.generate.AccessControl#lowest(org.springframework.aot.generate.AccessControl...)",
+      "signature": "org.springframework.aot.generate.AccessControl lowest(org.springframework.aot.generate.AccessControl...)"
+    },
+    {
+      "key": "org.springframework.aot.generate.AppendableConsumerInputStreamSource#getInputStream()",
+      "signature": "java.io.InputStream getInputStream()"
+    },
+    {
+      "key": "org.springframework.aot.generate.AppendableConsumerInputStreamSource#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.generate.ClassNameGenerator#generateClassName(java.lang.String, org.springframework.javapoet.ClassName)",
+      "signature": "org.springframework.javapoet.ClassName generateClassName(java.lang.String, org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultGenerationContext#getGeneratedClasses()",
+      "signature": "org.springframework.aot.generate.GeneratedClasses getGeneratedClasses()"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultGenerationContext#getGeneratedFiles()",
+      "signature": "org.springframework.aot.generate.GeneratedFiles getGeneratedFiles()"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultGenerationContext#getRuntimeHints()",
+      "signature": "org.springframework.aot.hint.RuntimeHints getRuntimeHints()"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultGenerationContext#withName(java.lang.String)",
+      "signature": "org.springframework.aot.generate.GenerationContext withName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultGenerationContext#writeGeneratedContent()",
+      "signature": "void writeGeneratedContent()"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultMethodReference#toCodeBlock()",
+      "signature": "org.springframework.javapoet.CodeBlock toCodeBlock()"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultMethodReference#toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)",
+      "signature": "org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.aot.generate.DefaultMethodReference#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.generate.FileSystemGeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClass#getEnclosingClass()",
+      "signature": "org.springframework.aot.generate.GeneratedClass getEnclosingClass()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClass#getMethods()",
+      "signature": "org.springframework.aot.generate.GeneratedMethods getMethods()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClass#getName()",
+      "signature": "org.springframework.javapoet.ClassName getName()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClass#getOrAdd(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass getOrAdd(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClass#reserveMethodNames(java.lang.String...)",
+      "signature": "void reserveMethodNames(java.lang.String...)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#addForFeature(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass addForFeature(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#addForFeatureComponent(java.lang.String, java.lang.Class<?>, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass addForFeatureComponent(java.lang.String, java.lang.Class<?>, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#addForFeatureComponent(java.lang.String, org.springframework.javapoet.ClassName, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass addForFeatureComponent(java.lang.String, org.springframework.javapoet.ClassName, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#getOrAddForFeature(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass getOrAddForFeature(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#getOrAddForFeatureComponent(java.lang.String, java.lang.Class<?>, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass getOrAddForFeatureComponent(java.lang.String, java.lang.Class<?>, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses#getOrAddForFeatureComponent(java.lang.String, org.springframework.javapoet.ClassName, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedClass getOrAddForFeatureComponent(java.lang.String, org.springframework.javapoet.ClassName, java.util.function.Consumer<org.springframework.javapoet.TypeSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#featureName()",
+      "signature": "java.lang.String featureName()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#featureNamePrefix()",
+      "signature": "java.lang.String featureNamePrefix()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#target()",
+      "signature": "org.springframework.javapoet.ClassName target()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedClasses$Owner#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addClassFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "default void addClassFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, java.lang.CharSequence)",
+      "signature": "default void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, java.lang.CharSequence)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "abstract void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
+      "signature": "default void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, java.lang.CharSequence)",
+      "signature": "default void addResourceFile(java.lang.String, java.lang.CharSequence)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "default void addResourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
+      "signature": "default void addResourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, java.lang.CharSequence)",
+      "signature": "default void addSourceFile(java.lang.String, java.lang.CharSequence)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "default void addSourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
+      "signature": "default void addSourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(org.springframework.javapoet.JavaFile)",
+      "signature": "default void addSourceFile(org.springframework.javapoet.JavaFile)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethod#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethod#toMethodReference()",
+      "signature": "org.springframework.aot.generate.MethodReference toMethodReference()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethod#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethods#add(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.MethodSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedMethod add(java.lang.String, java.util.function.Consumer<org.springframework.javapoet.MethodSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethods#add(java.lang.String[], java.util.function.Consumer<org.springframework.javapoet.MethodSpec$Builder>)",
+      "signature": "org.springframework.aot.generate.GeneratedMethod add(java.lang.String[], java.util.function.Consumer<org.springframework.javapoet.MethodSpec$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedMethods#withPrefix(java.lang.String)",
+      "signature": "org.springframework.aot.generate.GeneratedMethods withPrefix(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedTypeReference#getCanonicalName()",
+      "signature": "java.lang.String getCanonicalName()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GeneratedTypeReference#of(org.springframework.javapoet.ClassName)",
+      "signature": "org.springframework.aot.generate.GeneratedTypeReference of(org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.aot.generate.GenerationContext#getGeneratedClasses()",
+      "signature": "abstract org.springframework.aot.generate.GeneratedClasses getGeneratedClasses()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GenerationContext#getGeneratedFiles()",
+      "signature": "abstract org.springframework.aot.generate.GeneratedFiles getGeneratedFiles()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GenerationContext#getRuntimeHints()",
+      "signature": "abstract org.springframework.aot.hint.RuntimeHints getRuntimeHints()"
+    },
+    {
+      "key": "org.springframework.aot.generate.GenerationContext#withName(java.lang.String)",
+      "signature": "abstract org.springframework.aot.generate.GenerationContext withName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.generate.InMemoryGeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)",
+      "signature": "void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)"
+    },
+    {
+      "key": "org.springframework.aot.generate.InMemoryGeneratedFiles#getGeneratedFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String)",
+      "signature": "org.springframework.core.io.InputStreamSource getGeneratedFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.generate.InMemoryGeneratedFiles#getGeneratedFileContent(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String)",
+      "signature": "java.lang.String getGeneratedFileContent(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.generate.InMemoryGeneratedFiles#getGeneratedFiles(org.springframework.aot.generate.GeneratedFiles$Kind)",
+      "signature": "java.util.Map<java.lang.String, org.springframework.core.io.InputStreamSource> getGeneratedFiles(org.springframework.aot.generate.GeneratedFiles$Kind)"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodName#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodName#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodName#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodReference#toCodeBlock()",
+      "signature": "abstract org.springframework.javapoet.CodeBlock toCodeBlock()"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodReference#toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator)",
+      "signature": "default org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator)"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodReference#toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)",
+      "signature": "abstract org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator#generateCode(org.springframework.javapoet.TypeName)",
+      "signature": "abstract org.springframework.javapoet.CodeBlock generateCode(org.springframework.javapoet.TypeName)"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#getEnclosingType()",
+      "signature": "org.springframework.aot.hint.TypeReference getEnclosingType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#getPackageName()",
+      "signature": "java.lang.String getPackageName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#getSimpleName()",
+      "signature": "java.lang.String getSimpleName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.AbstractTypeReference#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.hint.BindingReflectionHintsRegistrar#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.Type...)",
+      "signature": "void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.Type...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.BindingReflectionHintsRegistrar$KotlinDelegate#registerComponentHints(org.springframework.aot.hint.ReflectionHints, java.lang.Class<?>)",
+      "signature": "void registerComponentHints(org.springframework.aot.hint.ReflectionHints, java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ConditionalHint#conditionMatches(java.lang.ClassLoader)",
+      "signature": "default boolean conditionMatches(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ConditionalHint#getReachableType()",
+      "signature": "abstract org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ExecutableHint#getMode()",
+      "signature": "org.springframework.aot.hint.ExecutableMode getMode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ExecutableHint#getParameterTypes()",
+      "signature": "java.util.List<org.springframework.aot.hint.TypeReference> getParameterTypes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ExecutableMode#valueOf(java.lang.String)",
+      "signature": "org.springframework.aot.hint.ExecutableMode valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ExecutableMode#values()",
+      "signature": "org.springframework.aot.hint.ExecutableMode[] values()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JavaSerializationHint#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.JavaSerializationHint#getReachableType()",
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JavaSerializationHint#getType()",
+      "signature": "org.springframework.aot.hint.TypeReference getType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JavaSerializationHint#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JdkProxyHint#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.JdkProxyHint#getProxiedInterfaces()",
+      "signature": "java.util.List<org.springframework.aot.hint.TypeReference> getProxiedInterfaces()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JdkProxyHint#getReachableType()",
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.JdkProxyHint#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.MemberCategory#valueOf(java.lang.String)",
+      "signature": "org.springframework.aot.hint.MemberCategory valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.MemberCategory#values()",
+      "signature": "org.springframework.aot.hint.MemberCategory[] values()"
+    },
+    {
+      "key": "org.springframework.aot.hint.MemberHint#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ProxyHints#jdkProxyHints()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.JdkProxyHint> jdkProxyHints()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ProxyHints#registerJdkProxy(java.lang.Class<?>...)",
+      "signature": "org.springframework.aot.hint.ProxyHints registerJdkProxy(java.lang.Class<?>...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ProxyHints#registerJdkProxy(java.util.function.Consumer<org.springframework.aot.hint.JdkProxyHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ProxyHints registerJdkProxy(java.util.function.Consumer<org.springframework.aot.hint.JdkProxyHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ProxyHints#registerJdkProxy(org.springframework.aot.hint.TypeReference...)",
+      "signature": "org.springframework.aot.hint.ProxyHints registerJdkProxy(org.springframework.aot.hint.TypeReference...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ProxyHintsExtensionsKt#registerJdkProxy(org.springframework.aot.hint.ProxyHints, kotlin.reflect.KClass<?>...)",
+      "signature": "org.springframework.aot.hint.ProxyHints registerJdkProxy(org.springframework.aot.hint.ProxyHints, kotlin.reflect.KClass<?>...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#getTypeHint(java.lang.Class<?>)",
+      "signature": "org.springframework.aot.hint.TypeHint getTypeHint(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#getTypeHint(org.springframework.aot.hint.TypeReference)",
+      "signature": "org.springframework.aot.hint.TypeHint getTypeHint(org.springframework.aot.hint.TypeReference)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerConstructor(java.lang.reflect.Constructor<?>, org.springframework.aot.hint.ExecutableMode)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerConstructor(java.lang.reflect.Constructor<?>, org.springframework.aot.hint.ExecutableMode)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerField(java.lang.reflect.Field)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerField(java.lang.reflect.Field)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerMethod(java.lang.reflect.Method, org.springframework.aot.hint.ExecutableMode)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerMethod(java.lang.reflect.Method, org.springframework.aot.hint.ExecutableMode)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerType(java.lang.Class<?>, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(java.lang.Class<?>, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerType(java.lang.Class<?>, org.springframework.aot.hint.MemberCategory...)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(java.lang.Class<?>, org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerType(org.springframework.aot.hint.TypeReference, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.TypeReference, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerType(org.springframework.aot.hint.TypeReference, org.springframework.aot.hint.MemberCategory...)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.TypeReference, org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerTypeIfPresent(java.lang.ClassLoader, java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerTypeIfPresent(java.lang.ClassLoader, java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerTypeIfPresent(java.lang.ClassLoader, java.lang.String, org.springframework.aot.hint.MemberCategory...)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerTypeIfPresent(java.lang.ClassLoader, java.lang.String, org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#registerTypes(java.lang.Iterable<org.springframework.aot.hint.TypeReference>, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ReflectionHints registerTypes(java.lang.Iterable<org.springframework.aot.hint.TypeReference>, java.util.function.Consumer<org.springframework.aot.hint.TypeHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHints#typeHints()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.TypeHint> typeHints()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#getTypeHint(org.springframework.aot.hint.ReflectionHints)",
+      "signature": "<T> org.springframework.aot.hint.TypeHint getTypeHint(org.springframework.aot.hint.ReflectionHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#registerType(org.springframework.aot.hint.ReflectionHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.TypeHint$Builder, kotlin.Unit>)",
+      "signature": "<T> org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.TypeHint$Builder, kotlin.Unit>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#registerType(org.springframework.aot.hint.ReflectionHints, org.springframework.aot.hint.MemberCategory...)",
+      "signature": "<T> org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ReflectionTypeReference#getCanonicalName()",
+      "signature": "java.lang.String getCanonicalName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceBundleHint#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceBundleHint#getBaseName()",
+      "signature": "java.lang.String getBaseName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceBundleHint#getReachableType()",
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceBundleHint#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerPattern(java.lang.String)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerPattern(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerPattern(java.util.function.Consumer<org.springframework.aot.hint.ResourcePatternHints$Builder>)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerPattern(java.util.function.Consumer<org.springframework.aot.hint.ResourcePatternHints$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerPatternIfPresent(java.lang.ClassLoader, java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.ResourcePatternHints$Builder>)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerPatternIfPresent(java.lang.ClassLoader, java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.ResourcePatternHints$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerResource(org.springframework.core.io.Resource)",
+      "signature": "void registerResource(org.springframework.core.io.Resource)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerResourceBundle(java.lang.String)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerResourceBundle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerResourceBundle(java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.ResourceBundleHint$Builder>)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerResourceBundle(java.lang.String, java.util.function.Consumer<org.springframework.aot.hint.ResourceBundleHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerType(java.lang.Class<?>)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerType(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#registerType(org.springframework.aot.hint.TypeReference)",
+      "signature": "org.springframework.aot.hint.ResourceHints registerType(org.springframework.aot.hint.TypeReference)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#resourceBundleHints()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.ResourceBundleHint> resourceBundleHints()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHints#resourcePatternHints()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.ResourcePatternHints> resourcePatternHints()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourceHintsExtensionsKt#registerType(org.springframework.aot.hint.ResourceHints)",
+      "signature": "<T> org.springframework.aot.hint.ResourceHints registerType(org.springframework.aot.hint.ResourceHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHint#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHint#getPattern()",
+      "signature": "java.lang.String getPattern()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHint#getReachableType()",
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHint#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHint#toRegex()",
+      "signature": "java.util.regex.Pattern toRegex()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHints#getExcludes()",
+      "signature": "java.util.List<org.springframework.aot.hint.ResourcePatternHint> getExcludes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.ResourcePatternHints#getIncludes()",
+      "signature": "java.util.List<org.springframework.aot.hint.ResourcePatternHint> getIncludes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHints#jni()",
+      "signature": "org.springframework.aot.hint.ReflectionHints jni()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHints#proxies()",
+      "signature": "org.springframework.aot.hint.ProxyHints proxies()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHints#reflection()",
+      "signature": "org.springframework.aot.hint.ReflectionHints reflection()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHints#resources()",
+      "signature": "org.springframework.aot.hint.ResourceHints resources()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHints#serialization()",
+      "signature": "org.springframework.aot.hint.SerializationHints serialization()"
+    },
+    {
+      "key": "org.springframework.aot.hint.RuntimeHintsRegistrar#registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)",
+      "signature": "abstract void registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHints#javaSerializationHints()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.JavaSerializationHint> javaSerializationHints()"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHints#registerType(java.lang.Class<? extends java.io.Serializable>)",
+      "signature": "org.springframework.aot.hint.SerializationHints registerType(java.lang.Class<? extends java.io.Serializable>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHints#registerType(java.lang.Class<? extends java.io.Serializable>, java.util.function.Consumer<org.springframework.aot.hint.JavaSerializationHint$Builder>)",
+      "signature": "org.springframework.aot.hint.SerializationHints registerType(java.lang.Class<? extends java.io.Serializable>, java.util.function.Consumer<org.springframework.aot.hint.JavaSerializationHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHints#registerType(org.springframework.aot.hint.TypeReference)",
+      "signature": "org.springframework.aot.hint.SerializationHints registerType(org.springframework.aot.hint.TypeReference)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHints#registerType(org.springframework.aot.hint.TypeReference, java.util.function.Consumer<org.springframework.aot.hint.JavaSerializationHint$Builder>)",
+      "signature": "org.springframework.aot.hint.SerializationHints registerType(org.springframework.aot.hint.TypeReference, java.util.function.Consumer<org.springframework.aot.hint.JavaSerializationHint$Builder>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHintsExtensionsKt#registerType$default(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1, int, java.lang.Object)",
+      "signature": "org.springframework.aot.hint.SerializationHints registerType$default(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1, int, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SerializationHintsExtensionsKt#registerType(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.JavaSerializationHint$Builder, kotlin.Unit>)",
+      "signature": "<T extends java.io.Serializable> org.springframework.aot.hint.SerializationHints registerType(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.JavaSerializationHint$Builder, kotlin.Unit>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.SimpleTypeReference#getCanonicalName()",
+      "signature": "java.lang.String getCanonicalName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#constructors()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.ExecutableHint> constructors()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#fields()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.FieldHint> fields()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#getMemberCategories()",
+      "signature": "java.util.Set<org.springframework.aot.hint.MemberCategory> getMemberCategories()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#getReachableType()",
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#getType()",
+      "signature": "org.springframework.aot.hint.TypeReference getType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#methods()",
+      "signature": "java.util.stream.Stream<org.springframework.aot.hint.ExecutableHint> methods()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint$ExecutableKey#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeHint$ExecutableKey#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#getCanonicalName()",
+      "signature": "abstract java.lang.String getCanonicalName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#getEnclosingType()",
+      "signature": "abstract org.springframework.aot.hint.TypeReference getEnclosingType()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#getName()",
+      "signature": "abstract java.lang.String getName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#getPackageName()",
+      "signature": "abstract java.lang.String getPackageName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#getSimpleName()",
+      "signature": "abstract java.lang.String getSimpleName()"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#listOf(java.lang.Class<?>...)",
+      "signature": "java.util.List<org.springframework.aot.hint.TypeReference> listOf(java.lang.Class<?>...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#of(java.lang.Class<?>)",
+      "signature": "org.springframework.aot.hint.TypeReference of(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.TypeReference#of(java.lang.String)",
+      "signature": "org.springframework.aot.hint.TypeReference of(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.Reflective#processors()",
+      "signature": "abstract java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] processors()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.Reflective#value()",
+      "signature": "abstract java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] value()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
+      "signature": "abstract void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar#registerRuntimeHints(org.springframework.aot.hint.RuntimeHints, java.lang.Class<?>...)",
+      "signature": "void registerRuntimeHints(org.springframework.aot.hint.RuntimeHints, java.lang.Class<?>...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$DelegatingReflectiveProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
+      "signature": "void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry#element()",
+      "signature": "java.lang.reflect.AnnotatedElement element()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry#processor()",
+      "signature": "org.springframework.aot.hint.annotation.ReflectiveProcessor processor()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBinding#classes()",
+      "signature": "abstract java.lang.Class<?>[] classes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBinding#value()",
+      "signature": "abstract java.lang.Class<?>[] value()"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBindingProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
+      "signature": "void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
+    },
+    {
+      "key": "org.springframework.aot.hint.annotation.SimpleReflectiveProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
+      "signature": "void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ProxyHintsPredicates#forInterfaces(java.lang.Class<?>...)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> forInterfaces(java.lang.Class<?>...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ProxyHintsPredicates#forInterfaces(org.springframework.aot.hint.TypeReference...)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> forInterfaces(org.springframework.aot.hint.TypeReference...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$ExecutableHintPredicate#test(java.lang.Object)",
+      "signature": "boolean test(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$ExecutableHintPredicate#test(org.springframework.aot.hint.RuntimeHints)",
+      "signature": "boolean test(org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$FieldHintPredicate#test(java.lang.Object)",
+      "signature": "boolean test(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$FieldHintPredicate#test(org.springframework.aot.hint.RuntimeHints)",
+      "signature": "boolean test(org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate#test(java.lang.Object)",
+      "signature": "boolean test(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate#test(org.springframework.aot.hint.RuntimeHints)",
+      "signature": "boolean test(org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate#withAnyMemberCategory(org.springframework.aot.hint.MemberCategory...)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> withAnyMemberCategory(org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate#withMemberCategories(org.springframework.aot.hint.MemberCategory...)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> withMemberCategories(org.springframework.aot.hint.MemberCategory...)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate#withMemberCategory(org.springframework.aot.hint.MemberCategory)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> withMemberCategory(org.springframework.aot.hint.MemberCategory)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates#forBundle(java.lang.String)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> forBundle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates#forResource(java.lang.String)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> forResource(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates#forResource(org.springframework.aot.hint.TypeReference, java.lang.String)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> forResource(org.springframework.aot.hint.TypeReference, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints#excludes()",
+      "signature": "java.util.List<org.springframework.aot.hint.ResourcePatternHint> excludes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints#includes()",
+      "signature": "java.util.List<org.springframework.aot.hint.ResourcePatternHint> includes()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.RuntimeHintsPredicates#proxies()",
+      "signature": "org.springframework.aot.hint.predicate.ProxyHintsPredicates proxies()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.RuntimeHintsPredicates#reflection()",
+      "signature": "org.springframework.aot.hint.predicate.ReflectionHintsPredicates reflection()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.RuntimeHintsPredicates#resource()",
+      "signature": "org.springframework.aot.hint.predicate.ResourceHintsPredicates resource()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.RuntimeHintsPredicates#serialization()",
+      "signature": "org.springframework.aot.hint.predicate.SerializationHintsPredicates serialization()"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.SerializationHintsPredicates#onType(java.lang.Class<?>)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> onType(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.aot.hint.predicate.SerializationHintsPredicates#onType(org.springframework.aot.hint.TypeReference)",
+      "signature": "java.util.function.Predicate<org.springframework.aot.hint.RuntimeHints> onType(org.springframework.aot.hint.TypeReference)"
+    },
+    {
+      "key": "org.springframework.aot.hint.support.ClassHintUtils#registerProxyIfNecessary(java.lang.Class<?>, org.springframework.aot.hint.RuntimeHints)",
+      "signature": "void registerProxyIfNecessary(java.lang.Class<?>, org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.aot.hint.support.FilePatternResourceHintsRegistrar#registerHints(org.springframework.aot.hint.ResourceHints, java.lang.ClassLoader)",
+      "signature": "void registerHints(org.springframework.aot.hint.ResourceHints, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.aot.hint.support.ObjectToObjectConverterRuntimeHints#registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)",
+      "signature": "void registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.aot.hint.support.SpringFactoriesLoaderRuntimeHints#registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)",
+      "signature": "void registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.BasicJsonWriter#writeArray(java.util.List<?>)",
+      "signature": "void writeArray(java.util.List<?>)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.BasicJsonWriter#writeObject(java.util.Map<java.lang.String, java.lang.Object>)",
+      "signature": "void writeObject(java.util.Map<java.lang.String, java.lang.Object>)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.BasicJsonWriter$IndentingWriter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.aot.nativex.BasicJsonWriter$IndentingWriter#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.springframework.aot.nativex.BasicJsonWriter$IndentingWriter#write(char[], int, int)",
+      "signature": "void write(char[], int, int)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.NativeConfigurationWriter#write(org.springframework.aot.hint.RuntimeHints)",
+      "signature": "void write(org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.ProxyHintsWriter#write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ProxyHints)",
+      "signature": "void write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ProxyHints)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.ReflectionHintsWriter#write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ReflectionHints)",
+      "signature": "void write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ReflectionHints)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.ResourceHintsWriter#write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ResourceHints)",
+      "signature": "void write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.ResourceHints)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.SerializationHintsWriter#write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.SerializationHints)",
+      "signature": "void write(org.springframework.aot.nativex.BasicJsonWriter, org.springframework.aot.hint.SerializationHints)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.feature.PreComputeFieldFeature#beforeAnalysis(org.graalvm.nativeimage.hosted.Feature$BeforeAnalysisAccess)",
+      "signature": "void beforeAnalysis(org.graalvm.nativeimage.hosted.Feature$BeforeAnalysisAccess)"
+    },
+    {
+      "key": "org.springframework.aot.nativex.substitution.Target_ClassFinder#findClass(java.lang.String, java.lang.ClassLoader)",
+      "signature": "java.lang.Class<?> findClass(java.lang.String, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.asm.AnnotationVisitor#getDelegate()",
+      "signature": "org.springframework.asm.AnnotationVisitor getDelegate()"
+    },
+    {
+      "key": "org.springframework.asm.ClassVisitor#getDelegate()",
+      "signature": "org.springframework.asm.ClassVisitor getDelegate()"
+    },
+    {
+      "key": "org.springframework.asm.FieldVisitor#getDelegate()",
+      "signature": "org.springframework.asm.FieldVisitor getDelegate()"
+    },
+    {
+      "key": "org.springframework.asm.MethodVisitor#getDelegate()",
+      "signature": "org.springframework.asm.MethodVisitor getDelegate()"
+    },
+    {
+      "key": "org.springframework.cglib.core.ClassTransformer#setTarget(org.springframework.asm.ClassVisitor)",
+      "signature": "abstract void setTarget(org.springframework.asm.ClassVisitor)"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#name()",
+      "signature": "java.lang.String name()"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#parameterTypes()",
+      "signature": "java.util.List<java.lang.String> parameterTypes()"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#returnType()",
+      "signature": "java.lang.String returnType()"
+    },
+    {
+      "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.cglib.core.ReflectUtils#loadClass(java.lang.String, java.lang.ClassLoader)",
+      "signature": "java.lang.Class<?> loadClass(java.lang.String, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.cglib.core.ReflectUtils#setGeneratedClassHandler(java.util.function.BiConsumer<java.lang.String, byte[]>)",
+      "signature": "void setGeneratedClassHandler(java.util.function.BiConsumer<java.lang.String, byte[]>)"
+    },
+    {
+      "key": "org.springframework.cglib.core.ReflectUtils#setLoadedClassHandler(java.util.function.Consumer<java.lang.Class<?>>)",
+      "signature": "void setLoadedClassHandler(java.util.function.Consumer<java.lang.Class<?>>)"
+    },
+    {
+      "key": "org.springframework.cglib.core.SpringNamingPolicy#getClassName(java.lang.String, java.lang.String, java.lang.Object, org.springframework.cglib.core.Predicate)",
+      "signature": "java.lang.String getClassName(java.lang.String, java.lang.String, java.lang.Object, org.springframework.cglib.core.Predicate)"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#callbackTypes()",
+      "signature": "java.util.List<org.springframework.asm.Type> callbackTypes()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#filter()",
+      "signature": "org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter> filter()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#interceptDuringConstruction()",
+      "signature": "boolean interceptDuringConstruction()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#interfaces()",
+      "signature": "java.util.List<java.lang.String> interfaces()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#serialVersionUID()",
+      "signature": "java.lang.Long serialVersionUID()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#type()",
+      "signature": "java.lang.String type()"
+    },
+    {
+      "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#useFactory()",
+      "signature": "boolean useFactory()"
+    },
+    {
+      "key": "org.springframework.core.CoroutinesUtils#invokeSuspendingFunction(kotlin.coroutines.CoroutineContext, java.lang.reflect.Method, java.lang.Object, java.lang.Object...)",
+      "signature": "org.reactivestreams.Publisher<?> invokeSuspendingFunction(kotlin.coroutines.CoroutineContext, java.lang.reflect.Method, java.lang.Object, java.lang.Object...)"
+    },
+    {
+      "key": "org.springframework.core.annotation.MergedAnnotations$Search#from(java.lang.reflect.AnnotatedElement)",
+      "signature": "org.springframework.core.annotation.MergedAnnotations from(java.lang.reflect.AnnotatedElement)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferDecoder#canDecode(org.springframework.core.ResolvableType, org.springframework.util.MimeType)",
+      "signature": "boolean canDecode(org.springframework.core.ResolvableType, org.springframework.util.MimeType)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferDecoder#decode(org.springframework.core.io.buffer.DataBuffer, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map)",
+      "signature": "java.lang.Object decode(org.springframework.core.io.buffer.DataBuffer, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferDecoder#decode(org.springframework.core.io.buffer.DataBuffer, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)",
+      "signature": "io.netty5.buffer.Buffer decode(org.springframework.core.io.buffer.DataBuffer, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferEncoder#canEncode(org.springframework.core.ResolvableType, org.springframework.util.MimeType)",
+      "signature": "boolean canEncode(org.springframework.core.ResolvableType, org.springframework.util.MimeType)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferEncoder#encode(org.reactivestreams.Publisher<? extends io.netty5.buffer.Buffer>, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)",
+      "signature": "reactor.core.publisher.Flux<org.springframework.core.io.buffer.DataBuffer> encode(org.reactivestreams.Publisher<? extends io.netty5.buffer.Buffer>, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferEncoder#encodeValue(io.netty5.buffer.Buffer, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer encodeValue(io.netty5.buffer.Buffer, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map<java.lang.String, java.lang.Object>)"
+    },
+    {
+      "key": "org.springframework.core.codec.Netty5BufferEncoder#encodeValue(java.lang.Object, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer encodeValue(java.lang.Object, org.springframework.core.io.buffer.DataBufferFactory, org.springframework.core.ResolvableType, org.springframework.util.MimeType, java.util.Map)"
+    },
+    {
+      "key": "org.springframework.core.io.ByteArrayResource#getContentAsByteArray()",
+      "signature": "byte[] getContentAsByteArray()"
+    },
+    {
+      "key": "org.springframework.core.io.ByteArrayResource#getContentAsString(java.nio.charset.Charset)",
+      "signature": "java.lang.String getContentAsString(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.FileSystemResource#getContentAsByteArray()",
+      "signature": "byte[] getContentAsByteArray()"
+    },
+    {
+      "key": "org.springframework.core.io.FileSystemResource#getContentAsString(java.nio.charset.Charset)",
+      "signature": "java.lang.String getContentAsString(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.PathResource#getContentAsByteArray()",
+      "signature": "byte[] getContentAsByteArray()"
+    },
+    {
+      "key": "org.springframework.core.io.PathResource#getContentAsString(java.nio.charset.Charset)",
+      "signature": "java.lang.String getContentAsString(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.Resource#getContentAsByteArray()",
+      "signature": "default byte[] getContentAsByteArray()"
+    },
+    {
+      "key": "org.springframework.core.io.Resource#getContentAsString(java.nio.charset.Charset)",
+      "signature": "default java.lang.String getContentAsString(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.UrlResource#from(java.lang.String)",
+      "signature": "org.springframework.core.io.UrlResource from(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.io.UrlResource#from(java.net.URI)",
+      "signature": "org.springframework.core.io.UrlResource from(java.net.URI)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.CloseableDataBuffer#close()",
+      "signature": "abstract void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#ensureWritable(int)",
+      "signature": "abstract org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#split(int)",
+      "signature": "abstract org.springframework.core.io.buffer.DataBuffer split(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer()",
+      "signature": "default java.nio.ByteBuffer toByteBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(int, int)",
+      "signature": "abstract java.nio.ByteBuffer toByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
+      "signature": "abstract void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(java.nio.ByteBuffer)",
+      "signature": "default void toByteBuffer(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBuffer$ByteBufferIterator#close()",
+      "signature": "abstract void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferFactory#isDirect()",
+      "signature": "abstract boolean isDirect()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#mark(int)",
+      "signature": "void mark(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#markSupported()",
+      "signature": "boolean markSupported()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferInputStream#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferOutputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferOutputStream#write(byte[], int, int)",
+      "signature": "void write(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferOutputStream#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment#dataBuffer()",
+      "signature": "org.springframework.core.io.buffer.DataBuffer dataBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment#byteBuffer()",
+      "signature": "java.nio.ByteBuffer byteBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment#dataBuffer()",
+      "signature": "org.springframework.core.io.buffer.DataBuffer dataBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#ensureWritable(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#split(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer split(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#toByteBuffer()",
+      "signature": "java.nio.ByteBuffer toByteBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#toByteBuffer(int, int)",
+      "signature": "java.nio.ByteBuffer toByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
+      "signature": "void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DataBufferWrapper#toByteBuffer(java.nio.ByteBuffer)",
+      "signature": "void toByteBuffer(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#ensureWritable(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#split(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer split(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#toByteBuffer(int, int)",
+      "signature": "java.nio.ByteBuffer toByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
+      "signature": "void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$ByteBufferIterator#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$ByteBufferIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBuffer$ByteBufferIterator#next()",
+      "signature": "java.lang.Object next()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.DefaultDataBufferFactory#isDirect()",
+      "signature": "boolean isDirect()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#asByteBuffer()",
+      "signature": "java.nio.ByteBuffer asByteBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#asByteBuffer(int, int)",
+      "signature": "java.nio.ByteBuffer asByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#capacity()",
+      "signature": "int capacity()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#capacity(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer capacity(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#ensureWritable(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#factory()",
+      "signature": "org.springframework.core.io.buffer.DataBufferFactory factory()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#getByte(int)",
+      "signature": "byte getByte(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#getNativeBuffer()",
+      "signature": "io.netty5.buffer.Buffer getNativeBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#indexOf(java.util.function.IntPredicate, int)",
+      "signature": "int indexOf(java.util.function.IntPredicate, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#lastIndexOf(java.util.function.IntPredicate, int)",
+      "signature": "int lastIndexOf(java.util.function.IntPredicate, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#read()",
+      "signature": "byte read()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#read(byte[])",
+      "signature": "org.springframework.core.io.buffer.DataBuffer read(byte[])"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#read(byte[], int, int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer read(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#readPosition()",
+      "signature": "int readPosition()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#readPosition(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer readPosition(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#readableByteCount()",
+      "signature": "int readableByteCount()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#slice(int, int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer slice(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#split(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer split(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#toByteBuffer(int, int)",
+      "signature": "java.nio.ByteBuffer toByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
+      "signature": "void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#toString(int, int, java.nio.charset.Charset)",
+      "signature": "java.lang.String toString(int, int, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#toString(java.nio.charset.Charset)",
+      "signature": "java.lang.String toString(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#touch(java.lang.Object)",
+      "signature": "org.springframework.core.io.buffer.TouchableDataBuffer touch(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#writableByteCount()",
+      "signature": "int writableByteCount()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(byte)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(byte)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(byte[])",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(byte[])"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(byte[], int, int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(byte[], int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(io.netty5.buffer.Buffer...)",
+      "signature": "org.springframework.core.io.buffer.Netty5DataBuffer write(io.netty5.buffer.Buffer...)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(java.lang.CharSequence, java.nio.charset.Charset)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(java.lang.CharSequence, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(java.nio.ByteBuffer...)",
+      "signature": "org.springframework.core.io.buffer.Netty5DataBuffer write(java.nio.ByteBuffer...)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(java.nio.ByteBuffer[])",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(java.nio.ByteBuffer[])"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(org.springframework.core.io.buffer.DataBuffer...)",
+      "signature": "org.springframework.core.io.buffer.Netty5DataBuffer write(org.springframework.core.io.buffer.DataBuffer...)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#write(org.springframework.core.io.buffer.DataBuffer[])",
+      "signature": "org.springframework.core.io.buffer.DataBuffer write(org.springframework.core.io.buffer.DataBuffer[])"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#writePosition()",
+      "signature": "int writePosition()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer#writePosition(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer writePosition(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer$BufferComponentIterator#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer$BufferComponentIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBuffer$BufferComponentIterator#next()",
+      "signature": "java.lang.Object next()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#allocateBuffer()",
+      "signature": "org.springframework.core.io.buffer.DataBuffer allocateBuffer()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#allocateBuffer(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer allocateBuffer(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#getBufferAllocator()",
+      "signature": "io.netty5.buffer.BufferAllocator getBufferAllocator()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#isDirect()",
+      "signature": "boolean isDirect()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#join(java.util.List<? extends org.springframework.core.io.buffer.DataBuffer>)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer join(java.util.List<? extends org.springframework.core.io.buffer.DataBuffer>)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#toBuffer(org.springframework.core.io.buffer.DataBuffer)",
+      "signature": "io.netty5.buffer.Buffer toBuffer(org.springframework.core.io.buffer.DataBuffer)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#wrap(byte[])",
+      "signature": "org.springframework.core.io.buffer.DataBuffer wrap(byte[])"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#wrap(io.netty5.buffer.Buffer)",
+      "signature": "org.springframework.core.io.buffer.Netty5DataBuffer wrap(io.netty5.buffer.Buffer)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.Netty5DataBufferFactory#wrap(java.nio.ByteBuffer)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer wrap(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#ensureWritable(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#split(int)",
+      "signature": "org.springframework.core.io.buffer.DataBuffer split(int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#toByteBuffer(int, int)",
+      "signature": "java.nio.ByteBuffer toByteBuffer(int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
+      "signature": "void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer$ByteBufferIterator#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer$ByteBufferIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBuffer$ByteBufferIterator#next()",
+      "signature": "java.lang.Object next()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.NettyDataBufferFactory#isDirect()",
+      "signature": "boolean isDirect()"
+    },
+    {
+      "key": "org.springframework.core.io.buffer.TouchableDataBuffer#touch(java.lang.Object)",
+      "signature": "abstract org.springframework.core.io.buffer.TouchableDataBuffer touch(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.support.EncodedResource#getContentAsString()",
+      "signature": "java.lang.String getContentAsString()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#encoding()",
+      "signature": "java.lang.String encoding()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#ignoreResourceNotFound()",
+      "signature": "boolean ignoreResourceNotFound()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#locations()",
+      "signature": "java.util.List<java.lang.String> locations()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#name()",
+      "signature": "java.lang.String name()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#propertySourceFactory()",
+      "signature": "java.lang.Class<? extends org.springframework.core.io.support.PropertySourceFactory> propertySourceFactory()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceDescriptor#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.core.io.support.PropertySourceProcessor#processPropertySource(org.springframework.core.io.support.PropertySourceDescriptor)",
+      "signature": "void processPropertySource(org.springframework.core.io.support.PropertySourceDescriptor)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#forDefaultResourceLocation()",
+      "signature": "org.springframework.core.io.support.SpringFactoriesLoader forDefaultResourceLocation()"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#forDefaultResourceLocation(java.lang.ClassLoader)",
+      "signature": "org.springframework.core.io.support.SpringFactoriesLoader forDefaultResourceLocation(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#forResourceLocation(java.lang.String)",
+      "signature": "org.springframework.core.io.support.SpringFactoriesLoader forResourceLocation(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#forResourceLocation(java.lang.String, java.lang.ClassLoader)",
+      "signature": "org.springframework.core.io.support.SpringFactoriesLoader forResourceLocation(java.lang.String, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>)",
+      "signature": "<T> java.util.List<T> load(java.lang.Class<T>)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver)",
+      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)",
+      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)",
+      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver#resolve(java.lang.Class<T>)",
+      "signature": "abstract <T> T resolve(java.lang.Class<T>)"
+    },
+    {
+      "key": "org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler#handleFailure(java.lang.Class<?>, java.lang.String, java.lang.Throwable)",
+      "signature": "abstract void handleFailure(java.lang.Class<?>, java.lang.String, java.lang.Throwable)"
+    },
+    {
+      "key": "org.springframework.core.task.AsyncTaskExecutor#submitCompletable(java.lang.Runnable)",
+      "signature": "default java.util.concurrent.CompletableFuture<java.lang.Void> submitCompletable(java.lang.Runnable)"
+    },
+    {
+      "key": "org.springframework.core.task.AsyncTaskExecutor#submitCompletable(java.util.concurrent.Callable<T>)",
+      "signature": "default <T> java.util.concurrent.CompletableFuture<T> submitCompletable(java.util.concurrent.Callable<T>)"
+    },
+    {
+      "key": "org.springframework.core.task.support.ExecutorServiceAdapter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.springframework.core.type.AnnotationMetadata#getDeclaredMethods()",
+      "signature": "abstract java.util.Set<org.springframework.core.type.MethodMetadata> getDeclaredMethods()"
+    },
+    {
+      "key": "org.springframework.core.type.StandardAnnotationMetadata#getDeclaredMethods()",
+      "signature": "java.util.Set<org.springframework.core.type.MethodMetadata> getDeclaredMethods()"
+    },
+    {
+      "key": "org.springframework.core.type.classreading.SimpleAnnotationMetadata#getDeclaredMethods()",
+      "signature": "java.util.Set<org.springframework.core.type.MethodMetadata> getDeclaredMethods()"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#get(java.lang.annotation.Annotation)",
+      "signature": "org.springframework.javapoet.AnnotationSpec get(java.lang.annotation.Annotation)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#get(java.lang.annotation.Annotation, boolean)",
+      "signature": "org.springframework.javapoet.AnnotationSpec get(java.lang.annotation.Annotation, boolean)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#get(javax.lang.model.element.AnnotationMirror)",
+      "signature": "org.springframework.javapoet.AnnotationSpec get(javax.lang.model.element.AnnotationMirror)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec$Builder#build()",
+      "signature": "org.springframework.javapoet.AnnotationSpec build()"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec$Visitor#visitAnnotation(javax.lang.model.element.AnnotationMirror, java.lang.Object)",
+      "signature": "java.lang.Object visitAnnotation(javax.lang.model.element.AnnotationMirror, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec$Visitor#visitArray(java.util.List, java.lang.Object)",
+      "signature": "java.lang.Object visitArray(java.util.List, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec$Visitor#visitEnumConstant(javax.lang.model.element.VariableElement, java.lang.Object)",
+      "signature": "java.lang.Object visitEnumConstant(javax.lang.model.element.VariableElement, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.AnnotationSpec$Visitor#visitType(javax.lang.model.type.TypeMirror, java.lang.Object)",
+      "signature": "java.lang.Object visitType(javax.lang.model.type.TypeMirror, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#annotated(java.util.List)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.ArrayTypeName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#get(java.lang.reflect.GenericArrayType)",
+      "signature": "org.springframework.javapoet.ArrayTypeName get(java.lang.reflect.GenericArrayType)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#get(javax.lang.model.type.ArrayType)",
+      "signature": "org.springframework.javapoet.ArrayTypeName get(javax.lang.model.type.ArrayType)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#of(java.lang.reflect.Type)",
+      "signature": "org.springframework.javapoet.ArrayTypeName of(java.lang.reflect.Type)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#of(org.springframework.javapoet.TypeName)",
+      "signature": "org.springframework.javapoet.ArrayTypeName of(org.springframework.javapoet.TypeName)"
+    },
+    {
+      "key": "org.springframework.javapoet.ArrayTypeName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#annotated(java.util.List)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.ClassName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#bestGuess(java.lang.String)",
+      "signature": "org.springframework.javapoet.ClassName bestGuess(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#canonicalName()",
+      "signature": "java.lang.String canonicalName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#compareTo(java.lang.Object)",
+      "signature": "int compareTo(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#compareTo(org.springframework.javapoet.ClassName)",
+      "signature": "int compareTo(org.springframework.javapoet.ClassName)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#enclosingClassName()",
+      "signature": "org.springframework.javapoet.ClassName enclosingClassName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#get(java.lang.Class<?>)",
+      "signature": "org.springframework.javapoet.ClassName get(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#get(java.lang.String, java.lang.String, java.lang.String...)",
+      "signature": "org.springframework.javapoet.ClassName get(java.lang.String, java.lang.String, java.lang.String...)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#get(javax.lang.model.element.TypeElement)",
+      "signature": "org.springframework.javapoet.ClassName get(javax.lang.model.element.TypeElement)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#isAnnotated()",
+      "signature": "boolean isAnnotated()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#nestedClass(java.lang.String)",
+      "signature": "org.springframework.javapoet.ClassName nestedClass(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#packageName()",
+      "signature": "java.lang.String packageName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#peerClass(java.lang.String)",
+      "signature": "org.springframework.javapoet.ClassName peerClass(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#reflectionName()",
+      "signature": "java.lang.String reflectionName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#simpleName()",
+      "signature": "java.lang.String simpleName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#simpleNames()",
+      "signature": "java.util.List<java.lang.String> simpleNames()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#topLevelClassName()",
+      "signature": "org.springframework.javapoet.ClassName topLevelClassName()"
+    },
+    {
+      "key": "org.springframework.javapoet.ClassName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#join(java.lang.Iterable<org.springframework.javapoet.CodeBlock>, java.lang.String)",
+      "signature": "org.springframework.javapoet.CodeBlock join(java.lang.Iterable<org.springframework.javapoet.CodeBlock>, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#joining(java.lang.String)",
+      "signature": "java.util.stream.Collector<org.springframework.javapoet.CodeBlock, ?, org.springframework.javapoet.CodeBlock> joining(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#joining(java.lang.String, java.lang.String, java.lang.String)",
+      "signature": "java.util.stream.Collector<org.springframework.javapoet.CodeBlock, ?, org.springframework.javapoet.CodeBlock> joining(java.lang.String, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#of(java.lang.String, java.lang.Object...)",
+      "signature": "org.springframework.javapoet.CodeBlock of(java.lang.String, java.lang.Object...)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock$Builder#build()",
+      "signature": "org.springframework.javapoet.CodeBlock build()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeBlock$Builder#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emit(java.lang.String)",
+      "signature": "org.springframework.javapoet.CodeWriter emit(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emit(java.lang.String, java.lang.Object...)",
+      "signature": "org.springframework.javapoet.CodeWriter emit(java.lang.String, java.lang.Object...)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emit(org.springframework.javapoet.CodeBlock)",
+      "signature": "org.springframework.javapoet.CodeWriter emit(org.springframework.javapoet.CodeBlock)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emit(org.springframework.javapoet.CodeBlock, boolean)",
+      "signature": "org.springframework.javapoet.CodeWriter emit(org.springframework.javapoet.CodeBlock, boolean)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitAnnotations(java.util.List<org.springframework.javapoet.AnnotationSpec>, boolean)",
+      "signature": "void emitAnnotations(java.util.List<org.springframework.javapoet.AnnotationSpec>, boolean)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitComment(org.springframework.javapoet.CodeBlock)",
+      "signature": "void emitComment(org.springframework.javapoet.CodeBlock)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitJavadoc(org.springframework.javapoet.CodeBlock)",
+      "signature": "void emitJavadoc(org.springframework.javapoet.CodeBlock)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitModifiers(java.util.Set<javax.lang.model.element.Modifier>)",
+      "signature": "void emitModifiers(java.util.Set<javax.lang.model.element.Modifier>)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitModifiers(java.util.Set<javax.lang.model.element.Modifier>, java.util.Set<javax.lang.model.element.Modifier>)",
+      "signature": "void emitModifiers(java.util.Set<javax.lang.model.element.Modifier>, java.util.Set<javax.lang.model.element.Modifier>)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitTypeVariables(java.util.List<org.springframework.javapoet.TypeVariableName>)",
+      "signature": "void emitTypeVariables(java.util.List<org.springframework.javapoet.TypeVariableName>)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#emitWrappingSpace()",
+      "signature": "org.springframework.javapoet.CodeWriter emitWrappingSpace()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#importedTypes()",
+      "signature": "java.util.Map<java.lang.String, org.springframework.javapoet.ClassName> importedTypes()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#indent()",
+      "signature": "org.springframework.javapoet.CodeWriter indent()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#indent(int)",
+      "signature": "org.springframework.javapoet.CodeWriter indent(int)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#popPackage()",
+      "signature": "org.springframework.javapoet.CodeWriter popPackage()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#popType()",
+      "signature": "org.springframework.javapoet.CodeWriter popType()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#popTypeVariables(java.util.List<org.springframework.javapoet.TypeVariableName>)",
+      "signature": "void popTypeVariables(java.util.List<org.springframework.javapoet.TypeVariableName>)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#pushPackage(java.lang.String)",
+      "signature": "org.springframework.javapoet.CodeWriter pushPackage(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#pushType(org.springframework.javapoet.TypeSpec)",
+      "signature": "org.springframework.javapoet.CodeWriter pushType(org.springframework.javapoet.TypeSpec)"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#unindent()",
+      "signature": "org.springframework.javapoet.CodeWriter unindent()"
+    },
+    {
+      "key": "org.springframework.javapoet.CodeWriter#unindent(int)",
+      "signature": "org.springframework.javapoet.CodeWriter unindent(int)"
+    },
+    {
+      "key": "org.springframework.javapoet.FieldSpec#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.FieldSpec#hasModifier(javax.lang.model.element.Modifier)",
+      "signature": "boolean hasModifier(javax.lang.model.element.Modifier)"
+    },
+    {
+      "key": "org.springframework.javapoet.FieldSpec#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.FieldSpec#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.FieldSpec$Builder#build()",
+      "signature": "org.springframework.javapoet.FieldSpec build()"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#toJavaFileObject()",
+      "signature": "javax.tools.JavaFileObject toJavaFileObject()"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeTo(java.io.File)",
+      "signature": "void writeTo(java.io.File)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeTo(java.lang.Appendable)",
+      "signature": "void writeTo(java.lang.Appendable)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeTo(java.nio.file.Path)",
+      "signature": "void writeTo(java.nio.file.Path)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeTo(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "void writeTo(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeTo(javax.annotation.processing.Filer)",
+      "signature": "void writeTo(javax.annotation.processing.Filer)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeToFile(java.io.File)",
+      "signature": "java.io.File writeToFile(java.io.File)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeToPath(java.nio.file.Path)",
+      "signature": "java.nio.file.Path writeToPath(java.nio.file.Path)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile#writeToPath(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "java.nio.file.Path writeToPath(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.springframework.javapoet.JavaFile$Builder#build()",
+      "signature": "org.springframework.javapoet.JavaFile build()"
+    },
+    {
+      "key": "org.springframework.javapoet.LineWrapper$RecordingAppendable#append(char)",
+      "signature": "java.lang.Appendable append(char)"
+    },
+    {
+      "key": "org.springframework.javapoet.LineWrapper$RecordingAppendable#append(java.lang.CharSequence)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence)"
+    },
+    {
+      "key": "org.springframework.javapoet.LineWrapper$RecordingAppendable#append(java.lang.CharSequence, int, int)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence, int, int)"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec#hasModifier(javax.lang.model.element.Modifier)",
+      "signature": "boolean hasModifier(javax.lang.model.element.Modifier)"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec#isConstructor()",
+      "signature": "boolean isConstructor()"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.MethodSpec$Builder#build()",
+      "signature": "org.springframework.javapoet.MethodSpec build()"
+    },
+    {
+      "key": "org.springframework.javapoet.NameAllocator#clone()",
+      "signature": "java.lang.Object clone()"
+    },
+    {
+      "key": "org.springframework.javapoet.NameAllocator#get(java.lang.Object)",
+      "signature": "java.lang.String get(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.NameAllocator#newName(java.lang.String)",
+      "signature": "java.lang.String newName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.NameAllocator#newName(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.String newName(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.NameAllocator#toJavaIdentifier(java.lang.String)",
+      "signature": "java.lang.String toJavaIdentifier(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec#get(javax.lang.model.element.VariableElement)",
+      "signature": "org.springframework.javapoet.ParameterSpec get(javax.lang.model.element.VariableElement)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec#hasModifier(javax.lang.model.element.Modifier)",
+      "signature": "boolean hasModifier(javax.lang.model.element.Modifier)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterSpec$Builder#build()",
+      "signature": "org.springframework.javapoet.ParameterSpec build()"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#annotated(java.util.List)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#get(java.lang.Class<?>, java.lang.reflect.Type...)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName get(java.lang.Class<?>, java.lang.reflect.Type...)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#get(java.lang.reflect.ParameterizedType)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName get(java.lang.reflect.ParameterizedType)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#get(org.springframework.javapoet.ClassName, org.springframework.javapoet.TypeName...)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName get(org.springframework.javapoet.ClassName, org.springframework.javapoet.TypeName...)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#nestedClass(java.lang.String)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName nestedClass(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#nestedClass(java.lang.String, java.util.List<org.springframework.javapoet.TypeName>)",
+      "signature": "org.springframework.javapoet.ParameterizedTypeName nestedClass(java.lang.String, java.util.List<org.springframework.javapoet.TypeName>)"
+    },
+    {
+      "key": "org.springframework.javapoet.ParameterizedTypeName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#annotated(org.springframework.javapoet.AnnotationSpec...)",
+      "signature": "org.springframework.javapoet.TypeName annotated(org.springframework.javapoet.AnnotationSpec...)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#box()",
+      "signature": "org.springframework.javapoet.TypeName box()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#get(java.lang.reflect.Type)",
+      "signature": "org.springframework.javapoet.TypeName get(java.lang.reflect.Type)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#get(javax.lang.model.type.TypeMirror)",
+      "signature": "org.springframework.javapoet.TypeName get(javax.lang.model.type.TypeMirror)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#isAnnotated()",
+      "signature": "boolean isAnnotated()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#isBoxedPrimitive()",
+      "signature": "boolean isBoxedPrimitive()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#isPrimitive()",
+      "signature": "boolean isPrimitive()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#unbox()",
+      "signature": "org.springframework.javapoet.TypeName unbox()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeSpec#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeSpec#hasModifier(javax.lang.model.element.Modifier)",
+      "signature": "boolean hasModifier(javax.lang.model.element.Modifier)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeSpec#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeSpec#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeSpec$Builder#build()",
+      "signature": "org.springframework.javapoet.TypeSpec build()"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#annotated(java.util.List)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.TypeVariableName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(java.lang.String)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(java.lang.String, java.lang.reflect.Type...)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(java.lang.String, java.lang.reflect.Type...)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(java.lang.String, org.springframework.javapoet.TypeName...)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(java.lang.String, org.springframework.javapoet.TypeName...)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(java.lang.reflect.TypeVariable<?>)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(java.lang.reflect.TypeVariable<?>)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(javax.lang.model.element.TypeParameterElement)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(javax.lang.model.element.TypeParameterElement)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#get(javax.lang.model.type.TypeVariable)",
+      "signature": "org.springframework.javapoet.TypeVariableName get(javax.lang.model.type.TypeVariable)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#withBounds(java.lang.reflect.Type...)",
+      "signature": "org.springframework.javapoet.TypeVariableName withBounds(java.lang.reflect.Type...)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#withBounds(java.util.List<? extends org.springframework.javapoet.TypeName>)",
+      "signature": "org.springframework.javapoet.TypeVariableName withBounds(java.util.List<? extends org.springframework.javapoet.TypeName>)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#withBounds(org.springframework.javapoet.TypeName...)",
+      "signature": "org.springframework.javapoet.TypeVariableName withBounds(org.springframework.javapoet.TypeName...)"
+    },
+    {
+      "key": "org.springframework.javapoet.TypeVariableName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#annotated(java.util.List)",
+      "signature": "org.springframework.javapoet.TypeName annotated(java.util.List)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)",
+      "signature": "org.springframework.javapoet.WildcardTypeName annotated(java.util.List<org.springframework.javapoet.AnnotationSpec>)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#get(java.lang.reflect.WildcardType)",
+      "signature": "org.springframework.javapoet.TypeName get(java.lang.reflect.WildcardType)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#get(javax.lang.model.type.WildcardType)",
+      "signature": "org.springframework.javapoet.TypeName get(javax.lang.model.type.WildcardType)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#subtypeOf(java.lang.reflect.Type)",
+      "signature": "org.springframework.javapoet.WildcardTypeName subtypeOf(java.lang.reflect.Type)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#subtypeOf(org.springframework.javapoet.TypeName)",
+      "signature": "org.springframework.javapoet.WildcardTypeName subtypeOf(org.springframework.javapoet.TypeName)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#supertypeOf(java.lang.reflect.Type)",
+      "signature": "org.springframework.javapoet.WildcardTypeName supertypeOf(java.lang.reflect.Type)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#supertypeOf(org.springframework.javapoet.TypeName)",
+      "signature": "org.springframework.javapoet.WildcardTypeName supertypeOf(org.springframework.javapoet.TypeName)"
+    },
+    {
+      "key": "org.springframework.javapoet.WildcardTypeName#withoutAnnotations()",
+      "signature": "org.springframework.javapoet.TypeName withoutAnnotations()"
+    },
+    {
+      "key": "org.springframework.util.ClassUtils#isStaticClass(java.lang.Class<?>)",
+      "signature": "boolean isStaticClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache#capacity()",
+      "signature": "int capacity()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$AddTask#run()",
+      "signature": "void run()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$CacheEntry#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$CacheEntry#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$CacheEntry#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$CacheEntry#value()",
+      "signature": "V value()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$Node#setNext(org.springframework.util.ConcurrentLruCache$Node<K, V>)",
+      "signature": "void setNext(org.springframework.util.ConcurrentLruCache$Node<K, V>)"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$Node#setPrevious(org.springframework.util.ConcurrentLruCache$Node<K, V>)",
+      "signature": "void setPrevious(org.springframework.util.ConcurrentLruCache$Node<K, V>)"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$RemovalTask#run()",
+      "signature": "void run()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$WriteOperations#add(java.lang.Runnable)",
+      "signature": "void add(java.lang.Runnable)"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$WriteOperations#drain()",
+      "signature": "void drain()"
+    },
+    {
+      "key": "org.springframework.util.ConcurrentLruCache$WriteOperations#drainAll()",
+      "signature": "void drainAll()"
+    },
+    {
+      "key": "org.springframework.util.MimeType#isLessSpecific(org.springframework.util.MimeType)",
+      "signature": "boolean isLessSpecific(org.springframework.util.MimeType)"
+    },
+    {
+      "key": "org.springframework.util.MimeType#isMoreSpecific(org.springframework.util.MimeType)",
+      "signature": "boolean isMoreSpecific(org.springframework.util.MimeType)"
+    },
+    {
+      "key": "org.springframework.util.ObjectUtils#addObjectToArray(A[], O, int)",
+      "signature": "<A, O extends A> A[] addObjectToArray(A[], O, int)"
+    },
+    {
+      "key": "org.springframework.util.ResourceUtils#toRelativeURL(java.net.URL, java.lang.String)",
+      "signature": "java.net.URL toRelativeURL(java.net.URL, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.util.ResourceUtils#toURL(java.lang.String)",
+      "signature": "java.net.URL toURL(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.util.SerializationUtils#clone(T)",
+      "signature": "<T extends java.io.Serializable> T clone(T)"
+    },
+    {
+      "key": "org.springframework.util.StringUtils#uncapitalizeAsProperty(java.lang.String)",
+      "signature": "java.lang.String uncapitalizeAsProperty(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#add(K, V)",
+      "signature": "void add(K, V)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#addAll(K, java.util.List<? extends V>)",
+      "signature": "void addAll(K, java.util.List<? extends V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#addAll(org.springframework.util.MultiValueMap<K, V>)",
+      "signature": "void addAll(org.springframework.util.MultiValueMap<K, V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#addIfAbsent(K, V)",
+      "signature": "void addIfAbsent(K, V)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#compute(K, java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)",
+      "signature": "java.util.List<V> compute(K, java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#compute(java.lang.Object, java.util.function.BiFunction)",
+      "signature": "java.lang.Object compute(java.lang.Object, java.util.function.BiFunction)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#computeIfAbsent(K, java.util.function.Function<? super K, ? extends java.util.List<V>>)",
+      "signature": "java.util.List<V> computeIfAbsent(K, java.util.function.Function<? super K, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#computeIfAbsent(java.lang.Object, java.util.function.Function)",
+      "signature": "java.lang.Object computeIfAbsent(java.lang.Object, java.util.function.Function)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#computeIfPresent(K, java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)",
+      "signature": "java.util.List<V> computeIfPresent(K, java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#computeIfPresent(java.lang.Object, java.util.function.BiFunction)",
+      "signature": "java.lang.Object computeIfPresent(java.lang.Object, java.util.function.BiFunction)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#containsKey(java.lang.Object)",
+      "signature": "boolean containsKey(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#containsValue(java.lang.Object)",
+      "signature": "boolean containsValue(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#forEach(java.util.function.BiConsumer<? super K, ? super java.util.List<V>>)",
+      "signature": "void forEach(java.util.function.BiConsumer<? super K, ? super java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#get(java.lang.Object)",
+      "signature": "java.lang.Object get(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#getFirst(K)",
+      "signature": "V getFirst(K)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#getOrDefault(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object getOrDefault(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#getOrDefault(java.lang.Object, java.util.List<V>)",
+      "signature": "java.util.List<V> getOrDefault(java.lang.Object, java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#keySet()",
+      "signature": "java.util.Set<K> keySet()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#merge(K, java.util.List<V>, java.util.function.BiFunction<? super java.util.List<V>, ? super java.util.List<V>, ? extends java.util.List<V>>)",
+      "signature": "java.util.List<V> merge(K, java.util.List<V>, java.util.function.BiFunction<? super java.util.List<V>, ? super java.util.List<V>, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#merge(java.lang.Object, java.lang.Object, java.util.function.BiFunction)",
+      "signature": "java.lang.Object merge(java.lang.Object, java.lang.Object, java.util.function.BiFunction)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#put(K, java.util.List<V>)",
+      "signature": "java.util.List<V> put(K, java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#put(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object put(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#putAll(java.util.Map<? extends K, ? extends java.util.List<V>>)",
+      "signature": "void putAll(java.util.Map<? extends K, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#putIfAbsent(K, java.util.List<V>)",
+      "signature": "java.util.List<V> putIfAbsent(K, java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#putIfAbsent(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object putIfAbsent(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#remove(java.lang.Object)",
+      "signature": "java.lang.Object remove(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#remove(java.lang.Object, java.lang.Object)",
+      "signature": "boolean remove(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#replace(K, java.util.List<V>)",
+      "signature": "java.util.List<V> replace(K, java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#replace(K, java.util.List<V>, java.util.List<V>)",
+      "signature": "boolean replace(K, java.util.List<V>, java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#replace(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object replace(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#replace(java.lang.Object, java.lang.Object, java.lang.Object)",
+      "signature": "boolean replace(java.lang.Object, java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#replaceAll(java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)",
+      "signature": "void replaceAll(java.util.function.BiFunction<? super K, ? super java.util.List<V>, ? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#set(K, V)",
+      "signature": "void set(K, V)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#setAll(java.util.Map<K, V>)",
+      "signature": "void setAll(java.util.Map<K, V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#size()",
+      "signature": "int size()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#toSingleValueMap()",
+      "signature": "java.util.Map<K, V> toSingleValueMap()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap#values()",
+      "signature": "java.util.Collection<java.util.List<V>> values()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#add(java.lang.Object)",
+      "signature": "boolean add(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#add(java.util.Map$Entry<K, java.util.List<V>>)",
+      "signature": "boolean add(java.util.Map$Entry<K, java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#addAll(java.util.Collection<? extends java.util.Map$Entry<K, java.util.List<V>>>)",
+      "signature": "boolean addAll(java.util.Collection<? extends java.util.Map$Entry<K, java.util.List<V>>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#contains(java.lang.Object)",
+      "signature": "boolean contains(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#containsAll(java.util.Collection<?>)",
+      "signature": "boolean containsAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#forEach(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)",
+      "signature": "void forEach(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#remove(java.lang.Object)",
+      "signature": "boolean remove(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#removeAll(java.util.Collection<?>)",
+      "signature": "boolean removeAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#removeIf(java.util.function.Predicate<? super java.util.Map$Entry<K, java.util.List<V>>>)",
+      "signature": "boolean removeIf(java.util.function.Predicate<? super java.util.Map$Entry<K, java.util.List<V>>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#retainAll(java.util.Collection<?>)",
+      "signature": "boolean retainAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#size()",
+      "signature": "int size()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#toArray()",
+      "signature": "java.lang.Object[] toArray()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#toArray(T[])",
+      "signature": "<T> T[] toArray(T[])"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#getKey()",
+      "signature": "K getKey()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#getValue()",
+      "signature": "java.lang.Object getValue()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#setValue(java.lang.Object)",
+      "signature": "java.lang.Object setValue(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#setValue(java.util.List<V>)",
+      "signature": "java.util.List<V> setValue(java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#characteristics()",
+      "signature": "int characteristics()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#estimateSize()",
+      "signature": "long estimateSize()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#forEachRemaining(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)",
+      "signature": "void forEachRemaining(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#getExactSizeIfKnown()",
+      "signature": "long getExactSizeIfKnown()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#hasCharacteristics(int)",
+      "signature": "boolean hasCharacteristics(int)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator#tryAdvance(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)",
+      "signature": "boolean tryAdvance(java.util.function.Consumer<? super java.util.Map$Entry<K, java.util.List<V>>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#add(java.lang.Object)",
+      "signature": "boolean add(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#add(java.util.List<V>)",
+      "signature": "boolean add(java.util.List<V>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#addAll(java.util.Collection<? extends java.util.List<V>>)",
+      "signature": "boolean addAll(java.util.Collection<? extends java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#contains(java.lang.Object)",
+      "signature": "boolean contains(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#containsAll(java.util.Collection<?>)",
+      "signature": "boolean containsAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#forEach(java.util.function.Consumer<? super java.util.List<V>>)",
+      "signature": "void forEach(java.util.function.Consumer<? super java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#isEmpty()",
+      "signature": "boolean isEmpty()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#iterator()",
+      "signature": "java.util.Iterator<java.util.List<V>> iterator()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#parallelStream()",
+      "signature": "java.util.stream.Stream<java.util.List<V>> parallelStream()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#remove(java.lang.Object)",
+      "signature": "boolean remove(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#removeAll(java.util.Collection<?>)",
+      "signature": "boolean removeAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#removeIf(java.util.function.Predicate<? super java.util.List<V>>)",
+      "signature": "boolean removeIf(java.util.function.Predicate<? super java.util.List<V>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#retainAll(java.util.Collection<?>)",
+      "signature": "boolean retainAll(java.util.Collection<?>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#size()",
+      "signature": "int size()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#spliterator()",
+      "signature": "java.util.Spliterator<java.util.List<V>> spliterator()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#stream()",
+      "signature": "java.util.stream.Stream<java.util.List<V>> stream()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#toArray()",
+      "signature": "java.lang.Object[] toArray()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#toArray(T[])",
+      "signature": "<T> T[] toArray(T[])"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#characteristics()",
+      "signature": "int characteristics()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#estimateSize()",
+      "signature": "long estimateSize()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#forEachRemaining(java.util.function.Consumer<? super java.util.List<T>>)",
+      "signature": "void forEachRemaining(java.util.function.Consumer<? super java.util.List<T>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#getComparator()",
+      "signature": "java.util.Comparator<? super java.util.List<T>> getComparator()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#getExactSizeIfKnown()",
+      "signature": "long getExactSizeIfKnown()"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#hasCharacteristics(int)",
+      "signature": "boolean hasCharacteristics(int)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#tryAdvance(java.util.function.Consumer<? super java.util.List<T>>)",
+      "signature": "boolean tryAdvance(java.util.function.Consumer<? super java.util.List<T>>)"
+    },
+    {
+      "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator#trySplit()",
+      "signature": "java.util.Spliterator<java.util.List<T>> trySplit()"
+    },
+    {
+      "key": "org.springframework.util.concurrent.FutureUtils#callAsync(java.util.concurrent.Callable<T>)",
+      "signature": "<T> java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>)"
+    },
+    {
+      "key": "org.springframework.util.concurrent.FutureUtils#callAsync(java.util.concurrent.Callable<T>, java.util.concurrent.Executor)",
+      "signature": "<T> java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>, java.util.concurrent.Executor)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#apply(T, U)",
+      "signature": "default R apply(T, U)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#apply(T, U, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default R apply(T, U, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#applyWithException(T, U)",
+      "signature": "abstract R applyWithException(T, U)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#of(org.springframework.util.function.ThrowingBiFunction<T, U, R>)",
+      "signature": "<T, U, R> org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#of(org.springframework.util.function.ThrowingBiFunction<T, U, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "<T, U, R> org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingBiFunction#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default org.springframework.util.function.ThrowingBiFunction<T, U, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#accept(T)",
+      "signature": "default void accept(T)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#accept(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default void accept(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#acceptWithException(T)",
+      "signature": "abstract void acceptWithException(T)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#of(org.springframework.util.function.ThrowingConsumer<T>)",
+      "signature": "<T> org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#of(org.springframework.util.function.ThrowingConsumer<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "<T> org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingConsumer#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default org.springframework.util.function.ThrowingConsumer<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#apply(T)",
+      "signature": "default R apply(T)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#apply(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default R apply(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#applyWithException(T)",
+      "signature": "abstract R applyWithException(T)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#of(org.springframework.util.function.ThrowingFunction<T, R>)",
+      "signature": "<T, R> org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#of(org.springframework.util.function.ThrowingFunction<T, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "<T, R> org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingFunction#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default org.springframework.util.function.ThrowingFunction<T, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#get()",
+      "signature": "default T get()"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#get(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default T get(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#getWithException()",
+      "signature": "abstract T getWithException()"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#of(org.springframework.util.function.ThrowingSupplier<T>)",
+      "signature": "<T> org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#of(org.springframework.util.function.ThrowingSupplier<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "<T> org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    },
+    {
+      "key": "org.springframework.util.function.ThrowingSupplier#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
+      "signature": "default org.springframework.util.function.ThrowingSupplier<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.springframework.cglib.transform.MethodVisitorTee#visitTableSwitchInsn",
+      "old": "void visitTableSwitchInsn(int, int, org.springframework.asm.Label, org.springframework.asm.Label[])",
+      "new": "void visitTableSwitchInsn(int, int, org.springframework.asm.Label, org.springframework.asm.Label...)",
+      "old_key": "org.springframework.cglib.transform.MethodVisitorTee#visitTableSwitchInsn(int, int, org.springframework.asm.Label, org.springframework.asm.Label[])",
+      "new_key": "org.springframework.cglib.transform.MethodVisitorTee#visitTableSwitchInsn(int, int, org.springframework.asm.Label, org.springframework.asm.Label...)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount",
+      "old": "reactor.core.publisher.Flux<org.springframework.core.io.buffer.DataBuffer> skipUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
+      "new": "<T extends org.springframework.core.io.buffer.DataBuffer> reactor.core.publisher.Flux<T> skipUntilByteCount(org.reactivestreams.Publisher<T>, long)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount(org.reactivestreams.Publisher<T>, long)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount",
+      "old": "reactor.core.publisher.Flux<org.springframework.core.io.buffer.DataBuffer> takeUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
+      "new": "<T extends org.springframework.core.io.buffer.DataBuffer> reactor.core.publisher.Flux<T> takeUntilByteCount(org.reactivestreams.Publisher<T>, long)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount(org.reactivestreams.Publisher<T>, long)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#completed",
+      "old": "void completed(java.lang.Integer, org.springframework.core.io.buffer.DataBuffer)",
+      "new": "void completed(java.lang.Integer, org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#completed(java.lang.Integer, org.springframework.core.io.buffer.DataBuffer)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#completed(java.lang.Integer, org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#failed",
+      "old": "void failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBuffer)",
+      "new": "void failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBuffer)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler#failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#completed",
+      "old": "void completed(java.lang.Integer, java.nio.ByteBuffer)",
+      "new": "void completed(java.lang.Integer, org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#completed(java.lang.Integer, java.nio.ByteBuffer)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#completed(java.lang.Integer, org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment)"
+    },
+    {
+      "name": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#failed",
+      "old": "void failed(java.lang.Throwable, java.nio.ByteBuffer)",
+      "new": "void failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment)",
+      "old_key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#failed(java.lang.Throwable, java.nio.ByteBuffer)",
+      "new_key": "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler#failed(java.lang.Throwable, org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment)"
+    },
+    {
+      "name": "org.springframework.util.MimeTypeUtils#sortBySpecificity",
+      "old": "void sortBySpecificity(java.util.List<org.springframework.util.MimeType>)",
+      "new": "<T extends org.springframework.util.MimeType> void sortBySpecificity(java.util.List<T>)",
+      "old_key": "org.springframework.util.MimeTypeUtils#sortBySpecificity(java.util.List<org.springframework.util.MimeType>)",
+      "new_key": "org.springframework.util.MimeTypeUtils#sortBySpecificity(java.util.List<T>)"
+    }
+  ],
+  "counts": {
+    "old_methods": 3973,
+    "new_methods": 4520,
+    "removed": 154,
+    "added": 701,
+    "changed": 8
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.springframework_spring-core_5.3.24.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.springframework_spring-core_6.0.7.jar",
+  "group_id": "org.springframework",
+  "artifact_id": "spring-core",
+  "old_version": "5.3.24",
+  "new_version": "6.0.7",
+  "project": "IDS-Messaging-Services"
+}

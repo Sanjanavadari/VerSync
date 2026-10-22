@@ -1,0 +1,42 @@
+{
+  "kind": "bump_breaking",
+  "project": "license-maven-plugin",
+  "pr_url": "https://github.com/mathieucarbou/license-maven-plugin/pull/429",
+  "dependency": "org.apache.maven.shared:maven-dependency-tree",
+  "old_version": "3.1.1",
+  "new_version": "3.2.1",
+  "failure_category": "COMPILATION_FAILURE",
+  "github_compare": "https://github.com/apache/maven-dependency-tree/compare/maven-dependency-tree-3.1.1...maven-dependency-tree-3.2.1",
+  "maven_source_link": "",
+  "sources": [
+    "bump_compare_link"
+  ],
+  "sections": {
+    "github_compare_link": "https://github.com/apache/maven-dependency-tree/compare/maven-dependency-tree-3.1.1...maven-dependency-tree-3.2.1"
+  },
+  "evidence_status": "LINK_ONLY",
+  "source_json": "1c0972fc3d905b9f2a305a78f8a158a0b3fd8639.json",
+  "comparison_evidence": {
+    "url": "https://github.com/apache/maven-dependency-tree/compare/maven-dependency-tree-3.1.1...maven-dependency-tree-3.2.1",
+    "status": "EXTRACTED",
+    "commit_messages": [
+      "[maven-release-plugin] prepare for next development iteration",
+      "View commit details",
+      "[",
+      "] exclude transitive provided scope dependencies",
+      "] IT tests for transitive provided scope dependencies",
+      "Bump maven-shared-components from 36 to 37",
+      "Use GitHub shared action v3",
+      "] Drop maven 3.0 compatibility, Maven 3.2.5, Injects",
+      "Update dependabot.yml",
+      "Bump project version before release",
+      "Use plugins build template on Jenkins",
+      "[maven-release-plugin] prepare release maven-dependency-tree-3.2.0",
+      "add Reproducible Builds badge",
+      "] make DependencyCollectorBuilder nore configurable (",
+      ")",
+      "[maven-release-plugin] prepare release maven-dependency-tree-3.2.1"
+    ],
+    "http_status": 200
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "safe_candidate",
+  "project": "katta-clientlib",
+  "pr_url": "https://github.com/shift7-ch/katta-clientlib/pull/599",
+  "dependency": "com.auth0:java-jwt",
+  "old_version": "4.6.1",
+  "new_version": "4.6.2",
+  "sources": [
+    "pr_body"
+  ],
+  "sections": {
+    "release_notes": "Sourced from com.auth0:java-jwt's releases.\n\n4.6.2\n\nAdded\n\nBump com.fasterxml.jackson.core:jackson-databind from 2.22.2 to 2.22.3 in /lib #811 (dependabot[bot]\n\nFixed\n\nSecurity Fix: Uncaught DateTimeException in java-jwt PayloadDeserializer.getInstantFromSeconds() commit (tanya732)",
+    "changelog": "Sourced from com.auth0:java-jwt's changelog.\n\n4.6.2 (2026-10-13)\n\nFull Changelog\n\nAdded\n\nBump com.fasterxml.jackson.core:jackson-databind from 2.22.2 to 2.22.3 in /lib #811 (dependabot[bot])\nFixed\n\nSecurity Fix: Uncaught DateTimeException in java-jwt PayloadDeserializer.getInstantFromSeconds() commit (tanya732)",
+    "commits": "1d589a4 Release 4.6.2 (#816)\n\nfb8229c Bump com.fasterxml.jackson.core:jackson-databind from 2.22.2 to 2.22.3 in /li...\n\n33a2110 Merge commit from fork\n\na35a650 Merge branch 'master' into fix/advisory-GHSA-cg7w-5cc2-f2xm\n\n65c16bc force clear github orchestration cache\n\n051174d refactor: extract epochSecond local in getInstantFromSeconds for clarity\n\n16c2ebf fix: catch DateTimeException from Instant.ofEpochSecond in timestamp claim pa...\n\nSee full diff in compare view"
+  },
+  "github_compare": "",
+  "evidence_status": "TEXT_EXTRACTED"
+}

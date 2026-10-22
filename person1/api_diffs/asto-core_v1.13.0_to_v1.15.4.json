@@ -1,0 +1,584 @@
+{
+  "removed": [
+    {
+      "key": "com.artipie.asto.ArtipieStorage#delete(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> delete(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
+      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#exists(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Boolean> exists(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#list(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.util.Collection<com.artipie.asto.Key>> list(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#metadata(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<? extends com.artipie.asto.Meta> metadata(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#move(com.artipie.asto.Key, com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> move(com.artipie.asto.Key, com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#save(com.artipie.asto.Key, com.artipie.asto.Content)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> save(com.artipie.asto.Key, com.artipie.asto.Content)"
+    },
+    {
+      "key": "com.artipie.asto.ArtipieStorage#value(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<com.artipie.asto.Content> value(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.Key$From#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.Key$From#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "com.artipie.asto.Key$From#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdMeta#read(com.artipie.asto.Meta$ReadOperator<T>)",
+      "signature": "<T> T read(com.artipie.asto.Meta$ReadOperator<T>)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#delete(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> delete(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
+      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#exists(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Boolean> exists(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#list(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.util.Collection<com.artipie.asto.Key>> list(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#metadata(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<? extends com.artipie.asto.Meta> metadata(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#move(com.artipie.asto.Key, com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> move(com.artipie.asto.Key, com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#save(com.artipie.asto.Key, com.artipie.asto.Content)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> save(com.artipie.asto.Key, com.artipie.asto.Content)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorage#value(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<com.artipie.asto.Content> value(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.etcd.EtcdStorageFactory#newStorage(com.artipie.asto.factory.StorageConfig)",
+      "signature": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig#config(java.lang.String)",
+      "signature": "abstract com.artipie.asto.factory.StorageConfig config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig#sequence(java.lang.String)",
+      "signature": "abstract java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig#string(java.lang.String)",
+      "signature": "abstract java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$StrictStorageConfig#config(java.lang.String)",
+      "signature": "com.artipie.asto.factory.StorageConfig config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$StrictStorageConfig#sequence(java.lang.String)",
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$StrictStorageConfig#string(java.lang.String)",
+      "signature": "java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$YamlStorageConfig#config(java.lang.String)",
+      "signature": "com.artipie.asto.factory.StorageConfig config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$YamlStorageConfig#sequence(java.lang.String)",
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StorageConfig$YamlStorageConfig#string(java.lang.String)",
+      "signature": "java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Storages#newStorage(java.lang.String, com.amihaiemil.eoyaml.YamlMapping)",
+      "signature": "com.artipie.asto.Storage newStorage(java.lang.String, com.amihaiemil.eoyaml.YamlMapping)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Storages#types()",
+      "signature": "java.util.Set<java.lang.String> types()"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#delete(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> delete(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
+      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#exists(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Boolean> exists(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#list(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.util.Collection<com.artipie.asto.Key>> list(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#metadata(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<? extends com.artipie.asto.Meta> metadata(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#move(com.artipie.asto.Key, com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> move(com.artipie.asto.Key, com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#save(com.artipie.asto.Key, com.artipie.asto.Content)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> save(com.artipie.asto.Key, com.artipie.asto.Content)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#size(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Long> size(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxFileStorage#value(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<com.artipie.asto.Content> value(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxRxFile#delete()",
+      "signature": "io.reactivex.Completable delete()"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxRxFile#flow()",
+      "signature": "io.reactivex.Flowable<java.nio.ByteBuffer> flow()"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxRxFile#move(java.nio.file.Path)",
+      "signature": "io.reactivex.Completable move(java.nio.file.Path)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxRxFile#save(io.reactivex.Flowable<java.nio.ByteBuffer>)",
+      "signature": "io.reactivex.Completable save(io.reactivex.Flowable<java.nio.ByteBuffer>)"
+    },
+    {
+      "key": "com.artipie.asto.fs.VertxRxFile#size()",
+      "signature": "io.reactivex.Single<java.lang.Long> size()"
+    },
+    {
+      "key": "com.artipie.asto.s3.Bucket#abortMultipartUpload(software.amazon.awssdk.services.s3.model.AbortMultipartUploadRequest)",
+      "signature": "java.util.concurrent.CompletableFuture<software.amazon.awssdk.services.s3.model.AbortMultipartUploadResponse> abortMultipartUpload(software.amazon.awssdk.services.s3.model.AbortMultipartUploadRequest)"
+    },
+    {
+      "key": "com.artipie.asto.s3.Bucket#completeMultipartUpload(software.amazon.awssdk.services.s3.model.CompleteMultipartUploadRequest)",
+      "signature": "java.util.concurrent.CompletableFuture<software.amazon.awssdk.services.s3.model.CompleteMultipartUploadResponse> completeMultipartUpload(software.amazon.awssdk.services.s3.model.CompleteMultipartUploadRequest)"
+    },
+    {
+      "key": "com.artipie.asto.s3.Bucket#uploadPart(software.amazon.awssdk.services.s3.model.UploadPartRequest, software.amazon.awssdk.core.async.AsyncRequestBody)",
+      "signature": "java.util.concurrent.CompletableFuture<software.amazon.awssdk.services.s3.model.UploadPartResponse> uploadPart(software.amazon.awssdk.services.s3.model.UploadPartRequest, software.amazon.awssdk.core.async.AsyncRequestBody)"
+    },
+    {
+      "key": "com.artipie.asto.s3.EstimatedContentCompliment#estimate()",
+      "signature": "java.util.concurrent.CompletionStage<com.artipie.asto.Content> estimate()"
+    },
+    {
+      "key": "com.artipie.asto.s3.InternalExceptionHandle#apply(T, java.lang.Throwable)",
+      "signature": "java.util.concurrent.CompletionStage<T> apply(T, java.lang.Throwable)"
+    },
+    {
+      "key": "com.artipie.asto.s3.InternalExceptionHandle#apply(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object apply(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.s3.MultipartUpload#abort()",
+      "signature": "java.util.concurrent.CompletionStage<java.lang.Void> abort()"
+    },
+    {
+      "key": "com.artipie.asto.s3.MultipartUpload#complete()",
+      "signature": "java.util.concurrent.CompletionStage<java.lang.Void> complete()"
+    },
+    {
+      "key": "com.artipie.asto.s3.MultipartUpload#upload(com.artipie.asto.Content)",
+      "signature": "java.util.concurrent.CompletionStage<java.lang.Void> upload(com.artipie.asto.Content)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3HeadMeta#read(com.artipie.asto.Meta$ReadOperator<T>)",
+      "signature": "<T> T read(com.artipie.asto.Meta$ReadOperator<T>)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#delete(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> delete(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
+      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#exists(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Boolean> exists(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#list(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.util.Collection<com.artipie.asto.Key>> list(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#metadata(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<? extends com.artipie.asto.Meta> metadata(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#move(com.artipie.asto.Key, com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> move(com.artipie.asto.Key, com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#save(com.artipie.asto.Key, com.artipie.asto.Content)",
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> save(com.artipie.asto.Key, com.artipie.asto.Content)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage#value(com.artipie.asto.Key)",
+      "signature": "java.util.concurrent.CompletableFuture<com.artipie.asto.Content> value(com.artipie.asto.Key)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ContentBody#contentLength()",
+      "signature": "java.util.Optional<java.lang.Long> contentLength()"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ContentBody#subscribe(org.reactivestreams.Subscriber<? super java.nio.ByteBuffer>)",
+      "signature": "void subscribe(org.reactivestreams.Subscriber<? super java.nio.ByteBuffer>)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ResponseAdapter#exceptionOccurred(java.lang.Throwable)",
+      "signature": "void exceptionOccurred(java.lang.Throwable)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ResponseAdapter#onResponse(java.lang.Object)",
+      "signature": "void onResponse(java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ResponseAdapter#onResponse(software.amazon.awssdk.services.s3.model.GetObjectResponse)",
+      "signature": "void onResponse(software.amazon.awssdk.services.s3.model.GetObjectResponse)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ResponseAdapter#onStream(software.amazon.awssdk.core.async.SdkPublisher<java.nio.ByteBuffer>)",
+      "signature": "void onStream(software.amazon.awssdk.core.async.SdkPublisher<java.nio.ByteBuffer>)"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3Storage$ResponseAdapter#prepare()",
+      "signature": "java.util.concurrent.CompletableFuture<com.artipie.asto.Content> prepare()"
+    },
+    {
+      "key": "com.artipie.asto.s3.S3StorageFactory#newStorage(com.artipie.asto.factory.StorageConfig)",
+      "signature": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)"
+    }
+  ],
+  "added": [
+    {
+      "key": "com.artipie.asto.Key$Base#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.Key$Base#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "com.artipie.asto.Key$Base#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.artipie.asto.LoggingStorage#identifier()",
+      "signature": "java.lang.String identifier()"
+    },
+    {
+      "key": "com.artipie.asto.Storage#identifier()",
+      "signature": "default java.lang.String identifier()"
+    },
+    {
+      "key": "com.artipie.asto.Storage$Wrap#identifier()",
+      "signature": "java.lang.String identifier()"
+    },
+    {
+      "key": "com.artipie.asto.SubStorage#identifier()",
+      "signature": "java.lang.String identifier()"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config#config(java.lang.String)",
+      "signature": "abstract com.artipie.asto.factory.Config config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config#sequence(java.lang.String)",
+      "signature": "abstract java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config#string(java.lang.String)",
+      "signature": "abstract java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$StrictStorageConfig#config(java.lang.String)",
+      "signature": "com.artipie.asto.factory.Config config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$StrictStorageConfig#sequence(java.lang.String)",
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$StrictStorageConfig#string(java.lang.String)",
+      "signature": "java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$YamlStorageConfig#config(java.lang.String)",
+      "signature": "com.artipie.asto.factory.Config config(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$YamlStorageConfig#sequence(java.lang.String)",
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$YamlStorageConfig#string(java.lang.String)",
+      "signature": "java.lang.String string(java.lang.String)"
+    },
+    {
+      "key": "com.artipie.asto.factory.Config$YamlStorageConfig#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.artipie.asto.factory.FactoryLoader#defPackage()",
+      "signature": "abstract java.lang.String defPackage()"
+    },
+    {
+      "key": "com.artipie.asto.factory.FactoryLoader#getFactoryName(java.lang.Class<?>)",
+      "signature": "abstract java.lang.String getFactoryName(java.lang.Class<?>)"
+    },
+    {
+      "key": "com.artipie.asto.factory.FactoryLoader#newObject(java.lang.String, C)",
+      "signature": "abstract O newObject(java.lang.String, C)"
+    },
+    {
+      "key": "com.artipie.asto.factory.FactoryLoader#scanPackagesEnv()",
+      "signature": "abstract java.lang.String scanPackagesEnv()"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#defPackage()",
+      "signature": "java.lang.String defPackage()"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#getFactoryName(java.lang.Class<?>)",
+      "signature": "java.lang.String getFactoryName(java.lang.Class<?>)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#newObject(java.lang.String, com.artipie.asto.factory.Config)",
+      "signature": "com.artipie.asto.Storage newObject(java.lang.String, com.artipie.asto.factory.Config)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#newObject(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object newObject(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#scanPackagesEnv()",
+      "signature": "java.lang.String scanPackagesEnv()"
+    },
+    {
+      "key": "com.artipie.asto.factory.StoragesLoader#types()",
+      "signature": "java.util.Set<java.lang.String> types()"
+    },
+    {
+      "key": "com.artipie.asto.fs.FileStorage#identifier()",
+      "signature": "java.lang.String identifier()"
+    },
+    {
+      "key": "com.artipie.asto.misc.Cleanable#invalidate(T)",
+      "signature": "abstract void invalidate(T)"
+    },
+    {
+      "key": "com.artipie.asto.misc.Cleanable#invalidateAll()",
+      "signature": "abstract void invalidateAll()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#deleteAll_shouldDeleteAllItemsWithKeyPrefix()",
+      "signature": "void deleteAll_shouldDeleteAllItemsWithKeyPrefix()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#delete_shouldDeleteValue()",
+      "signature": "void delete_shouldDeleteValue()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#delete_shouldFailToDeleteNotExistingValue()",
+      "signature": "void delete_shouldFailToDeleteNotExistingValue()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#delete_shouldFailToDeleteParentOfSavedKey()",
+      "signature": "void delete_shouldFailToDeleteParentOfSavedKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exclusively_shouldFailExclusivelyForSameKey()",
+      "signature": "void exclusively_shouldFailExclusivelyForSameKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exclusively_shouldRunExclusivelyForDiffKey()",
+      "signature": "void exclusively_shouldRunExclusivelyForDiffKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exclusively_shouldRunExclusivelyWhenPrevFinished()",
+      "signature": "void exclusively_shouldRunExclusivelyWhenPrevFinished()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exclusively_shouldRunExclusivelyWhenPrevFinishedWithAsyncFailure()",
+      "signature": "void exclusively_shouldRunExclusivelyWhenPrevFinishedWithAsyncFailure()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exclusively_shouldRunExclusivelyWhenPrevFinishedWithSyncFailure()",
+      "signature": "void exclusively_shouldRunExclusivelyWhenPrevFinishedWithSyncFailure()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exists_shouldExistForSavedKey()",
+      "signature": "void exists_shouldExistForSavedKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exists_shouldNotExistForParentOfSavedKey()",
+      "signature": "void exists_shouldNotExistForParentOfSavedKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#exists_shouldNotExistForUnknownKey()",
+      "signature": "void exists_shouldNotExistForUnknownKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#list_shouldListAllItemsByRootKey()",
+      "signature": "void list_shouldListAllItemsByRootKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#list_shouldListKeysInOrder()",
+      "signature": "void list_shouldListKeysInOrder()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#list_shouldListNoKeysWhenEmpty()",
+      "signature": "void list_shouldListNoKeysWhenEmpty()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#move_shouldFailToMoveAbsentValue()",
+      "signature": "void move_shouldFailToMoveAbsentValue()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#move_shouldMove()",
+      "signature": "void move_shouldMove()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#move_shouldMoveWhenDestinationExists()",
+      "signature": "void move_shouldMoveWhenDestinationExists()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_loadDoesNotSupportRootKey()",
+      "signature": "void saveAndLoad_loadDoesNotSupportRootKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_saveDoesNotSupportRootKey()",
+      "signature": "void saveAndLoad_saveDoesNotSupportRootKey()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldFailOnSecondConsumeAttempt()",
+      "signature": "void saveAndLoad_shouldFailOnSecondConsumeAttempt()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldFailToLoadAbsentValue()",
+      "signature": "void saveAndLoad_shouldFailToLoadAbsentValue()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldFailToSaveErrorContent()",
+      "signature": "void saveAndLoad_shouldFailToSaveErrorContent()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldNotOverwriteWithPartial()",
+      "signature": "void saveAndLoad_shouldNotOverwriteWithPartial()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldNotSavePartial()",
+      "signature": "void saveAndLoad_shouldNotSavePartial()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldReturnContentWithSpecifiedSize()",
+      "signature": "void saveAndLoad_shouldReturnContentWithSpecifiedSize()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldSave()",
+      "signature": "void saveAndLoad_shouldSave()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldSaveEmpty()",
+      "signature": "void saveAndLoad_shouldSaveEmpty()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldSaveFromMultipleBuffers()",
+      "signature": "void saveAndLoad_shouldSaveFromMultipleBuffers()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#saveAndLoad_shouldSaveWhenValueAlreadyExists()",
+      "signature": "void saveAndLoad_shouldSaveWhenValueAlreadyExists()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#size_shouldFailToGetSizeOfAbsentValue()",
+      "signature": "void size_shouldFailToGetSizeOfAbsentValue()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification#size_shouldGetSizeSave()",
+      "signature": "void size_shouldGetSizeSave()"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification$FakeOperation#apply(com.artipie.asto.Storage)",
+      "signature": "java.util.concurrent.CompletionStage<java.lang.Void> apply(com.artipie.asto.Storage)"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification$FakeOperation#apply(java.lang.Object)",
+      "signature": "java.lang.Object apply(java.lang.Object)"
+    },
+    {
+      "key": "com.artipie.asto.test.StorageWhiteboxVerification$StorageConsumer#accept(org.apache.commons.lang3.tuple.ImmutablePair<java.lang.String, com.artipie.asto.Storage>)",
+      "signature": "abstract void accept(org.apache.commons.lang3.tuple.ImmutablePair<java.lang.String, com.artipie.asto.Storage>)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "com.artipie.asto.factory.StorageFactory#newStorage",
+      "old": "abstract com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)",
+      "new": "abstract com.artipie.asto.Storage newStorage(com.artipie.asto.factory.Config)",
+      "old_key": "com.artipie.asto.factory.StorageFactory#newStorage(com.artipie.asto.factory.StorageConfig)",
+      "new_key": "com.artipie.asto.factory.StorageFactory#newStorage(com.artipie.asto.factory.Config)"
+    },
+    {
+      "name": "com.artipie.asto.fs.FileStorageFactory#newStorage",
+      "old": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)",
+      "new": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.Config)",
+      "old_key": "com.artipie.asto.fs.FileStorageFactory#newStorage(com.artipie.asto.factory.StorageConfig)",
+      "new_key": "com.artipie.asto.fs.FileStorageFactory#newStorage(com.artipie.asto.factory.Config)"
+    }
+  ],
+  "counts": {
+    "old_methods": 314,
+    "new_methods": 307,
+    "removed": 72,
+    "added": 65,
+    "changed": 2
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.artipie_asto-core_v1.13.0.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.artipie_asto-core_v1.15.4.jar",
+  "group_id": "com.artipie",
+  "artifact_id": "asto-core",
+  "old_version": "v1.13.0",
+  "new_version": "v1.15.4",
+  "project": "docker-adapter"
+}

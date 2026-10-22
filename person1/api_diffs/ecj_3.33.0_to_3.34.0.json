@@ -1,0 +1,193 @@
+{
+  "removed": [
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#rawTypeInRecordPattern(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.ast.ASTNode)",
+      "signature": "void rawTypeInRecordPattern(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.ast.ASTNode)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#switchPatternBothNullAndNonTypePatternNotAllowed(org.eclipse.jdt.internal.compiler.ast.Expression)",
+      "signature": "void switchPatternBothNullAndNonTypePatternNotAllowed(org.eclipse.jdt.internal.compiler.ast.Expression)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ASTVisitor#endVisit(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)",
+      "signature": "void endVisit(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ASTVisitor#visit(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)",
+      "signature": "boolean visit(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ClassFile#internalSetBytes(byte[])",
+      "signature": "void internalSetBytes(byte[])"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9#isCanonicalConstructor(javax.lang.model.element.ExecutableElement)",
+      "signature": "boolean isCanonicalConstructor(javax.lang.model.element.ExecutableElement)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.apt.model.ElementsImpl9#isCompactConstructor(javax.lang.model.element.ExecutableElement)",
+      "signature": "boolean isCompactConstructor(javax.lang.model.element.ExecutableElement)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.ForeachStatement#transformAction()",
+      "signature": "void transformAction()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.Pattern#containsPatternVariable()",
+      "signature": "boolean containsPatternVariable()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.Pattern#getEnclosingPattern()",
+      "signature": "org.eclipse.jdt.internal.compiler.ast.Pattern getEnclosingPattern()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.Pattern#setEnclosingPattern(org.eclipse.jdt.internal.compiler.ast.Pattern)",
+      "signature": "void setEnclosingPattern(org.eclipse.jdt.internal.compiler.ast.Pattern)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.Pattern$1PatternVariablesVisitor#visit(org.eclipse.jdt.internal.compiler.ast.TypePattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)",
+      "signature": "boolean visit(org.eclipse.jdt.internal.compiler.ast.TypePattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.SwitchExpression#collectPatternVariablesToScope(org.eclipse.jdt.internal.compiler.lookup.LocalVariableBinding[], org.eclipse.jdt.internal.compiler.lookup.BlockScope)",
+      "signature": "void collectPatternVariablesToScope(org.eclipse.jdt.internal.compiler.lookup.LocalVariableBinding[], org.eclipse.jdt.internal.compiler.lookup.BlockScope)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader#isStaticInner(char[])",
+      "signature": "boolean isStaticInner(char[])"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.codegen.CodeStream#invokeJavaLangMatchExceptionConstructor()",
+      "signature": "void invokeJavaLangMatchExceptionConstructor()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.codegen.CodeStream#newJavaLangMatchException()",
+      "signature": "void newJavaLangMatchException()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding#getComponent(char[], boolean)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getComponent(char[], boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding#getRecordComponent(char[])",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getRecordComponent(char[])"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding#unResolvedComponents()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding[] unResolvedComponents()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.BoundSet#condition18_5_5_item_4(org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding, org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[], org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.lookup.InferenceContext18)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.TypeBinding[] condition18_5_5_item_4(org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding, org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[], org.eclipse.jdt.internal.compiler.lookup.TypeBinding, org.eclipse.jdt.internal.compiler.lookup.InferenceContext18)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#inferRecordPatternParameterization(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope, org.eclipse.jdt.internal.compiler.lookup.TypeBinding)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding inferRecordPatternParameterization(org.eclipse.jdt.internal.compiler.ast.RecordPattern, org.eclipse.jdt.internal.compiler.lookup.BlockScope, org.eclipse.jdt.internal.compiler.lookup.TypeBinding)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.IntersectionTypeBinding18#isNonDenotable()",
+      "signature": "boolean isNonDenotable()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.IntersectionTypeBinding18#qualifiedPackageName()",
+      "signature": "char[] qualifiedPackageName()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedRecordComponentBinding#constant()",
+      "signature": "org.eclipse.jdt.internal.compiler.impl.Constant constant()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedRecordComponentBinding#original()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding original()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedRecordComponentBinding#setConstant(org.eclipse.jdt.internal.compiler.impl.Constant)",
+      "signature": "void setConstant(org.eclipse.jdt.internal.compiler.impl.Constant)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding#getComponent(char[], boolean)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getComponent(char[], boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding#getRecordComponent(char[])",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getRecordComponent(char[])"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedTypeBinding#unResolvedComponents()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding[] unResolvedComponents()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding#getComponent(char[], boolean)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getComponent(char[], boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding#getRecordComponent(char[])",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getRecordComponent(char[])"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding#unResolvedComponents()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding[] unResolvedComponents()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding#getComponent(char[], boolean)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding getComponent(char[], boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding#unResolvedComponents()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.RecordComponentBinding[] unResolvedComponents()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.TypeBinding#isNonDenotable()",
+      "signature": "boolean isNonDenotable()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.WildcardBinding#isNonDenotable()",
+      "signature": "boolean isNonDenotable()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#cannotInferRecordPatternTypes(org.eclipse.jdt.internal.compiler.ast.RecordPattern)",
+      "signature": "void cannotInferRecordPatternTypes(org.eclipse.jdt.internal.compiler.ast.RecordPattern)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#cannotMixNullAndNonTypePattern(org.eclipse.jdt.internal.compiler.ast.Expression)",
+      "signature": "void cannotMixNullAndNonTypePattern(org.eclipse.jdt.internal.compiler.ast.Expression)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#illegalFallthroughFromAPattern(org.eclipse.jdt.internal.compiler.ast.Statement)",
+      "signature": "void illegalFallthroughFromAPattern(org.eclipse.jdt.internal.compiler.ast.Statement)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#patternSwitchCaseDefaultOnlyAsSecond(org.eclipse.jdt.internal.compiler.ast.Expression)",
+      "signature": "void patternSwitchCaseDefaultOnlyAsSecond(org.eclipse.jdt.internal.compiler.ast.Expression)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.problem.ProblemReporter#patternSwitchNullOnlyOrFirstWithDefault(org.eclipse.jdt.internal.compiler.ast.Expression)",
+      "signature": "void patternSwitchNullOnlyOrFirstWithDefault(org.eclipse.jdt.internal.compiler.ast.Expression)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#solve",
+      "old": "org.eclipse.jdt.internal.compiler.lookup.BoundSet solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[])",
+      "new": "org.eclipse.jdt.internal.compiler.lookup.BoundSet solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[], boolean)",
+      "old_key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[])",
+      "new_key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#solve(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable[], boolean)"
+    }
+  ],
+  "counts": {
+    "old_methods": 7657,
+    "new_methods": 7694,
+    "removed": 2,
+    "added": 39,
+    "changed": 1
+  },
+  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.eclipse.jdt_ecj_3.33.0.jar",
+  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.eclipse.jdt_ecj_3.34.0.jar",
+  "group_id": "org.eclipse.jdt",
+  "artifact_id": "ecj",
+  "old_version": "3.33.0",
+  "new_version": "3.34.0",
+  "project": "plexus-compiler"
+}
