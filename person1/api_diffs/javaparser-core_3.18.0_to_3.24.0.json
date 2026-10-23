@@ -1,0 +1,2948 @@
+{
+  "removed": [
+    {
+      "key": "com.github.javaparser.ast.CompilationUnit$Storage#getPrinter()",
+      "signature": "com.github.javaparser.printer.Printable getPrinter()"
+    },
+    {
+      "key": "com.github.javaparser.ast.CompilationUnit$Storage#setPrinter(com.github.javaparser.printer.Printable)",
+      "signature": "void setPrinter(com.github.javaparser.printer.Printable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.ImportDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.Modifier#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.Modifier#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.Node#getToStringPrettyPrinterConfiguration()",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration getToStringPrettyPrinterConfiguration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.Node#setToStringPrettyPrinterConfiguration(com.github.javaparser.printer.PrettyPrinterConfiguration)",
+      "signature": "void setToStringPrettyPrinterConfiguration(com.github.javaparser.printer.PrettyPrinterConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.AnnotationDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.AnnotationDeclaration#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.ConstructorDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.InitializerDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.BlockComment#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.BlockComment#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.Comment#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.Comment#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.JavadocComment#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.JavadocComment#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.LineComment#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.comments.LineComment#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.AnnotationExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.ArrayAccessExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.AssignExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.BinaryExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.BooleanLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.BooleanLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.CastExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.CharLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.CharLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.ClassExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.ConditionalExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.DoubleLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.DoubleLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.EnclosedExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.IntegerLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.IntegerLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LiteralStringValueExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LiteralStringValueExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LongLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LongLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.MarkerAnnotationExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.MarkerAnnotationExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.MemberValuePair#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.NameExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.NullLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.NullLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.PatternExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.SimpleName#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.SimpleName#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.SingleMemberAnnotationExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.StringLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.StringLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.TextBlockLiteralExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.TextBlockLiteralExpr#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.TypeExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.UnaryExpr#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.modules.ModuleDirective#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.modules.ModuleDirective#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.modules.ModuleUsesDirective#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.CatchClause#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.DoStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.EmptyStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.EmptyStmt#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.ExpressionStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.ForEachStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LabeledStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalClassDeclarationStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.SynchronizedStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.ThrowStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.UnparsableStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.UnparsableStmt#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.WhileStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.YieldStmt#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ArrayType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.PrimitiveType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.PrimitiveType#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ReferenceType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ReferenceType#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.UnknownType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.UnknownType#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.VarType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.VarType#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.VoidType#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.VoidType#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ConstructorDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.EnumDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.FieldDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.MethodDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.LambdaExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.stmt.CatchClause, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.ModifierValidator#visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.Name, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.VarValidator#accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.VarValidator#accept(com.github.javaparser.ast.type.VarType, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.type.VarType, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.chunks.VarValidator#accept(java.lang.Object, java.lang.Object)",
+      "signature": "void accept(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getEndOfLineCharacter()",
+      "signature": "java.lang.String getEndOfLineCharacter()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getIndent()",
+      "signature": "java.lang.String getIndent()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getIndentSize()",
+      "signature": "int getIndentSize()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getMaxEnumConstantsToAlignHorizontally()",
+      "signature": "int getMaxEnumConstantsToAlignHorizontally()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getTabWidth()",
+      "signature": "int getTabWidth()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#getVisitorFactory()",
+      "signature": "java.util.function.Function<com.github.javaparser.printer.PrettyPrinterConfiguration, com.github.javaparser.ast.visitor.VoidVisitor<java.lang.Void>> getVisitorFactory()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isColumnAlignFirstMethodChain()",
+      "signature": "boolean isColumnAlignFirstMethodChain()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isColumnAlignParameters()",
+      "signature": "boolean isColumnAlignParameters()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isIgnoreComments()",
+      "signature": "boolean isIgnoreComments()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isIndentCaseInSwitch()",
+      "signature": "boolean isIndentCaseInSwitch()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isOrderImports()",
+      "signature": "boolean isOrderImports()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isPrintComments()",
+      "signature": "boolean isPrintComments()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isPrintJavadoc()",
+      "signature": "boolean isPrintJavadoc()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#isSpaceAroundOperators()",
+      "signature": "boolean isSpaceAroundOperators()"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setColumnAlignFirstMethodChain(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setColumnAlignFirstMethodChain(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setColumnAlignParameters(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setColumnAlignParameters(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setEndOfLineCharacter(java.lang.String)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setEndOfLineCharacter(java.lang.String)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setIndentCaseInSwitch(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setIndentCaseInSwitch(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setIndentSize(int)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setIndentSize(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setIndentType(com.github.javaparser.printer.PrettyPrinterConfiguration$IndentType)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setIndentType(com.github.javaparser.printer.PrettyPrinterConfiguration$IndentType)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setMaxEnumConstantsToAlignHorizontally(int)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setMaxEnumConstantsToAlignHorizontally(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setOrderImports(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setOrderImports(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setPrintComments(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setPrintComments(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setPrintJavadoc(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setPrintJavadoc(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setSpaceAroundOperators(boolean)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setSpaceAroundOperators(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setTabWidth(int)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setTabWidth(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration#setVisitorFactory(java.util.function.Function<com.github.javaparser.printer.PrettyPrinterConfiguration, com.github.javaparser.ast.visitor.VoidVisitor<java.lang.Void>>)",
+      "signature": "com.github.javaparser.printer.PrettyPrinterConfiguration setVisitorFactory(java.util.function.Function<com.github.javaparser.printer.PrettyPrinterConfiguration, com.github.javaparser.ast.visitor.VoidVisitor<java.lang.Void>>)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrinterConfiguration$IndentType#getChar()",
+      "signature": "java.lang.Character getChar()"
+    },
+    {
+      "key": "com.github.javaparser.printer.Printable#print(com.github.javaparser.ast.Node)",
+      "signature": "java.lang.String print(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.Kept#isChild()",
+      "signature": "boolean isChild()"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.Removed#isChild()",
+      "signature": "boolean isChild()"
+    },
+    {
+      "key": "com.github.javaparser.version.PostProcessors#add(com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.version.PostProcessors add(com.github.javaparser.ParseResult$PostProcessor)"
+    },
+    {
+      "key": "com.github.javaparser.version.PostProcessors#process(com.github.javaparser.ParseResult<? extends com.github.javaparser.ast.Node>, com.github.javaparser.ParserConfiguration)",
+      "signature": "void process(com.github.javaparser.ParseResult<? extends com.github.javaparser.ast.Node>, com.github.javaparser.ParserConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.version.PostProcessors#remove(com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.version.PostProcessors remove(com.github.javaparser.ParseResult$PostProcessor)"
+    },
+    {
+      "key": "com.github.javaparser.version.PostProcessors#replace(com.github.javaparser.ParseResult$PostProcessor, com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.version.PostProcessors replace(com.github.javaparser.ParseResult$PostProcessor, com.github.javaparser.ParseResult$PostProcessor)"
+    }
+  ],
+  "added": [
+    {
+      "key": "com.github.javaparser.GeneratedJavaParser#CompactConstructorDeclaration(com.github.javaparser.ModifierHolder)",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration CompactConstructorDeclaration(com.github.javaparser.ModifierHolder)"
+    },
+    {
+      "key": "com.github.javaparser.GeneratedJavaParser#RecordBody()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.body.BodyDeclaration<?>> RecordBody()"
+    },
+    {
+      "key": "com.github.javaparser.GeneratedJavaParser#RecordBodyDeclaration()",
+      "signature": "com.github.javaparser.ast.body.BodyDeclaration<?> RecordBodyDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.GeneratedJavaParser#RecordDeclaration(com.github.javaparser.ModifierHolder)",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration RecordDeclaration(com.github.javaparser.ModifierHolder)"
+    },
+    {
+      "key": "com.github.javaparser.HasParentNode#hasParentNode()",
+      "signature": "boolean hasParentNode()"
+    },
+    {
+      "key": "com.github.javaparser.ast.CompilationUnit#printer(com.github.javaparser.printer.Printer)",
+      "signature": "com.github.javaparser.ast.CompilationUnit printer(com.github.javaparser.printer.Printer)"
+    },
+    {
+      "key": "com.github.javaparser.ast.Node#findAll(java.lang.Class<T>, com.github.javaparser.ast.Node$TreeTraversal)",
+      "signature": "java.util.List<T> findAll(java.lang.Class<T>, com.github.javaparser.ast.Node$TreeTraversal)"
+    },
+    {
+      "key": "com.github.javaparser.ast.Node#hasScope()",
+      "signature": "boolean hasScope()"
+    },
+    {
+      "key": "com.github.javaparser.ast.Node#isPhantom()",
+      "signature": "boolean isPhantom()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#asCompactConstructorDeclaration()",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration asCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#asRecordDeclaration()",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration asRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#ifCompactConstructorDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.CompactConstructorDeclaration>)",
+      "signature": "void ifCompactConstructorDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.CompactConstructorDeclaration>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#ifRecordDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.RecordDeclaration>)",
+      "signature": "void ifRecordDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.RecordDeclaration>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#isCompactConstructorDeclaration()",
+      "signature": "boolean isCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#isRecordDeclaration()",
+      "signature": "boolean isRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#toCompactConstructorDeclaration()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.body.CompactConstructorDeclaration> toCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.BodyDeclaration#toRecordDeclaration()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.body.RecordDeclaration> toRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CallableDeclaration#isFixedArityMethod()",
+      "signature": "boolean isFixedArityMethod()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CallableDeclaration#isVariableArityMethod()",
+      "signature": "boolean isVariableArityMethod()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)",
+      "signature": "R accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)",
+      "signature": "void accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#asCompactConstructorDeclaration()",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration asCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#clone()",
+      "signature": "java.lang.Object clone()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getBody()",
+      "signature": "com.github.javaparser.ast.stmt.BlockStmt getBody()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getDeclarationAsString(boolean, boolean, boolean)",
+      "signature": "java.lang.String getDeclarationAsString(boolean, boolean, boolean)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getMetaModel()",
+      "signature": "com.github.javaparser.metamodel.NodeMetaModel getMetaModel()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getModifiers()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.Modifier> getModifiers()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getName()",
+      "signature": "com.github.javaparser.ast.expr.SimpleName getName()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getThrownExceptions()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ReferenceType> getThrownExceptions()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#getTypeParameters()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter> getTypeParameters()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#ifCompactConstructorDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.CompactConstructorDeclaration>)",
+      "signature": "void ifCompactConstructorDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.CompactConstructorDeclaration>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#isCompactConstructorDeclaration()",
+      "signature": "boolean isCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#resolve()",
+      "signature": "java.lang.Object resolve()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setBody(com.github.javaparser.ast.stmt.BlockStmt)",
+      "signature": "com.github.javaparser.ast.Node setBody(com.github.javaparser.ast.stmt.BlockStmt)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setModifiers(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setModifiers(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setModifiers(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.Modifier>)",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration setModifiers(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.Modifier>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setName(com.github.javaparser.ast.expr.SimpleName)",
+      "signature": "com.github.javaparser.ast.Node setName(com.github.javaparser.ast.expr.SimpleName)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setThrownExceptions(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setThrownExceptions(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setThrownExceptions(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ReferenceType>)",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration setThrownExceptions(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ReferenceType>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setTypeParameters(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setTypeParameters(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#setTypeParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter>)",
+      "signature": "com.github.javaparser.ast.body.CompactConstructorDeclaration setTypeParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.CompactConstructorDeclaration#toCompactConstructorDeclaration()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.body.CompactConstructorDeclaration> toCompactConstructorDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.MethodDeclaration#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.Parameter#isFinal()",
+      "signature": "boolean isFinal()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)",
+      "signature": "R accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)",
+      "signature": "void accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#asRecordDeclaration()",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration asRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#clone()",
+      "signature": "java.lang.Object clone()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getCompactConstructors()",
+      "signature": "java.util.List<com.github.javaparser.ast.body.CompactConstructorDeclaration> getCompactConstructors()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getFullyQualifiedName()",
+      "signature": "java.util.Optional<java.lang.String> getFullyQualifiedName()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getImplementedTypes()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ClassOrInterfaceType> getImplementedTypes()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getMetaModel()",
+      "signature": "com.github.javaparser.metamodel.NodeMetaModel getMetaModel()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getParameters()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.body.Parameter> getParameters()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getReceiverParameter()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.body.ReceiverParameter> getReceiverParameter()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#getTypeParameters()",
+      "signature": "com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter> getTypeParameters()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#ifRecordDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.RecordDeclaration>)",
+      "signature": "void ifRecordDeclaration(java.util.function.Consumer<com.github.javaparser.ast.body.RecordDeclaration>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#isFinal()",
+      "signature": "boolean isFinal()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#isLocalRecordDeclaration()",
+      "signature": "boolean isLocalRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#isRecordDeclaration()",
+      "signature": "boolean isRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#isStatic()",
+      "signature": "boolean isStatic()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#remove(com.github.javaparser.ast.Node)",
+      "signature": "boolean remove(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#removeReceiverParameter()",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration removeReceiverParameter()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#resolve()",
+      "signature": "java.lang.Object resolve()"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setImplementedTypes(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setImplementedTypes(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setImplementedTypes(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ClassOrInterfaceType>)",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration setImplementedTypes(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.ClassOrInterfaceType>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setParameters(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setParameters(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.body.Parameter>)",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration setParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.body.Parameter>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setReceiverParameter(com.github.javaparser.ast.body.ReceiverParameter)",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration setReceiverParameter(com.github.javaparser.ast.body.ReceiverParameter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setTypeParameters(com.github.javaparser.ast.NodeList)",
+      "signature": "com.github.javaparser.ast.Node setTypeParameters(com.github.javaparser.ast.NodeList)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#setTypeParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter>)",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration setTypeParameters(com.github.javaparser.ast.NodeList<com.github.javaparser.ast.type.TypeParameter>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.body.RecordDeclaration#toRecordDeclaration()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.body.RecordDeclaration> toRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.ConditionalExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.EnclosedExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#appearsInAssignmentContext()",
+      "signature": "boolean appearsInAssignmentContext()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#appearsInInvocationContext()",
+      "signature": "boolean appearsInInvocationContext()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#elidesTypeArguments()",
+      "signature": "boolean elidesTypeArguments()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#isQualified()",
+      "signature": "boolean isQualified()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.Expression#isStandaloneExpression()",
+      "signature": "boolean isStandaloneExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.LambdaExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.MethodCallExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.MethodReferenceExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.expr.ObjectCreationExpr#isPolyExpression()",
+      "signature": "boolean isPolyExpression()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)",
+      "signature": "R accept(com.github.javaparser.ast.visitor.GenericVisitor<R, A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)",
+      "signature": "void accept(com.github.javaparser.ast.visitor.VoidVisitor<A>, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#asLocalRecordDeclarationStmt()",
+      "signature": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt asLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#clone()",
+      "signature": "java.lang.Object clone()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#getMetaModel()",
+      "signature": "com.github.javaparser.metamodel.NodeMetaModel getMetaModel()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#getRecordDeclaration()",
+      "signature": "com.github.javaparser.ast.body.RecordDeclaration getRecordDeclaration()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#ifLocalRecordDeclarationStmt(java.util.function.Consumer<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt>)",
+      "signature": "void ifLocalRecordDeclarationStmt(java.util.function.Consumer<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#isLocalRecordDeclarationStmt()",
+      "signature": "boolean isLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)",
+      "signature": "boolean replace(com.github.javaparser.ast.Node, com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#setRecordDeclaration(com.github.javaparser.ast.body.RecordDeclaration)",
+      "signature": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt setRecordDeclaration(com.github.javaparser.ast.body.RecordDeclaration)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt#toLocalRecordDeclarationStmt()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt> toLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#asLocalRecordDeclarationStmt()",
+      "signature": "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt asLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#ifLocalRecordDeclarationStmt(java.util.function.Consumer<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt>)",
+      "signature": "void ifLocalRecordDeclarationStmt(java.util.function.Consumer<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt>)"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#isLocalRecordDeclarationStmt()",
+      "signature": "boolean isLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.stmt.Statement#toLocalRecordDeclarationStmt()",
+      "signature": "java.util.Optional<com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt> toLocalRecordDeclarationStmt()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ArrayType#getArrayLevel()",
+      "signature": "int getArrayLevel()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ArrayType#getElementType()",
+      "signature": "com.github.javaparser.ast.type.Type getElementType()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ArrayType#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ClassOrInterfaceType#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.PrimitiveType#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.ReferenceType#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.Type#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.TypeParameter#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.UnknownType#isPhantom()",
+      "signature": "boolean isPhantom()"
+    },
+    {
+      "key": "com.github.javaparser.ast.type.VoidType#toDescriptor()",
+      "signature": "java.lang.String toDescriptor()"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.RecordAsTypeIdentifierNotAllowed#visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.RecordAsTypeIdentifierNotAllowed#visit(com.github.javaparser.ast.expr.Name, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.RecordAsTypeIdentifierNotAllowed#visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.RecordAsTypeIdentifierNotAllowed#visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ConstructorDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.EnumDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.FieldDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.MethodDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.LambdaExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.stmt.CatchClause, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator#visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoBinaryIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.NoUnderscoresInIntegerLiteralsValidator#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.RecordDeclarationValidator#accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.RecordDeclarationValidator#accept(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.RecordDeclarationValidator#accept(java.lang.Object, java.lang.Object)",
+      "signature": "void accept(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.Name, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.UnderscoreKeywordValidator#visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.VarValidator#accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.Node, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.VarValidator#accept(com.github.javaparser.ast.type.VarType, com.github.javaparser.ast.validator.ProblemReporter)",
+      "signature": "void accept(com.github.javaparser.ast.type.VarType, com.github.javaparser.ast.validator.ProblemReporter)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.language_level_validations.chunks.VarValidator#accept(java.lang.Object, java.lang.Object)",
+      "signature": "void accept(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.postprocessors.PostProcessors#add(com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.ast.validator.postprocessors.PostProcessors add(com.github.javaparser.ParseResult$PostProcessor)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.postprocessors.PostProcessors#process(com.github.javaparser.ParseResult<? extends com.github.javaparser.ast.Node>, com.github.javaparser.ParserConfiguration)",
+      "signature": "void process(com.github.javaparser.ParseResult<? extends com.github.javaparser.ast.Node>, com.github.javaparser.ParserConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.postprocessors.PostProcessors#remove(com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.ast.validator.postprocessors.PostProcessors remove(com.github.javaparser.ParseResult$PostProcessor)"
+    },
+    {
+      "key": "com.github.javaparser.ast.validator.postprocessors.PostProcessors#replace(com.github.javaparser.ParseResult$PostProcessor, com.github.javaparser.ParseResult$PostProcessor)",
+      "signature": "com.github.javaparser.ast.validator.postprocessors.PostProcessors replace(com.github.javaparser.ParseResult$PostProcessor, com.github.javaparser.ParseResult$PostProcessor)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.CloneVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.CloneVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.CloneVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.EqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "java.util.List<R> visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "java.util.List<R> visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "java.util.List<R> visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericListVisitorAdapter#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "R visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorAdapter#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorAdapter#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorAdapter#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "R visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorWithDefaults#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorWithDefaults#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "R visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.GenericVisitorWithDefaults#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "R visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.HashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "com.github.javaparser.ast.visitor.Visitable visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "com.github.javaparser.ast.visitor.Visitable visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "com.github.javaparser.ast.visitor.Visitable visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ModifierVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentEqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.NoCommentHashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.body.RecordDeclaration, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)",
+      "signature": "java.lang.Boolean visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, com.github.javaparser.ast.visitor.Visitable)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityEqualsVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "java.lang.Object visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.ObjectIdentityHashCodeVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)",
+      "signature": "java.lang.Integer visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorAdapter#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorAdapter#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorAdapter#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorWithDefaults#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorWithDefaults#visit(com.github.javaparser.ast.body.RecordDeclaration, A)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, A)"
+    },
+    {
+      "key": "com.github.javaparser.ast.visitor.VoidVisitorWithDefaults#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, A)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinter#getConfiguration()",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration getConfiguration()"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinter#print(com.github.javaparser.ast.Node)",
+      "signature": "java.lang.String print(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinter#setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)",
+      "signature": "com.github.javaparser.printer.Printer setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.ArrayCreationLevel, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.ArrayCreationLevel, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.ArrayCreationLevel, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.ArrayCreationLevel, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.CompilationUnit, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.CompilationUnit, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.CompilationUnit, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.CompilationUnit, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.ImportDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.ImportDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.ImportDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.ImportDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.Modifier, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.Modifier, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.Modifier, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.Modifier, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.NodeList, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.NodeList, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.NodeList, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.NodeList, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.PackageDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.PackageDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.PackageDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.PackageDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.AnnotationMemberDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.ClassOrInterfaceDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.ConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.EnumConstantDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumConstantDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.EnumConstantDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumConstantDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.EnumDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.FieldDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.InitializerDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.InitializerDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.InitializerDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.InitializerDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.MethodDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.Parameter, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.Parameter, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.Parameter, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.Parameter, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ReceiverParameter, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.ReceiverParameter, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.ReceiverParameter, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.ReceiverParameter, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.VariableDeclarator, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.VariableDeclarator, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.body.VariableDeclarator, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.VariableDeclarator, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.BlockComment, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.comments.BlockComment, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.BlockComment, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.comments.BlockComment, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.JavadocComment, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.comments.JavadocComment, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.JavadocComment, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.comments.JavadocComment, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.LineComment, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.comments.LineComment, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.comments.LineComment, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.comments.LineComment, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayAccessExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayAccessExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayAccessExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayAccessExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayCreationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayCreationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayCreationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayCreationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayInitializerExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayInitializerExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ArrayInitializerExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ArrayInitializerExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.AssignExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.AssignExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.AssignExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.AssignExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.BinaryExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.BinaryExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.BinaryExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.BinaryExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.BooleanLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.BooleanLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.BooleanLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.BooleanLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.CastExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.CastExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.CastExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.CastExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.CharLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.CharLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.CharLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.CharLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ClassExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ClassExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ClassExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ClassExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ConditionalExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ConditionalExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ConditionalExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ConditionalExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.DoubleLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.DoubleLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.DoubleLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.DoubleLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.EnclosedExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.EnclosedExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.EnclosedExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.EnclosedExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.FieldAccessExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.FieldAccessExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.FieldAccessExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.FieldAccessExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.InstanceOfExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.InstanceOfExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.InstanceOfExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.InstanceOfExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.IntegerLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LambdaExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.LongLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MarkerAnnotationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MarkerAnnotationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MarkerAnnotationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MarkerAnnotationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MemberValuePair, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MemberValuePair, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MemberValuePair, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MemberValuePair, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MethodCallExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MethodCallExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MethodCallExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MethodCallExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MethodReferenceExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MethodReferenceExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.MethodReferenceExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.MethodReferenceExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.Name, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.Name, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.Name, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NameExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NameExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NameExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NameExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NormalAnnotationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NormalAnnotationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NormalAnnotationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NormalAnnotationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NullLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NullLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.NullLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.NullLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ObjectCreationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ObjectCreationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ObjectCreationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ObjectCreationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.PatternExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.PatternExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.PatternExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.PatternExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SimpleName, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SingleMemberAnnotationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SingleMemberAnnotationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SingleMemberAnnotationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SingleMemberAnnotationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.StringLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.StringLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.StringLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.StringLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SuperExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SuperExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SuperExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SuperExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SwitchExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SwitchExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.SwitchExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.SwitchExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.TextBlockLiteralExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.TextBlockLiteralExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.TextBlockLiteralExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.TextBlockLiteralExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ThisExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ThisExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.ThisExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.ThisExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.TypeExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.TypeExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.TypeExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.TypeExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.UnaryExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.UnaryExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.UnaryExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.UnaryExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.expr.VariableDeclarationExpr, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleExportsDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleExportsDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleExportsDirective, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleExportsDirective, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleOpensDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleOpensDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleOpensDirective, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleOpensDirective, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleProvidesDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleProvidesDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleProvidesDirective, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleProvidesDirective, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleRequiresDirective, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleUsesDirective, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleUsesDirective, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.modules.ModuleUsesDirective, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.modules.ModuleUsesDirective, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.AssertStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.AssertStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.AssertStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.AssertStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.BlockStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.BlockStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.BlockStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.BlockStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.BreakStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.BreakStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.BreakStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.BreakStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.CatchClause, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ContinueStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ContinueStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ContinueStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ContinueStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.DoStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.DoStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.DoStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.DoStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.EmptyStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.EmptyStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.EmptyStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.EmptyStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ExplicitConstructorInvocationStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ExplicitConstructorInvocationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ExplicitConstructorInvocationStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ExplicitConstructorInvocationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ExpressionStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ExpressionStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ExpressionStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ExpressionStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ForEachStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ForEachStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ForEachStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ForEachStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ForStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ForStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ForStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ForStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.IfStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.IfStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.IfStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.IfStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LabeledStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LabeledStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LabeledStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LabeledStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LocalClassDeclarationStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalClassDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LocalClassDeclarationStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalClassDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ReturnStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ReturnStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ReturnStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ReturnStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SwitchEntry, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SwitchEntry, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SwitchEntry, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SwitchEntry, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SwitchStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SwitchStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SwitchStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SwitchStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SynchronizedStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SynchronizedStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.SynchronizedStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.SynchronizedStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ThrowStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ThrowStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.ThrowStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.ThrowStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.TryStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.TryStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.TryStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.TryStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.UnparsableStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.UnparsableStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.UnparsableStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.UnparsableStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.WhileStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.WhileStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.WhileStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.WhileStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.YieldStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.YieldStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.stmt.YieldStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.YieldStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.ArrayType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.ArrayType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.ArrayType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.ArrayType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.ClassOrInterfaceType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.ClassOrInterfaceType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.ClassOrInterfaceType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.ClassOrInterfaceType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.IntersectionType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.IntersectionType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.IntersectionType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.IntersectionType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.PrimitiveType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.PrimitiveType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.PrimitiveType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.PrimitiveType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.TypeParameter, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.TypeParameter, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.TypeParameter, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.TypeParameter, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.UnionType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.UnionType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.UnionType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.UnionType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.UnknownType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.UnknownType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.UnknownType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.UnknownType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.VarType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.VarType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.VarType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.VarType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.VoidType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.VoidType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.VoidType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.VoidType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.WildcardType, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.type.WildcardType, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.DefaultPrettyPrinterVisitor#visit(com.github.javaparser.ast.type.WildcardType, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.type.WildcardType, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#setConfiguration(com.github.javaparser.printer.configuration.PrettyPrinterConfiguration)",
+      "signature": "void setConfiguration(com.github.javaparser.printer.configuration.PrettyPrinterConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.CompactConstructorDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.body.RecordDeclaration, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.PrettyPrintVisitor#visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)",
+      "signature": "void visit(com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt, java.lang.Void)"
+    },
+    {
+      "key": "com.github.javaparser.printer.Printer#getConfiguration()",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration getConfiguration()"
+    },
+    {
+      "key": "com.github.javaparser.printer.Printer#print(com.github.javaparser.ast.Node)",
+      "signature": "java.lang.String print(com.github.javaparser.ast.Node)"
+    },
+    {
+      "key": "com.github.javaparser.printer.Printer#setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)",
+      "signature": "com.github.javaparser.printer.Printer setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmAttribute#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmChar#getProperty()",
+      "signature": "com.github.javaparser.ast.observer.ObservableProperty getProperty()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmChar#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmList#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmSequence#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmSingleReference#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmString#getProperty()",
+      "signature": "com.github.javaparser.ast.observer.ObservableProperty getProperty()"
+    },
+    {
+      "key": "com.github.javaparser.printer.concretesyntaxmodel.CsmTextBlock#getProperty()",
+      "signature": "com.github.javaparser.ast.observer.ObservableProperty getProperty()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#asBoolean()",
+      "signature": "java.lang.Boolean asBoolean()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#asInteger()",
+      "signature": "java.lang.Integer asInteger()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#asString()",
+      "signature": "java.lang.String asString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#asValue()",
+      "signature": "T asValue()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#hasValue()",
+      "signature": "boolean hasValue()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.ConfigurationOption#value(java.lang.Object)",
+      "signature": "com.github.javaparser.printer.configuration.ConfigurationOption value(java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#asBoolean()",
+      "signature": "java.lang.Boolean asBoolean()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#asInteger()",
+      "signature": "java.lang.Integer asInteger()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#asString()",
+      "signature": "java.lang.String asString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#asValue()",
+      "signature": "T asValue()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#hasValue()",
+      "signature": "boolean hasValue()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultConfigurationOption#value(java.lang.Object)",
+      "signature": "com.github.javaparser.printer.configuration.ConfigurationOption value(java.lang.Object)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration#addOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration addOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration#get()",
+      "signature": "java.util.Set<com.github.javaparser.printer.configuration.ConfigurationOption> get()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration#get(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "java.util.Optional<com.github.javaparser.printer.configuration.ConfigurationOption> get(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration#isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "boolean isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration#removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation#getIndent()",
+      "signature": "java.lang.String getIndent()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation#getSize()",
+      "signature": "int getSize()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation#setSize(int)",
+      "signature": "com.github.javaparser.printer.configuration.Indentation setSize(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation#setType(com.github.javaparser.printer.configuration.Indentation$IndentType)",
+      "signature": "com.github.javaparser.printer.configuration.Indentation setType(com.github.javaparser.printer.configuration.Indentation$IndentType)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation$IndentType#getCar()",
+      "signature": "java.lang.Character getCar()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.Indentation$IndentType#getWidth()",
+      "signature": "int getWidth()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#addOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration addOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#get()",
+      "signature": "java.util.Set<com.github.javaparser.printer.configuration.ConfigurationOption> get()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#get(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "java.util.Optional<com.github.javaparser.printer.configuration.ConfigurationOption> get(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getEndOfLineCharacter()",
+      "signature": "java.lang.String getEndOfLineCharacter()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getIndent()",
+      "signature": "java.lang.String getIndent()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getIndentSize()",
+      "signature": "int getIndentSize()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getIndentation()",
+      "signature": "com.github.javaparser.printer.configuration.Indentation getIndentation()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getMaxEnumConstantsToAlignHorizontally()",
+      "signature": "int getMaxEnumConstantsToAlignHorizontally()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#getTabWidth()",
+      "signature": "int getTabWidth()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "boolean isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isColumnAlignFirstMethodChain()",
+      "signature": "boolean isColumnAlignFirstMethodChain()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isColumnAlignParameters()",
+      "signature": "boolean isColumnAlignParameters()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isIgnoreComments()",
+      "signature": "boolean isIgnoreComments()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isIndentCaseInSwitch()",
+      "signature": "boolean isIndentCaseInSwitch()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isOrderImports()",
+      "signature": "boolean isOrderImports()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isPrintComments()",
+      "signature": "boolean isPrintComments()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isPrintJavadoc()",
+      "signature": "boolean isPrintJavadoc()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#isSpaceAroundOperators()",
+      "signature": "boolean isSpaceAroundOperators()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setColumnAlignFirstMethodChain(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setColumnAlignFirstMethodChain(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setColumnAlignParameters(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setColumnAlignParameters(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setEndOfLineCharacter(java.lang.String)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setEndOfLineCharacter(java.lang.String)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setIndentCaseInSwitch(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setIndentCaseInSwitch(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setIndentSize(int)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setIndentSize(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setIndentType(com.github.javaparser.printer.configuration.Indentation$IndentType)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setIndentType(com.github.javaparser.printer.configuration.Indentation$IndentType)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setIndentation(com.github.javaparser.printer.configuration.Indentation)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setIndentation(com.github.javaparser.printer.configuration.Indentation)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setMaxEnumConstantsToAlignHorizontally(int)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setMaxEnumConstantsToAlignHorizontally(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setOrderImports(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setOrderImports(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setPrintComments(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setPrintComments(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setPrintJavadoc(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setPrintJavadoc(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setSpaceAroundOperators(boolean)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setSpaceAroundOperators(boolean)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration#setTabWidth(int)",
+      "signature": "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration setTabWidth(int)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrinterConfiguration#addOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration addOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrinterConfiguration#get()",
+      "signature": "java.util.Set<com.github.javaparser.printer.configuration.ConfigurationOption> get()"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrinterConfiguration#get(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "java.util.Optional<com.github.javaparser.printer.configuration.ConfigurationOption> get(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrinterConfiguration#isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "boolean isActivated(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.configuration.PrinterConfiguration#removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)",
+      "signature": "com.github.javaparser.printer.configuration.PrinterConfiguration removeOption(com.github.javaparser.printer.configuration.ConfigurationOption)"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.ChildTextElement#isKeyword()",
+      "signature": "boolean isKeyword()"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.DifferenceElement#isChild()",
+      "signature": "boolean isChild()"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.TextElement#isKeyword()",
+      "signature": "boolean isKeyword()"
+    },
+    {
+      "key": "com.github.javaparser.printer.lexicalpreservation.TokenTextElement#isKeyword()",
+      "signature": "boolean isKeyword()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedAnnotationDeclaration#asAnnotation()",
+      "signature": "com.github.javaparser.resolution.declarations.ResolvedAnnotationDeclaration asAnnotation()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedAnnotationDeclaration#isAnnotation()",
+      "signature": "boolean isAnnotation()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedAnnotationDeclaration#isInheritable()",
+      "signature": "boolean isInheritable()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedFieldDeclaration#isVolatile()",
+      "signature": "boolean isVolatile()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedPatternDeclaration#asPattern()",
+      "signature": "com.github.javaparser.resolution.declarations.ResolvedPatternDeclaration asPattern()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration#getAllAncestors(java.util.function.Function<com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration, java.util.List<com.github.javaparser.resolution.types.ResolvedReferenceType>>)",
+      "signature": "java.util.List<com.github.javaparser.resolution.types.ResolvedReferenceType> getAllAncestors(java.util.function.Function<com.github.javaparser.resolution.declarations.ResolvedReferenceTypeDeclaration, java.util.List<com.github.javaparser.resolution.types.ResolvedReferenceType>>)"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedTypeDeclaration#asAnnotation()",
+      "signature": "com.github.javaparser.resolution.declarations.ResolvedAnnotationDeclaration asAnnotation()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedTypeDeclaration#isAnnotation()",
+      "signature": "boolean isAnnotation()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedTypeParameterDeclaration#isBounded()",
+      "signature": "boolean isBounded()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedTypeParameterDeclaration#isUnbounded()",
+      "signature": "boolean isUnbounded()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.declarations.ResolvedTypeParameterDeclaration#object()",
+      "signature": "com.github.javaparser.resolution.types.ResolvedReferenceType object()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedArrayType#erasure()",
+      "signature": "com.github.javaparser.resolution.types.ResolvedType erasure()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedPrimitiveType#unp(com.github.javaparser.resolution.types.ResolvedType)",
+      "signature": "com.github.javaparser.resolution.types.ResolvedType unp(com.github.javaparser.resolution.types.ResolvedType)"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedReferenceType#erasure()",
+      "signature": "com.github.javaparser.resolution.types.ResolvedType erasure()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedReferenceType#isUnboxable()",
+      "signature": "boolean isUnboxable()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedReferenceType#isUnboxableTo(com.github.javaparser.resolution.types.ResolvedPrimitiveType)",
+      "signature": "boolean isUnboxableTo(com.github.javaparser.resolution.types.ResolvedPrimitiveType)"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedReferenceType#toUnboxedType()",
+      "signature": "java.util.Optional<com.github.javaparser.resolution.types.ResolvedPrimitiveType> toUnboxedType()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedType#erasure()",
+      "signature": "com.github.javaparser.resolution.types.ResolvedType erasure()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedType#isInferenceVariable()",
+      "signature": "boolean isInferenceVariable()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedType#isNumericType()",
+      "signature": "boolean isNumericType()"
+    },
+    {
+      "key": "com.github.javaparser.resolution.types.ResolvedTypeVariable#erasure()",
+      "signature": "com.github.javaparser.resolution.types.ResolvedType erasure()"
+    }
+  ],
+  "changed": [
+    {
+      "name": "com.github.javaparser.ast.Node#toString",
+      "old": "java.lang.String toString(com.github.javaparser.printer.PrettyPrinterConfiguration)",
+      "new": "java.lang.String toString(com.github.javaparser.printer.configuration.PrinterConfiguration)",
+      "old_key": "com.github.javaparser.ast.Node#toString(com.github.javaparser.printer.PrettyPrinterConfiguration)",
+      "new_key": "com.github.javaparser.ast.Node#toString(com.github.javaparser.printer.configuration.PrinterConfiguration)"
+    },
+    {
+      "name": "com.github.javaparser.printer.PrettyPrinter#setConfiguration",
+      "old": "void setConfiguration(com.github.javaparser.printer.PrettyPrinterConfiguration)",
+      "new": "com.github.javaparser.printer.Printer setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)",
+      "old_key": "com.github.javaparser.printer.PrettyPrinter#setConfiguration(com.github.javaparser.printer.PrettyPrinterConfiguration)",
+      "new_key": "com.github.javaparser.printer.PrettyPrinter#setConfiguration(com.github.javaparser.printer.configuration.PrinterConfiguration)"
+    }
+  ],
+  "counts": {
+    "old_methods": 6305,
+    "new_methods": 6682,
+    "removed": 161,
+    "added": 538,
+    "changed": 2,
+    "removed_classes": 34,
+    "added_classes": 60
+  },
+  "removed_classes": [
+    "com.github.javaparser.ast.validator.Java10Validator",
+    "com.github.javaparser.ast.validator.Java11Validator",
+    "com.github.javaparser.ast.validator.Java12Validator",
+    "com.github.javaparser.ast.validator.Java13Validator",
+    "com.github.javaparser.ast.validator.Java14Validator",
+    "com.github.javaparser.ast.validator.Java15Validator",
+    "com.github.javaparser.ast.validator.Java16Validator",
+    "com.github.javaparser.ast.validator.Java1_0Validator",
+    "com.github.javaparser.ast.validator.Java1_1Validator",
+    "com.github.javaparser.ast.validator.Java1_2Validator",
+    "com.github.javaparser.ast.validator.Java1_3Validator",
+    "com.github.javaparser.ast.validator.Java1_4Validator",
+    "com.github.javaparser.ast.validator.Java5Validator",
+    "com.github.javaparser.ast.validator.Java6Validator",
+    "com.github.javaparser.ast.validator.Java7Validator",
+    "com.github.javaparser.ast.validator.Java8Validator",
+    "com.github.javaparser.ast.validator.Java9Validator",
+    "com.github.javaparser.ast.validator.chunks.CommonValidators",
+    "com.github.javaparser.ast.validator.chunks.ModifierValidator",
+    "com.github.javaparser.ast.validator.chunks.NoBinaryIntegerLiteralsValidator",
+    "com.github.javaparser.ast.validator.chunks.NoUnderscoresInIntegerLiteralsValidator",
+    "com.github.javaparser.ast.validator.chunks.UnderscoreKeywordValidator",
+    "com.github.javaparser.ast.validator.chunks.VarValidator",
+    "com.github.javaparser.printer.PrettyPrinterConfiguration",
+    "com.github.javaparser.printer.PrettyPrinterConfiguration$IndentType",
+    "com.github.javaparser.printer.Printable",
+    "com.github.javaparser.version.Java10PostProcessor",
+    "com.github.javaparser.version.Java11PostProcessor",
+    "com.github.javaparser.version.Java12PostProcessor",
+    "com.github.javaparser.version.Java13PostProcessor",
+    "com.github.javaparser.version.Java14PostProcessor",
+    "com.github.javaparser.version.Java15PostProcessor",
+    "com.github.javaparser.version.Java16PostProcessor",
+    "com.github.javaparser.version.PostProcessors"
+  ],
+  "added_classes": [
+    "com.github.javaparser.ast.body.CompactConstructorDeclaration",
+    "com.github.javaparser.ast.body.RecordDeclaration",
+    "com.github.javaparser.ast.stmt.LocalRecordDeclarationStmt",
+    "com.github.javaparser.ast.validator.RecordAsTypeIdentifierNotAllowed",
+    "com.github.javaparser.ast.validator.language_level_validations.Java10PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java10Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java11PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java11Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java12PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java12Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java13PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java13Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java14PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java14Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java15PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java15Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java16PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java16Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java17PreviewValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java17Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java1_0Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java1_1Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java1_2Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java1_3Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java1_4Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java5Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java6Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java7Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java8Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.Java9Validator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.CommonValidators",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.ModifierValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.NoBinaryIntegerLiteralsValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.NoUnderscoresInIntegerLiteralsValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.RecordDeclarationValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.UnderscoreKeywordValidator",
+    "com.github.javaparser.ast.validator.language_level_validations.chunks.VarValidator",
+    "com.github.javaparser.ast.validator.postprocessors.Java10PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java11PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java12PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java13PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java14PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java15PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java16PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.Java17PostProcessor",
+    "com.github.javaparser.ast.validator.postprocessors.PostProcessors",
+    "com.github.javaparser.metamodel.CompactConstructorDeclarationMetaModel",
+    "com.github.javaparser.metamodel.LocalRecordDeclarationStmtMetaModel",
+    "com.github.javaparser.metamodel.RecordDeclarationMetaModel",
+    "com.github.javaparser.printer.DefaultPrettyPrinter",
+    "com.github.javaparser.printer.DefaultPrettyPrinterVisitor",
+    "com.github.javaparser.printer.Printer",
+    "com.github.javaparser.printer.configuration.ConfigurationOption",
+    "com.github.javaparser.printer.configuration.DefaultConfigurationOption",
+    "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration",
+    "com.github.javaparser.printer.configuration.DefaultPrinterConfiguration$ConfigOption",
+    "com.github.javaparser.printer.configuration.Indentation",
+    "com.github.javaparser.printer.configuration.Indentation$IndentType",
+    "com.github.javaparser.printer.configuration.PrettyPrinterConfiguration",
+    "com.github.javaparser.printer.configuration.PrinterConfiguration"
+  ],
+  "old_jar": "jar_cache/com.github.javaparser_javaparser-core_3.18.0.jar",
+  "new_jar": "jar_cache/com.github.javaparser_javaparser-core_3.24.0.jar",
+  "group_id": "com.github.javaparser",
+  "artifact_id": "javaparser-core",
+  "old_version": "3.18.0",
+  "new_version": "3.24.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "scheduler"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "project": "dependency-lock-maven-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/vandmo/dependency-lock-maven-plugin/pull/58",
+  "dependency": "org.apache.maven:maven-plugin-api",
+  "old_version": "3.8.4",
+  "new_version": "3.8.5",
+  "source_repo": "apache/maven",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "maven-3.8.5"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/apache/maven/compare/3.8.4...3.8.5",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from maven-plugin-api's releases.\n\n3.8.5\n\nWhat's Changed\n\n[3.8.x][MNG-7156][MNG-7285] Add locking in MojoExecutor by @​gnodet in apache/maven#628\n\n[MNG-6326] Make the build fail if core extensions can not be loaded by @​gnodet in apache/maven#648\n\n[3.8.x][MNG-7347] SessionScoped beans should be singletons for a given session by @​gnodet in apache/maven#653\n\n[3.8.x][MNG-7386] Make sure the ModelMerger$MergingList can be serialized by @​gnodet in apache/maven#656\n\n[3.8.x][MNG-7349] Limit relocation warning message to direct dependencies only by @​gnodet in apache/maven#657\n\n[3.8.x][MNG-6727] Changed expression check to project.version and project.parent.version by @​gnodet in apache/maven#670\n\n[3.8.x][MNG-7395] - Support system-properties in extension.xml by @​laeubi in apache/maven#673\n\nNew Contributors\n\n@​laeubi made their first contribution in apache/maven#673\n\nFull Changelog: https://github.com/apache/maven/compare/maven-3.8.4...maven-3.8.5",
+    "pr_body_commits": "3599d34 [maven-release-plugin] prepare release maven-3.8.5\n\ncfeea9d Remove unused imports\n\n572d526 [MNG-7428] Upgrade Maven Parent to 35\n\nf0caf9c [MNG-6960] Use RuntimeInformation instead of reading properties\n\n05e96da [MNG-5180] Versioning's snapshot version list is not included in\n\nd29af90 [MNG-7402] BuildListCalculator never detaches the classloader\n\n395411f [MNG-7417] Several classes do not set properties properly for building requests\n\na5acd3e [MNG-7395] Support interpolation in extensions.xml\n\n2bb1228 [MNG-7407] Introduce a ModelVersionProcessor component to make CI Friendly Ve...\n\n6f14196 [MNG-7400] Allow more WorkspaceReaders to participate\n\nAdditional commits viewable in compare view",
+    "release_notes": "## maven-3.8.5\n## What's Changed\r\n* [3.8.x][MNG-7156][MNG-7285] Add locking in MojoExecutor by @gnodet in https://github.com/apache/maven/pull/628\r\n* [MNG-6326] Make the build fail if core extensions can not be loaded by @gnodet in https://github.com/apache/maven/pull/648\r\n* [3.8.x][MNG-7347] SessionScoped beans should be singletons for a given session by @gnodet in https://github.com/apache/maven/pull/653\r\n* [3.8.x][MNG-7386] Make sure the ModelMerger$MergingList can be serialized by @gnodet in https://github.com/apache/maven/pull/656\r\n* [3.8.x][MNG-7349] Limit relocation warning message to direct dependencies only by @gnodet in https://github.com/apache/maven/pull/657\r\n* [3.8.x][MNG-6727] Changed expression check to project.version and project.parent.version by @gnodet in https://github.com/apache/maven/pull/670\r\n* [3.8.x][MNG-7395] - Support system-properties in extension.xml by @laeubi in https://github.com/apache/maven/pull/673\r\n\r\n## New Contributors\r\n* @laeubi made their first contribution in https://github.com/apache/maven/pull/673\r\n\r\n**Full Changelog**: https://github.com/apache/maven/compare/maven-3.8.4...maven-3.8.5"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

@@ -1,0 +1,218 @@
+{
+  "removed": [
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(java.util.List<? extends org.apache.http.Header>)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(java.util.List<? extends org.apache.http.Header>)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.client.CredentialsProvider)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.client.CredentialsProvider)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.client.HttpRequestRetryHandler)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.client.HttpRequestRetryHandler)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.client.RedirectStrategy)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.client.RedirectStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.client.ServiceUnavailableRetryStrategy)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.client.ServiceUnavailableRetryStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.conn.DnsResolver)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.conn.DnsResolver)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.conn.routing.HttpRoutePlanner)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.conn.routing.HttpRoutePlanner)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.http.protocol.HttpProcessor)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.http.protocol.HttpProcessor)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientConfiguration#isNormalizeUriEnabled()",
+      "signature": "boolean isNormalizeUriEnabled()"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientConfiguration#setNormalizeUriEnabled(boolean)",
+      "signature": "void setNormalizeUriEnabled(boolean)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(io.dropwizard.setup.Environment)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(io.dropwizard.setup.Environment)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(javax.validation.Validator)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(javax.validation.Validator)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.client.CredentialsProvider)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.client.CredentialsProvider)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.client.HttpRequestRetryHandler)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.client.HttpRequestRetryHandler)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.client.ServiceUnavailableRetryStrategy)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.client.ServiceUnavailableRetryStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.config.Registry<org.apache.http.conn.socket.ConnectionSocketFactory>)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.conn.DnsResolver)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.conn.DnsResolver)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.http.conn.routing.HttpRoutePlanner)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.http.conn.routing.HttpRoutePlanner)"
+    }
+  ],
+  "added": [
+    {
+      "key": "io.dropwizard.client.DropwizardApacheConnector$BufferedJerseyRequestHttpEntity#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "io.dropwizard.client.DropwizardApacheConnector$JerseyRequestHttpEntity#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.client5.http.DnsResolver)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.client5.http.DnsResolver)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.client5.http.HttpRequestRetryStrategy)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.client5.http.HttpRequestRetryStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.client5.http.auth.CredentialsStore)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.client5.http.auth.CredentialsStore)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.client5.http.protocol.RedirectStrategy)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.client5.http.protocol.RedirectStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.client5.http.routing.HttpRoutePlanner)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.client5.http.routing.HttpRoutePlanner)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.core5.http.config.Registry<org.apache.hc.client5.http.socket.ConnectionSocketFactory>)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.core5.http.config.Registry<org.apache.hc.client5.http.socket.ConnectionSocketFactory>)"
+    },
+    {
+      "key": "io.dropwizard.client.HttpClientBuilder#using(org.apache.hc.core5.http.protocol.HttpProcessor)",
+      "signature": "io.dropwizard.client.HttpClientBuilder using(org.apache.hc.core5.http.protocol.HttpProcessor)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(io.dropwizard.core.setup.Environment)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(io.dropwizard.core.setup.Environment)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(jakarta.validation.Validator)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(jakarta.validation.Validator)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.hc.client5.http.DnsResolver)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.hc.client5.http.DnsResolver)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.hc.client5.http.HttpRequestRetryStrategy)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.hc.client5.http.HttpRequestRetryStrategy)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.hc.client5.http.auth.CredentialsStore)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.hc.client5.http.auth.CredentialsStore)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.hc.client5.http.routing.HttpRoutePlanner)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.hc.client5.http.routing.HttpRoutePlanner)"
+    },
+    {
+      "key": "io.dropwizard.client.JerseyClientBuilder#using(org.apache.hc.core5.http.config.Registry<org.apache.hc.client5.http.socket.ConnectionSocketFactory>)",
+      "signature": "io.dropwizard.client.JerseyClientBuilder using(org.apache.hc.core5.http.config.Registry<org.apache.hc.client5.http.socket.ConnectionSocketFactory>)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "io.dropwizard.client.HttpClientBuilder#using",
+      "old": "io.dropwizard.client.HttpClientBuilder using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+      "new": "io.dropwizard.client.HttpClientBuilder using(com.codahale.metrics.httpclient5.HttpClientMetricNameStrategy)",
+      "old_key": "io.dropwizard.client.HttpClientBuilder#using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+      "new_key": "io.dropwizard.client.HttpClientBuilder#using(com.codahale.metrics.httpclient5.HttpClientMetricNameStrategy)"
+    },
+    {
+      "name": "io.dropwizard.client.JerseyClientBuilder#using",
+      "old": "io.dropwizard.client.JerseyClientBuilder using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+      "new": "io.dropwizard.client.JerseyClientBuilder using(com.codahale.metrics.httpclient5.HttpClientMetricNameStrategy)",
+      "old_key": "io.dropwizard.client.JerseyClientBuilder#using(com.codahale.metrics.httpclient.HttpClientMetricNameStrategy)",
+      "new_key": "io.dropwizard.client.JerseyClientBuilder#using(com.codahale.metrics.httpclient5.HttpClientMetricNameStrategy)"
+    },
+    {
+      "name": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter#filter",
+      "old": "void filter(javax.ws.rs.client.ClientRequestContext)",
+      "new": "void filter(jakarta.ws.rs.client.ClientRequestContext)",
+      "old_key": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter#filter(javax.ws.rs.client.ClientRequestContext)",
+      "new_key": "io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter#filter(jakarta.ws.rs.client.ClientRequestContext)"
+    }
+  ],
+  "counts": {
+    "old_methods": 156,
+    "new_methods": 154,
+    "removed": 19,
+    "added": 17,
+    "changed": 3,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/io.dropwizard_dropwizard-client_2.1.5.jar",
+  "new_jar": "jar_cache/io.dropwizard_dropwizard-client_4.0.0.jar",
+  "group_id": "io.dropwizard",
+  "artifact_id": "dropwizard-client",
+  "old_version": "2.1.5",
+  "new_version": "4.0.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.google.code.findbugs:jsr305",
+        "io.dropwizard.metrics:metrics-httpclient",
+        "org.apache.httpcomponents:httpclient",
+        "org.apache.httpcomponents:httpcore"
+      ],
+      "added": [
+        "io.dropwizard.metrics:metrics-httpclient5",
+        "org.apache.httpcomponents.client5:httpclient5",
+        "org.apache.httpcomponents.core5:httpcore5",
+        "org.checkerframework:checker-qual",
+        "org.mockito:mockito-inline"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "lithium"
+  ]
+}

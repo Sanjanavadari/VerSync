@@ -1,0 +1,516 @@
+{
+  "removed": [
+    {
+      "key": "net.datafaker.Address#firstName()",
+      "signature": "java.lang.String firstName()"
+    },
+    {
+      "key": "net.datafaker.Address#lastName()",
+      "signature": "java.lang.String lastName()"
+    },
+    {
+      "key": "net.datafaker.Barcode#data()",
+      "signature": "java.lang.String data()"
+    },
+    {
+      "key": "net.datafaker.Barcode#typeAndData()",
+      "signature": "java.lang.String typeAndData()"
+    },
+    {
+      "key": "net.datafaker.Commerce#color()",
+      "signature": "java.lang.String color()"
+    },
+    {
+      "key": "net.datafaker.DateAndTime#between(java.util.Date, java.util.Date, java.lang.String)",
+      "signature": "java.lang.String between(java.util.Date, java.util.Date, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.DateAndTime#str2unit(java.lang.String)",
+      "signature": "java.time.temporal.ChronoUnit str2unit(java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.FakeCollection$Csv#get()",
+      "signature": "java.lang.String get()"
+    },
+    {
+      "key": "net.datafaker.Faker#crypto()",
+      "signature": "net.datafaker.Hashing crypto()"
+    }
+  ],
+  "added": [
+    {
+      "key": "net.datafaker.Battlefield1#classes()",
+      "signature": "java.lang.String classes()"
+    },
+    {
+      "key": "net.datafaker.Battlefield1#faction()",
+      "signature": "java.lang.String faction()"
+    },
+    {
+      "key": "net.datafaker.Battlefield1#map()",
+      "signature": "java.lang.String map()"
+    },
+    {
+      "key": "net.datafaker.Battlefield1#vehicle()",
+      "signature": "java.lang.String vehicle()"
+    },
+    {
+      "key": "net.datafaker.Battlefield1#weapon()",
+      "signature": "java.lang.String weapon()"
+    },
+    {
+      "key": "net.datafaker.BloodType#abo_types()",
+      "signature": "java.lang.String abo_types()"
+    },
+    {
+      "key": "net.datafaker.BloodType#p_types()",
+      "signature": "java.lang.String p_types()"
+    },
+    {
+      "key": "net.datafaker.BloodType#rh_types()",
+      "signature": "java.lang.String rh_types()"
+    },
+    {
+      "key": "net.datafaker.Camera#brand()",
+      "signature": "java.lang.String brand()"
+    },
+    {
+      "key": "net.datafaker.Camera#brandWithModel()",
+      "signature": "java.lang.String brandWithModel()"
+    },
+    {
+      "key": "net.datafaker.Camera#model()",
+      "signature": "java.lang.String model()"
+    },
+    {
+      "key": "net.datafaker.DateAndTime#between(java.sql.Timestamp, java.sql.Timestamp, java.lang.String)",
+      "signature": "java.lang.String between(java.sql.Timestamp, java.sql.Timestamp, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.DateAndTime#period(java.time.Period, java.time.Period)",
+      "signature": "java.time.Period period(java.time.Period, java.time.Period)"
+    },
+    {
+      "key": "net.datafaker.Device#manufacturer()",
+      "signature": "java.lang.String manufacturer()"
+    },
+    {
+      "key": "net.datafaker.Device#modelName()",
+      "signature": "java.lang.String modelName()"
+    },
+    {
+      "key": "net.datafaker.Device#platform()",
+      "signature": "java.lang.String platform()"
+    },
+    {
+      "key": "net.datafaker.Device#serial()",
+      "signature": "java.lang.String serial()"
+    },
+    {
+      "key": "net.datafaker.EldenRing#location()",
+      "signature": "java.lang.String location()"
+    },
+    {
+      "key": "net.datafaker.EldenRing#npc()",
+      "signature": "java.lang.String npc()"
+    },
+    {
+      "key": "net.datafaker.EldenRing#skill()",
+      "signature": "java.lang.String skill()"
+    },
+    {
+      "key": "net.datafaker.EldenRing#spell()",
+      "signature": "java.lang.String spell()"
+    },
+    {
+      "key": "net.datafaker.EldenRing#weapon()",
+      "signature": "java.lang.String weapon()"
+    },
+    {
+      "key": "net.datafaker.ElectricalComponents#active()",
+      "signature": "java.lang.String active()"
+    },
+    {
+      "key": "net.datafaker.ElectricalComponents#electromechanical()",
+      "signature": "java.lang.String electromechanical()"
+    },
+    {
+      "key": "net.datafaker.ElectricalComponents#passive()",
+      "signature": "java.lang.String passive()"
+    },
+    {
+      "key": "net.datafaker.Faker#battlefield1()",
+      "signature": "net.datafaker.Battlefield1 battlefield1()"
+    },
+    {
+      "key": "net.datafaker.Faker#bloodtype()",
+      "signature": "net.datafaker.BloodType bloodtype()"
+    },
+    {
+      "key": "net.datafaker.Faker#camera()",
+      "signature": "net.datafaker.Camera camera()"
+    },
+    {
+      "key": "net.datafaker.Faker#csv(int, java.lang.String...)",
+      "signature": "java.lang.String csv(int, java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.Faker#csv(java.lang.String, char, boolean, int, java.lang.String...)",
+      "signature": "java.lang.String csv(java.lang.String, char, boolean, int, java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.Faker#device()",
+      "signature": "net.datafaker.Device device()"
+    },
+    {
+      "key": "net.datafaker.Faker#eldenRing()",
+      "signature": "net.datafaker.EldenRing eldenRing()"
+    },
+    {
+      "key": "net.datafaker.Faker#electricalComponents()",
+      "signature": "net.datafaker.ElectricalComponents electricalComponents()"
+    },
+    {
+      "key": "net.datafaker.Faker#gratefulDead()",
+      "signature": "net.datafaker.GratefulDead gratefulDead()"
+    },
+    {
+      "key": "net.datafaker.Faker#heyArnold()",
+      "signature": "net.datafaker.HeyArnold heyArnold()"
+    },
+    {
+      "key": "net.datafaker.Faker#json(java.lang.String...)",
+      "signature": "net.datafaker.fileformats.Json json(java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.Faker#jsona(java.lang.String...)",
+      "signature": "net.datafaker.fileformats.Json jsona(java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.Faker#mountaineering()",
+      "signature": "net.datafaker.Mountaineering mountaineering()"
+    },
+    {
+      "key": "net.datafaker.Faker#oscarMovie()",
+      "signature": "net.datafaker.OscarMovie oscarMovie()"
+    },
+    {
+      "key": "net.datafaker.Faker#seinfeld()",
+      "signature": "net.datafaker.Seinfeld seinfeld()"
+    },
+    {
+      "key": "net.datafaker.Faker#soulKnight()",
+      "signature": "net.datafaker.SoulKnight soulKnight()"
+    },
+    {
+      "key": "net.datafaker.Faker#tea()",
+      "signature": "net.datafaker.Tea tea()"
+    },
+    {
+      "key": "net.datafaker.Faker#time()",
+      "signature": "net.datafaker.Time time()"
+    },
+    {
+      "key": "net.datafaker.Faker#tron()",
+      "signature": "net.datafaker.Tron tron()"
+    },
+    {
+      "key": "net.datafaker.GratefulDead#players()",
+      "signature": "java.lang.String players()"
+    },
+    {
+      "key": "net.datafaker.GratefulDead#songs()",
+      "signature": "java.lang.String songs()"
+    },
+    {
+      "key": "net.datafaker.HeyArnold#characters()",
+      "signature": "java.lang.String characters()"
+    },
+    {
+      "key": "net.datafaker.HeyArnold#locations()",
+      "signature": "java.lang.String locations()"
+    },
+    {
+      "key": "net.datafaker.HeyArnold#quotes()",
+      "signature": "java.lang.String quotes()"
+    },
+    {
+      "key": "net.datafaker.Mountaineering#mountaineer()",
+      "signature": "java.lang.String mountaineer()"
+    },
+    {
+      "key": "net.datafaker.Options#subset(int, E...)",
+      "signature": "java.util.Set<E> subset(int, E...)"
+    },
+    {
+      "key": "net.datafaker.Options#subset(int, java.lang.String...)",
+      "signature": "java.util.Set<java.lang.String> subset(int, java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#actor()",
+      "signature": "java.lang.String actor()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#character()",
+      "signature": "java.lang.String character()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#getChoice()",
+      "signature": "java.lang.String getChoice()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#getYear()",
+      "signature": "java.lang.String getYear()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#movieName()",
+      "signature": "java.lang.String movieName()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#quote()",
+      "signature": "java.lang.String quote()"
+    },
+    {
+      "key": "net.datafaker.OscarMovie#releaseDate()",
+      "signature": "java.lang.String releaseDate()"
+    },
+    {
+      "key": "net.datafaker.Seinfeld#business()",
+      "signature": "java.lang.String business()"
+    },
+    {
+      "key": "net.datafaker.Seinfeld#character()",
+      "signature": "java.lang.String character()"
+    },
+    {
+      "key": "net.datafaker.Seinfeld#quote()",
+      "signature": "java.lang.String quote()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#bosses()",
+      "signature": "java.lang.String bosses()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#buffs()",
+      "signature": "java.lang.String buffs()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#characters()",
+      "signature": "java.lang.String characters()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#enemies()",
+      "signature": "java.lang.String enemies()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#statues()",
+      "signature": "java.lang.String statues()"
+    },
+    {
+      "key": "net.datafaker.SoulKnight#weapons()",
+      "signature": "java.lang.String weapons()"
+    },
+    {
+      "key": "net.datafaker.Tea#type()",
+      "signature": "java.lang.String type()"
+    },
+    {
+      "key": "net.datafaker.Tea#variety()",
+      "signature": "java.lang.String variety()"
+    },
+    {
+      "key": "net.datafaker.Time#between(java.time.LocalTime, java.time.LocalTime)",
+      "signature": "long between(java.time.LocalTime, java.time.LocalTime)"
+    },
+    {
+      "key": "net.datafaker.Time#between(java.time.LocalTime, java.time.LocalTime, java.lang.String)",
+      "signature": "java.lang.String between(java.time.LocalTime, java.time.LocalTime, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.Time#future(int, int, java.time.temporal.ChronoUnit)",
+      "signature": "long future(int, int, java.time.temporal.ChronoUnit)"
+    },
+    {
+      "key": "net.datafaker.Time#future(int, int, java.time.temporal.ChronoUnit, java.lang.String)",
+      "signature": "java.lang.String future(int, int, java.time.temporal.ChronoUnit, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.Time#future(int, java.time.temporal.ChronoUnit)",
+      "signature": "long future(int, java.time.temporal.ChronoUnit)"
+    },
+    {
+      "key": "net.datafaker.Time#future(int, java.time.temporal.ChronoUnit, java.lang.String)",
+      "signature": "java.lang.String future(int, java.time.temporal.ChronoUnit, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.Time#past(int, int, java.time.temporal.ChronoUnit)",
+      "signature": "long past(int, int, java.time.temporal.ChronoUnit)"
+    },
+    {
+      "key": "net.datafaker.Time#past(int, int, java.time.temporal.ChronoUnit, java.lang.String)",
+      "signature": "java.lang.String past(int, int, java.time.temporal.ChronoUnit, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.Time#past(int, java.time.temporal.ChronoUnit)",
+      "signature": "long past(int, java.time.temporal.ChronoUnit)"
+    },
+    {
+      "key": "net.datafaker.Time#past(int, java.time.temporal.ChronoUnit, java.lang.String)",
+      "signature": "java.lang.String past(int, java.time.temporal.ChronoUnit, java.lang.String)"
+    },
+    {
+      "key": "net.datafaker.Tron#alternateCharacterSpelling()",
+      "signature": "java.lang.String alternateCharacterSpelling()"
+    },
+    {
+      "key": "net.datafaker.Tron#alternateCharacterSpelling(net.datafaker.Tron$AlternateCharacterSpelling)",
+      "signature": "java.lang.String alternateCharacterSpelling(net.datafaker.Tron$AlternateCharacterSpelling)"
+    },
+    {
+      "key": "net.datafaker.Tron#character()",
+      "signature": "java.lang.String character()"
+    },
+    {
+      "key": "net.datafaker.Tron#character(net.datafaker.Tron$Character)",
+      "signature": "java.lang.String character(net.datafaker.Tron$Character)"
+    },
+    {
+      "key": "net.datafaker.Tron#game()",
+      "signature": "java.lang.String game()"
+    },
+    {
+      "key": "net.datafaker.Tron#location()",
+      "signature": "java.lang.String location()"
+    },
+    {
+      "key": "net.datafaker.Tron#quote()",
+      "signature": "java.lang.String quote()"
+    },
+    {
+      "key": "net.datafaker.Tron#quote(net.datafaker.Tron$Quote)",
+      "signature": "java.lang.String quote(net.datafaker.Tron$Quote)"
+    },
+    {
+      "key": "net.datafaker.Tron#tagline()",
+      "signature": "java.lang.String tagline()"
+    },
+    {
+      "key": "net.datafaker.Tron#vehicle()",
+      "signature": "java.lang.String vehicle()"
+    },
+    {
+      "key": "net.datafaker.fileformats.Json#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#csv(int, java.lang.String...)",
+      "signature": "java.lang.String csv(int, java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#csv(java.lang.String, char, boolean, int, java.lang.String...)",
+      "signature": "java.lang.String csv(java.lang.String, char, boolean, int, java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#fileExpression(java.nio.file.Path, net.datafaker.Faker)",
+      "signature": "java.lang.String fileExpression(java.nio.file.Path, net.datafaker.Faker)"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#json(java.lang.String...)",
+      "signature": "net.datafaker.fileformats.Json json(java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#jsona(java.lang.String...)",
+      "signature": "net.datafaker.fileformats.Json jsona(java.lang.String...)"
+    },
+    {
+      "key": "net.datafaker.service.FakeValuesService#resolve(java.lang.String, java.lang.Object, net.datafaker.Faker, java.util.function.Supplier<java.lang.String>)",
+      "signature": "java.lang.String resolve(java.lang.String, java.lang.Object, net.datafaker.Faker, java.util.function.Supplier<java.lang.String>)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "net.datafaker.DateAndTime#between",
+      "old": "java.util.Date between(java.util.Date, java.util.Date)",
+      "new": "java.sql.Timestamp between(java.sql.Timestamp, java.sql.Timestamp)",
+      "old_key": "net.datafaker.DateAndTime#between(java.util.Date, java.util.Date)",
+      "new_key": "net.datafaker.DateAndTime#between(java.sql.Timestamp, java.sql.Timestamp)"
+    }
+  ],
+  "counts": {
+    "old_methods": 1454,
+    "new_methods": 1542,
+    "removed": 9,
+    "added": 97,
+    "changed": 1,
+    "removed_classes": 2,
+    "added_classes": 18
+  },
+  "removed_classes": [
+    "net.datafaker.FakeCollection$Csv",
+    "net.datafaker.FakeCollection$CsvBuilder"
+  ],
+  "added_classes": [
+    "net.datafaker.Battlefield1",
+    "net.datafaker.BloodType",
+    "net.datafaker.Camera",
+    "net.datafaker.Device",
+    "net.datafaker.EldenRing",
+    "net.datafaker.ElectricalComponents",
+    "net.datafaker.GratefulDead",
+    "net.datafaker.HeyArnold",
+    "net.datafaker.Mountaineering",
+    "net.datafaker.OscarMovie",
+    "net.datafaker.Seinfeld",
+    "net.datafaker.SoulKnight",
+    "net.datafaker.Tea",
+    "net.datafaker.Time",
+    "net.datafaker.Tron",
+    "net.datafaker.Tron$AlternateCharacterSpelling",
+    "net.datafaker.Tron$Character",
+    "net.datafaker.Tron$Quote"
+  ],
+  "old_jar": "jar_cache/net.datafaker_datafaker_1.3.0.jar",
+  "new_jar": "jar_cache/net.datafaker_datafaker_1.4.0.jar",
+  "group_id": "net.datafaker",
+  "artifact_id": "datafaker",
+  "old_version": "1.3.0",
+  "new_version": "1.4.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.hamcrest:hamcrest"
+      ],
+      "added": [
+        "org.apache.commons:commons-text",
+        "org.assertj:assertj-core"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.googlecode.libphonenumber:libphonenumber",
+          "old": "8.12.46",
+          "new": "8.12.48"
+        },
+        {
+          "dependency": "fr.marcwrobel:jbanking",
+          "old": "3.1.1",
+          "new": "3.2.0"
+        },
+        {
+          "dependency": "org.mockito:mockito-core",
+          "old": "4.4.0",
+          "new": "4.5.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "flink-faker"
+  ]
+}

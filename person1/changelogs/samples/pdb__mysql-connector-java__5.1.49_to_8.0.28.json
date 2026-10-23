@@ -1,0 +1,23 @@
+{
+  "project": "pdb",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/feedzai/pdb/pull/342",
+  "dependency": "mysql:mysql-connector-java",
+  "old_version": "5.1.49",
+  "new_version": "8.0.28",
+  "source_repo": "mysql/mysql-connector-j",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/mysql/mysql-connector-j/compare/5.1.49...8.0.28",
+  "sources": [
+    "pr_body"
+  ],
+  "sections": {
+    "pr_body_changelog": "Sourced from mysql-connector-java's changelog.\n\nChangelog\n\nhttps://dev.mysql.com/doc/relnotes/connector-j/8.0/en/\n\nVersion 8.0.29\n\nFix for Bug#21978230, COMMENT PARSING NOT PROPER IN PREPSTMT.EXECUTEBATCH().\n\nFix for Bug#81468 (23312764), MySQL server fails to rewrite batch insert when column name contains word select.\n\nFix for Bug#106435 (33850099), 8.0.28 Connector/J has regressive in setAutoCommit after Bug#104067 (33054827).\n\nFix for Bug#106240 (33781440), StringIndexOutOfBoundsException when VALUE is at the end of the query.\n\nFix for Bug#106397 (33893591), Contribution: fix: fix LocalizedErrorMessages.properties doc: less then -> ...\nThanks to Jianjian Song for his contribution.\n\nFix for Bug#77924 (25710160), JDBC SOCKS SHOULD NOT PERFORM LOCAL DNS RESOLUTION.\n\nFix for Bug#82084 (23743938), YEAR DATA TYPE RETURNS INCORRECT VALUE FOR JDBC GETCOLUMNTYPE().\n\nFix for Bug#106441 (33850155), Add charset mapping for utf8mb3.\n\nWL#15048, Upgrade Protocol Buffers dependency to protobuf-java-3.19.4.\n\nFix for Bug#106065 (33726184) Contribution: BigDecimal.toPlainString no need to check decimal exponent.\nThanks to Baoyi Chen for his contribution.\n\nFix for Bug#106171 (33757217), Contribution: Remove unnecessary boxing in ResultSetImpl.\nThanks to Ningpp Ning for his contribution.\n\nFix for Bug#25701740, STMT EXECUTION FAILS FOR REPLICATION CONNECTION WHEN USECURSORFETCH=TRUE.\n\nFix for Bug#33723611, getDefaultTransactionIsolation must return repeatable read.\n\nFix for Bug#38954 (11749415), DATA TRUNCATION WHILE USING BIT(1) IN STORED PROCEDURE WITH INOUT TYPE.\n\nFix for Bug#85317 (25672958), EXECUTE BATCH WILL THROW NULL POINTER EXCEPTION WHERE THE COLUMN IS BLOB!\n\nFix for Bug#105915 (33678490), Connector/J 8 server prepared statement precision loss in execute batch.\n\nFix for Bug#104349 (33563548), com.mysql.cj NPE.\n\nFix for Bug#62006 (16714956), JAVA.IO.NOTSERIALIZABLEEXCEPTION: JAVA.IO.STRINGREADER WHEN PROFILESQL=TRUE.\n\nWL#14750, Better unification of query bindings.\n\nWL#14834, Support for FIDO authentication.\n\nWL#14835, Align TLS option checking across connectors.\n\n... (truncated)",
+    "pr_body_commits": "7ff2161 Updating copyright years\n\nb13af38 Fix for DateTimeTest according to changes in MySQL server.\n\n5c7b775 Update in test for Bug#96900 (30355150).\n\ne1169ee Fix for Bug#99260 (31189960), statement.setQueryTimeout,creates a database co...\n\n05778ef Fix for Bug#103324 (32770013), X DevAPI Collection.replaceOne() missing match...\n\n48219f2 Fix for Bug#105197 (33461744), Statement.executeQuery() may return non-naviga...\n\n24cf7e2 Fix for Bug#105323 (33507321), README.md contains broken links.\n\nad46620 Fix for Bug#96900 (30355150), STATEMENT.CANCEL()CREATE A DATABASE\n\n4d19ea1 Fix for Bug#104067 (33054827), No reset autoCommit after unknown issue occurs.\n\nbc45d35 Fix for Bug#85223 (25656020), MYSQLSQLXML SETSTRING CRASH.\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

@@ -1,0 +1,164 @@
+{
+  "removed": [
+    {
+      "key": "com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask#setClasspath(org.apache.tools.ant.types.Path)",
+      "signature": "void setClasspath(org.apache.tools.ant.types.Path)"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask#setClasspathRef(org.apache.tools.ant.types.Reference)",
+      "signature": "void setClasspathRef(org.apache.tools.ant.types.Reference)"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardedPatternContext#LAND()",
+      "signature": "org.antlr.v4.runtime.tree.TerminalNode LAND()"
+    }
+  ],
+  "added": [
+    {
+      "key": "com.puppycrawl.tools.checkstyle.api.AuditEvent#getSource()",
+      "signature": "java.lang.Object getSource()"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext#LAND()",
+      "signature": "org.antlr.v4.runtime.tree.TerminalNode LAND()"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext#LITERAL_WHEN()",
+      "signature": "org.antlr.v4.runtime.tree.TerminalNode LITERAL_WHEN()"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext#accept(org.antlr.v4.runtime.tree.ParseTreeVisitor<? extends T>)",
+      "signature": "T accept(org.antlr.v4.runtime.tree.ParseTreeVisitor<? extends T>)"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext#getRuleIndex()",
+      "signature": "int getRuleIndex()"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$IdContext#LITERAL_WHEN()",
+      "signature": "org.antlr.v4.runtime.tree.TerminalNode LITERAL_WHEN()"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParserBaseVisitor#visitGuard(com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext)",
+      "signature": "T visitGuard(com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext)"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParserVisitor#visitGuard(com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext)",
+      "signature": "T visitGuard(com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext)"
+    },
+    {
+      "key": "com.puppycrawl.tools.checkstyle.xpath.AbstractNode#getNamespaceUri()",
+      "signature": "net.sf.saxon.om.NamespaceUri getNamespaceUri()"
+    }
+  ],
+  "changed": [
+    {
+      "name": "com.puppycrawl.tools.checkstyle.xpath.AbstractElementNode#getAttributeValue",
+      "old": "java.lang.String getAttributeValue(java.lang.String, java.lang.String)",
+      "new": "java.lang.String getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)",
+      "old_key": "com.puppycrawl.tools.checkstyle.xpath.AbstractElementNode#getAttributeValue(java.lang.String, java.lang.String)",
+      "new_key": "com.puppycrawl.tools.checkstyle.xpath.AbstractElementNode#getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)"
+    },
+    {
+      "name": "com.puppycrawl.tools.checkstyle.xpath.AbstractRootNode#getAttributeValue",
+      "old": "java.lang.String getAttributeValue(java.lang.String, java.lang.String)",
+      "new": "java.lang.String getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)",
+      "old_key": "com.puppycrawl.tools.checkstyle.xpath.AbstractRootNode#getAttributeValue(java.lang.String, java.lang.String)",
+      "new_key": "com.puppycrawl.tools.checkstyle.xpath.AbstractRootNode#getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)"
+    },
+    {
+      "name": "com.puppycrawl.tools.checkstyle.xpath.AttributeNode#getAttributeValue",
+      "old": "java.lang.String getAttributeValue(java.lang.String, java.lang.String)",
+      "new": "java.lang.String getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)",
+      "old_key": "com.puppycrawl.tools.checkstyle.xpath.AttributeNode#getAttributeValue(java.lang.String, java.lang.String)",
+      "new_key": "com.puppycrawl.tools.checkstyle.xpath.AttributeNode#getAttributeValue(net.sf.saxon.om.NamespaceUri, java.lang.String)"
+    }
+  ],
+  "counts": {
+    "old_methods": 4689,
+    "new_methods": 4695,
+    "removed": 3,
+    "added": 9,
+    "changed": 3,
+    "removed_classes": 0,
+    "added_classes": 1
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "com.puppycrawl.tools.checkstyle.grammar.java.JavaLanguageParser$GuardContext"
+  ],
+  "old_jar": "jar_cache/com.puppycrawl.tools_checkstyle_10.6.0.jar",
+  "new_jar": "jar_cache/com.puppycrawl.tools_checkstyle_10.8.1.jar",
+  "group_id": "com.puppycrawl.tools",
+  "artifact_id": "checkstyle",
+  "old_version": "10.6.0",
+  "new_version": "10.8.1",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.tngtech.archunit:archunit-junit5",
+          "old": "1.0.0",
+          "new": "1.0.1"
+        },
+        {
+          "dependency": "info.picocli:picocli",
+          "old": "4.7.0",
+          "new": "4.7.1"
+        },
+        {
+          "dependency": "net.sf.saxon:Saxon-HE",
+          "old": "11.4",
+          "new": "12.0"
+        },
+        {
+          "dependency": "nl.jqno.equalsverifier:equalsverifier",
+          "old": "3.12.3",
+          "new": "3.14"
+        },
+        {
+          "dependency": "org.apache.ant:ant",
+          "old": "1.10.12",
+          "new": "1.10.13"
+        },
+        {
+          "dependency": "org.eclipse.jgit:org.eclipse.jgit",
+          "old": "6.4.0.202211300538-r",
+          "new": "6.5.0.202303070854-r"
+        },
+        {
+          "dependency": "org.junit-pioneer:junit-pioneer",
+          "old": "1.7.1",
+          "new": "2.0.0"
+        },
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter-api",
+          "old": "5.9.1",
+          "new": "5.9.2"
+        },
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter-engine",
+          "old": "5.9.1",
+          "new": "5.9.2"
+        },
+        {
+          "dependency": "org.mockito:mockito-inline",
+          "old": "4.11.0",
+          "new": "5.1.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "micro-migration"
+  ]
+}

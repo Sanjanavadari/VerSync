@@ -1,0 +1,1753 @@
+{
+  "removed": [
+    {
+      "key": "org.springframework.context.annotation.Bean#autowire()",
+      "signature": "org.springframework.beans.factory.annotation.Autowire autowire()"
+    },
+    {
+      "key": "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String)",
+      "signature": "org.springframework.beans.PropertyValues postProcessPropertyValues(org.springframework.beans.PropertyValues, java.beans.PropertyDescriptor[], java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassUtils#checkConfigurationClassCandidate(org.springframework.beans.factory.config.BeanDefinition, org.springframework.core.type.classreading.MetadataReaderFactory)",
+      "signature": "boolean checkConfigurationClassCandidate(org.springframework.beans.factory.config.BeanDefinition, org.springframework.core.type.classreading.MetadataReaderFactory)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassUtils#isConfigurationCandidate(org.springframework.core.type.AnnotationMetadata)",
+      "signature": "boolean isConfigurationCandidate(org.springframework.core.type.AnnotationMetadata)"
+    },
+    {
+      "key": "org.springframework.context.annotation.MBeanExportConfiguration$SpecificPlatform#getMBeanServer()",
+      "signature": "javax.management.MBeanServer getMBeanServer()"
+    },
+    {
+      "key": "org.springframework.context.support.AbstractApplicationContext#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl#children$annotations()",
+      "signature": "void children$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl#context$annotations()",
+      "signature": "void context$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl$BeanSupplierContext#context$annotations()",
+      "signature": "void context$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.LiveBeansView#getSnapshotAsJson()",
+      "signature": "java.lang.String getSnapshotAsJson()"
+    },
+    {
+      "key": "org.springframework.context.support.LiveBeansView#setApplicationContext(org.springframework.context.ApplicationContext)",
+      "signature": "void setApplicationContext(org.springframework.context.ApplicationContext)"
+    },
+    {
+      "key": "org.springframework.context.support.LiveBeansViewMBean#getSnapshotAsJson()",
+      "signature": "java.lang.String getSnapshotAsJson()"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor#invokeInContext(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invokeInContext(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor#setRefreshHomeOnConnectFailure(boolean)",
+      "signature": "void setRefreshHomeOnConnectFailure(boolean)"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor#invoke(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invoke(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor#setCacheHome(boolean)",
+      "signature": "void setCacheHome(boolean)"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor#setExposeAccessContext(boolean)",
+      "signature": "void setExposeAccessContext(boolean)"
+    },
+    {
+      "key": "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor#setLookupHomeOnStartup(boolean)",
+      "signature": "void setLookupHomeOnStartup(boolean)"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalSlsbInvokerInterceptor#invokeInContext(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invokeInContext(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#getBusinessInterface()",
+      "signature": "java.lang.Class<?> getBusinessInterface()"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<?> getObjectType()"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#setBeanClassLoader(java.lang.ClassLoader)",
+      "signature": "void setBeanClassLoader(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean#setBusinessInterface(java.lang.Class<?>)",
+      "signature": "void setBusinessInterface(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor#setCacheSessionBean(boolean)",
+      "signature": "void setCacheSessionBean(boolean)"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#getBusinessInterface()",
+      "signature": "java.lang.Class<?> getBusinessInterface()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<?> getObjectType()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#setBeanClassLoader(java.lang.ClassLoader)",
+      "signature": "void setBeanClassLoader(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean#setBusinessInterface(java.lang.Class<?>)",
+      "signature": "void setBusinessInterface(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#createDateTimeFormatter()",
+      "signature": "org.joda.time.format.DateTimeFormatter createDateTimeFormatter()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#createDateTimeFormatter(org.joda.time.format.DateTimeFormatter)",
+      "signature": "org.joda.time.format.DateTimeFormatter createDateTimeFormatter(org.joda.time.format.DateTimeFormatter)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#setIso(org.springframework.format.annotation.DateTimeFormat$ISO)",
+      "signature": "void setIso(org.springframework.format.annotation.DateTimeFormat$ISO)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#setPattern(java.lang.String)",
+      "signature": "void setPattern(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#setStyle(java.lang.String)",
+      "signature": "void setStyle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactory#setTimeZone(java.util.TimeZone)",
+      "signature": "void setTimeZone(java.util.TimeZone)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<?> getObjectType()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DateTimeParser#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DurationFormatter#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DurationFormatter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.DurationFormatter#print(org.joda.time.Duration, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.Duration, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory#getFieldTypes()",
+      "signature": "java.util.Set<java.lang.Class<?>> getFieldTypes()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory#getParser(java.lang.annotation.Annotation, java.lang.Class)",
+      "signature": "org.springframework.format.Parser getParser(java.lang.annotation.Annotation, java.lang.Class)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory#getParser(org.springframework.format.annotation.DateTimeFormat, java.lang.Class<?>)",
+      "signature": "org.springframework.format.Parser<?> getParser(org.springframework.format.annotation.DateTimeFormat, java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory#getPrinter(java.lang.annotation.Annotation, java.lang.Class)",
+      "signature": "org.springframework.format.Printer getPrinter(java.lang.annotation.Annotation, java.lang.Class)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory#getPrinter(org.springframework.format.annotation.DateTimeFormat, java.lang.Class<?>)",
+      "signature": "org.springframework.format.Printer<?> getPrinter(org.springframework.format.annotation.DateTimeFormat, java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContext#getChronology()",
+      "signature": "org.joda.time.Chronology getChronology()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContext#getFormatter(org.joda.time.format.DateTimeFormatter)",
+      "signature": "org.joda.time.format.DateTimeFormatter getFormatter(org.joda.time.format.DateTimeFormatter)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContext#getTimeZone()",
+      "signature": "org.joda.time.DateTimeZone getTimeZone()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContext#setChronology(org.joda.time.Chronology)",
+      "signature": "void setChronology(org.joda.time.Chronology)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContext#setTimeZone(org.joda.time.DateTimeZone)",
+      "signature": "void setTimeZone(org.joda.time.DateTimeZone)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContextHolder#getFormatter(org.joda.time.format.DateTimeFormatter, java.util.Locale)",
+      "signature": "org.joda.time.format.DateTimeFormatter getFormatter(org.joda.time.format.DateTimeFormatter, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContextHolder#getJodaTimeContext()",
+      "signature": "org.springframework.format.datetime.joda.JodaTimeContext getJodaTimeContext()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContextHolder#resetJodaTimeContext()",
+      "signature": "void resetJodaTimeContext()"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeContextHolder#setJodaTimeContext(org.springframework.format.datetime.joda.JodaTimeContext)",
+      "signature": "void setJodaTimeContext(org.springframework.format.datetime.joda.JodaTimeContext)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters#registerConverters(org.springframework.core.convert.converter.ConverterRegistry)",
+      "signature": "void registerConverters(org.springframework.core.convert.converter.ConverterRegistry)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$CalendarToReadableInstantConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$CalendarToReadableInstantConverter#convert(java.util.Calendar)",
+      "signature": "org.joda.time.ReadableInstant convert(java.util.Calendar)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToCalendarConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToCalendarConverter#convert(org.joda.time.DateTime)",
+      "signature": "java.util.Calendar convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateConverter#convert(org.joda.time.DateTime)",
+      "signature": "java.util.Date convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateMidnightConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateMidnightConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.DateMidnight convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToInstantConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToInstantConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.Instant convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.LocalDate convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateTimeConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateTimeConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.LocalDateTime convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalTimeConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalTimeConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.LocalTime convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLongConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLongConverter#convert(org.joda.time.DateTime)",
+      "signature": "java.lang.Long convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToMutableDateTimeConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToMutableDateTimeConverter#convert(org.joda.time.DateTime)",
+      "signature": "org.joda.time.MutableDateTime convert(org.joda.time.DateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateToReadableInstantConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$DateToReadableInstantConverter#convert(java.util.Date)",
+      "signature": "org.joda.time.ReadableInstant convert(java.util.Date)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalDateConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalDateConverter#convert(org.joda.time.LocalDateTime)",
+      "signature": "org.joda.time.LocalDate convert(org.joda.time.LocalDateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalTimeConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalTimeConverter#convert(org.joda.time.LocalDateTime)",
+      "signature": "org.joda.time.LocalTime convert(org.joda.time.LocalDateTime)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LongToReadableInstantConverter#convert(java.lang.Long)",
+      "signature": "org.joda.time.ReadableInstant convert(java.lang.Long)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeConverters$LongToReadableInstantConverter#convert(java.lang.Object)",
+      "signature": "java.lang.Object convert(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#registerFormatters(org.springframework.format.FormatterRegistry)",
+      "signature": "void registerFormatters(org.springframework.format.FormatterRegistry)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setDateFormatter(org.joda.time.format.DateTimeFormatter)",
+      "signature": "void setDateFormatter(org.joda.time.format.DateTimeFormatter)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setDateStyle(java.lang.String)",
+      "signature": "void setDateStyle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setDateTimeFormatter(org.joda.time.format.DateTimeFormatter)",
+      "signature": "void setDateTimeFormatter(org.joda.time.format.DateTimeFormatter)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setDateTimeStyle(java.lang.String)",
+      "signature": "void setDateTimeStyle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setTimeFormatter(org.joda.time.format.DateTimeFormatter)",
+      "signature": "void setTimeFormatter(org.joda.time.format.DateTimeFormatter)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setTimeStyle(java.lang.String)",
+      "signature": "void setTimeStyle(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar#setUseIsoFormat(boolean)",
+      "signature": "void setUseIsoFormat(boolean)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.LocalDateParser#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.LocalDateTimeParser#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.LocalTimeParser#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.MillisecondInstantPrinter#print(java.lang.Long, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Long, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.MillisecondInstantPrinter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.MonthDayFormatter#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.MonthDayFormatter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.MonthDayFormatter#print(org.joda.time.MonthDay, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.MonthDay, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.PeriodFormatter#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.PeriodFormatter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.PeriodFormatter#print(org.joda.time.Period, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.Period, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.ReadableInstantPrinter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.ReadableInstantPrinter#print(org.joda.time.ReadableInstant, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.ReadableInstant, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.ReadablePartialPrinter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.ReadablePartialPrinter#print(org.joda.time.ReadablePartial, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.ReadablePartial, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.YearMonthFormatter#parse(java.lang.String, java.util.Locale)",
+      "signature": "java.lang.Object parse(java.lang.String, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.YearMonthFormatter#print(java.lang.Object, java.util.Locale)",
+      "signature": "java.lang.String print(java.lang.Object, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.format.datetime.joda.YearMonthFormatter#print(org.joda.time.YearMonth, java.util.Locale)",
+      "signature": "java.lang.String print(org.joda.time.YearMonth, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassLoaderAdapter#addTransformer(java.lang.instrument.ClassFileTransformer)",
+      "signature": "void addTransformer(java.lang.instrument.ClassFileTransformer)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassLoaderAdapter#getClassLoader()",
+      "signature": "java.lang.ClassLoader getClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassLoaderAdapter#getThrowawayClassLoader()",
+      "signature": "java.lang.ClassLoader getThrowawayClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter#initialize(java.util.Hashtable<?, ?>)",
+      "signature": "void initialize(java.util.Hashtable<?, ?>)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+      "signature": "java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter#preProcess(java.lang.String, byte[])",
+      "signature": "byte[] preProcess(java.lang.String, byte[])"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver#addTransformer(java.lang.instrument.ClassFileTransformer)",
+      "signature": "void addTransformer(java.lang.instrument.ClassFileTransformer)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver#getInstrumentableClassLoader()",
+      "signature": "java.lang.ClassLoader getInstrumentableClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver#getThrowawayClassLoader()",
+      "signature": "java.lang.ClassLoader getThrowawayClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereClassLoaderAdapter#addTransformer(java.lang.instrument.ClassFileTransformer)",
+      "signature": "void addTransformer(java.lang.instrument.ClassFileTransformer)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereClassLoaderAdapter#getClassLoader()",
+      "signature": "java.lang.ClassLoader getClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereClassLoaderAdapter#getThrowawayClassLoader()",
+      "signature": "java.lang.ClassLoader getThrowawayClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereClassPreDefinePlugin#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
+      "signature": "java.lang.Object invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereClassPreDefinePlugin#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver#addTransformer(java.lang.instrument.ClassFileTransformer)",
+      "signature": "void addTransformer(java.lang.instrument.ClassFileTransformer)"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver#getInstrumentableClassLoader()",
+      "signature": "java.lang.ClassLoader getInstrumentableClassLoader()"
+    },
+    {
+      "key": "org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver#getThrowawayClassLoader()",
+      "signature": "java.lang.ClassLoader getThrowawayClassLoader()"
+    },
+    {
+      "key": "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<? extends javax.management.MBeanServer> getObjectType()"
+    },
+    {
+      "key": "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#getRemoteInvocationFactory()",
+      "signature": "org.springframework.remoting.support.RemoteInvocationFactory getRemoteInvocationFactory()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#getServiceInterface()",
+      "signature": "java.lang.Class<?> getServiceInterface()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#invoke(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invoke(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#prepare()",
+      "signature": "void prepare()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setCacheStub(boolean)",
+      "signature": "void setCacheStub(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setExposeAccessContext(boolean)",
+      "signature": "void setExposeAccessContext(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setLookupStubOnStartup(boolean)",
+      "signature": "void setLookupStubOnStartup(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setRefreshStubOnConnectFailure(boolean)",
+      "signature": "void setRefreshStubOnConnectFailure(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setRemoteInvocationFactory(org.springframework.remoting.support.RemoteInvocationFactory)",
+      "signature": "void setRemoteInvocationFactory(org.springframework.remoting.support.RemoteInvocationFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiClientInterceptor#setServiceInterface(java.lang.Class<?>)",
+      "signature": "void setServiceInterface(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<?> getObjectType()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean#setBeanClassLoader(java.lang.ClassLoader)",
+      "signature": "void setBeanClassLoader(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#prepare()",
+      "signature": "void prepare()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#rebind()",
+      "signature": "void rebind()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#setJndiEnvironment(java.util.Properties)",
+      "signature": "void setJndiEnvironment(java.util.Properties)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#setJndiName(java.lang.String)",
+      "signature": "void setJndiName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.JndiRmiServiceExporter#setJndiTemplate(org.springframework.jndi.JndiTemplate)",
+      "signature": "void setJndiTemplate(org.springframework.jndi.JndiTemplate)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#isAcceptProxyClasses()",
+      "signature": "boolean isAcceptProxyClasses()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#prepare()",
+      "signature": "void prepare()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#setAcceptProxyClasses(boolean)",
+      "signature": "void setAcceptProxyClasses(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter#setContentType(java.lang.String)",
+      "signature": "void setContentType(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#invoke(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invoke(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#prepare()",
+      "signature": "void prepare()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#setCacheStub(boolean)",
+      "signature": "void setCacheStub(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#setLookupStubOnStartup(boolean)",
+      "signature": "void setLookupStubOnStartup(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#setRefreshStubOnConnectFailure(boolean)",
+      "signature": "void setRefreshStubOnConnectFailure(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptor#setRegistryClientSocketFactory(java.rmi.server.RMIClientSocketFactory)",
+      "signature": "void setRegistryClientSocketFactory(java.rmi.server.RMIClientSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptorUtils#convertRmiAccessException(java.lang.reflect.Method, java.lang.Throwable, java.lang.String)",
+      "signature": "java.lang.Exception convertRmiAccessException(java.lang.reflect.Method, java.lang.Throwable, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptorUtils#convertRmiAccessException(java.lang.reflect.Method, java.rmi.RemoteException, boolean, java.lang.String)",
+      "signature": "java.lang.Exception convertRmiAccessException(java.lang.reflect.Method, java.rmi.RemoteException, boolean, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptorUtils#convertRmiAccessException(java.lang.reflect.Method, java.rmi.RemoteException, java.lang.String)",
+      "signature": "java.lang.Exception convertRmiAccessException(java.lang.reflect.Method, java.rmi.RemoteException, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptorUtils#invokeRemoteMethod(org.aopalliance.intercept.MethodInvocation, java.lang.Object)",
+      "signature": "java.lang.Object invokeRemoteMethod(org.aopalliance.intercept.MethodInvocation, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiClientInterceptorUtils#isConnectFailure(java.rmi.RemoteException)",
+      "signature": "boolean isConnectFailure(java.rmi.RemoteException)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiInvocationHandler#getTargetInterfaceName()",
+      "signature": "java.lang.String getTargetInterfaceName()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiInvocationHandler#invoke(org.springframework.remoting.support.RemoteInvocation)",
+      "signature": "java.lang.Object invoke(org.springframework.remoting.support.RemoteInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiInvocationWrapper#getTargetInterfaceName()",
+      "signature": "java.lang.String getTargetInterfaceName()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiInvocationWrapper#invoke(org.springframework.remoting.support.RemoteInvocation)",
+      "signature": "java.lang.Object invoke(org.springframework.remoting.support.RemoteInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiProxyFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiProxyFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiProxyFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<?> getObjectType()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiProxyFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#getHost()",
+      "signature": "java.lang.String getHost()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<? extends java.rmi.registry.Registry> getObjectType()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#getPort()",
+      "signature": "int getPort()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#setAlwaysCreate(boolean)",
+      "signature": "void setAlwaysCreate(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#setClientSocketFactory(java.rmi.server.RMIClientSocketFactory)",
+      "signature": "void setClientSocketFactory(java.rmi.server.RMIClientSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#setHost(java.lang.String)",
+      "signature": "void setHost(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#setPort(int)",
+      "signature": "void setPort(int)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiRegistryFactoryBean#setServerSocketFactory(java.rmi.server.RMIServerSocketFactory)",
+      "signature": "void setServerSocketFactory(java.rmi.server.RMIServerSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#prepare()",
+      "signature": "void prepare()"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setAlwaysCreateRegistry(boolean)",
+      "signature": "void setAlwaysCreateRegistry(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setClientSocketFactory(java.rmi.server.RMIClientSocketFactory)",
+      "signature": "void setClientSocketFactory(java.rmi.server.RMIClientSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setRegistry(java.rmi.registry.Registry)",
+      "signature": "void setRegistry(java.rmi.registry.Registry)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setRegistryClientSocketFactory(java.rmi.server.RMIClientSocketFactory)",
+      "signature": "void setRegistryClientSocketFactory(java.rmi.server.RMIClientSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setRegistryHost(java.lang.String)",
+      "signature": "void setRegistryHost(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setRegistryPort(int)",
+      "signature": "void setRegistryPort(int)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setRegistryServerSocketFactory(java.rmi.server.RMIServerSocketFactory)",
+      "signature": "void setRegistryServerSocketFactory(java.rmi.server.RMIServerSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setReplaceExistingBinding(boolean)",
+      "signature": "void setReplaceExistingBinding(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setServerSocketFactory(java.rmi.server.RMIServerSocketFactory)",
+      "signature": "void setServerSocketFactory(java.rmi.server.RMIServerSocketFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setServiceName(java.lang.String)",
+      "signature": "void setServiceName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.rmi.RmiServiceExporter#setServicePort(int)",
+      "signature": "void setServicePort(int)"
+    },
+    {
+      "key": "org.springframework.remoting.soap.SoapFaultException#getFaultActor()",
+      "signature": "java.lang.String getFaultActor()"
+    },
+    {
+      "key": "org.springframework.remoting.soap.SoapFaultException#getFaultCode()",
+      "signature": "java.lang.String getFaultCode()"
+    },
+    {
+      "key": "org.springframework.remoting.soap.SoapFaultException#getFaultCodeAsQName()",
+      "signature": "javax.xml.namespace.QName getFaultCodeAsQName()"
+    },
+    {
+      "key": "org.springframework.remoting.soap.SoapFaultException#getFaultString()",
+      "signature": "java.lang.String getFaultString()"
+    },
+    {
+      "key": "org.springframework.remoting.support.DefaultRemoteInvocationExecutor#invoke(org.springframework.remoting.support.RemoteInvocation, java.lang.Object)",
+      "signature": "java.lang.Object invoke(org.springframework.remoting.support.RemoteInvocation, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.support.DefaultRemoteInvocationFactory#createRemoteInvocation(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "org.springframework.remoting.support.RemoteInvocation createRemoteInvocation(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteAccessor#getServiceInterface()",
+      "signature": "java.lang.Class<?> getServiceInterface()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteAccessor#setServiceInterface(java.lang.Class<?>)",
+      "signature": "void setServiceInterface(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#getService()",
+      "signature": "java.lang.Object getService()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#getServiceInterface()",
+      "signature": "java.lang.Class<?> getServiceInterface()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#setInterceptors(java.lang.Object[])",
+      "signature": "void setInterceptors(java.lang.Object[])"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#setRegisterTraceInterceptor(boolean)",
+      "signature": "void setRegisterTraceInterceptor(boolean)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#setService(java.lang.Object)",
+      "signature": "void setService(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteExporter#setServiceInterface(java.lang.Class<?>)",
+      "signature": "void setServiceInterface(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#addAttribute(java.lang.String, java.io.Serializable)",
+      "signature": "void addAttribute(java.lang.String, java.io.Serializable)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#getArguments()",
+      "signature": "java.lang.Object[] getArguments()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#getAttribute(java.lang.String)",
+      "signature": "java.io.Serializable getAttribute(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#getAttributes()",
+      "signature": "java.util.Map<java.lang.String, java.io.Serializable> getAttributes()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#getMethodName()",
+      "signature": "java.lang.String getMethodName()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#getParameterTypes()",
+      "signature": "java.lang.Class<?>[] getParameterTypes()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#invoke(java.lang.Object)",
+      "signature": "java.lang.Object invoke(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#setArguments(java.lang.Object[])",
+      "signature": "void setArguments(java.lang.Object[])"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#setAttributes(java.util.Map<java.lang.String, java.io.Serializable>)",
+      "signature": "void setAttributes(java.util.Map<java.lang.String, java.io.Serializable>)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#setMethodName(java.lang.String)",
+      "signature": "void setMethodName(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#setParameterTypes(java.lang.Class<?>[])",
+      "signature": "void setParameterTypes(java.lang.Class<?>[])"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocation#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationBasedAccessor#getRemoteInvocationFactory()",
+      "signature": "org.springframework.remoting.support.RemoteInvocationFactory getRemoteInvocationFactory()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationBasedAccessor#setRemoteInvocationFactory(org.springframework.remoting.support.RemoteInvocationFactory)",
+      "signature": "void setRemoteInvocationFactory(org.springframework.remoting.support.RemoteInvocationFactory)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationBasedExporter#getRemoteInvocationExecutor()",
+      "signature": "org.springframework.remoting.support.RemoteInvocationExecutor getRemoteInvocationExecutor()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationBasedExporter#setRemoteInvocationExecutor(org.springframework.remoting.support.RemoteInvocationExecutor)",
+      "signature": "void setRemoteInvocationExecutor(org.springframework.remoting.support.RemoteInvocationExecutor)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationExecutor#invoke(org.springframework.remoting.support.RemoteInvocation, java.lang.Object)",
+      "signature": "java.lang.Object invoke(org.springframework.remoting.support.RemoteInvocation, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationFactory#createRemoteInvocation(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "org.springframework.remoting.support.RemoteInvocation createRemoteInvocation(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#getException()",
+      "signature": "java.lang.Throwable getException()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#getValue()",
+      "signature": "java.lang.Object getValue()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#hasException()",
+      "signature": "boolean hasException()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#hasInvocationTargetException()",
+      "signature": "boolean hasInvocationTargetException()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#recreate()",
+      "signature": "java.lang.Object recreate()"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#setException(java.lang.Throwable)",
+      "signature": "void setException(java.lang.Throwable)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationResult#setValue(java.lang.Object)",
+      "signature": "void setValue(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationTraceInterceptor#invoke(org.aopalliance.intercept.MethodInvocation)",
+      "signature": "java.lang.Object invoke(org.aopalliance.intercept.MethodInvocation)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemoteInvocationUtils#fillInClientStackTraceIfPossible(java.lang.Throwable)",
+      "signature": "void fillInClientStackTraceIfPossible(java.lang.Throwable)"
+    },
+    {
+      "key": "org.springframework.remoting.support.RemotingSupport#setBeanClassLoader(java.lang.ClassLoader)",
+      "signature": "void setBeanClassLoader(java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#destroy()",
+      "signature": "void destroy()"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#getObject()",
+      "signature": "java.lang.Object getObject()"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#getObjectType()",
+      "signature": "java.lang.Class<? extends com.sun.net.httpserver.HttpServer> getObjectType()"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#isSingleton()",
+      "signature": "boolean isSingleton()"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setAuthenticator(com.sun.net.httpserver.Authenticator)",
+      "signature": "void setAuthenticator(com.sun.net.httpserver.Authenticator)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setBacklog(int)",
+      "signature": "void setBacklog(int)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setContexts(java.util.Map<java.lang.String, com.sun.net.httpserver.HttpHandler>)",
+      "signature": "void setContexts(java.util.Map<java.lang.String, com.sun.net.httpserver.HttpHandler>)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setExecutor(java.util.concurrent.Executor)",
+      "signature": "void setExecutor(java.util.concurrent.Executor)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setFilters(java.util.List<com.sun.net.httpserver.Filter>)",
+      "signature": "void setFilters(java.util.List<com.sun.net.httpserver.Filter>)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setHostname(java.lang.String)",
+      "signature": "void setHostname(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setPort(int)",
+      "signature": "void setPort(int)"
+    },
+    {
+      "key": "org.springframework.remoting.support.SimpleHttpServerFactoryBean#setShutdownDelay(int)",
+      "signature": "void setShutdownDelay(int)"
+    },
+    {
+      "key": "org.springframework.remoting.support.UrlBasedRemoteAccessor#afterPropertiesSet()",
+      "signature": "void afterPropertiesSet()"
+    },
+    {
+      "key": "org.springframework.remoting.support.UrlBasedRemoteAccessor#getServiceUrl()",
+      "signature": "java.lang.String getServiceUrl()"
+    },
+    {
+      "key": "org.springframework.remoting.support.UrlBasedRemoteAccessor#setServiceUrl(java.lang.String)",
+      "signature": "void setServiceUrl(java.lang.String)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, long)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, long)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, long)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, long)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, long)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, long)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, long)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, long)"
+    },
+    {
+      "key": "org.springframework.scheduling.config.ScheduledTaskRegistrar#scheduleFixedDelayTask(org.springframework.scheduling.config.IntervalTask)",
+      "signature": "org.springframework.scheduling.config.ScheduledTask scheduleFixedDelayTask(org.springframework.scheduling.config.IntervalTask)"
+    },
+    {
+      "key": "org.springframework.scheduling.config.ScheduledTaskRegistrar#scheduleFixedRateTask(org.springframework.scheduling.config.IntervalTask)",
+      "signature": "org.springframework.scheduling.config.ScheduledTask scheduleFixedRateTask(org.springframework.scheduling.config.IntervalTask)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.CronTrigger#nextExecutionTime(org.springframework.scheduling.TriggerContext)",
+      "signature": "java.util.Date nextExecutionTime(org.springframework.scheduling.TriggerContext)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.PeriodicTrigger#nextExecutionTime(org.springframework.scheduling.TriggerContext)",
+      "signature": "java.util.Date nextExecutionTime(org.springframework.scheduling.TriggerContext)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastActualExecutionTime()",
+      "signature": "java.util.Date lastActualExecutionTime()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastCompletionTime()",
+      "signature": "java.util.Date lastCompletionTime()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastScheduledExecutionTime()",
+      "signature": "java.util.Date lastScheduledExecutionTime()"
+    },
+    {
+      "key": "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)",
+      "signature": "java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.springframework.cache.CacheExtensionsKt#get(org.springframework.cache.Cache, java.lang.Object)",
+      "signature": "T get(org.springframework.cache.Cache, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.cache.CacheExtensionsKt#set(org.springframework.cache.Cache, java.lang.Object, java.lang.Object)",
+      "signature": "void set(org.springframework.cache.Cache, java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.cache.CacheManagerExtensionsKt#get(org.springframework.cache.CacheManager, java.lang.String)",
+      "signature": "org.springframework.cache.Cache get(org.springframework.cache.CacheManager, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.context.ConfigurableApplicationContext#removeApplicationListener(org.springframework.context.ApplicationListener<?>)",
+      "signature": "void removeApplicationListener(org.springframework.context.ApplicationListener<?>)"
+    },
+    {
+      "key": "org.springframework.context.annotation.Configuration#enforceUniqueMethods()",
+      "signature": "boolean enforceUniqueMethods()"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor#processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)",
+      "signature": "org.springframework.beans.factory.aot.BeanFactoryInitializationAotContribution processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor#processAheadOfTime(org.springframework.beans.factory.support.RegisteredBean)",
+      "signature": "org.springframework.beans.factory.aot.BeanRegistrationAotContribution processAheadOfTime(org.springframework.beans.factory.support.RegisteredBean)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor$ConfigurationClassProxyBeanRegistrationCodeFragments#generateInstanceSupplierCode(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanRegistrationCode, java.lang.reflect.Executable, boolean)",
+      "signature": "org.springframework.javapoet.CodeBlock generateInstanceSupplierCode(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanRegistrationCode, java.lang.reflect.Executable, boolean)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor$ConfigurationClassProxyBeanRegistrationCodeFragments#generateSetBeanDefinitionPropertiesCode(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanRegistrationCode, org.springframework.beans.factory.support.RootBeanDefinition, java.util.function.Predicate<java.lang.String>)",
+      "signature": "org.springframework.javapoet.CodeBlock generateSetBeanDefinitionPropertiesCode(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanRegistrationCode, org.springframework.beans.factory.support.RootBeanDefinition, java.util.function.Predicate<java.lang.String>)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareAotContribution#applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)",
+      "signature": "void applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassPostProcessor$PropertySourcesAotContribution#applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)",
+      "signature": "void applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ConfigurationClassUtils#initializeConfigurationClass(java.lang.Class<?>)",
+      "signature": "java.lang.Class<?> initializeConfigurationClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ContextAnnotationAutowireCandidateResolver#getLazyResolutionProxyClass(org.springframework.beans.factory.config.DependencyDescriptor, java.lang.String)",
+      "signature": "java.lang.Class<?> getLazyResolutionProxyClass(org.springframework.beans.factory.config.DependencyDescriptor, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ImportAwareAotBeanPostProcessor#getOrder()",
+      "signature": "int getOrder()"
+    },
+    {
+      "key": "org.springframework.context.annotation.ImportAwareAotBeanPostProcessor#postProcessBeforeInitialization(java.lang.Object, java.lang.String)",
+      "signature": "java.lang.Object postProcessBeforeInitialization(java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "org.springframework.context.annotation.ImportRuntimeHints#value()",
+      "signature": "java.lang.Class<? extends org.springframework.aot.hint.RuntimeHintsRegistrar>[] value()"
+    },
+    {
+      "key": "org.springframework.context.annotation.PropertySourceRegistry#getDescriptors()",
+      "signature": "java.util.List<org.springframework.core.io.support.PropertySourceDescriptor> getDescriptors()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor#process()",
+      "signature": "T process()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor$Settings#getArtifactId()",
+      "signature": "java.lang.String getArtifactId()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor$Settings#getClassOutput()",
+      "signature": "java.nio.file.Path getClassOutput()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor$Settings#getGroupId()",
+      "signature": "java.lang.String getGroupId()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor$Settings#getResourceOutput()",
+      "signature": "java.nio.file.Path getResourceOutput()"
+    },
+    {
+      "key": "org.springframework.context.aot.AbstractAotProcessor$Settings#getSourceOutput()",
+      "signature": "java.nio.file.Path getSourceOutput()"
+    },
+    {
+      "key": "org.springframework.context.aot.AotApplicationContextInitializer#forInitializerClasses(java.lang.String...)",
+      "signature": "org.springframework.context.aot.AotApplicationContextInitializer<C> forInitializerClasses(java.lang.String...)"
+    },
+    {
+      "key": "org.springframework.context.aot.AotApplicationContextInitializer#instantiateInitializer(java.lang.String, java.lang.ClassLoader)",
+      "signature": "org.springframework.context.ApplicationContextInitializer<C> instantiateInitializer(java.lang.String, java.lang.ClassLoader)"
+    },
+    {
+      "key": "org.springframework.context.aot.ApplicationContextAotGenerator#processAheadOfTime(org.springframework.context.support.GenericApplicationContext, org.springframework.aot.generate.GenerationContext)",
+      "signature": "org.springframework.javapoet.ClassName processAheadOfTime(org.springframework.context.support.GenericApplicationContext, org.springframework.aot.generate.GenerationContext)"
+    },
+    {
+      "key": "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator#addInitializer(org.springframework.aot.generate.MethodReference)",
+      "signature": "void addInitializer(org.springframework.aot.generate.MethodReference)"
+    },
+    {
+      "key": "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator#getMethods()",
+      "signature": "org.springframework.aot.generate.GeneratedMethods getMethods()"
+    },
+    {
+      "key": "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator$InitializerMethodArgumentCodeGenerator#apply(java.lang.Object)",
+      "signature": "java.lang.Object apply(java.lang.Object)"
+    },
+    {
+      "key": "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator$InitializerMethodArgumentCodeGenerator#apply(org.springframework.javapoet.TypeName)",
+      "signature": "org.springframework.javapoet.CodeBlock apply(org.springframework.javapoet.TypeName)"
+    },
+    {
+      "key": "org.springframework.context.aot.CglibClassHandler#handleGeneratedClass(java.lang.String, byte[])",
+      "signature": "void handleGeneratedClass(java.lang.String, byte[])"
+    },
+    {
+      "key": "org.springframework.context.aot.CglibClassHandler#handleLoadedClass(java.lang.Class<?>)",
+      "signature": "void handleLoadedClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "org.springframework.context.aot.ReflectiveProcessorBeanFactoryInitializationAotProcessor#processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)",
+      "signature": "org.springframework.beans.factory.aot.BeanFactoryInitializationAotContribution processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)"
+    },
+    {
+      "key": "org.springframework.context.aot.ReflectiveProcessorBeanFactoryInitializationAotProcessor$ReflectiveProcessorBeanFactoryInitializationAotContribution#applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)",
+      "signature": "void applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)"
+    },
+    {
+      "key": "org.springframework.context.aot.RuntimeHintsBeanFactoryInitializationAotProcessor#processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)",
+      "signature": "org.springframework.beans.factory.aot.BeanFactoryInitializationAotContribution processAheadOfTime(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)"
+    },
+    {
+      "key": "org.springframework.context.aot.RuntimeHintsBeanFactoryInitializationAotProcessor$RuntimeHintsRegistrarContribution#applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)",
+      "signature": "void applyTo(org.springframework.aot.generate.GenerationContext, org.springframework.beans.factory.aot.BeanFactoryInitializationCode)"
+    },
+    {
+      "key": "org.springframework.context.support.AbstractApplicationContext#findAllAnnotationsOnBean(java.lang.String, java.lang.Class<A>, boolean)",
+      "signature": "java.util.Set<A> findAllAnnotationsOnBean(java.lang.String, java.lang.Class<A>, boolean)"
+    },
+    {
+      "key": "org.springframework.context.support.AbstractApplicationContext#removeApplicationListener(org.springframework.context.ApplicationListener<?>)",
+      "signature": "void removeApplicationListener(org.springframework.context.ApplicationListener<?>)"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl#getChildren$annotations()",
+      "signature": "void getChildren$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl#getContext$annotations()",
+      "signature": "void getContext$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.BeanDefinitionDsl$BeanSupplierContext#getContext$annotations()",
+      "signature": "void getContext$annotations()"
+    },
+    {
+      "key": "org.springframework.context.support.GenericApplicationContext#refreshForAotProcessing(org.springframework.aot.hint.RuntimeHints)",
+      "signature": "void refreshForAotProcessing(org.springframework.aot.hint.RuntimeHints)"
+    },
+    {
+      "key": "org.springframework.scheduling.Trigger#nextExecution(org.springframework.scheduling.TriggerContext)",
+      "signature": "java.time.Instant nextExecution(org.springframework.scheduling.TriggerContext)"
+    },
+    {
+      "key": "org.springframework.scheduling.TriggerContext#lastActualExecution()",
+      "signature": "java.time.Instant lastActualExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.TriggerContext#lastCompletion()",
+      "signature": "java.time.Instant lastCompletion()"
+    },
+    {
+      "key": "org.springframework.scheduling.TriggerContext#lastScheduledExecution()",
+      "signature": "java.time.Instant lastScheduledExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter#getNextRunTime(jakarta.enterprise.concurrent.LastExecution, java.util.Date)",
+      "signature": "java.util.Date getNextRunTime(jakarta.enterprise.concurrent.LastExecution, java.util.Date)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter#skipRun(jakarta.enterprise.concurrent.LastExecution, java.util.Date)",
+      "signature": "boolean skipRun(jakarta.enterprise.concurrent.LastExecution, java.util.Date)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter$LastExecutionAdapter#lastActualExecution()",
+      "signature": "java.time.Instant lastActualExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter$LastExecutionAdapter#lastCompletion()",
+      "signature": "java.time.Instant lastCompletion()"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter$LastExecutionAdapter#lastScheduledExecution()",
+      "signature": "java.time.Instant lastScheduledExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.time.Instant, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)",
+      "signature": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.time.Instant, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.config.IntervalTask#getInitialDelayDuration()",
+      "signature": "java.time.Duration getInitialDelayDuration()"
+    },
+    {
+      "key": "org.springframework.scheduling.config.IntervalTask#getIntervalDuration()",
+      "signature": "java.time.Duration getIntervalDuration()"
+    },
+    {
+      "key": "org.springframework.scheduling.config.ScheduledTaskRegistrar#addFixedDelayTask(java.lang.Runnable, java.time.Duration)",
+      "signature": "void addFixedDelayTask(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.config.ScheduledTaskRegistrar#addFixedRateTask(java.lang.Runnable, java.time.Duration)",
+      "signature": "void addFixedRateTask(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.CronTrigger#nextExecution(org.springframework.scheduling.TriggerContext)",
+      "signature": "java.time.Instant nextExecution(org.springframework.scheduling.TriggerContext)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.PeriodicTrigger#getInitialDelayDuration()",
+      "signature": "java.time.Duration getInitialDelayDuration()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.PeriodicTrigger#getPeriodDuration()",
+      "signature": "java.time.Duration getPeriodDuration()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.PeriodicTrigger#nextExecution(org.springframework.scheduling.TriggerContext)",
+      "signature": "java.time.Instant nextExecution(org.springframework.scheduling.TriggerContext)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.PeriodicTrigger#setInitialDelay(java.time.Duration)",
+      "signature": "void setInitialDelay(java.time.Duration)"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastActualExecution()",
+      "signature": "java.time.Instant lastActualExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastCompletion()",
+      "signature": "java.time.Instant lastCompletion()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#lastScheduledExecution()",
+      "signature": "java.time.Instant lastScheduledExecution()"
+    },
+    {
+      "key": "org.springframework.scheduling.support.SimpleTriggerContext#update(java.time.Instant, java.time.Instant, java.time.Instant)",
+      "signature": "void update(java.time.Instant, java.time.Instant, java.time.Instant)"
+    },
+    {
+      "key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#getClockProvider()",
+      "signature": "jakarta.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator#interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context, java.util.Locale)",
+      "signature": "java.lang.String interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context, java.util.Locale)"
+    },
+    {
+      "key": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidatorProvider(org.springframework.beans.factory.ObjectProvider<jakarta.validation.Validator>)",
+      "signature": "void setValidatorProvider(org.springframework.beans.factory.ObjectProvider<jakarta.validation.Validator>)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#schedule",
+      "old": "java.util.concurrent.ScheduledFuture<?> schedule(java.lang.Runnable, java.util.Date)",
+      "new": "java.util.concurrent.ScheduledFuture<?> schedule(java.lang.Runnable, java.time.Instant)",
+      "old_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#schedule(java.lang.Runnable, java.util.Date)",
+      "new_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#schedule(java.lang.Runnable, java.time.Instant)"
+    },
+    {
+      "name": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleAtFixedRate",
+      "old": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.util.Date, long)",
+      "new": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+      "old_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.util.Date, long)",
+      "new_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "name": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleWithFixedDelay",
+      "old": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.util.Date, long)",
+      "new": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+      "old_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.util.Date, long)",
+      "new_key": "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#schedule",
+      "old": "java.util.concurrent.ScheduledFuture<?> schedule(java.lang.Runnable, java.util.Date)",
+      "new": "java.util.concurrent.ScheduledFuture<?> schedule(java.lang.Runnable, java.time.Instant)",
+      "old_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#schedule(java.lang.Runnable, java.util.Date)",
+      "new_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#schedule(java.lang.Runnable, java.time.Instant)"
+    },
+    {
+      "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleAtFixedRate",
+      "old": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.util.Date, long)",
+      "new": "java.util.concurrent.ScheduledFuture<?> scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)",
+      "old_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.util.Date, long)",
+      "new_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleAtFixedRate(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "name": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleWithFixedDelay",
+      "old": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.util.Date, long)",
+      "new": "java.util.concurrent.ScheduledFuture<?> scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)",
+      "old_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.util.Date, long)",
+      "new_key": "org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler#scheduleWithFixedDelay(java.lang.Runnable, java.time.Duration)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidator",
+      "old": "void setValidator(javax.validation.Validator)",
+      "new": "void setValidator(jakarta.validation.Validator)",
+      "old_key": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidator(javax.validation.Validator)",
+      "new_key": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidator(jakarta.validation.Validator)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidatorFactory",
+      "old": "void setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new": "void setValidatorFactory(jakarta.validation.ValidatorFactory)",
+      "old_key": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new_key": "org.springframework.validation.beanvalidation.BeanValidationPostProcessor#setValidatorFactory(jakarta.validation.ValidatorFactory)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.CustomValidatorBean#setMessageInterpolator",
+      "old": "void setMessageInterpolator(javax.validation.MessageInterpolator)",
+      "new": "void setMessageInterpolator(jakarta.validation.MessageInterpolator)",
+      "old_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setMessageInterpolator(javax.validation.MessageInterpolator)",
+      "new_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setMessageInterpolator(jakarta.validation.MessageInterpolator)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.CustomValidatorBean#setTraversableResolver",
+      "old": "void setTraversableResolver(javax.validation.TraversableResolver)",
+      "new": "void setTraversableResolver(jakarta.validation.TraversableResolver)",
+      "old_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setTraversableResolver(javax.validation.TraversableResolver)",
+      "new_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setTraversableResolver(jakarta.validation.TraversableResolver)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.CustomValidatorBean#setValidatorFactory",
+      "old": "void setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new": "void setValidatorFactory(jakarta.validation.ValidatorFactory)",
+      "old_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new_key": "org.springframework.validation.beanvalidation.CustomValidatorBean#setValidatorFactory(jakarta.validation.ValidatorFactory)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConfigurationInitializer",
+      "old": "void setConfigurationInitializer(java.util.function.Consumer<javax.validation.Configuration<?>>)",
+      "new": "void setConfigurationInitializer(java.util.function.Consumer<jakarta.validation.Configuration<?>>)",
+      "old_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConfigurationInitializer(java.util.function.Consumer<javax.validation.Configuration<?>>)",
+      "new_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConfigurationInitializer(java.util.function.Consumer<jakarta.validation.Configuration<?>>)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConstraintValidatorFactory",
+      "old": "void setConstraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "new": "void setConstraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)",
+      "old_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConstraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "new_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setConstraintValidatorFactory(jakarta.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setMessageInterpolator",
+      "old": "void setMessageInterpolator(javax.validation.MessageInterpolator)",
+      "new": "void setMessageInterpolator(jakarta.validation.MessageInterpolator)",
+      "old_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setMessageInterpolator(javax.validation.MessageInterpolator)",
+      "new_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setMessageInterpolator(jakarta.validation.MessageInterpolator)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setTraversableResolver",
+      "old": "void setTraversableResolver(javax.validation.TraversableResolver)",
+      "new": "void setTraversableResolver(jakarta.validation.TraversableResolver)",
+      "old_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setTraversableResolver(javax.validation.TraversableResolver)",
+      "new_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setTraversableResolver(jakarta.validation.TraversableResolver)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setValidationProviderResolver",
+      "old": "void setValidationProviderResolver(javax.validation.ValidationProviderResolver)",
+      "new": "void setValidationProviderResolver(jakarta.validation.ValidationProviderResolver)",
+      "old_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setValidationProviderResolver(javax.validation.ValidationProviderResolver)",
+      "new_key": "org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#setValidationProviderResolver(jakarta.validation.ValidationProviderResolver)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator#interpolate",
+      "old": "java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)",
+      "new": "java.lang.String interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context)",
+      "old_key": "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)",
+      "new_key": "org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator#interpolate(java.lang.String, jakarta.validation.MessageInterpolator$Context)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidator",
+      "old": "void setValidator(javax.validation.Validator)",
+      "new": "void setValidator(jakarta.validation.Validator)",
+      "old_key": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidator(javax.validation.Validator)",
+      "new_key": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidator(jakarta.validation.Validator)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidatorFactory",
+      "old": "void setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new": "void setValidatorFactory(jakarta.validation.ValidatorFactory)",
+      "old_key": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidatorFactory(javax.validation.ValidatorFactory)",
+      "new_key": "org.springframework.validation.beanvalidation.MethodValidationPostProcessor#setValidatorFactory(jakarta.validation.ValidatorFactory)"
+    },
+    {
+      "name": "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory#releaseInstance",
+      "old": "void releaseInstance(javax.validation.ConstraintValidator<?, ?>)",
+      "new": "void releaseInstance(jakarta.validation.ConstraintValidator<?, ?>)",
+      "old_key": "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory#releaseInstance(javax.validation.ConstraintValidator<?, ?>)",
+      "new_key": "org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory#releaseInstance(jakarta.validation.ConstraintValidator<?, ?>)"
+    }
+  ],
+  "counts": {
+    "old_methods": 2702,
+    "new_methods": 2487,
+    "removed": 286,
+    "added": 71,
+    "changed": 20,
+    "removed_classes": 93,
+    "added_classes": 27
+  },
+  "removed_classes": [
+    "org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$WebServiceRefElement",
+    "org.springframework.context.annotation.MBeanExportConfiguration$SpecificPlatform",
+    "org.springframework.context.support.LiveBeansView",
+    "org.springframework.context.support.LiveBeansViewMBean",
+    "org.springframework.ejb.access.AbstractRemoteSlsbInvokerInterceptor",
+    "org.springframework.ejb.access.AbstractSlsbInvokerInterceptor",
+    "org.springframework.ejb.access.EjbAccessException",
+    "org.springframework.ejb.access.LocalSlsbInvokerInterceptor",
+    "org.springframework.ejb.access.LocalStatelessSessionProxyFactoryBean",
+    "org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor",
+    "org.springframework.ejb.access.SimpleRemoteStatelessSessionProxyFactoryBean",
+    "org.springframework.ejb.access.package",
+    "org.springframework.format.datetime.joda.DateTimeFormatterFactory",
+    "org.springframework.format.datetime.joda.DateTimeFormatterFactoryBean",
+    "org.springframework.format.datetime.joda.DateTimeParser",
+    "org.springframework.format.datetime.joda.DurationFormatter",
+    "org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory",
+    "org.springframework.format.datetime.joda.JodaTimeContext",
+    "org.springframework.format.datetime.joda.JodaTimeContextHolder",
+    "org.springframework.format.datetime.joda.JodaTimeConverters",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$CalendarToReadableInstantConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToCalendarConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateMidnightConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToInstantConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateTimeConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalTimeConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLongConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToMutableDateTimeConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$DateToReadableInstantConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalDateConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalTimeConverter",
+    "org.springframework.format.datetime.joda.JodaTimeConverters$LongToReadableInstantConverter",
+    "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar",
+    "org.springframework.format.datetime.joda.JodaTimeFormatterRegistrar$Type",
+    "org.springframework.format.datetime.joda.LocalDateParser",
+    "org.springframework.format.datetime.joda.LocalDateTimeParser",
+    "org.springframework.format.datetime.joda.LocalTimeParser",
+    "org.springframework.format.datetime.joda.MillisecondInstantPrinter",
+    "org.springframework.format.datetime.joda.MonthDayFormatter",
+    "org.springframework.format.datetime.joda.PeriodFormatter",
+    "org.springframework.format.datetime.joda.ReadableInstantPrinter",
+    "org.springframework.format.datetime.joda.ReadablePartialPrinter",
+    "org.springframework.format.datetime.joda.YearMonthFormatter",
+    "org.springframework.format.datetime.joda.package",
+    "org.springframework.instrument.classloading.weblogic.WebLogicClassLoaderAdapter",
+    "org.springframework.instrument.classloading.weblogic.WebLogicClassPreProcessorAdapter",
+    "org.springframework.instrument.classloading.weblogic.WebLogicLoadTimeWeaver",
+    "org.springframework.instrument.classloading.weblogic.package",
+    "org.springframework.instrument.classloading.websphere.WebSphereClassLoaderAdapter",
+    "org.springframework.instrument.classloading.websphere.WebSphereClassPreDefinePlugin",
+    "org.springframework.instrument.classloading.websphere.WebSphereClassPreDefinePlugin$Dummy",
+    "org.springframework.instrument.classloading.websphere.WebSphereLoadTimeWeaver",
+    "org.springframework.instrument.classloading.websphere.package",
+    "org.springframework.jmx.support.WebSphereMBeanServerFactoryBean",
+    "org.springframework.remoting.RemoteAccessException",
+    "org.springframework.remoting.RemoteConnectFailureException",
+    "org.springframework.remoting.RemoteInvocationFailureException",
+    "org.springframework.remoting.RemoteLookupFailureException",
+    "org.springframework.remoting.RemoteProxyFailureException",
+    "org.springframework.remoting.RemoteTimeoutException",
+    "org.springframework.remoting.package",
+    "org.springframework.remoting.rmi.CodebaseAwareObjectInputStream",
+    "org.springframework.remoting.rmi.JndiRmiClientInterceptor",
+    "org.springframework.remoting.rmi.JndiRmiProxyFactoryBean",
+    "org.springframework.remoting.rmi.JndiRmiServiceExporter",
+    "org.springframework.remoting.rmi.RemoteInvocationSerializingExporter",
+    "org.springframework.remoting.rmi.RmiBasedExporter",
+    "org.springframework.remoting.rmi.RmiClientInterceptor",
+    "org.springframework.remoting.rmi.RmiClientInterceptor$DummyURLStreamHandler",
+    "org.springframework.remoting.rmi.RmiClientInterceptorUtils",
+    "org.springframework.remoting.rmi.RmiInvocationHandler",
+    "org.springframework.remoting.rmi.RmiInvocationWrapper",
+    "org.springframework.remoting.rmi.RmiProxyFactoryBean",
+    "org.springframework.remoting.rmi.RmiRegistryFactoryBean",
+    "org.springframework.remoting.rmi.RmiServiceExporter",
+    "org.springframework.remoting.soap.SoapFaultException",
+    "org.springframework.remoting.support.DefaultRemoteInvocationExecutor",
+    "org.springframework.remoting.support.DefaultRemoteInvocationFactory",
+    "org.springframework.remoting.support.RemoteAccessor",
+    "org.springframework.remoting.support.RemoteExporter",
+    "org.springframework.remoting.support.RemoteInvocation",
+    "org.springframework.remoting.support.RemoteInvocationBasedAccessor",
+    "org.springframework.remoting.support.RemoteInvocationBasedExporter",
+    "org.springframework.remoting.support.RemoteInvocationExecutor",
+    "org.springframework.remoting.support.RemoteInvocationFactory",
+    "org.springframework.remoting.support.RemoteInvocationResult",
+    "org.springframework.remoting.support.RemoteInvocationTraceInterceptor",
+    "org.springframework.remoting.support.RemoteInvocationUtils",
+    "org.springframework.remoting.support.RemotingSupport",
+    "org.springframework.remoting.support.SimpleHttpServerFactoryBean",
+    "org.springframework.remoting.support.UrlBasedRemoteAccessor"
+  ],
+  "added_classes": [
+    "org.springframework.cache.CacheExtensionsKt",
+    "org.springframework.cache.CacheManagerExtensionsKt",
+    "org.springframework.context.annotation.ConfigurationClass$BeanMethodOverloadingProblem",
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor$ConfigurationClassProxyBeanRegistrationCodeFragments",
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareAotContribution",
+    "org.springframework.context.annotation.ConfigurationClassPostProcessor$PropertySourcesAotContribution",
+    "org.springframework.context.annotation.ImportAwareAotBeanPostProcessor",
+    "org.springframework.context.annotation.ImportRuntimeHints",
+    "org.springframework.context.annotation.PropertySourceRegistry",
+    "org.springframework.context.aot.AbstractAotProcessor",
+    "org.springframework.context.aot.AbstractAotProcessor$Settings",
+    "org.springframework.context.aot.AbstractAotProcessor$Settings$Builder",
+    "org.springframework.context.aot.AotApplicationContextInitializer",
+    "org.springframework.context.aot.ApplicationContextAotGenerator",
+    "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator",
+    "org.springframework.context.aot.ApplicationContextInitializationCodeGenerator$InitializerMethodArgumentCodeGenerator",
+    "org.springframework.context.aot.BeanFactoryInitializationAotContributions",
+    "org.springframework.context.aot.CglibClassHandler",
+    "org.springframework.context.aot.ContextAotProcessor",
+    "org.springframework.context.aot.ReflectiveProcessorBeanFactoryInitializationAotProcessor",
+    "org.springframework.context.aot.ReflectiveProcessorBeanFactoryInitializationAotProcessor$ReflectiveProcessorBeanFactoryInitializationAotContribution",
+    "org.springframework.context.aot.RuntimeHintsBeanFactoryInitializationAotProcessor",
+    "org.springframework.context.aot.RuntimeHintsBeanFactoryInitializationAotProcessor$RuntimeHintsRegistrarContribution",
+    "org.springframework.context.aot.package",
+    "org.springframework.context.support.PostProcessorRegistrationDelegate$MergedBeanDefinitionPostProcessorInvoker",
+    "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter",
+    "org.springframework.scheduling.concurrent.ConcurrentTaskScheduler$EnterpriseConcurrentTriggerScheduler$TriggerAdapter$LastExecutionAdapter"
+  ],
+  "old_jar": "jar_cache/org.springframework_spring-context_5.3.23.jar",
+  "new_jar": "jar_cache/org.springframework_spring-context_6.0.1.jar",
+  "group_id": "org.springframework",
+  "artifact_id": "spring-context",
+  "old_version": "5.3.23",
+  "new_version": "6.0.1",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.springframework:spring-aop",
+          "old": "5.3.23",
+          "new": "6.0.1"
+        },
+        {
+          "dependency": "org.springframework:spring-beans",
+          "old": "5.3.23",
+          "new": "6.0.1"
+        },
+        {
+          "dependency": "org.springframework:spring-core",
+          "old": "5.3.23",
+          "new": "6.0.1"
+        },
+        {
+          "dependency": "org.springframework:spring-expression",
+          "old": "5.3.23",
+          "new": "6.0.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "camunda-platform-7-mockito"
+  ]
+}

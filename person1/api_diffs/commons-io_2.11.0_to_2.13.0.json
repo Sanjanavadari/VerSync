@@ -1,0 +1,2343 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.commons.io.input.buffer.CircularBufferInputStream#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#write(char[])",
+      "signature": "void write(char[])"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#write(char[], int, int)",
+      "signature": "void write(char[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#write(java.lang.String)",
+      "signature": "void write(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding#write(java.lang.String, int, int)",
+      "signature": "void write(java.lang.String, int, int)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.apache.commons.io.Charsets#toCharset(java.lang.String, java.nio.charset.Charset)",
+      "signature": "java.nio.charset.Charset toCharset(java.lang.String, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.Charsets#toCharset(java.nio.charset.Charset, java.nio.charset.Charset)",
+      "signature": "java.nio.charset.Charset toCharset(java.nio.charset.Charset, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#addRequestProperty(java.lang.String, java.lang.String)",
+      "signature": "void addRequestProperty(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#connect()",
+      "signature": "void connect()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getAllowUserInteraction()",
+      "signature": "boolean getAllowUserInteraction()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getConnectTimeout()",
+      "signature": "int getConnectTimeout()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContent()",
+      "signature": "java.lang.Object getContent()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContent(java.lang.Class[])",
+      "signature": "java.lang.Object getContent(java.lang.Class[])"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContentLength()",
+      "signature": "int getContentLength()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContentLengthLong()",
+      "signature": "long getContentLengthLong()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getDate()",
+      "signature": "long getDate()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getDefaultUseCaches()",
+      "signature": "boolean getDefaultUseCaches()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getDoInput()",
+      "signature": "boolean getDoInput()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getDoOutput()",
+      "signature": "boolean getDoOutput()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getExpiration()",
+      "signature": "long getExpiration()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderField(int)",
+      "signature": "java.lang.String getHeaderField(int)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderField(java.lang.String)",
+      "signature": "java.lang.String getHeaderField(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderFieldDate(java.lang.String, long)",
+      "signature": "long getHeaderFieldDate(java.lang.String, long)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderFieldInt(java.lang.String, int)",
+      "signature": "int getHeaderFieldInt(java.lang.String, int)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderFieldKey(int)",
+      "signature": "java.lang.String getHeaderFieldKey(int)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderFieldLong(java.lang.String, long)",
+      "signature": "long getHeaderFieldLong(java.lang.String, long)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getHeaderFields()",
+      "signature": "java.util.Map<java.lang.String, java.util.List<java.lang.String>> getHeaderFields()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getIfModifiedSince()",
+      "signature": "long getIfModifiedSince()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getInputStream()",
+      "signature": "java.io.InputStream getInputStream()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getLastModified()",
+      "signature": "long getLastModified()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getOutputStream()",
+      "signature": "java.io.OutputStream getOutputStream()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getPermission()",
+      "signature": "java.security.Permission getPermission()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getReadTimeout()",
+      "signature": "int getReadTimeout()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getRequestProperties()",
+      "signature": "java.util.Map<java.lang.String, java.util.List<java.lang.String>> getRequestProperties()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getRequestProperty(java.lang.String)",
+      "signature": "java.lang.String getRequestProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getURL()",
+      "signature": "java.net.URL getURL()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#getUseCaches()",
+      "signature": "boolean getUseCaches()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setAllowUserInteraction(boolean)",
+      "signature": "void setAllowUserInteraction(boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setConnectTimeout(int)",
+      "signature": "void setConnectTimeout(int)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setDefaultUseCaches(boolean)",
+      "signature": "void setDefaultUseCaches(boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setDoInput(boolean)",
+      "signature": "void setDoInput(boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setDoOutput(boolean)",
+      "signature": "void setDoOutput(boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setIfModifiedSince(long)",
+      "signature": "void setIfModifiedSince(long)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setReadTimeout(int)",
+      "signature": "void setReadTimeout(int)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setRequestProperty(java.lang.String, java.lang.String)",
+      "signature": "void setRequestProperty(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#setUseCaches(boolean)",
+      "signature": "void setUseCaches(boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.CloseableURLConnection#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.FileSystem#getBlockSize()",
+      "signature": "int getBlockSize()"
+    },
+    {
+      "key": "org.apache.commons.io.FileSystem#getIllegalFileNameCodePoints()",
+      "signature": "int[] getIllegalFileNameCodePoints()"
+    },
+    {
+      "key": "org.apache.commons.io.FileSystem#getNameSeparator()",
+      "signature": "char getNameSeparator()"
+    },
+    {
+      "key": "org.apache.commons.io.FileSystem#normalizeSeparators(java.lang.String)",
+      "signature": "java.lang.String normalizeSeparators(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#byteCountToDisplaySize(java.lang.Number)",
+      "signature": "java.lang.String byteCountToDisplaySize(java.lang.Number)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#current()",
+      "signature": "java.io.File current()"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileNewer(java.io.File, java.nio.file.attribute.FileTime)",
+      "signature": "boolean isFileNewer(java.io.File, java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileNewer(java.io.File, java.time.OffsetDateTime)",
+      "signature": "boolean isFileNewer(java.io.File, java.time.OffsetDateTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileNewer(java.io.File, java.time.chrono.ChronoLocalDate, java.time.OffsetTime)",
+      "signature": "boolean isFileNewer(java.io.File, java.time.chrono.ChronoLocalDate, java.time.OffsetTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileOlder(java.io.File, java.nio.file.attribute.FileTime)",
+      "signature": "boolean isFileOlder(java.io.File, java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileOlder(java.io.File, java.time.OffsetDateTime)",
+      "signature": "boolean isFileOlder(java.io.File, java.time.OffsetDateTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#isFileOlder(java.io.File, java.time.chrono.ChronoLocalDate, java.time.OffsetTime)",
+      "signature": "boolean isFileOlder(java.io.File, java.time.chrono.ChronoLocalDate, java.time.OffsetTime)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#lastModifiedFileTime(java.io.File)",
+      "signature": "java.nio.file.attribute.FileTime lastModifiedFileTime(java.io.File)"
+    },
+    {
+      "key": "org.apache.commons.io.FileUtils#newOutputStream(java.io.File, boolean)",
+      "signature": "java.io.OutputStream newOutputStream(java.io.File, boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.HexDump#dump(byte[], java.lang.Appendable)",
+      "signature": "void dump(byte[], java.lang.Appendable)"
+    },
+    {
+      "key": "org.apache.commons.io.HexDump#dump(byte[], long, java.lang.Appendable, int, int)",
+      "signature": "void dump(byte[], long, java.lang.Appendable, int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.IOCase#value(org.apache.commons.io.IOCase, org.apache.commons.io.IOCase)",
+      "signature": "org.apache.commons.io.IOCase value(org.apache.commons.io.IOCase, org.apache.commons.io.IOCase)"
+    },
+    {
+      "key": "org.apache.commons.io.IOExceptionList#checkEmpty(java.util.List<? extends java.lang.Throwable>, java.lang.Object)",
+      "signature": "void checkEmpty(java.util.List<? extends java.lang.Throwable>, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.IOExceptionList#iterator()",
+      "signature": "java.util.Iterator<java.lang.Throwable> iterator()"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#closeQuietly(java.lang.Iterable<java.io.Closeable>)",
+      "signature": "void closeQuietly(java.lang.Iterable<java.io.Closeable>)"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#closeQuietly(java.util.stream.Stream<java.io.Closeable>)",
+      "signature": "void closeQuietly(java.util.stream.Stream<java.io.Closeable>)"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#consume(java.io.Reader)",
+      "signature": "long consume(java.io.Reader)"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#copy(java.io.ByteArrayOutputStream)",
+      "signature": "org.apache.commons.io.input.QueueInputStream copy(java.io.ByteArrayOutputStream)"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#toString(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.charset.Charset)",
+      "signature": "java.lang.String toString(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.IOUtils#toString(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.charset.Charset, org.apache.commons.io.function.IOSupplier<java.lang.String>)",
+      "signature": "java.lang.String toString(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.charset.Charset, org.apache.commons.io.function.IOSupplier<java.lang.String>)"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#create(java.io.File)",
+      "signature": "java.io.RandomAccessFile create(java.io.File)"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#create(java.lang.String)",
+      "signature": "java.io.RandomAccessFile create(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#create(java.nio.file.Path)",
+      "signature": "java.io.RandomAccessFile create(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#valueOf(java.lang.String)",
+      "signature": "org.apache.commons.io.RandomAccessFileMode valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFileMode#values()",
+      "signature": "org.apache.commons.io.RandomAccessFileMode[] values()"
+    },
+    {
+      "key": "org.apache.commons.io.RandomAccessFiles#read(java.io.RandomAccessFile, long, int)",
+      "signature": "byte[] read(java.io.RandomAccessFile, long, int)"
+    },
+    {
+      "key": "org.apache.commons.io.ThreadUtils#sleep(java.time.Duration)",
+      "signature": "void sleep(java.time.Duration)"
+    },
+    {
+      "key": "org.apache.commons.io.UncheckedIOExceptions#create(java.lang.Object)",
+      "signature": "java.io.UncheckedIOException create(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.UncheckedIOExceptions#wrap(java.io.IOException, java.lang.Object)",
+      "signature": "java.io.UncheckedIOException wrap(java.io.IOException, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#get()",
+      "signature": "T get()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getByteArray()",
+      "signature": "byte[] getByteArray()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getByteArray(long, int)",
+      "signature": "byte[] getByteArray(long, int)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getCharSequence(java.nio.charset.Charset)",
+      "signature": "java.lang.CharSequence getCharSequence(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getFile()",
+      "signature": "java.io.File getFile()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getInputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream getInputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getOutputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.OutputStream getOutputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getPath()",
+      "signature": "java.nio.file.Path getPath()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getReader(java.nio.charset.Charset)",
+      "signature": "java.io.Reader getReader(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.io.Writer getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#size()",
+      "signature": "long size()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin#getByteArray()",
+      "signature": "byte[] getByteArray()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin#getInputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream getInputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin#getReader(java.nio.charset.Charset)",
+      "signature": "java.io.Reader getReader(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin#size()",
+      "signature": "long size()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin#getByteArray()",
+      "signature": "byte[] getByteArray()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin#getCharSequence(java.nio.charset.Charset)",
+      "signature": "java.lang.CharSequence getCharSequence(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin#getInputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream getInputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin#getReader(java.nio.charset.Charset)",
+      "signature": "java.io.Reader getReader(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin#size()",
+      "signature": "long size()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$FileOrigin#getByteArray(long, int)",
+      "signature": "byte[] getByteArray(long, int)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$FileOrigin#getFile()",
+      "signature": "java.io.File getFile()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$FileOrigin#getPath()",
+      "signature": "java.nio.file.Path getPath()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$InputStreamOrigin#getByteArray()",
+      "signature": "byte[] getByteArray()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$InputStreamOrigin#getInputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream getInputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$InputStreamOrigin#getReader(java.nio.charset.Charset)",
+      "signature": "java.io.Reader getReader(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$OutputStreamOrigin#getOutputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.OutputStream getOutputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$OutputStreamOrigin#getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.io.Writer getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$PathOrigin#getByteArray(long, int)",
+      "signature": "byte[] getByteArray(long, int)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$PathOrigin#getFile()",
+      "signature": "java.io.File getFile()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$PathOrigin#getPath()",
+      "signature": "java.nio.file.Path getPath()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin#getByteArray()",
+      "signature": "byte[] getByteArray()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin#getCharSequence(java.nio.charset.Charset)",
+      "signature": "java.lang.CharSequence getCharSequence(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin#getInputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream getInputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin#getReader(java.nio.charset.Charset)",
+      "signature": "java.io.Reader getReader(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$URIOrigin#getFile()",
+      "signature": "java.io.File getFile()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$URIOrigin#getPath()",
+      "signature": "java.nio.file.Path getPath()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$WriterOrigin#getOutputStream(java.nio.file.OpenOption...)",
+      "signature": "java.io.OutputStream getOutputStream(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOrigin$WriterOrigin#getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.io.Writer getWriter(java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setByteArray(byte[])",
+      "signature": "B setByteArray(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setCharSequence(java.lang.CharSequence)",
+      "signature": "B setCharSequence(java.lang.CharSequence)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setFile(java.io.File)",
+      "signature": "B setFile(java.io.File)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setFile(java.lang.String)",
+      "signature": "B setFile(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setInputStream(java.io.InputStream)",
+      "signature": "B setInputStream(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setOutputStream(java.io.OutputStream)",
+      "signature": "B setOutputStream(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setPath(java.lang.String)",
+      "signature": "B setPath(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setPath(java.nio.file.Path)",
+      "signature": "B setPath(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setReader(java.io.Reader)",
+      "signature": "B setReader(java.io.Reader)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setURI(java.net.URI)",
+      "signature": "B setURI(java.net.URI)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractOriginSupplier#setWriter(java.io.Writer)",
+      "signature": "B setWriter(java.io.Writer)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#getCharset()",
+      "signature": "java.nio.charset.Charset getCharset()"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#setBufferSize(int)",
+      "signature": "B setBufferSize(int)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#setBufferSize(java.lang.Integer)",
+      "signature": "B setBufferSize(java.lang.Integer)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#setCharset(java.lang.String)",
+      "signature": "B setCharset(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#setCharset(java.nio.charset.Charset)",
+      "signature": "B setCharset(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.build.AbstractStreamBuilder#setOpenOptions(java.nio.file.OpenOption...)",
+      "signature": "B setOpenOptions(java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.charset.CharsetDecoders#toCharsetDecoder(java.nio.charset.CharsetDecoder)",
+      "signature": "java.nio.charset.CharsetDecoder toCharsetDecoder(java.nio.charset.CharsetDecoder)"
+    },
+    {
+      "key": "org.apache.commons.io.charset.CharsetEncoders#toCharsetEncoder(java.nio.charset.CharsetEncoder)",
+      "signature": "java.nio.charset.CharsetEncoder toCharsetEncoder(java.nio.charset.CharsetEncoder)"
+    },
+    {
+      "key": "org.apache.commons.io.charset.CharsetEncoders#toCharsetEncoder(java.nio.charset.CharsetEncoder, java.util.function.Supplier<java.nio.charset.CharsetEncoder>)",
+      "signature": "java.nio.charset.CharsetEncoder toCharsetEncoder(java.nio.charset.CharsetEncoder, java.util.function.Supplier<java.nio.charset.CharsetEncoder>)"
+    },
+    {
+      "key": "org.apache.commons.io.file.Counters$NoopCounter#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#copy(java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption...)",
+      "signature": "long copy(java.io.InputStream, java.nio.file.Path, java.nio.file.CopyOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#copy(java.nio.file.Path, java.io.OutputStream)",
+      "signature": "long copy(java.nio.file.Path, java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#copy(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)",
+      "signature": "java.nio.file.Path copy(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createDirectories(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createDirectories(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createFile(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createFile(java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createLink(java.nio.file.Path, java.nio.file.Path)",
+      "signature": "java.nio.file.Path createLink(java.nio.file.Path, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createSymbolicLink(java.nio.file.Path, java.nio.file.Path, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createTempDirectory(java.lang.String, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createTempDirectory(java.lang.String, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createTempDirectory(java.nio.file.Path, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createTempDirectory(java.nio.file.Path, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createTempFile(java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createTempFile(java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#createTempFile(java.nio.file.Path, java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createTempFile(java.nio.file.Path, java.lang.String, java.lang.String, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#delete(java.nio.file.Path)",
+      "signature": "void delete(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#deleteIfExists(java.nio.file.Path)",
+      "signature": "boolean deleteIfExists(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#getAttribute(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)",
+      "signature": "java.lang.Object getAttribute(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#getFileStore(java.nio.file.Path)",
+      "signature": "java.nio.file.FileStore getFileStore(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#getLastModifiedTime(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedTime(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#getOwner(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.UserPrincipal getOwner(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#getPosixFilePermissions(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.util.Set<java.nio.file.attribute.PosixFilePermission> getPosixFilePermissions(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#isHidden(java.nio.file.Path)",
+      "signature": "boolean isHidden(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#isSameFile(java.nio.file.Path, java.nio.file.Path)",
+      "signature": "boolean isSameFile(java.nio.file.Path, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#lines(java.nio.file.Path)",
+      "signature": "java.util.stream.Stream<java.lang.String> lines(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#lines(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "java.util.stream.Stream<java.lang.String> lines(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#list(java.nio.file.Path)",
+      "signature": "java.util.stream.Stream<java.nio.file.Path> list(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#move(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)",
+      "signature": "java.nio.file.Path move(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newBufferedReader(java.nio.file.Path)",
+      "signature": "java.io.BufferedReader newBufferedReader(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newBufferedReader(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "java.io.BufferedReader newBufferedReader(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newBufferedWriter(java.nio.file.Path, java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.io.BufferedWriter newBufferedWriter(java.nio.file.Path, java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newBufferedWriter(java.nio.file.Path, java.nio.file.OpenOption...)",
+      "signature": "java.io.BufferedWriter newBufferedWriter(java.nio.file.Path, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newByteChannel(java.nio.file.Path, java.nio.file.OpenOption...)",
+      "signature": "java.nio.channels.SeekableByteChannel newByteChannel(java.nio.file.Path, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newByteChannel(java.nio.file.Path, java.util.Set<? extends java.nio.file.OpenOption>, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.channels.SeekableByteChannel newByteChannel(java.nio.file.Path, java.util.Set<? extends java.nio.file.OpenOption>, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newDirectoryStream(java.nio.file.Path)",
+      "signature": "java.nio.file.DirectoryStream<java.nio.file.Path> newDirectoryStream(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newDirectoryStream(java.nio.file.Path, java.lang.String)",
+      "signature": "java.nio.file.DirectoryStream<java.nio.file.Path> newDirectoryStream(java.nio.file.Path, java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newDirectoryStream(java.nio.file.Path, java.nio.file.DirectoryStream$Filter<? super java.nio.file.Path>)",
+      "signature": "java.nio.file.DirectoryStream<java.nio.file.Path> newDirectoryStream(java.nio.file.Path, java.nio.file.DirectoryStream$Filter<? super java.nio.file.Path>)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newInputStream(java.nio.file.Path, java.nio.file.OpenOption...)",
+      "signature": "java.io.InputStream newInputStream(java.nio.file.Path, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#newOutputStream(java.nio.file.Path, java.nio.file.OpenOption...)",
+      "signature": "java.io.OutputStream newOutputStream(java.nio.file.Path, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#probeContentType(java.nio.file.Path)",
+      "signature": "java.lang.String probeContentType(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readAllBytes(java.nio.file.Path)",
+      "signature": "byte[] readAllBytes(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readAllLines(java.nio.file.Path)",
+      "signature": "java.util.List<java.lang.String> readAllLines(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readAllLines(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "java.util.List<java.lang.String> readAllLines(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)",
+      "signature": "A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)",
+      "signature": "java.util.Map<java.lang.String, java.lang.Object> readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#readSymbolicLink(java.nio.file.Path)",
+      "signature": "java.nio.file.Path readSymbolicLink(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#setAttribute(java.nio.file.Path, java.lang.String, java.lang.Object, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.Path setAttribute(java.nio.file.Path, java.lang.String, java.lang.Object, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#setLastModifiedTime(java.nio.file.Path, java.nio.file.attribute.FileTime)",
+      "signature": "java.nio.file.Path setLastModifiedTime(java.nio.file.Path, java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#setOwner(java.nio.file.Path, java.nio.file.attribute.UserPrincipal)",
+      "signature": "java.nio.file.Path setOwner(java.nio.file.Path, java.nio.file.attribute.UserPrincipal)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#setPosixFilePermissions(java.nio.file.Path, java.util.Set<java.nio.file.attribute.PosixFilePermission>)",
+      "signature": "java.nio.file.Path setPosixFilePermissions(java.nio.file.Path, java.util.Set<java.nio.file.attribute.PosixFilePermission>)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#size(java.nio.file.Path)",
+      "signature": "long size(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#walk(java.nio.file.Path, int, java.nio.file.FileVisitOption...)",
+      "signature": "java.util.stream.Stream<java.nio.file.Path> walk(java.nio.file.Path, int, java.nio.file.FileVisitOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#walk(java.nio.file.Path, java.nio.file.FileVisitOption...)",
+      "signature": "java.util.stream.Stream<java.nio.file.Path> walk(java.nio.file.Path, java.nio.file.FileVisitOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#walkFileTree(java.nio.file.Path, java.nio.file.FileVisitor<? super java.nio.file.Path>)",
+      "signature": "java.nio.file.Path walkFileTree(java.nio.file.Path, java.nio.file.FileVisitor<? super java.nio.file.Path>)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#walkFileTree(java.nio.file.Path, java.util.Set<java.nio.file.FileVisitOption>, int, java.nio.file.FileVisitor<? super java.nio.file.Path>)",
+      "signature": "java.nio.file.Path walkFileTree(java.nio.file.Path, java.util.Set<java.nio.file.FileVisitOption>, int, java.nio.file.FileVisitor<? super java.nio.file.Path>)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#write(java.nio.file.Path, byte[], java.nio.file.OpenOption...)",
+      "signature": "java.nio.file.Path write(java.nio.file.Path, byte[], java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#write(java.nio.file.Path, java.lang.Iterable<? extends java.lang.CharSequence>, java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.nio.file.Path write(java.nio.file.Path, java.lang.Iterable<? extends java.lang.CharSequence>, java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.FilesUncheck#write(java.nio.file.Path, java.lang.Iterable<? extends java.lang.CharSequence>, java.nio.file.OpenOption...)",
+      "signature": "java.nio.file.Path write(java.nio.file.Path, java.lang.Iterable<? extends java.lang.CharSequence>, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#copy(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.file.Path, java.nio.file.CopyOption...)",
+      "signature": "long copy(org.apache.commons.io.function.IOSupplier<java.io.InputStream>, java.nio.file.Path, java.nio.file.CopyOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#createParentDirectories(java.nio.file.Path, java.nio.file.LinkOption, java.nio.file.attribute.FileAttribute<?>...)",
+      "signature": "java.nio.file.Path createParentDirectories(java.nio.file.Path, java.nio.file.LinkOption, java.nio.file.attribute.FileAttribute<?>...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#deleteOnExit(java.nio.file.Path)",
+      "signature": "void deleteOnExit(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getAclFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.AclFileAttributeView getAclFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getDosFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.DosFileAttributeView getDosFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getLastModifiedFileTime(java.io.File)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime(java.io.File)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getLastModifiedFileTime(java.net.URI)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime(java.net.URI)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getLastModifiedFileTime(java.net.URL)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime(java.net.URL)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getLastModifiedFileTime(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getLastModifiedFileTime(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getPosixFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.PosixFileAttributeView getPosixFileAttributeView(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#getTempDirectory()",
+      "signature": "java.nio.file.Path getTempDirectory()"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isNewer(java.nio.file.Path, java.nio.file.Path)",
+      "signature": "boolean isNewer(java.nio.file.Path, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isNewer(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)",
+      "signature": "boolean isNewer(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isNewer(java.nio.file.Path, java.time.Instant, java.nio.file.LinkOption...)",
+      "signature": "boolean isNewer(java.nio.file.Path, java.time.Instant, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isNewer(java.nio.file.Path, java.time.chrono.ChronoZonedDateTime<?>, java.nio.file.LinkOption...)",
+      "signature": "boolean isNewer(java.nio.file.Path, java.time.chrono.ChronoZonedDateTime<?>, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isOlder(java.nio.file.Path, java.nio.file.Path)",
+      "signature": "boolean isOlder(java.nio.file.Path, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isOlder(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)",
+      "signature": "boolean isOlder(java.nio.file.Path, java.nio.file.attribute.FileTime, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isOlder(java.nio.file.Path, java.time.Instant, java.nio.file.LinkOption...)",
+      "signature": "boolean isOlder(java.nio.file.Path, java.time.Instant, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isOlder(java.nio.file.Path, long, java.nio.file.LinkOption...)",
+      "signature": "boolean isOlder(java.nio.file.Path, long, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#isPosix(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "boolean isPosix(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#newOutputStream(java.nio.file.Path, boolean)",
+      "signature": "java.io.OutputStream newOutputStream(java.nio.file.Path, boolean)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#noFollowLinkOptionArray()",
+      "signature": "java.nio.file.LinkOption[] noFollowLinkOptionArray()"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)",
+      "signature": "A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readBasicFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.BasicFileAttributes readBasicFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readDosFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.DosFileAttributes readDosFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readOsFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.BasicFileAttributes readOsFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readPosixFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)",
+      "signature": "java.nio.file.attribute.PosixFileAttributes readPosixFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#readString(java.nio.file.Path, java.nio.charset.Charset)",
+      "signature": "java.lang.String readString(java.nio.file.Path, java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#setLastModifiedTime(java.nio.file.Path, java.nio.file.Path)",
+      "signature": "void setLastModifiedTime(java.nio.file.Path, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#sizeOf(java.nio.file.Path)",
+      "signature": "long sizeOf(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#sizeOfAsBigInteger(java.nio.file.Path)",
+      "signature": "java.math.BigInteger sizeOfAsBigInteger(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#sizeOfDirectory(java.nio.file.Path)",
+      "signature": "long sizeOfDirectory(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#sizeOfDirectoryAsBigInteger(java.nio.file.Path)",
+      "signature": "java.math.BigInteger sizeOfDirectoryAsBigInteger(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#touch(java.nio.file.Path)",
+      "signature": "java.nio.file.Path touch(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#waitFor(java.nio.file.Path, java.time.Duration, java.nio.file.LinkOption...)",
+      "signature": "boolean waitFor(java.nio.file.Path, java.time.Duration, java.nio.file.LinkOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.PathUtils#writeString(java.nio.file.Path, java.lang.CharSequence, java.nio.charset.Charset, java.nio.file.OpenOption...)",
+      "signature": "java.nio.file.Path writeString(java.nio.file.Path, java.lang.CharSequence, java.nio.charset.Charset, java.nio.file.OpenOption...)"
+    },
+    {
+      "key": "org.apache.commons.io.file.SimplePathVisitor#visitFileFailed(java.lang.Object, java.io.IOException)",
+      "signature": "java.nio.file.FileVisitResult visitFileFailed(java.lang.Object, java.io.IOException)"
+    },
+    {
+      "key": "org.apache.commons.io.file.SimplePathVisitor#visitFileFailed(java.nio.file.Path, java.io.IOException)",
+      "signature": "java.nio.file.FileVisitResult visitFileFailed(java.nio.file.Path, java.io.IOException)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#minusMillis(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime minusMillis(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#minusNanos(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime minusNanos(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#minusSeconds(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime minusSeconds(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#now()",
+      "signature": "java.nio.file.attribute.FileTime now()"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#ntfsTimeToDate(long)",
+      "signature": "java.util.Date ntfsTimeToDate(long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#ntfsTimeToFileTime(long)",
+      "signature": "java.nio.file.attribute.FileTime ntfsTimeToFileTime(long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#plusMillis(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime plusMillis(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#plusNanos(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime plusNanos(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#plusSeconds(java.nio.file.attribute.FileTime, long)",
+      "signature": "java.nio.file.attribute.FileTime plusSeconds(java.nio.file.attribute.FileTime, long)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#setLastModifiedTime(java.nio.file.Path)",
+      "signature": "void setLastModifiedTime(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#toDate(java.nio.file.attribute.FileTime)",
+      "signature": "java.util.Date toDate(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#toFileTime(java.util.Date)",
+      "signature": "java.nio.file.attribute.FileTime toFileTime(java.util.Date)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#toNtfsTime(java.nio.file.attribute.FileTime)",
+      "signature": "long toNtfsTime(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.file.attribute.FileTimes#toNtfsTime(java.util.Date)",
+      "signature": "long toNtfsTime(java.util.Date)"
+    },
+    {
+      "key": "org.apache.commons.io.filefilter.WildcardFileFilter$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#asBaseStream()",
+      "signature": "java.util.stream.BaseStream<T, B> asBaseStream()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#isParallel()",
+      "signature": "boolean isParallel()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#iterator()",
+      "signature": "org.apache.commons.io.function.IOIterator<T> iterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#onClose(org.apache.commons.io.function.IORunnable)",
+      "signature": "S onClose(org.apache.commons.io.function.IORunnable)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#parallel()",
+      "signature": "S parallel()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#sequential()",
+      "signature": "S sequential()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#spliterator()",
+      "signature": "org.apache.commons.io.function.IOSpliterator<T> spliterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#unordered()",
+      "signature": "S unordered()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#unwrap()",
+      "signature": "B unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStream#wrap(B)",
+      "signature": "S wrap(B)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()",
+      "signature": "B unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiConsumer#accept(T, U)",
+      "signature": "void accept(T, U)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiConsumer#andThen(org.apache.commons.io.function.IOBiConsumer<? super T, ? super U>)",
+      "signature": "org.apache.commons.io.function.IOBiConsumer<T, U> andThen(org.apache.commons.io.function.IOBiConsumer<? super T, ? super U>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiConsumer#asBiConsumer()",
+      "signature": "java.util.function.BiConsumer<T, U> asBiConsumer()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiConsumer#noop()",
+      "signature": "org.apache.commons.io.function.IOBiConsumer<T, U> noop()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends V>)",
+      "signature": "org.apache.commons.io.function.IOBiFunction<T, U, V> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends V>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiFunction#apply(T, U)",
+      "signature": "R apply(T, U)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBiFunction#asBiFunction()",
+      "signature": "java.util.function.BiFunction<T, U, R> asBiFunction()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBinaryOperator#asBinaryOperator()",
+      "signature": "java.util.function.BinaryOperator<T> asBinaryOperator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBinaryOperator#maxBy(org.apache.commons.io.function.IOComparator<? super T>)",
+      "signature": "org.apache.commons.io.function.IOBinaryOperator<T> maxBy(org.apache.commons.io.function.IOComparator<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOBinaryOperator#minBy(org.apache.commons.io.function.IOComparator<? super T>)",
+      "signature": "org.apache.commons.io.function.IOBinaryOperator<T> minBy(org.apache.commons.io.function.IOComparator<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOComparator#asComparator()",
+      "signature": "java.util.Comparator<T> asComparator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOComparator#compare(T, T)",
+      "signature": "int compare(T, T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#asConsumer()",
+      "signature": "java.util.function.Consumer<T> asConsumer()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, T...)",
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, T...)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, java.lang.Iterable<T>)",
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.lang.Iterable<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.stream.Stream<T>)",
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.stream.Stream<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forEach(T[], org.apache.commons.io.function.IOConsumer<T>)",
+      "signature": "void forEach(T[], org.apache.commons.io.function.IOConsumer<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forEach(java.lang.Iterable<T>, org.apache.commons.io.function.IOConsumer<T>)",
+      "signature": "void forEach(java.lang.Iterable<T>, org.apache.commons.io.function.IOConsumer<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOConsumer#forEach(java.util.stream.Stream<T>, org.apache.commons.io.function.IOConsumer<T>)",
+      "signature": "void forEach(java.util.stream.Stream<T>, org.apache.commons.io.function.IOConsumer<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOFunction#asFunction()",
+      "signature": "java.util.function.Function<T, R> asFunction()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#adapt(java.util.Iterator<E>)",
+      "signature": "org.apache.commons.io.function.IOIterator<E> adapt(java.util.Iterator<E>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#asIterator()",
+      "signature": "java.util.Iterator<E> asIterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#forEachRemaining(org.apache.commons.io.function.IOConsumer<? super E>)",
+      "signature": "void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super E>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#next()",
+      "signature": "E next()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#remove()",
+      "signature": "void remove()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIterator#unwrap()",
+      "signature": "java.util.Iterator<E> unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIteratorAdapter#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIteratorAdapter#next()",
+      "signature": "E next()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOIteratorAdapter#unwrap()",
+      "signature": "java.util.Iterator<E> unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#alwaysFalse()",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> alwaysFalse()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#alwaysTrue()",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> alwaysTrue()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#and(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> and(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#asPredicate()",
+      "signature": "java.util.function.Predicate<T> asPredicate()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#isEqual(java.lang.Object)",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> isEqual(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#negate()",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> negate()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#or(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "org.apache.commons.io.function.IOPredicate<T> or(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOPredicate#test(T)",
+      "signature": "boolean test(T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOQuadFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends X>)",
+      "signature": "org.apache.commons.io.function.IOQuadFunction<T, U, V, W, X> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends X>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOQuadFunction#apply(T, U, V, W)",
+      "signature": "R apply(T, U, V, W)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IORunnable#asRunnable()",
+      "signature": "java.lang.Runnable asRunnable()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IORunnable#run()",
+      "signature": "void run()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#adapt(java.util.Spliterator<E>)",
+      "signature": "org.apache.commons.io.function.IOSpliterator<E> adapt(java.util.Spliterator<E>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#asSpliterator()",
+      "signature": "java.util.Spliterator<T> asSpliterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#characteristics()",
+      "signature": "int characteristics()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#estimateSize()",
+      "signature": "long estimateSize()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#forEachRemaining(org.apache.commons.io.function.IOConsumer<? super T>)",
+      "signature": "void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#getComparator()",
+      "signature": "org.apache.commons.io.function.IOComparator<? super T> getComparator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#getExactSizeIfKnown()",
+      "signature": "long getExactSizeIfKnown()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#hasCharacteristics(int)",
+      "signature": "boolean hasCharacteristics(int)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#tryAdvance(org.apache.commons.io.function.IOConsumer<? super T>)",
+      "signature": "boolean tryAdvance(org.apache.commons.io.function.IOConsumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#trySplit()",
+      "signature": "org.apache.commons.io.function.IOSpliterator<T> trySplit()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliterator#unwrap()",
+      "signature": "java.util.Spliterator<T> unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSpliteratorAdapter#unwrap()",
+      "signature": "java.util.Spliterator<T> unwrap()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#adapt(java.util.stream.Stream<T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> adapt(java.util.stream.Stream<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#allMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "boolean allMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#anyMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "boolean anyMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#collect(java.util.stream.Collector<? super T, A, R>)",
+      "signature": "R collect(java.util.stream.Collector<? super T, A, R>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#collect(org.apache.commons.io.function.IOSupplier<R>, org.apache.commons.io.function.IOBiConsumer<R, ? super T>, org.apache.commons.io.function.IOBiConsumer<R, R>)",
+      "signature": "R collect(org.apache.commons.io.function.IOSupplier<R>, org.apache.commons.io.function.IOBiConsumer<R, ? super T>, org.apache.commons.io.function.IOBiConsumer<R, R>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#count()",
+      "signature": "long count()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#distinct()",
+      "signature": "org.apache.commons.io.function.IOStream<T> distinct()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#empty()",
+      "signature": "org.apache.commons.io.function.IOStream<T> empty()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#filter(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> filter(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#findAny()",
+      "signature": "java.util.Optional<T> findAny()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#findFirst()",
+      "signature": "java.util.Optional<T> findFirst()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#flatMap(org.apache.commons.io.function.IOFunction<? super T, ? extends org.apache.commons.io.function.IOStream<? extends R>>)",
+      "signature": "org.apache.commons.io.function.IOStream<R> flatMap(org.apache.commons.io.function.IOFunction<? super T, ? extends org.apache.commons.io.function.IOStream<? extends R>>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#flatMapToDouble(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.DoubleStream>)",
+      "signature": "java.util.stream.DoubleStream flatMapToDouble(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.DoubleStream>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#flatMapToInt(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.IntStream>)",
+      "signature": "java.util.stream.IntStream flatMapToInt(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.IntStream>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#flatMapToLong(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.LongStream>)",
+      "signature": "java.util.stream.LongStream flatMapToLong(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.LongStream>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#forAll(org.apache.commons.io.function.IOConsumer<T>)",
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.function.BiFunction<java.lang.Integer, java.io.IOException, java.io.IOException>)",
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.function.BiFunction<java.lang.Integer, java.io.IOException, java.io.IOException>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#forEach(org.apache.commons.io.function.IOConsumer<? super T>)",
+      "signature": "void forEach(org.apache.commons.io.function.IOConsumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#forEachOrdered(org.apache.commons.io.function.IOConsumer<? super T>)",
+      "signature": "void forEachOrdered(org.apache.commons.io.function.IOConsumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#iterate(T, org.apache.commons.io.function.IOUnaryOperator<T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> iterate(T, org.apache.commons.io.function.IOUnaryOperator<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#limit(long)",
+      "signature": "org.apache.commons.io.function.IOStream<T> limit(long)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#map(org.apache.commons.io.function.IOFunction<? super T, ? extends R>)",
+      "signature": "org.apache.commons.io.function.IOStream<R> map(org.apache.commons.io.function.IOFunction<? super T, ? extends R>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#mapToDouble(java.util.function.ToDoubleFunction<? super T>)",
+      "signature": "java.util.stream.DoubleStream mapToDouble(java.util.function.ToDoubleFunction<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#mapToInt(java.util.function.ToIntFunction<? super T>)",
+      "signature": "java.util.stream.IntStream mapToInt(java.util.function.ToIntFunction<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#mapToLong(java.util.function.ToLongFunction<? super T>)",
+      "signature": "java.util.stream.LongStream mapToLong(java.util.function.ToLongFunction<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#max(org.apache.commons.io.function.IOComparator<? super T>)",
+      "signature": "java.util.Optional<T> max(org.apache.commons.io.function.IOComparator<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#min(org.apache.commons.io.function.IOComparator<? super T>)",
+      "signature": "java.util.Optional<T> min(org.apache.commons.io.function.IOComparator<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#noneMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
+      "signature": "boolean noneMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#of(T)",
+      "signature": "org.apache.commons.io.function.IOStream<T> of(T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#of(T...)",
+      "signature": "org.apache.commons.io.function.IOStream<T> of(T...)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#of(java.lang.Iterable<T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> of(java.lang.Iterable<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#peek(org.apache.commons.io.function.IOConsumer<? super T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> peek(org.apache.commons.io.function.IOConsumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#reduce(T, org.apache.commons.io.function.IOBinaryOperator<T>)",
+      "signature": "T reduce(T, org.apache.commons.io.function.IOBinaryOperator<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#reduce(U, org.apache.commons.io.function.IOBiFunction<U, ? super T, U>, org.apache.commons.io.function.IOBinaryOperator<U>)",
+      "signature": "U reduce(U, org.apache.commons.io.function.IOBiFunction<U, ? super T, U>, org.apache.commons.io.function.IOBinaryOperator<U>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#reduce(org.apache.commons.io.function.IOBinaryOperator<T>)",
+      "signature": "java.util.Optional<T> reduce(org.apache.commons.io.function.IOBinaryOperator<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#skip(long)",
+      "signature": "org.apache.commons.io.function.IOStream<T> skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#sorted()",
+      "signature": "org.apache.commons.io.function.IOStream<T> sorted()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#sorted(org.apache.commons.io.function.IOComparator<? super T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> sorted(org.apache.commons.io.function.IOComparator<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#toArray()",
+      "signature": "java.lang.Object[] toArray()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStream#toArray(java.util.function.IntFunction<A[]>)",
+      "signature": "A[] toArray(java.util.function.IntFunction<A[]>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStreamAdapter#wrap(java.util.stream.BaseStream)",
+      "signature": "org.apache.commons.io.function.IOBaseStream wrap(java.util.stream.BaseStream)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOStreamAdapter#wrap(java.util.stream.Stream<T>)",
+      "signature": "org.apache.commons.io.function.IOStream<T> wrap(java.util.stream.Stream<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOSupplier#asSupplier()",
+      "signature": "java.util.function.Supplier<T> asSupplier()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOTriConsumer#accept(T, U, V)",
+      "signature": "void accept(T, U, V)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOTriConsumer#andThen(org.apache.commons.io.function.IOTriConsumer<? super T, ? super U, ? super V>)",
+      "signature": "org.apache.commons.io.function.IOTriConsumer<T, U, V> andThen(org.apache.commons.io.function.IOTriConsumer<? super T, ? super U, ? super V>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOTriConsumer#noop()",
+      "signature": "org.apache.commons.io.function.IOTriConsumer<T, U, V> noop()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOTriFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends W>)",
+      "signature": "org.apache.commons.io.function.IOTriFunction<T, U, V, W> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends W>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOTriFunction#apply(T, U, V)",
+      "signature": "R apply(T, U, V)"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOUnaryOperator#asUnaryOperator()",
+      "signature": "java.util.function.UnaryOperator<T> asUnaryOperator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.IOUnaryOperator#identity()",
+      "signature": "org.apache.commons.io.function.IOUnaryOperator<T> identity()"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOBiConsumer<T, U>, T, U)",
+      "signature": "void accept(org.apache.commons.io.function.IOBiConsumer<T, U>, T, U)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOConsumer<T>, T)",
+      "signature": "void accept(org.apache.commons.io.function.IOConsumer<T>, T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOTriConsumer<T, U, V>, T, U, V)",
+      "signature": "void accept(org.apache.commons.io.function.IOTriConsumer<T, U, V>, T, U, V)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOBiFunction<T, U, R>, T, U)",
+      "signature": "R apply(org.apache.commons.io.function.IOBiFunction<T, U, R>, T, U)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOFunction<T, R>, T)",
+      "signature": "R apply(org.apache.commons.io.function.IOFunction<T, R>, T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOQuadFunction<T, U, V, W, R>, T, U, V, W)",
+      "signature": "R apply(org.apache.commons.io.function.IOQuadFunction<T, U, V, W, R>, T, U, V, W)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOTriFunction<T, U, V, R>, T, U, V)",
+      "signature": "R apply(org.apache.commons.io.function.IOTriFunction<T, U, V, R>, T, U, V)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#compare(org.apache.commons.io.function.IOComparator<T>, T, T)",
+      "signature": "int compare(org.apache.commons.io.function.IOComparator<T>, T, T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#get(org.apache.commons.io.function.IOSupplier<T>)",
+      "signature": "T get(org.apache.commons.io.function.IOSupplier<T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#run(org.apache.commons.io.function.IORunnable)",
+      "signature": "void run(org.apache.commons.io.function.IORunnable)"
+    },
+    {
+      "key": "org.apache.commons.io.function.Uncheck#test(org.apache.commons.io.function.IOPredicate<T>, T)",
+      "signature": "boolean test(org.apache.commons.io.function.IOPredicate<T>, T)"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#isParallel()",
+      "signature": "boolean isParallel()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#iterator()",
+      "signature": "java.util.Iterator<T> iterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#onClose(java.lang.Runnable)",
+      "signature": "B onClose(java.lang.Runnable)"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#parallel()",
+      "signature": "B parallel()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#sequential()",
+      "signature": "B sequential()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#spliterator()",
+      "signature": "java.util.Spliterator<T> spliterator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOBaseStream#unordered()",
+      "signature": "B unordered()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOIterator#next()",
+      "signature": "E next()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOIterator#remove()",
+      "signature": "void remove()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#characteristics()",
+      "signature": "int characteristics()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#estimateSize()",
+      "signature": "long estimateSize()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#forEachRemaining(java.util.function.Consumer<? super T>)",
+      "signature": "void forEachRemaining(java.util.function.Consumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#getComparator()",
+      "signature": "java.util.Comparator<? super T> getComparator()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#getExactSizeIfKnown()",
+      "signature": "long getExactSizeIfKnown()"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#hasCharacteristics(int)",
+      "signature": "boolean hasCharacteristics(int)"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#tryAdvance(java.util.function.Consumer<? super T>)",
+      "signature": "boolean tryAdvance(java.util.function.Consumer<? super T>)"
+    },
+    {
+      "key": "org.apache.commons.io.function.UncheckedIOSpliterator#trySplit()",
+      "signature": "java.util.Spliterator<T> trySplit()"
+    },
+    {
+      "key": "org.apache.commons.io.input.AutoCloseInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.BOMInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.BoundedInputStream#getCount()",
+      "signature": "long getCount()"
+    },
+    {
+      "key": "org.apache.commons.io.input.BoundedInputStream#getMaxLength()",
+      "signature": "long getMaxLength()"
+    },
+    {
+      "key": "org.apache.commons.io.input.BufferedFileChannelInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.ByteBufferCleaner$Cleaner#clean(java.nio.ByteBuffer)",
+      "signature": "void clean(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.commons.io.input.ByteBufferCleaner$Java8Cleaner#clean(java.nio.ByteBuffer)",
+      "signature": "void clean(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.commons.io.input.ByteBufferCleaner$Java9Cleaner#clean(java.nio.ByteBuffer)",
+      "signature": "void clean(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.commons.io.input.CharSequenceInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.CharSequenceInputStream$Builder#setCharset(java.nio.charset.Charset)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.MemoryMappedFileInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.MessageDigestCalculatingInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.MessageDigestCalculatingInputStream$Builder#setMessageDigest(java.lang.String)",
+      "signature": "void setMessageDigest(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.input.MessageDigestCalculatingInputStream$Builder#setMessageDigest(java.security.MessageDigest)",
+      "signature": "void setMessageDigest(java.security.MessageDigest)"
+    },
+    {
+      "key": "org.apache.commons.io.input.QueueInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.RandomAccessFileInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.ReadAheadInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.ReaderInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.ReaderInputStream$Builder#setCharset(java.nio.charset.Charset)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.input.ReversedLinesFileReader$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer#getDelayDuration()",
+      "signature": "java.time.Duration getDelayDuration()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessFileBridge#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessFileBridge#getPointer()",
+      "signature": "long getPointer()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessFileBridge#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessFileBridge#seek(long)",
+      "signature": "void seek(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#getPointer()",
+      "signature": "long getPointer()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#seek(long)",
+      "signature": "void seek(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$Tailable#isNewer(java.nio.file.attribute.FileTime)",
+      "signature": "boolean isNewer(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$Tailable#lastModifiedFileTime()",
+      "signature": "java.nio.file.attribute.FileTime lastModifiedFileTime()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$Tailable#size()",
+      "signature": "long size()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$TailablePath#isNewer(java.nio.file.attribute.FileTime)",
+      "signature": "boolean isNewer(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$TailablePath#lastModifiedFileTime()",
+      "signature": "java.nio.file.attribute.FileTime lastModifiedFileTime()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$TailablePath#size()",
+      "signature": "long size()"
+    },
+    {
+      "key": "org.apache.commons.io.input.Tailer$TailablePath#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.input.TimestampedObserver#isClosed()",
+      "signature": "boolean isClosed()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#mark(int)",
+      "signature": "void mark(int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#read(char[])",
+      "signature": "int read(char[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#read(char[], int, int)",
+      "signature": "int read(char[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#read(java.nio.CharBuffer)",
+      "signature": "int read(java.nio.CharBuffer)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#readLine()",
+      "signature": "java.lang.String readLine()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#ready()",
+      "signature": "boolean ready()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedBufferedReader$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#mark(int)",
+      "signature": "void mark(int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#read(char[])",
+      "signature": "int read(char[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#read(char[], int, int)",
+      "signature": "int read(char[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#read(java.nio.CharBuffer)",
+      "signature": "int read(java.nio.CharBuffer)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#ready()",
+      "signature": "boolean ready()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UncheckedFilterReader$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#mark(int)",
+      "signature": "void mark(int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#markSupported()",
+      "signature": "boolean markSupported()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedBufferedInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder#setByteArray(byte[])",
+      "signature": "org.apache.commons.io.build.AbstractOriginSupplier setByteArray(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#mark(int)",
+      "signature": "void mark(int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#markSupported()",
+      "signature": "boolean markSupported()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.commons.io.input.UnsynchronizedFilterInputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.XmlStreamReader$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.input.XmlStreamReader$Builder#setCharset(java.lang.String)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.input.XmlStreamReader$Builder#setCharset(java.nio.charset.Charset)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.FileEntry#getLastModifiedFileTime()",
+      "signature": "java.nio.file.attribute.FileTime getLastModifiedFileTime()"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.FileEntry#setLastModified(java.nio.file.attribute.FileTime)",
+      "signature": "void setLastModified(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.SerializableFileTime#compareTo(java.nio.file.attribute.FileTime)",
+      "signature": "int compareTo(java.nio.file.attribute.FileTime)"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.SerializableFileTime#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.SerializableFileTime#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.commons.io.monitor.SerializableFileTime#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.output.ChunkedOutputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.DeferredFileOutputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.FileWriterWithEncoding$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.LockableFileWriter$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendable#append(char)",
+      "signature": "java.lang.Appendable append(char)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendable#append(java.lang.CharSequence)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendable#append(java.lang.CharSequence, int, int)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence, int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendable#on(java.lang.Appendable)",
+      "signature": "org.apache.commons.io.output.UncheckedAppendable on(java.lang.Appendable)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendableImpl#append(char)",
+      "signature": "java.lang.Appendable append(char)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendableImpl#append(java.lang.CharSequence)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendableImpl#append(java.lang.CharSequence, int, int)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence, int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedAppendableImpl#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream#write(byte[])",
+      "signature": "void write(byte[])"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream#write(byte[], int, int)",
+      "signature": "void write(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterOutputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#append(char)",
+      "signature": "java.lang.Appendable append(char)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#append(java.lang.CharSequence)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#append(java.lang.CharSequence, int, int)",
+      "signature": "java.lang.Appendable append(java.lang.CharSequence, int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#write(char[])",
+      "signature": "void write(char[])"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#write(char[], int, int)",
+      "signature": "void write(char[], int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#write(java.lang.String)",
+      "signature": "void write(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter#write(java.lang.String, int, int)",
+      "signature": "void write(java.lang.String, int, int)"
+    },
+    {
+      "key": "org.apache.commons.io.output.UncheckedFilterWriter$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.WriterOutputStream$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.io.output.WriterOutputStream$Builder#setCharset(java.lang.String)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.io.output.WriterOutputStream$Builder#setCharset(java.nio.charset.Charset)",
+      "signature": "org.apache.commons.io.build.AbstractStreamBuilder setCharset(java.nio.charset.Charset)"
+    },
+    {
+      "key": "org.apache.commons.io.output.XmlStreamWriter$Builder#get()",
+      "signature": "java.lang.Object get()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 1275,
+    "new_methods": 1801,
+    "removed": 8,
+    "added": 534,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 110
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.commons.io.CloseableURLConnection",
+    "org.apache.commons.io.IO",
+    "org.apache.commons.io.RandomAccessFileMode",
+    "org.apache.commons.io.RandomAccessFiles",
+    "org.apache.commons.io.ThreadUtils",
+    "org.apache.commons.io.UncheckedIOExceptions",
+    "org.apache.commons.io.build.AbstractOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$FileOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$InputStreamOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$OutputStreamOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$PathOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$URIOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$WriterOrigin",
+    "org.apache.commons.io.build.AbstractOriginSupplier",
+    "org.apache.commons.io.build.AbstractStreamBuilder",
+    "org.apache.commons.io.build.AbstractSupplier",
+    "org.apache.commons.io.build.package",
+    "org.apache.commons.io.charset.CharsetDecoders",
+    "org.apache.commons.io.charset.CharsetEncoders",
+    "org.apache.commons.io.charset.package",
+    "org.apache.commons.io.comparator.package",
+    "org.apache.commons.io.file.FilesUncheck",
+    "org.apache.commons.io.file.attribute.FileTimes",
+    "org.apache.commons.io.file.attribute.package",
+    "org.apache.commons.io.file.package",
+    "org.apache.commons.io.file.spi.package",
+    "org.apache.commons.io.filefilter.WildcardFileFilter$Builder",
+    "org.apache.commons.io.filefilter.package",
+    "org.apache.commons.io.function.Constants",
+    "org.apache.commons.io.function.Erase",
+    "org.apache.commons.io.function.IOBaseStream",
+    "org.apache.commons.io.function.IOBaseStreamAdapter",
+    "org.apache.commons.io.function.IOBiConsumer",
+    "org.apache.commons.io.function.IOBiFunction",
+    "org.apache.commons.io.function.IOBinaryOperator",
+    "org.apache.commons.io.function.IOComparator",
+    "org.apache.commons.io.function.IOIterator",
+    "org.apache.commons.io.function.IOIteratorAdapter",
+    "org.apache.commons.io.function.IOPredicate",
+    "org.apache.commons.io.function.IOQuadFunction",
+    "org.apache.commons.io.function.IORunnable",
+    "org.apache.commons.io.function.IOSpliterator",
+    "org.apache.commons.io.function.IOSpliteratorAdapter",
+    "org.apache.commons.io.function.IOStream",
+    "org.apache.commons.io.function.IOStreamAdapter",
+    "org.apache.commons.io.function.IOStreams",
+    "org.apache.commons.io.function.IOTriConsumer",
+    "org.apache.commons.io.function.IOTriFunction",
+    "org.apache.commons.io.function.IOUnaryOperator",
+    "org.apache.commons.io.function.Uncheck",
+    "org.apache.commons.io.function.UncheckedIOBaseStream",
+    "org.apache.commons.io.function.UncheckedIOIterator",
+    "org.apache.commons.io.function.UncheckedIOSpliterator",
+    "org.apache.commons.io.function.package",
+    "org.apache.commons.io.input.AutoCloseInputStream$Builder",
+    "org.apache.commons.io.input.BOMInputStream$Builder",
+    "org.apache.commons.io.input.BufferedFileChannelInputStream$Builder",
+    "org.apache.commons.io.input.ByteBufferCleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Cleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Java8Cleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Java9Cleaner",
+    "org.apache.commons.io.input.CharSequenceInputStream$Builder",
+    "org.apache.commons.io.input.MemoryMappedFileInputStream",
+    "org.apache.commons.io.input.MemoryMappedFileInputStream$Builder",
+    "org.apache.commons.io.input.MessageDigestCalculatingInputStream$Builder",
+    "org.apache.commons.io.input.QueueInputStream$Builder",
+    "org.apache.commons.io.input.RandomAccessFileInputStream$Builder",
+    "org.apache.commons.io.input.ReadAheadInputStream$Builder",
+    "org.apache.commons.io.input.ReaderInputStream$Builder",
+    "org.apache.commons.io.input.ReversedLinesFileReader$Builder",
+    "org.apache.commons.io.input.Tailer$Builder",
+    "org.apache.commons.io.input.Tailer$RandomAccessFileBridge",
+    "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge",
+    "org.apache.commons.io.input.Tailer$Tailable",
+    "org.apache.commons.io.input.Tailer$TailablePath",
+    "org.apache.commons.io.input.UncheckedBufferedReader",
+    "org.apache.commons.io.input.UncheckedBufferedReader$Builder",
+    "org.apache.commons.io.input.UncheckedFilterInputStream",
+    "org.apache.commons.io.input.UncheckedFilterInputStream$Builder",
+    "org.apache.commons.io.input.UncheckedFilterReader",
+    "org.apache.commons.io.input.UncheckedFilterReader$Builder",
+    "org.apache.commons.io.input.UnsynchronizedBufferedInputStream",
+    "org.apache.commons.io.input.UnsynchronizedBufferedInputStream$Builder",
+    "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder",
+    "org.apache.commons.io.input.UnsynchronizedFilterInputStream",
+    "org.apache.commons.io.input.UnsynchronizedFilterInputStream$Builder",
+    "org.apache.commons.io.input.XmlStreamReader$Builder",
+    "org.apache.commons.io.input.buffer.package",
+    "org.apache.commons.io.input.package",
+    "org.apache.commons.io.monitor.SerializableFileTime",
+    "org.apache.commons.io.monitor.package",
+    "org.apache.commons.io.output.ChunkedOutputStream$Builder",
+    "org.apache.commons.io.output.DeferredFileOutputStream$Builder",
+    "org.apache.commons.io.output.FileWriterWithEncoding$Builder",
+    "org.apache.commons.io.output.LockableFileWriter$Builder",
+    "org.apache.commons.io.output.UncheckedAppendable",
+    "org.apache.commons.io.output.UncheckedAppendableImpl",
+    "org.apache.commons.io.output.UncheckedFilterOutputStream",
+    "org.apache.commons.io.output.UncheckedFilterOutputStream$Builder",
+    "org.apache.commons.io.output.UncheckedFilterWriter",
+    "org.apache.commons.io.output.UncheckedFilterWriter$Builder",
+    "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder",
+    "org.apache.commons.io.output.WriterOutputStream$Builder",
+    "org.apache.commons.io.output.XmlStreamWriter$Builder",
+    "org.apache.commons.io.output.package",
+    "org.apache.commons.io.package",
+    "org.apache.commons.io.serialization.package"
+  ],
+  "old_jar": "jar_cache/commons-io_commons-io_2.11.0.jar",
+  "new_jar": "jar_cache/commons-io_commons-io_2.13.0.jar",
+  "group_id": "commons-io",
+  "artifact_id": "commons-io",
+  "old_version": "2.11.0",
+  "new_version": "2.13.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.junit-pioneer:junit-pioneer",
+          "old": "1.4.2",
+          "new": "1.9.1"
+        },
+        {
+          "dependency": "org.mockito:mockito-inline",
+          "old": "3.11.2",
+          "new": "4.11.0"
+        },
+        {
+          "dependency": "org.openjdk.jmh:jmh-core",
+          "old": "1.32",
+          "new": "1.36"
+        },
+        {
+          "dependency": "org.openjdk.jmh:jmh-generator-annprocess",
+          "old": "1.32",
+          "new": "1.36"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [
+        "org.junit:junit-bom"
+      ],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jcabi-maven-plugin"
+  ]
+}

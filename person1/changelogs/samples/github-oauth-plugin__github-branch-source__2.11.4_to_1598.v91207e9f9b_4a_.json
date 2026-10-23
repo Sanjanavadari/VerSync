@@ -1,0 +1,29 @@
+{
+  "project": "github-oauth-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/jenkinsci/github-oauth-plugin/pull/169",
+  "dependency": "org.jenkins-ci.plugins:github-branch-source",
+  "old_version": "2.11.4",
+  "new_version": "1598.v91207e9f9b_4a_",
+  "source_repo": "jenkinsci/github-branch-source-plugin",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "github-branch-source-2.11.5",
+    "1577.v83564088883f",
+    "1583.v18d333ef7379"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/jenkinsci/github-branch-source-plugin/compare/2.11.4...1598.v91207e9f9b_4a_",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from github-branch-source's releases.\n\n1598.v91207e9f9b_4a_\n\n🚀 New features and improvements\n\nFix ignore drafts trait for only github sources (#458) @​cwholmes\n\n🐛 Bug fixes\n\nDon't persist topics twice (#529) @​timja\n\n📦 Dependency updates\n\nBump spotless-maven-plugin from 2.20.2 to 2.21.0 (#510) @​dependabot\n\nBump github from 1.34.1 to 1.34.3 (#522) @​dependabot\n\n👻 Maintenance\n\nAdding .git-blame-ignore-revs (#528) @​jglick\n\n1583.v18d333ef7379\n\nExchange PNG scm navigator icon with SVG  (#515) @​NotMyFault\n\n🐛 Bug fixes\n\nJENKINS-67918 - Prevent Potential NPE. (#519) @​jtnord\n\n1577.v83564088883f\n\n👻 Maintenance\n\nfix dependabot indentation (#517) @​car-roll\n\nenable cd (#493) @​car-roll\n\nv2.11.5\n\nUpdate log recorder API (test only) (#485) @​timja\n\n🐛 Bug fixes\n\nJENKINS-67597 - repo search topic: set page size (#503) @​jetersen\n\n📦 Dependency updates\n\nBump git-changelist-maven-extension from 1.2 to 1.3 (#498) @​dependabot\n\nBump wiremock-jre8-standalone from 2.31.0 to 2.32.0 (#488) @​dependabot\n\nBump spotless-maven-plugin from 2.17.3 to 2.20.2 (#505) @​dependabot\n\nEOL JSR 305 (#494) @​basil\n\nBump bom-2.289.x from 987.v4ade2e49fe70 to 1090.v0a_33df40457a_ (#497) @​dependabot",
+    "pr_body_commits": "See full diff in compare view",
+    "release_notes": "## github-branch-source-2.11.5\n* Update log recorder API (test only) (#485) @timja\r\n\r\n## 🐛 Bug fixes\r\n\r\n* [JENKINS-67597](https://issues.jenkins.io/browse/JENKINS-67597) - repo search topic: set page size (#503) @jetersen\r\n\r\n## 📦 Dependency updates\r\n\r\n* Bump git-changelist-maven-extension from 1.2 to 1.3 (#498) @dependabot\r\n* Bump wiremock-jre8-standalone from 2.31.0 to 2.32.0 (#488) @dependabot\r\n* Bump spotless-maven-plugin from 2.17.3 to 2.20.2 (#505) @dependabot\r\n* EOL JSR 305 (#494) @basil\r\n* Bump bom-2.289.x from 987.v4ade2e49fe70 to 1090.v0a_33df40457a_ (#497) @dependabot\n\n## 1577.v83564088883f\n## 👻 Maintenance\r\n\r\n* fix dependabot indentation (#517) @car-roll\r\n* enable cd (#493) @car-roll\n\n## 1583.v18d333ef7379\n* Exchange PNG scm navigator icon with SVG  (#515) @NotMyFault\n\n## 🐛 Bug fixes\n\n* [JENKINS-67918](https://issues.jenkins.io/browse/JENKINS-67918) - Prevent Potential NPE. (#519) @jtnord"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

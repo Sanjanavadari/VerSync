@@ -1,0 +1,3115 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.poi.ooxml.POIXMLDocument#getAllEmbedds()",
+      "signature": "java.util.List<org.apache.poi.openxml4j.opc.PackagePart> getAllEmbedds()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.POIXMLDocumentPart#isCommited()",
+      "signature": "boolean isCommited()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.POIXMLDocumentPart#setCommited(boolean)",
+      "signature": "void setCommited(boolean)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(java.io.File)",
+      "signature": "T createExtractor(java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(java.io.InputStream)",
+      "signature": "org.apache.poi.extractor.POITextExtractor createExtractor(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "signature": "org.apache.poi.extractor.POITextExtractor createExtractor(org.apache.poi.openxml4j.opc.OPCPackage)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(org.apache.poi.poifs.filesystem.DirectoryNode)",
+      "signature": "T createExtractor(org.apache.poi.poifs.filesystem.DirectoryNode)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(org.apache.poi.poifs.filesystem.POIFSFileSystem)",
+      "signature": "T createExtractor(org.apache.poi.poifs.filesystem.POIFSFileSystem)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getAllThreadsPreferEventExtractors()",
+      "signature": "java.lang.Boolean getAllThreadsPreferEventExtractors()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbeddedDocsTextExtractors(org.apache.poi.extractor.POIOLE2TextExtractor)",
+      "signature": "org.apache.poi.extractor.POITextExtractor[] getEmbeddedDocsTextExtractors(org.apache.poi.extractor.POIOLE2TextExtractor)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbeddedDocsTextExtractors(org.apache.poi.ooxml.extractor.POIXMLTextExtractor)",
+      "signature": "org.apache.poi.extractor.POITextExtractor[] getEmbeddedDocsTextExtractors(org.apache.poi.ooxml.extractor.POIXMLTextExtractor)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbededDocsTextExtractors(org.apache.poi.extractor.POIOLE2TextExtractor)",
+      "signature": "org.apache.poi.extractor.POITextExtractor[] getEmbededDocsTextExtractors(org.apache.poi.extractor.POIOLE2TextExtractor)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getEmbededDocsTextExtractors(org.apache.poi.ooxml.extractor.POIXMLTextExtractor)",
+      "signature": "org.apache.poi.extractor.POITextExtractor[] getEmbededDocsTextExtractors(org.apache.poi.ooxml.extractor.POIXMLTextExtractor)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getPreferEventExtractor()",
+      "signature": "boolean getPreferEventExtractor()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getThreadPrefersEventExtractors()",
+      "signature": "boolean getThreadPrefersEventExtractors()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#setAllThreadsPreferEventExtractors(java.lang.Boolean)",
+      "signature": "void setAllThreadsPreferEventExtractors(java.lang.Boolean)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#setThreadPrefersEventExtractors(boolean)",
+      "signature": "void setThreadPrefersEventExtractors(boolean)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.Nullable#getValue()",
+      "signature": "E getValue()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.Nullable#hasValue()",
+      "signature": "boolean hasValue()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.Nullable#nullify()",
+      "signature": "void nullify()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileDecryptor#copy()",
+      "signature": "org.apache.poi.poifs.crypt.Decryptor copy()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileDecryptor#getDataStream(org.apache.poi.poifs.filesystem.DirectoryNode)",
+      "signature": "java.io.InputStream getDataStream(org.apache.poi.poifs.filesystem.DirectoryNode)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileDecryptor#getLength()",
+      "signature": "long getLength()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileDecryptor#verifyPassword(java.lang.String)",
+      "signature": "boolean verifyPassword(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileDecryptor#verifyPassword(java.security.KeyPair, java.security.cert.X509Certificate)",
+      "signature": "boolean verifyPassword(java.security.KeyPair, java.security.cert.X509Certificate)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader#copy()",
+      "signature": "org.apache.poi.common.Duplicatable copy()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader#getEncryptedHmacKey()",
+      "signature": "byte[] getEncryptedHmacKey()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader#getEncryptedHmacValue()",
+      "signature": "byte[] getEncryptedHmacValue()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader#getGenericProperties()",
+      "signature": "java.util.Map<java.lang.String, java.util.function.Supplier<?>> getGenericProperties()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionInfoBuilder#initialize(org.apache.poi.poifs.crypt.EncryptionInfo, org.apache.poi.poifs.crypt.CipherAlgorithm, org.apache.poi.poifs.crypt.HashAlgorithm, int, int, org.apache.poi.poifs.crypt.ChainingMode)",
+      "signature": "void initialize(org.apache.poi.poifs.crypt.EncryptionInfo, org.apache.poi.poifs.crypt.CipherAlgorithm, org.apache.poi.poifs.crypt.HashAlgorithm, int, int, org.apache.poi.poifs.crypt.ChainingMode)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionInfoBuilder#initialize(org.apache.poi.poifs.crypt.EncryptionInfo, org.apache.poi.util.LittleEndianInput)",
+      "signature": "void initialize(org.apache.poi.poifs.crypt.EncryptionInfo, org.apache.poi.util.LittleEndianInput)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#addCertificate(java.security.cert.X509Certificate)",
+      "signature": "void addCertificate(java.security.cert.X509Certificate)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#copy()",
+      "signature": "org.apache.poi.common.Duplicatable copy()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#getBlockSize()",
+      "signature": "int getBlockSize()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier#getKeySize()",
+      "signature": "int getKeySize()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptor#confirmPassword(java.lang.String)",
+      "signature": "void confirmPassword(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptor#confirmPassword(java.lang.String, byte[], byte[], byte[], byte[], byte[])",
+      "signature": "void confirmPassword(java.lang.String, byte[], byte[], byte[], byte[], byte[])"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptor#copy()",
+      "signature": "org.apache.poi.poifs.crypt.Encryptor copy()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.agile.AgileEncryptor#getDataStream(org.apache.poi.poifs.filesystem.DirectoryNode)",
+      "signature": "java.io.OutputStream getDataStream(org.apache.poi.poifs.filesystem.DirectoryNode)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.OOXMLURIDereferencer#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig$SignatureConfigurable#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleEvent(org.w3c.dom.events.Event)",
+      "signature": "void handleEvent(org.w3c.dom.events.Event)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#setEventTarget(org.w3c.dom.events.EventTarget)",
+      "signature": "void setEventTarget(org.w3c.dom.events.EventTarget)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#setListener(org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener, boolean)",
+      "signature": "void setListener(org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener, boolean)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#newReference(java.lang.String, java.util.List<javax.xml.crypto.dsig.Transform>, java.lang.String, java.lang.String, byte[], org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "javax.xml.crypto.dsig.Reference newReference(java.lang.String, java.util.List<javax.xml.crypto.dsig.Transform>, java.lang.String, java.lang.String, byte[], org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.facets.XAdESXLSignatureFacet#getC14nValue(java.util.List<org.w3c.dom.Node>, java.lang.String)",
+      "signature": "byte[] getC14nValue(java.util.List<org.w3c.dom.Node>, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFCategoryDataSource#getDataRangeReference()",
+      "signature": "java.lang.String getDataRangeReference()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$NumericalArrayDataSource#getFormula()",
+      "signature": "java.lang.String getFormula()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$NumericalCellRangeDataSource#getFormula()",
+      "signature": "java.lang.String getFormula()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$StringArrayDataSource#getFormula()",
+      "signature": "java.lang.String getFormula()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$StringCellRangeDataSource#getFormula()",
+      "signature": "java.lang.String getFormula()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFNumericalDataSource#fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)",
+      "signature": "void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFNumericalDataSource#getFormatCode()",
+      "signature": "java.lang.String getFormatCode()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.CombinedIterable#iterator()",
+      "signature": "java.util.Iterator<T> iterator()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.geometry.GeometryRowFactory#load(com.microsoft.schemas.office.visio.x2012.main.RowType)",
+      "signature": "org.apache.poi.xdgf.usermodel.section.geometry.GeometryRow load(com.microsoft.schemas.office.visio.x2012.main.RowType)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.util.ObjectFactory#load(java.lang.String, java.lang.Object...)",
+      "signature": "T load(java.lang.String, java.lang.Object...)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.util.ObjectFactory#put(java.lang.String, java.lang.Class<? extends T>, java.lang.Class<?>...)",
+      "signature": "void put(java.lang.String, java.lang.Class<? extends T>, java.lang.Class<?>...)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText()",
+      "signature": "java.lang.String getText()"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText(boolean, boolean)",
+      "signature": "java.lang.String getText(boolean, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText(boolean, boolean, boolean)",
+      "signature": "java.lang.String getText(boolean, boolean, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText(boolean, boolean, boolean, boolean)",
+      "signature": "java.lang.String getText(boolean, boolean, boolean, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText(org.apache.poi.xslf.usermodel.XSLFSlide, boolean, boolean, boolean)",
+      "signature": "java.lang.String getText(org.apache.poi.xslf.usermodel.XSLFSlide, boolean, boolean, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#getText(org.apache.poi.xslf.usermodel.XSLFSlide, boolean, boolean, boolean, boolean)",
+      "signature": "java.lang.String getText(org.apache.poi.xslf.usermodel.XSLFSlide, boolean, boolean, boolean, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#setCommentsByDefault(boolean)",
+      "signature": "void setCommentsByDefault(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#setMasterByDefault(boolean)",
+      "signature": "void setMasterByDefault(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#setNotesByDefault(boolean)",
+      "signature": "void setNotesByDefault(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor#setSlidesByDefault(boolean)",
+      "signature": "void setSlidesByDefault(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)",
+      "signature": "boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)",
+      "signature": "boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFHyperlink#getTypeEnum()",
+      "signature": "org.apache.poi.common.usermodel.HyperlinkType getTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFObjectShape$XSLFObjectOutputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFShape#selectProperty(java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)",
+      "signature": "T selectProperty(java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#createSlideShow(java.io.File, boolean)",
+      "signature": "org.apache.poi.xslf.usermodel.XMLSlideShow createSlideShow(java.io.File, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#createSlideShow(java.io.InputStream)",
+      "signature": "org.apache.poi.xslf.usermodel.XMLSlideShow createSlideShow(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.binary.XSSFBSharedStringsTable#getEntryAt(int)",
+      "signature": "java.lang.String getEntryAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.binary.XSSFBSharedStringsTable#getItems()",
+      "signature": "java.util.List<java.lang.String> getItems()"
+    },
+    {
+      "key": "org.apache.poi.xssf.eventusermodel.ReadOnlySharedStringsTable#getEntryAt(int)",
+      "signature": "java.lang.String getEntryAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.eventusermodel.ReadOnlySharedStringsTable#getItems()",
+      "signature": "java.util.List<java.lang.String> getItems()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFBEventBasedExcelExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFExcelExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xssf.model.CommentsTable#getCellComments()",
+      "signature": "java.util.Map<org.apache.poi.ss.util.CellAddress, org.apache.poi.xssf.usermodel.XSSFComment> getCellComments()"
+    },
+    {
+      "key": "org.apache.poi.xssf.model.SharedStringsTable#addEntry(org.openxmlformats.schemas.spreadsheetml.x2006.main.CTRst)",
+      "signature": "int addEntry(org.openxmlformats.schemas.spreadsheetml.x2006.main.CTRst)"
+    },
+    {
+      "key": "org.apache.poi.xssf.model.SharedStringsTable#getEntryAt(int)",
+      "signature": "org.openxmlformats.schemas.spreadsheetml.x2006.main.CTRst getEntryAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.model.SharedStringsTable#getItems()",
+      "signature": "java.util.List<org.openxmlformats.schemas.spreadsheetml.x2006.main.CTRst> getItems()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFCell#getCachedFormulaResultTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCachedFormulaResultTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFEvaluationCell#getCachedFormulaResultTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCachedFormulaResultTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFEvaluationCell#getCellTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCellTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#getFontAt(short)",
+      "signature": "org.apache.poi.ss.usermodel.Font getFontAt(short)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#getNameAt(int)",
+      "signature": "org.apache.poi.ss.usermodel.Name getNameAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#getNameIndex(java.lang.String)",
+      "signature": "int getNameIndex(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#removeName(int)",
+      "signature": "void removeName(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#removeName(java.lang.String)",
+      "signature": "void removeName(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderBottomEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderBottomEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderDiagonalEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderDiagonalEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderHorizontalEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderHorizontalEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderLeftEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderLeftEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderRightEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderRightEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderTopEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderTopEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFBorderFormatting#getBorderVerticalEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderVerticalEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCell#getCachedFormulaResultTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCachedFormulaResultTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#clone()",
+      "signature": "java.lang.Object clone()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getAlignmentEnum()",
+      "signature": "org.apache.poi.ss.usermodel.HorizontalAlignment getAlignmentEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getBorderBottomEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderBottomEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getBorderLeftEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderLeftEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getBorderRightEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderRightEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getBorderTopEnum()",
+      "signature": "org.apache.poi.ss.usermodel.BorderStyle getBorderTopEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getFillPatternEnum()",
+      "signature": "org.apache.poi.ss.usermodel.FillPatternType getFillPatternEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFCellStyle#getVerticalAlignmentEnum()",
+      "signature": "org.apache.poi.ss.usermodel.VerticalAlignment getVerticalAlignmentEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#createCategoryAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartAxis createCategoryAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#createDateAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartAxis createDateAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#createValueAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)",
+      "signature": "org.apache.poi.ss.usermodel.charts.ValueAxis createValueAxis(org.apache.poi.ss.usermodel.charts.AxisPosition)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#getAxis()",
+      "signature": "java.util.List<? extends org.apache.poi.xssf.usermodel.charts.XSSFChartAxis> getAxis()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#getChartAxisFactory()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartAxisFactory getChartAxisFactory()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#getChartDataFactory()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartDataFactory getChartDataFactory()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#getManualLayout()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ManualLayout getManualLayout()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#getOrCreateLegend()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartLegend getOrCreateLegend()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFChart#plot(org.apache.poi.ss.usermodel.charts.ChartData, org.apache.poi.ss.usermodel.charts.ChartAxis...)",
+      "signature": "void plot(org.apache.poi.ss.usermodel.charts.ChartData, org.apache.poi.ss.usermodel.charts.ChartAxis...)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFEvaluationCell#getCachedFormulaResultTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCachedFormulaResultTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFEvaluationCell#getCellTypeEnum()",
+      "signature": "org.apache.poi.ss.usermodel.CellType getCellTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFHyperlink#getTypeEnum()",
+      "signature": "org.apache.poi.common.usermodel.HyperlinkType getTypeEnum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFSheet#createTable()",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFTable createTable()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFTable#getNumberOfMappedColumns()",
+      "signature": "long getNumberOfMappedColumns()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFTable#getXmlColumnPrs()",
+      "signature": "java.util.List<org.apache.poi.xssf.usermodel.helpers.XSSFXmlColumnPr> getXmlColumnPrs()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#getFontAt(short)",
+      "signature": "org.apache.poi.ss.usermodel.Font getFontAt(short)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#getNameAt(int)",
+      "signature": "org.apache.poi.ss.usermodel.Name getNameAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#getNameIndex(java.lang.String)",
+      "signature": "int getNameIndex(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#removeName(int)",
+      "signature": "void removeName(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#removeName(java.lang.String)",
+      "signature": "void removeName(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#createWorkbook()",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFWorkbook createWorkbook()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#createWorkbook(java.io.File, boolean)",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFWorkbook createWorkbook(java.io.File, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#createWorkbook(java.io.InputStream)",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFWorkbook createWorkbook(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#createWorkbook(org.apache.poi.openxml4j.opc.ZipPackage)",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFWorkbook createWorkbook(org.apache.poi.openxml4j.opc.ZipPackage)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries#getTitleCellReference()",
+      "signature": "org.apache.poi.ss.util.CellReference getTitleCellReference()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries#getTitleString()",
+      "signature": "java.lang.String getTitleString()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries#getTitleType()",
+      "signature": "org.apache.poi.ss.usermodel.charts.TitleType getTitleType()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries#setTitle(java.lang.String)",
+      "signature": "void setTitle(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries#setTitle(org.apache.poi.ss.util.CellReference)",
+      "signature": "void setTitle(org.apache.poi.ss.util.CellReference)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis#crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)",
+      "signature": "void crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis#getId()",
+      "signature": "long getId()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis#getLine()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis#getMajorGridLines()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis#hasNumberFormat()",
+      "signature": "boolean hasNumberFormat()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getCrosses()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisCrosses getCrosses()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getLine()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getLogBase()",
+      "signature": "double getLogBase()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMajorGridLines()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMajorTickMark()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisTickMark getMajorTickMark()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMaximum()",
+      "signature": "double getMaximum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMinimum()",
+      "signature": "double getMinimum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMinorTickMark()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisTickMark getMinorTickMark()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getNumberFormat()",
+      "signature": "java.lang.String getNumberFormat()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getOrientation()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisOrientation getOrientation()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getPosition()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisPosition getPosition()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#isSetLogBase()",
+      "signature": "boolean isSetLogBase()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#isSetMaximum()",
+      "signature": "boolean isSetMaximum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#isSetMinimum()",
+      "signature": "boolean isSetMinimum()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#isVisible()",
+      "signature": "boolean isVisible()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setCrosses(org.apache.poi.ss.usermodel.charts.AxisCrosses)",
+      "signature": "void setCrosses(org.apache.poi.ss.usermodel.charts.AxisCrosses)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setLogBase(double)",
+      "signature": "void setLogBase(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setMajorTickMark(org.apache.poi.ss.usermodel.charts.AxisTickMark)",
+      "signature": "void setMajorTickMark(org.apache.poi.ss.usermodel.charts.AxisTickMark)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setMaximum(double)",
+      "signature": "void setMaximum(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setMinimum(double)",
+      "signature": "void setMinimum(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setMinorTickMark(org.apache.poi.ss.usermodel.charts.AxisTickMark)",
+      "signature": "void setMinorTickMark(org.apache.poi.ss.usermodel.charts.AxisTickMark)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setNumberFormat(java.lang.String)",
+      "signature": "void setNumberFormat(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setOrientation(org.apache.poi.ss.usermodel.charts.AxisOrientation)",
+      "signature": "void setOrientation(org.apache.poi.ss.usermodel.charts.AxisOrientation)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setPosition(org.apache.poi.ss.usermodel.charts.AxisPosition)",
+      "signature": "void setPosition(org.apache.poi.ss.usermodel.charts.AxisPosition)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#setVisible(boolean)",
+      "signature": "void setVisible(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory#createLineChartData()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LineChartData createLineChartData()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory#createScatterChartData()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ScatterChartData createScatterChartData()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory#getInstance()",
+      "signature": "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory getInstance()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#getCTLegend()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTLegend getCTLegend()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#getManualLayout()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ManualLayout getManualLayout()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#getPosition()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LegendPosition getPosition()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#isOverlay()",
+      "signature": "boolean isOverlay()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#setOverlay(boolean)",
+      "signature": "void setOverlay(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend#setPosition(org.apache.poi.ss.usermodel.charts.LegendPosition)",
+      "signature": "void setPosition(org.apache.poi.ss.usermodel.charts.LegendPosition)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartUtil#buildAxDataSource(org.openxmlformats.schemas.drawingml.x2006.chart.CTAxDataSource, org.apache.poi.ss.usermodel.charts.ChartDataSource<?>)",
+      "signature": "void buildAxDataSource(org.openxmlformats.schemas.drawingml.x2006.chart.CTAxDataSource, org.apache.poi.ss.usermodel.charts.ChartDataSource<?>)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartUtil#buildNumDataSource(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumDataSource, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)",
+      "signature": "void buildNumDataSource(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumDataSource, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis#crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)",
+      "signature": "void crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis#getId()",
+      "signature": "long getId()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis#getLine()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis#getMajorGridLines()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis#hasNumberFormat()",
+      "signature": "boolean hasNumberFormat()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData#addSeries(org.apache.poi.ss.usermodel.charts.ChartDataSource<?>, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)",
+      "signature": "org.apache.poi.ss.usermodel.charts.LineChartSeries addSeries(org.apache.poi.ss.usermodel.charts.ChartDataSource<?>, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData#fillChart(org.apache.poi.ss.usermodel.Chart, org.apache.poi.ss.usermodel.charts.ChartAxis...)",
+      "signature": "void fillChart(org.apache.poi.ss.usermodel.Chart, org.apache.poi.ss.usermodel.charts.ChartAxis...)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData#getSeries()",
+      "signature": "java.util.List<? extends org.apache.poi.ss.usermodel.charts.LineChartSeries> getSeries()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData$Series#getCategoryAxisData()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartDataSource<?> getCategoryAxisData()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData$Series#getValues()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number> getValues()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getCTManualLayout()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTManualLayout getCTManualLayout()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getHeightMode()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LayoutMode getHeightMode()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getHeightRatio()",
+      "signature": "double getHeightRatio()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getTarget()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LayoutTarget getTarget()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getWidthMode()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LayoutMode getWidthMode()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getWidthRatio()",
+      "signature": "double getWidthRatio()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getX()",
+      "signature": "double getX()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getXMode()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LayoutMode getXMode()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getY()",
+      "signature": "double getY()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#getYMode()",
+      "signature": "org.apache.poi.ss.usermodel.charts.LayoutMode getYMode()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setHeightMode(org.apache.poi.ss.usermodel.charts.LayoutMode)",
+      "signature": "void setHeightMode(org.apache.poi.ss.usermodel.charts.LayoutMode)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setHeightRatio(double)",
+      "signature": "void setHeightRatio(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setTarget(org.apache.poi.ss.usermodel.charts.LayoutTarget)",
+      "signature": "void setTarget(org.apache.poi.ss.usermodel.charts.LayoutTarget)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setWidthMode(org.apache.poi.ss.usermodel.charts.LayoutMode)",
+      "signature": "void setWidthMode(org.apache.poi.ss.usermodel.charts.LayoutMode)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setWidthRatio(double)",
+      "signature": "void setWidthRatio(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setX(double)",
+      "signature": "void setX(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setXMode(org.apache.poi.ss.usermodel.charts.LayoutMode)",
+      "signature": "void setXMode(org.apache.poi.ss.usermodel.charts.LayoutMode)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setY(double)",
+      "signature": "void setY(double)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout#setYMode(org.apache.poi.ss.usermodel.charts.LayoutMode)",
+      "signature": "void setYMode(org.apache.poi.ss.usermodel.charts.LayoutMode)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData#addSerie(org.apache.poi.ss.usermodel.charts.ChartDataSource<?>, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)",
+      "signature": "org.apache.poi.ss.usermodel.charts.ScatterChartSeries addSerie(org.apache.poi.ss.usermodel.charts.ChartDataSource<?>, org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number>)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData#fillChart(org.apache.poi.ss.usermodel.Chart, org.apache.poi.ss.usermodel.charts.ChartAxis...)",
+      "signature": "void fillChart(org.apache.poi.ss.usermodel.Chart, org.apache.poi.ss.usermodel.charts.ChartAxis...)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData$Series#getXValues()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartDataSource<?> getXValues()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData$Series#getYValues()",
+      "signature": "org.apache.poi.ss.usermodel.charts.ChartDataSource<? extends java.lang.Number> getYValues()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)",
+      "signature": "void crossAxis(org.apache.poi.ss.usermodel.charts.ChartAxis)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#getCrossBetween()",
+      "signature": "org.apache.poi.ss.usermodel.charts.AxisCrossBetween getCrossBetween()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#getId()",
+      "signature": "long getId()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#getLine()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#getMajorGridLines()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#hasNumberFormat()",
+      "signature": "boolean hasNumberFormat()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis#setCrossBetween(org.apache.poi.ss.usermodel.charts.AxisCrossBetween)",
+      "signature": "void setCrossBetween(org.apache.poi.ss.usermodel.charts.AxisCrossBetween)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.helpers.XSSFXmlColumnPr#getId()",
+      "signature": "long getId()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.extractor.XWPFWordExtractor#main(java.lang.String[])",
+      "signature": "void main(java.lang.String[])"
+    },
+    {
+      "key": "org.apache.poi.xwpf.model.WMLHelper#convertSTOnOffToBoolean(org.openxmlformats.schemas.wordprocessingml.x2006.main.STOnOff$Enum)",
+      "signature": "boolean convertSTOnOffToBoolean(org.openxmlformats.schemas.wordprocessingml.x2006.main.STOnOff$Enum)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFRun#getSubscript()",
+      "signature": "org.apache.poi.xwpf.usermodel.VerticalAlign getSubscript()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFTable#addNewRowBetween(int, int)",
+      "signature": "void addNewRowBetween(int, int)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.apache.poi.ooxml.POIXMLDocumentPart#getNextPartNumber(org.apache.poi.ooxml.POIXMLRelation, int)",
+      "signature": "int getNextPartNumber(org.apache.poi.ooxml.POIXMLRelation, int)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#accepts(org.apache.poi.poifs.filesystem.FileMagic)",
+      "signature": "boolean accepts(org.apache.poi.poifs.filesystem.FileMagic)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#create(java.io.File, java.lang.String)",
+      "signature": "org.apache.poi.extractor.POITextExtractor create(java.io.File, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#create(java.io.InputStream, java.lang.String)",
+      "signature": "org.apache.poi.extractor.POITextExtractor create(java.io.InputStream, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#create(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "signature": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor create(org.apache.poi.openxml4j.opc.OPCPackage)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)",
+      "signature": "org.apache.poi.extractor.POITextExtractor create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#create(org.apache.poi.poifs.filesystem.POIFSFileSystem)",
+      "signature": "org.apache.poi.extractor.POITextExtractor create(org.apache.poi.poifs.filesystem.POIFSFileSystem)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#getAllThreadsPreferEventExtractors()",
+      "signature": "java.lang.Boolean getAllThreadsPreferEventExtractors()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#getPreferEventExtractor()",
+      "signature": "boolean getPreferEventExtractor()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#getThreadPrefersEventExtractors()",
+      "signature": "boolean getThreadPrefersEventExtractors()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#setAllThreadsPreferEventExtractors(java.lang.Boolean)",
+      "signature": "void setAllThreadsPreferEventExtractors(java.lang.Boolean)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory#setThreadPrefersEventExtractors(boolean)",
+      "signature": "void setThreadPrefersEventExtractors(boolean)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLPropertiesTextExtractor#getDocument()",
+      "signature": "java.lang.Object getDocument()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLPropertiesTextExtractor#getFilesystem()",
+      "signature": "java.io.Closeable getFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLPropertiesTextExtractor#isCloseFilesystem()",
+      "signature": "boolean isCloseFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLPropertiesTextExtractor#setCloseFilesystem(boolean)",
+      "signature": "void setCloseFilesystem(boolean)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor#checkMaxTextSize(java.lang.CharSequence, java.lang.String)",
+      "signature": "void checkMaxTextSize(java.lang.CharSequence, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STCoordinate)",
+      "signature": "long parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STCoordinate)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STCoordinate32)",
+      "signature": "long parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STCoordinate32)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STTextPoint)",
+      "signature": "long parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STTextPoint)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STTwipsMeasure)",
+      "signature": "long parseLength(org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STTwipsMeasure)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STHpsMeasure)",
+      "signature": "long parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STHpsMeasure)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STMeasurementOrPercent)",
+      "signature": "long parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STMeasurementOrPercent)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STSignedHpsMeasure)",
+      "signature": "long parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STSignedHpsMeasure)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STSignedTwipsMeasure)",
+      "signature": "long parseLength(org.openxmlformats.schemas.wordprocessingml.x2006.main.STSignedTwipsMeasure)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseOnOff(org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STOnOff)",
+      "signature": "boolean parseOnOff(org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STOnOff)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseOnOff(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTOnOff)",
+      "signature": "boolean parseOnOff(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTOnOff)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STDepthPercent)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STDepthPercent)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STGapAmount)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STGapAmount)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STHPercent)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STHPercent)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STHoleSize)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STHoleSize)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STOverlap)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.chart.STOverlap)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPercentage)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPercentage)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPositiveFixedPercentage)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPositiveFixedPercentage)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPositivePercentage)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STPositivePercentage)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextBulletSizePercent)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextBulletSizePercent)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextFontScalePercentOrPercentString)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextFontScalePercentOrPercentString)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextSpacingPercentOrPercentString)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.drawingml.x2006.main.STTextSpacingPercentOrPercentString)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.wordprocessingml.x2006.main.STDecimalNumberOrPercent)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.wordprocessingml.x2006.main.STDecimalNumberOrPercent)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.POIXMLUnits#parsePercent(org.openxmlformats.schemas.wordprocessingml.x2006.main.STTextScale)",
+      "signature": "int parsePercent(org.openxmlformats.schemas.wordprocessingml.x2006.main.STTextScale)"
+    },
+    {
+      "key": "org.apache.poi.ooxml.util.XPathHelper#selectProperty(org.apache.xmlbeans.XmlObject, java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)",
+      "signature": "T selectProperty(org.apache.xmlbeans.XmlObject, java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.OPCPackage#isClosed()",
+      "signature": "boolean isClosed()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.OPCPackage#isStrictOoxmlFormat()",
+      "signature": "boolean isStrictOoxmlFormat()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.OPCPackage#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.ZipPackage#encryptTempFilePackageParts()",
+      "signature": "boolean encryptTempFilePackageParts()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.ZipPackage#isClosed()",
+      "signature": "boolean isClosed()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.ZipPackage#setEncryptTempFilePackageParts(boolean)",
+      "signature": "void setEncryptTempFilePackageParts(boolean)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.ZipPackage#setUseTempFilePackageParts(boolean)",
+      "signature": "void setUseTempFilePackageParts(boolean)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.ZipPackage#useTempFilePackageParts()",
+      "signature": "boolean useTempFilePackageParts()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#getSize()",
+      "signature": "long getSize()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#load(java.io.InputStream)",
+      "signature": "boolean load(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart#save(java.io.OutputStream)",
+      "signature": "boolean save(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#clear()",
+      "signature": "void clear()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#flush()",
+      "signature": "void flush()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#getSize()",
+      "signature": "long getSize()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#load(java.io.InputStream)",
+      "signature": "boolean load(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart#save(java.io.OutputStream)",
+      "signature": "boolean save(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.ZipArchiveFakeEntry#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource#getThresholdBytesForTempFiles()",
+      "signature": "int getThresholdBytesForTempFiles()"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource#setEncryptTempFiles(boolean)",
+      "signature": "void setEncryptTempFiles(boolean)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource#setThresholdBytesForTempFiles(int)",
+      "signature": "void setThresholdBytesForTempFiles(int)"
+    },
+    {
+      "key": "org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource#shouldEncryptTempFiles()",
+      "signature": "boolean shouldEncryptTempFiles()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.OOXMLURIDereferencer#setSignatureInfo(org.apache.poi.poifs.crypt.dsig.SignatureInfo)",
+      "signature": "void setSignatureInfo(org.apache.poi.poifs.crypt.dsig.SignatureInfo)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#getProviderNames()",
+      "signature": "java.lang.String[] getProviderNames()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#getSignatureImage()",
+      "signature": "byte[] getSignatureImage()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#getSignatureImageInvalid()",
+      "signature": "byte[] getSignatureImageInvalid()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#getSignatureImageSetupId()",
+      "signature": "org.apache.poi.hpsf.ClassID getSignatureImageSetupId()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#getSignatureImageValid()",
+      "signature": "byte[] getSignatureImageValid()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setProvider(java.security.Provider)",
+      "signature": "void setProvider(java.security.Provider)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureImage(byte[])",
+      "signature": "void setSignatureImage(byte[])"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureImageInvalid(byte[])",
+      "signature": "void setSignatureImageInvalid(byte[])"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureImageSetupId(org.apache.poi.hpsf.ClassID)",
+      "signature": "void setSignatureImageSetupId(org.apache.poi.hpsf.ClassID)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureImageValid(byte[])",
+      "signature": "void setSignatureImageValid(byte[])"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#getKeyInfoFactory()",
+      "signature": "javax.xml.crypto.dsig.keyinfo.KeyInfoFactory getKeyInfoFactory()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#getOpcPackage()",
+      "signature": "org.apache.poi.openxml4j.opc.OPCPackage getOpcPackage()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#getSignatureFactory()",
+      "signature": "javax.xml.crypto.dsig.XMLSignatureFactory getSignatureFactory()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#getUriDereferencer()",
+      "signature": "javax.xml.crypto.URIDereferencer getUriDereferencer()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#setKeyInfoFactory(javax.xml.crypto.dsig.keyinfo.KeyInfoFactory)",
+      "signature": "void setKeyInfoFactory(javax.xml.crypto.dsig.keyinfo.KeyInfoFactory)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#setOpcPackage(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "signature": "void setOpcPackage(org.apache.poi.openxml4j.opc.OPCPackage)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#setProvider(java.security.Provider)",
+      "signature": "void setProvider(java.security.Provider)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#setSignatureFactory(javax.xml.crypto.dsig.XMLSignatureFactory)",
+      "signature": "void setSignatureFactory(javax.xml.crypto.dsig.XMLSignatureFactory)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo#setUriDereferencer(javax.xml.crypto.URIDereferencer)",
+      "signature": "void setUriDereferencer(javax.xml.crypto.URIDereferencer)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo$SignaturePartIterator#hasNext()",
+      "signature": "boolean hasNext()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo$SignaturePartIterator#next()",
+      "signature": "java.lang.Object next()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo$SignaturePartIterator#remove()",
+      "signature": "void remove()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureInfo$XmlProviderInitSingleton#findProvider()",
+      "signature": "java.security.Provider findProvider()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getAllowComments()",
+      "signature": "java.lang.Boolean getAllowComments()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getCaption()",
+      "signature": "java.lang.String getCaption()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getDefaultCaption()",
+      "signature": "java.lang.String getDefaultCaption()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getInvalidStamp()",
+      "signature": "java.lang.String getInvalidStamp()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getPlainSignature()",
+      "signature": "byte[] getPlainSignature()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSetupId()",
+      "signature": "org.apache.poi.hpsf.ClassID getSetupId()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSignatureShape()",
+      "signature": "com.microsoft.schemas.vml.CTShape getSignatureShape()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSigningInstructions()",
+      "signature": "java.lang.String getSigningInstructions()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSuggestedSigner()",
+      "signature": "java.lang.String getSuggestedSigner()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSuggestedSigner2()",
+      "signature": "java.lang.String getSuggestedSigner2()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#getSuggestedSignerEmail()",
+      "signature": "java.lang.String getSuggestedSignerEmail()"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setAllowComments(java.lang.Boolean)",
+      "signature": "void setAllowComments(java.lang.Boolean)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setCaption(java.lang.String)",
+      "signature": "void setCaption(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setContentType(java.lang.String)",
+      "signature": "void setContentType(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setInvalidStamp(java.lang.String)",
+      "signature": "void setInvalidStamp(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setPlainSignature(byte[])",
+      "signature": "void setPlainSignature(byte[])"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSetupId(org.apache.poi.hpsf.ClassID)",
+      "signature": "void setSetupId(org.apache.poi.hpsf.ClassID)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSignatureShape(com.microsoft.schemas.office.office.CTSignatureLine)",
+      "signature": "void setSignatureShape(com.microsoft.schemas.office.office.CTSignatureLine)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSignatureShape(com.microsoft.schemas.vml.CTShape)",
+      "signature": "void setSignatureShape(com.microsoft.schemas.vml.CTShape)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSigningInstructions(java.lang.String)",
+      "signature": "void setSigningInstructions(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSuggestedSigner(java.lang.String)",
+      "signature": "void setSuggestedSigner(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSuggestedSigner2(java.lang.String)",
+      "signature": "void setSuggestedSigner2(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#setSuggestedSignerEmail(java.lang.String)",
+      "signature": "void setSuggestedSignerEmail(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine#updateSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
+      "signature": "void updateSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine$AddPictureData#addPictureData(byte[], org.apache.poi.common.usermodel.PictureType)",
+      "signature": "java.lang.String addPictureData(byte[], org.apache.poi.common.usermodel.PictureType)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalDefaultListener#handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)",
+      "signature": "void handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)"
+    },
+    {
+      "key": "org.apache.poi.poifs.crypt.temp.EncryptedTempData#getByteCount()",
+      "signature": "long getByteCount()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#removeTitle()",
+      "signature": "void removeTitle()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#replaceReferences(org.apache.poi.xssf.usermodel.XSSFSheet)",
+      "signature": "void replaceReferences(org.apache.poi.xssf.usermodel.XSSFSheet)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFChartData$Series#clearDataPoint(long)",
+      "signature": "void clearDataPoint(long)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFChartData$Series#getDataPoint(long)",
+      "signature": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint getDataPoint(long)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#getExplosion()",
+      "signature": "java.lang.Long getExplosion()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#getIndex()",
+      "signature": "long getIndex()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#getInvertIfNegative()",
+      "signature": "boolean getInvertIfNegative()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#getShapeProperties()",
+      "signature": "org.apache.poi.xddf.usermodel.XDDFShapeProperties getShapeProperties()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setExplosion(java.lang.Long)",
+      "signature": "void setExplosion(java.lang.Long)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setFillProperties(org.apache.poi.xddf.usermodel.XDDFFillProperties)",
+      "signature": "void setFillProperties(org.apache.poi.xddf.usermodel.XDDFFillProperties)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setInvertIfNegative(boolean)",
+      "signature": "void setInvertIfNegative(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setLineProperties(org.apache.poi.xddf.usermodel.XDDFLineProperties)",
+      "signature": "void setLineProperties(org.apache.poi.xddf.usermodel.XDDFLineProperties)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setMarkerSize(short)",
+      "signature": "void setMarkerSize(short)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setMarkerStyle(org.apache.poi.xddf.usermodel.chart.MarkerStyle)",
+      "signature": "void setMarkerStyle(org.apache.poi.xddf.usermodel.chart.MarkerStyle)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint#setShapeProperties(org.apache.poi.xddf.usermodel.XDDFShapeProperties)",
+      "signature": "void setShapeProperties(org.apache.poi.xddf.usermodel.XDDFShapeProperties)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSource#fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)",
+      "signature": "void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSource#getFormatCode()",
+      "signature": "java.lang.String getFormatCode()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$StringArrayDataSource#getFormatCode()",
+      "signature": "java.lang.String getFormatCode()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$StringCellRangeDataSource#getFormatCode()",
+      "signature": "java.lang.String getFormatCode()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData#getFirstSliceAngle()",
+      "signature": "java.lang.Integer getFirstSliceAngle()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData#getHoleSize()",
+      "signature": "java.lang.Integer getHoleSize()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData#setFirstSliceAngle(java.lang.Integer)",
+      "signature": "void setFirstSliceAngle(java.lang.Integer)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData#setHoleSize(java.lang.Integer)",
+      "signature": "void setHoleSize(java.lang.Integer)"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.text.XDDFParagraphBulletProperties#getXmlObject()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties getXmlObject()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.text.XDDFTextParagraph#getIndentationLevel()",
+      "signature": "int getIndentationLevel()"
+    },
+    {
+      "key": "org.apache.poi.xddf.usermodel.text.XDDFTextParagraph#setIndentationLevel(java.lang.Integer)",
+      "signature": "void setIndentationLevel(java.lang.Integer)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#getDocument()",
+      "signature": "java.lang.Object getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#getFilesystem()",
+      "signature": "java.io.Closeable getFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#isCloseFilesystem()",
+      "signature": "boolean isCloseFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#setCloseFilesystem(boolean)",
+      "signature": "void setCloseFilesystem(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes#getRowType()",
+      "signature": "java.lang.String getRowType()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes#load(com.microsoft.schemas.office.visio.x2012.main.RowType)",
+      "signature": "org.apache.poi.xdgf.usermodel.section.geometry.GeometryRow load(com.microsoft.schemas.office.visio.x2012.main.RowType)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes#valueOf(java.lang.String)",
+      "signature": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes#values()",
+      "signature": "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes[] values()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.GeometrySection#combineGeometries(S, S)",
+      "signature": "<T, S extends java.util.SortedMap<java.lang.Long, T>> java.util.Collection<T> combineGeometries(S, S)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes#getSectionType()",
+      "signature": "java.lang.String getSectionType()"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes#load(com.microsoft.schemas.office.visio.x2012.main.SectionType, org.apache.poi.xdgf.usermodel.XDGFSheet)",
+      "signature": "org.apache.poi.xdgf.usermodel.section.XDGFSection load(com.microsoft.schemas.office.visio.x2012.main.SectionType, org.apache.poi.xdgf.usermodel.XDGFSheet)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes#valueOf(java.lang.String)",
+      "signature": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes#values()",
+      "signature": "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes[] values()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGImageRenderer#getSVGRoot()",
+      "signature": "org.apache.batik.gvt.GraphicsNode getSVGRoot()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGPOIGraphics2D#addRenderingHints(java.util.Map)",
+      "signature": "void addRenderingHints(java.util.Map)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGPOIGraphics2D#setRenderingHint(java.awt.RenderingHints$Key, java.lang.Object)",
+      "signature": "void setRenderingHint(java.awt.RenderingHints$Key, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGPOIGraphics2D#setRenderingHints(java.util.Map)",
+      "signature": "void setRenderingHints(java.util.Map)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGRenderExtension#getSvgGraphics2D()",
+      "signature": "org.apache.batik.svggen.SVGGraphics2D getSvgGraphics2D()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGRenderExtension#handlePaint(java.awt.Paint, org.apache.batik.svggen.SVGGeneratorContext)",
+      "signature": "org.apache.batik.svggen.SVGPaintDescriptor handlePaint(java.awt.Paint, org.apache.batik.svggen.SVGGeneratorContext)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGRenderExtension#setSvgGraphics2D(org.apache.batik.svggen.SVGGraphics2D)",
+      "signature": "void setSvgGraphics2D(org.apache.batik.svggen.SVGGraphics2D)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#displayError(java.lang.Exception)",
+      "signature": "void displayError(java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#displayError(java.lang.String)",
+      "signature": "void displayError(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#displayMessage(java.lang.String)",
+      "signature": "void displayMessage(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#getViewbox()",
+      "signature": "java.awt.geom.Rectangle2D getViewbox()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#getViewportSize()",
+      "signature": "java.awt.geom.Dimension2D getViewportSize()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#initViewbox(org.w3c.dom.svg.SVGDocument)",
+      "signature": "void initViewbox(org.w3c.dom.svg.SVGDocument)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.SVGUserAgent#showAlert(java.lang.String)",
+      "signature": "void showAlert(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#getX()",
+      "signature": "java.lang.String getX()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#getY()",
+      "signature": "java.lang.String getY()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#isSetX()",
+      "signature": "boolean isSetX()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#isSetY()",
+      "signature": "boolean isSetY()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#setX(java.lang.String)",
+      "signature": "void setX(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint#setY(java.lang.String)",
+      "signature": "void setY(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#getHR()",
+      "signature": "java.lang.String getHR()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#getStAng()",
+      "signature": "java.lang.String getStAng()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#getSwAng()",
+      "signature": "java.lang.String getSwAng()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#getWR()",
+      "signature": "java.lang.String getWR()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#setHR(java.lang.String)",
+      "signature": "void setHR(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#setStAng(java.lang.String)",
+      "signature": "void setStAng(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#setSwAng(java.lang.String)",
+      "signature": "void setSwAng(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFArcTo#setWR(java.lang.String)",
+      "signature": "void setWR(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFConnectionSite#getAng()",
+      "signature": "java.lang.String getAng()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFConnectionSite#getPos()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPos()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFConnectionSite#isSetAng()",
+      "signature": "boolean isSetAng()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFConnectionSite#setAng(java.lang.String)",
+      "signature": "void setAng(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFConnectionSite#setPos(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPos(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#getPt1()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt1()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#getPt2()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt2()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#getPt3()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt3()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#setPt1(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt1(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#setPt2(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt2(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCurveTo#setPt3(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt3(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFCustomGeometry#convertCustomGeometry(org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D)",
+      "signature": "org.apache.poi.sl.draw.geom.CustomGeometry convertCustomGeometry(org.openxmlformats.schemas.drawingml.x2006.main.CTCustomGeometry2D)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFGuide#getFmla()",
+      "signature": "java.lang.String getFmla()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFGuide#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFGuide#setFmla(java.lang.String)",
+      "signature": "void setFmla(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFGuide#setName(java.lang.String)",
+      "signature": "void setName(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFLineTo#getPt()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFLineTo#setPt(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFMoveTo#getPt()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFMoveTo#setPt(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#addCommand(org.apache.poi.sl.draw.geom.PathCommand)",
+      "signature": "void addCommand(org.apache.poi.sl.draw.geom.PathCommand)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#getH()",
+      "signature": "long getH()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#getW()",
+      "signature": "long getW()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#isExtrusionOk()",
+      "signature": "boolean isExtrusionOk()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#isFilled()",
+      "signature": "boolean isFilled()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#isStroked()",
+      "signature": "boolean isStroked()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#setExtrusionOk(boolean)",
+      "signature": "void setExtrusionOk(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#setFill(org.apache.poi.sl.usermodel.PaintStyle$PaintModifier)",
+      "signature": "void setFill(org.apache.poi.sl.usermodel.PaintStyle$PaintModifier)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#setH(long)",
+      "signature": "void setH(long)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#setStroke(boolean)",
+      "signature": "void setStroke(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFPath#setW(long)",
+      "signature": "void setW(long)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFQuadTo#getPt1()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt1()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFQuadTo#getPt2()",
+      "signature": "org.apache.poi.sl.draw.geom.AdjustPointIf getPt2()"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFQuadTo#setPt1(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt1(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.draw.geom.XSLFQuadTo#setPt2(org.apache.poi.sl.draw.geom.AdjustPointIf)",
+      "signature": "void setPt2(org.apache.poi.sl.draw.geom.AdjustPointIf)"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFExtractor#getDocument()",
+      "signature": "org.apache.poi.ooxml.POIXMLDocument getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xslf.extractor.XSLFExtractor#getMetadataTextExtractor()",
+      "signature": "org.apache.poi.extractor.POITextExtractor getMetadataTextExtractor()"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetchProperty(org.apache.poi.xslf.usermodel.XSLFShape)",
+      "signature": "T fetchProperty(org.apache.poi.xslf.usermodel.XSLFShape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.CharacterPropertyFetcher$CharPropFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.util.function.Consumer<S>)",
+      "signature": "void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.util.function.Consumer<S>)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher#fetchProperty(org.apache.poi.xslf.usermodel.XSLFShape)",
+      "signature": "T fetchProperty(org.apache.poi.xslf.usermodel.XSLFShape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher$ParaPropFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.util.function.Consumer<S>)",
+      "signature": "void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.util.function.Consumer<S>)"
+    },
+    {
+      "key": "org.apache.poi.xslf.model.PropertyFetcher#isSet()",
+      "signature": "boolean isSet()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XMLSlideShow#getMaxRecordLength()",
+      "signature": "int getMaxRecordLength()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XMLSlideShow#setMaxRecordLength(int)",
+      "signature": "void setMaxRecordLength(int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFPictureShape#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFPictureShape#setName(java.lang.String)",
+      "signature": "boolean setName(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFPlaceholderDetails#getPlaceholderShape()",
+      "signature": "org.apache.poi.xslf.usermodel.XSLFSimpleShape getPlaceholderShape()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFShape#fetchShapeProperty(org.apache.poi.xslf.model.PropertyFetcher<?>)",
+      "signature": "boolean fetchShapeProperty(org.apache.poi.xslf.model.PropertyFetcher<?>)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSheet#getPlaceholder(org.openxmlformats.schemas.presentationml.x2006.main.CTPlaceholder)",
+      "signature": "org.apache.poi.xslf.usermodel.XSLFSimpleShape getPlaceholder(org.openxmlformats.schemas.presentationml.x2006.main.CTPlaceholder)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#accepts(org.apache.poi.poifs.filesystem.FileMagic)",
+      "signature": "boolean accepts(org.apache.poi.poifs.filesystem.FileMagic)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create(java.io.File, java.lang.String, boolean)",
+      "signature": "org.apache.poi.sl.usermodel.SlideShow create(java.io.File, java.lang.String, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create(java.io.InputStream)",
+      "signature": "org.apache.poi.sl.usermodel.SlideShow create(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create(java.io.InputStream, java.lang.String)",
+      "signature": "org.apache.poi.sl.usermodel.SlideShow create(java.io.InputStream, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)",
+      "signature": "org.apache.poi.sl.usermodel.SlideShow create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTable#insertRow(int)",
+      "signature": "org.apache.poi.xslf.usermodel.XSLFTableRow insertRow(int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTableCell#getBorderProperties(org.apache.poi.sl.usermodel.TableCell$BorderEdge)",
+      "signature": "org.apache.poi.xddf.usermodel.XDDFLineProperties getBorderProperties(org.apache.poi.sl.usermodel.TableCell$BorderEdge)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTableCell#setBorderProperties(org.apache.poi.sl.usermodel.TableCell$BorderEdge, org.apache.poi.xddf.usermodel.XDDFLineProperties)",
+      "signature": "void setBorderProperties(org.apache.poi.sl.usermodel.TableCell$BorderEdge, org.apache.poi.xddf.usermodel.XDDFLineProperties)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTextParagraph#getDefaultMasterStyle()",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties getDefaultMasterStyle()"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTextRun#getRPr(boolean)",
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties getRPr(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.usermodel.XSLFTexturePaint#getShape()",
+      "signature": "org.apache.poi.sl.usermodel.Shape getShape()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.BitmapFormat#addSlide(double, double)",
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.BitmapFormat#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.BitmapFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyFormat#addSlide(double, double)",
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyFormat#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyFormat#writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#addRenderingHints(java.util.Map<?, ?>)",
+      "signature": "void addRenderingHints(java.util.Map<?, ?>)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#clearRect(int, int, int, int)",
+      "signature": "void clearRect(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#clip(java.awt.Shape)",
+      "signature": "void clip(java.awt.Shape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#clipRect(int, int, int, int)",
+      "signature": "void clipRect(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#copyArea(int, int, int, int, int, int)",
+      "signature": "void copyArea(int, int, int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#create()",
+      "signature": "java.awt.Graphics create()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#create(int, int, int, int)",
+      "signature": "java.awt.Graphics create(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#dispose()",
+      "signature": "void dispose()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#draw(java.awt.Shape)",
+      "signature": "void draw(java.awt.Shape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#draw3DRect(int, int, int, int, boolean)",
+      "signature": "void draw3DRect(int, int, int, int, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawArc(int, int, int, int, int, int)",
+      "signature": "void drawArc(int, int, int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawBytes(byte[], int, int, int, int)",
+      "signature": "void drawBytes(byte[], int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawChars(char[], int, int, int, int)",
+      "signature": "void drawChars(char[], int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawGlyphVector(java.awt.font.GlyphVector, float, float)",
+      "signature": "void drawGlyphVector(java.awt.font.GlyphVector, float, float)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, int, int, int, int, int, int, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, int, int, java.awt.Color, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, int, int, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, int, int, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, java.awt.Color, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, java.awt.Color, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, int, int, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, int, int, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.Image, java.awt.geom.AffineTransform, java.awt.image.ImageObserver)",
+      "signature": "boolean drawImage(java.awt.Image, java.awt.geom.AffineTransform, java.awt.image.ImageObserver)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawImage(java.awt.image.BufferedImage, java.awt.image.BufferedImageOp, int, int)",
+      "signature": "void drawImage(java.awt.image.BufferedImage, java.awt.image.BufferedImageOp, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawLine(int, int, int, int)",
+      "signature": "void drawLine(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawOval(int, int, int, int)",
+      "signature": "void drawOval(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawPolygon(int[], int[], int)",
+      "signature": "void drawPolygon(int[], int[], int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawPolygon(java.awt.Polygon)",
+      "signature": "void drawPolygon(java.awt.Polygon)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawPolyline(int[], int[], int)",
+      "signature": "void drawPolyline(int[], int[], int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawRect(int, int, int, int)",
+      "signature": "void drawRect(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawRenderableImage(java.awt.image.renderable.RenderableImage, java.awt.geom.AffineTransform)",
+      "signature": "void drawRenderableImage(java.awt.image.renderable.RenderableImage, java.awt.geom.AffineTransform)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawRenderedImage(java.awt.image.RenderedImage, java.awt.geom.AffineTransform)",
+      "signature": "void drawRenderedImage(java.awt.image.RenderedImage, java.awt.geom.AffineTransform)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawRoundRect(int, int, int, int, int, int)",
+      "signature": "void drawRoundRect(int, int, int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawString(java.lang.String, float, float)",
+      "signature": "void drawString(java.lang.String, float, float)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawString(java.lang.String, int, int)",
+      "signature": "void drawString(java.lang.String, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawString(java.text.AttributedCharacterIterator, float, float)",
+      "signature": "void drawString(java.text.AttributedCharacterIterator, float, float)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#drawString(java.text.AttributedCharacterIterator, int, int)",
+      "signature": "void drawString(java.text.AttributedCharacterIterator, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fill(java.awt.Shape)",
+      "signature": "void fill(java.awt.Shape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fill3DRect(int, int, int, int, boolean)",
+      "signature": "void fill3DRect(int, int, int, int, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillArc(int, int, int, int, int, int)",
+      "signature": "void fillArc(int, int, int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillOval(int, int, int, int)",
+      "signature": "void fillOval(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillPolygon(int[], int[], int)",
+      "signature": "void fillPolygon(int[], int[], int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillPolygon(java.awt.Polygon)",
+      "signature": "void fillPolygon(java.awt.Polygon)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillRect(int, int, int, int)",
+      "signature": "void fillRect(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#fillRoundRect(int, int, int, int, int, int)",
+      "signature": "void fillRoundRect(int, int, int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getBackground()",
+      "signature": "java.awt.Color getBackground()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getClip()",
+      "signature": "java.awt.Shape getClip()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getClipBounds()",
+      "signature": "java.awt.Rectangle getClipBounds()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getClipBounds(java.awt.Rectangle)",
+      "signature": "java.awt.Rectangle getClipBounds(java.awt.Rectangle)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getColor()",
+      "signature": "java.awt.Color getColor()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getComposite()",
+      "signature": "java.awt.Composite getComposite()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getDeviceConfiguration()",
+      "signature": "java.awt.GraphicsConfiguration getDeviceConfiguration()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getFont()",
+      "signature": "java.awt.Font getFont()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getFontMetrics()",
+      "signature": "java.awt.FontMetrics getFontMetrics()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getFontMetrics(java.awt.Font)",
+      "signature": "java.awt.FontMetrics getFontMetrics(java.awt.Font)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getFontRenderContext()",
+      "signature": "java.awt.font.FontRenderContext getFontRenderContext()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getPaint()",
+      "signature": "java.awt.Paint getPaint()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getRenderingHint(java.awt.RenderingHints$Key)",
+      "signature": "java.lang.Object getRenderingHint(java.awt.RenderingHints$Key)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getRenderingHints()",
+      "signature": "java.awt.RenderingHints getRenderingHints()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getStroke()",
+      "signature": "java.awt.Stroke getStroke()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#getTransform()",
+      "signature": "java.awt.geom.AffineTransform getTransform()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#hit(java.awt.Rectangle, java.awt.Shape, boolean)",
+      "signature": "boolean hit(java.awt.Rectangle, java.awt.Shape, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#hitClip(int, int, int, int)",
+      "signature": "boolean hitClip(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#rotate(double)",
+      "signature": "void rotate(double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#rotate(double, double, double)",
+      "signature": "void rotate(double, double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#scale(double, double)",
+      "signature": "void scale(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setBackground(java.awt.Color)",
+      "signature": "void setBackground(java.awt.Color)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setClip(int, int, int, int)",
+      "signature": "void setClip(int, int, int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setClip(java.awt.Shape)",
+      "signature": "void setClip(java.awt.Shape)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setColor(java.awt.Color)",
+      "signature": "void setColor(java.awt.Color)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setComposite(java.awt.Composite)",
+      "signature": "void setComposite(java.awt.Composite)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setFont(java.awt.Font)",
+      "signature": "void setFont(java.awt.Font)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setPaint(java.awt.Paint)",
+      "signature": "void setPaint(java.awt.Paint)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setPaintMode()",
+      "signature": "void setPaintMode()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setRenderingHint(java.awt.RenderingHints$Key, java.lang.Object)",
+      "signature": "void setRenderingHint(java.awt.RenderingHints$Key, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setRenderingHints(java.util.Map<?, ?>)",
+      "signature": "void setRenderingHints(java.util.Map<?, ?>)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setStroke(java.awt.Stroke)",
+      "signature": "void setStroke(java.awt.Stroke)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setTransform(java.awt.geom.AffineTransform)",
+      "signature": "void setTransform(java.awt.geom.AffineTransform)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#setXORMode(java.awt.Color)",
+      "signature": "void setXORMode(java.awt.Color)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#shear(double, double)",
+      "signature": "void shear(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#transform(java.awt.geom.AffineTransform)",
+      "signature": "void transform(java.awt.geom.AffineTransform)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#translate(double, double)",
+      "signature": "void translate(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.DummyGraphics2d#translate(int, int)",
+      "signature": "void translate(int, int)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.OutputFormat#addSlide(double, double)",
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.OutputFormat#writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.OutputFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.PDFFormat#addSlide(double, double)",
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.PDFFormat#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.PDFFormat#writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.PDFFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.PPTX2PNG$ProxyConsumer#parse(org.apache.poi.xslf.util.MFProxy)",
+      "signature": "void parse(org.apache.poi.xslf.util.MFProxy)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.SVGFormat#addSlide(double, double)",
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.SVGFormat#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xslf.util.SVGFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xssf.binary.XSSFBParser#getMaxRecordLength()",
+      "signature": "int getMaxRecordLength()"
+    },
+    {
+      "key": "org.apache.poi.xssf.binary.XSSFBParser#setMaxRecordLength(int)",
+      "signature": "void setMaxRecordLength(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#getDocument()",
+      "signature": "java.lang.Object getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#getFilesystem()",
+      "signature": "java.io.Closeable getFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#isCloseFilesystem()",
+      "signature": "boolean isCloseFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFEventBasedExcelExtractor#setCloseFilesystem(boolean)",
+      "signature": "void setCloseFilesystem(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFExcelExtractor#getDocument()",
+      "signature": "java.lang.Object getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFExcelExtractor#getFilesystem()",
+      "signature": "java.io.Closeable getFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFExcelExtractor#isCloseFilesystem()",
+      "signature": "boolean isCloseFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xssf.extractor.XSSFExcelExtractor#setCloseFilesystem(boolean)",
+      "signature": "void setCloseFilesystem(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.model.ExternalLinksTable$ExternalName#isHidden()",
+      "signature": "boolean isHidden()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFSheet#getWorksheetXMLInputStream()",
+      "signature": "java.io.InputStream getWorksheetXMLInputStream()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFSheet#setRowGenerator(org.apache.poi.xssf.streaming.RowGeneratorFunction)",
+      "signature": "void setRowGenerator(org.apache.poi.xssf.streaming.RowGeneratorFunction)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFSheet#writeRows(java.io.OutputStream)",
+      "signature": "void writeRows(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#createSheet()",
+      "signature": "org.apache.poi.ss.usermodel.Sheet createSheet()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#createSheet(java.lang.String)",
+      "signature": "org.apache.poi.ss.usermodel.Sheet createSheet(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#getStreamingSheet(java.lang.String)",
+      "signature": "org.apache.poi.xssf.streaming.DeferredSXSSFSheet getStreamingSheet(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#getStreamingSheetAt(int)",
+      "signature": "org.apache.poi.xssf.streaming.DeferredSXSSFSheet getStreamingSheetAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#getXSSFSheet(java.lang.String)",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFSheet getXSSFSheet(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#removeSheetAt(int)",
+      "signature": "void removeSheetAt(int)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook#sheetIterator()",
+      "signature": "java.util.Iterator<org.apache.poi.ss.usermodel.Sheet> sheetIterator()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.RowGeneratorFunction#generateRows(org.apache.poi.xssf.streaming.SXSSFSheet)",
+      "signature": "void generateRows(org.apache.poi.xssf.streaming.SXSSFSheet)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFSheet#flushBufferedData()",
+      "signature": "void flushBufferedData()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#createEvaluationWorkbook()",
+      "signature": "org.apache.poi.ss.formula.EvaluationWorkbook createEvaluationWorkbook()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook#writeAvoidingTempFiles(java.io.OutputStream)",
+      "signature": "void writeAvoidingTempFiles(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook$ISheetInjector#writeSheetData(java.io.OutputStream)",
+      "signature": "void writeSheetData(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.StreamingSheetWriter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.StreamingSheetWriter#createTempFile()",
+      "signature": "java.io.File createTempFile()"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.StreamingSheetWriter#createWriter(java.io.File)",
+      "signature": "java.io.Writer createWriter(java.io.File)"
+    },
+    {
+      "key": "org.apache.poi.xssf.streaming.StreamingSheetWriter#getWorksheetXMLInputStream()",
+      "signature": "java.io.InputStream getWorksheetXMLInputStream()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFFont#setCharSet(org.apache.poi.common.usermodel.fonts.FontCharset)",
+      "signature": "void setCharSet(org.apache.poi.common.usermodel.fonts.FontCharset)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFHyperlink#copy()",
+      "signature": "org.apache.poi.common.Duplicatable copy()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFName#isHidden()",
+      "signature": "boolean isHidden()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFRow#copyRowFrom(org.apache.poi.ss.usermodel.Row, org.apache.poi.ss.usermodel.CellCopyPolicy, org.apache.poi.ss.usermodel.CellCopyContext)",
+      "signature": "void copyRowFrom(org.apache.poi.ss.usermodel.Row, org.apache.poi.ss.usermodel.CellCopyPolicy, org.apache.poi.ss.usermodel.CellCopyContext)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFSheet#removeHyperlink(org.apache.poi.xssf.usermodel.XSSFHyperlink)",
+      "signature": "void removeHyperlink(org.apache.poi.xssf.usermodel.XSSFHyperlink)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFSignatureLine#add(org.apache.poi.xssf.usermodel.XSSFSheet, org.apache.poi.xssf.usermodel.XSSFClientAnchor)",
+      "signature": "void add(org.apache.poi.xssf.usermodel.XSSFSheet, org.apache.poi.xssf.usermodel.XSSFClientAnchor)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFSignatureLine#parse(org.apache.poi.xssf.usermodel.XSSFSheet)",
+      "signature": "void parse(org.apache.poi.xssf.usermodel.XSSFSheet)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFVMLDrawing#getDocument()",
+      "signature": "org.apache.poi.schemas.vmldrawing.XmlDocument getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#createEvaluationWorkbook()",
+      "signature": "org.apache.poi.ss.formula.EvaluationWorkbook createEvaluationWorkbook()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbook#getXssfFactory()",
+      "signature": "org.apache.poi.xssf.usermodel.XSSFFactory getXssfFactory()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#accepts(org.apache.poi.poifs.filesystem.FileMagic)",
+      "signature": "boolean accepts(org.apache.poi.poifs.filesystem.FileMagic)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create(java.io.File, java.lang.String, boolean)",
+      "signature": "org.apache.poi.ss.usermodel.Workbook create(java.io.File, java.lang.String, boolean)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create(java.io.InputStream)",
+      "signature": "org.apache.poi.ss.usermodel.Workbook create(java.io.InputStream)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create(java.io.InputStream, java.lang.String)",
+      "signature": "org.apache.poi.ss.usermodel.Workbook create(java.io.InputStream, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)",
+      "signature": "org.apache.poi.ss.usermodel.Workbook create(org.apache.poi.poifs.filesystem.DirectoryNode, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.helpers.XSSFSingleXmlCell#getXmlDataType()",
+      "signature": "java.lang.String getXmlDataType()"
+    },
+    {
+      "key": "org.apache.poi.xssf.usermodel.helpers.XSSFXmlColumnPr#getXmlDataType()",
+      "signature": "java.lang.String getXmlDataType()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.extractor.XWPFWordExtractor#getDocument()",
+      "signature": "java.lang.Object getDocument()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.extractor.XWPFWordExtractor#getFilesystem()",
+      "signature": "java.io.Closeable getFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.extractor.XWPFWordExtractor#isCloseFilesystem()",
+      "signature": "boolean isCloseFilesystem()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.extractor.XWPFWordExtractor#setCloseFilesystem(boolean)",
+      "signature": "void setCloseFilesystem(boolean)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.TableRowHeightRule#getValue()",
+      "signature": "int getValue()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.TableRowHeightRule#valueOf(int)",
+      "signature": "org.apache.poi.xwpf.usermodel.TableRowHeightRule valueOf(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.TableRowHeightRule#valueOf(java.lang.String)",
+      "signature": "org.apache.poi.xwpf.usermodel.TableRowHeightRule valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.TableRowHeightRule#values()",
+      "signature": "org.apache.poi.xwpf.usermodel.TableRowHeightRule[] values()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFAbstractNum#setCtAbstractNum(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTAbstractNum)",
+      "signature": "void setCtAbstractNum(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTAbstractNum)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#createParagraph()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFParagraph createParagraph()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#createTable(int, int)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFTable createTable(int, int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getBodyElements()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.IBodyElement> getBodyElements()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getComments()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComments getComments()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getCtComment()",
+      "signature": "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComment getCtComment()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getDate()",
+      "signature": "java.util.Calendar getDate()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getInitials()",
+      "signature": "java.lang.String getInitials()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getParagraph(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTP)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFParagraph getParagraph(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTP)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getParagraphArray(int)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFParagraph getParagraphArray(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getParagraphs()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFParagraph> getParagraphs()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getPart()",
+      "signature": "org.apache.poi.ooxml.POIXMLDocumentPart getPart()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getPartType()",
+      "signature": "org.apache.poi.xwpf.usermodel.BodyType getPartType()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getTable(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTbl)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFTable getTable(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTbl)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getTableArray(int)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFTable getTableArray(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getTableCell(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTc)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFTableCell getTableCell(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTc)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getTables()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFTable> getTables()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#getXWPFDocument()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFDocument getXWPFDocument()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#insertNewParagraph(org.apache.xmlbeans.XmlCursor)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFParagraph insertNewParagraph(org.apache.xmlbeans.XmlCursor)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#insertNewTbl(org.apache.xmlbeans.XmlCursor)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFTable insertNewTbl(org.apache.xmlbeans.XmlCursor)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#insertTable(int, org.apache.poi.xwpf.usermodel.XWPFTable)",
+      "signature": "void insertTable(int, org.apache.poi.xwpf.usermodel.XWPFTable)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#removeParagraph(org.apache.poi.xwpf.usermodel.XWPFParagraph)",
+      "signature": "void removeParagraph(org.apache.poi.xwpf.usermodel.XWPFParagraph)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#removeTable(org.apache.poi.xwpf.usermodel.XWPFTable)",
+      "signature": "void removeTable(org.apache.poi.xwpf.usermodel.XWPFTable)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#setAuthor(java.lang.String)",
+      "signature": "void setAuthor(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#setDate(java.util.Calendar)",
+      "signature": "void setDate(java.util.Calendar)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComment#setInitials(java.lang.String)",
+      "signature": "void setInitials(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#addPictureData(byte[], int)",
+      "signature": "java.lang.String addPictureData(byte[], int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#addPictureData(java.io.InputStream, int)",
+      "signature": "java.lang.String addPictureData(java.io.InputStream, int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#createComment(java.math.BigInteger)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComment createComment(java.math.BigInteger)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getAllPictures()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFPictureData> getAllPictures()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getComment(int)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComment getComment(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getComment(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComment)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComment getComment(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComment)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getCommentByID(java.lang.String)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComment getCommentByID(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getComments()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFComment> getComments()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getCtComments()",
+      "signature": "org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComments getCtComments()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#getXWPFDocument()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFDocument getXWPFDocument()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#onDocumentRead()",
+      "signature": "void onDocumentRead()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#removeComment(int)",
+      "signature": "boolean removeComment(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#setCtComments(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComments)",
+      "signature": "void setCtComments(org.openxmlformats.schemas.wordprocessingml.x2006.main.CTComments)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFComments#setXWPFDocument(org.apache.poi.xwpf.usermodel.XWPFDocument)",
+      "signature": "void setXWPFDocument(org.apache.poi.xwpf.usermodel.XWPFDocument)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFDefaultRunStyle#getFontSizeAsDouble()",
+      "signature": "java.lang.Double getFontSizeAsDouble()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFDocument#createComments()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComments createComments()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFDocument#getDocComments()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFComments getDocComments()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFLatentStyles#isLatentStyle(java.lang.String)",
+      "signature": "boolean isLatentStyle(java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFNumbering#getAbstractNums()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFAbstractNum> getAbstractNums()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFNumbering#getNums()",
+      "signature": "java.util.List<org.apache.poi.xwpf.usermodel.XWPFNum> getNums()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#createFieldRun()",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFFieldRun createFieldRun()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#getIndentationLeftChars()",
+      "signature": "int getIndentationLeftChars()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#getIndentationRightChars()",
+      "signature": "int getIndentationRightChars()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#insertNewFieldRun(int)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFFieldRun insertNewFieldRun(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#insertNewHyperlinkRun(int, java.lang.String)",
+      "signature": "org.apache.poi.xwpf.usermodel.XWPFHyperlinkRun insertNewHyperlinkRun(int, java.lang.String)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#setIndentationLeftChars(int)",
+      "signature": "void setIndentationLeftChars(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFParagraph#setIndentationRightChars(int)",
+      "signature": "void setIndentationRightChars(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFRun#getFontSizeAsDouble()",
+      "signature": "java.lang.Double getFontSizeAsDouble()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFRun#setFontSize(double)",
+      "signature": "void setFontSize(double)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFSignatureLine#add(org.apache.poi.xwpf.usermodel.XWPFParagraph)",
+      "signature": "void add(org.apache.poi.xwpf.usermodel.XWPFParagraph)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFSignatureLine#parse(org.apache.poi.xwpf.usermodel.XWPFDocument)",
+      "signature": "void parse(org.apache.poi.xwpf.usermodel.XWPFDocument)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFTableCell#removeTable(int)",
+      "signature": "void removeTable(int)"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFTableRow#getHeightRule()",
+      "signature": "org.apache.poi.xwpf.usermodel.TableRowHeightRule getHeightRule()"
+    },
+    {
+      "key": "org.apache.poi.xwpf.usermodel.XWPFTableRow#setHeightRule(org.apache.poi.xwpf.usermodel.TableRowHeightRule)",
+      "signature": "void setHeightRule(org.apache.poi.xwpf.usermodel.TableRowHeightRule)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureMarshalListener",
+      "old": "void setSignatureMarshalListener(org.w3c.dom.events.EventListener)",
+      "new": "void setSignatureMarshalListener(org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureMarshalListener(org.w3c.dom.events.EventListener)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig#setSignatureMarshalListener(org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement",
+      "old": "void handleElement(org.w3c.dom.Element)",
+      "new": "void handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement(org.w3c.dom.Element)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.EnvelopedSignatureFacet#preSign",
+      "old": "void preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new": "void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.EnvelopedSignatureFacet#preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.EnvelopedSignatureFacet#preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.KeyInfoSignatureFacet#postSign",
+      "old": "void postSign(org.w3c.dom.Document)",
+      "new": "void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.KeyInfoSignatureFacet#postSign(org.w3c.dom.Document)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.KeyInfoSignatureFacet#postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.OOXMLSignatureFacet#preSign",
+      "old": "void preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new": "void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.OOXMLSignatureFacet#preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.OOXMLSignatureFacet#preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.Office2010SignatureFacet#postSign",
+      "old": "void postSign(org.w3c.dom.Document)",
+      "new": "void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.Office2010SignatureFacet#postSign(org.w3c.dom.Document)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.Office2010SignatureFacet#postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign",
+      "old": "void postSign(org.w3c.dom.Document)",
+      "new": "void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign(org.w3c.dom.Document)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign",
+      "old": "void preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new": "void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.XAdESSignatureFacet#preSign",
+      "old": "void preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new": "void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.XAdESSignatureFacet#preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.XAdESSignatureFacet#preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.facets.XAdESXLSignatureFacet#postSign",
+      "old": "void postSign(org.w3c.dom.Document)",
+      "new": "void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.facets.XAdESXLSignatureFacet#postSign(org.w3c.dom.Document)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.facets.XAdESXLSignatureFacet#postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#timeStamp",
+      "old": "byte[] timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "new": "byte[] timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.services.TSPTimeStampService#timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)"
+    },
+    {
+      "name": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp",
+      "old": "byte[] timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "new": "byte[] timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "old_key": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "new_key": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData$Series#setExplosion",
+      "old": "void setExplosion(long)",
+      "new": "void setExplosion(java.lang.Long)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData$Series#setExplosion(long)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFDoughnutChartData$Series#setExplosion(java.lang.Long)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch",
+      "old": "boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties)",
+      "new": "boolean fetch(org.apache.poi.xslf.usermodel.XSLFShape)",
+      "old_key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties)",
+      "new_key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch(org.apache.poi.xslf.usermodel.XSLFShape)"
+    },
+    {
+      "name": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create",
+      "old": "org.apache.poi.xslf.usermodel.XMLSlideShow create(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "new": "org.apache.poi.sl.usermodel.SlideShow create()",
+      "old_key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "new_key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#create()"
+    },
+    {
+      "name": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
+    },
+    {
+      "name": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create",
+      "old": "org.apache.poi.xssf.usermodel.XSSFWorkbook create(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "new": "org.apache.poi.ss.usermodel.Workbook create()",
+      "old_key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create(org.apache.poi.openxml4j.opc.OPCPackage)",
+      "new_key": "org.apache.poi.xssf.usermodel.XSSFWorkbookFactory#create()"
+    }
+  ],
+  "counts": {
+    "old_methods": 5888,
+    "new_methods": 6118,
+    "removed": 230,
+    "added": 460,
+    "changed": 28,
+    "removed_classes": 37,
+    "added_classes": 51
+  },
+  "removed_classes": [
+    "org.apache.poi.ooxml.extractor.ExtractorFactory",
+    "org.apache.poi.openxml4j.util.Nullable",
+    "org.apache.poi.poifs.crypt.agile.AgileDecryptor",
+    "org.apache.poi.poifs.crypt.agile.AgileDecryptor$AgileCipherInputStream",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionInfoBuilder",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier$AgileCertificateEntry",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptor",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptor$AgileCipherOutputStream",
+    "org.apache.poi.poifs.crypt.dsig.CertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.ExpiredCertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.RevokedCertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.SignatureConfig$SignatureConfigurable",
+    "org.apache.poi.poifs.crypt.dsig.TrustCertificateSecurityException",
+    "org.apache.poi.xdgf.geom.Dimension2dDouble",
+    "org.apache.poi.xdgf.usermodel.section.CombinedIterable",
+    "org.apache.poi.xdgf.usermodel.section.geometry.GeometryRowFactory",
+    "org.apache.poi.xdgf.util.ObjectFactory",
+    "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor",
+    "org.apache.poi.xslf.usermodel.XSLFObjectShape$XSLFObjectOutputStream",
+    "org.apache.poi.xssf.binary.package",
+    "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries",
+    "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartUtil",
+    "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData",
+    "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData$Series",
+    "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout",
+    "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData",
+    "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData$Series",
+    "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis",
+    "org.apache.poi.xwpf.model.WMLHelper",
+    "org.apache.poi.xwpf.package"
+  ],
+  "added_classes": [
+    "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory",
+    "org.apache.poi.ooxml.util.POIXMLUnits",
+    "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart",
+    "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$SignaturePartIterator",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$XmlProviderInitSingleton",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$XmlProviderInitSingleton$SingletonHelper",
+    "org.apache.poi.poifs.crypt.dsig.SignatureLine",
+    "org.apache.poi.poifs.crypt.dsig.SignatureLine$AddPictureData",
+    "org.apache.poi.poifs.crypt.dsig.SignatureMarshalDefaultListener",
+    "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacetHelper",
+    "org.apache.poi.poifs.crypt.dsig.services.RelationshipTransformService$POIXmlDsigProvider",
+    "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint",
+    "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes",
+    "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes",
+    "org.apache.poi.xslf.draw.SVGPOIGraphics2D",
+    "org.apache.poi.xslf.draw.SVGRenderExtension",
+    "org.apache.poi.xslf.draw.SVGUserAgent",
+    "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint",
+    "org.apache.poi.xslf.draw.geom.XSLFAdjustValue",
+    "org.apache.poi.xslf.draw.geom.XSLFArcTo",
+    "org.apache.poi.xslf.draw.geom.XSLFConnectionSite",
+    "org.apache.poi.xslf.draw.geom.XSLFCurveTo",
+    "org.apache.poi.xslf.draw.geom.XSLFCustomGeometry",
+    "org.apache.poi.xslf.draw.geom.XSLFGuide",
+    "org.apache.poi.xslf.draw.geom.XSLFLineTo",
+    "org.apache.poi.xslf.draw.geom.XSLFMoveTo",
+    "org.apache.poi.xslf.draw.geom.XSLFPath",
+    "org.apache.poi.xslf.draw.geom.XSLFPolarAdjustHandle",
+    "org.apache.poi.xslf.draw.geom.XSLFQuadTo",
+    "org.apache.poi.xslf.draw.geom.XSLFXYAdjustHandle",
+    "org.apache.poi.xslf.extractor.XSLFExtractor",
+    "org.apache.poi.xslf.model.CharacterPropertyFetcher$CharPropFetcher",
+    "org.apache.poi.xslf.model.ParagraphPropertyFetcher$ParaPropFetcher",
+    "org.apache.poi.xslf.util.BitmapFormat",
+    "org.apache.poi.xslf.util.DummyFormat",
+    "org.apache.poi.xslf.util.DummyGraphics2d",
+    "org.apache.poi.xslf.util.OutputFormat",
+    "org.apache.poi.xslf.util.PDFFontMapper",
+    "org.apache.poi.xslf.util.PDFFormat",
+    "org.apache.poi.xslf.util.PPTX2PNG$ProxyConsumer",
+    "org.apache.poi.xslf.util.SVGFormat",
+    "org.apache.poi.xssf.streaming.DeferredSXSSFSheet",
+    "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook",
+    "org.apache.poi.xssf.streaming.RowGeneratorFunction",
+    "org.apache.poi.xssf.streaming.SXSSFWorkbook$ISheetInjector",
+    "org.apache.poi.xssf.streaming.StreamingSheetWriter",
+    "org.apache.poi.xssf.usermodel.XSSFSignatureLine",
+    "org.apache.poi.xwpf.usermodel.TableRowHeightRule",
+    "org.apache.poi.xwpf.usermodel.XWPFComments",
+    "org.apache.poi.xwpf.usermodel.XWPFSignatureLine"
+  ],
+  "old_jar": "jar_cache/org.apache.poi_poi-ooxml_4.1.2.jar",
+  "new_jar": "jar_cache/org.apache.poi_poi-ooxml_5.1.0.jar",
+  "group_id": "org.apache.poi",
+  "artifact_id": "poi-ooxml",
+  "old_version": "4.1.2",
+  "new_version": "5.1.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.apache.poi:poi-ooxml-schemas"
+      ],
+      "added": [
+        "commons-io:commons-io",
+        "de.rototor.pdfbox:graphics2d",
+        "org.apache.commons:commons-collections4",
+        "org.apache.logging.log4j:log4j-api",
+        "org.apache.poi:poi-ooxml-lite",
+        "org.apache.santuario:xmlsec",
+        "org.apache.xmlbeans:xmlbeans",
+        "org.apache.xmlgraphics:batik-bridge",
+        "org.apache.xmlgraphics:batik-codec",
+        "org.apache.xmlgraphics:batik-svggen",
+        "org.apache.xmlgraphics:batik-svgrasterizer",
+        "org.bouncycastle:bcpkix-jdk15on",
+        "org.bouncycastle:bcutil-jdk15on"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.apache.commons:commons-compress",
+          "old": "1.19",
+          "new": "1.21"
+        },
+        {
+          "dependency": "org.apache.poi:poi",
+          "old": "4.1.2",
+          "new": "5.1.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "fscrawler"
+  ]
+}

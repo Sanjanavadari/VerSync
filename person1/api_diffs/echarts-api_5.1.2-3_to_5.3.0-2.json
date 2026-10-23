@@ -1,0 +1,198 @@
+{
+  "removed": [
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#getId()",
+      "signature": "java.lang.String getId()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#setId(java.lang.String)",
+      "signature": "void setId(java.lang.String)"
+    }
+  ],
+  "added": [
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#getDomainAxisItemName()",
+      "signature": "java.lang.String getDomainAxisItemName()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#getRangeMax()",
+      "signature": "java.lang.Integer getRangeMax()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#getRangeMin()",
+      "signature": "java.lang.Integer getRangeMin()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#isIntegerRangeAxis()",
+      "signature": "boolean isIntegerRangeAxis()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#setDomainAxisItemName(java.lang.String)",
+      "signature": "void setDomainAxisItemName(java.lang.String)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#setRangeMax(int)",
+      "signature": "void setRangeMax(int)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#setRangeMin(int)",
+      "signature": "void setRangeMin(int)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.LinesChartModel#useContinuousRangeAxis()",
+      "signature": "void useContinuousRangeAxis()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#collapseEmptyPackages()",
+      "signature": "void collapseEmptyPackages()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#getChildren()",
+      "signature": "java.util.List<edu.hm.hafner.echarts.TreeMapNode> getChildren()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#getItemStyle()",
+      "signature": "edu.hm.hafner.echarts.ItemStyle getItemStyle()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#getValue()",
+      "signature": "java.util.List<java.lang.Double> getValue()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#insertNode(edu.hm.hafner.echarts.TreeMapNode)",
+      "signature": "void insertNode(edu.hm.hafner.echarts.TreeMapNode)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeMapNode#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#collapsePackage()",
+      "signature": "void collapsePackage()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#getChildren()",
+      "signature": "java.util.List<edu.hm.hafner.echarts.TreeNode> getChildren()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#getChildrenMap()",
+      "signature": "java.util.Map<java.lang.String, edu.hm.hafner.echarts.TreeNode> getChildrenMap()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#getValue()",
+      "signature": "double getValue()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#insertNode(edu.hm.hafner.echarts.TreeNode)",
+      "signature": "void insertNode(edu.hm.hafner.echarts.TreeNode)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#setName(java.lang.String)",
+      "signature": "void setName(java.lang.String)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#setValue(double)",
+      "signature": "void setValue(double)"
+    },
+    {
+      "key": "edu.hm.hafner.echarts.TreeNode#toString()",
+      "signature": "java.lang.String toString()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 82200,
+    "new_methods": 82226,
+    "removed": 2,
+    "added": 28,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "edu.hm.hafner.echarts.TreeMapNode",
+    "edu.hm.hafner.echarts.TreeNode"
+  ],
+  "old_jar": "jar_cache/io.jenkins.plugins_echarts-api_5.1.2-3.hpi",
+  "new_jar": "jar_cache/io.jenkins.plugins_echarts-api_5.3.0-2.hpi",
+  "group_id": "io.jenkins.plugins",
+  "artifact_id": "echarts-api",
+  "old_version": "5.1.2-3",
+  "new_version": "5.3.0-2",
+  "status": "OK",
+  "packaging": "hpi",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.github.spotbugs:spotbugs-annotations",
+        "org.kohsuke:access-modifier-annotation"
+      ],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "edu.hm.hafner:echarts-build-trends",
+          "old": "2.3.0",
+          "new": "3.2.0"
+        },
+        {
+          "dependency": "io.jenkins.plugins:bootstrap5-api",
+          "old": "5.0.2-1",
+          "new": "5.1.3-5"
+        },
+        {
+          "dependency": "io.jenkins.plugins:font-awesome-api",
+          "old": "5.15.3-4",
+          "new": "6.0.0-1"
+        },
+        {
+          "dependency": "io.jenkins.plugins:plugin-util-api",
+          "old": "2.4.0",
+          "new": "2.13.0"
+        },
+        {
+          "dependency": "org.jenkins-ci.main:jenkins-core",
+          "old": "2.263.1",
+          "new": "2.289.1"
+        },
+        {
+          "dependency": "org.jenkins-ci.plugins:jackson2-api",
+          "old": "2.12.3",
+          "new": "2.13.1-246.va8a9f3eaf46a"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "pull-request-monitoring-plugin"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "plugin",
+  "old_version": "6.2221.va_045130417c9",
+  "new_version": "6.2236.v12dd4c483242",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.jenkins-ci.main:jenkins-test-harness",
+          "old": "2578.v44660312fd37",
+          "new": "2582.v92781333ea_78"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 1,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "github-checks-plugin",
+    "github-oauth-plugin"
+  ]
+}

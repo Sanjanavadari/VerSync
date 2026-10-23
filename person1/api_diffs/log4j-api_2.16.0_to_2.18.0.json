@@ -1,0 +1,169 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.logging.log4j.util.LoaderUtil#getClassLoaders()",
+      "signature": "java.lang.ClassLoader[] getClassLoaders()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertyFilePropertySource#getPriority()",
+      "signature": "int getPriority()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.apache.logging.log4j.message.StructuredDataId#makeId(java.lang.String, java.lang.String)",
+      "signature": "org.apache.logging.log4j.message.StructuredDataId makeId(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.simple.SimpleLoggerContext#getLoggerRegistry()",
+      "signature": "org.apache.logging.log4j.spi.LoggerRegistry<org.apache.logging.log4j.spi.ExtendedLogger> getLoggerRegistry()"
+    },
+    {
+      "key": "org.apache.logging.log4j.spi.LoggerContext#getLoggerRegistry()",
+      "signature": "org.apache.logging.log4j.spi.LoggerRegistry<? extends org.apache.logging.log4j.Logger> getLoggerRegistry()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.EnvironmentPropertySource#containsProperty(java.lang.String)",
+      "signature": "boolean containsProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.EnvironmentPropertySource#getProperty(java.lang.String)",
+      "signature": "java.lang.String getProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.EnvironmentPropertySource#getPropertyNames()",
+      "signature": "java.util.Collection<java.lang.String> getPropertyNames()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.OsgiServiceLocator#isAvailable()",
+      "signature": "boolean isAvailable()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.OsgiServiceLocator#loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup)",
+      "signature": "java.util.stream.Stream<T> loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.OsgiServiceLocator#loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup, boolean)",
+      "signature": "java.util.stream.Stream<T> loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup, boolean)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertiesPropertySource#containsProperty(java.lang.String)",
+      "signature": "boolean containsProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertiesPropertySource#getProperty(java.lang.String)",
+      "signature": "java.lang.String getProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertiesPropertySource#getPropertyNames()",
+      "signature": "java.util.Collection<java.lang.String> getPropertyNames()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertiesUtil#partitionOnCommonPrefixes(java.util.Properties, boolean)",
+      "signature": "java.util.Map<java.lang.String, java.util.Properties> partitionOnCommonPrefixes(java.util.Properties, boolean)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.PropertySource#getPropertyNames()",
+      "signature": "java.util.Collection<java.lang.String> getPropertyNames()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil#loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup)",
+      "signature": "java.util.stream.Stream<T> loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil#loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup, boolean)",
+      "signature": "java.util.stream.Stream<T> loadServices(java.lang.Class<T>, java.lang.invoke.MethodHandles$Lookup, boolean)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator#characteristics()",
+      "signature": "int characteristics()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator#estimateSize()",
+      "signature": "long estimateSize()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator#tryAdvance(java.util.function.Consumer<? super S>)",
+      "signature": "boolean tryAdvance(java.util.function.Consumer<? super S>)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator#trySplit()",
+      "signature": "java.util.Spliterator<S> trySplit()"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.StackLocatorUtil#getCallerClassLoader(int)",
+      "signature": "java.lang.ClassLoader getCallerClassLoader(int)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.Strings#splitList(java.lang.String)",
+      "signature": "java.lang.String[] splitList(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.Strings#toRootLowerCase(java.lang.String)",
+      "signature": "java.lang.String toRootLowerCase(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.SystemPropertiesPropertySource#containsProperty(java.lang.String)",
+      "signature": "boolean containsProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.SystemPropertiesPropertySource#getProperty(java.lang.String)",
+      "signature": "java.lang.String getProperty(java.lang.String)"
+    },
+    {
+      "key": "org.apache.logging.log4j.util.SystemPropertiesPropertySource#getPropertyNames()",
+      "signature": "java.util.Collection<java.lang.String> getPropertyNames()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 1817,
+    "new_methods": 1841,
+    "removed": 2,
+    "added": 26,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 10
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.logging.log4j.internal.package",
+    "org.apache.logging.log4j.message.package",
+    "org.apache.logging.log4j.package",
+    "org.apache.logging.log4j.simple.package",
+    "org.apache.logging.log4j.spi.package",
+    "org.apache.logging.log4j.status.package",
+    "org.apache.logging.log4j.util.OsgiServiceLocator",
+    "org.apache.logging.log4j.util.ServiceLoaderUtil",
+    "org.apache.logging.log4j.util.ServiceLoaderUtil$ServiceLoaderSpliterator",
+    "org.apache.logging.log4j.util.package"
+  ],
+  "old_jar": "jar_cache/org.apache.logging.log4j_log4j-api_2.16.0.jar",
+  "new_jar": "jar_cache/org.apache.logging.log4j_log4j-api_2.18.0.jar",
+  "group_id": "org.apache.logging.log4j",
+  "artifact_id": "log4j-api",
+  "old_version": "2.16.0",
+  "new_version": "2.18.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.apache.logging.log4j:log4j-api-java9"
+      ],
+      "added": [
+        "org.junit-pioneer:junit-pioneer",
+        "uk.org.webcompere:system-stubs-jupiter"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "webapp"
+  ]
+}

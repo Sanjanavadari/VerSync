@@ -1,0 +1,34 @@
+{
+  "project": "radiobrowser4j",
+  "classification": "SAFE",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/sfuhrm/radiobrowser4j.git",
+  "dependency": "org.glassfish.jersey.inject:jersey-hk2",
+  "old_version": "3.0.11",
+  "new_version": "3.1.3",
+  "source_repo": "eclipse-ee4j/jersey",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "3.0.12",
+    "3.0.13",
+    "3.0.14",
+    "3.0.15",
+    "3.0.16",
+    "3.0.17",
+    "3.0.18",
+    "3.1.0",
+    "3.1.1",
+    "3.1.2",
+    "3.1.3"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/eclipse-ee4j/jersey/compare/3.0.11...3.1.3",
+  "sources": [
+    "github_release"
+  ],
+  "sections": {
+    "release_notes": "## 3.0.12\n[Pull 5449] - User Guide: Jackson 2.14 -> 2.15 migration\n\n[Pull 5450] - Updated Parsson\n\n[Pull 5452] - Non-Jakarta dependencies version update\n\n[Pull 5453] - Jakarta dependencies version update\n\n## 3.0.13\n[Pull 5520] - exclude default JSON-P IMPL from API\n\n[Pull 5584] - [3.0] versions update\n\n## 3.0.14\n[Pull 5610] - Wiremock version update\n\n[Pull 5616] - mvc-thymeleaf extension\n\n[Pull 5640] - Jakartize & cleanup after 2.x merge\n\n## 3.0.15\n[Pull 5684] - Do not point to a SNAPSHOT Jersey in version-agnostic tests\n\n[Pull 5711] - [3.0] Multi-Release jar fix\n\n## 3.0.16\n[Pull 5741] - [3.0] Legacy code removal (DefaultJacksonJaxbJsonProvider)\n\n## 3.0.17\nRelease includes only bugfixes ported from 2.46\n\n## 3.0.18\n[Pull 5912] - oauth2 deps cleanup\n\n[Pull 5930] - Versions update\n\n## 3.1.0\n[Issue 4819] - Adopt 3.1 API\n\n[Issue 4834] - Application/octet-stream is set as mediaType when uploading json file payload using form parameters instead of application/json\n\n[Issue 4870] - Documentation: Default Exception Mapper\n\n[Issue 4871] - Documentation: Update CompletionCallback example\n\n[Issue 4875] - Documentation: Document JAX-RS Feature JDK service\n\n[Issue 4941] - Release 3.1.0-M2\n\n[Issue 5103] - Can not serialize CompletionStage\n\n[Pull 4855] - Impl of the SameSite enum for NewCookie\n\n[Pull 4859] - Implementation of EntityPart API\n\n[Pull 4861] - Support for @ApplicationPath in SE\n\n[Pull 4863] - DefaultExceptionMapper\n\n[Pull 4866] - Remove JDK 8 related maven configuration\n\n[Pull 4868] - Added implementation of RuntimeDelegate#bootstrap(Class, Configuration)\n\n[Pull 4877] - Add Application/JSON media type for FileDataBodyPart json files.\n\n[Pull 4879] - enabling some examples for Jakarta EE 9\n\n[Pull 4880] - DefaultExceptionMapper documentation\n\n[Pull 4884] - Documentation for Feature and Dynamic Feature enchansments\n\n[Pull 4885] - Change of default behaviour of UNWRAP_COMPLETION_STAGE_IN_WRITER_ENABLE\n\n[Pull 4892] - Enable MP RestClient\n\n[Pull 4893] - Adjust getRequestHeader method\n\n[Pull 4895] - documentation for CompletionCallback implementation change since Jersey 3.1.0\n\n[Pull 4896] - Split MP REST Client integration test module to support javax.servlet…\n\n[Pull 4908] - Default Exception Mapper re-worked\n\n[Pull 4911] - Missing Content-Type header should be application/octet-stream optionally\n\n[Pull 4919] - Issue #3493 - Add BeanParam support to WebResourceFactory\n\n[Pull 4922] - merge actual master into 3.1\n\n[Pull 4923] - Documentation for the default Exception mapper\n\n[Pull 4925] - merge actual master into 3.1\n\n[Pull 4926] - Updated dependency versions\n\n[Pull 4927] - Adopt parsson\n\n[Pull 4929] - Updated dependency versions\n\n[Pull 4931] - Added a documentation for Jakarta REST EntityPart\n\n[Pull 4932] - merge actual master into 3.1\n\n[Pull 4934] - Replace usage of deprecated beanManager.createInjectionTarget\n\n[Pull 4936] - merge actual master into 3.1\n\n[Pull 4937] - Updated dependency versions\n\n[Pull 4938] - DefaultExceptionMapper made available for compliance check\n\n[Pull 4940] - Issue #4881 - Java client connector\n\n[Pull 4942] - Updating CI/CD JDK for 3.x build\n\n[Pull 4945] - OSGi version requirements for jakarta.enterprise explicitly added\n\n[Pull 4947] - Update to MP Rest Client 3.0 final\n\n[Pull 4956] - Support for hasProperty method\n\n[Pull 4958] - merge actual master into 3.1\n\n[Pull 4963] - Let Jackson use JAXB3\n\n[Pull 4973] - Added a test for a serverless resource testing\n\n[Pull 4976] - update 3.1 branch with actual master\n\n[Pull 4983] - Backwards merge of 3.x into 3.1\n\n[Pull 4990] - Temporarily exclude java-connector for M3\n\n[Pull 4991] - Update legal information for 3.1\n\n[Pull 4992] - Do not use privileged ports with WebServer by default\n\n[Pull 5008] - Update versions of JAX-B, Moxy, JSON-B, JSON-P\n\n[Pull 5009] - Dependency on servlet-api updated to version 6, grizzly to 4\n\n[Pull 5016] - Updated CDI, BV, and EL.\n\n[Pull 5019] - maven-bundle-plugin version update\n\n[Pull 5029] - Add MP RestClient module to BOM\n\n[Pull 5037] - Make sure the default exception mapper is processed\n\n[Pull 5040] - Move jersey-tck module to a tests folder & make it run with -Pjersey-tck\n\n[Pull 5047] - Use Jsonb more effectively\n\n[Pull 5066] - Rename Java Connector to JavaNetHttp Connector\n\n[Pull 5075] - Possibly use jersey WebServer with SeBootstrap.Configurator\n\n[Pull 5077] - Call CompletionCallback just once with DefaultExceptionMapper\n\n[Pull 5081] - Updated dependencies for 3.0.5\n\n[Pull 5086] - Updated EE10 dependency versions\n\n[Pull 5098] - Fix Multipart media type override by Jersey defaults.\n\n[Pull 5104] - Extensions for JNH connector\n\n[Pull 5120] - EE10 versions update\n\n[Pull 5152] - OSGi for JNH connector\n\n## 3.1.1\n[Issue 5192] - Documentation/Implementation issue for the default exception mapper in Jersey 3.1.0\n\n[Pull 5170] - Create HTTPS tests with JNH connector #5169\n\n[Pull 5193] - Default exception mapper processing\n\n[Pull 5197] - Update migration guide\n\n[Pull 5237] - Don't Specify Wildcard Package OSGi Version for MicroProfile Rest Client\n\n## 3.1.2\n[Issue 5295] - Test failures after migration to Jersey 3.1.1\n\n[Pull 5297] - Document ApplicationPath migration concern\n\n[Pull 5304] - Jakartified versions update\n\n[Pull 5312] - Support SNI for JNH connector\n\n[Pull 5321] - Update 3.1 EntityPart providers for Injectless Client\n\n[Pull 5323] - Workaround JNH InputStream.available() == 1 for no entity\n\n[Pull 5336] - Redirect GuardianList#toString to the guarded list\n\n## 3.1.3\n[Pull 5374] - exclude release and version-agnostic tests from release"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

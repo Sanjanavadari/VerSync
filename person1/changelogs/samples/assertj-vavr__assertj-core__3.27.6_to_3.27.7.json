@@ -1,0 +1,27 @@
+{
+  "project": "assertj-vavr",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/assertj/assertj-vavr/pull/248",
+  "dependency": "org.assertj:assertj-core",
+  "old_version": "3.27.6",
+  "new_version": "3.27.7",
+  "source_repo": "assertj/assertj",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "assertj-build-3.27.7"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/assertj/assertj/compare/3.27.6...3.27.7",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from org.assertj:assertj-core's releases.\n\nv3.27.7\n\n:lock: Security\n\nCore\n\nFix XXE vulnerability in isXmlEqualTo assertion (CVE-2026-24400)\n\nSee GHSA-rqfh-9r24-8c9r for details; many thanks to @​wxt201 and @​Song-Li for responsibly reporting it!\n\n:no_entry_sign: Deprecated\n\nCore\n\nDeprecate XmlStringPrettyFormatter with no replacement\n\n:bug: Bug Fixes\n\nGuava\n\nNavigation to assertj-core or guava types from assertj-guava Javadoc site has unnecessary header #3478\n\n:hammer: Dependency Upgrades\n\nCore\n\nUpgrade to Byte Buddy 1.18.3\n\nUpgrade to JUnit BOM 5.14.1\n\nGuava\n\nUpgrade to Guava 33.5.0-jre",
+    "pr_body_commits": "e840716 [maven-release-plugin] prepare release assertj-build-3.27.7\n\n85ca7eb Deprecate XmlStringPrettyFormatter\n\n77081dc Merge commit from fork\n\nb68fc24 Bump github/codeql-action from 4.31.9 to 4.31.10 in the github-actions group ...\n\n0cf5bb6 Bump kotlin.version from 2.1.0 to 2.2.21\n\nd393ef1 Abort tests when symbolic links cannot be created (#3788)\n\n2212433 Add IntelliJ custom inspection for test class names\n\n5717d02 Update JetBrains icon\n\na8ec20b Add icon for JetBrains products\n\nc05fb3d Bump Maven to 3.9.12 and Wrapper to 3.3.4\n\nAdditional commits viewable in compare view",
+    "release_notes": "## assertj-build-3.27.7\n## :lock: Security\r\n\r\n### Core\r\n\r\n* Fix XXE vulnerability in `isXmlEqualTo` assertion (CVE-2026-24400)\r\n  * See GHSA-rqfh-9r24-8c9r for details; many thanks to @wxt201 and @Song-Li for responsibly reporting it!\r\n\r\n## :no_entry_sign: Deprecated\r\n\r\n### Core\r\n\r\n* Deprecate `XmlStringPrettyFormatter` with no replacement\r\n\r\n## :bug: Bug Fixes\r\n\r\n### Guava\r\n\r\n* Navigation to `assertj-core` or `guava` types from `assertj-guava` Javadoc site has unnecessary header #3478\r\n\r\n## :hammer: Dependency Upgrades\r\n\r\n### Core\r\n\r\n* Upgrade to Byte Buddy 1.18.3\r\n* Upgrade to JUnit BOM 5.14.1\r\n\r\n### Guava\r\n\r\n* Upgrade to Guava 33.5.0-jre"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

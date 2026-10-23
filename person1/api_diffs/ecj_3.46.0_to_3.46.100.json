@@ -1,0 +1,144 @@
+{
+  "removed": [
+    {
+      "key": "org.eclipse.jdt.internal.compiler.batch.ClasspathMultiReleaseJar#initialize()",
+      "signature": "void initialize()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.LabeledStatement#bindingsWhenComplete()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.LocalVariableBinding[] bindingsWhenComplete()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.ast.NullAnnotationMatching#methodWithMergedNullAnnotations(org.eclipse.jdt.internal.compiler.lookup.MethodBinding, org.eclipse.jdt.internal.compiler.lookup.MethodBinding[], int, org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.MethodBinding methodWithMergedNullAnnotations(org.eclipse.jdt.internal.compiler.lookup.MethodBinding, org.eclipse.jdt.internal.compiler.lookup.MethodBinding[], int, org.eclipse.jdt.internal.compiler.lookup.LookupEnvironment)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.batch.ClasspathLocation#setPathKind(org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind)",
+      "signature": "void setPathKind(org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.batch.ClasspathMultiReleaseJar#reset()",
+      "signature": "void reset()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath#setPathKind(org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind)",
+      "signature": "void setPathKind(org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.impl.Constant#compareAfterPromoting(org.eclipse.jdt.internal.compiler.impl.Constant)",
+      "signature": "boolean compareAfterPromoting(org.eclipse.jdt.internal.compiler.impl.Constant)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.BoundSet#rankIVar(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable)",
+      "signature": "int rankIVar(org.eclipse.jdt.internal.compiler.lookup.InferenceVariable)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.CaptureBinding18#isSubtypeOf(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, boolean)",
+      "signature": "boolean isSubtypeOf(org.eclipse.jdt.internal.compiler.lookup.TypeBinding, boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ConstraintFormula#appendTypeName(java.lang.StringBuilder, org.eclipse.jdt.internal.compiler.lookup.TypeBinding)",
+      "signature": "void appendTypeName(java.lang.StringBuilder, org.eclipse.jdt.internal.compiler.lookup.TypeBinding)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome#lowerBoundUsed()",
+      "signature": "boolean lowerBoundUsed()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome#success()",
+      "signature": "boolean success()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.MethodBinding#copy()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.MethodBinding copy()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ParameterizedMethodBinding#copy()",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.MethodBinding copy()"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.lookup.ReferenceBinding#getFunctionalInterfaceAbstractContracts(org.eclipse.jdt.internal.compiler.lookup.Scope, boolean)",
+      "signature": "org.eclipse.jdt.internal.compiler.lookup.MethodBinding[] getFunctionalInterfaceAbstractContracts(org.eclipse.jdt.internal.compiler.lookup.Scope, boolean)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.util.Util#getFileWithinBaseDir(java.lang.String, java.lang.String)",
+      "signature": "java.io.File getFileWithinBaseDir(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.util.Util#isMultiRelease(java.util.zip.ZipFile)",
+      "signature": "boolean isMultiRelease(java.util.zip.ZipFile)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.util.Util#isNativeLibrary(java.lang.String)",
+      "signature": "boolean isNativeLibrary(java.lang.String)"
+    },
+    {
+      "key": "org.eclipse.jdt.internal.compiler.util.Util#isSafeRelativePath(java.lang.String)",
+      "signature": "boolean isSafeRelativePath(java.lang.String)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#getSmallestVariableSet",
+      "old": "java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable> getSmallestVariableSet(org.eclipse.jdt.internal.compiler.lookup.BoundSet, java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable>, boolean, boolean[])",
+      "new": "java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable> getSmallestVariableSet(org.eclipse.jdt.internal.compiler.lookup.BoundSet, java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable>)",
+      "old_key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#getSmallestVariableSet(org.eclipse.jdt.internal.compiler.lookup.BoundSet, java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable>, boolean, boolean[])",
+      "new_key": "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18#getSmallestVariableSet(org.eclipse.jdt.internal.compiler.lookup.BoundSet, java.util.Set<org.eclipse.jdt.internal.compiler.lookup.InferenceVariable>)"
+    }
+  ],
+  "counts": {
+    "old_methods": 7969,
+    "new_methods": 7990,
+    "removed": 1,
+    "added": 22,
+    "changed": 1,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.eclipse.jdt.internal.compiler.batch.FileSystem$Classpath$PathKind",
+    "org.eclipse.jdt.internal.compiler.lookup.InferenceContext18$ResolveOutcome"
+  ],
+  "old_jar": "jar_cache/org.eclipse.jdt_ecj_3.46.0.jar",
+  "new_jar": "jar_cache/org.eclipse.jdt_ecj_3.46.100.jar",
+  "group_id": "org.eclipse.jdt",
+  "artifact_id": "ecj",
+  "old_version": "3.46.0",
+  "new_version": "3.46.100",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "plexus-compiler"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "project": "opennlp",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/apache/opennlp/pull/1490",
+  "dependency": "org.apache.commons:commons-secure-xml",
+  "old_version": "1.0.0",
+  "new_version": "1.1.0",
+  "source_repo": "apache/commons-secure-xml",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [],
+  "changelog_url": "https://raw.githubusercontent.com/apache/commons-secure-xml/main/src/changes/changes.xml",
+  "github_compare": "https://github.com/apache/commons-secure-xml/compare/1.0.0...1.1.0",
+  "sources": [
+    "changelog_file"
+  ],
+  "sections": {
+    "changelog_file": "<release version=\"1.1.0\" date=\"2026-10-03\" description=\"This is a feature and maintenance release. Requires Java 8 or later.\">\n      <!-- FIX -->\n      <action type=\"fix\" dev=\"ggregory\" due-to=\"Gary Gregory\">Fix the OpenRewrite migration recipe to target static method calls instead of class references.</action>\n      <action type=\"fix\" dev=\"ggregory\" due-to=\"Gary Gregory\">Fix the OpenRewrite migration recipe to add a dependency on org.apache.commons:commons-secure-xml:1.0.0.</action>\n      <action type=\"fix\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\">Fix rejection behavior of foreign Templates in SAXTransformerFactory.newTransformerHandler.</action>\n      <action type=\"fix\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\">Fix a NullPointerException when an XMLFilter with a self-driven parent reader is parsed with a null InputSource. #86</action>\n      <action type=\"fix\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\" issue=\"COMMONSXML-17\">Keep a URIResolver already set on a Transformer when it is wrapped, instead of replacing it with the resolver floor.</action>\n      <action type=\"fix\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\">Create the Transformer of an XMLFilter eagerly and reuse it for every parse.</action>\n      <action type=\"fix\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\">Report a stylesheet that produces no XMLFilter as a TransformerConfigurationException instead of returning null.</action>\n      <action type=\"fix\" dev=\"ggregory\" due-to=\"Gary Gregory\">General Javadoc and site documentation improvements.</action>\n      <!-- ADD -->\n      <action type=\"add\" dev=\"pkarwasz\" due-to=\"Piotr P. Karwasz, Gary Gregory\" issue=\"COMMONSXML-18\">Add helpers that return a secure, namespace-aware DocumentBuilder, SAXParser or XMLReader directly, without the factory.</action>\n      <!-- UPDATE -->\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory\">Bump org.apache.commons:commons-parent from 104 to 105.</action>\n      <action dev=\"pkarwasz\" type=\"update\" due-to=\"Piotr P. Karwasz, Gary Gregory\">Bump com.android.library from 8.6.1 to 9.4.0 in /android-tests.</action>\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory, Dependabot\">Bump commons.graalvm.buildtools.version from 1.1.12 to 1.1.14 (#102).</action>\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory, Dependabot\">Bump androidx.test:runner from 1.5.2 to 1.7.0 in /android-tests (#106).</action>\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory, Dependabot\">Bump com.android.library from 9.4.0 to 9.4.1 in /android-tests (#107).</action>\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory, Dependabot\">Bump gradle-wrapper from 9.7.1 to 9.8.0 in /android-tests (#108).</action>\n      <action dev=\"ggregory\" type=\"update\" due-to=\"Gary Gregory, Dependabot\">Bump org.junit.jupiter:junit-jupiter-api from 5.10.2 to 5.14.4 on Android (#111).</action>\n    </release>"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

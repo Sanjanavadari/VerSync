@@ -1,0 +1,40 @@
+{
+  "group_id": "org.jvnet.hudson.plugins",
+  "artifact_id": "analysis-pom",
+  "old_version": "11.2934.va_a_d795c46a_7b_",
+  "new_version": "11.2958.v63511c4c1160",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "nl.jqno.equalsverifier:equalsverifier",
+          "old": "4.2.4",
+          "new": "4.2.5"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "io.jenkins.tools.bom:bom-2.516.x",
+          "old": "5701.va_b_018a_a_6b_0d3",
+          "new": "5750.vec44cb_c78352"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 1,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "forensics-api-plugin"
+  ]
+}

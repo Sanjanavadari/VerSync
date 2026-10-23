@@ -1,0 +1,93 @@
+{
+  "removed": [],
+  "added": [],
+  "changed": [],
+  "counts": {
+    "old_methods": 34,
+    "new_methods": 34,
+    "removed": 0,
+    "added": 0,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 5
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.maven.plugin.compiler.CompilationOutputRegistry",
+    "org.apache.maven.plugin.compiler.DependencyState",
+    "org.apache.maven.plugin.compiler.DependencyState$Configuration",
+    "org.apache.maven.plugin.compiler.DependencyState$ModificationState",
+    "org.apache.maven.plugin.compiler.DependencyState$ScanContext"
+  ],
+  "old_jar": "jar_cache/org.apache.maven.plugins_maven-compiler-plugin_3.15.0.jar",
+  "new_jar": "jar_cache/org.apache.maven.plugins_maven-compiler-plugin_3.16.0.jar",
+  "group_id": "org.apache.maven.plugins",
+  "artifact_id": "maven-compiler-plugin",
+  "old_version": "3.15.0",
+  "new_version": "3.16.0",
+  "status": "OK_NO_METHOD_CHANGE",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "commons-io:commons-io"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.apache.maven.plugin-testing:maven-plugin-testing-harness",
+          "old": "3.5.0",
+          "new": "3.5.1"
+        },
+        {
+          "dependency": "org.apache.maven:maven-artifact",
+          "old": "3.9.12",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.apache.maven:maven-core",
+          "old": "3.9.12",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.apache.maven:maven-plugin-api",
+          "old": "3.9.12",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.codehaus.plexus:plexus-compiler-api",
+          "old": "2.16.2",
+          "new": "2.17.0"
+        },
+        {
+          "dependency": "org.codehaus.plexus:plexus-compiler-javac",
+          "old": "2.16.2",
+          "new": "2.17.0"
+        },
+        {
+          "dependency": "org.codehaus.plexus:plexus-compiler-manager",
+          "old": "2.16.2",
+          "new": "2.17.0"
+        },
+        {
+          "dependency": "org.codehaus.plexus:plexus-java",
+          "old": "1.5.2",
+          "new": "1.6.0"
+        },
+        {
+          "dependency": "org.ow2.asm:asm",
+          "old": "9.9.1",
+          "new": "9.10.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "wicket-crudifier"
+  ]
+}

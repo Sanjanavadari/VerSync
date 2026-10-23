@@ -1,0 +1,31 @@
+{
+  "project": "github-checks-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/jenkinsci/github-checks-plugin/pull/315",
+  "dependency": "org.jenkins-ci.plugins:github-api",
+  "old_version": "1.117",
+  "new_version": "1.303-417.ve35d9dd78549",
+  "source_repo": "jenkinsci/github-api-plugin",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "github-api-1.122",
+    "github-api-1.133",
+    "1.301-378.v9807bd746da5",
+    "1.303-400.v35c2d8258028",
+    "1.303-417.ve35d9dd78549"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/jenkinsci/github-api-plugin/compare/1.117...1.303-417.ve35d9dd78549",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from github-api's releases.\n\n1.303-417.ve35d9dd78549\n\n👷 Changes for plugin developers\n\nDepend on commons-lang3-api (#153) @​sghill\n\n✍ Other changes\n\nCodeowners (#184) @​jtnord\n\nUse HTTPS SCM URL (#182) @​basil\n\n📦 Dependency updates\n\nRefresh plugin for December 2022 (#190) @​basil\n\nBump commons-lang3-api from 3.12.0.0 to 3.12.0-36.vd97de6465d5b_ (#169) @​dependabot\n\nBump jenkins-infra/verify-ci-status-action from 1.2.0 to 1.2.2 (#179) @​dependabot\n\nBump jenkins-infra/interesting-category-action from 1.0.0 to 1.2.1 (#180) @​dependabot\n\nBump jenkins-infra/jenkins-maven-cd-action from 1.2.0 to 1.3.3 (#193) @​dependabot\n\nBump actions/checkout from 3.0.1 to 3.3.0 (#191) @​dependabot\n\nBump git-changelist-maven-extension from 1.3 to 1.6 (#197) @​dependabot\n\nBump bom-2.289.x from 1246.va_b_50630c1d19 to 1438.v6a_2c29d73f82 (#158) @​dependabot\n\n1.303-400.v35c2d8258028\n\n👻 Maintenance\n\nUse ${revision} (#128) @​jglick\n\n📦 Dependency updates\n\nBump actions/setup-java from 2 to 3 (#138) @​dependabot\n\nBump actions/checkout from 2.4.0 to 3.0.1 (#141) @​dependabot\n\nBump plugin from 4.34 to 4.40 (#136) @​dependabot\n\nBump github-api from 1.301 to 1.303 (#133) @​dependabot\n\nbump jenkins version to make CI green (#140) @​car-roll\n\nBump okhttp-api from 3.14.9 to 4.9.2-20211102 (#116) @​dependabot\n\nBump plugin from 4.31 to 4.34 (#129) @​dependabot\n\nBump git-changelist-maven-extension from 1.2 to 1.3 (#126) @​dependabot\n\nEOL JSR 305 (#125) @​basil\n\n🚦 Tests\n\nAdd test for OkHttpGitHubConnector (#123) @​bitwiseman\n\n1.301-378.v9807bd746da5\n\n🚀 New features and improvements\n\nConvert to CD release flow (#121) @​bitwiseman\n\nBump github-api from 1.133 to 1.301 (#120) @​dependabot\n\n... (truncated)",
+    "pr_body_commits": "See full diff in compare view",
+    "release_notes": "## github-api-1.122\n* Switch to bom and Jenkins 2.176.x (#77) @bitwiseman\r\n\r\n## 📦 Dependency updates\r\n\r\n* Bump github-api from 1.117 to 1.122 (#78) @dependabot\r\n* Bump plugin from 4.13 to 4.15 (#76) @dependabot\n\n## github-api-1.133\n## 📦 Dependency updates\r\n\r\n* Bump bom-2.222.x from 872.v03c18fa35487 to 887.vae9c8ac09ff7 (#103) @dependabot\r\n* Bump github-api from 1.123 to 1.133 (#109) @dependabot\r\n* Bump plugin from 4.19 to 4.25 (#108) @dependabot\r\n* Bump plugin from 4.16 to 4.19 (#101) @dependabot\r\n* Bump bom-2.222.x from 807.v6d348e44c987 to 872.v03c18fa35487 (#100) @dependabot\r\n* Bump bom-2.222.x from 25 to 807.v6d348e44c987 (#95) @dependabot\r\n* Bump github-api from 1.122 to 1.123 (#84) @dependabot\r\n* Bump bom-2.222.x from 23 to 25 (#83) @dependabot\r\n* Bump plugin from 4.15 to 4.16 (#82) @dependabot\r\n* Bump bom-2.222.x from 20 to 23 (#81) @dependabot\n\n## 1.301-378.v9807bd746da5\n## 🚀 New features and improvements\r\n\r\n* Convert to CD release flow (#121) @bitwiseman\r\n* Bump github-api from 1.133 to 1.301 (#120) @dependabot\r\n\r\n## 📦 Dependency updates\r\n\r\n* Bump actions/checkout from 2.3.4 to 2.4.0 (#122) @dependabot\r\n* Bump plugin from 4.29 to 4.31 (#118) @dependabot\r\n* Bump git-changelist-maven-extension from 1.1 to 1.2 (#104) @dependabot\r\n* Bump plugin from 4.25 to 4.29 (#112) @dependabot\n\n## 1.303-400.v35c2d8258028\n## 👻 Maintenance\r\n\r\n* Use `${revision}` (#128) @jglick\r\n\r\n## 📦 Dependency updates\r\n\r\n* Bump actions/setup-java from 2 to 3 (#138) @dependabot\r\n* Bump actions/checkout from 2.4.0 to 3.0.1 (#141) @dependabot\r\n* Bump plugin from 4.34 to 4.40 (#136) @dependabot\r\n* Bump github-api from 1.301 to 1.303 (#133) @dependabot\r\n* bump jenkins version to make CI green (#140) @car-roll\r\n* Bump okhttp-api from 3.14.9 to 4.9.2-20211102 (#116) @dependabot\r\n* Bump plugin from 4.31 to 4.34 (#129) @dependabot\r\n* Bump git-changelist-maven-extension from 1.2 to 1.3 (#126) @dependabot\r\n* EOL JSR 305 (#125) @basil\r\n\r\n## 🚦 Tests\r\n\r\n* Add test for OkHttpGitHubConnector (#123) @bitwiseman\n\n## 1.303-417.ve35d9dd78549\n## 👷 Changes for plugin developers\n\n* Depend on commons-lang3-api (#153) @sghill\n\n## ✍ Other changes\n\n* Codeowners (#184) @jtnord\n* Use HTTPS SCM URL (#182) @basil\n\n## 📦 Dependency updates\n\n* Refresh plugin for December 2022 (#190) @basil\n* Bump commons-lang3-api from 3.12.0.0 to 3.12.0-36.vd97de6465d5b_ (#169) @dependabot\n* Bump jenkins-infra/verify-ci-status-action from 1.2.0 to 1.2.2 (#179) @dependabot\n* Bump jenkins-infra/interesting-category-action from 1.0.0 to 1.2.1 (#180) @dependabot\n* Bump jenkins-infra/jenkins-maven-cd-action from 1.2.0 to 1.3.3 (#193) @dependabot\n* Bump actions/checkout from 3.0.1 to 3.3.0 (#191) @dependabot\n* Bump git-changelist-maven-extension from 1.3 to 1.6 (#197) @dependabot\n* Bump bom-2.289.x from 1246.va_b_50630c1d19 to 1438.v6a_2c29d73f82 (#158) @dependabot"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

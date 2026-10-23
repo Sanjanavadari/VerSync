@@ -1,0 +1,24 @@
+{
+  "project": "webapp",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/elimu-ai/webapp/pull/2384",
+  "dependency": "org.apache.logging.log4j:log4j-api",
+  "old_version": "2.25.4",
+  "new_version": "2.25.5",
+  "source_repo": "apache/logging-log4j2",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "rel/2.25.5"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/apache/logging-log4j2/compare/2.25.4...2.25.5",
+  "sources": [
+    "github_release"
+  ],
+  "sections": {
+    "release_notes": "## rel/2.25.5\nThis patch release delivers certain fixes on top of `2.25.4`\r\n\r\n### Changed\r\n\r\n* Improve logging for `LinkageError` scenarios involving the LMAX Disruptor library (#2250, #4124)\r\n\r\n### Fixed\r\n\r\n* Fix the `createOnDemand` behavior of `RollingFileAppender` to correctly defer file and directory creation until the first log event, while preserving eager creation when disabled. (#2006, #4072)\r\n* Improve documentation for locale handling in the Pattern Layout date pattern converter (#4129, #4130)\r\n* Fix handling of non-finite numbers while encoding `MapMessage` to JSON (#4163)\r\n* Fix encoding of `MSGID` and `SD-ID` fields of `StructuredDataMessage` to XML (#4136)\r\n* Fix stack trace rendering for exceptions with identity malfunction (e.g., colliding `equals()` and/or `hashCode()` implementations) (#3933, #4133)\r\n* Fix resource leaks in `ConfigurationSource` when loading configuration via URL fails (#4127)\r\n* Fix `KafkaAppender` reporting error to error handler even after a successful retry (#4125)"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

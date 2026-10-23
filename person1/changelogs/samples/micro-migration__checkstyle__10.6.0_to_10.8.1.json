@@ -1,0 +1,26 @@
+{
+  "project": "micro-migration",
+  "classification": "SAFE",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/xdev-software/micro-migration.git",
+  "dependency": "com.puppycrawl.tools:checkstyle",
+  "old_version": "10.6.0",
+  "new_version": "10.8.1",
+  "source_repo": "checkstyle/checkstyle",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "checkstyle-10.7.0",
+    "checkstyle-10.8.0",
+    "checkstyle-10.8.1"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/checkstyle/checkstyle/compare/10.6.0...10.8.1",
+  "sources": [
+    "github_release"
+  ],
+  "sections": {
+    "release_notes": "## checkstyle-10.7.0\nCheckstyle 10.7.0 - https://checkstyle.org/releasenotes.html#Release_10.7.0\n\nBreaking backward compatibility:\n\n  #12338 - Remove CheckstyleAntTask's classpath parameter\n\nNew:\n\n  #12515 - Support latest pattern matching syntax in switch labels\n\nBug fixes:\n\n  #11643 - UnnecessaryParentheses: false negative on unnecessary parenthesis\n\nOther Changes:\n\n  action 'R: Close/Create Milestone' is not working\n\n  Resolve surviving pitest-design-check mutations for pitest\n\n  Resolve surviving pitest-coding-require-this-check mutations for pitest\n\n  linkcheck report full of error on damaged links to javadoc\n\n  Resolve violation from ResultOfMethodCallIgnored inspection\n\n  All Github CI workflows should have concurrency of 1\n\n  Picocli's coloring interfering with tests\n\n  Remove Apex project from usage in testing\n\n  Resolve surviving pitest-metrics-check mutations for pitest\n\n  Update Tests to use new 'verifyXxxxxx' method or 'execute' that use inlined config in Input files\n\n  Resolve Pitest for profile coding-2\n\n  Resolve surviving pitest-blocks mutations for pitest\n\n  doc: explanation on versioning of checkstyle\n\n  Corrects classes scanned for pitest to include sub-classes\n\n  Resolve surviving pitest-whitespace mutations for pitest\n\n  Resolve surviving sizes mutations for pitest\n\n  Empty ErrorStream in `checker-framework.groovy` to prevent buffer exhaustion and external processes from blocking\n\n  Resolve surviving pitest-java-ast-visitor mutations for pitest\n\n  Specify violation messages in input files.\n\n  Resolve surviving modifier mutations for pitest\n\n  Resolve surviving naming mutations for pitest\n\n  Restore pitest.sh to ease operation on local\n\n  Lint GitHub Actions workflows executed twice\n\n  `bump_license_year.yml` not adding year to commit message.\n\n## checkstyle-10.8.0\nCheckstyle 10.8.0 - https://checkstyle.org/releasenotes.html#Release_10.8.0\n\nBreaking backward compatibility:\n\n  #12681 - Remove Serializable interface from Violation class and EventObject extension from AuditEvent\n\nOther Changes:\n\n  Specify violation messages in input files.\n\n  Make action to trigger all release steps\n\n  Make scripts and configurations filenames consistent\n\n  CommitValidationTest should ignore the release process\n\n  Use Shellcheck to resolve violations code in Shell Script\n\n  Update doc for JavadocType\n\n  Release perform action is failing\n\n  Replace all usages of xmlstarlet with getCheckstylePomVersion from util.sh\n\n  confg: cancel 10.8.0 release, see details in #12762\n\n  End of free builds for CloudBees CodeShip\n\n  Define variable for non-main-files-suppressions file\n\n  Fix RegexpOnFileNameCheck message keys\n\n  pitest: groovy does not run when profile fails\n\n  Resolve surviving annotation mutations for pitest\n\n  Checker: false violation removals on other failures\n\n  Validation for next version in GitHub action\n\n  pitest-survival-check-xml.groovy: prints nothing when there are no differences\n\n  `pitest-survival-check-xml.groovy` should automatically update list of suppressions\n\n  Remove admins from white list on commit validation\n\n  Github action \"Release perform\"\n\n  pitest: validate wildcards on target classes\n\n  Issue 12705: remove .m2 for codenarc execution to make it more stable on download\n\n  Github action to copy to sourceforge does not work\n\n  update all release action to have 'Setup local maven cache' step to optimize download of artifacts\n\n  Push 'all' jar action is not working and not failing execution\n\n## checkstyle-10.8.1\nCheckstyle 10.8.1 - https://checkstyle.org/releasenotes.html#Release_10.8.1\n\nBug fixes:\n\n  #4930 - LocalizedMessage should use ModuleName in compareTo method\n\nOther Changes:\n\n  Fix 'set-milestone-on-referenced-issue'\n\n  Specify violation messages in input files\n\n  Update documentation for AnnotationUseStyle\n\n  Execute upload of -all jar separately\n\n  Switch to PAT secret in set-milestone workflow\n\n  Remove execution of upload -all jar from new-milestone-and-issue-in-other-repo\n\n  Update Tests to use new 'verifyXxxxxx' method or 'execute' that use inlined config in Input files\n\n  Add forgotten secret inherit in release\n\n  Create GitHub action to put current milestone on issue of closed PR\n\n  Use dynamic names for release workflow runs\n\n  Make action to trigger all release steps\n\n  CommitValidationTest fails on revert commits\n\n  Keep workflow input descriptions consistent"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

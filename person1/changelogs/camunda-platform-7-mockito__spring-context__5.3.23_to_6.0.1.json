@@ -1,0 +1,21 @@
+{
+  "kind": "bump_breaking",
+  "project": "camunda-platform-7-mockito",
+  "pr_url": "https://github.com/camunda-community-hub/camunda-platform-7-mockito/pull/274",
+  "dependency": "org.springframework:spring-context",
+  "old_version": "5.3.23",
+  "new_version": "6.0.1",
+  "failure_category": "COMPILATION_FAILURE",
+  "github_compare": "https://github.com/spring-projects/spring-framework/compare/v5.3.23...v6.0.19",
+  "maven_source_link": "",
+  "sources": [
+    "github_release",
+    "bump_compare_link"
+  ],
+  "sections": {
+    "github_compare_link": "https://github.com/spring-projects/spring-framework/compare/v5.3.23...v6.0.19",
+    "release_notes": "## :star: New Features\n\n- Make `SourceHttpMessageConverter` optional [#29535](https://github.com/spring-projects/spring-framework/issues/29535)\n- Deprecate `LocalVariableTableParameterNameDiscoverer` completely (avoiding its exposure in native images) [#29531](https://github.com/spring-projects/spring-framework/pull/29531)\n- Make GeneratorStrategy.generate unreachable on native [#29521](https://github.com/spring-projects/spring-framework/pull/29521)\n- Update `LogAdapter` to allow build-time code removal [#29506](https://github.com/spring-projects/spring-framework/pull/29506)\n\n## :lady_beetle: Bug Fixes\n\n- Unhandled exceptions should mark Servlet observation outcome as error [#29512](https://github.com/spring-projects/spring-framework/issues/29512)\n\n## :notebook_with_decorative_cover: Documentation\n\n- Broken link in documentation section 6.10 [#29554](https://github.com/spring-projects/spring-framework/issues/29554)\n- Fix Javadoc link text in BindingResult [#29551](https://github.com/spring-projects/spring-framework/pull/29551)\n- Fix some typos in Kotlin WebClient example code [#29538](https://github.com/spring-projects/spring-framework/pull/29538)\n- Fix link to Bean Utils Light Library in BeanUtils Javadoc [#29534](https://github.com/spring-projects/spring-framework/pull/29534)\n- Fix link to WebFlux section in reference manual [#29525](https://github.com/spring-projects/spring-framework/pull/29525)\n- Document RuntimeHints testing strategies [#29523](https://github.com/spring-projects/spring-framework/issues/29523)\n- Reorganize and modularize the Testing chapter in the reference manual [#29522](https://github.com/spring-projects/spring-framework/issues/29522)\n- Document switch to `SQLExceptionSubclassTranslator` in the upgrade guide [#29518](https://github.com/spring-projects/spring-framework/issues/29518)\n- Update documentation to mention Java 17+ baseline [#29514](https://github.com/spring-projects/spring-framework/issues/29514)\n- Link to Spring WebFlux section is broken [#29513](https://github.com/spring-projects/spring-framework/issues/29513)\n- Update javadoc of Jackson-based decoders to reflect 2.14 baseline [#29508](https://github.com/spring-projects/spring-framework/pull/29508)\n- Code example has callout from a different code example [#29505](https://github.com/spring-projects/spring-framework/issues/29505)\n- Code listing callouts are displayed incorrectly in core-beans.adoc [#29457](https://github.com/spring-projects/spring-framework/issues/29457)\n- Fix a syntax error in an XML listing in core-validation.adoc [#29456](https://github.com/spring-projects/spring-framework/pull/29456)\n\n## :hammer: Dependency Upgrades\n\n- Upgrade to Jackson 2.14.1 [#29539](https://github.com/spring-projects/spring-framework/issues/29539)\n- Upgrade to Kotlin 1.7.21 [#29543](https://github.com/spring-projects/spring-framework/issues/29543)\n\n## :heart: Contributors\n\nThank you to all the contributors who worked on this release:\n\n@Encyclopedias, @andregasser, @davidcostanzo, @divcon, @jiangying000, @mdeinum, and @wilkinsona"
+  },
+  "evidence_status": "TEXT_EXTRACTED",
+  "source_json": "07ff1a34661db6c7f0ca03156ff5d8936b5123f5.json"
+}

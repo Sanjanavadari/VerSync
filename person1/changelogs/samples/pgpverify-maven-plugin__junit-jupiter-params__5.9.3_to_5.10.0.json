@@ -1,0 +1,23 @@
+{
+  "project": "pgpverify-maven-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/s4u/pgpverify-maven-plugin/pull/479",
+  "dependency": "org.junit.jupiter:junit-jupiter-params",
+  "old_version": "5.9.3",
+  "new_version": "5.10.0",
+  "source_repo": "junit-team/junit-framework",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "junit-team/junit5",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/junit-team/junit-framework/compare/5.9.3...5.10.0",
+  "sources": [
+    "pr_body"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from org.junit.jupiter:junit-jupiter-params's releases.\n\nJUnit 5.10.0 = Platform 1.10.0 + Jupiter 5.10.0 + Vintage 5.10.0\n\nSee Release Notes.\n\nFull Changelog: https://github.com/junit-team/junit5/compare/r5.10.0-RC2...r5.10.0\n\nJUnit 5.10.0-RC2 = Platform 1.10.0-RC2+ Jupiter 5.10.0-RC2 + Vintage 5.10.0-RC2\n\nSee Release Notes.\n\nJUnit 5.10.0-RC1 = Platform 1.10.0-RC1 + Jupiter 5.10.0-RC1 + Vintage 5.10.0-RC1\n\nSee Release Notes.\n\nJUnit 5.10.0-M1 = Platform 1.10.0-M1 + Jupiter 5.10.0-M1 + Vintage 5.10.0-M1\n\nSee Release Notes.",
+    "pr_body_commits": "7f619ca Release 5.10\n\n9899de4 Update Gradle Enterprise plugin to 3.14\n\n45b970f Replace soon-to-be-deprecated usages of project.buildDir\n\n463ae36 Prune Release Notes for 5.10 GA\n\n893c64b Back to snapshots for further development\n\ne6ff0c5 Release 5.10.0-RC2\n\nb08a76b Add 5.10.0-RC2 release notes\n\n2c278c7 Revert \"Prune Release Notes for 5.10 GA\"\n\nacb6e65 Provide access to source element annotations for TempDirFactory\n\n73818a1 Bump org.gradle.toolchains:foojay-resolver from 0.5.0 to 0.6.0\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

@@ -1,0 +1,29 @@
+{
+  "project": "pay-cardid",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/alphagov/pay-cardid/pull/725",
+  "dependency": "org.dhatim:dropwizard-sentry",
+  "old_version": "2.0.22",
+  "new_version": "2.0.28-8",
+  "source_repo": "dhatim/dropwizard-sentry",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "2.0.25",
+    "2.0.25-1",
+    "2.0.26-2"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/dhatim/dropwizard-sentry/compare/2.0.22...2.0.28-8",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from dropwizard-sentry's releases.\n\n2.0.28-8\n\nNo release notes provided.\n\n2.0.28-7\n\nNo release notes provided.\n\n2.0.28-6\n\nNo release notes provided.\n\n2.0.28-5\n\nNo release notes provided.\n\n2.0.28-4\n\nNo release notes provided.\n\n2.0.28-3\n\nNo release notes provided.\n\n2.0.28-2\n\nNo release notes provided.\n\n2.0.28-1\n\nNo release notes provided.\n\n2.0.26-3\n\nNo release notes provided.\n\n2.0.26-2\n\nGet rid of log4j dependencies.\n\n2.0.26-1\n\nNo release notes provided.\n\n2.0.26\n\nNo release notes provided.\n\n2.0.25-2\n\nNo release notes provided.\n\n2.0.25-1\n\nFix ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...\n\n2.0.25\n\nUpgrade Dropwizard to 2.0.25.\n\nUpgrade Sentry SDK to 5.3.0.",
+    "pr_body_commits": "86216b1 Fix deploy\n\ndc42b1f Fix deploy\n\n4cb978f Fix deploy\n\n1c623c3 Merge pull request #28 from dhatim/dependabot/maven/junit-junit-4.13.2\n\n18b2c43 Merge pull request #29 from dhatim/dependabot/maven/io.sentry-sentry-logback-...\n\n146f8a1 Bump sentry-logback from 5.5.3 to 5.6.0\n\n078f548 Bump junit from 4.13.1 to 4.13.2\n\n1d6a6f0 Merge pull request #27 from dhatim/dependabot/maven/junit-junit-4.13.1\n\n3d4c3b3 Set encoding\n\n6f0f439 Bump junit from 4.10 to 4.13.1\n\nAdditional commits viewable in compare view",
+    "release_notes": "## 2.0.25\n- Upgrade Dropwizard to 2.0.25.\r\n- Upgrade Sentry SDK to 5.3.0.\n\n## 2.0.25-1\nFix `ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...`\n\n## 2.0.26-2\nGet rid of log4j dependencies."
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

@@ -1,0 +1,53 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "com.thoughtworks.xstream.XStream#setCollectionUpdateLimit(int)",
+      "signature": "void setCollectionUpdateLimit(int)"
+    },
+    {
+      "key": "com.thoughtworks.xstream.core.SecurityUtils#checkForCollectionDoSAttack(com.thoughtworks.xstream.converters.UnmarshallingContext, long)",
+      "signature": "void checkForCollectionDoSAttack(com.thoughtworks.xstream.converters.UnmarshallingContext, long)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 1530,
+    "new_methods": 1532,
+    "removed": 0,
+    "added": 2,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 4
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "com.thoughtworks.xstream.converters.reflection.PureJavaReflectionProvider$Reflections",
+    "com.thoughtworks.xstream.core.SecurityUtils",
+    "com.thoughtworks.xstream.security.AbstractSecurityException",
+    "com.thoughtworks.xstream.security.InputManipulationException"
+  ],
+  "old_jar": "jar_cache/com.thoughtworks.xstream_xstream_1.4.17.jar",
+  "new_jar": "jar_cache/com.thoughtworks.xstream_xstream_1.4.19.jar",
+  "group_id": "com.thoughtworks.xstream",
+  "artifact_id": "xstream",
+  "old_version": "1.4.17",
+  "new_version": "1.4.19",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "logging-chainsaw"
+  ]
+}

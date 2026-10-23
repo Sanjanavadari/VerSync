@@ -1,0 +1,427 @@
+{
+  "removed": [
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#bind(java.net.SocketAddress)",
+      "signature": "void bind(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#connect(java.net.SocketAddress)",
+      "signature": "void connect(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getChannel()",
+      "signature": "java.nio.channels.SocketChannel getChannel()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getInetAddress()",
+      "signature": "java.net.InetAddress getInetAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getLocalAddress()",
+      "signature": "java.net.InetAddress getLocalAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getLocalPort()",
+      "signature": "int getLocalPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getPort()",
+      "signature": "int getPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getReuseAddress()",
+      "signature": "boolean getReuseAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#getTrafficClass()",
+      "signature": "int getTrafficClass()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#isBound()",
+      "signature": "boolean isBound()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#isInputShutdown()",
+      "signature": "boolean isInputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#isOutputShutdown()",
+      "signature": "boolean isOutputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#sendUrgentData(int)",
+      "signature": "void sendUrgentData(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.unix.UnixSocket#setPerformancePreferences(int, int, int)",
+      "signature": "void setPerformancePreferences(int, int, int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#bind(java.net.SocketAddress)",
+      "signature": "void bind(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#connect(java.net.SocketAddress)",
+      "signature": "void connect(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getChannel()",
+      "signature": "java.nio.channels.SocketChannel getChannel()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getInetAddress()",
+      "signature": "java.net.InetAddress getInetAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getKeepAlive()",
+      "signature": "boolean getKeepAlive()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getLocalAddress()",
+      "signature": "java.net.InetAddress getLocalAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getLocalPort()",
+      "signature": "int getLocalPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getLocalSocketAddress()",
+      "signature": "java.net.SocketAddress getLocalSocketAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getPort()",
+      "signature": "int getPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getRemoteSocketAddress()",
+      "signature": "java.net.SocketAddress getRemoteSocketAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getReuseAddress()",
+      "signature": "boolean getReuseAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getSoTimeout()",
+      "signature": "int getSoTimeout()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#getTrafficClass()",
+      "signature": "int getTrafficClass()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#isBound()",
+      "signature": "boolean isBound()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#isInputShutdown()",
+      "signature": "boolean isInputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#isOutputShutdown()",
+      "signature": "boolean isOutputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#sendUrgentData(int)",
+      "signature": "void sendUrgentData(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#setKeepAlive(boolean)",
+      "signature": "void setKeepAlive(boolean)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#setPerformancePreferences(int, int, int)",
+      "signature": "void setPerformancePreferences(int, int, int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#setReuseAddress(boolean)",
+      "signature": "void setReuseAddress(boolean)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#setSoTimeout(int)",
+      "signature": "void setSoTimeout(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#shutdownInput()",
+      "signature": "void shutdownInput()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NamedPipe#shutdownOutput()",
+      "signature": "void shutdownOutput()"
+    }
+  ],
+  "added": [
+    {
+      "key": "io.fabric8.maven.docker.access.BuildOptions#target(java.lang.String)",
+      "signature": "io.fabric8.maven.docker.access.BuildOptions target(java.lang.String)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.DockerConnectionDetector$WslcDockerHostProvider#getPriority()",
+      "signature": "int getPriority()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.UrlBuilder#containerLogs(java.lang.String, boolean, java.lang.String)",
+      "signature": "java.lang.String containerLogs(java.lang.String, boolean, java.lang.String)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#bind(java.net.SocketAddress)",
+      "signature": "void bind(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#connect(java.net.SocketAddress)",
+      "signature": "void connect(java.net.SocketAddress)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getChannel()",
+      "signature": "java.nio.channels.SocketChannel getChannel()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getInetAddress()",
+      "signature": "java.net.InetAddress getInetAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getKeepAlive()",
+      "signature": "boolean getKeepAlive()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getLocalAddress()",
+      "signature": "java.net.InetAddress getLocalAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getLocalPort()",
+      "signature": "int getLocalPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getLocalSocketAddress()",
+      "signature": "java.net.SocketAddress getLocalSocketAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getPort()",
+      "signature": "int getPort()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getReceiveBufferSize()",
+      "signature": "int getReceiveBufferSize()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getRemoteSocketAddress()",
+      "signature": "java.net.SocketAddress getRemoteSocketAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getReuseAddress()",
+      "signature": "boolean getReuseAddress()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getSendBufferSize()",
+      "signature": "int getSendBufferSize()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getSoTimeout()",
+      "signature": "int getSoTimeout()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#getTrafficClass()",
+      "signature": "int getTrafficClass()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#isBound()",
+      "signature": "boolean isBound()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#isInputShutdown()",
+      "signature": "boolean isInputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#isOutputShutdown()",
+      "signature": "boolean isOutputShutdown()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#sendUrgentData(int)",
+      "signature": "void sendUrgentData(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setKeepAlive(boolean)",
+      "signature": "void setKeepAlive(boolean)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setPerformancePreferences(int, int, int)",
+      "signature": "void setPerformancePreferences(int, int, int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setReceiveBufferSize(int)",
+      "signature": "void setReceiveBufferSize(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setReuseAddress(boolean)",
+      "signature": "void setReuseAddress(boolean)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setSendBufferSize(int)",
+      "signature": "void setSendBufferSize(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setSoTimeout(int)",
+      "signature": "void setSoTimeout(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#setTrafficClass(int)",
+      "signature": "void setTrafficClass(int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#shutdownInput()",
+      "signature": "void shutdownInput()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket#shutdownOutput()",
+      "signature": "void shutdownOutput()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.win.NpipeSocketAddress#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcConnectionSocketFactory#createSocket(org.apache.http.protocol.HttpContext)",
+      "signature": "java.net.Socket createSocket(org.apache.http.protocol.HttpContext)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#connect(java.net.SocketAddress, int)",
+      "signature": "void connect(java.net.SocketAddress, int)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#getInputStream()",
+      "signature": "java.io.InputStream getInputStream()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#getOutputStream()",
+      "signature": "java.io.OutputStream getOutputStream()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#getTcpNoDelay()",
+      "signature": "boolean getTcpNoDelay()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#isClosed()",
+      "signature": "boolean isClosed()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#isConnected()",
+      "signature": "boolean isConnected()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#setTcpNoDelay(boolean)",
+      "signature": "void setTcpNoDelay(boolean)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#shutdownOutput()",
+      "signature": "void shutdownOutput()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcSocketAddress#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcSocketAddress#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.access.hc.wslc.WslcSocketAddress#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.config.BuildImageConfiguration#getTarget()",
+      "signature": "java.lang.String getTarget()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.config.BuildXConfiguration#getBuildAllPlatforms()",
+      "signature": "java.lang.Boolean getBuildAllPlatforms()"
+    },
+    {
+      "key": "io.fabric8.maven.docker.config.BuildXConfiguration#isBuildAllPlatforms()",
+      "signature": "boolean isBuildAllPlatforms()"
+    }
+  ],
+  "changed": [
+    {
+      "name": "io.fabric8.maven.docker.access.KeyStoreUtil#createDockerKeyStore",
+      "old": "java.security.KeyStore createDockerKeyStore(java.lang.String)",
+      "new": "java.security.KeyStore createDockerKeyStore(java.lang.String, char[])",
+      "old_key": "io.fabric8.maven.docker.access.KeyStoreUtil#createDockerKeyStore(java.lang.String)",
+      "new_key": "io.fabric8.maven.docker.access.KeyStoreUtil#createDockerKeyStore(java.lang.String, char[])"
+    },
+    {
+      "name": "io.fabric8.maven.docker.service.BuildXService#build",
+      "old": "void build(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.io.File)",
+      "new": "void build(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.io.File, java.util.Map<java.lang.String, java.lang.String>)",
+      "old_key": "io.fabric8.maven.docker.service.BuildXService#build(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.io.File)",
+      "new_key": "io.fabric8.maven.docker.service.BuildXService#build(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.io.File, java.util.Map<java.lang.String, java.lang.String>)"
+    },
+    {
+      "name": "io.fabric8.maven.docker.service.BuildXService#push",
+      "old": "void push(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList)",
+      "new": "void push(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.util.Map<java.lang.String, java.lang.String>)",
+      "old_key": "io.fabric8.maven.docker.service.BuildXService#push(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList)",
+      "new_key": "io.fabric8.maven.docker.service.BuildXService#push(io.fabric8.maven.docker.util.ProjectPaths, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, io.fabric8.maven.docker.access.AuthConfigList, java.util.Map<java.lang.String, java.lang.String>)"
+    },
+    {
+      "name": "io.fabric8.maven.docker.service.BuildXService$Builder#useBuilder",
+      "old": "void useBuilder(java.util.List<java.lang.String>, java.lang.String, io.fabric8.maven.docker.assembly.BuildDirs, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, C)",
+      "new": "void useBuilder(java.util.List<java.lang.String>, java.lang.String, io.fabric8.maven.docker.assembly.BuildDirs, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, C)",
+      "old_key": "io.fabric8.maven.docker.service.BuildXService$Builder#useBuilder(java.util.List<java.lang.String>, java.lang.String, io.fabric8.maven.docker.assembly.BuildDirs, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, C)",
+      "new_key": "io.fabric8.maven.docker.service.BuildXService$Builder#useBuilder(java.util.List<java.lang.String>, java.lang.String, io.fabric8.maven.docker.assembly.BuildDirs, io.fabric8.maven.docker.config.ImageConfiguration, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, C)"
+    }
+  ],
+  "counts": {
+    "old_methods": 1200,
+    "new_methods": 1212,
+    "removed": 37,
+    "added": 49,
+    "changed": 4,
+    "removed_classes": 0,
+    "added_classes": 6
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "io.fabric8.maven.docker.access.DockerConnectionDetector$WslcDockerHostProvider",
+    "io.fabric8.maven.docker.access.hc.util.AbstractPlainSocket",
+    "io.fabric8.maven.docker.access.hc.wslc.WslcClientBuilder",
+    "io.fabric8.maven.docker.access.hc.wslc.WslcConnectionSocketFactory",
+    "io.fabric8.maven.docker.access.hc.wslc.WslcProcessSocket",
+    "io.fabric8.maven.docker.access.hc.wslc.WslcSocketAddress"
+  ],
+  "old_jar": "jar_cache/io.fabric8_docker-maven-plugin_0.48.1.jar",
+  "new_jar": "jar_cache/io.fabric8_docker-maven-plugin_0.49.0.jar",
+  "group_id": "io.fabric8",
+  "artifact_id": "docker-maven-plugin",
+  "old_version": "0.48.1",
+  "new_version": "0.49.0",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.github.jnr:jffi",
+          "old": "1.3.11",
+          "new": "1.3.15"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "pdb"
+  ]
+}

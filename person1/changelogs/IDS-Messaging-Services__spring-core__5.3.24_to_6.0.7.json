@@ -1,0 +1,21 @@
+{
+  "kind": "bump_breaking",
+  "project": "IDS-Messaging-Services",
+  "pr_url": "https://github.com/International-Data-Spaces-Association/IDS-Messaging-Services/pull/729",
+  "dependency": "org.springframework:spring-core",
+  "old_version": "5.3.24",
+  "new_version": "6.0.7",
+  "failure_category": "COMPILATION_FAILURE",
+  "github_compare": "https://github.com/spring-projects/spring-framework/compare/v5.3.24...v6.0.7",
+  "maven_source_link": "",
+  "sources": [
+    "github_release",
+    "bump_compare_link"
+  ],
+  "sections": {
+    "github_compare_link": "https://github.com/spring-projects/spring-framework/compare/v5.3.24...v6.0.7",
+    "release_notes": "## :star: New Features\n\n- Improve diagnostics in SpEL for `matches` operator [#30144](https://github.com/spring-projects/spring-framework/issues/30144)\n- Improve diagnostics in SpEL for repeated text [#30142](https://github.com/spring-projects/spring-framework/issues/30142)\n- Increase scope of regex pattern cache for the SpEL `matches` operator [#30140](https://github.com/spring-projects/spring-framework/issues/30140)\n- Minor updates in HandlerMappingIntrospector [#30127](https://github.com/spring-projects/spring-framework/issues/30127)\n- Skip parameter name resolution when not needed in `AbstractAutowireCapableBeanFactory` [#30103](https://github.com/spring-projects/spring-framework/issues/30103)\n- Remove extra copy of headers/cookies in WebClient [#30092](https://github.com/spring-projects/spring-framework/pull/30092)\n- Assert non-null arguments in `DefaultServerRequestBuilder` methods [#30046](https://github.com/spring-projects/spring-framework/pull/30046)\n- Jetty 12 support in WebFlux [#29575](https://github.com/spring-projects/spring-framework/issues/29575)\n\n## :lady_beetle: Bug Fixes\n\n- Gradle task `processAot` fails when Bean Validation API present but no provider found [#30130](https://github.com/spring-projects/spring-framework/issues/30130)\n- ContentDisposition::parse does not support Windows paths [#30111](https://github.com/spring-projects/spring-framework/issues/30111)\n- BindException raised instead of MethodArgumentNotValidException subclass [#30100](https://github.com/spring-projects/spring-framework/issues/30100)\n- Ensure reactive transaction rollback on commit error [#30096](https://github.com/spring-projects/spring-framework/pull/30096)\n- CaffeineCacheManager getCache method cause thread block [#30066](https://github.com/spring-projects/spring-framework/issues/30066)\n- RequestedContentTypeResolver does not ignore quality factor when filtering \\*/\\* media types [#29915](https://github.com/spring-projects/spring-framework/issues/29915)\n- `@Autowired`/`@Value` does not work on inner bean in native [#29803](https://github.com/spring-projects/spring-framework/issues/29803)\n- Avoid rollback after a commit failure in `TransactionalOperator` [#27572](https://github.com/spring-projects/spring-framework/pull/27572)\n- SpEL: cannot call methods declared in `java.lang.Object` on a JDK proxy [#25316](https://github.com/spring-projects/spring-framework/pull/25316)\n\n## :notebook_with_decorative_cover: Documentation\n\n- Add anchor rewrites in the reference documentation [#30132](https://github.com/spring-projects/spring-framework/issues/30132)\n- Fix minor spacings in webflux docs [#30078](https://github.com/spring-projects/spring-framework/pull/30078)\n- Add a list of observations produced by Spring Framework [#30060](https://github.com/spring-projects/spring-framework/issues/30060)\n\n## :hammer: Dependency Upgrades\n\n- Upgrade to Reactor 2022.0.5 [#30133](https://github.com/spring-projects/spring-framework/issues/30133)\n\n## :heart: Contributors\n\nThank you to all the contributors who worked on this release:\n\n@EnricSala, @MrCoffee77, @abelsromero, @edyda99, @liupeng12345, @srivatsa-cfp, and @yuzawa-san"
+  },
+  "evidence_status": "TEXT_EXTRACTED",
+  "source_json": "01609f962f32cc2ba04fa574c79429e86b372c6b.json"
+}

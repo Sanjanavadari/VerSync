@@ -1,0 +1,88 @@
+{
+  "removed": [],
+  "added": [],
+  "changed": [],
+  "counts": {
+    "old_methods": 3,
+    "new_methods": 3,
+    "removed": 0,
+    "added": 0,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.apache.maven.plugins_maven-install-plugin_3.1.4.jar",
+  "new_jar": "jar_cache/org.apache.maven.plugins_maven-install-plugin_3.2.0.jar",
+  "group_id": "org.apache.maven.plugins",
+  "artifact_id": "maven-install-plugin",
+  "old_version": "3.1.4",
+  "new_version": "3.2.0",
+  "status": "OK_NO_METHOD_CHANGE",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "junit:junit",
+        "org.apache.maven.resolver:maven-resolver-impl",
+        "org.apache.maven:maven-compat"
+      ],
+      "added": [
+        "javax.inject:javax.inject",
+        "org.junit.jupiter:junit-jupiter-api"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.apache.maven.plugin-testing:maven-plugin-testing-harness",
+          "old": "3.3.0",
+          "new": "3.5.1"
+        },
+        {
+          "dependency": "org.apache.maven.plugin-tools:maven-plugin-annotations",
+          "old": "",
+          "new": "${version.maven-plugin-tools}"
+        },
+        {
+          "dependency": "org.apache.maven.resolver:maven-resolver-api",
+          "old": "1.9.22",
+          "new": "1.9.27"
+        },
+        {
+          "dependency": "org.apache.maven.resolver:maven-resolver-util",
+          "old": "1.9.22",
+          "new": "1.9.27"
+        },
+        {
+          "dependency": "org.apache.maven:maven-artifact",
+          "old": "3.9.9",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.apache.maven:maven-core",
+          "old": "3.9.9",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.apache.maven:maven-model",
+          "old": "3.9.9",
+          "new": "3.9.16"
+        },
+        {
+          "dependency": "org.apache.maven:maven-plugin-api",
+          "old": "3.9.9",
+          "new": "3.9.16"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "allure-maven",
+    "quickfixj"
+  ]
+}

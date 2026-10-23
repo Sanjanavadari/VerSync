@@ -1,0 +1,28 @@
+{
+  "project": "license-maven-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/mathieucarbou/license-maven-plugin/pull/429",
+  "dependency": "org.apache.maven.shared:maven-dependency-tree",
+  "old_version": "3.1.1",
+  "new_version": "3.2.1",
+  "source_repo": "apache/maven-dependency-tree",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "apache/maven-dependency-tree",
+  "releases_in_range": [
+    "maven-dependency-tree-3.2.0",
+    "maven-dependency-tree-3.2.1"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/apache/maven-dependency-tree/compare/3.1.1...3.2.1",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from maven-dependency-tree's releases.\n\n3.2.1\n\n🚀 New features and improvements\n\n[MSHARED-1158] - make DependencyCollectorBuilder more configurable (#28) @​olamy\n\n3.2.0\n\nReleas notes:\nhttps://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317922&version=12351759",
+    "pr_body_commits": "8cc44f6 [maven-release-plugin] prepare release maven-dependency-tree-3.2.1\n\n2ef02ce [MSHARED-1158] make DependencyCollectorBuilder nore configurable (#28)\n\nfa81a70 add Reproducible Builds badge\n\n20bd068 [maven-release-plugin] prepare for next development iteration\n\na1db75c [maven-release-plugin] prepare release maven-dependency-tree-3.2.0\n\nfa5a3a1 Use plugins build template on Jenkins\n\n2f88228 Bump project version before release\n\ndeb4cd1 Update dependabot.yml\n\n80cadf4 [MSHARED-1071] Drop maven 3.0 compatibility, Maven 3.2.5, Injects\n\n3f425fe Use GitHub shared action v3\n\nAdditional commits viewable in compare view",
+    "release_notes": "## maven-dependency-tree-3.2.0\nReleas notes:\r\nhttps://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12317922&version=12351759\n\n## maven-dependency-tree-3.2.1\n## 🚀 New features and improvements\r\n\r\n- [[MSHARED-1158]](https://issues.apache.org/jira/browse/MSHARED-1158) - make DependencyCollectorBuilder more configurable ([#28](https://github.com/apache/maven-dependency-tree/pull/28)) @olamy"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

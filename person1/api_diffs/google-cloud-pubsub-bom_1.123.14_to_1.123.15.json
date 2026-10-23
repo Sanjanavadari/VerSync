@@ -1,0 +1,44 @@
+{
+  "group_id": "com.google.cloud",
+  "artifact_id": "google-cloud-pubsub-bom",
+  "old_version": "1.123.14",
+  "new_version": "1.123.15",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.google.api.grpc:grpc-google-cloud-pubsub-v1",
+          "old": "1.105.14",
+          "new": "1.105.15"
+        },
+        {
+          "dependency": "com.google.api.grpc:proto-google-cloud-pubsub-v1",
+          "old": "1.105.14",
+          "new": "1.105.15"
+        },
+        {
+          "dependency": "com.google.cloud:google-cloud-pubsub",
+          "old": "1.123.14",
+          "new": "1.123.15"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 3,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "google-cloud-java"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "group_id": "io.jenkins.tools.bom",
+  "artifact_id": "bom-2.504.x",
+  "old_version": "5252.va_0266944a_b_42",
+  "new_version": "5622.vc9c3051619f5",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [
+        "io.jenkins.plugins:analysis-model-api",
+        "io.jenkins.plugins:bootstrap5-api",
+        "io.jenkins.plugins:coverage",
+        "io.jenkins.plugins:data-tables-api",
+        "io.jenkins.plugins:echarts-api",
+        "io.jenkins.plugins:font-awesome-api",
+        "io.jenkins.plugins:forensics-api",
+        "io.jenkins.plugins:git-forensics",
+        "io.jenkins.plugins:jquery3-api",
+        "io.jenkins.plugins:plugin-util-api",
+        "io.jenkins.plugins:prism-api",
+        "io.jenkins.plugins:warnings-ng",
+        "org.jenkins-ci.plugins:azure-vm-agents",
+        "org.jenkins-ci.plugins:ldap"
+      ],
+      "version_changed": [
+        {
+          "dependency": "${project.groupId}:bom-2.516.x",
+          "old": "5252.va_0266944a_b_42",
+          "new": "5622.vc9c3051619f5"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 1,
+    "managed_removed": 0,
+    "managed_added": 14
+  },
+  "projects": [
+    "config-file-provider-plugin"
+  ]
+}

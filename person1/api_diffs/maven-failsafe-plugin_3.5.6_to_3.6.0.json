@@ -1,0 +1,79 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.maven.plugin.failsafe.IntegrationTestMojo#getSuiteXmlFiles()",
+      "signature": "java.io.File[] getSuiteXmlFiles()"
+    },
+    {
+      "key": "org.apache.maven.plugin.failsafe.IntegrationTestMojo#setSuiteXmlFiles(java.io.File[])",
+      "signature": "void setSuiteXmlFiles(java.io.File[])"
+    }
+  ],
+  "added": [],
+  "changed": [],
+  "counts": {
+    "old_methods": 98,
+    "new_methods": 96,
+    "removed": 2,
+    "added": 0,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.apache.maven.plugins_maven-failsafe-plugin_3.5.6.jar",
+  "new_jar": "jar_cache/org.apache.maven.plugins_maven-failsafe-plugin_3.6.0.jar",
+  "group_id": "org.apache.maven.plugins",
+  "artifact_id": "maven-failsafe-plugin",
+  "old_version": "3.5.6",
+  "new_version": "3.6.0",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.apache.maven.plugins:maven-surefire-plugin",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        },
+        {
+          "dependency": "org.apache.maven.surefire:maven-surefire-common",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        },
+        {
+          "dependency": "org.apache.maven.surefire:surefire-api",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        },
+        {
+          "dependency": "org.apache.maven.surefire:surefire-booter",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        },
+        {
+          "dependency": "org.apache.maven.surefire:surefire-extensions-api",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        },
+        {
+          "dependency": "org.apache.maven.surefire:surefire-junit-platform",
+          "old": "3.5.6",
+          "new": "3.6.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "allure-maven"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "project": "pay-adminusers",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/alphagov/pay-adminusers/pull/1594",
+  "dependency": "ch.qos.logback:logback-classic",
+  "old_version": "1.2.11",
+  "new_version": "1.4.1",
+  "source_repo": "qos-ch/logback",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "qos-ch/logback",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/qos-ch/logback/compare/1.2.11...1.4.1",
+  "sources": [],
+  "sections": {
+    "pr_body_commits": "a432a55 removed Automatic-Module-Name manifest entry which prevents javadoc deployment\n\nec06e72 prepare release 1.4.1\n\na17f298 added a new tests case, bump to SLF4J 2.0.1, remove property latest.stable.ve...\n\n32a3172 fix LOGBACK-LOGBACK-1670, use Class.getModule to obtain versio info under JMPS\n\n2c53e09 start work on 1.4.1-SNAPSHOT, fix  LOGBACK-1675\n\ne83403e prepare release 1.4.0\n\ne2c0cc6 migrate to Jakarta EE\n\n0088e60 bump version to 1.4.0-SNAPSHOT on master\n\nb73153c indentation changes\n\n5175596 bump to SLF4J 2.0.0\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "COMMITS_ONLY"
+}

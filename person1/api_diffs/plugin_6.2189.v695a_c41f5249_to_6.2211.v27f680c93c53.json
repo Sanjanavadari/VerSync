@@ -1,0 +1,39 @@
+{
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "plugin",
+  "old_version": "6.2189.v695a_c41f5249",
+  "new_version": "6.2211.v27f680c93c53",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.jenkins-ci.main:jenkins-test-harness",
+          "old": "2565.vd1eb_7c961d1b_",
+          "new": "2573.vd91b_8a_43e019"
+        },
+        {
+          "dependency": "org.junit:junit-bom",
+          "old": "6.1.0",
+          "new": "6.1.2"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 2,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "config-file-provider-plugin"
+  ]
+}

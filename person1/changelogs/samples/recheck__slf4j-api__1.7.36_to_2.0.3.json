@@ -1,0 +1,20 @@
+{
+  "project": "recheck",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/retest/recheck/pull/1041",
+  "dependency": "org.slf4j:slf4j-api",
+  "old_version": "1.7.36",
+  "new_version": "2.0.3",
+  "source_repo": "qos-ch/slf4j",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "qos-ch/slf4j",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/qos-ch/slf4j/compare/1.7.36...2.0.3",
+  "sources": [],
+  "sections": {
+    "pr_body_commits": "b2cb05f prepare release 2.0.3\n\n4b5bb41 fix SLF4J-546, Fluent logging API doesn't populate timestamp with Reload4JLogger\n\nb500a6f javadoc explaining using multiple markers instead of nested markers\n\nd81affb comment about ThreadLocal key or value types\n\nbcbbe40 Reword Marker Javadoc to improve grammar.\n\n7686020 Merge pull request #310 from ascopes/patch-1\n\n3f47f87 Add missing javadoc to SLF4JServiceProvider.java\n\neb1710a start work on 2.0.3-SNAPSHOT, fix SLF4J-564\n\nbb49a5a Merge pull request #307 from radio-rogal/slf4j-564-simple-logger-javadoc\n\n768ca7d [SLF4J-564] slf4j-simple: fix javadoc for SimpleLogger\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "COMMITS_ONLY"
+}

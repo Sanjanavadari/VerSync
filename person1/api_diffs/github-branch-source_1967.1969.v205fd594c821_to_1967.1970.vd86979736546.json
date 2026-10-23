@@ -1,0 +1,61 @@
+{
+  "removed": [],
+  "added": [],
+  "changed": [
+    {
+      "name": "org.jenkinsci.plugins.github_branch_source.GitHubAppCredentials$DescriptorImpl#doFillApiUriItems",
+      "old": "hudson.util.ListBoxModel doFillApiUriItems()",
+      "new": "hudson.util.ListBoxModel doFillApiUriItems(hudson.model.Item)",
+      "old_key": "org.jenkinsci.plugins.github_branch_source.GitHubAppCredentials$DescriptorImpl#doFillApiUriItems()",
+      "new_key": "org.jenkinsci.plugins.github_branch_source.GitHubAppCredentials$DescriptorImpl#doFillApiUriItems(hudson.model.Item)"
+    },
+    {
+      "name": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator$DescriptorImpl#doFillApiUriItems",
+      "old": "hudson.util.ListBoxModel doFillApiUriItems()",
+      "new": "hudson.util.ListBoxModel doFillApiUriItems(hudson.model.Item)",
+      "old_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator$DescriptorImpl#doFillApiUriItems()",
+      "new_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigator$DescriptorImpl#doFillApiUriItems(hudson.model.Item)"
+    },
+    {
+      "name": "org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$DescriptorImpl#doFillApiUriItems",
+      "old": "hudson.util.ListBoxModel doFillApiUriItems()",
+      "new": "hudson.util.ListBoxModel doFillApiUriItems(hudson.model.Item)",
+      "old_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$DescriptorImpl#doFillApiUriItems()",
+      "new_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMSource$DescriptorImpl#doFillApiUriItems(hudson.model.Item)"
+    }
+  ],
+  "counts": {
+    "old_methods": 713,
+    "new_methods": 713,
+    "removed": 0,
+    "added": 0,
+    "changed": 3,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.jenkins-ci.plugins_github-branch-source_1967.1969.v205fd594c821.hpi",
+  "new_jar": "jar_cache/org.jenkins-ci.plugins_github-branch-source_1967.1970.vd86979736546.hpi",
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "github-branch-source",
+  "old_version": "1967.1969.v205fd594c821",
+  "new_version": "1967.1970.vd86979736546",
+  "status": "OK",
+  "packaging": "hpi",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "github-checks-plugin"
+  ]
+}

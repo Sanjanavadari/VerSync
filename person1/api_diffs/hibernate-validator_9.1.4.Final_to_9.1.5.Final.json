@@ -1,0 +1,112 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.hibernate.validator.BaseHibernateValidatorConfiguration#messageParameterEscaping(org.hibernate.validator.messageinterpolation.MessageParameterEscaping)",
+      "signature": "S messageParameterEscaping(org.hibernate.validator.messageinterpolation.MessageParameterEscaping)"
+    },
+    {
+      "key": "org.hibernate.validator.constraintvalidation.HibernateConstraintValidatorContext#addMessageParameter(java.lang.String, java.lang.Object, org.hibernate.validator.messageinterpolation.MessageParameterEscaping)",
+      "signature": "org.hibernate.validator.constraintvalidation.HibernateConstraintValidatorContext addMessageParameter(java.lang.String, java.lang.Object, org.hibernate.validator.messageinterpolation.MessageParameterEscaping)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.AbstractConfigurationImpl#getMessageParameterEscaping()",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping getMessageParameterEscaping()"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.AbstractConfigurationImpl#messageParameterEscaping(org.hibernate.validator.messageinterpolation.MessageParameterEscaping)",
+      "signature": "T messageParameterEscaping(org.hibernate.validator.messageinterpolation.MessageParameterEscaping)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.ValidatorFactoryScopedContext#getMessageParameterEscaping()",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping getMessageParameterEscaping()"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl#addMessageParameter(java.lang.String, java.lang.Object, org.hibernate.validator.messageinterpolation.MessageParameterEscaping)",
+      "signature": "org.hibernate.validator.constraintvalidation.HibernateConstraintValidatorContext addMessageParameter(java.lang.String, java.lang.Object, org.hibernate.validator.messageinterpolation.MessageParameterEscaping)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.messageinterpolation.util.InterpolationHelper#isEscapeableChar(char)",
+      "signature": "boolean isEscapeableChar(char)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.messageinterpolation.util.InterpolationHelper#resolveToString(java.lang.Object)",
+      "signature": "java.lang.String resolveToString(java.lang.Object)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.messageinterpolation.util.InterpolationHelper#unescapeMessageParameter(java.lang.String)",
+      "signature": "java.lang.String unescapeMessageParameter(java.lang.String)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.engine.validationcontext.ValidatorScopedContext#getMessageParameterEscaping()",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping getMessageParameterEscaping()"
+    },
+    {
+      "key": "org.hibernate.validator.internal.util.logging.Log#invalidMessageParameterEscapingValue(java.lang.String, java.lang.IllegalArgumentException)",
+      "signature": "jakarta.validation.ValidationException invalidMessageParameterEscapingValue(java.lang.String, java.lang.IllegalArgumentException)"
+    },
+    {
+      "key": "org.hibernate.validator.internal.util.logging.Log_$logger#invalidMessageParameterEscapingValue(java.lang.String, java.lang.IllegalArgumentException)",
+      "signature": "jakarta.validation.ValidationException invalidMessageParameterEscapingValue(java.lang.String, java.lang.IllegalArgumentException)"
+    },
+    {
+      "key": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping#apply(java.lang.Object)",
+      "signature": "java.lang.Object apply(java.lang.Object)"
+    },
+    {
+      "key": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping#of(java.lang.String)",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping of(java.lang.String)"
+    },
+    {
+      "key": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping#valueOf(java.lang.String)",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping#values()",
+      "signature": "org.hibernate.validator.messageinterpolation.MessageParameterEscaping[] values()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 3156,
+    "new_methods": 3172,
+    "removed": 0,
+    "added": 16,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 1
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.hibernate.validator.messageinterpolation.MessageParameterEscaping"
+  ],
+  "old_jar": "jar_cache/org.hibernate.validator_hibernate-validator_9.1.4.Final.jar",
+  "new_jar": "jar_cache/org.hibernate.validator_hibernate-validator_9.1.5.Final.jar",
+  "group_id": "org.hibernate.validator",
+  "artifact_id": "hibernate-validator",
+  "old_version": "9.1.4.Final",
+  "new_version": "9.1.5.Final",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "joda-time:joda-time",
+          "old": "2.14.3",
+          "new": "2.14.4"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "causeway"
+  ]
+}
