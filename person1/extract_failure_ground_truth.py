@@ -5,6 +5,7 @@ Parses reproductionLogs/successfulReproductionLogs/*.log and extracts:
   - failed source files
   - failed methods / symbols (cannot find symbol, missing methods, etc.)
   - failed test classes / methods (Surefire)
+  - failed dependencies (enforcer / dependency-lock failures, which have no source location)
   - error messages
 
 Outputs:
@@ -49,6 +50,32 @@ TEST_RUN_LINE = re.compile(
     r"(?P<cls>[\w.$]+)\.(?P<method>\w+)\s+Time elapsed:.*?<<<\s*(?:FAILURE|ERROR)!",
     re.I,
 )
+# JUnit 5 / parameterized: "[ERROR] pkg.FooTest.bar(String, int)  Time elapsed: 0 s  <<< ERROR!"
+SUREFIRE_PARAM = re.compile(
+    r"^\[ERROR\]\s+(?P<cls>[\w.$]+)\.(?P<method>[\w$]+)(?:\([^)\n]*\))?(?:\[\d+\])?\s+Time elapsed:[^\n]*<<<\s*(?:FAILURE|ERROR)!",
+    re.M,
+)
+# JUnit 4 style: "bar(pkg.FooTest)  Time elapsed: 0.1 sec  <<< FAILURE!" and the
+# "Failed tests: / Tests in error:" summary lines "  bar(pkg.FooTest): message".
+JUNIT4_STYLE = re.compile(
+    r"^(?:\[ERROR\])?\s*(?P<method>[\w$]+)\((?P<cls>[a-z][\w$]*(?:\.[\w$]+)+)\)(?:\s+Time elapsed:[^\n]*<<<\s*(?:FAILURE|ERROR)!|:|\s*$)",
+    re.M,
+)
+# Surefire 3 summary: "[ERROR]   pkg.FooTest#bar ForbiddenClassException"
+SUREFIRE_HASH = re.compile(r"^\[ERROR\]\s+(?P<cls>[a-z][\w$]*(?:\.[\w$]+)+)#(?P<method>[\w$]+)", re.M)
+# carrotsearch randomizedtesting (junit4-maven-plugin): "FAILURE 0.06s J0 | FooTest.bar <<<"
+RANDOMIZED = re.compile(r"^(?:FAILURE|ERROR)\s+[\d.]+s\s+(?:J\d+\s+)?\|\s+(?P<cls>[\w.$]+)\.(?P<method>[\w$]+)", re.M)
+# -Werror failures name the file but no [line,col].
+WERROR_FILE = re.compile(r"\[ERROR\]\s+(?P<file>/?[^\s:\[]+\.java):\s+warnings found and -Werror specified")
+# Dependency-level localization for build-configuration failures (enforcer, dependency lock),
+# which have no source location: the dependency the rule complained about.
+FAILED_DEP = [
+    re.compile(r"(?:Require upper bound dependencies|Dependency convergence) error for\s+(?P<dep>[\w.\-]+:[\w.\-]+)"),
+    re.compile(r"Found Banned Dependency:\s+(?P<dep>[\w.\-]+:[\w.\-]+)"),
+    re.compile(r"Expected\s+(?P<dep>[\w.\-]+:[\w.\-]+):\S*\s+but found"),
+    re.compile(r"Dependency\s+(?P<dep>[\w.\-]+:[\w.\-]+):\S+\s+requires Jenkins"),  # maven-hpi-plugin validate-hpi
+    re.compile(r"Restricted to JDK [\d.]+ yet\s+(?P<dep>[\w.\-]+:[\w.\-]+)"),
+]
 PACKAGE_MISSING = re.compile(r"package\s+(?P<pkg>[\w.]+)\s+does not exist")
 CANNOT_ACCESS = re.compile(r"cannot access\s+(?P<cls>[\w.]+)")
 
@@ -114,6 +141,13 @@ def parse_log(text: str) -> dict:
             if cm:
                 functions.append(cm.group(1))
 
+    for m in WERROR_FILE.finditer(text):
+        f = normalize_file(m.group("file"))
+        files.append(f)
+        messages.append(f"{f}: warnings found and -Werror specified")
+
+    dependencies = [m.group("dep") for rx in FAILED_DEP for m in rx.finditer(text)]
+
     for m in PACKAGE_MISSING.finditer(text):
         symbols.append(f"package {m.group('pkg')}")
         messages.append(f"package {m.group('pkg')} does not exist")
@@ -121,7 +155,8 @@ def parse_log(text: str) -> dict:
     for m in CANNOT_ACCESS.finditer(text):
         symbols.append(f"cannot access {m.group('cls')}")
 
-    for rx in (TEST_RUN_LINE, SUREFIRE_FAIL, SUREFIRE_FAIL2):
+    for rx in (TEST_RUN_LINE, SUREFIRE_FAIL, SUREFIRE_FAIL2, SUREFIRE_PARAM, JUNIT4_STYLE,
+               SUREFIRE_HASH, RANDOMIZED):
         for m in rx.finditer(text):
             cls = m.group("cls")
             method = m.group("method")
@@ -146,6 +181,7 @@ def parse_log(text: str) -> dict:
         "failed_functions": uniq(functions),
         "failed_symbols": uniq(symbols),
         "failed_tests": uniq(tests),
+        "failed_dependencies": uniq(dependencies),
         "error_messages": uniq(messages)[:40],
     }
 
@@ -178,7 +214,8 @@ def main() -> None:
         text = read_log(log_path)
         parsed = parse_log(text)
         info = meta.get(sha, {})
-        if not parsed["failed_files"] and not parsed["failed_tests"] and not parsed["failed_symbols"]:
+        if not (parsed["failed_files"] or parsed["failed_tests"] or parsed["failed_symbols"]
+                or parsed["failed_dependencies"]):
             empty += 1
         row = {
             "breaking_commit": sha,
@@ -193,13 +230,15 @@ def main() -> None:
             "failed_functions": "|".join(parsed["failed_functions"]),
             "failed_symbols": "|".join(parsed["failed_symbols"]),
             "failed_tests": "|".join(parsed["failed_tests"]),
+            "failed_dependencies": "|".join(parsed["failed_dependencies"]),
             "num_failed_files": len(parsed["failed_files"]),
             "num_failed_functions": len(parsed["failed_functions"]),
             "num_failed_tests": len(parsed["failed_tests"]),
             "error_messages": " || ".join(
                 (m[:240] for m in parsed["error_messages"][:8])
             )[:4000],
-            "log_path": str(log_path),
+            # Relative to the BUMP checkout so the CSV is portable.
+            "log_path": log_path.relative_to(BUMP).as_posix(),
         }
         rows.append({**row, "_parsed": parsed})
         if i % 100 == 0:
@@ -210,7 +249,7 @@ def main() -> None:
             "breaking_commit", "project", "pr_url",
             "dependency_group_id", "dependency_artifact_id",
             "old_version", "new_version", "failure_category",
-            "failed_files", "failed_functions", "failed_symbols", "failed_tests",
+            "failed_files", "failed_functions", "failed_symbols", "failed_tests", "failed_dependencies",
             "num_failed_files", "num_failed_functions", "num_failed_tests",
             "error_messages", "log_path",
         ]
@@ -227,6 +266,7 @@ def main() -> None:
             "failed_functions": parsed["failed_functions"],
             "failed_symbols": parsed["failed_symbols"],
             "failed_tests": parsed["failed_tests"],
+            "failed_dependencies": parsed["failed_dependencies"],
             "error_messages": parsed["error_messages"],
         })
     OUT_JSON.write_text(json.dumps(json_rows, indent=2), encoding="utf-8")
@@ -239,6 +279,7 @@ def main() -> None:
     print("With failed files:", with_files)
     print("With failed functions/symbols:", with_funcs)
     print("With failed tests:", with_tests)
+    print("With failed dependencies:", sum(1 for r in json_rows if r["failed_dependencies"]))
     print("No localization extracted:", empty)
     print("CSV:", OUT_CSV)
     print("JSON:", OUT_JSON)
