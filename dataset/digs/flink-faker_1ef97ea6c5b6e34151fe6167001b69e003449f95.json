@@ -1,0 +1,2956 @@
+{
+  "repo": "flink-faker_1ef97ea6c5b6e34151fe6167001b69e003449f95",
+  "nodes": [
+    {
+      "id": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
+      "type": "FILE",
+      "name": "src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "type": "FUNCTION",
+      "name": "testSimpleExpressions"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.neverNull"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "FUNCTION",
+      "name": "open"
+    },
+    {
+      "id": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "API",
+      "name": "org.assertj.core.api.Assertions.assertThat"
+    },
+    {
+      "id": "dependency:org.assertj:assertj-core",
+      "type": "DEPENDENCY",
+      "name": "org.assertj:assertj-core"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.isEqualTo"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "FUNCTION",
+      "name": "generateNextRow"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.getArity",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.getArity"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.isNotNull",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.isNotNull"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.getString",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.getString"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "type": "FUNCTION",
+      "name": "testREADME"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.RowData.getArity",
+      "type": "API",
+      "name": "org.apache.flink.table.data.RowData.getArity"
+    },
+    {
+      "id": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "DEPENDENCY",
+      "name": "org.apache.flink:flink-table-api-java-bridge"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.isFalse"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "API",
+      "name": "org.apache.flink.table.data.RowData.isNullAt"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "type": "FUNCTION",
+      "name": "testSupportedDataTypes"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "type": "FUNCTION",
+      "name": "testNullsForAllDatatypes"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.alwaysNull",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.alwaysNull"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.isTrue",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.isTrue"
+    },
+    {
+      "id": "file:src/test/java/com/github/knaufk/flink/faker/TestUtils.java",
+      "type": "FILE",
+      "name": "src/test/java/com/github/knaufk/flink/faker/TestUtils.java"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::neverNull",
+      "type": "FUNCTION",
+      "name": "neverNull"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getNullRates",
+      "type": "FUNCTION",
+      "name": "getNullRates"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::alwaysNull",
+      "type": "FUNCTION",
+      "name": "alwaysNull"
+    },
+    {
+      "id": "api:java.util.Arrays.fill",
+      "type": "API",
+      "name": "java.util.Arrays.fill"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getArrayOfOnes",
+      "type": "FUNCTION",
+      "name": "getArrayOfOnes"
+    },
+    {
+      "id": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "type": "FILE",
+      "name": "src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "type": "FUNCTION",
+      "name": "testRandomResultsWithoutParallelism"
+    },
+    {
+      "id": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "API",
+      "name": "org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment"
+    },
+    {
+      "id": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "API",
+      "name": "org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "API",
+      "name": "org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "API",
+      "name": "org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.TableResult.collect",
+      "type": "API",
+      "name": "org.apache.flink.table.api.TableResult.collect"
+    },
+    {
+      "id": "api:org.apache.flink.util.CloseableIterator.next",
+      "type": "API",
+      "name": "org.apache.flink.util.CloseableIterator.next"
+    },
+    {
+      "id": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "API",
+      "name": "org.assertj.core.api.AssertionsForClassTypes.assertThat"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isNotEqualTo",
+      "type": "FUNCTION",
+      "name": "isNotEqualTo"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "type": "FUNCTION",
+      "name": "testWithComputedColumn"
+    },
+    {
+      "id": "api:org.apache.flink.util.CloseableIterator.hasNext",
+      "type": "API",
+      "name": "org.apache.flink.util.CloseableIterator.hasNext"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "FUNCTION",
+      "name": "isEqualTo"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "type": "FUNCTION",
+      "name": "testFlinkFakerWithLimitedNumberOfRows"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "type": "FUNCTION",
+      "name": "testFlinkFakerWithComplexTypes"
+    },
+    {
+      "id": "api:org.apache.flink.types.Row.getArity",
+      "type": "API",
+      "name": "org.apache.flink.types.Row.getArity"
+    },
+    {
+      "id": "api:org.apache.flink.types.Row.getField",
+      "type": "API",
+      "name": "org.apache.flink.types.Row.getField"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "type": "FUNCTION",
+      "name": "testLimitPushDown"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.sqlQuery",
+      "type": "API",
+      "name": "org.apache.flink.table.api.bridge.java.StreamTableEnvironment.sqlQuery"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.Table.explain",
+      "type": "API",
+      "name": "org.apache.flink.table.api.Table.explain"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::split",
+      "type": "FUNCTION",
+      "name": "split"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::hasSize",
+      "type": "FUNCTION",
+      "name": "hasSize"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::contains",
+      "type": "FUNCTION",
+      "name": "contains"
+    },
+    {
+      "id": "api:org.apache.flink.util.CollectionUtil.iteratorToList",
+      "type": "API",
+      "name": "org.apache.flink.util.CollectionUtil.iteratorToList"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.Table.execute",
+      "type": "API",
+      "name": "org.apache.flink.table.api.Table.execute"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::collect",
+      "type": "FUNCTION",
+      "name": "collect"
+    },
+    {
+      "id": "api:java.util.List.size",
+      "type": "API",
+      "name": "java.util.List.size"
+    },
+    {
+      "id": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
+      "type": "FILE",
+      "name": "src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "type": "FUNCTION",
+      "name": "testLookupWithMultipleKeys"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::setCollector",
+      "type": "FUNCTION",
+      "name": "setCollector"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::open",
+      "type": "FUNCTION",
+      "name": "open"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "type": "FUNCTION",
+      "name": "eval"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::getOutputs",
+      "type": "FUNCTION",
+      "name": "getOutputs"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.get",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.get"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.RowData.getInt",
+      "type": "API",
+      "name": "org.apache.flink.table.data.RowData.getInt"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "type": "FUNCTION",
+      "name": "testLookupWithMultipleKeysButOnlyNullValues"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::collect",
+      "type": "FUNCTION",
+      "name": "collect"
+    },
+    {
+      "id": "api:com.github.knaufk.flink.faker.TestUtils.add",
+      "type": "API",
+      "name": "com.github.knaufk.flink.faker.TestUtils.add"
+    },
+    {
+      "id": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "type": "FILE",
+      "name": "src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "type": "FUNCTION",
+      "name": "testSchemaWithNonSupportedTypesIsInvalid"
+    },
+    {
+      "id": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "API",
+      "name": "org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "FUNCTION",
+      "name": "isThrownBy"
+    },
+    {
+      "id": "api:java.util.Map.put",
+      "type": "API",
+      "name": "java.util.Map.put"
+    },
+    {
+      "id": "api:FactoryUtil.CONNECTOR.key",
+      "type": "API",
+      "name": "FactoryUtil.CONNECTOR.key"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "FUNCTION",
+      "name": "createTableSource"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "FUNCTION",
+      "name": "withStackTraceContaining"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "type": "FUNCTION",
+      "name": "testValidNullRateIsValid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "type": "FUNCTION",
+      "name": "testNegativeNullRateIsInvalid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "type": "FUNCTION",
+      "name": "testNullRateGreaterOneIsInvalid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "type": "FUNCTION",
+      "name": "testPropertiesWithoutExpressionForOnecolumnIsInvalid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "type": "FUNCTION",
+      "name": "testInvalidExpressionIsInvalid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "type": "FUNCTION",
+      "name": "testValidTableSourceIsValid"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "type": "FUNCTION",
+      "name": "testTimestamps"
+    },
+    {
+      "id": "api:Schema.newBuilder",
+      "type": "API",
+      "name": "Schema.newBuilder"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::column",
+      "type": "FUNCTION",
+      "name": "column"
+    },
+    {
+      "id": "api:DataTypes.TIMESTAMP",
+      "type": "API",
+      "name": "DataTypes.TIMESTAMP"
+    },
+    {
+      "id": "api:DataTypes.TIMESTAMP_WITH_LOCAL_TIME_ZONE",
+      "type": "API",
+      "name": "DataTypes.TIMESTAMP_WITH_LOCAL_TIME_ZONE"
+    },
+    {
+      "id": "api:DataTypes.TIMESTAMP_WITH_TIME_ZONE",
+      "type": "API",
+      "name": "DataTypes.TIMESTAMP_WITH_TIME_ZONE"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "api:EnvironmentSettings.newInstance",
+      "type": "API",
+      "name": "EnvironmentSettings.newInstance"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::inStreamingMode",
+      "type": "FUNCTION",
+      "name": "inStreamingMode"
+    },
+    {
+      "id": "api:TableEnvironment.create",
+      "type": "API",
+      "name": "TableEnvironment.create"
+    },
+    {
+      "id": "api:CatalogTable.of",
+      "type": "API",
+      "name": "CatalogTable.of"
+    },
+    {
+      "id": "api:java.util.Arrays.asList",
+      "type": "API",
+      "name": "java.util.Arrays.asList"
+    },
+    {
+      "id": "api:org.apache.flink.table.factories.FactoryUtil.createDynamicTableSource",
+      "type": "API",
+      "name": "org.apache.flink.table.factories.FactoryUtil.createDynamicTableSource"
+    },
+    {
+      "id": "api:ObjectIdentifier.of",
+      "type": "API",
+      "name": "ObjectIdentifier.of"
+    },
+    {
+      "id": "api:org.apache.flink.table.api.internal.TableEnvironmentInternal.getCatalogManager",
+      "type": "API",
+      "name": "org.apache.flink.table.api.internal.TableEnvironmentInternal.getCatalogManager"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::resolveCatalogTable",
+      "type": "FUNCTION",
+      "name": "resolveCatalogTable"
+    },
+    {
+      "id": "api:java.lang.Thread.currentThread",
+      "type": "API",
+      "name": "java.lang.Thread.currentThread"
+    },
+    {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::getContextClassLoader",
+      "type": "FUNCTION",
+      "name": "getContextClassLoader"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFaker.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/FlinkFaker.java"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java"
+    },
+    {
+      "id": "api:java.lang.System.currentTimeMillis",
+      "type": "API",
+      "name": "java.lang.System.currentTimeMillis"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
+      "type": "FUNCTION",
+      "name": "flatMap"
+    },
+    {
+      "id": "api:org.apache.flink.util.Collector.collect",
+      "type": "API",
+      "name": "org.apache.flink.util.Collector.collect"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::recordAndMaybeRest",
+      "type": "FUNCTION",
+      "name": "recordAndMaybeRest"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "type": "FUNCTION",
+      "name": "getRowsPerSecondForSubTask"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "type": "FUNCTION",
+      "name": "rest"
+    },
+    {
+      "id": "api:java.lang.Math.max",
+      "type": "API",
+      "name": "java.lang.Math.max"
+    },
+    {
+      "id": "api:java.lang.Thread.sleep",
+      "type": "API",
+      "name": "java.lang.Thread.sleep"
+    },
+    {
+      "id": "api:java.util.Random.nextFloat",
+      "type": "API",
+      "name": "java.util.Random.nextFloat"
+    },
+    {
+      "id": "api:java.util.List.add",
+      "type": "API",
+      "name": "java.util.List.add"
+    },
+    {
+      "id": "api:net.datafaker.Faker.expression",
+      "type": "API",
+      "name": "net.datafaker.Faker.expression"
+    },
+    {
+      "id": "dependency:net.datafaker:datafaker",
+      "type": "DEPENDENCY",
+      "name": "net.datafaker:datafaker"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.GenericRowData.setField",
+      "type": "API",
+      "name": "org.apache.flink.table.data.GenericRowData.setField"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "type": "FUNCTION",
+      "name": "stringValueToType"
+    },
+    {
+      "id": "api:java.util.List.toArray",
+      "type": "API",
+      "name": "java.util.List.toArray"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRuntimeContext",
+      "type": "FUNCTION",
+      "name": "getRuntimeContext"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getNumberOfParallelSubtasks",
+      "type": "FUNCTION",
+      "name": "getNumberOfParallelSubtasks"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getIndexOfThisSubtask",
+      "type": "FUNCTION",
+      "name": "getIndexOfThisSubtask"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "type": "FUNCTION",
+      "name": "createDynamicTableSource"
+    },
+    {
+      "id": "api:Context.getCatalogTable",
+      "type": "API",
+      "name": "Context.getCatalogTable"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getOptions",
+      "type": "FUNCTION",
+      "name": "getOptions"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::forEach",
+      "type": "FUNCTION",
+      "name": "forEach"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getResolvedSchema",
+      "type": "FUNCTION",
+      "name": "getResolvedSchema"
+    },
+    {
+      "id": "api:org.apache.flink.table.catalog.ResolvedSchema.getColumns",
+      "type": "API",
+      "name": "org.apache.flink.table.catalog.ResolvedSchema.getColumns"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::stream",
+      "type": "FUNCTION",
+      "name": "stream"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::filter",
+      "type": "FUNCTION",
+      "name": "filter"
+    },
+    {
+      "id": "api:column.isPhysical",
+      "type": "API",
+      "name": "column.isPhysical"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::collect",
+      "type": "FUNCTION",
+      "name": "collect"
+    },
+    {
+      "id": "api:java.util.stream.Collectors.toList",
+      "type": "API",
+      "name": "java.util.stream.Collectors.toList"
+    },
+    {
+      "id": "api:java.util.List.get",
+      "type": "API",
+      "name": "java.util.List.get"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getName",
+      "type": "FUNCTION",
+      "name": "getName"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getDataType",
+      "type": "FUNCTION",
+      "name": "getDataType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "type": "FUNCTION",
+      "name": "validateDataType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "type": "FUNCTION",
+      "name": "readAndValidateFieldExpression"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "type": "FUNCTION",
+      "name": "readAndValidateNullRate"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "type": "FUNCTION",
+      "name": "readAndValidateCollectionLength"
+    },
+    {
+      "id": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "API",
+      "name": "org.apache.flink.configuration.Configuration.get"
+    },
+    {
+      "id": "api:org.apache.flink.configuration.ConfigOptions.key",
+      "type": "API",
+      "name": "org.apache.flink.configuration.ConfigOptions.key"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::intType",
+      "type": "FUNCTION",
+      "name": "intType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::defaultValue",
+      "type": "FUNCTION",
+      "name": "defaultValue"
+    },
+    {
+      "id": "api:java.util.List.contains",
+      "type": "API",
+      "name": "java.util.List.contains"
+    },
+    {
+      "id": "api:org.apache.flink.table.types.DataType.getLogicalType",
+      "type": "API",
+      "name": "org.apache.flink.table.types.DataType.getLogicalType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getTypeRoot",
+      "type": "FUNCTION",
+      "name": "getTypeRoot"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::floatType",
+      "type": "FUNCTION",
+      "name": "floatType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::stringType",
+      "type": "FUNCTION",
+      "name": "stringType"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::noDefaultValue",
+      "type": "FUNCTION",
+      "name": "noDefaultValue"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::contains",
+      "type": "FUNCTION",
+      "name": "contains"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
+      "type": "FUNCTION",
+      "name": "optionalOptions"
+    },
+    {
+      "id": "api:java.util.Set.add",
+      "type": "API",
+      "name": "java.util.Set.add"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/FakerUtils.java"
+    },
+    {
+      "id": "api:org.apache.flink.table.types.logical.LogicalType.getTypeRoot",
+      "type": "API",
+      "name": "org.apache.flink.table.types.logical.LogicalType.getTypeRoot"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.StringData.fromString",
+      "type": "API",
+      "name": "org.apache.flink.table.data.StringData.fromString"
+    },
+    {
+      "id": "api:java.lang.Boolean.parseBoolean",
+      "type": "API",
+      "name": "java.lang.Boolean.parseBoolean"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.DecimalData.fromBigDecimal",
+      "type": "API",
+      "name": "org.apache.flink.table.data.DecimalData.fromBigDecimal"
+    },
+    {
+      "id": "api:java.math.BigDecimal.precision",
+      "type": "API",
+      "name": "java.math.BigDecimal.precision"
+    },
+    {
+      "id": "api:java.math.BigDecimal.scale",
+      "type": "API",
+      "name": "java.math.BigDecimal.scale"
+    },
+    {
+      "id": "api:java.lang.Byte.parseByte",
+      "type": "API",
+      "name": "java.lang.Byte.parseByte"
+    },
+    {
+      "id": "api:java.lang.Short.parseShort",
+      "type": "API",
+      "name": "java.lang.Short.parseShort"
+    },
+    {
+      "id": "api:java.lang.Integer.parseInt",
+      "type": "API",
+      "name": "java.lang.Integer.parseInt"
+    },
+    {
+      "id": "api:java.lang.Float.parseFloat",
+      "type": "API",
+      "name": "java.lang.Float.parseFloat"
+    },
+    {
+      "id": "api:java.lang.Double.parseDouble",
+      "type": "API",
+      "name": "java.lang.Double.parseDouble"
+    },
+    {
+      "id": "api:java.sql.Date.from",
+      "type": "API",
+      "name": "java.sql.Date.from"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::getTime",
+      "type": "FUNCTION",
+      "name": "getTime"
+    },
+    {
+      "id": "api:java.time.Instant.from",
+      "type": "API",
+      "name": "java.time.Instant.from"
+    },
+    {
+      "id": "api:java.time.format.DateTimeFormatter.withZone",
+      "type": "API",
+      "name": "java.time.format.DateTimeFormatter.withZone"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::parse",
+      "type": "FUNCTION",
+      "name": "parse"
+    },
+    {
+      "id": "api:java.time.ZoneId.systemDefault",
+      "type": "API",
+      "name": "java.time.ZoneId.systemDefault"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.TimestampData.fromInstant",
+      "type": "API",
+      "name": "org.apache.flink.table.data.TimestampData.fromInstant"
+    },
+    {
+      "id": "api:java.util.Map.containsKey",
+      "type": "API",
+      "name": "java.util.Map.containsKey"
+    },
+    {
+      "id": "api:java.util.Map.get",
+      "type": "API",
+      "name": "java.util.Map.get"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/DateTime.java"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::past",
+      "type": "FUNCTION",
+      "name": "past"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "FUNCTION",
+      "name": "getTime"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
+      "type": "FUNCTION",
+      "name": "future"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::between",
+      "type": "FUNCTION",
+      "name": "between"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::birthday",
+      "type": "FUNCTION",
+      "name": "birthday"
+    },
+    {
+      "id": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java",
+      "type": "FILE",
+      "name": "src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
+      "type": "FUNCTION",
+      "name": "FlinkFakerLookupFunction"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFaker.java::expression",
+      "type": "FUNCTION",
+      "name": "expression"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::collect",
+      "type": "FUNCTION",
+      "name": "collect"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.Assertions.assertThat",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArity",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.getArity",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.isNotNull",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.getString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:org.apache.flink.table.data.RowData.getArity",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.RowData.getArity",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:org.apache.flink.table.data.RowData.getArity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.alwaysNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.alwaysNull",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:org.apache.flink.table.data.RowData.getArity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.isTrue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/TestUtils.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::neverNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::neverNull",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getNullRates",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/TestUtils.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::alwaysNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::alwaysNull",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getNullRates",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/TestUtils.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getNullRates",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getNullRates",
+      "target": "api:java.util.Arrays.fill",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Arrays.fill",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/TestUtils.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getArrayOfOnes",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/TestUtils.java::getArrayOfOnes",
+      "target": "api:java.util.Arrays.fill",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.table.api.TableResult.collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.TableResult.collect",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.apache.flink.util.CloseableIterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.util.CloseableIterator.next",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isNotEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.table.api.TableResult.collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.util.CloseableIterator.hasNext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.util.CloseableIterator.hasNext",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.apache.flink.util.CloseableIterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.table.api.TableResult.collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.util.CloseableIterator.hasNext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.apache.flink.util.CloseableIterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.table.api.TableResult.collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.util.CloseableIterator.hasNext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.util.CloseableIterator.next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.types.Row.getArity",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.types.Row.getArity",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.apache.flink.types.Row.getField",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.types.Row.getField",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.getExecutionEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.streaming.api.environment.StreamExecutionEnvironment.setParallelism",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.executeSql",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.sqlQuery",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.bridge.java.StreamTableEnvironment.sqlQuery",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.table.api.Table.explain",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.Table.explain",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::split",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::hasSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.util.CollectionUtil.iteratorToList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.util.CollectionUtil.iteratorToList",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.apache.flink.table.api.Table.execute",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.Table.execute",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.size",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.neverNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::setCollector",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::getOutputs",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.get",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:org.apache.flink.table.data.RowData.getInt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.RowData.getInt",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.alwaysNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.getArrayOfOnes",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::setCollector",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::open",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::getOutputs",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:org.apache.flink.table.data.RowData.getInt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::collect",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::collect",
+      "target": "api:com.github.knaufk.flink.faker.TestUtils.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.knaufk.flink.faker.TestUtils.add",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.put",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:FactoryUtil.CONNECTOR.key",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "api:org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::isThrownBy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:FactoryUtil.CONNECTOR.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:Schema.newBuilder",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Schema.newBuilder",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::column",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:DataTypes.TIMESTAMP",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:DataTypes.TIMESTAMP",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:DataTypes.TIMESTAMP_WITH_LOCAL_TIME_ZONE",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:DataTypes.TIMESTAMP_WITH_LOCAL_TIME_ZONE",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:DataTypes.TIMESTAMP_WITH_TIME_ZONE",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:DataTypes.TIMESTAMP_WITH_TIME_ZONE",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:EnvironmentSettings.newInstance",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:EnvironmentSettings.newInstance",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::inStreamingMode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:TableEnvironment.create",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:TableEnvironment.create",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:CatalogTable.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:CatalogTable.of",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Arrays.asList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:org.apache.flink.table.factories.FactoryUtil.createDynamicTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.factories.FactoryUtil.createDynamicTableSource",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:ObjectIdentifier.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ObjectIdentifier.of",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:org.apache.flink.table.api.internal.TableEnvironmentInternal.getCatalogManager",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.internal.TableEnvironmentInternal.getCatalogManager",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::resolveCatalogTable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:java.lang.Thread.currentThread",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Thread.currentThread",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::getContextClassLoader",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "target": "api:java.lang.System.currentTimeMillis",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.currentTimeMillis",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
+      "target": "api:org.apache.flink.util.Collector.collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.util.Collector.collect",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::recordAndMaybeRest",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::recordAndMaybeRest",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::recordAndMaybeRest",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::recordAndMaybeRest",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "target": "api:java.lang.Math.max",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Math.max",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "target": "api:java.lang.System.currentTimeMillis",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::rest",
+      "target": "api:java.lang.Thread.sleep",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Thread.sleep",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:java.util.Random.nextFloat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Random.nextFloat",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:net.datafaker.Faker.expression",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:net.datafaker.Faker.expression",
+      "target": "dependency:net.datafaker:datafaker",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:org.apache.flink.table.data.GenericRowData.setField",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.GenericRowData.setField",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:java.util.List.toArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.toArray",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRuntimeContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getNumberOfParallelSubtasks",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getIndexOfThisSubtask",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRowsPerSecondForSubTask",
+      "target": "api:java.lang.Math.max",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:Context.getCatalogTable",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Context.getCatalogTable",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getOptions",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::forEach",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getResolvedSchema",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:org.apache.flink.table.catalog.ResolvedSchema.getColumns",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.catalog.ResolvedSchema.getColumns",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::stream",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::filter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:column.isPhysical",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:column.isPhysical",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:java.util.stream.Collectors.toList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.stream.Collectors.toList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:java.util.List.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getDataType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.configuration.Configuration.get",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "api:org.apache.flink.configuration.ConfigOptions.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.configuration.ConfigOptions.key",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::intType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::defaultValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "api:java.util.List.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.contains",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "api:org.apache.flink.table.types.DataType.getLogicalType",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.types.DataType.getLogicalType",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getTypeRoot",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "target": "api:org.apache.flink.configuration.ConfigOptions.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::floatType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::defaultValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "target": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:org.apache.flink.table.types.DataType.getLogicalType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getTypeRoot",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:org.apache.flink.configuration.ConfigOptions.key",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::stringType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::noDefaultValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:java.util.List.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:net.datafaker.Faker.expression",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "target": "api:java.util.List.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "target": "api:org.apache.flink.table.types.DataType.getLogicalType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::getTypeRoot",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
+      "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Set.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.types.logical.LogicalType.getTypeRoot",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.types.logical.LogicalType.getTypeRoot",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.StringData.fromString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.StringData.fromString",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Boolean.parseBoolean",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Boolean.parseBoolean",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.DecimalData.fromBigDecimal",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.DecimalData.fromBigDecimal",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.math.BigDecimal.precision",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.math.BigDecimal.precision",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.math.BigDecimal.scale",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.math.BigDecimal.scale",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Byte.parseByte",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Byte.parseByte",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Short.parseShort",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Short.parseShort",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Integer.parseInt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Integer.parseInt",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Float.parseFloat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Float.parseFloat",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.lang.Double.parseDouble",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Double.parseDouble",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.sql.Date.from",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.sql.Date.from",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.time.Instant.from",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.time.Instant.from",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.time.format.DateTimeFormatter.withZone",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.time.format.DateTimeFormatter.withZone",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::parse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.time.ZoneId.systemDefault",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.time.ZoneId.systemDefault",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.TimestampData.fromInstant",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.TimestampData.fromInstant",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.util.Map.containsKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.containsKey",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.util.Map.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.GenericRowData.setField",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::past",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::past",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::between",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::between",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::birthday",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::birthday",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.List.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:org.apache.flink.table.data.GenericRowData.setField",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.Random.nextFloat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFaker.java::expression",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.List.toArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::collect",
+      "type": "CALLS"
+    }
+  ],
+  "build_metadata": {
+    "checkout_mode": "breaking~1",
+    "checkout_commit": "e3431c51eef78b66406c2322037497f4f2eaae80",
+    "java_files": 12,
+    "parse_failed_files": 1,
+    "parse_failed_examples": [
+      "src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSource.java: "
+    ]
+  }
+}

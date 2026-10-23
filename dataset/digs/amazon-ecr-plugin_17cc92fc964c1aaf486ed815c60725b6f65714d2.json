@@ -1,0 +1,794 @@
+{
+  "repo": "amazon-ecr-plugin_17cc92fc964c1aaf486ed815c60725b6f65714d2",
+  "nodes": [
+    {
+      "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "type": "FILE",
+      "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "type": "FUNCTION",
+      "name": "AmazonECSRegistryCredential"
+    },
+    {
+      "id": "api:com.amazonaws.regions.Regions.getName",
+      "type": "API",
+      "name": "com.amazonaws.regions.Regions.getName"
+    },
+    {
+      "id": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "DEPENDENCY",
+      "name": "com.amazonaws:aws-java-sdk-core"
+    },
+    {
+      "id": "api:org.apache.commons.lang.StringUtils.isNotBlank",
+      "type": "API",
+      "name": "org.apache.commons.lang.StringUtils.isNotBlank"
+    },
+    {
+      "id": "dependency:commons-lang:commons-lang",
+      "type": "DEPENDENCY",
+      "name": "commons-lang:commons-lang"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "type": "FUNCTION",
+      "name": "getCredentials"
+    },
+    {
+      "id": "api:java.util.logging.Logger.log",
+      "type": "API",
+      "name": "java.util.logging.Logger.log"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "api:com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials",
+      "type": "API",
+      "name": "com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:java.util.logging.Logger.isLoggable",
+      "type": "API",
+      "name": "java.util.logging.Logger.isLoggable"
+    },
+    {
+      "id": "api:org.apache.commons.lang.exception.ExceptionUtils.getStackTrace",
+      "type": "API",
+      "name": "org.apache.commons.lang.exception.ExceptionUtils.getStackTrace"
+    },
+    {
+      "id": "api:java.util.List.isEmpty",
+      "type": "API",
+      "name": "java.util.List.isEmpty"
+    },
+    {
+      "id": "api:java.util.logging.Logger.fine",
+      "type": "API",
+      "name": "java.util.logging.Logger.fine"
+    },
+    {
+      "id": "api:awsCredentials.getId",
+      "type": "API",
+      "name": "awsCredentials.getId"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getDescription",
+      "type": "FUNCTION",
+      "name": "getDescription"
+    },
+    {
+      "id": "api:java.util.logging.Logger.finest",
+      "type": "API",
+      "name": "java.util.logging.Logger.finest"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "type": "FUNCTION",
+      "name": "getPassword"
+    },
+    {
+      "id": "api:com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentials.getDisplayName",
+      "type": "API",
+      "name": "com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentials.getDisplayName"
+    },
+    {
+      "id": "api:jenkins.model.Jenkins.get",
+      "type": "API",
+      "name": "jenkins.model.Jenkins.get"
+    },
+    {
+      "id": "api:com.amazonaws.ClientConfiguration.setProxyHost",
+      "type": "API",
+      "name": "com.amazonaws.ClientConfiguration.setProxyHost"
+    },
+    {
+      "id": "api:com.amazonaws.ClientConfiguration.setProxyPort",
+      "type": "API",
+      "name": "com.amazonaws.ClientConfiguration.setProxyPort"
+    },
+    {
+      "id": "api:com.amazonaws.ClientConfiguration.setProxyUsername",
+      "type": "API",
+      "name": "com.amazonaws.ClientConfiguration.setProxyUsername"
+    },
+    {
+      "id": "api:j.proxy.getUserName",
+      "type": "API",
+      "name": "j.proxy.getUserName"
+    },
+    {
+      "id": "api:j.proxy.getSecretPassword",
+      "type": "API",
+      "name": "j.proxy.getSecretPassword"
+    },
+    {
+      "id": "api:com.amazonaws.ClientConfiguration.setProxyPassword",
+      "type": "API",
+      "name": "com.amazonaws.ClientConfiguration.setProxyPassword"
+    },
+    {
+      "id": "api:hudson.util.Secret.getPlainText",
+      "type": "API",
+      "name": "hudson.util.Secret.getPlainText"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.standard",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECRClientBuilder.standard"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setCredentials",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECRClientBuilder.setCredentials"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setClientConfiguration",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECRClientBuilder.setClientConfiguration"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setRegion",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECRClientBuilder.setRegion"
+    },
+    {
+      "id": "api:com.amazonaws.regions.Region.getRegion",
+      "type": "API",
+      "name": "com.amazonaws.regions.Region.getRegion"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getName",
+      "type": "FUNCTION",
+      "name": "getName"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.build",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECRClientBuilder.build"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.AmazonECR.getAuthorizationToken",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.AmazonECR.getAuthorizationToken"
+    },
+    {
+      "id": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenResult.getAuthorizationData",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.model.GetAuthorizationTokenResult.getAuthorizationData"
+    },
+    {
+      "id": "api:hudson.util.Secret.fromString",
+      "type": "API",
+      "name": "hudson.util.Secret.fromString"
+    },
+    {
+      "id": "api:java.util.List.get",
+      "type": "API",
+      "name": "java.util.List.get"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getAuthorizationToken",
+      "type": "FUNCTION",
+      "name": "getAuthorizationToken"
+    },
+    {
+      "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
+      "type": "FILE",
+      "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "type": "FUNCTION",
+      "name": "convert"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "type": "FUNCTION",
+      "name": "getCredentialsId"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getEmail",
+      "type": "FUNCTION",
+      "name": "getEmail"
+    },
+    {
+      "id": "api:hudson.util.Secret.toString",
+      "type": "API",
+      "name": "hudson.util.Secret.toString"
+    },
+    {
+      "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java",
+      "type": "FILE",
+      "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "type": "FUNCTION",
+      "name": "getCredentials"
+    },
+    {
+      "id": "api:java.lang.Class.isAssignableFrom",
+      "type": "API",
+      "name": "java.lang.Class.isAssignableFrom"
+    },
+    {
+      "id": "api:com.google.common.collect.ImmutableList.of",
+      "type": "API",
+      "name": "com.google.common.collect.ImmutableList.of"
+    },
+    {
+      "id": "dependency:com.google.guava:guava",
+      "type": "DEPENDENCY",
+      "name": "com.google.guava:guava"
+    },
+    {
+      "id": "api:com.google.common.collect.Lists.newLinkedList",
+      "type": "API",
+      "name": "com.google.common.collect.Lists.newLinkedList"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::lookupCredentials",
+      "type": "FUNCTION",
+      "name": "lookupCredentials"
+    },
+    {
+      "id": "api:credentials.getScope",
+      "type": "API",
+      "name": "credentials.getScope"
+    },
+    {
+      "id": "api:credentials.getId",
+      "type": "API",
+      "name": "credentials.getId"
+    },
+    {
+      "id": "api:java.util.List.add",
+      "type": "API",
+      "name": "java.util.List.add"
+    },
+    {
+      "id": "api:credentials.getDescription",
+      "type": "API",
+      "name": "credentials.getDescription"
+    },
+    {
+      "id": "api:com.amazonaws.regions.Regions.values",
+      "type": "API",
+      "name": "com.amazonaws.regions.Regions.values"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "target": "api:com.amazonaws.regions.Regions.getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.regions.Regions.getName",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "target": "api:org.apache.commons.lang.StringUtils.isNotBlank",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.StringUtils.isNotBlank",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:java.util.logging.Logger.log",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.logging.Logger.log",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:java.util.logging.Logger.isLoggable",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.logging.Logger.isLoggable",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:org.apache.commons.lang.exception.ExceptionUtils.getStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.exception.ExceptionUtils.getStackTrace",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:java.util.List.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.isEmpty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:java.util.logging.Logger.fine",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.logging.Logger.fine",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:awsCredentials.getId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:awsCredentials.getId",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getDescription",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getDescription",
+      "target": "api:java.util.logging.Logger.finest",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.logging.Logger.finest",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.logging.Logger.log",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentials.getDisplayName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentials.getDisplayName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.logging.Logger.isLoggable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:org.apache.commons.lang.exception.ExceptionUtils.getStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:jenkins.model.Jenkins.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.model.Jenkins.get",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.ClientConfiguration.setProxyHost",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.ClientConfiguration.setProxyHost",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.ClientConfiguration.setProxyPort",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.ClientConfiguration.setProxyPort",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.ClientConfiguration.setProxyUsername",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.ClientConfiguration.setProxyUsername",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:j.proxy.getUserName",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:j.proxy.getUserName",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:j.proxy.getSecretPassword",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:j.proxy.getSecretPassword",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.ClientConfiguration.setProxyPassword",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.ClientConfiguration.setProxyPassword",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:hudson.util.Secret.getPlainText",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.Secret.getPlainText",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.standard",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.standard",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setCredentials",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setCredentials",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setClientConfiguration",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setClientConfiguration",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setRegion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.setRegion",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.regions.Region.getRegion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.regions.Region.getRegion",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.build",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECRClientBuilder.build",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.AmazonECR.getAuthorizationToken",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.AmazonECR.getAuthorizationToken",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenResult.getAuthorizationData",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenResult.getAuthorizationData",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.List.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.logging.Logger.fine",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.logging.Logger.finest",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:hudson.util.Secret.fromString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.Secret.fromString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:java.util.List.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getAuthorizationToken",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "api:java.util.logging.Logger.log",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getEmail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "api:hudson.util.Secret.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.Secret.toString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:java.lang.Class.isAssignableFrom",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Class.isAssignableFrom",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:com.google.common.collect.ImmutableList.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.collect.ImmutableList.of",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:com.google.common.collect.Lists.newLinkedList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.collect.Lists.newLinkedList",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::lookupCredentials",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:java.util.logging.Logger.log",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:credentials.getScope",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:credentials.getScope",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:credentials.getId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:credentials.getId",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:credentials.getDescription",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:credentials.getDescription",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:com.amazonaws.regions.Regions.values",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.regions.Regions.values",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    }
+  ],
+  "build_metadata": {
+    "checkout_mode": "breaking~1",
+    "checkout_commit": "f416b43623e91947cafbd832f3f246b6196dc829",
+    "java_files": 3,
+    "parse_failed_files": 0,
+    "parse_failed_examples": []
+  }
+}

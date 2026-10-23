@@ -1,0 +1,3574 @@
+{
+  "repo": "dependency-lock-maven-plugin_1a771d2096b043dc34982d78494b2f14f506176a",
+  "nodes": [
+    {
+      "id": "file:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java",
+      "type": "FILE",
+      "name": "src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java"
+    },
+    {
+      "id": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "type": "FUNCTION",
+      "name": "shouldHaveGoodStartAndEnding"
+    },
+    {
+      "id": "api:JsonNodeFactory.instance.objectNode",
+      "type": "API",
+      "name": "JsonNodeFactory.instance.objectNode"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.node.ObjectNode.set",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.node.ObjectNode.set"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "id": "api:JsonNodeFactory.instance.textNode",
+      "type": "API",
+      "name": "JsonNodeFactory.instance.textNode"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "type": "FUNCTION",
+      "name": "writeJson"
+    },
+    {
+      "id": "api:java.io.StringWriter.toString",
+      "type": "API",
+      "name": "java.io.StringWriter.toString"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "api:org.junit.Assert.assertTrue",
+      "type": "API",
+      "name": "org.junit.Assert.assertTrue"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:java.lang.String.endsWith",
+      "type": "API",
+      "name": "java.lang.String.endsWith"
+    },
+    {
+      "id": "api:java.lang.System.lineSeparator",
+      "type": "API",
+      "name": "java.lang.System.lineSeparator"
+    },
+    {
+      "id": "api:java.lang.String.startsWith",
+      "type": "API",
+      "name": "java.lang.String.startsWith"
+    },
+    {
+      "id": "file:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java",
+      "type": "FILE",
+      "name": "src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java"
+    },
+    {
+      "id": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "type": "FUNCTION",
+      "name": "parentFoldersShouldBeCreated"
+    },
+    {
+      "id": "api:org.junit.rules.TemporaryFolder.newFolder",
+      "type": "API",
+      "name": "org.junit.rules.TemporaryFolder.newFolder"
+    },
+    {
+      "id": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::randomEnoughString",
+      "type": "FUNCTION",
+      "name": "randomEnoughString"
+    },
+    {
+      "id": "api:org.junit.Assert.assertFalse",
+      "type": "API",
+      "name": "org.junit.Assert.assertFalse"
+    },
+    {
+      "id": "api:java.io.File.isFile",
+      "type": "API",
+      "name": "java.io.File.isFile"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::fromBasedir",
+      "type": "FUNCTION",
+      "name": "fromBasedir"
+    },
+    {
+      "id": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::writer",
+      "type": "FUNCTION",
+      "name": "writer"
+    },
+    {
+      "id": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::close",
+      "type": "FUNCTION",
+      "name": "close"
+    },
+    {
+      "id": "api:java.lang.String.format",
+      "type": "API",
+      "name": "java.lang.String.format"
+    },
+    {
+      "id": "api:java.util.Random.nextInt",
+      "type": "API",
+      "name": "java.util.Random.nextInt"
+    },
+    {
+      "id": "api:java.lang.Long.toString",
+      "type": "API",
+      "name": "java.lang.Long.toString"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/Artifact.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::artifactIdentifier",
+      "type": "FUNCTION",
+      "name": "artifactIdentifier"
+    },
+    {
+      "id": "api:java.util.Objects.requireNonNull",
+      "type": "API",
+      "name": "java.util.Objects.requireNonNull"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::version",
+      "type": "FUNCTION",
+      "name": "version"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::scope",
+      "type": "FUNCTION",
+      "name": "scope"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::type",
+      "type": "FUNCTION",
+      "name": "type"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "api:org.getGroupId",
+      "type": "API",
+      "name": "org.getGroupId"
+    },
+    {
+      "id": "api:org.getArtifactId",
+      "type": "API",
+      "name": "org.getArtifactId"
+    },
+    {
+      "id": "api:java.util.Optional.ofNullable",
+      "type": "API",
+      "name": "java.util.Optional.ofNullable"
+    },
+    {
+      "id": "api:org.getClassifier",
+      "type": "API",
+      "name": "org.getClassifier"
+    },
+    {
+      "id": "api:org.getType",
+      "type": "API",
+      "name": "org.getType"
+    },
+    {
+      "id": "api:org.getVersion",
+      "type": "API",
+      "name": "org.getVersion"
+    },
+    {
+      "id": "api:org.getScope",
+      "type": "API",
+      "name": "org.getScope"
+    },
+    {
+      "id": "api:org.isOptional",
+      "type": "API",
+      "name": "org.isOptional"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getGroupId",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getGroupId"
+    },
+    {
+      "id": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven:maven-plugin-api"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getArtifactId",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getArtifactId"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getClassifier",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getClassifier"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getType",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getType"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getVersion",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getVersion"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.getScope",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.getScope"
+    },
+    {
+      "id": "api:org.apache.maven.model.Dependency.isOptional",
+      "type": "API",
+      "name": "org.apache.maven.model.Dependency.isOptional"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::Artifact",
+      "type": "FUNCTION",
+      "name": "Artifact"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::compareTo",
+      "type": "FUNCTION",
+      "name": "compareTo"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "api:java.lang.StringBuilder.append",
+      "type": "API",
+      "name": "java.lang.StringBuilder.append"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::append",
+      "type": "FUNCTION",
+      "name": "append"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "api:java.lang.StringBuilder.toString",
+      "type": "API",
+      "name": "java.lang.StringBuilder.toString"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::hashCode",
+      "type": "FUNCTION",
+      "name": "hashCode"
+    },
+    {
+      "id": "api:java.util.Objects.hashCode",
+      "type": "API",
+      "name": "java.util.Objects.hashCode"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::getClass",
+      "type": "FUNCTION",
+      "name": "getClass"
+    },
+    {
+      "id": "api:java.lang.Object.getClass",
+      "type": "API",
+      "name": "java.lang.Object.getClass"
+    },
+    {
+      "id": "api:java.util.Objects.equals",
+      "type": "API",
+      "name": "java.util.Objects.equals"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/Artifacts.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::Artifacts",
+      "type": "FUNCTION",
+      "name": "Artifacts"
+    },
+    {
+      "id": "api:java.util.Collections.sort",
+      "type": "API",
+      "name": "java.util.Collections.sort"
+    },
+    {
+      "id": "api:java.util.Collections.unmodifiableList",
+      "type": "API",
+      "name": "java.util.Collections.unmodifiableList"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "api:java.util.Set.stream",
+      "type": "API",
+      "name": "java.util.Set.stream"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::map",
+      "type": "FUNCTION",
+      "name": "map"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::collect",
+      "type": "FUNCTION",
+      "name": "collect"
+    },
+    {
+      "id": "api:java.util.stream.Collectors.toList",
+      "type": "API",
+      "name": "java.util.stream.Collectors.toList"
+    },
+    {
+      "id": "api:java.util.Collection.stream",
+      "type": "API",
+      "name": "java.util.Collection.stream"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "type": "FUNCTION",
+      "name": "by"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "api:java.util.Optional.of",
+      "type": "API",
+      "name": "java.util.Optional.of"
+    },
+    {
+      "id": "api:java.util.Optional.empty",
+      "type": "API",
+      "name": "java.util.Optional.empty"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::iterator",
+      "type": "FUNCTION",
+      "name": "iterator"
+    },
+    {
+      "id": "api:java.util.List.iterator",
+      "type": "API",
+      "name": "java.util.List.iterator"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFile.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFile.java"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "api:org.apache.maven.project.MavenProject.getGroupId",
+      "type": "API",
+      "name": "org.apache.maven.project.MavenProject.getGroupId"
+    },
+    {
+      "id": "api:org.apache.maven.project.MavenProject.getArtifactId",
+      "type": "API",
+      "name": "org.apache.maven.project.MavenProject.getArtifactId"
+    },
+    {
+      "id": "api:org.apache.maven.project.MavenProject.getVersion",
+      "type": "API",
+      "name": "org.apache.maven.project.MavenProject.getVersion"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::PomMinimums",
+      "type": "FUNCTION",
+      "name": "PomMinimums"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFile_from",
+      "type": "FUNCTION",
+      "name": "dependenciesLockFile_from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::getLockFilename",
+      "type": "FUNCTION",
+      "name": "getLockFilename"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::defaultFilename",
+      "type": "FUNCTION",
+      "name": "defaultFilename"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFileAccessor_fromBasedirAndFilename",
+      "type": "FUNCTION",
+      "name": "dependenciesLockFileAccessor_fromBasedirAndFilename"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/Filters.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/Filters.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::useMyVersionForFilter",
+      "type": "FUNCTION",
+      "name": "useMyVersionForFilter"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::ignoreFilter",
+      "type": "FUNCTION",
+      "name": "ignoreFilter"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "type": "FUNCTION",
+      "name": "write"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "type": "FUNCTION",
+      "name": "createConfiguration"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.getTemplate",
+      "type": "API",
+      "name": "freemarker.template.Configuration.getTemplate"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "type": "FUNCTION",
+      "name": "writer"
+    },
+    {
+      "id": "api:freemarker.template.Template.process",
+      "type": "API",
+      "name": "freemarker.template.Template.process"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::makeDataModel",
+      "type": "FUNCTION",
+      "name": "makeDataModel"
+    },
+    {
+      "id": "api:java.util.Map.put",
+      "type": "API",
+      "name": "java.util.Map.put"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setClassForTemplateLoading",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setClassForTemplateLoading"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setDefaultEncoding",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setDefaultEncoding"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setTemplateExceptionHandler",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setTemplateExceptionHandler"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setLogTemplateExceptions",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setLogTemplateExceptions"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setFallbackOnNullLoopVariable",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setFallbackOnNullLoopVariable"
+    },
+    {
+      "id": "api:freemarker.template.Configuration.setObjectWrapper",
+      "type": "API",
+      "name": "freemarker.template.Configuration.setObjectWrapper"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "type": "FUNCTION",
+      "name": "getObjectWrapper"
+    },
+    {
+      "id": "api:freemarker.template.DefaultObjectWrapperBuilder.setExposeFields",
+      "type": "API",
+      "name": "freemarker.template.DefaultObjectWrapperBuilder.setExposeFields"
+    },
+    {
+      "id": "api:freemarker.template.DefaultObjectWrapperBuilder.setIterableSupport",
+      "type": "API",
+      "name": "freemarker.template.DefaultObjectWrapperBuilder.setIterableSupport"
+    },
+    {
+      "id": "api:freemarker.template.DefaultObjectWrapperBuilder.build",
+      "type": "API",
+      "name": "freemarker.template.DefaultObjectWrapperBuilder.build"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "type": "FUNCTION",
+      "name": "read"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::reader",
+      "type": "FUNCTION",
+      "name": "reader"
+    },
+    {
+      "id": "api:org.apache.maven.model.io.xpp3.MavenXpp3Reader.read",
+      "type": "API",
+      "name": "org.apache.maven.model.io.xpp3.MavenXpp3Reader.read"
+    },
+    {
+      "id": "api:org.apache.maven.model.Model.getDependencies",
+      "type": "API",
+      "name": "org.apache.maven.model.Model.getDependencies"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::MavenArtifact",
+      "type": "FUNCTION",
+      "name": "MavenArtifact"
+    },
+    {
+      "id": "api:org.apache.maven.artifact.ArtifactUtils.toSnapshotVersion",
+      "type": "API",
+      "name": "org.apache.maven.artifact.ArtifactUtils.toSnapshotVersion"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getClassifier",
+      "type": "FUNCTION",
+      "name": "getClassifier"
+    },
+    {
+      "id": "api:delegate.identifier.classifier.orElse",
+      "type": "API",
+      "name": "delegate.identifier.classifier.orElse"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hasClassifier",
+      "type": "FUNCTION",
+      "name": "hasClassifier"
+    },
+    {
+      "id": "api:delegate.identifier.classifier.isPresent",
+      "type": "API",
+      "name": "delegate.identifier.classifier.isPresent"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getId",
+      "type": "FUNCTION",
+      "name": "getId"
+    },
+    {
+      "id": "api:delegate.identifier.toString",
+      "type": "API",
+      "name": "delegate.identifier.toString"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getClass",
+      "type": "FUNCTION",
+      "name": "getClass"
+    },
+    {
+      "id": "api:se.equals",
+      "type": "API",
+      "name": "se.equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hashCode",
+      "type": "FUNCTION",
+      "name": "hashCode"
+    },
+    {
+      "id": "api:java.util.Objects.hash",
+      "type": "API",
+      "name": "java.util.Objects.hash"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java"
+    },
+    {
+      "id": "api:java.io.File.getParentFile",
+      "type": "API",
+      "name": "java.io.File.getParentFile"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::mkdirs",
+      "type": "FUNCTION",
+      "name": "mkdirs"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::exists",
+      "type": "FUNCTION",
+      "name": "exists"
+    },
+    {
+      "id": "api:java.io.File.exists",
+      "type": "API",
+      "name": "java.io.File.exists"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::filename",
+      "type": "FUNCTION",
+      "name": "filename"
+    },
+    {
+      "id": "api:java.io.File.getAbsolutePath",
+      "type": "API",
+      "name": "java.io.File.getAbsolutePath"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "type": "FUNCTION",
+      "name": "fromJson"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.JsonNode.isArray",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.JsonNode.isArray"
+    },
+    {
+      "id": "api:java.util.List.add",
+      "type": "API",
+      "name": "java.util.List.add"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::fromJson",
+      "type": "FUNCTION",
+      "name": "fromJson"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "type": "FUNCTION",
+      "name": "asJson"
+    },
+    {
+      "id": "api:JsonNodeFactory.instance.arrayNode",
+      "type": "API",
+      "name": "JsonNodeFactory.instance.arrayNode"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.node.ArrayNode.add",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.node.ArrayNode.add"
+    },
+    {
+      "id": "api:lockedDependency.asJson",
+      "type": "API",
+      "name": "lockedDependency.asJson"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::compareWith",
+      "type": "FUNCTION",
+      "name": "compareWith"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "type": "FUNCTION",
+      "name": "findUnexpected"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "type": "FUNCTION",
+      "name": "LockFileExpectationsDiff"
+    },
+    {
+      "id": "api:filters.ignoreFilter.include",
+      "type": "API",
+      "name": "filters.ignoreFilter.include"
+    },
+    {
+      "id": "api:lockedDependency.toArtifact",
+      "type": "API",
+      "name": "lockedDependency.toArtifact"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::toMavenArtifact",
+      "type": "FUNCTION",
+      "name": "toMavenArtifact"
+    },
+    {
+      "id": "api:org.apache.maven.plugin.logging.Log.info",
+      "type": "API",
+      "name": "org.apache.maven.plugin.logging.Log.info"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "type": "FUNCTION",
+      "name": "resolve"
+    },
+    {
+      "id": "api:java.util.Optional.isPresent",
+      "type": "API",
+      "name": "java.util.Optional.isPresent"
+    },
+    {
+      "id": "api:java.util.function.Predicate.toString",
+      "type": "API",
+      "name": "java.util.function.Predicate.toString"
+    },
+    {
+      "id": "api:java.util.Optional.get",
+      "type": "API",
+      "name": "java.util.Optional.get"
+    },
+    {
+      "id": "api:java.util.function.Predicate.test",
+      "type": "API",
+      "name": "java.util.function.Predicate.test"
+    },
+    {
+      "id": "api:artifact.toMavenArtifact",
+      "type": "API",
+      "name": "artifact.toMavenArtifact"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "type": "FUNCTION",
+      "name": "by"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::isPresent",
+      "type": "FUNCTION",
+      "name": "isPresent"
+    },
+    {
+      "id": "api:artifact.toString",
+      "type": "API",
+      "name": "artifact.toString"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "type": "FUNCTION",
+      "name": "shouldUseMyVersion"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::withMyVersion",
+      "type": "FUNCTION",
+      "name": "withMyVersion"
+    },
+    {
+      "id": "api:org.apache.maven.artifact.resolver.filter.ArtifactFilter.include",
+      "type": "API",
+      "name": "org.apache.maven.artifact.resolver.filter.ArtifactFilter.include"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "type": "FUNCTION",
+      "name": "toArtifact"
+    },
+    {
+      "id": "api:lockedDependency.identifier.equals",
+      "type": "API",
+      "name": "lockedDependency.identifier.equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "api:java.util.List.isEmpty",
+      "type": "API",
+      "name": "java.util.List.isEmpty"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "type": "FUNCTION",
+      "name": "logTo"
+    },
+    {
+      "id": "api:org.apache.maven.plugin.logging.Log.error",
+      "type": "API",
+      "name": "org.apache.maven.plugin.logging.Log.error"
+    },
+    {
+      "id": "api:java.util.List.forEach",
+      "type": "API",
+      "name": "java.util.List.forEach"
+    },
+    {
+      "id": "api:log.info",
+      "type": "API",
+      "name": "log.info"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "type": "FUNCTION",
+      "name": "read"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::readJsonNode",
+      "type": "FUNCTION",
+      "name": "readJsonNode"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.JsonNode.isObject",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.JsonNode.isObject"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.JsonNode.get",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.JsonNode.get"
+    },
+    {
+      "id": "api:se.vandmo.dependencylock.maven.JsonUtils.readJson",
+      "type": "API",
+      "name": "se.vandmo.dependencylock.maven.JsonUtils.readJson"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "type": "FUNCTION",
+      "name": "write"
+    },
+    {
+      "id": "api:se.vandmo.dependencylock.maven.JsonUtils.writeJson",
+      "type": "API",
+      "name": "se.vandmo.dependencylock.maven.JsonUtils.writeJson"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::exists",
+      "type": "FUNCTION",
+      "name": "exists"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "type": "FUNCTION",
+      "name": "getStringValue"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::textValue",
+      "type": "FUNCTION",
+      "name": "textValue"
+    },
+    {
+      "id": "api:org.apache.commons.lang3.StringUtils.isBlank",
+      "type": "API",
+      "name": "org.apache.commons.lang3.StringUtils.isBlank"
+    },
+    {
+      "id": "dependency:org.apache.commons:commons-lang3",
+      "type": "DEPENDENCY",
+      "name": "org.apache.commons:commons-lang3"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "type": "FUNCTION",
+      "name": "possiblyGetStringValue"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.JsonNode.has",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.JsonNode.has"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::readJson",
+      "type": "FUNCTION",
+      "name": "readJson"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::readTree",
+      "type": "FUNCTION",
+      "name": "readTree"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::disable",
+      "type": "FUNCTION",
+      "name": "disable"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writerWithDefaultPrettyPrinter",
+      "type": "FUNCTION",
+      "name": "writerWithDefaultPrettyPrinter"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeValue",
+      "type": "FUNCTION",
+      "name": "writeValue"
+    },
+    {
+      "id": "api:java.io.Writer.write",
+      "type": "API",
+      "name": "java.io.Writer.write"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "type": "FUNCTION",
+      "name": "from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::ArtifactIdentifier",
+      "type": "FUNCTION",
+      "name": "ArtifactIdentifier"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::compareTo",
+      "type": "FUNCTION",
+      "name": "compareTo"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::append",
+      "type": "FUNCTION",
+      "name": "append"
+    },
+    {
+      "id": "api:java.util.Optional.ifPresent",
+      "type": "API",
+      "name": "java.util.Optional.ifPresent"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::hashCode",
+      "type": "FUNCTION",
+      "name": "hashCode"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::getClass",
+      "type": "FUNCTION",
+      "name": "getClass"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::LockedDependency",
+      "type": "FUNCTION",
+      "name": "LockedDependency"
+    },
+    {
+      "id": "api:se.vandmo.dependencylock.maven.JsonUtils.getStringValue",
+      "type": "API",
+      "name": "se.vandmo.dependencylock.maven.JsonUtils.getStringValue"
+    },
+    {
+      "id": "api:se.vandmo.dependencylock.maven.JsonUtils.possiblyGetStringValue",
+      "type": "API",
+      "name": "se.vandmo.dependencylock.maven.JsonUtils.possiblyGetStringValue"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::asJson",
+      "type": "FUNCTION",
+      "name": "asJson"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.node.ObjectNode.put",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.node.ObjectNode.put"
+    },
+    {
+      "id": "api:identifier.classifier.ifPresent",
+      "type": "API",
+      "name": "identifier.classifier.ifPresent"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::builder",
+      "type": "FUNCTION",
+      "name": "builder"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::artifactIdentifier",
+      "type": "FUNCTION",
+      "name": "artifactIdentifier"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::version",
+      "type": "FUNCTION",
+      "name": "version"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::scope",
+      "type": "FUNCTION",
+      "name": "scope"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::type",
+      "type": "FUNCTION",
+      "name": "type"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "type": "FUNCTION",
+      "name": "test"
+    },
+    {
+      "id": "api:java.lang.String.matches",
+      "type": "API",
+      "name": "java.lang.String.matches"
+    },
+    {
+      "id": "api:java.lang.String.equals",
+      "type": "API",
+      "name": "java.lang.String.equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::compareTo",
+      "type": "FUNCTION",
+      "name": "compareTo"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "type": "FUNCTION",
+      "name": "toString"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::append",
+      "type": "FUNCTION",
+      "name": "append"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::hashCode",
+      "type": "FUNCTION",
+      "name": "hashCode"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::equals",
+      "type": "FUNCTION",
+      "name": "equals"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::getClass",
+      "type": "FUNCTION",
+      "name": "getClass"
+    },
+    {
+      "id": "api:identifier.equals",
+      "type": "API",
+      "name": "identifier.equals"
+    },
+    {
+      "id": "api:version.matches",
+      "type": "API",
+      "name": "version.matches"
+    },
+    {
+      "id": "api:scope.equals",
+      "type": "API",
+      "name": "scope.equals"
+    },
+    {
+      "id": "api:type.equals",
+      "type": "API",
+      "name": "type.equals"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "type": "FUNCTION",
+      "name": "execute"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::lockFile",
+      "type": "FUNCTION",
+      "name": "lockFile"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::format",
+      "type": "FUNCTION",
+      "name": "format"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::projectDependencies",
+      "type": "FUNCTION",
+      "name": "projectDependencies"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::pomMinimums",
+      "type": "FUNCTION",
+      "name": "pomMinimums"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::lockFile",
+      "type": "FUNCTION",
+      "name": "lockFile"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectDependencies",
+      "type": "FUNCTION",
+      "name": "projectDependencies"
+    },
+    {
+      "id": "api:org.apache.maven.project.MavenProject.getArtifacts",
+      "type": "API",
+      "name": "org.apache.maven.project.MavenProject.getArtifacts"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::pomMinimums",
+      "type": "FUNCTION",
+      "name": "pomMinimums"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectVersion",
+      "type": "FUNCTION",
+      "name": "projectVersion"
+    },
+    {
+      "id": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java",
+      "type": "FILE",
+      "name": "src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "type": "FUNCTION",
+      "name": "execute"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::lockFile",
+      "type": "FUNCTION",
+      "name": "lockFile"
+    },
+    {
+      "id": "api:java.util.Arrays.asList",
+      "type": "API",
+      "name": "java.util.Arrays.asList"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::format",
+      "type": "FUNCTION",
+      "name": "format"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::dependenciesLockFile_from",
+      "type": "FUNCTION",
+      "name": "dependenciesLockFile_from"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::pomMinimums",
+      "type": "FUNCTION",
+      "name": "pomMinimums"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::getLog",
+      "type": "FUNCTION",
+      "name": "getLog"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::read",
+      "type": "FUNCTION",
+      "name": "read"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::builder",
+      "type": "FUNCTION",
+      "name": "builder"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::useMyVersionForFilter",
+      "type": "FUNCTION",
+      "name": "useMyVersionForFilter"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::ignoreFilter",
+      "type": "FUNCTION",
+      "name": "ignoreFilter"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::projectDependencies",
+      "type": "FUNCTION",
+      "name": "projectDependencies"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::projectVersion",
+      "type": "FUNCTION",
+      "name": "projectVersion"
+    },
+    {
+      "id": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::info",
+      "type": "FUNCTION",
+      "name": "info"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:JsonNodeFactory.instance.objectNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JsonNodeFactory.instance.objectNode",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:com.fasterxml.jackson.databind.node.ObjectNode.set",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.node.ObjectNode.set",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:JsonNodeFactory.instance.textNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JsonNodeFactory.instance.textNode",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:java.io.StringWriter.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.StringWriter.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:org.junit.Assert.assertTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Assert.assertTrue",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:java.lang.String.endsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.endsWith",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:java.lang.System.lineSeparator",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.System.lineSeparator",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/JsonUtilsTests.java::shouldHaveGoodStartAndEnding",
+      "target": "api:java.lang.String.startsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.startsWith",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "api:org.junit.rules.TemporaryFolder.newFolder",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.rules.TemporaryFolder.newFolder",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::randomEnoughString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "api:org.junit.Assert.assertFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Assert.assertFalse",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "api:java.io.File.isFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.isFile",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::fromBasedir",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::writer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::close",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.format",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::parentFoldersShouldBeCreated",
+      "target": "api:org.junit.Assert.assertTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java",
+      "target": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::randomEnoughString",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::randomEnoughString",
+      "target": "api:java.util.Random.nextInt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Random.nextInt",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessorTests.java::randomEnoughString",
+      "target": "api:java.lang.Long.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Long.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::artifactIdentifier",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::artifactIdentifier",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Objects.requireNonNull",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::version",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::version",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::scope",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::scope",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::type",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::type",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getGroupId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getGroupId",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getArtifactId",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:java.util.Optional.ofNullable",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.ofNullable",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getClassifier",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getClassifier",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getType",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getType",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getVersion",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.getScope",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.getScope",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.isOptional",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.isOptional",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getGroupId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getGroupId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getArtifactId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getClassifier",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getClassifier",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getType",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getType",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getVersion",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.getScope",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.getScope",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::from",
+      "target": "api:org.apache.maven.model.Dependency.isOptional",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Dependency.isOptional",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::Artifact",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::Artifact",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::compareTo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::compareTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "target": "api:java.lang.StringBuilder.append",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.StringBuilder.append",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::append",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::toString",
+      "target": "api:java.lang.StringBuilder.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.StringBuilder.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::hashCode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::hashCode",
+      "target": "api:java.util.Objects.hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Objects.hashCode",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::equals",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::equals",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::equals",
+      "target": "api:java.lang.Object.getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.Object.getClass",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::equals",
+      "target": "api:java.util.Objects.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Objects.equals",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::Artifacts",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::Artifacts",
+      "target": "api:java.util.Collections.sort",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Collections.sort",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::Artifacts",
+      "target": "api:java.util.Collections.unmodifiableList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Collections.unmodifiableList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "target": "api:java.util.Set.stream",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Set.stream",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::map",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "target": "api:java.util.stream.Collectors.toList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.stream.Collectors.toList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "target": "api:java.util.Collection.stream",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Collection.stream",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.of",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "target": "api:java.util.Optional.empty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.empty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::iterator",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::iterator",
+      "target": "api:java.util.List.iterator",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.iterator",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "target": "api:org.apache.maven.project.MavenProject.getGroupId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.MavenProject.getGroupId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "target": "api:org.apache.maven.project.MavenProject.getArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.MavenProject.getArtifactId",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "target": "api:org.apache.maven.project.MavenProject.getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.MavenProject.getVersion",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::PomMinimums",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::PomMinimums",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFile_from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFile_from",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFile_from",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::getLockFilename",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::getLockFilename",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::defaultFilename",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFileAccessor_fromBasedirAndFilename",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFileAccessor_fromBasedirAndFilename",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::fromBasedir",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFileAccessor_fromBasedirAndFilename",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::getLockFilename",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Filters.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::useMyVersionForFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::useMyVersionForFilter",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/Filters.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::ignoreFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::ignoreFilter",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::from",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "target": "api:freemarker.template.Configuration.getTemplate",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.getTemplate",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "target": "api:freemarker.template.Template.process",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Template.process",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::makeDataModel",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::makeDataModel",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::makeDataModel",
+      "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Map.put",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setClassForTemplateLoading",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setClassForTemplateLoading",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setDefaultEncoding",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setDefaultEncoding",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setTemplateExceptionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setTemplateExceptionHandler",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setLogTemplateExceptions",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setLogTemplateExceptions",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setFallbackOnNullLoopVariable",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setFallbackOnNullLoopVariable",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "api:freemarker.template.Configuration.setObjectWrapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.setObjectWrapper",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::createConfiguration",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "target": "api:freemarker.template.DefaultObjectWrapperBuilder.setExposeFields",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.DefaultObjectWrapperBuilder.setExposeFields",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "target": "api:freemarker.template.DefaultObjectWrapperBuilder.setIterableSupport",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.DefaultObjectWrapperBuilder.setIterableSupport",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::getObjectWrapper",
+      "target": "api:freemarker.template.DefaultObjectWrapperBuilder.build",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.DefaultObjectWrapperBuilder.build",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::reader",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "target": "api:org.apache.maven.model.io.xpp3.MavenXpp3Reader.read",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.io.xpp3.MavenXpp3Reader.read",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "target": "api:org.apache.maven.model.Model.getDependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.model.Model.getDependencies",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::read",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::MavenArtifact",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::MavenArtifact",
+      "target": "api:org.apache.maven.artifact.ArtifactUtils.toSnapshotVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.artifact.ArtifactUtils.toSnapshotVersion",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getClassifier",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getClassifier",
+      "target": "api:delegate.identifier.classifier.orElse",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:delegate.identifier.classifier.orElse",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hasClassifier",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hasClassifier",
+      "target": "api:delegate.identifier.classifier.isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:delegate.identifier.classifier.isPresent",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getId",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getId",
+      "target": "api:delegate.identifier.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:delegate.identifier.toString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::equals",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::equals",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::equals",
+      "target": "api:java.lang.Object.getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::equals",
+      "target": "api:se.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:se.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hashCode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/MavenArtifact.java::hashCode",
+      "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Objects.hash",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "target": "api:java.io.File.getParentFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.getParentFile",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::mkdirs",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::exists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::exists",
+      "target": "api:java.io.File.exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.exists",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::filename",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::filename",
+      "target": "api:java.io.File.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.getAbsolutePath",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.isArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.JsonNode.isArray",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::fromJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "target": "api:java.util.Collections.unmodifiableList",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "target": "api:java.util.Collections.unmodifiableList",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "target": "api:JsonNodeFactory.instance.arrayNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JsonNodeFactory.instance.arrayNode",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "target": "api:com.fasterxml.jackson.databind.node.ArrayNode.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.node.ArrayNode.add",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "target": "api:lockedDependency.asJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lockedDependency.asJson",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::compareWith",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::compareWith",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:filters.ignoreFilter.include",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:filters.ignoreFilter.include",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:lockedDependency.toArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lockedDependency.toArtifact",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::toMavenArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:org.apache.maven.plugin.logging.Log.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.logging.Log.info",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::by",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.util.Optional.isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.isPresent",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.util.function.Predicate.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.function.Predicate.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.util.Optional.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.get",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:java.util.function.Predicate.test",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.function.Predicate.test",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:filters.ignoreFilter.include",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:artifact.toMavenArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:artifact.toMavenArtifact",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:org.apache.maven.plugin.logging.Log.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::findUnexpected",
+      "target": "api:artifact.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:artifact.toString",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "target": "api:org.apache.maven.plugin.logging.Log.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::resolve",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::withMyVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "target": "api:org.apache.maven.artifact.resolver.filter.ArtifactFilter.include",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.artifact.resolver.filter.ArtifactFilter.include",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::shouldUseMyVersion",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::toMavenArtifact",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "target": "api:lockedDependency.identifier.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lockedDependency.identifier.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::by",
+      "target": "api:java.util.Optional.empty",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::equals",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::equals",
+      "target": "api:java.util.List.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.isEmpty",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "target": "api:java.util.List.isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "target": "api:org.apache.maven.plugin.logging.Log.error",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.logging.Log.error",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "target": "api:java.util.List.forEach",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.List.forEach",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::LockFileExpectationsDiff",
+      "target": "api:log.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:log.info",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::from",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::readJsonNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.isObject",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.JsonNode.isObject",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.JsonNode.get",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.isArray",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::read",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::fromJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::readJsonNode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::readJsonNode",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::reader",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::readJsonNode",
+      "target": "api:se.vandmo.dependencylock.maven.JsonUtils.readJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:se.vandmo.dependencylock.maven.JsonUtils.readJson",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "api:JsonNodeFactory.instance.objectNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "api:com.fasterxml.jackson.databind.node.ObjectNode.set",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::asJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::writer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "target": "api:se.vandmo.dependencylock.maven.JsonUtils.writeJson",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:se.vandmo.dependencylock.maven.JsonUtils.writeJson",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::exists",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::exists",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::textValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "target": "api:org.apache.commons.lang3.StringUtils.isBlank",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang3.StringUtils.isBlank",
+      "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "target": "api:com.fasterxml.jackson.databind.JsonNode.has",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.JsonNode.has",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "target": "api:java.util.Optional.empty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::possiblyGetStringValue",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::getStringValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::readJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::readJson",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::readTree",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::disable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writerWithDefaultPrettyPrinter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "target": "api:java.io.Writer.write",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.Writer.write",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/JsonUtils.java::writeJson",
+      "target": "api:java.lang.System.lineSeparator",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "target": "api:org.getGroupId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "target": "api:org.getArtifactId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "target": "api:java.util.Optional.ofNullable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "target": "api:org.getClassifier",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::from",
+      "target": "api:org.getType",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::ArtifactIdentifier",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::ArtifactIdentifier",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::compareTo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::compareTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "target": "api:java.lang.StringBuilder.append",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::append",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "target": "api:java.util.Optional.ifPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.ifPresent",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::toString",
+      "target": "api:java.lang.StringBuilder.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::hashCode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::hashCode",
+      "target": "api:java.util.Objects.hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "target": "api:java.lang.Object.getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "target": "api:java.util.Objects.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::LockedDependency",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::LockedDependency",
+      "target": "api:java.util.Objects.requireNonNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::fromJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::fromJson",
+      "target": "api:se.vandmo.dependencylock.maven.JsonUtils.getStringValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:se.vandmo.dependencylock.maven.JsonUtils.getStringValue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::fromJson",
+      "target": "api:se.vandmo.dependencylock.maven.JsonUtils.possiblyGetStringValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:se.vandmo.dependencylock.maven.JsonUtils.possiblyGetStringValue",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::asJson",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::asJson",
+      "target": "api:JsonNodeFactory.instance.objectNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::asJson",
+      "target": "api:com.fasterxml.jackson.databind.node.ObjectNode.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.node.ObjectNode.put",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::asJson",
+      "target": "api:identifier.classifier.ifPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:identifier.classifier.ifPresent",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifact.java::builder",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::artifactIdentifier",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::version",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::scope",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::type",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toArtifact",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/ArtifactIdentifier.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:java.lang.String.matches",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.matches",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:java.lang.String.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.equals",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::compareTo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::compareTo",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::compareTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::append",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::hashCode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::hashCode",
+      "target": "api:java.util.Objects.hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::equals",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::equals",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::equals",
+      "target": "api:java.lang.Object.getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::equals",
+      "target": "api:java.util.Objects.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:identifier.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:identifier.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:version.matches",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:version.matches",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:scope.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:scope.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependency.java::test",
+      "target": "api:type.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:type.equals",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::lockFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::filename",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::projectDependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileJson.java::write",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::pomMinimums",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CreateLockFileMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFilePom.java::write",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::lockFile",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::lockFile",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockFileFormat.java::dependenciesLockFileAccessor_fromBasedirAndFilename",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectDependencies",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectDependencies",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Artifacts.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectDependencies",
+      "target": "api:org.apache.maven.project.MavenProject.getArtifacts",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.MavenProject.getArtifacts",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::pomMinimums",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::pomMinimums",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/PomMinimums.java::from",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectVersion",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/AbstractDependencyLockMojo.java::projectVersion",
+      "target": "api:org.apache.maven.project.MavenProject.getVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::lockFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/DependenciesLockFileAccessor.java::exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Arrays.asList",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::dependenciesLockFile_from",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::pomMinimums",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::getLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::read",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/Filters.java::builder",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::useMyVersionForFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::ignoreFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::compareWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::projectDependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::projectVersion",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::info",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/se/vandmo/dependencylock/maven/mojos/CheckMojo.java::execute",
+      "target": "function:src/main/java/se/vandmo/dependencylock/maven/LockedDependencies.java::logTo",
+      "type": "CALLS"
+    }
+  ],
+  "build_metadata": {
+    "checkout_mode": "breaking~1",
+    "checkout_commit": "78f56707b3a1d639c8e769bba1686587e9a89564",
+    "java_files": 19,
+    "parse_failed_files": 0,
+    "parse_failed_examples": []
+  }
+}

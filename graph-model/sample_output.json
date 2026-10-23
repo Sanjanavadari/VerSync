@@ -1,125 +1,54 @@
 {
-  "repo": "commons-lang",
+  "repo": "spring-petclinic",
   "edges": [
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.abbreviate",
-      "external": false
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "OwnerRepository.findById",
+      "external": false,
+      "dependency": null
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.abbreviate",
-      "external": false
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "PetClinicConcurrencyTests.isPresent",
+      "external": false,
+      "dependency": null
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.abbreviate",
-      "external": false
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "org.springframework.web.client.RestTemplate.postForEntity",
+      "external": true,
+      "dependency": "org.springframework:spring-web"
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.isEmpty",
-      "external": false
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "org.springframework.http.HttpHeaders.setContentType",
+      "external": true,
+      "dependency": "org.springframework:spring-core"
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.length",
-      "external": true
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "java.util.Optional.get",
+      "external": true,
+      "dependency": "jdk"
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.format",
-      "external": true
+      "file": "src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java",
+      "function": "setup",
+      "calls": "org.mockito.BDDMockito.given",
+      "external": true,
+      "dependency": "org.mockito:mockito-core"
     },
     {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.length",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.splitsSurrogatePair",
-      "external": false
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.substring",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.splitsSurrogatePair",
-      "external": false
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.substring",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.format",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.splitsSurrogatePair",
-      "external": false
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "StringUtils.abbreviate",
-      "external": false
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviate",
-      "calls": "java.lang.String.substring",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviateMiddle",
-      "calls": "StringUtils.isAnyEmpty",
-      "external": false
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviateMiddle",
-      "calls": "java.lang.String.length",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviateMiddle",
-      "calls": "java.lang.String.length",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviateMiddle",
-      "calls": "java.lang.String.length",
-      "external": true
-    },
-    {
-      "file": "src/main/java/org/apache/commons/lang3/StringUtils.java",
-      "function": "abbreviateMiddle",
-      "calls": "java.lang.String.length",
-      "external": true
+      "file": "src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java",
+      "function": "testDuplicatePetNameRaceConditionIsBlocked",
+      "calls": "System.out.println",
+      "external": true,
+      "dependency": "unknown"
     }
   ]
 }

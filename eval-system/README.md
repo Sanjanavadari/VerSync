@@ -65,9 +65,10 @@ python cli.py --repo-path /path/to/repo --dependency pandas --old-version 2.1.4 
 | Flag | Required | Description |
 |---|---|---|
 | `--repo-path` | Yes | Path to the target repository. |
-| `--dependency` | Yes | Name of the dependency being updated (e.g. `pandas`). |
-| `--old-version` | Yes | Current version string (e.g. `2.1.4`). |
-| `--new-version` | Yes | Target version string (e.g. `2.2.0`). |
+| `--dependency` | Yes | Name of the dependency being updated (e.g. `spring-web`). |
+| `--old-version` | Yes | Current version string (e.g. `5.3.24`). |
+| `--new-version` | Yes | Target version string (e.g. `6.0.7`). |
+| `--dig-path` | No | Path to a precomputed Dependency-Impact Graph JSON file (e.g. `graph-model/dig_sample_output.json`). |
 | `--format` | No | `text` (default) or `json`. |
 
 ### 2. Run the Evaluation Metrics Demo
@@ -154,3 +155,92 @@ print_metrics_table({
 
 See `run_eval_demo.py` for a complete, runnable example of this pattern
 using synthetic data.
+
+### 3. Run the Baseline Model & Ablation Harness
+
+Train and evaluate the baseline models against Person 1's verified BUMP dataset:
+
+```bash
+python train_baseline.py
+```
+
+This runs a 5-fold `StratifiedGroupKFold` cross-validation (grouped by repository)
+with out-of-fold probability pooling and reports a 5-arm ablation table:
+- **Majority Baseline** ("always breaking")
+- **SemVer only (all 59 samples)**
+- **SemVer only (graph subset)**
+- **Graph only (graph subset)**
+- **SemVer + Graph (graph subset)**
+
+To generate pre-update DIGs for dataset samples:
+```bash
+python batch_build_digs.py [--limit <N>] [--safe-only]
+```
+---
+
+## Person 2: Tree Models, Structural-Graph Features and GNN (`train_models.py`)
+
+### Setup
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r eval-system/requirements.txt   # javalang, numpy, scipy, scikit-learn, xgboost, matplotlib, shap, torch
+```
+
+`shap` and `torch` are optional: SHAP importance is skipped if `shap` is missing, and
+`--no-gnn` skips the GNN arm.
+
+### 1. (Re)build DIGs for all samples
+
+```bash
+python eval-system/batch_build_digs.py                 # build missing DIGs only
+python eval-system/batch_build_digs.py --rebuild       # rebuild everything
+python eval-system/batch_build_digs.py --only causeway nem --build-timeout 1800
+python eval-system/batch_build_digs.py --no-head-fallback   # fail instead of analyzing HEAD
+```
+
+Each run merges a per-sample row into `dataset/dig_build_report.csv` (status, failure
+stage and reason, which commit was analyzed, `.java` files, unparsable files, nodes/edges,
+seconds). Each DIG also carries a `build_metadata` block with the same provenance.
+`checkout_mode` is `parent_commit` (SAFE samples, from Person 1's task2 results),
+`breaking~1` (BREAKING samples: parent of the BUMP breaking commit, fetched from
+`pull/<n>/head`) or `HEAD_fallback` (the pre-update commit was unreachable; the DIG then
+describes current code, not the pre-update state).
+
+### 2. Train and compare all arms
+
+```bash
+python eval-system/train_models.py                        # full run (~10-15 min on a laptop CPU)
+python eval-system/train_models.py --seeds 1 --perm-iters 0 --bootstrap-iters 200   # quick run
+python eval-system/train_models.py --no-gnn               # without torch
+```
+
+Every arm uses exactly the same protocol as `train_baseline.py` (functions are imported from it):
+5-fold `StratifiedGroupKFold` grouped by project, pooled out-of-fold probabilities,
+threshold 0.5, 95% bootstrap CIs over the pooled OOF predictions. The LR rows are
+`train_baseline.evaluate_model_pipeline` itself, so they match `train_baseline.py`'s output.
+
+| Arm | Features |
+|---|---|
+| `LR` | logistic regression baseline (balanced class weights) |
+| `RF` | Random Forest, 500 trees, `min_samples_leaf=2`, `class_weight="balanced_subsample"` |
+| `XGB` | XGBoost, 300 depth-2 trees, lr 0.05, `scale_pos_weight = n_safe/n_breaking` per fold |
+| `GNN impact-graph+SemVer` | 2-layer GCN over the dependency's impact subgraph + SemVer features (`gnn_model.py`) |
+| `MLP SemVer (GNN control)` | the same network with the graph branch removed |
+
+Feature sets: `SemVer` (7), `Graph` (7 baseline blast-radius features), `Struct` (21
+structural features from `graph_features.py`), split into `DepStruct` (16 features
+describing how the *updated dependency* is used: API fan-in, call share, PageRank share,
+depth distribution, modules/files reached, test share, ...) and `RepoCtx` (5 repo-level
+features: graph size, density, number of declared deps, unresolved-call share).
+`RepoCtx` is a confound control, not a model to deploy (see `results/README.md`).
+
+Hyperparameters are fixed a priori. They are not tuned, because with 8 SAFE samples any
+tuning on the CV folds would inflate the numbers.
+
+Outputs in `results/`: `model_comparison.csv/json`, `seed_stability.csv`,
+`label_permutation_test.json`, `oof_predictions.csv`, `feature_importance.csv/json`,
+`feature_importance.png`; the interpretation is in `results/README.md`.
+
+> Note (macOS): torch and xgboost each bundle their own `libomp`; the GNN therefore runs
+> torch single-threaded to avoid an OpenMP deadlock.
