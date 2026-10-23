@@ -21,7 +21,7 @@ Connects Person 1's verified dataset to the evaluation pipeline:
      and 95% Bootstrap Confidence Intervals.
 
 Usage:
-    python eval-system/train_baseline.py [--dataset <path>] [--dig-dir <path>] [--bootstrap-iters <int>] [--out <csv>]
+    python eval-system/train_baseline.py [--dataset <path>] [--dig-dir <path>] [--bootstrap-iters <int>] [--out <csv>] [--strata-out <csv>]
 """
 
 from __future__ import annotations
@@ -362,10 +362,68 @@ def format_row(name: str, m: Dict[str, float], cis: Optional[Dict[str, Tuple[flo
 
 CI_KEYS = ["precision", "recall", "f1", "roc_auc", "balanced_acc", "mcc", "safe_recall"]
 DOCKER_SOURCE = "bump_docker_reproduction"
+BUMP_ORDER = ["MAJOR", "MINOR", "PATCH", "SAME"]
+STANDARD_VERSION = re.compile(r"^\d+(\.\d+){0,2}$")
+
+# Deterministic version-only rule (no training): MAJOR -> breaking, PATCH/SAME -> safe,
+# MINOR -> 0.5 (a tie; counted as breaking at the 0.5 threshold, ranked between the two).
+VERSION_HEURISTIC_SCORE = {"MAJOR": 1.0, "MINOR": 0.5, "PATCH": 0.0, "SAME": 0.0}
 
 
 def _arm_cis(y: np.ndarray, probs: np.ndarray, iters: int) -> Dict[str, Tuple[float, float]]:
     return {k: compute_bootstrap_ci(y, probs, k, n_iters=iters) for k in CI_KEYS}
+
+
+def stratify_by_bump(
+    y_arm: np.ndarray,
+    probs: np.ndarray,
+    bumps_arm: np.ndarray,
+    iters: int,
+    threshold: float = 0.5,
+    seed: int = 42,
+) -> List[Dict[str, Any]]:
+    """
+    Slice one arm's (out-of-fold) predictions by SemVer bump type.
+
+    Strata are tiny, so each row reports its class counts. Accuracy gets a bootstrap CI
+    (resampling within the stratum, only when n >= 5). ROC-AUC is reported only when
+    both classes have at least 3 samples; otherwise it is None (undefined / too noisy).
+    """
+    rng = np.random.RandomState(seed)
+    out: List[Dict[str, Any]] = []
+    for bump in BUMP_ORDER:
+        mask = bumps_arm == bump
+        n = int(mask.sum())
+        if n == 0:
+            continue
+        yt, pr = y_arm[mask], probs[mask]
+        pred = (pr >= threshold).astype(int)
+        n_brk = int((yt == 1).sum())
+        n_safe = n - n_brk
+        acc = float((pred == yt).mean())
+        ci_lo = ci_hi = None
+        if n >= 5 and iters > 0:
+            idxs = rng.randint(0, n, size=(iters, n))
+            accs = (pred[idxs] == yt[idxs]).mean(axis=1)
+            ci_lo, ci_hi = float(np.percentile(accs, 2.5)), float(np.percentile(accs, 97.5))
+        out.append({
+            "bump": bump,
+            "n": n,
+            "n_breaking": n_brk,
+            "n_safe": n_safe,
+            "pred_breaking_rate": float(pred.mean()),
+            "accuracy": acc,
+            "accuracy_ci_low": ci_lo,
+            "accuracy_ci_high": ci_hi,
+            "breaking_recall": float(pred[yt == 1].mean()) if n_brk else None,
+            "safe_recall": float(1 - pred[yt == 0].mean()) if n_safe else None,
+            "roc_auc": compute_roc_auc(yt.tolist(), pr.tolist()) if (n_brk >= 3 and n_safe >= 3) else None,
+        })
+    return out
+
+
+def _fmt(v: Optional[float]) -> str:
+    return "n/a" if v is None else f"{v:.2f}"
 
 
 def run_experiment(
@@ -373,6 +431,7 @@ def run_experiment(
     dig_dir: Optional[str] = None,
     bootstrap_iters: int = 1000,
     out_csv: Optional[str] = None,
+    strata_csv: Optional[str] = None,
 ) -> None:
     print(f"\n[VerSync] Loading dataset from: {dataset_path}")
     rows, y, groups, feat_dicts = load_and_featurize_dataset(dataset_path, dig_dir)
@@ -389,15 +448,23 @@ def run_experiment(
 
     # Composition table: bump type x label source x class (exposes the sampling confound)
     sources = [r.get("label_source", "").strip() or "unknown" for r in rows]
-    bumps = [classify_semver_bump(r["old_version"], r["new_version"]) for r in rows]
+    bumps = np.array([classify_semver_bump(r["old_version"], r["new_version"]) for r in rows])
+    n_nonstd = sum(
+        1 for r in rows
+        if not (STANDARD_VERSION.match(r["old_version"].strip()) and STANDARD_VERSION.match(r["new_version"].strip()))
+    )
     comp: Dict[Tuple[str, str, str], int] = {}
     for src, bump, label in zip(sources, bumps, y):
-        key = (src, "BREAKING" if label == 1 else "SAFE", bump)
+        key = (src, "BREAKING" if label == 1 else "SAFE", str(bump))
         comp[key] = comp.get(key, 0) + 1
     print("\nComposition (label_source / class / SemVer bump -> n):")
     for key in sorted(comp):
         print(f"  {key[0]:<26} {key[1]:<9} {key[2]:<6} {comp[key]}")
-    print("-" * 140)
+    print(
+        f"  NOTE: {n_nonstd} of {n_total} rows have version strings that are not plain x.y.z "
+        "(e.g. Jenkins hash versions, 4-part versions); their bump type is approximate."
+    )
+    print("-" * 150)
 
     semver_cols = ["is_major", "is_minor", "is_patch", "maj_delta", "min_delta", "pat_delta", "version_distance"]
     graph_cols = [
@@ -411,48 +478,59 @@ def run_experiment(
     ]
     X_semver_all = np.array([[fd[c] for c in semver_cols] for fd in feat_dicts])
 
-    arms: List[Tuple[str, int, np.ndarray, np.ndarray, Dict[str, float]]] = []
+    all_idx = np.arange(n_total)
+    docker_idx = np.array([i for i, src in enumerate(sources) if src == DOCKER_SOURCE], dtype=int)
+    sub_idx = np.array([i for i, fd in enumerate(feat_dicts) if fd.get("has_graph", 0.0) == 1.0], dtype=int)
+    has_docker_scope = 0 < len(docker_idx) < n_total and len(set(y[docker_idx])) == 2
+    has_graph_scope = n_graphs >= 4
 
-    def add_arm(name: str, y_arm: np.ndarray, probs: np.ndarray, metrics: Dict[str, float]) -> None:
-        arms.append((name, len(y_arm), y_arm, probs, metrics))
+    # (name, index into the full dataset, predicted P(breaking), pooled metrics)
+    arms: List[Tuple[str, np.ndarray, np.ndarray, Dict[str, float]]] = []
 
-    # Arm 1: always-breaking rule
+    def add_arm(name: str, idx: np.ndarray, probs: np.ndarray, metrics: Dict[str, float]) -> None:
+        arms.append((name, idx, probs, metrics))
+
+    # Always-breaking rule
     maj_probs, maj_m = evaluate_majority_baseline(y)
-    add_arm("Always breaking (rule)", y, maj_probs, maj_m)
+    add_arm("Always breaking (rule)", all_idx, maj_probs, maj_m)
 
-    # Arm 2: SemVer only, every sample
+    # Version-only rule, on the same three scopes as the SemVer-only models
+    scopes: List[Tuple[str, np.ndarray]] = [(f"all {n_total}", all_idx)]
+    if has_docker_scope:
+        scopes.append((f"docker labels n={len(docker_idx)}", docker_idx))
+    if has_graph_scope:
+        scopes.append((f"subset n={n_graphs}", sub_idx))
+    for label, idx in scopes:
+        v_probs = np.array([VERSION_HEURISTIC_SCORE.get(str(b), 0.5) for b in bumps[idx]], dtype=float)
+        add_arm(f"Version heuristic ({label})", idx, v_probs, compute_extended_metrics(y[idx], v_probs))
+
+    # SemVer-only logistic regression
     p, m = evaluate_model_pipeline(X_semver_all, y, groups)
-    add_arm(f"SemVer only (all {n_total})", y, p, m)
+    add_arm(f"SemVer only (all {n_total})", all_idx, p, m)
+    if has_docker_scope:
+        p, m = evaluate_model_pipeline(X_semver_all[docker_idx], y[docker_idx], groups[docker_idx])
+        add_arm(f"SemVer only (docker labels n={len(docker_idx)})", docker_idx, p, m)
 
-    # Arm 2b: SemVer only, docker-reproduced labels only (removes the CI-label source)
-    docker_idx = [i for i, src in enumerate(sources) if src == DOCKER_SOURCE]
-    if 0 < len(docker_idx) < n_total and len(set(y[docker_idx])) == 2:
-        y_d = y[docker_idx]
-        p, m = evaluate_model_pipeline(X_semver_all[docker_idx], y_d, groups[docker_idx])
-        add_arm(f"SemVer only (docker labels n={len(docker_idx)})", y_d, p, m)
-
-    # Arms 3-6: graph subset
-    if n_graphs >= 4:
-        sub_idx = [i for i, fd in enumerate(feat_dicts) if fd.get("has_graph", 0.0) == 1.0]
-        y_sub = y[sub_idx]
-        groups_sub = groups[sub_idx]
+    if has_graph_scope:
         X_semver_sub = X_semver_all[sub_idx]
         X_graph_sub = np.array([[feat_dicts[i][c] for c in graph_cols] for i in sub_idx])
         X_both_sub = np.hstack([X_semver_sub, X_graph_sub])
 
-        p, m = evaluate_model_pipeline(X_semver_sub, y_sub, groups_sub)
-        add_arm(f"SemVer only (subset n={n_graphs})", y_sub, p, m)
-
-        p, m = evaluate_model_pipeline(X_graph_sub, y_sub, groups_sub)
-        add_arm(f"Graph only (subset n={n_graphs})", y_sub, p, m)
-
-        p, m = evaluate_model_pipeline(X_both_sub, y_sub, groups_sub)
-        add_arm(f"SemVer + Graph (n={n_graphs})", y_sub, p, m)
+        p, m = evaluate_model_pipeline(X_semver_sub, y[sub_idx], groups[sub_idx])
+        add_arm(f"SemVer only (subset n={n_graphs})", sub_idx, p, m)
+        p, m = evaluate_model_pipeline(X_graph_sub, y[sub_idx], groups[sub_idx])
+        add_arm(f"Graph only (subset n={n_graphs})", sub_idx, p, m)
+        p, m = evaluate_model_pipeline(X_both_sub, y[sub_idx], groups[sub_idx])
+        add_arm(f"SemVer + Graph (n={n_graphs})", sub_idx, p, m)
 
         # Untrained: the score the shipped analyzer/CLI actually produces (no CV needed).
         a_probs = np.array([feat_dicts[i]["analyzer_score"] for i in sub_idx], dtype=float)
-        a_m = compute_extended_metrics(y_sub, a_probs, threshold=0.5)
-        add_arm(f"Analyzer heuristic (subset n={n_graphs})", y_sub, a_probs, a_m)
+        add_arm(
+            f"Analyzer heuristic (subset n={n_graphs})",
+            sub_idx,
+            a_probs,
+            compute_extended_metrics(y[sub_idx], a_probs, threshold=0.5),
+        )
 
     header = (
         f"| {'Model Arm'.ljust(38)} | {'Precision'.ljust(17)} | {'Recall'.ljust(17)} | {'F1'.ljust(17)} "
@@ -467,25 +545,50 @@ def run_experiment(
     print(sep)
 
     csv_rows = []
-    for name, n_arm, y_arm, probs, metrics in arms:
-        cis = _arm_cis(y_arm, probs, bootstrap_iters)
+    for name, idx, probs, metrics in arms:
+        cis = _arm_cis(y[idx], probs, bootstrap_iters)
         print(format_row(name, metrics, cis))
-        row = {"arm": name, "n": n_arm}
+        row: Dict[str, Any] = {"arm": name, "n": len(idx)}
         for k in CI_KEYS:
             row[k] = metrics[k]
             row[f"{k}_ci_low"], row[f"{k}_ci_high"] = cis[k]
         for k in ("tp", "fp", "fn", "tn"):
             row[k] = metrics[k]
         csv_rows.append(row)
-
     print("=" * 150)
+
+    # ---- Stratified evaluation by SemVer bump type ----
+    strata_rows: List[Dict[str, Any]] = []
+    print("\nSTRATIFIED BY SEMVER BUMP TYPE (threshold 0.5; ROC-AUC shown only if both classes have >= 3 samples)")
+    show_prefixes = ("Version heuristic (all", "SemVer only (all", "SemVer + Graph", "Analyzer heuristic")
+    for name, idx, probs, _ in arms:
+        if name.startswith("Always breaking"):
+            continue
+        strata = stratify_by_bump(y[idx], probs, bumps[idx], bootstrap_iters)
+        for srow in strata:
+            strata_rows.append({"arm": name, **srow})
+        if name.startswith(show_prefixes):
+            print(f"\n  {name}")
+            print(f"  {'bump':<6} {'n':>4} {'brk':>4} {'safe':>5} {'pred-brk':>9} {'accuracy [95% CI]':>22} {'brk-rec':>8} {'safe-rec':>9} {'AUC':>6}")
+            for srow in strata:
+                acc = f"{srow['accuracy']:.2f}"
+                if srow["accuracy_ci_low"] is not None:
+                    acc += f" [{srow['accuracy_ci_low']:.2f},{srow['accuracy_ci_high']:.2f}]"
+                print(
+                    f"  {srow['bump']:<6} {srow['n']:>4} {srow['n_breaking']:>4} {srow['n_safe']:>5} "
+                    f"{srow['pred_breaking_rate']:>9.2f} {acc:>22} {_fmt(srow['breaking_recall']):>8} "
+                    f"{_fmt(srow['safe_recall']):>9} {_fmt(srow['roc_auc']):>6}"
+                )
+
     print("\nNotes:")
     print("  * Evaluated via 5-fold StratifiedGroupKFold grouped by project; probabilities pooled out-of-fold.")
     print(f"  * 95% bootstrap confidence intervals [lower, upper] from {bootstrap_iters:,} resamples.")
     print(f"  * Dataset: {os.path.basename(dataset_path)} (N={n_total}). Graph arms only cover samples with a DIG (n={n_graphs}).")
     print("  * 'Always breaking' is a fixed rule (probability 1.0), not the majority class.")
+    print("  * 'Version heuristic' is a fixed rule: MAJOR -> breaking, PATCH/SAME -> safe, MINOR -> 0.5 (tie, counted as breaking).")
     print("  * 'Analyzer heuristic' is the untrained score the CLI ships; it is not cross-validated.")
     print("  * Compare arms only on the same sample subset; the all-N and subset arms are not directly comparable.")
+    print("  * Strata are small (see n / brk / safe columns); per-stratum differences are descriptive, not significant.")
 
     if out_csv:
         os.makedirs(os.path.dirname(os.path.abspath(out_csv)), exist_ok=True)
@@ -494,6 +597,13 @@ def run_experiment(
             writer.writeheader()
             writer.writerows(csv_rows)
         print(f"\n[VerSync] Saved ablation table to {out_csv}")
+    if strata_csv and strata_rows:
+        os.makedirs(os.path.dirname(os.path.abspath(strata_csv)), exist_ok=True)
+        with open(strata_csv, "w", newline="", encoding="utf-8") as fh:
+            writer = csv.DictWriter(fh, fieldnames=list(strata_rows[0].keys()))
+            writer.writeheader()
+            writer.writerows(strata_rows)
+        print(f"[VerSync] Saved stratified table to {strata_csv}")
 
 
 def main() -> None:
@@ -519,6 +629,11 @@ def main() -> None:
         default=os.path.join(os.path.dirname(__file__), "..", "results", "ablation_combined.csv"),
         help="Where to save the ablation table as CSV (default: results/ablation_combined.csv).",
     )
+    parser.add_argument(
+        "--strata-out",
+        default=os.path.join(os.path.dirname(__file__), "..", "results", "stratified_by_bump.csv"),
+        help="Where to save the per-bump-type table as CSV (default: results/stratified_by_bump.csv).",
+    )
     args = parser.parse_args()
 
     run_experiment(
@@ -526,6 +641,7 @@ def main() -> None:
         dig_dir=os.path.abspath(args.dig_dir) if os.path.exists(args.dig_dir) else None,
         bootstrap_iters=args.bootstrap_iters,
         out_csv=os.path.abspath(args.out),
+        strata_csv=os.path.abspath(args.strata_out),
     )
 
 
