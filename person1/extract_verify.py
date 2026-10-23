@@ -28,7 +28,8 @@ OUTPUT_CSV = Path("person1") / "task2_verification_results.csv"
 OUTPUT_JSON = Path("person1") / "task2_verification_results.json"
 
 JAVA_HOME = r"C:\Program Files\Eclipse Adoptium\jdk-11.0.32.101-hotspot"
-MAVEN = r"C:\Users\siva_\Desktop\apache-maven-3.9.16\bin\mvn.cmd"
+# Set MAVEN_CMD to a specific mvn / mvn.cmd; otherwise mvn is taken from PATH.
+MAVEN = os.environ.get("MAVEN_CMD") or shutil.which("mvn") or "mvn"
 
 # 25 minutes per Maven build
 MAVEN_TIMEOUT_SECONDS = 1500
