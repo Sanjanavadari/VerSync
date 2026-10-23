@@ -1,0 +1,72 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.jenkinsci.plugins.github_branch_source.IgnoreDraftPullRequestFilterTrait$DescriptorImpl#getContextClass()",
+      "signature": "java.lang.Class<? extends jenkins.scm.api.trait.SCMSourceContext> getContextClass()"
+    },
+    {
+      "key": "org.jenkinsci.plugins.github_branch_source.IgnoreDraftPullRequestFilterTrait$DescriptorImpl#getSourceClass()",
+      "signature": "java.lang.Class<? extends jenkins.scm.api.SCMSource> getSourceClass()"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigatorContext#setTopics",
+      "old": "void setTopics(java.util.ArrayList<java.lang.String>)",
+      "new": "void setTopics(java.util.List<java.lang.String>)",
+      "old_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigatorContext#setTopics(java.util.ArrayList<java.lang.String>)",
+      "new_key": "org.jenkinsci.plugins.github_branch_source.GitHubSCMNavigatorContext#setTopics(java.util.List<java.lang.String>)"
+    }
+  ],
+  "counts": {
+    "old_methods": 619,
+    "new_methods": 621,
+    "removed": 0,
+    "added": 2,
+    "changed": 1,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.jenkins-ci.plugins_github-branch-source_2.11.4.hpi",
+  "new_jar": "jar_cache/org.jenkins-ci.plugins_github-branch-source_1598.v91207e9f9b_4a_.hpi",
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "github-branch-source",
+  "old_version": "2.11.4",
+  "new_version": "1598.v91207e9f9b_4a_",
+  "status": "OK",
+  "packaging": "hpi",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.coravy.hudson.plugins.github:github",
+          "old": "1.34.1",
+          "new": "1.34.3"
+        },
+        {
+          "dependency": "org.jenkins-ci.main:jenkins-core",
+          "old": "2.289.1",
+          "new": "2.323"
+        },
+        {
+          "dependency": "org.jenkins-ci.plugins.workflow:workflow-support",
+          "old": "3.8",
+          "new": "804.vba10a18a1476"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "github-oauth-plugin"
+  ]
+}

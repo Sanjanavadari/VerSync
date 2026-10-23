@@ -1,0 +1,66 @@
+{
+  "removed": [],
+  "added": [],
+  "changed": [],
+  "counts": {
+    "old_methods": 139,
+    "new_methods": 139,
+    "removed": 0,
+    "added": 0,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.jenkins-ci.plugins_docker-commons_1.21.hpi",
+  "new_jar": "jar_cache/org.jenkins-ci.plugins_docker-commons_422.v9d1a_89cede51.hpi",
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "docker-commons",
+  "old_version": "1.21",
+  "new_version": "422.v9d1a_89cede51",
+  "status": "OK_NO_METHOD_CHANGE",
+  "packaging": "hpi",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "commons-logging:commons-logging",
+        "javax.servlet:javax.servlet-api",
+        "net.jcip:jcip-annotations",
+        "org.codehaus.mojo:animal-sniffer-annotations",
+        "org.jenkins-ci.main:jenkins-core"
+      ],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.jenkins-ci.plugins:credentials",
+          "old": "2.6.1",
+          "new": "1254.vb_96f366e7b_a_d"
+        },
+        {
+          "dependency": "org.jenkins-ci.plugins:credentials-binding",
+          "old": "1.27",
+          "new": "604.vb_64480b_c56ca_"
+        },
+        {
+          "dependency": "org.jenkins-ci.plugins:structs",
+          "old": "1.23",
+          "new": "324.va_f5d6774f3a_d"
+        },
+        {
+          "dependency": "org.jenkinsci.plugins:pipeline-model-extensions",
+          "old": "1.9.3",
+          "new": "2.2141.v5402e818a_779"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "amazon-ecr-plugin"
+  ]
+}

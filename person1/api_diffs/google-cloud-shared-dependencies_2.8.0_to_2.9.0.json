@@ -1,0 +1,39 @@
+{
+  "group_id": "com.google.cloud",
+  "artifact_id": "google-cloud-shared-dependencies",
+  "old_version": "2.8.0",
+  "new_version": "2.9.0",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.google.cloud:first-party-dependencies",
+          "old": "2.8.0",
+          "new": "2.9.0"
+        },
+        {
+          "dependency": "com.google.cloud:third-party-dependencies",
+          "old": "2.8.0",
+          "new": "2.9.0"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 2,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "java-dlp"
+  ]
+}

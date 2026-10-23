@@ -1,0 +1,183 @@
+{
+  "removed": [
+    {
+      "key": "org.jenkinsci.test.acceptance.plugins.scriptler.Script#runOnAllSlaves()",
+      "signature": "org.jenkinsci.test.acceptance.plugins.scriptler.ScriptResult runOnAllSlaves()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.jenkinsci.test.acceptance.AbstractPipelineTest#createPipelineJobInFolderWithScript(org.jenkinsci.test.acceptance.po.Folder, java.lang.String)",
+      "signature": "org.jenkinsci.test.acceptance.po.WorkflowJob createPipelineJobInFolderWithScript(org.jenkinsci.test.acceptance.po.Folder, java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.AbstractPipelineTest#createPipelineJobWithScript(java.lang.String)",
+      "signature": "org.jenkinsci.test.acceptance.po.WorkflowJob createPipelineJobWithScript(java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.AbstractPipelineTest#scriptForPipeline()",
+      "signature": "java.lang.String scriptForPipeline()"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.AbstractPipelineTest#scriptForPipelineFromResourceWithParameters(java.lang.String, java.lang.String...)",
+      "signature": "java.lang.String scriptForPipelineFromResourceWithParameters(java.lang.String, java.lang.String...)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.AbstractPipelineTest#scriptForPipelineWithParameters(java.lang.String...)",
+      "signature": "java.lang.String scriptForPipelineWithParameters(java.lang.String...)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.docker.fixtures.SshAgentContainer#configureSSHSlaveLauncher(org.jenkinsci.test.acceptance.po.DumbSlave)",
+      "signature": "org.jenkinsci.test.acceptance.plugins.ssh_slaves.SshSlaveLauncher configureSSHSlaveLauncher(org.jenkinsci.test.acceptance.po.DumbSlave)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.junit.Wait#withTimeout(java.time.Duration)",
+      "signature": "org.openqa.selenium.support.ui.FluentWait withTimeout(java.time.Duration)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.plugins.scriptler.Script#runOnAllAgents()",
+      "signature": "org.jenkinsci.test.acceptance.plugins.scriptler.ScriptResult runOnAllAgents()"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.utils.PipelineTestUtils#checkScript(java.lang.String)",
+      "signature": "void checkScript(java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.utils.PipelineTestUtils#createPipelineJobWithScript(org.jenkinsci.test.acceptance.po.JobsMixIn, java.lang.String)",
+      "signature": "org.jenkinsci.test.acceptance.po.WorkflowJob createPipelineJobWithScript(org.jenkinsci.test.acceptance.po.JobsMixIn, java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.utils.PipelineTestUtils#resolveScriptName(java.lang.String)",
+      "signature": "java.lang.String resolveScriptName(java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.utils.PipelineTestUtils#scriptForPipelineFromResource(java.lang.Class, java.lang.String)",
+      "signature": "java.lang.String scriptForPipelineFromResource(java.lang.Class, java.lang.String)"
+    },
+    {
+      "key": "org.jenkinsci.test.acceptance.utils.PipelineTestUtils#scriptForPipelineFromResourceWithParameters(java.lang.Class, java.lang.String, java.lang.String...)",
+      "signature": "java.lang.String scriptForPipelineFromResourceWithParameters(java.lang.Class, java.lang.String, java.lang.String...)"
+    }
+  ],
+  "changed": [
+    {
+      "name": "org.jenkinsci.test.acceptance.utils.SauceLabsConnection#createWebDriver",
+      "old": "org.openqa.selenium.WebDriver createWebDriver(org.openqa.selenium.remote.DesiredCapabilities)",
+      "new": "org.openqa.selenium.WebDriver createWebDriver(org.openqa.selenium.Capabilities)",
+      "old_key": "org.jenkinsci.test.acceptance.utils.SauceLabsConnection#createWebDriver(org.openqa.selenium.remote.DesiredCapabilities)",
+      "new_key": "org.jenkinsci.test.acceptance.utils.SauceLabsConnection#createWebDriver(org.openqa.selenium.Capabilities)"
+    }
+  ],
+  "counts": {
+    "old_methods": 1397,
+    "new_methods": 1409,
+    "removed": 1,
+    "added": 13,
+    "changed": 1,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.jenkinsci.test.acceptance.AbstractPipelineTest",
+    "org.jenkinsci.test.acceptance.utils.PipelineTestUtils"
+  ],
+  "old_jar": "jar_cache/org.jenkins-ci_acceptance-test-harness_5504.v485694f31cdf.jar",
+  "new_jar": "jar_cache/org.jenkins-ci_acceptance-test-harness_5541.va_c0a_36b_b_f825.jar",
+  "group_id": "org.jenkins-ci",
+  "artifact_id": "acceptance-test-harness",
+  "old_version": "5504.v485694f31cdf",
+  "new_version": "5541.va_c0a_36b_b_f825",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.codeborne:phantomjsdriver",
+        "org.eclipse.sisu:org.eclipse.sisu.plexus",
+        "org.seleniumhq.selenium:selenium-ie-driver"
+      ],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.github.jnr:jffi",
+          "old": "1.3.10",
+          "new": "1.3.11"
+        },
+        {
+          "dependency": "org.apache.commons:commons-configuration2",
+          "old": "2.8.0",
+          "new": "2.9.0"
+        },
+        {
+          "dependency": "org.codehaus.groovy:groovy",
+          "old": "3.0.14",
+          "new": "3.0.17"
+        },
+        {
+          "dependency": "org.codehaus.groovy:groovy-console",
+          "old": "3.0.14",
+          "new": "3.0.17"
+        },
+        {
+          "dependency": "org.json:json",
+          "old": "20220924",
+          "new": "20230227"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:htmlunit-driver",
+          "old": "2.64.0",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:lift",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-api",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-chrome-driver",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-firefox-driver",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-java",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-safari-driver",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.seleniumhq.selenium:selenium-support",
+          "old": "3.141.59",
+          "new": "4.8.1"
+        },
+        {
+          "dependency": "org.slf4j:slf4j-jdk14",
+          "old": "2.0.6",
+          "new": "2.0.7"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "code-coverage-api-plugin"
+  ]
+}

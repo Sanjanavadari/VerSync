@@ -1,0 +1,623 @@
+{
+  "removed": [
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractMojoHausEnforcerRule#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractMojoHausEnforcerRule#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractRequireRoles#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractRequireRoles#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractRequireRoles#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractRequireRoles#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies$IgnorableDependency#matches(java.lang.String)",
+      "signature": "boolean matches(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.AbstractResolveDependencies$IgnorableDependency#matchesArtifact(org.apache.maven.artifact.Artifact)",
+      "signature": "boolean matchesArtifact(org.apache.maven.artifact.Artifact)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.BanCircularDependencies#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassFile#getArtifactThisClassWasFoundIn()",
+      "signature": "org.apache.maven.artifact.Artifact getArtifactThisClassWasFoundIn()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassFile#getClassFilePath()",
+      "signature": "java.lang.String getClassFilePath()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassFile#getHash()",
+      "signature": "java.lang.String getHash()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassesWithSameName#add(org.apache.maven.plugins.enforcer.ClassFile)",
+      "signature": "void add(org.apache.maven.plugins.enforcer.ClassFile)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassesWithSameName#getAllArtifactsThisClassWasFoundIn()",
+      "signature": "java.util.Set<org.apache.maven.artifact.Artifact> getAllArtifactsThisClassWasFoundIn()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassesWithSameName#hasDuplicates(boolean)",
+      "signature": "boolean hasDuplicates(boolean)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassesWithSameName#previous()",
+      "signature": "org.apache.maven.plugins.enforcer.ClassFile previous()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.ClassesWithSameName#toOutputString(boolean)",
+      "signature": "java.lang.String toOutputString(boolean)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.EnforceBytecodeVersion#setMaxJavaMajorVersionNumber(int)",
+      "signature": "void setMaxJavaMajorVersionNumber(int)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.EnforceBytecodeVersion#setMaxJavaMinorVersionNumber(int)",
+      "signature": "void setMaxJavaMinorVersionNumber(int)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.EnforceBytecodeVersion#setSearchTransitive(boolean)",
+      "signature": "void setSearchTransitive(boolean)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.EnforceBytecodeVersion#setStrict(boolean)",
+      "signature": "void setStrict(boolean)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.InputStreamSupplier#get()",
+      "signature": "java.io.InputStream get()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.JarUtils#isJarFile(org.apache.maven.artifact.Artifact)",
+      "signature": "boolean isJarFile(org.apache.maven.artifact.Artifact)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireContributorRoles#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireDeveloperRoles#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#getEncoding()",
+      "signature": "java.lang.String getEncoding()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#getExcludes()",
+      "signature": "java.lang.String getExcludes()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#getIncludes()",
+      "signature": "java.lang.String getIncludes()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#isUseDefaultExcludes()",
+      "signature": "boolean isUseDefaultExcludes()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#setEncoding(java.lang.String)",
+      "signature": "void setEncoding(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#setExcludes(java.lang.String)",
+      "signature": "void setExcludes(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#setIncludes(java.lang.String)",
+      "signature": "void setIncludes(java.lang.String)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireEncoding#setUseDefaultExcludes(boolean)",
+      "signature": "void setUseDefaultExcludes(boolean)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequireProjectUrl#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)",
+      "signature": "void execute(org.apache.maven.enforcer.rule.api.EnforcerRuleHelper)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#getCacheId()",
+      "signature": "java.lang.String getCacheId()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#getLevel()",
+      "signature": "org.apache.maven.enforcer.rule.api.EnforcerLevel getLevel()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#isCacheable()",
+      "signature": "boolean isCacheable()"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)",
+      "signature": "boolean isResultValid(org.apache.maven.enforcer.rule.api.EnforcerRule)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges#setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)",
+      "signature": "void setLevel(org.apache.maven.enforcer.rule.api.EnforcerLevel)"
+    },
+    {
+      "key": "org.apache.maven.plugins.enforcer.RequirePropertyDiverges$CreateInvokingRuleDom#getRuleDom()",
+      "signature": "org.codehaus.plexus.util.xml.Xpp3Dom getRuleDom()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#getArtifactId()",
+      "signature": "java.lang.String getArtifactId()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#getClassifier()",
+      "signature": "java.lang.String getClassifier()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#getGroupId()",
+      "signature": "java.lang.String getGroupId()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#getIgnoreClasses()",
+      "signature": "java.lang.String[] getIgnoreClasses()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#getType()",
+      "signature": "java.lang.String getType()"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#setArtifactId(java.lang.String)",
+      "signature": "void setArtifactId(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#setClassifier(java.lang.String)",
+      "signature": "void setClassifier(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#setGroupId(java.lang.String)",
+      "signature": "void setGroupId(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#setIgnoreClasses(java.lang.String[])",
+      "signature": "void setIgnoreClasses(java.lang.String[])"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#setType(java.lang.String)",
+      "signature": "void setType(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.enforcer.Dependency#toString()",
+      "signature": "java.lang.String toString()"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.AbstractResolveDependencies#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.AbstractResolveDependencies$IgnorableDependency#matches(java.lang.String)",
+      "signature": "boolean matches(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.AbstractResolveDependencies$IgnorableDependency#matchesArtifact(org.apache.maven.artifact.Artifact)",
+      "signature": "boolean matchesArtifact(org.apache.maven.artifact.Artifact)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.BanCircularDependencies#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.BanDuplicateClasses#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassFile#getArtifactThisClassWasFoundIn()",
+      "signature": "org.apache.maven.artifact.Artifact getArtifactThisClassWasFoundIn()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassFile#getClassFilePath()",
+      "signature": "java.lang.String getClassFilePath()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassFile#getHash()",
+      "signature": "java.lang.String getHash()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName#add(org.codehaus.mojo.extraenforcer.dependencies.ClassFile)",
+      "signature": "void add(org.codehaus.mojo.extraenforcer.dependencies.ClassFile)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName#getAllArtifactsThisClassWasFoundIn()",
+      "signature": "java.util.Set<org.apache.maven.artifact.Artifact> getAllArtifactsThisClassWasFoundIn()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName#hasDuplicates(boolean)",
+      "signature": "boolean hasDuplicates(boolean)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName#previous()",
+      "signature": "org.codehaus.mojo.extraenforcer.dependencies.ClassFile previous()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName#toOutputString(boolean)",
+      "signature": "java.lang.String toOutputString(boolean)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#getArtifactId()",
+      "signature": "java.lang.String getArtifactId()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#getClassifier()",
+      "signature": "java.lang.String getClassifier()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#getGroupId()",
+      "signature": "java.lang.String getGroupId()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#getIgnoreClasses()",
+      "signature": "java.lang.String[] getIgnoreClasses()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#getType()",
+      "signature": "java.lang.String getType()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#setArtifactId(java.lang.String)",
+      "signature": "void setArtifactId(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#setClassifier(java.lang.String)",
+      "signature": "void setClassifier(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#setGroupId(java.lang.String)",
+      "signature": "void setGroupId(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#setIgnoreClasses(java.lang.String[])",
+      "signature": "void setIgnoreClasses(java.lang.String[])"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#setType(java.lang.String)",
+      "signature": "void setType(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.Dependency#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion#setMaxJavaMajorVersionNumber(int)",
+      "signature": "void setMaxJavaMajorVersionNumber(int)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion#setMaxJavaMinorVersionNumber(int)",
+      "signature": "void setMaxJavaMinorVersionNumber(int)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion#setSearchTransitive(boolean)",
+      "signature": "void setSearchTransitive(boolean)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion#setStrict(boolean)",
+      "signature": "void setStrict(boolean)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.InputStreamSupplier#get()",
+      "signature": "java.io.InputStream get()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.dependencies.JarUtils#isJarFile(org.apache.maven.artifact.Artifact)",
+      "signature": "boolean isJarFile(org.apache.maven.artifact.Artifact)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#getEncoding()",
+      "signature": "java.lang.String getEncoding()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#getExcludes()",
+      "signature": "java.lang.String getExcludes()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#getIncludes()",
+      "signature": "java.lang.String getIncludes()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#isUseDefaultExcludes()",
+      "signature": "boolean isUseDefaultExcludes()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#setEncoding(java.lang.String)",
+      "signature": "void setEncoding(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#setExcludes(java.lang.String)",
+      "signature": "void setExcludes(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#setIncludes(java.lang.String)",
+      "signature": "void setIncludes(java.lang.String)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding#setUseDefaultExcludes(boolean)",
+      "signature": "void setUseDefaultExcludes(boolean)"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.AbstractRequireRoles#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequireContributorRoles#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequireDeveloperRoles#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequireProjectUrl#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequireProjectUrl#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequirePropertyDiverges#execute()",
+      "signature": "void execute()"
+    },
+    {
+      "key": "org.codehaus.mojo.extraenforcer.model.RequirePropertyDiverges$CreateInvokingRuleDom#getRuleDom()",
+      "signature": "org.codehaus.plexus.util.xml.Xpp3Dom getRuleDom()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 88,
+    "new_methods": 51,
+    "removed": 84,
+    "added": 47,
+    "changed": 0,
+    "removed_classes": 18,
+    "added_classes": 17
+  },
+  "removed_classes": [
+    "org.apache.maven.plugins.enforcer.AbstractMojoHausEnforcerRule",
+    "org.apache.maven.plugins.enforcer.AbstractRequireRoles",
+    "org.apache.maven.plugins.enforcer.AbstractResolveDependencies",
+    "org.apache.maven.plugins.enforcer.AbstractResolveDependencies$IgnorableDependency",
+    "org.apache.maven.plugins.enforcer.BanCircularDependencies",
+    "org.apache.maven.plugins.enforcer.BanDuplicateClasses",
+    "org.apache.maven.plugins.enforcer.ClassFile",
+    "org.apache.maven.plugins.enforcer.ClassesWithSameName",
+    "org.apache.maven.plugins.enforcer.EnforceBytecodeVersion",
+    "org.apache.maven.plugins.enforcer.InputStreamSupplier",
+    "org.apache.maven.plugins.enforcer.JarUtils",
+    "org.apache.maven.plugins.enforcer.RequireContributorRoles",
+    "org.apache.maven.plugins.enforcer.RequireDeveloperRoles",
+    "org.apache.maven.plugins.enforcer.RequireEncoding",
+    "org.apache.maven.plugins.enforcer.RequireProjectUrl",
+    "org.apache.maven.plugins.enforcer.RequirePropertyDiverges",
+    "org.apache.maven.plugins.enforcer.RequirePropertyDiverges$CreateInvokingRuleDom",
+    "org.codehaus.mojo.enforcer.Dependency"
+  ],
+  "added_classes": [
+    "org.codehaus.mojo.extraenforcer.dependencies.AbstractResolveDependencies",
+    "org.codehaus.mojo.extraenforcer.dependencies.AbstractResolveDependencies$IgnorableDependency",
+    "org.codehaus.mojo.extraenforcer.dependencies.BanCircularDependencies",
+    "org.codehaus.mojo.extraenforcer.dependencies.BanDuplicateClasses",
+    "org.codehaus.mojo.extraenforcer.dependencies.ClassFile",
+    "org.codehaus.mojo.extraenforcer.dependencies.ClassesWithSameName",
+    "org.codehaus.mojo.extraenforcer.dependencies.Dependency",
+    "org.codehaus.mojo.extraenforcer.dependencies.EnforceBytecodeVersion",
+    "org.codehaus.mojo.extraenforcer.dependencies.InputStreamSupplier",
+    "org.codehaus.mojo.extraenforcer.dependencies.JarUtils",
+    "org.codehaus.mojo.extraenforcer.encoding.RequireEncoding",
+    "org.codehaus.mojo.extraenforcer.model.AbstractRequireRoles",
+    "org.codehaus.mojo.extraenforcer.model.RequireContributorRoles",
+    "org.codehaus.mojo.extraenforcer.model.RequireDeveloperRoles",
+    "org.codehaus.mojo.extraenforcer.model.RequireProjectUrl",
+    "org.codehaus.mojo.extraenforcer.model.RequirePropertyDiverges",
+    "org.codehaus.mojo.extraenforcer.model.RequirePropertyDiverges$CreateInvokingRuleDom"
+  ],
+  "old_jar": "jar_cache/org.codehaus.mojo_extra-enforcer-rules_1.6.1.jar",
+  "new_jar": "jar_cache/org.codehaus.mojo_extra-enforcer-rules_1.7.0.jar",
+  "group_id": "org.codehaus.mojo",
+  "artifact_id": "extra-enforcer-rules",
+  "old_version": "1.6.1",
+  "new_version": "1.7.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.apache.maven.enforcer:enforcer-api",
+          "old": "3.1.0",
+          "new": "3.3.0"
+        },
+        {
+          "dependency": "org.apache.maven.shared:maven-common-artifact-filters",
+          "old": "3.3.1",
+          "new": "3.3.2"
+        },
+        {
+          "dependency": "org.apache.maven.shared:maven-dependency-tree",
+          "old": "3.1.1",
+          "new": "3.2.1"
+        },
+        {
+          "dependency": "org.mockito:mockito-core",
+          "old": "4.6.1",
+          "new": "4.11.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "micro-migration"
+  ]
+}

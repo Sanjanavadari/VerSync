@@ -14,11 +14,11 @@
     },
     {
       "key": "ch.qos.logback.classic.db.names.DBNameResolver#getColumnName(N)",
-      "signature": "abstract <N extends java.lang.Enum<?>> java.lang.String getColumnName(N)"
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getColumnName(N)"
     },
     {
       "key": "ch.qos.logback.classic.db.names.DBNameResolver#getTableName(N)",
-      "signature": "abstract <N extends java.lang.Enum<?>> java.lang.String getTableName(N)"
+      "signature": "<N extends java.lang.Enum<?>> java.lang.String getTableName(N)"
     },
     {
       "key": "ch.qos.logback.classic.db.names.DefaultDBNameResolver#getColumnName(N)",
@@ -118,35 +118,35 @@
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerEffectiveLevel(java.lang.String)",
-      "signature": "abstract java.lang.String getLoggerEffectiveLevel(java.lang.String)"
+      "signature": "java.lang.String getLoggerEffectiveLevel(java.lang.String)"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerLevel(java.lang.String)",
-      "signature": "abstract java.lang.String getLoggerLevel(java.lang.String)"
+      "signature": "java.lang.String getLoggerLevel(java.lang.String)"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getLoggerList()",
-      "signature": "abstract java.util.List<java.lang.String> getLoggerList()"
+      "signature": "java.util.List<java.lang.String> getLoggerList()"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#getStatuses()",
-      "signature": "abstract java.util.List<java.lang.String> getStatuses()"
+      "signature": "java.util.List<java.lang.String> getStatuses()"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadByFileName(java.lang.String)",
-      "signature": "abstract void reloadByFileName(java.lang.String)"
+      "signature": "void reloadByFileName(java.lang.String)"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadByURL(java.net.URL)",
-      "signature": "abstract void reloadByURL(java.net.URL)"
+      "signature": "void reloadByURL(java.net.URL)"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#reloadDefaultConfiguration()",
-      "signature": "abstract void reloadDefaultConfiguration()"
+      "signature": "void reloadDefaultConfiguration()"
     },
     {
       "key": "ch.qos.logback.classic.jmx.JMXConfiguratorMBean#setLoggerLevel(java.lang.String, java.lang.String)",
-      "signature": "abstract void setLoggerLevel(java.lang.String, java.lang.String)"
+      "signature": "void setLoggerLevel(java.lang.String, java.lang.String)"
     },
     {
       "key": "ch.qos.logback.classic.jmx.MBeanUtil#createAndRegisterJMXConfigurator(javax.management.MBeanServer, ch.qos.logback.classic.LoggerContext, ch.qos.logback.classic.jmx.JMXConfigurator, javax.management.ObjectName, java.lang.Object)",
@@ -286,7 +286,7 @@
     },
     {
       "key": "ch.qos.logback.classic.spi.Configurator#configure(ch.qos.logback.classic.LoggerContext)",
-      "signature": "abstract void configure(ch.qos.logback.classic.LoggerContext)"
+      "signature": "void configure(ch.qos.logback.classic.LoggerContext)"
     },
     {
       "key": "ch.qos.logback.classic.spi.LoggingEvent#getMarker()",
@@ -314,7 +314,7 @@
     },
     {
       "key": "ch.qos.logback.classic.util.EnvUtil#loadFromServiceLoader(java.lang.Class<T>)",
-      "signature": "<T> T loadFromServiceLoader(java.lang.Class<T>)"
+      "signature": "T loadFromServiceLoader(java.lang.Class<T>)"
     },
     {
       "key": "org.slf4j.impl.StaticLoggerBinder#getLoggerFactory()",
@@ -620,27 +620,27 @@
     },
     {
       "key": "ch.qos.logback.classic.spi.ILoggingEvent#getInstant()",
-      "signature": "default java.time.Instant getInstant()"
+      "signature": "java.time.Instant getInstant()"
     },
     {
       "key": "ch.qos.logback.classic.spi.ILoggingEvent#getKeyValuePairs()",
-      "signature": "abstract java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
+      "signature": "java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
     },
     {
       "key": "ch.qos.logback.classic.spi.ILoggingEvent#getMarkerList()",
-      "signature": "abstract java.util.List<org.slf4j.Marker> getMarkerList()"
+      "signature": "java.util.List<org.slf4j.Marker> getMarkerList()"
     },
     {
       "key": "ch.qos.logback.classic.spi.ILoggingEvent#getNanoseconds()",
-      "signature": "abstract int getNanoseconds()"
+      "signature": "int getNanoseconds()"
     },
     {
       "key": "ch.qos.logback.classic.spi.ILoggingEvent#getSequenceNumber()",
-      "signature": "abstract long getSequenceNumber()"
+      "signature": "long getSequenceNumber()"
     },
     {
       "key": "ch.qos.logback.classic.spi.IThrowableProxy#isCyclic()",
-      "signature": "abstract boolean isCyclic()"
+      "signature": "boolean isCyclic()"
     },
     {
       "key": "ch.qos.logback.classic.spi.LogbackServiceProvider#getLoggerFactory()",
@@ -736,7 +736,7 @@
     },
     {
       "key": "ch.qos.logback.classic.util.ClassicEnvUtil#loadFromServiceLoader(java.lang.Class<T>, java.lang.ClassLoader)",
-      "signature": "<T> java.util.List<T> loadFromServiceLoader(java.lang.Class<T>, java.lang.ClassLoader)"
+      "signature": "java.util.List<T> loadFromServiceLoader(java.lang.Class<T>, java.lang.ClassLoader)"
     },
     {
       "key": "ch.qos.logback.classic.util.ContextInitializer#autoConfig(java.lang.ClassLoader)",
@@ -851,13 +851,108 @@
     "new_methods": 644,
     "removed": 86,
     "added": 105,
-    "changed": 11
+    "changed": 11,
+    "removed_classes": 18,
+    "added_classes": 29
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\ch.qos.logback_logback-classic_1.2.11.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\ch.qos.logback_logback-classic_1.4.1.jar",
+  "removed_classes": [
+    "ch.qos.logback.classic.db.names.ColumnName",
+    "ch.qos.logback.classic.db.names.DBNameResolver",
+    "ch.qos.logback.classic.db.names.DefaultDBNameResolver",
+    "ch.qos.logback.classic.db.names.SimpleDBNameResolver",
+    "ch.qos.logback.classic.db.names.TableName",
+    "ch.qos.logback.classic.jmx.JMXConfigurator",
+    "ch.qos.logback.classic.jmx.JMXConfiguratorMBean",
+    "ch.qos.logback.classic.jmx.MBeanUtil",
+    "ch.qos.logback.classic.joran.action.EvaluatorAction",
+    "ch.qos.logback.classic.joran.action.JMXConfiguratorAction",
+    "ch.qos.logback.classic.sift.AppenderFactoryUsingJoran",
+    "ch.qos.logback.classic.sift.SiftAction",
+    "ch.qos.logback.classic.sift.SiftingJoranConfigurator",
+    "ch.qos.logback.classic.util.DefaultNestedComponentRules",
+    "ch.qos.logback.classic.util.EnvUtil",
+    "org.slf4j.impl.StaticLoggerBinder",
+    "org.slf4j.impl.StaticMDCBinder",
+    "org.slf4j.impl.StaticMarkerBinder"
+  ],
+  "added_classes": [
+    "ch.qos.logback.classic.helpers.WithLayoutListAppender",
+    "ch.qos.logback.classic.joran.action.ClassicEvaluatorAction",
+    "ch.qos.logback.classic.model.ConfigurationModel",
+    "ch.qos.logback.classic.model.ContextNameModel",
+    "ch.qos.logback.classic.model.LevelModel",
+    "ch.qos.logback.classic.model.LoggerContextListenerModel",
+    "ch.qos.logback.classic.model.LoggerModel",
+    "ch.qos.logback.classic.model.ReceiverModel",
+    "ch.qos.logback.classic.model.RootLoggerModel",
+    "ch.qos.logback.classic.model.processor.ConfigurationModelHandler",
+    "ch.qos.logback.classic.model.processor.ContextNameModelHandler",
+    "ch.qos.logback.classic.model.processor.LevelModelHandler",
+    "ch.qos.logback.classic.model.processor.LogbackClassicDefaultNestedComponentRules",
+    "ch.qos.logback.classic.model.processor.LoggerContextListenerModelHandler",
+    "ch.qos.logback.classic.model.processor.LoggerModelHandler",
+    "ch.qos.logback.classic.model.processor.ReceiverModelHandler",
+    "ch.qos.logback.classic.model.processor.RootLoggerModelHandler",
+    "ch.qos.logback.classic.model.util.DefaultClassNameHelper",
+    "ch.qos.logback.classic.pattern.KeyValuePairConverter",
+    "ch.qos.logback.classic.pattern.KeyValuePairConverter$ValueQuoteSpecification",
+    "ch.qos.logback.classic.pattern.MicrosecondConverter",
+    "ch.qos.logback.classic.pattern.NamedConverter$CacheMissCalculator",
+    "ch.qos.logback.classic.pattern.NamedConverter$NameCache",
+    "ch.qos.logback.classic.pattern.SequenceNumberConverter",
+    "ch.qos.logback.classic.pattern.TargetLengthBasedClassNameAbbreviator2",
+    "ch.qos.logback.classic.spi.Configurator$ExecutionStatus",
+    "ch.qos.logback.classic.spi.LogbackServiceProvider",
+    "ch.qos.logback.classic.util.ClassicEnvUtil",
+    "ch.qos.logback.classic.util.DefaultJoranConfigurator"
+  ],
+  "old_jar": "jar_cache/ch.qos.logback_logback-classic_1.2.11.jar",
+  "new_jar": "jar_cache/ch.qos.logback_logback-classic_1.4.1.jar",
   "group_id": "ch.qos.logback",
   "artifact_id": "logback-classic",
   "old_version": "1.2.11",
   "new_version": "1.4.1",
-  "project": "pay-adminusers"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "ch.qos.cal10n.plugins:maven-cal10n-plugin",
+        "dom4j:dom4j",
+        "javax.mail:mail",
+        "javax.servlet:javax.servlet-api",
+        "log4j:log4j",
+        "org.slf4j:integration",
+        "org.slf4j:slf4j-ext",
+        "org.subethamail:subethasmtp"
+      ],
+      "added": [
+        "ch.qos.reload4j:reload4j",
+        "com.sun.mail:jakarta.mail",
+        "jakarta.mail:jakarta.mail-api",
+        "jakarta.servlet:jakarta.servlet-api",
+        "org.dom4j:dom4j"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.icegreen:greenmail",
+          "old": "1.3",
+          "new": ""
+        },
+        {
+          "dependency": "org.apache.felix:org.apache.felix.main",
+          "old": "2.0.2",
+          "new": "5.6.10"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "pay-adminusers"
+  ]
 }

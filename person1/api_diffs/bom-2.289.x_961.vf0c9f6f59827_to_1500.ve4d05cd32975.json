@@ -1,0 +1,43 @@
+{
+  "group_id": "io.jenkins.tools.bom",
+  "artifact_id": "bom-2.289.x",
+  "old_version": "961.vf0c9f6f59827",
+  "new_version": "1500.ve4d05cd32975",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [
+        "io.jenkins.plugins:dark-theme",
+        "org.jenkins-ci.plugins.workflow:workflow-cps-global-lib",
+        "org.jenkins-ci.plugins.workflow:workflow-durable-task-step",
+        "org.jenkins-ci.plugins:config-file-provider",
+        "org.jenkins-ci.plugins:email-ext",
+        "org.jenkins-ci.plugins:junit",
+        "org.jenkins-ci.plugins:pipeline-graph-analysis",
+        "org.jenkins-ci.plugins:saml"
+      ],
+      "version_changed": [
+        {
+          "dependency": "${project.groupId}:bom-2.303.x",
+          "old": "961.vf0c9f6f59827",
+          "new": "1500.ve4d05cd32975"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 1,
+    "managed_removed": 0,
+    "managed_added": 8
+  },
+  "projects": [
+    "publish-over-ssh-plugin"
+  ]
+}

@@ -240,7 +240,7 @@
     },
     {
       "key": "net.datafaker.Options#subset(int, E...)",
-      "signature": "<E> java.util.Set<E> subset(int, E...)"
+      "signature": "java.util.Set<E> subset(int, E...)"
     },
     {
       "key": "net.datafaker.Options#subset(int, java.lang.String...)",
@@ -437,17 +437,80 @@
     }
   ],
   "counts": {
-    "old_methods": 1450,
-    "new_methods": 1538,
+    "old_methods": 1454,
+    "new_methods": 1542,
     "removed": 9,
     "added": 97,
-    "changed": 1
+    "changed": 1,
+    "removed_classes": 2,
+    "added_classes": 18
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\net.datafaker_datafaker_1.3.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\net.datafaker_datafaker_1.4.0.jar",
+  "removed_classes": [
+    "net.datafaker.FakeCollection$Csv",
+    "net.datafaker.FakeCollection$CsvBuilder"
+  ],
+  "added_classes": [
+    "net.datafaker.Battlefield1",
+    "net.datafaker.BloodType",
+    "net.datafaker.Camera",
+    "net.datafaker.Device",
+    "net.datafaker.EldenRing",
+    "net.datafaker.ElectricalComponents",
+    "net.datafaker.GratefulDead",
+    "net.datafaker.HeyArnold",
+    "net.datafaker.Mountaineering",
+    "net.datafaker.OscarMovie",
+    "net.datafaker.Seinfeld",
+    "net.datafaker.SoulKnight",
+    "net.datafaker.Tea",
+    "net.datafaker.Time",
+    "net.datafaker.Tron",
+    "net.datafaker.Tron$AlternateCharacterSpelling",
+    "net.datafaker.Tron$Character",
+    "net.datafaker.Tron$Quote"
+  ],
+  "old_jar": "jar_cache/net.datafaker_datafaker_1.3.0.jar",
+  "new_jar": "jar_cache/net.datafaker_datafaker_1.4.0.jar",
   "group_id": "net.datafaker",
   "artifact_id": "datafaker",
   "old_version": "1.3.0",
   "new_version": "1.4.0",
-  "project": "flink-faker"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.hamcrest:hamcrest"
+      ],
+      "added": [
+        "org.apache.commons:commons-text",
+        "org.assertj:assertj-core"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.googlecode.libphonenumber:libphonenumber",
+          "old": "8.12.46",
+          "new": "8.12.48"
+        },
+        {
+          "dependency": "fr.marcwrobel:jbanking",
+          "old": "3.1.1",
+          "new": "3.2.0"
+        },
+        {
+          "dependency": "org.mockito:mockito-core",
+          "old": "4.4.0",
+          "new": "4.5.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "flink-faker"
+  ]
 }

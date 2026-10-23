@@ -26,11 +26,11 @@
     },
     {
       "key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.Reader, java.lang.Class<T>)",
-      "signature": "<T> T loadAs(java.io.Reader, java.lang.Class<T>)"
+      "signature": "T loadAs(java.io.Reader, java.lang.Class<T>)"
     },
     {
       "key": "org.yaml.snakeyaml.Yaml#loadAs(java.lang.String, java.lang.Class<T>)",
-      "signature": "<T> T loadAs(java.lang.String, java.lang.Class<T>)"
+      "signature": "T loadAs(java.lang.String, java.lang.Class<T>)"
     },
     {
       "key": "org.yaml.snakeyaml.events.AliasEvent#is(org.yaml.snakeyaml.events.Event$ID)",
@@ -176,11 +176,11 @@
     },
     {
       "key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.Reader, java.lang.Class<? super T>)",
-      "signature": "<T> T loadAs(java.io.Reader, java.lang.Class<? super T>)"
+      "signature": "T loadAs(java.io.Reader, java.lang.Class<? super T>)"
     },
     {
       "key": "org.yaml.snakeyaml.Yaml#loadAs(java.lang.String, java.lang.Class<? super T>)",
-      "signature": "<T> T loadAs(java.lang.String, java.lang.Class<? super T>)"
+      "signature": "T loadAs(java.lang.String, java.lang.Class<? super T>)"
     },
     {
       "key": "org.yaml.snakeyaml.Yaml#serialize(org.yaml.snakeyaml.nodes.Node, java.io.Writer)",
@@ -296,7 +296,7 @@
     },
     {
       "key": "org.yaml.snakeyaml.inspector.TagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
-      "signature": "abstract boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
+      "signature": "boolean isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)"
     },
     {
       "key": "org.yaml.snakeyaml.inspector.TrustedPrefixesTagInspector#isGlobalTagAllowed(org.yaml.snakeyaml.nodes.Tag)",
@@ -410,8 +410,8 @@
   "changed": [
     {
       "name": "org.yaml.snakeyaml.Yaml#loadAs",
-      "old": "<T> T loadAs(java.io.InputStream, java.lang.Class<T>)",
-      "new": "<T> T loadAs(java.io.InputStream, java.lang.Class<? super T>)",
+      "old": "T loadAs(java.io.InputStream, java.lang.Class<T>)",
+      "new": "T loadAs(java.io.InputStream, java.lang.Class<? super T>)",
       "old_key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.InputStream, java.lang.Class<T>)",
       "new_key": "org.yaml.snakeyaml.Yaml#loadAs(java.io.InputStream, java.lang.Class<? super T>)"
     }
@@ -421,13 +421,81 @@
     "new_methods": 529,
     "removed": 23,
     "added": 78,
-    "changed": 1
+    "changed": 1,
+    "removed_classes": 3,
+    "added_classes": 22
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.yaml_snakeyaml_1.24.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.yaml_snakeyaml_2.0.jar",
+  "removed_classes": [
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntry",
+    "org.yaml.snakeyaml.tokens.WhitespaceToken"
+  ],
+  "added_classes": [
+    "org.yaml.snakeyaml.DumperOptions$NonPrintableStyle",
+    "org.yaml.snakeyaml.comments.CommentEventsCollector",
+    "org.yaml.snakeyaml.comments.CommentLine",
+    "org.yaml.snakeyaml.comments.CommentType",
+    "org.yaml.snakeyaml.env.EnvScalarConstructor",
+    "org.yaml.snakeyaml.env.EnvScalarConstructor$ConstructEnv",
+    "org.yaml.snakeyaml.error.MissingEnvironmentVariableException",
+    "org.yaml.snakeyaml.events.CommentEvent",
+    "org.yaml.snakeyaml.inspector.TagInspector",
+    "org.yaml.snakeyaml.inspector.TrustedPrefixesTagInspector",
+    "org.yaml.snakeyaml.inspector.TrustedTagInspector",
+    "org.yaml.snakeyaml.inspector.UnTrustedTagInspector",
+    "org.yaml.snakeyaml.internal.Logger",
+    "org.yaml.snakeyaml.internal.Logger$Level",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueComment",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingValueCommentList",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryKey",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntryValue",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseFlowEndComment",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryKey",
+    "org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryValue",
+    "org.yaml.snakeyaml.util.EnumUtils"
+  ],
+  "old_jar": "jar_cache/org.yaml_snakeyaml_1.24.jar",
+  "new_jar": "jar_cache/org.yaml_snakeyaml_2.0.jar",
   "group_id": "org.yaml",
   "artifact_id": "snakeyaml",
   "old_version": "1.24",
   "new_version": "2.0",
-  "project": "simplelocalize-cli"
+  "status": "OK",
+  "packaging": "bundle",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "commons-io:commons-io",
+        "org.apache.commons:commons-lang3",
+        "org.apache.velocity:velocity",
+        "org.springframework:spring-beans",
+        "org.springframework:spring-context-support",
+        "org.springframework:spring-core"
+      ],
+      "added": [
+        "org.apache.velocity:velocity-engine-core",
+        "org.projectlombok:lombok"
+      ],
+      "version_changed": [
+        {
+          "dependency": "joda-time:joda-time",
+          "old": "2.10.1",
+          "new": "2.11.1"
+        },
+        {
+          "dependency": "junit:junit",
+          "old": "4.12",
+          "new": "4.13.2"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "simplelocalize-cli"
+  ]
 }

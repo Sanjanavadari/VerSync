@@ -16,11 +16,11 @@
   "added": [
     {
       "key": "com.google.api.gax.paging.Page#streamAll()",
-      "signature": "default java.util.stream.Stream<ResourceT> streamAll()"
+      "signature": "java.util.stream.Stream<ResourceT> streamAll()"
     },
     {
       "key": "com.google.api.gax.paging.Page#streamValues()",
-      "signature": "default java.util.stream.Stream<ResourceT> streamValues()"
+      "signature": "java.util.stream.Stream<ResourceT> streamValues()"
     },
     {
       "key": "com.google.api.gax.rpc.RequestParamsBuilder#add(java.lang.String, java.lang.String)",
@@ -45,13 +45,82 @@
     "new_methods": 974,
     "removed": 3,
     "added": 6,
-    "changed": 0
+    "changed": 0,
+    "removed_classes": 4,
+    "added_classes": 0
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.google.api_gax_2.16.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.google.api_gax_2.30.0.jar",
+  "removed_classes": [
+    "com.google.api.gax.nativeimage.substitutions.ApiClientVersionSubstitutions",
+    "com.google.api.gax.nativeimage.substitutions.ApiClientVersionSubstitutions$OnlyIfInClassPath",
+    "com.google.api.gax.nativeimage.substitutions.GaxPropertiesSubstitutions",
+    "com.google.api.gax.nativeimage.substitutions.GaxPropertiesSubstitutions$OnlyIfInClassPath"
+  ],
+  "added_classes": [],
+  "old_jar": "jar_cache/com.google.api_gax_2.16.0.jar",
+  "new_jar": "jar_cache/com.google.api_gax_2.30.0.jar",
   "group_id": "com.google.api",
   "artifact_id": "gax",
   "old_version": "2.16.0",
   "new_version": "2.30.0",
-  "project": "snowflake-jdbc"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "com.google.protobuf:protobuf-java",
+        "org.graalvm.sdk:graal-sdk"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.google.api.grpc:proto-google-common-protos",
+          "old": "2.8.3",
+          "new": ""
+        },
+        {
+          "dependency": "com.google.api:api-common",
+          "old": "2.1.5",
+          "new": ""
+        },
+        {
+          "dependency": "com.google.auth:google-auth-library-credentials",
+          "old": "1.6.0",
+          "new": ""
+        },
+        {
+          "dependency": "com.google.auth:google-auth-library-oauth2-http",
+          "old": "1.6.0",
+          "new": ""
+        },
+        {
+          "dependency": "com.google.code.findbugs:jsr305",
+          "old": "3.0.2",
+          "new": ""
+        },
+        {
+          "dependency": "com.google.guava:guava",
+          "old": "31.1-jre",
+          "new": ""
+        },
+        {
+          "dependency": "io.opencensus:opencensus-api",
+          "old": "0.28.0",
+          "new": ""
+        },
+        {
+          "dependency": "org.threeten:threetenbp",
+          "old": "1.5.0",
+          "new": ""
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "snowflake-jdbc"
+  ]
 }

@@ -46,23 +46,23 @@
     },
     {
       "key": "org.codehaus.plexus.util.xml.XMLWriter#addAttribute(java.lang.String, java.lang.String)",
-      "signature": "abstract void addAttribute(java.lang.String, java.lang.String)"
+      "signature": "void addAttribute(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.XMLWriter#endElement()",
-      "signature": "abstract void endElement()"
+      "signature": "void endElement()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.XMLWriter#startElement(java.lang.String)",
-      "signature": "abstract void startElement(java.lang.String)"
+      "signature": "void startElement(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.XMLWriter#writeMarkup(java.lang.String)",
-      "signature": "abstract void writeMarkup(java.lang.String)"
+      "signature": "void writeMarkup(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.XMLWriter#writeText(java.lang.String)",
-      "signature": "abstract void writeText(java.lang.String)"
+      "signature": "void writeText(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.XmlReader#close()",
@@ -350,7 +350,7 @@
     },
     {
       "key": "org.codehaus.plexus.util.xml.Xpp3DomBuilder$InputLocationBuilder#toInputLocation(org.codehaus.plexus.util.xml.pull.XmlPullParser)",
-      "signature": "abstract java.lang.Object toInputLocation(org.codehaus.plexus.util.xml.pull.XmlPullParser)"
+      "signature": "java.lang.Object toInputLocation(org.codehaus.plexus.util.xml.pull.XmlPullParser)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.Xpp3DomUtils#isEmpty(java.lang.String)",
@@ -658,151 +658,151 @@
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#defineEntityReplacementText(java.lang.String, java.lang.String)",
-      "signature": "abstract void defineEntityReplacementText(java.lang.String, java.lang.String)"
+      "signature": "void defineEntityReplacementText(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeCount()",
-      "signature": "abstract int getAttributeCount()"
+      "signature": "int getAttributeCount()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeName(int)",
-      "signature": "abstract java.lang.String getAttributeName(int)"
+      "signature": "java.lang.String getAttributeName(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeNamespace(int)",
-      "signature": "abstract java.lang.String getAttributeNamespace(int)"
+      "signature": "java.lang.String getAttributeNamespace(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributePrefix(int)",
-      "signature": "abstract java.lang.String getAttributePrefix(int)"
+      "signature": "java.lang.String getAttributePrefix(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeType(int)",
-      "signature": "abstract java.lang.String getAttributeType(int)"
+      "signature": "java.lang.String getAttributeType(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeValue(int)",
-      "signature": "abstract java.lang.String getAttributeValue(int)"
+      "signature": "java.lang.String getAttributeValue(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getAttributeValue(java.lang.String, java.lang.String)",
-      "signature": "abstract java.lang.String getAttributeValue(java.lang.String, java.lang.String)"
+      "signature": "java.lang.String getAttributeValue(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getColumnNumber()",
-      "signature": "abstract int getColumnNumber()"
+      "signature": "int getColumnNumber()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getDepth()",
-      "signature": "abstract int getDepth()"
+      "signature": "int getDepth()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getEventType()",
-      "signature": "abstract int getEventType()"
+      "signature": "int getEventType()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getFeature(java.lang.String)",
-      "signature": "abstract boolean getFeature(java.lang.String)"
+      "signature": "boolean getFeature(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getInputEncoding()",
-      "signature": "abstract java.lang.String getInputEncoding()"
+      "signature": "java.lang.String getInputEncoding()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getLineNumber()",
-      "signature": "abstract int getLineNumber()"
+      "signature": "int getLineNumber()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getNamespace()",
-      "signature": "abstract java.lang.String getNamespace()"
+      "signature": "java.lang.String getNamespace()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getNamespace(java.lang.String)",
-      "signature": "abstract java.lang.String getNamespace(java.lang.String)"
+      "signature": "java.lang.String getNamespace(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getNamespaceCount(int)",
-      "signature": "abstract int getNamespaceCount(int)"
+      "signature": "int getNamespaceCount(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getNamespacePrefix(int)",
-      "signature": "abstract java.lang.String getNamespacePrefix(int)"
+      "signature": "java.lang.String getNamespacePrefix(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getNamespaceUri(int)",
-      "signature": "abstract java.lang.String getNamespaceUri(int)"
+      "signature": "java.lang.String getNamespaceUri(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getPositionDescription()",
-      "signature": "abstract java.lang.String getPositionDescription()"
+      "signature": "java.lang.String getPositionDescription()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getPrefix()",
-      "signature": "abstract java.lang.String getPrefix()"
+      "signature": "java.lang.String getPrefix()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getProperty(java.lang.String)",
-      "signature": "abstract java.lang.Object getProperty(java.lang.String)"
+      "signature": "java.lang.Object getProperty(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getText()",
-      "signature": "abstract java.lang.String getText()"
+      "signature": "java.lang.String getText()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#getTextCharacters(int[])",
-      "signature": "abstract char[] getTextCharacters(int[])"
+      "signature": "char[] getTextCharacters(int[])"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#isAttributeDefault(int)",
-      "signature": "abstract boolean isAttributeDefault(int)"
+      "signature": "boolean isAttributeDefault(int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#isEmptyElementTag()",
-      "signature": "abstract boolean isEmptyElementTag()"
+      "signature": "boolean isEmptyElementTag()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#isWhitespace()",
-      "signature": "abstract boolean isWhitespace()"
+      "signature": "boolean isWhitespace()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#next()",
-      "signature": "abstract int next()"
+      "signature": "int next()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#nextTag()",
-      "signature": "abstract int nextTag()"
+      "signature": "int nextTag()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#nextText()",
-      "signature": "abstract java.lang.String nextText()"
+      "signature": "java.lang.String nextText()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#nextToken()",
-      "signature": "abstract int nextToken()"
+      "signature": "int nextToken()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#require(int, java.lang.String, java.lang.String)",
-      "signature": "abstract void require(int, java.lang.String, java.lang.String)"
+      "signature": "void require(int, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#setFeature(java.lang.String, boolean)",
-      "signature": "abstract void setFeature(java.lang.String, boolean)"
+      "signature": "void setFeature(java.lang.String, boolean)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#setInput(java.io.InputStream, java.lang.String)",
-      "signature": "abstract void setInput(java.io.InputStream, java.lang.String)"
+      "signature": "void setInput(java.io.InputStream, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#setInput(java.io.Reader)",
-      "signature": "abstract void setInput(java.io.Reader)"
+      "signature": "void setInput(java.io.Reader)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParser#setProperty(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setProperty(java.lang.String, java.lang.Object)"
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlPullParserException#getColumnNumber()",
@@ -822,103 +822,103 @@
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#attribute(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.codehaus.plexus.util.xml.pull.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.codehaus.plexus.util.xml.pull.XmlSerializer attribute(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#cdsect(java.lang.String)",
-      "signature": "abstract void cdsect(java.lang.String)"
+      "signature": "void cdsect(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#comment(java.lang.String)",
-      "signature": "abstract void comment(java.lang.String)"
+      "signature": "void comment(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#docdecl(java.lang.String)",
-      "signature": "abstract void docdecl(java.lang.String)"
+      "signature": "void docdecl(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#endDocument()",
-      "signature": "abstract void endDocument()"
+      "signature": "void endDocument()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#endTag(java.lang.String, java.lang.String)",
-      "signature": "abstract org.codehaus.plexus.util.xml.pull.XmlSerializer endTag(java.lang.String, java.lang.String)"
+      "signature": "org.codehaus.plexus.util.xml.pull.XmlSerializer endTag(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#entityRef(java.lang.String)",
-      "signature": "abstract void entityRef(java.lang.String)"
+      "signature": "void entityRef(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#flush()",
-      "signature": "abstract void flush()"
+      "signature": "void flush()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getDepth()",
-      "signature": "abstract int getDepth()"
+      "signature": "int getDepth()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getFeature(java.lang.String)",
-      "signature": "abstract boolean getFeature(java.lang.String)"
+      "signature": "boolean getFeature(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getNamespace()",
-      "signature": "abstract java.lang.String getNamespace()"
+      "signature": "java.lang.String getNamespace()"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getPrefix(java.lang.String, boolean)",
-      "signature": "abstract java.lang.String getPrefix(java.lang.String, boolean)"
+      "signature": "java.lang.String getPrefix(java.lang.String, boolean)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#getProperty(java.lang.String)",
-      "signature": "abstract java.lang.Object getProperty(java.lang.String)"
+      "signature": "java.lang.Object getProperty(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#ignorableWhitespace(java.lang.String)",
-      "signature": "abstract void ignorableWhitespace(java.lang.String)"
+      "signature": "void ignorableWhitespace(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#processingInstruction(java.lang.String)",
-      "signature": "abstract void processingInstruction(java.lang.String)"
+      "signature": "void processingInstruction(java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#setFeature(java.lang.String, boolean)",
-      "signature": "abstract void setFeature(java.lang.String, boolean)"
+      "signature": "void setFeature(java.lang.String, boolean)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#setOutput(java.io.OutputStream, java.lang.String)",
-      "signature": "abstract void setOutput(java.io.OutputStream, java.lang.String)"
+      "signature": "void setOutput(java.io.OutputStream, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#setOutput(java.io.Writer)",
-      "signature": "abstract void setOutput(java.io.Writer)"
+      "signature": "void setOutput(java.io.Writer)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#setPrefix(java.lang.String, java.lang.String)",
-      "signature": "abstract void setPrefix(java.lang.String, java.lang.String)"
+      "signature": "void setPrefix(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#setProperty(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setProperty(java.lang.String, java.lang.Object)"
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#startDocument(java.lang.String, java.lang.Boolean)",
-      "signature": "abstract void startDocument(java.lang.String, java.lang.Boolean)"
+      "signature": "void startDocument(java.lang.String, java.lang.Boolean)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#startTag(java.lang.String, java.lang.String)",
-      "signature": "abstract org.codehaus.plexus.util.xml.pull.XmlSerializer startTag(java.lang.String, java.lang.String)"
+      "signature": "org.codehaus.plexus.util.xml.pull.XmlSerializer startTag(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#text(char[], int, int)",
-      "signature": "abstract org.codehaus.plexus.util.xml.pull.XmlSerializer text(char[], int, int)"
+      "signature": "org.codehaus.plexus.util.xml.pull.XmlSerializer text(char[], int, int)"
     },
     {
       "key": "org.codehaus.plexus.util.xml.pull.XmlSerializer#text(java.lang.String)",
-      "signature": "abstract org.codehaus.plexus.util.xml.pull.XmlSerializer text(java.lang.String)"
+      "signature": "org.codehaus.plexus.util.xml.pull.XmlSerializer text(java.lang.String)"
     }
   ],
   "added": [],
@@ -928,13 +928,63 @@
     "new_methods": 646,
     "removed": 230,
     "added": 0,
-    "changed": 0
+    "changed": 0,
+    "removed_classes": 22,
+    "added_classes": 0
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.codehaus.plexus_plexus-utils_3.5.1.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.codehaus.plexus_plexus-utils_4.0.0.jar",
+  "removed_classes": [
+    "org.codehaus.plexus.util.xml.CompactXMLWriter",
+    "org.codehaus.plexus.util.xml.PrettyPrintXMLWriter",
+    "org.codehaus.plexus.util.xml.SerializerXMLWriter",
+    "org.codehaus.plexus.util.xml.XMLWriter",
+    "org.codehaus.plexus.util.xml.XmlReader",
+    "org.codehaus.plexus.util.xml.XmlReaderException",
+    "org.codehaus.plexus.util.xml.XmlStreamReader",
+    "org.codehaus.plexus.util.xml.XmlStreamReaderException",
+    "org.codehaus.plexus.util.xml.XmlStreamWriter",
+    "org.codehaus.plexus.util.xml.XmlUtil",
+    "org.codehaus.plexus.util.xml.XmlWriterUtil",
+    "org.codehaus.plexus.util.xml.Xpp3Dom",
+    "org.codehaus.plexus.util.xml.Xpp3DomBuilder",
+    "org.codehaus.plexus.util.xml.Xpp3DomBuilder$InputLocationBuilder",
+    "org.codehaus.plexus.util.xml.Xpp3DomUtils",
+    "org.codehaus.plexus.util.xml.Xpp3DomWriter",
+    "org.codehaus.plexus.util.xml.pull.EntityReplacementMap",
+    "org.codehaus.plexus.util.xml.pull.MXParser",
+    "org.codehaus.plexus.util.xml.pull.MXSerializer",
+    "org.codehaus.plexus.util.xml.pull.XmlPullParser",
+    "org.codehaus.plexus.util.xml.pull.XmlPullParserException",
+    "org.codehaus.plexus.util.xml.pull.XmlSerializer"
+  ],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.codehaus.plexus_plexus-utils_3.5.1.jar",
+  "new_jar": "jar_cache/org.codehaus.plexus_plexus-utils_4.0.0.jar",
   "group_id": "org.codehaus.plexus",
   "artifact_id": "plexus-utils",
   "old_version": "3.5.1",
   "new_version": "4.0.0",
-  "project": "jspc-maven-plugin"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "junit:junit",
+        "org.openjdk.jmh:jmh-core",
+        "org.openjdk.jmh:jmh-generator-annprocess"
+      ],
+      "added": [
+        "org.codehaus.plexus:plexus-xml",
+        "org.junit.jupiter:junit-jupiter"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jspc-maven-plugin"
+  ]
 }

@@ -254,7 +254,7 @@
     },
     {
       "key": "org.flywaydb.core.Flyway$Command#execute(java.sql.Connection, java.sql.Connection, org.flywaydb.core.internal.dbsupport.DbSupport, org.flywaydb.core.internal.dbsupport.Schema[])",
-      "signature": "abstract T execute(java.sql.Connection, java.sql.Connection, org.flywaydb.core.internal.dbsupport.DbSupport, org.flywaydb.core.internal.dbsupport.Schema[])"
+      "signature": "T execute(java.sql.Connection, java.sql.Connection, org.flywaydb.core.internal.dbsupport.DbSupport, org.flywaydb.core.internal.dbsupport.Schema[])"
     },
     {
       "key": "org.flywaydb.core.api.MigrationType#valueOf(java.lang.String)",
@@ -274,95 +274,95 @@
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterBaseline(java.sql.Connection)",
-      "signature": "abstract void afterBaseline(java.sql.Connection)"
+      "signature": "void afterBaseline(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterClean(java.sql.Connection)",
-      "signature": "abstract void afterClean(java.sql.Connection)"
+      "signature": "void afterClean(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)",
-      "signature": "abstract void afterEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)"
+      "signature": "void afterEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterInfo(java.sql.Connection)",
-      "signature": "abstract void afterInfo(java.sql.Connection)"
+      "signature": "void afterInfo(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterInit(java.sql.Connection)",
-      "signature": "abstract void afterInit(java.sql.Connection)"
+      "signature": "void afterInit(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterMigrate(java.sql.Connection)",
-      "signature": "abstract void afterMigrate(java.sql.Connection)"
+      "signature": "void afterMigrate(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterRepair(java.sql.Connection)",
-      "signature": "abstract void afterRepair(java.sql.Connection)"
+      "signature": "void afterRepair(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#afterValidate(java.sql.Connection)",
-      "signature": "abstract void afterValidate(java.sql.Connection)"
+      "signature": "void afterValidate(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeBaseline(java.sql.Connection)",
-      "signature": "abstract void beforeBaseline(java.sql.Connection)"
+      "signature": "void beforeBaseline(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeClean(java.sql.Connection)",
-      "signature": "abstract void beforeClean(java.sql.Connection)"
+      "signature": "void beforeClean(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)",
-      "signature": "abstract void beforeEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)"
+      "signature": "void beforeEachMigrate(java.sql.Connection, org.flywaydb.core.api.MigrationInfo)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeInfo(java.sql.Connection)",
-      "signature": "abstract void beforeInfo(java.sql.Connection)"
+      "signature": "void beforeInfo(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeInit(java.sql.Connection)",
-      "signature": "abstract void beforeInit(java.sql.Connection)"
+      "signature": "void beforeInit(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeMigrate(java.sql.Connection)",
-      "signature": "abstract void beforeMigrate(java.sql.Connection)"
+      "signature": "void beforeMigrate(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeRepair(java.sql.Connection)",
-      "signature": "abstract void beforeRepair(java.sql.Connection)"
+      "signature": "void beforeRepair(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.callback.FlywayCallback#beforeValidate(java.sql.Connection)",
-      "signature": "abstract void beforeValidate(java.sql.Connection)"
+      "signature": "void beforeValidate(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.migration.MigrationChecksumProvider#getChecksum()",
-      "signature": "abstract java.lang.Integer getChecksum()"
+      "signature": "java.lang.Integer getChecksum()"
     },
     {
       "key": "org.flywaydb.core.api.migration.MigrationInfoProvider#getDescription()",
-      "signature": "abstract java.lang.String getDescription()"
+      "signature": "java.lang.String getDescription()"
     },
     {
       "key": "org.flywaydb.core.api.migration.MigrationInfoProvider#getVersion()",
-      "signature": "abstract org.flywaydb.core.api.MigrationVersion getVersion()"
+      "signature": "org.flywaydb.core.api.MigrationVersion getVersion()"
     },
     {
       "key": "org.flywaydb.core.api.migration.jdbc.JdbcMigration#migrate(java.sql.Connection)",
-      "signature": "abstract void migrate(java.sql.Connection)"
+      "signature": "void migrate(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.migration.spring.SpringJdbcMigration#migrate(org.springframework.jdbc.core.JdbcTemplate)",
-      "signature": "abstract void migrate(org.springframework.jdbc.core.JdbcTemplate)"
+      "signature": "void migrate(org.springframework.jdbc.core.JdbcTemplate)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.MigrationExecutor#execute(java.sql.Connection)",
-      "signature": "abstract void execute(java.sql.Connection)"
+      "signature": "void execute(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.MigrationExecutor#executeInTransaction()",
-      "signature": "abstract boolean executeInTransaction()"
+      "signature": "boolean executeInTransaction()"
     },
     {
       "key": "org.flywaydb.core.internal.callback.SqlScriptFlywayCallback#afterBaseline(java.sql.Connection)",
@@ -434,11 +434,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#catalogIsSchema()",
-      "signature": "abstract boolean catalogIsSchema()"
+      "signature": "boolean catalogIsSchema()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#createSqlStatementBuilder()",
-      "signature": "abstract org.flywaydb.core.internal.dbsupport.SqlStatementBuilder createSqlStatementBuilder()"
+      "signature": "org.flywaydb.core.internal.dbsupport.SqlStatementBuilder createSqlStatementBuilder()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#executePgCopy(java.sql.Connection, java.lang.String)",
@@ -446,11 +446,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getBooleanFalse()",
-      "signature": "abstract java.lang.String getBooleanFalse()"
+      "signature": "java.lang.String getBooleanFalse()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getBooleanTrue()",
-      "signature": "abstract java.lang.String getBooleanTrue()"
+      "signature": "java.lang.String getBooleanTrue()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getCurrentSchema()",
@@ -458,11 +458,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getCurrentUserFunction()",
-      "signature": "abstract java.lang.String getCurrentUserFunction()"
+      "signature": "java.lang.String getCurrentUserFunction()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getDbName()",
-      "signature": "abstract java.lang.String getDbName()"
+      "signature": "java.lang.String getDbName()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getJdbcTemplate()",
@@ -470,7 +470,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#getSchema(java.lang.String)",
-      "signature": "abstract org.flywaydb.core.internal.dbsupport.Schema getSchema(java.lang.String)"
+      "signature": "org.flywaydb.core.internal.dbsupport.Schema getSchema(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#quote(java.lang.String...)",
@@ -482,7 +482,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupport#supportsDdlTransactions()",
-      "signature": "abstract boolean supportsDdlTransactions()"
+      "signature": "boolean supportsDdlTransactions()"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.DbSupportFactory#createDbSupport(java.sql.Connection, boolean)",
@@ -534,7 +534,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.JdbcTemplate#query(java.lang.String, org.flywaydb.core.internal.util.jdbc.RowMapper<T>)",
-      "signature": "<T> java.util.List<T> query(java.lang.String, org.flywaydb.core.internal.util.jdbc.RowMapper<T>)"
+      "signature": "java.util.List<T> query(java.lang.String, org.flywaydb.core.internal.util.jdbc.RowMapper<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.JdbcTemplate#queryForInt(java.lang.String, java.lang.String...)",
@@ -602,7 +602,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.Schema#getTable(java.lang.String)",
-      "signature": "abstract org.flywaydb.core.internal.dbsupport.Table getTable(java.lang.String)"
+      "signature": "org.flywaydb.core.internal.dbsupport.Table getTable(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.dbsupport.Schema#hashCode()",
@@ -1310,47 +1310,47 @@
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#addAppliedMigration(org.flywaydb.core.internal.metadatatable.AppliedMigration)",
-      "signature": "abstract void addAppliedMigration(org.flywaydb.core.internal.metadatatable.AppliedMigration)"
+      "signature": "void addAppliedMigration(org.flywaydb.core.internal.metadatatable.AppliedMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#addBaselineMarker(org.flywaydb.core.api.MigrationVersion, java.lang.String)",
-      "signature": "abstract void addBaselineMarker(org.flywaydb.core.api.MigrationVersion, java.lang.String)"
+      "signature": "void addBaselineMarker(org.flywaydb.core.api.MigrationVersion, java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#addSchemasMarker(org.flywaydb.core.internal.dbsupport.Schema[])",
-      "signature": "abstract void addSchemasMarker(org.flywaydb.core.internal.dbsupport.Schema[])"
+      "signature": "void addSchemasMarker(org.flywaydb.core.internal.dbsupport.Schema[])"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#allAppliedMigrations()",
-      "signature": "abstract java.util.List<org.flywaydb.core.internal.metadatatable.AppliedMigration> allAppliedMigrations()"
+      "signature": "java.util.List<org.flywaydb.core.internal.metadatatable.AppliedMigration> allAppliedMigrations()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#getBaselineMarker()",
-      "signature": "abstract org.flywaydb.core.internal.metadatatable.AppliedMigration getBaselineMarker()"
+      "signature": "org.flywaydb.core.internal.metadatatable.AppliedMigration getBaselineMarker()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#hasAppliedMigrations()",
-      "signature": "abstract boolean hasAppliedMigrations()"
+      "signature": "boolean hasAppliedMigrations()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#hasBaselineMarker()",
-      "signature": "abstract boolean hasBaselineMarker()"
+      "signature": "boolean hasBaselineMarker()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#hasSchemasMarker()",
-      "signature": "abstract boolean hasSchemasMarker()"
+      "signature": "boolean hasSchemasMarker()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#lock()",
-      "signature": "abstract void lock()"
+      "signature": "void lock()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#removeFailedMigrations()",
-      "signature": "abstract void removeFailedMigrations()"
+      "signature": "void removeFailedMigrations()"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTable#updateChecksum(org.flywaydb.core.api.MigrationVersion, java.lang.Integer)",
-      "signature": "abstract void updateChecksum(org.flywaydb.core.api.MigrationVersion, java.lang.Integer)"
+      "signature": "void updateChecksum(org.flywaydb.core.api.MigrationVersion, java.lang.Integer)"
     },
     {
       "key": "org.flywaydb.core.internal.metadatatable.MetaDataTableImpl#addAppliedMigration(org.flywaydb.core.internal.metadatatable.AppliedMigration)",
@@ -1614,7 +1614,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.jdbc.DriverDataSource#unwrap(java.lang.Class<T>)",
-      "signature": "<T> T unwrap(java.lang.Class<T>)"
+      "signature": "T unwrap(java.lang.Class<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.jdbc.DriverDataSource$SuppressCloseHandler#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])",
@@ -1638,39 +1638,39 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.jdbc.RowMapper#mapRow(java.sql.ResultSet)",
-      "signature": "abstract T mapRow(java.sql.ResultSet)"
+      "signature": "T mapRow(java.sql.ResultSet)"
     },
     {
       "key": "org.flywaydb.core.internal.util.jdbc.TransactionCallback#doInTransaction()",
-      "signature": "abstract T doInTransaction()"
+      "signature": "T doInTransaction()"
     },
     {
       "key": "org.flywaydb.core.internal.util.jdbc.TransactionTemplate#execute(org.flywaydb.core.internal.util.jdbc.TransactionCallback<T>)",
-      "signature": "<T> T execute(org.flywaydb.core.internal.util.jdbc.TransactionCallback<T>)"
+      "signature": "T execute(org.flywaydb.core.internal.util.jdbc.TransactionCallback<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.Log#debug(java.lang.String)",
-      "signature": "abstract void debug(java.lang.String)"
+      "signature": "void debug(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.Log#error(java.lang.String)",
-      "signature": "abstract void error(java.lang.String)"
+      "signature": "void error(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.Log#error(java.lang.String, java.lang.Exception)",
-      "signature": "abstract void error(java.lang.String, java.lang.Exception)"
+      "signature": "void error(java.lang.String, java.lang.Exception)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.Log#info(java.lang.String)",
-      "signature": "abstract void info(java.lang.String)"
+      "signature": "void info(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.Log#warn(java.lang.String)",
-      "signature": "abstract void warn(java.lang.String)"
+      "signature": "void warn(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.LogCreator#createLogger(java.lang.Class<?>)",
-      "signature": "abstract org.flywaydb.core.internal.util.logging.Log createLogger(java.lang.Class<?>)"
+      "signature": "org.flywaydb.core.internal.util.logging.Log createLogger(java.lang.Class<?>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.logging.LogFactory#getLog(java.lang.Class<?>)",
@@ -1778,23 +1778,23 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Resource#getFilename()",
-      "signature": "abstract java.lang.String getFilename()"
+      "signature": "java.lang.String getFilename()"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Resource#getLocation()",
-      "signature": "abstract java.lang.String getLocation()"
+      "signature": "java.lang.String getLocation()"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Resource#getLocationOnDisk()",
-      "signature": "abstract java.lang.String getLocationOnDisk()"
+      "signature": "java.lang.String getLocationOnDisk()"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Resource#loadAsBytes()",
-      "signature": "abstract byte[] loadAsBytes()"
+      "signature": "byte[] loadAsBytes()"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Resource#loadAsString(java.lang.String)",
-      "signature": "abstract java.lang.String loadAsString(java.lang.String)"
+      "signature": "java.lang.String loadAsString(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.Scanner#scanForClasses(org.flywaydb.core.internal.util.Location, java.lang.Class<?>)",
@@ -1834,7 +1834,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathLocationScanner#findResourceNames(java.lang.String, java.net.URL)",
-      "signature": "abstract java.util.Set<java.lang.String> findResourceNames(java.lang.String, java.net.URL)"
+      "signature": "java.util.Set<java.lang.String> findResourceNames(java.lang.String, java.net.URL)"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.classpath.ClassPathResource#compareTo(java.lang.Object)",
@@ -1902,7 +1902,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.classpath.UrlResolver#toStandardJavaUrl(java.net.URL)",
-      "signature": "abstract java.net.URL toStandardJavaUrl(java.net.URL)"
+      "signature": "java.net.URL toStandardJavaUrl(java.net.URL)"
     },
     {
       "key": "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv2UrlResolver#toStandardJavaUrl(java.net.URL)",
@@ -1968,11 +1968,11 @@
     },
     {
       "key": "org.flywaydb.core.FlywayExecutor#execute(org.flywaydb.core.FlywayExecutor$Command<T>, boolean)",
-      "signature": "<T> T execute(org.flywaydb.core.FlywayExecutor$Command<T>, boolean)"
+      "signature": "T execute(org.flywaydb.core.FlywayExecutor$Command<T>, boolean)"
     },
     {
       "key": "org.flywaydb.core.FlywayExecutor$Command#execute(org.flywaydb.core.internal.resolver.CompositeMigrationResolver, org.flywaydb.core.internal.schemahistory.SchemaHistory, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Schema, org.flywaydb.core.internal.database.base.Schema[], org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "abstract T execute(org.flywaydb.core.internal.resolver.CompositeMigrationResolver, org.flywaydb.core.internal.schemahistory.SchemaHistory, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Schema, org.flywaydb.core.internal.database.base.Schema[], org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "T execute(org.flywaydb.core.internal.resolver.CompositeMigrationResolver, org.flywaydb.core.internal.schemahistory.SchemaHistory, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Schema, org.flywaydb.core.internal.database.base.Schema[], org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.FlywayTelemetryManager#close()",
@@ -1992,7 +1992,7 @@
     },
     {
       "key": "org.flywaydb.core.api.ClassProvider#getClasses()",
-      "signature": "abstract java.util.Collection<java.lang.Class<? extends I>> getClasses()"
+      "signature": "java.util.Collection<java.lang.Class<? extends I>> getClasses()"
     },
     {
       "key": "org.flywaydb.core.api.CoreMigrationType#fromString(java.lang.String)",
@@ -2032,7 +2032,7 @@
     },
     {
       "key": "org.flywaydb.core.api.InfoOutputProvider#getInfoResult()",
-      "signature": "abstract org.flywaydb.core.api.output.InfoResult getInfoResult()"
+      "signature": "org.flywaydb.core.api.output.InfoResult getInfoResult()"
     },
     {
       "key": "org.flywaydb.core.api.Location#compareTo(java.lang.Object)",
@@ -2104,23 +2104,23 @@
     },
     {
       "key": "org.flywaydb.core.api.MigrationInfo#compareVersion(org.flywaydb.core.api.MigrationInfo)",
-      "signature": "abstract int compareVersion(org.flywaydb.core.api.MigrationInfo)"
+      "signature": "int compareVersion(org.flywaydb.core.api.MigrationInfo)"
     },
     {
       "key": "org.flywaydb.core.api.MigrationInfo#getInstalledBy()",
-      "signature": "abstract java.lang.String getInstalledBy()"
+      "signature": "java.lang.String getInstalledBy()"
     },
     {
       "key": "org.flywaydb.core.api.MigrationInfo#getInstalledRank()",
-      "signature": "abstract java.lang.Integer getInstalledRank()"
+      "signature": "java.lang.Integer getInstalledRank()"
     },
     {
       "key": "org.flywaydb.core.api.MigrationInfo#getPhysicalLocation()",
-      "signature": "abstract java.lang.String getPhysicalLocation()"
+      "signature": "java.lang.String getPhysicalLocation()"
     },
     {
       "key": "org.flywaydb.core.api.MigrationInfo#isVersioned()",
-      "signature": "default boolean isVersioned()"
+      "signature": "boolean isVersioned()"
     },
     {
       "key": "org.flywaydb.core.api.MigrationPattern#hashCode()",
@@ -2172,11 +2172,11 @@
     },
     {
       "key": "org.flywaydb.core.api.ResourceProvider#getResource(java.lang.String)",
-      "signature": "abstract org.flywaydb.core.api.resource.LoadableResource getResource(java.lang.String)"
+      "signature": "org.flywaydb.core.api.resource.LoadableResource getResource(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.ResourceProvider#getResources(java.lang.String, java.lang.String[])",
-      "signature": "abstract java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> getResources(java.lang.String, java.lang.String[])"
+      "signature": "java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> getResources(java.lang.String, java.lang.String[])"
     },
     {
       "key": "org.flywaydb.core.api.callback.BaseCallback#canHandleInTransaction(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)",
@@ -2192,59 +2192,59 @@
     },
     {
       "key": "org.flywaydb.core.api.callback.Callback#canHandleInTransaction(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)",
-      "signature": "abstract boolean canHandleInTransaction(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
+      "signature": "boolean canHandleInTransaction(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
     },
     {
       "key": "org.flywaydb.core.api.callback.Callback#getCallbackName()",
-      "signature": "abstract java.lang.String getCallbackName()"
+      "signature": "java.lang.String getCallbackName()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Callback#handle(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)",
-      "signature": "abstract void handle(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
+      "signature": "void handle(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
     },
     {
       "key": "org.flywaydb.core.api.callback.Callback#supports(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)",
-      "signature": "abstract boolean supports(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
+      "signature": "boolean supports(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.callback.Context)"
     },
     {
       "key": "org.flywaydb.core.api.callback.Context#getConfiguration()",
-      "signature": "abstract org.flywaydb.core.api.configuration.Configuration getConfiguration()"
+      "signature": "org.flywaydb.core.api.configuration.Configuration getConfiguration()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Context#getConnection()",
-      "signature": "abstract java.sql.Connection getConnection()"
+      "signature": "java.sql.Connection getConnection()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Context#getMigrationInfo()",
-      "signature": "abstract org.flywaydb.core.api.MigrationInfo getMigrationInfo()"
+      "signature": "org.flywaydb.core.api.MigrationInfo getMigrationInfo()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Context#getOperationResult()",
-      "signature": "abstract org.flywaydb.core.api.output.OperationResult getOperationResult()"
+      "signature": "org.flywaydb.core.api.output.OperationResult getOperationResult()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Context#getStatement()",
-      "signature": "abstract org.flywaydb.core.api.callback.Statement getStatement()"
+      "signature": "org.flywaydb.core.api.callback.Statement getStatement()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Error#getCode()",
-      "signature": "abstract int getCode()"
+      "signature": "int getCode()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Error#getMessage()",
-      "signature": "abstract java.lang.String getMessage()"
+      "signature": "java.lang.String getMessage()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Error#getState()",
-      "signature": "abstract java.lang.String getState()"
+      "signature": "java.lang.String getState()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Error#isHandled()",
-      "signature": "abstract boolean isHandled()"
+      "signature": "boolean isHandled()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Error#setHandled(boolean)",
-      "signature": "abstract void setHandled(boolean)"
+      "signature": "void setHandled(boolean)"
     },
     {
       "key": "org.flywaydb.core.api.callback.Event#fromId(java.lang.String)",
@@ -2268,35 +2268,35 @@
     },
     {
       "key": "org.flywaydb.core.api.callback.Statement#getErrors()",
-      "signature": "abstract java.util.List<org.flywaydb.core.api.callback.Error> getErrors()"
+      "signature": "java.util.List<org.flywaydb.core.api.callback.Error> getErrors()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Statement#getSql()",
-      "signature": "abstract java.lang.String getSql()"
+      "signature": "java.lang.String getSql()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Statement#getWarnings()",
-      "signature": "abstract java.util.List<org.flywaydb.core.api.callback.Warning> getWarnings()"
+      "signature": "java.util.List<org.flywaydb.core.api.callback.Warning> getWarnings()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Warning#getCode()",
-      "signature": "abstract int getCode()"
+      "signature": "int getCode()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Warning#getMessage()",
-      "signature": "abstract java.lang.String getMessage()"
+      "signature": "java.lang.String getMessage()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Warning#getState()",
-      "signature": "abstract java.lang.String getState()"
+      "signature": "java.lang.String getState()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Warning#isHandled()",
-      "signature": "abstract boolean isHandled()"
+      "signature": "boolean isHandled()"
     },
     {
       "key": "org.flywaydb.core.api.callback.Warning#setHandled(boolean)",
-      "signature": "abstract void setHandled(boolean)"
+      "signature": "void setHandled(boolean)"
     },
     {
       "key": "org.flywaydb.core.api.configuration.ClassicConfiguration#configure(java.util.Map<java.lang.String, java.lang.String>)",
@@ -2928,283 +2928,283 @@
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getBaselineDescription()",
-      "signature": "abstract java.lang.String getBaselineDescription()"
+      "signature": "java.lang.String getBaselineDescription()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getBaselineVersion()",
-      "signature": "abstract org.flywaydb.core.api.MigrationVersion getBaselineVersion()"
+      "signature": "org.flywaydb.core.api.MigrationVersion getBaselineVersion()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getCallbacks()",
-      "signature": "abstract org.flywaydb.core.api.callback.Callback[] getCallbacks()"
+      "signature": "org.flywaydb.core.api.callback.Callback[] getCallbacks()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getCherryPick()",
-      "signature": "abstract org.flywaydb.core.api.MigrationPattern[] getCherryPick()"
+      "signature": "org.flywaydb.core.api.MigrationPattern[] getCherryPick()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getClassLoader()",
-      "signature": "abstract java.lang.ClassLoader getClassLoader()"
+      "signature": "java.lang.ClassLoader getClassLoader()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getConnectRetries()",
-      "signature": "abstract int getConnectRetries()"
+      "signature": "int getConnectRetries()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getConnectRetriesInterval()",
-      "signature": "abstract int getConnectRetriesInterval()"
+      "signature": "int getConnectRetriesInterval()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getDataSource()",
-      "signature": "abstract javax.sql.DataSource getDataSource()"
+      "signature": "javax.sql.DataSource getDataSource()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getDatabaseType()",
-      "signature": "abstract org.flywaydb.core.internal.database.DatabaseType getDatabaseType()"
+      "signature": "org.flywaydb.core.internal.database.DatabaseType getDatabaseType()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getDefaultSchema()",
-      "signature": "abstract java.lang.String getDefaultSchema()"
+      "signature": "java.lang.String getDefaultSchema()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getDriver()",
-      "signature": "abstract java.lang.String getDriver()"
+      "signature": "java.lang.String getDriver()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getDryRunOutput()",
-      "signature": "abstract java.io.OutputStream getDryRunOutput()"
+      "signature": "java.io.OutputStream getDryRunOutput()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getEncoding()",
-      "signature": "abstract java.nio.charset.Charset getEncoding()"
+      "signature": "java.nio.charset.Charset getEncoding()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getErrorOverrides()",
-      "signature": "abstract java.lang.String[] getErrorOverrides()"
+      "signature": "java.lang.String[] getErrorOverrides()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getIgnoreMigrationPatterns()",
-      "signature": "abstract org.flywaydb.core.api.pattern.ValidatePattern[] getIgnoreMigrationPatterns()"
+      "signature": "org.flywaydb.core.api.pattern.ValidatePattern[] getIgnoreMigrationPatterns()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getInitSql()",
-      "signature": "abstract java.lang.String getInitSql()"
+      "signature": "java.lang.String getInitSql()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getInstalledBy()",
-      "signature": "abstract java.lang.String getInstalledBy()"
+      "signature": "java.lang.String getInstalledBy()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getJavaMigrationClassProvider()",
-      "signature": "abstract org.flywaydb.core.api.ClassProvider<org.flywaydb.core.api.migration.JavaMigration> getJavaMigrationClassProvider()"
+      "signature": "org.flywaydb.core.api.ClassProvider<org.flywaydb.core.api.migration.JavaMigration> getJavaMigrationClassProvider()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getJavaMigrations()",
-      "signature": "abstract org.flywaydb.core.api.migration.JavaMigration[] getJavaMigrations()"
+      "signature": "org.flywaydb.core.api.migration.JavaMigration[] getJavaMigrations()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getJdbcProperties()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getJdbcProperties()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getJdbcProperties()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getKerberosConfigFile()",
-      "signature": "abstract java.lang.String getKerberosConfigFile()"
+      "signature": "java.lang.String getKerberosConfigFile()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getLicenseKey()",
-      "signature": "abstract java.lang.String getLicenseKey()"
+      "signature": "java.lang.String getLicenseKey()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getLocations()",
-      "signature": "abstract org.flywaydb.core.api.Location[] getLocations()"
+      "signature": "org.flywaydb.core.api.Location[] getLocations()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getLockRetryCount()",
-      "signature": "abstract int getLockRetryCount()"
+      "signature": "int getLockRetryCount()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getLoggers()",
-      "signature": "abstract java.lang.String[] getLoggers()"
+      "signature": "java.lang.String[] getLoggers()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getModernConfig()",
-      "signature": "abstract org.flywaydb.core.internal.configuration.models.ConfigurationModel getModernConfig()"
+      "signature": "org.flywaydb.core.internal.configuration.models.ConfigurationModel getModernConfig()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPassword()",
-      "signature": "abstract java.lang.String getPassword()"
+      "signature": "java.lang.String getPassword()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPlaceholderPrefix()",
-      "signature": "abstract java.lang.String getPlaceholderPrefix()"
+      "signature": "java.lang.String getPlaceholderPrefix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPlaceholderSeparator()",
-      "signature": "abstract java.lang.String getPlaceholderSeparator()"
+      "signature": "java.lang.String getPlaceholderSeparator()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPlaceholderSuffix()",
-      "signature": "abstract java.lang.String getPlaceholderSuffix()"
+      "signature": "java.lang.String getPlaceholderSuffix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPlaceholders()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getPlaceholders()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getPlaceholders()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getPluginRegister()",
-      "signature": "abstract org.flywaydb.core.internal.plugin.PluginRegister getPluginRegister()"
+      "signature": "org.flywaydb.core.internal.plugin.PluginRegister getPluginRegister()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getRepeatableSqlMigrationPrefix()",
-      "signature": "abstract java.lang.String getRepeatableSqlMigrationPrefix()"
+      "signature": "java.lang.String getRepeatableSqlMigrationPrefix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getReportFilename()",
-      "signature": "abstract java.lang.String getReportFilename()"
+      "signature": "java.lang.String getReportFilename()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getResolvers()",
-      "signature": "abstract org.flywaydb.core.api.resolver.MigrationResolver[] getResolvers()"
+      "signature": "org.flywaydb.core.api.resolver.MigrationResolver[] getResolvers()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getResourceProvider()",
-      "signature": "abstract org.flywaydb.core.api.ResourceProvider getResourceProvider()"
+      "signature": "org.flywaydb.core.api.ResourceProvider getResourceProvider()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getSchemas()",
-      "signature": "abstract java.lang.String[] getSchemas()"
+      "signature": "java.lang.String[] getSchemas()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getScriptPlaceholderPrefix()",
-      "signature": "abstract java.lang.String getScriptPlaceholderPrefix()"
+      "signature": "java.lang.String getScriptPlaceholderPrefix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getScriptPlaceholderSuffix()",
-      "signature": "abstract java.lang.String getScriptPlaceholderSuffix()"
+      "signature": "java.lang.String getScriptPlaceholderSuffix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getSqlMigrationPrefix()",
-      "signature": "abstract java.lang.String getSqlMigrationPrefix()"
+      "signature": "java.lang.String getSqlMigrationPrefix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getSqlMigrationSeparator()",
-      "signature": "abstract java.lang.String getSqlMigrationSeparator()"
+      "signature": "java.lang.String getSqlMigrationSeparator()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getSqlMigrationSuffixes()",
-      "signature": "abstract java.lang.String[] getSqlMigrationSuffixes()"
+      "signature": "java.lang.String[] getSqlMigrationSuffixes()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getTable()",
-      "signature": "abstract java.lang.String getTable()"
+      "signature": "java.lang.String getTable()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getTablespace()",
-      "signature": "abstract java.lang.String getTablespace()"
+      "signature": "java.lang.String getTablespace()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getTarget()",
-      "signature": "abstract org.flywaydb.core.api.MigrationVersion getTarget()"
+      "signature": "org.flywaydb.core.api.MigrationVersion getTarget()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getUndoSqlMigrationPrefix()",
-      "signature": "abstract java.lang.String getUndoSqlMigrationPrefix()"
+      "signature": "java.lang.String getUndoSqlMigrationPrefix()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getUrl()",
-      "signature": "abstract java.lang.String getUrl()"
+      "signature": "java.lang.String getUrl()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getUser()",
-      "signature": "abstract java.lang.String getUser()"
+      "signature": "java.lang.String getUser()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#getWorkingDirectory()",
-      "signature": "abstract java.lang.String getWorkingDirectory()"
+      "signature": "java.lang.String getWorkingDirectory()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isBaselineOnMigrate()",
-      "signature": "abstract boolean isBaselineOnMigrate()"
+      "signature": "boolean isBaselineOnMigrate()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isBatch()",
-      "signature": "abstract boolean isBatch()"
+      "signature": "boolean isBatch()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isCleanDisabled()",
-      "signature": "abstract boolean isCleanDisabled()"
+      "signature": "boolean isCleanDisabled()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isCleanOnValidationError()",
-      "signature": "abstract boolean isCleanOnValidationError()"
+      "signature": "boolean isCleanOnValidationError()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isCreateSchemas()",
-      "signature": "abstract boolean isCreateSchemas()"
+      "signature": "boolean isCreateSchemas()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isDetectEncoding()",
-      "signature": "abstract boolean isDetectEncoding()"
+      "signature": "boolean isDetectEncoding()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isExecuteInTransaction()",
-      "signature": "abstract boolean isExecuteInTransaction()"
+      "signature": "boolean isExecuteInTransaction()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isFailOnMissingLocations()",
-      "signature": "abstract boolean isFailOnMissingLocations()"
+      "signature": "boolean isFailOnMissingLocations()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isFailOnMissingTarget()",
-      "signature": "abstract boolean isFailOnMissingTarget()"
+      "signature": "boolean isFailOnMissingTarget()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isGroup()",
-      "signature": "abstract boolean isGroup()"
+      "signature": "boolean isGroup()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isMixed()",
-      "signature": "abstract boolean isMixed()"
+      "signature": "boolean isMixed()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isOutOfOrder()",
-      "signature": "abstract boolean isOutOfOrder()"
+      "signature": "boolean isOutOfOrder()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isOutputQueryResults()",
-      "signature": "abstract boolean isOutputQueryResults()"
+      "signature": "boolean isOutputQueryResults()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isPlaceholderReplacement()",
-      "signature": "abstract boolean isPlaceholderReplacement()"
+      "signature": "boolean isPlaceholderReplacement()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isReportEnabled()",
-      "signature": "abstract boolean isReportEnabled()"
+      "signature": "boolean isReportEnabled()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isSkipDefaultCallbacks()",
-      "signature": "abstract boolean isSkipDefaultCallbacks()"
+      "signature": "boolean isSkipDefaultCallbacks()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isSkipDefaultResolvers()",
-      "signature": "abstract boolean isSkipDefaultResolvers()"
+      "signature": "boolean isSkipDefaultResolvers()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isSkipExecutingMigrations()",
-      "signature": "abstract boolean isSkipExecutingMigrations()"
+      "signature": "boolean isSkipExecutingMigrations()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isStream()",
-      "signature": "abstract boolean isStream()"
+      "signature": "boolean isStream()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isValidateMigrationNaming()",
-      "signature": "abstract boolean isValidateMigrationNaming()"
+      "signature": "boolean isValidateMigrationNaming()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.Configuration#isValidateOnMigrate()",
-      "signature": "abstract boolean isValidateOnMigrate()"
+      "signature": "boolean isValidateOnMigrate()"
     },
     {
       "key": "org.flywaydb.core.api.configuration.FluentConfiguration#baselineDescription(java.lang.String)",
@@ -3812,55 +3812,55 @@
     },
     {
       "key": "org.flywaydb.core.api.executor.Context#getConfiguration()",
-      "signature": "abstract org.flywaydb.core.api.configuration.Configuration getConfiguration()"
+      "signature": "org.flywaydb.core.api.configuration.Configuration getConfiguration()"
     },
     {
       "key": "org.flywaydb.core.api.executor.Context#getConnection()",
-      "signature": "abstract java.sql.Connection getConnection()"
+      "signature": "java.sql.Connection getConnection()"
     },
     {
       "key": "org.flywaydb.core.api.executor.MigrationExecutor#canExecuteInTransaction()",
-      "signature": "abstract boolean canExecuteInTransaction()"
+      "signature": "boolean canExecuteInTransaction()"
     },
     {
       "key": "org.flywaydb.core.api.executor.MigrationExecutor#execute(org.flywaydb.core.api.executor.Context)",
-      "signature": "abstract void execute(org.flywaydb.core.api.executor.Context)"
+      "signature": "void execute(org.flywaydb.core.api.executor.Context)"
     },
     {
       "key": "org.flywaydb.core.api.executor.MigrationExecutor#shouldExecute()",
-      "signature": "abstract boolean shouldExecute()"
+      "signature": "boolean shouldExecute()"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#debug(java.lang.String)",
-      "signature": "abstract void debug(java.lang.String)"
+      "signature": "void debug(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#error(java.lang.String)",
-      "signature": "abstract void error(java.lang.String)"
+      "signature": "void error(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#error(java.lang.String, java.lang.Exception)",
-      "signature": "abstract void error(java.lang.String, java.lang.Exception)"
+      "signature": "void error(java.lang.String, java.lang.Exception)"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#info(java.lang.String)",
-      "signature": "abstract void info(java.lang.String)"
+      "signature": "void info(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#isDebugEnabled()",
-      "signature": "abstract boolean isDebugEnabled()"
+      "signature": "boolean isDebugEnabled()"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#notice(java.lang.String)",
-      "signature": "abstract void notice(java.lang.String)"
+      "signature": "void notice(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.logging.Log#warn(java.lang.String)",
-      "signature": "abstract void warn(java.lang.String)"
+      "signature": "void warn(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.api.logging.LogCreator#createLogger(java.lang.Class<?>)",
-      "signature": "abstract org.flywaydb.core.api.logging.Log createLogger(java.lang.Class<?>)"
+      "signature": "org.flywaydb.core.api.logging.Log createLogger(java.lang.Class<?>)"
     },
     {
       "key": "org.flywaydb.core.api.logging.LogFactory#getLog(java.lang.Class<?>)",
@@ -3896,39 +3896,39 @@
     },
     {
       "key": "org.flywaydb.core.api.migration.Context#getConfiguration()",
-      "signature": "abstract org.flywaydb.core.api.configuration.Configuration getConfiguration()"
+      "signature": "org.flywaydb.core.api.configuration.Configuration getConfiguration()"
     },
     {
       "key": "org.flywaydb.core.api.migration.Context#getConnection()",
-      "signature": "abstract java.sql.Connection getConnection()"
+      "signature": "java.sql.Connection getConnection()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#canExecuteInTransaction()",
-      "signature": "abstract boolean canExecuteInTransaction()"
+      "signature": "boolean canExecuteInTransaction()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#getChecksum()",
-      "signature": "abstract java.lang.Integer getChecksum()"
+      "signature": "java.lang.Integer getChecksum()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#getDescription()",
-      "signature": "abstract java.lang.String getDescription()"
+      "signature": "java.lang.String getDescription()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#getResolvedMigration(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "default org.flywaydb.core.api.resolver.ResolvedMigration getResolvedMigration(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "org.flywaydb.core.api.resolver.ResolvedMigration getResolvedMigration(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#getType()",
-      "signature": "default org.flywaydb.core.extensibility.MigrationType getType()"
+      "signature": "org.flywaydb.core.extensibility.MigrationType getType()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#getVersion()",
-      "signature": "abstract org.flywaydb.core.api.MigrationVersion getVersion()"
+      "signature": "org.flywaydb.core.api.MigrationVersion getVersion()"
     },
     {
       "key": "org.flywaydb.core.api.migration.JavaMigration#migrate(org.flywaydb.core.api.migration.Context)",
-      "signature": "abstract void migrate(org.flywaydb.core.api.migration.Context)"
+      "signature": "void migrate(org.flywaydb.core.api.migration.Context)"
     },
     {
       "key": "org.flywaydb.core.api.migration.baseline.BaselineAppliedMigration#create(int, org.flywaydb.core.api.MigrationVersion, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.util.Date, java.lang.String, int, boolean)",
@@ -4384,31 +4384,31 @@
     },
     {
       "key": "org.flywaydb.core.api.resolver.ChecksumMatcher#checksumMatches(java.lang.Integer)",
-      "signature": "abstract boolean checksumMatches(java.lang.Integer)"
+      "signature": "boolean checksumMatches(java.lang.Integer)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.ChecksumMatcher#checksumMatchesWithoutBeingIdentical(java.lang.Integer)",
-      "signature": "abstract boolean checksumMatchesWithoutBeingIdentical(java.lang.Integer)"
+      "signature": "boolean checksumMatchesWithoutBeingIdentical(java.lang.Integer)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.MigrationResolver#getDefaultMigrationType()",
-      "signature": "default org.flywaydb.core.extensibility.MigrationType getDefaultMigrationType()"
+      "signature": "org.flywaydb.core.extensibility.MigrationType getDefaultMigrationType()"
     },
     {
       "key": "org.flywaydb.core.api.resolver.MigrationResolver#getPrefix(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "default java.lang.String getPrefix(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.lang.String getPrefix(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.ResolvedMigration#canCompareWith(org.flywaydb.core.api.resolver.ResolvedMigration)",
-      "signature": "default boolean canCompareWith(org.flywaydb.core.api.resolver.ResolvedMigration)"
+      "signature": "boolean canCompareWith(org.flywaydb.core.api.resolver.ResolvedMigration)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.ResolvedMigration#getState(org.flywaydb.core.internal.info.MigrationInfoContext)",
-      "signature": "default org.flywaydb.core.api.MigrationState getState(org.flywaydb.core.internal.info.MigrationInfoContext)"
+      "signature": "org.flywaydb.core.api.MigrationState getState(org.flywaydb.core.internal.info.MigrationInfoContext)"
     },
     {
       "key": "org.flywaydb.core.api.resolver.ResolvedMigration#isVersioned()",
-      "signature": "default boolean isVersioned()"
+      "signature": "boolean isVersioned()"
     },
     {
       "key": "org.flywaydb.core.api.resource.LoadableResource#compareTo(java.lang.Object)",
@@ -4420,127 +4420,127 @@
     },
     {
       "key": "org.flywaydb.core.api.resource.LoadableResource#read()",
-      "signature": "abstract java.io.Reader read()"
+      "signature": "java.io.Reader read()"
     },
     {
       "key": "org.flywaydb.core.api.resource.Resource#getAbsolutePath()",
-      "signature": "abstract java.lang.String getAbsolutePath()"
+      "signature": "java.lang.String getAbsolutePath()"
     },
     {
       "key": "org.flywaydb.core.api.resource.Resource#getAbsolutePathOnDisk()",
-      "signature": "abstract java.lang.String getAbsolutePathOnDisk()"
+      "signature": "java.lang.String getAbsolutePathOnDisk()"
     },
     {
       "key": "org.flywaydb.core.api.resource.Resource#getFilename()",
-      "signature": "abstract java.lang.String getFilename()"
+      "signature": "java.lang.String getFilename()"
     },
     {
       "key": "org.flywaydb.core.api.resource.Resource#getRelativePath()",
-      "signature": "abstract java.lang.String getRelativePath()"
+      "signature": "java.lang.String getRelativePath()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#compareTo(org.flywaydb.core.extensibility.AppliedMigration)",
-      "signature": "default int compareTo(org.flywaydb.core.extensibility.AppliedMigration)"
+      "signature": "int compareTo(org.flywaydb.core.extensibility.AppliedMigration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#create(int, org.flywaydb.core.api.MigrationVersion, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.util.Date, java.lang.String, int, boolean)",
-      "signature": "abstract org.flywaydb.core.extensibility.AppliedMigration create(int, org.flywaydb.core.api.MigrationVersion, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.util.Date, java.lang.String, int, boolean)"
+      "signature": "org.flywaydb.core.extensibility.AppliedMigration create(int, org.flywaydb.core.api.MigrationVersion, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.util.Date, java.lang.String, int, boolean)"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getChecksum()",
-      "signature": "abstract java.lang.Integer getChecksum()"
+      "signature": "java.lang.Integer getChecksum()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getDescription()",
-      "signature": "abstract java.lang.String getDescription()"
+      "signature": "java.lang.String getDescription()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getExecutionTime()",
-      "signature": "abstract int getExecutionTime()"
+      "signature": "int getExecutionTime()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getInstalledBy()",
-      "signature": "abstract java.lang.String getInstalledBy()"
+      "signature": "java.lang.String getInstalledBy()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getInstalledOn()",
-      "signature": "abstract java.util.Date getInstalledOn()"
+      "signature": "java.util.Date getInstalledOn()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getInstalledRank()",
-      "signature": "abstract int getInstalledRank()"
+      "signature": "int getInstalledRank()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getScript()",
-      "signature": "abstract java.lang.String getScript()"
+      "signature": "java.lang.String getScript()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getState(org.flywaydb.core.internal.info.MigrationInfoContext, boolean, org.flywaydb.core.api.resolver.ResolvedMigration)",
-      "signature": "abstract org.flywaydb.core.api.MigrationState getState(org.flywaydb.core.internal.info.MigrationInfoContext, boolean, org.flywaydb.core.api.resolver.ResolvedMigration)"
+      "signature": "org.flywaydb.core.api.MigrationState getState(org.flywaydb.core.internal.info.MigrationInfoContext, boolean, org.flywaydb.core.api.resolver.ResolvedMigration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getType()",
-      "signature": "abstract org.flywaydb.core.extensibility.MigrationType getType()"
+      "signature": "org.flywaydb.core.extensibility.MigrationType getType()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#getVersion()",
-      "signature": "abstract org.flywaydb.core.api.MigrationVersion getVersion()"
+      "signature": "org.flywaydb.core.api.MigrationVersion getVersion()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#handlesType(java.lang.String)",
-      "signature": "abstract boolean handlesType(java.lang.String)"
+      "signature": "boolean handlesType(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#isSuccess()",
-      "signature": "abstract boolean isSuccess()"
+      "signature": "boolean isSuccess()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#isVersioned()",
-      "signature": "default boolean isVersioned()"
+      "signature": "boolean isVersioned()"
     },
     {
       "key": "org.flywaydb.core.extensibility.AppliedMigration#updateAttributes(java.util.List<org.flywaydb.core.internal.util.Pair<org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.internal.info.AppliedMigrationAttributes>>)",
-      "signature": "default void updateAttributes(java.util.List<org.flywaydb.core.internal.util.Pair<org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.internal.info.AppliedMigrationAttributes>>)"
+      "signature": "void updateAttributes(java.util.List<org.flywaydb.core.internal.util.Pair<org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.internal.info.AppliedMigrationAttributes>>)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CleanModePlugin#cleanDatabasePostSchema(T, org.flywaydb.core.internal.jdbc.JdbcTemplate)",
-      "signature": "abstract void cleanDatabasePostSchema(T, org.flywaydb.core.internal.jdbc.JdbcTemplate)"
+      "signature": "void cleanDatabasePostSchema(T, org.flywaydb.core.internal.jdbc.JdbcTemplate)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CleanModePlugin#handlesDatabase(org.flywaydb.core.internal.database.base.Database)",
-      "signature": "abstract boolean handlesDatabase(org.flywaydb.core.internal.database.base.Database)"
+      "signature": "boolean handlesDatabase(org.flywaydb.core.internal.database.base.Database)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CleanModePlugin#handlesMode(org.flywaydb.core.internal.command.clean.CleanModeConfigurationExtension$Mode)",
-      "signature": "abstract boolean handlesMode(org.flywaydb.core.internal.command.clean.CleanModeConfigurationExtension$Mode)"
+      "signature": "boolean handlesMode(org.flywaydb.core.internal.command.clean.CleanModeConfigurationExtension$Mode)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CommandExtension#getCommandForFlag(java.lang.String)",
-      "signature": "default java.lang.String getCommandForFlag(java.lang.String)"
+      "signature": "java.lang.String getCommandForFlag(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CommandExtension#handle(java.lang.String, org.flywaydb.core.api.configuration.Configuration, java.util.List<java.lang.String>, org.flywaydb.core.FlywayTelemetryManager)",
-      "signature": "abstract org.flywaydb.core.api.output.OperationResult handle(java.lang.String, org.flywaydb.core.api.configuration.Configuration, java.util.List<java.lang.String>, org.flywaydb.core.FlywayTelemetryManager)"
+      "signature": "org.flywaydb.core.api.output.OperationResult handle(java.lang.String, org.flywaydb.core.api.configuration.Configuration, java.util.List<java.lang.String>, org.flywaydb.core.FlywayTelemetryManager)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CommandExtension#handlesCommand(java.lang.String)",
-      "signature": "abstract boolean handlesCommand(java.lang.String)"
+      "signature": "boolean handlesCommand(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.extensibility.CommandExtension#handlesParameter(java.lang.String)",
-      "signature": "abstract boolean handlesParameter(java.lang.String)"
+      "signature": "boolean handlesParameter(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationExtension#extractParametersFromConfiguration(java.util.Map<java.lang.String, java.lang.String>)",
-      "signature": "default void extractParametersFromConfiguration(java.util.Map<java.lang.String, java.lang.String>)"
+      "signature": "void extractParametersFromConfiguration(java.util.Map<java.lang.String, java.lang.String>)"
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationExtension#getConfigurationParameterFromEnvironmentVariable(java.lang.String)",
-      "signature": "abstract java.lang.String getConfigurationParameterFromEnvironmentVariable(java.lang.String)"
+      "signature": "java.lang.String getConfigurationParameterFromEnvironmentVariable(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationExtension#getNamespace()",
-      "signature": "abstract java.lang.String getNamespace()"
+      "signature": "java.lang.String getNamespace()"
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationParameter#getDescription()",
@@ -4556,11 +4556,11 @@
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationProvider#getConfiguration(T, org.flywaydb.core.api.configuration.ClassicConfiguration)",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getConfiguration(T, org.flywaydb.core.api.configuration.ClassicConfiguration)"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getConfiguration(T, org.flywaydb.core.api.configuration.ClassicConfiguration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.ConfigurationProvider#getConfigurationExtensionClass()",
-      "signature": "abstract java.lang.Class<T> getConfigurationExtensionClass()"
+      "signature": "java.lang.Class<T> getConfigurationExtensionClass()"
     },
     {
       "key": "org.flywaydb.core.extensibility.EventTelemetryModel#close()",
@@ -4604,19 +4604,19 @@
     },
     {
       "key": "org.flywaydb.core.extensibility.HtmlRenderer#getHtmlSummary(T)",
-      "signature": "default java.util.List<org.flywaydb.core.extensibility.HtmlReportSummary> getHtmlSummary(T)"
+      "signature": "java.util.List<org.flywaydb.core.extensibility.HtmlReportSummary> getHtmlSummary(T)"
     },
     {
       "key": "org.flywaydb.core.extensibility.HtmlRenderer#getType()",
-      "signature": "abstract java.lang.Class<T> getType()"
+      "signature": "java.lang.Class<T> getType()"
     },
     {
       "key": "org.flywaydb.core.extensibility.HtmlRenderer#render(T, org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract java.lang.String render(T, org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.lang.String render(T, org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.HtmlRenderer#tabTitle(T, org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract java.lang.String tabTitle(T, org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.lang.String tabTitle(T, org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.HtmlReportSummary#getCssClass()",
@@ -4748,83 +4748,83 @@
     },
     {
       "key": "org.flywaydb.core.extensibility.MigrationType#isBaseline()",
-      "signature": "abstract boolean isBaseline()"
+      "signature": "boolean isBaseline()"
     },
     {
       "key": "org.flywaydb.core.extensibility.MigrationType#isSynthetic()",
-      "signature": "abstract boolean isSynthetic()"
+      "signature": "boolean isSynthetic()"
     },
     {
       "key": "org.flywaydb.core.extensibility.MigrationType#isUndo()",
-      "signature": "abstract boolean isUndo()"
+      "signature": "boolean isUndo()"
     },
     {
       "key": "org.flywaydb.core.extensibility.MigrationType#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#compareTo(java.lang.Object)",
-      "signature": "default int compareTo(java.lang.Object)"
+      "signature": "int compareTo(java.lang.Object)"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#compareTo(org.flywaydb.core.extensibility.Plugin)",
-      "signature": "default int compareTo(org.flywaydb.core.extensibility.Plugin)"
+      "signature": "int compareTo(org.flywaydb.core.extensibility.Plugin)"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#getPluginVersion()",
-      "signature": "default java.lang.String getPluginVersion()"
+      "signature": "java.lang.String getPluginVersion()"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#getPriority()",
-      "signature": "default int getPriority()"
+      "signature": "int getPriority()"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#isEnabled()",
-      "signature": "default boolean isEnabled()"
+      "signature": "boolean isEnabled()"
     },
     {
       "key": "org.flywaydb.core.extensibility.Plugin#isLicensed(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "default boolean isLicensed(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "boolean isLicensed(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getConfigurationParameters()",
-      "signature": "default java.util.List<org.flywaydb.core.extensibility.ConfigurationParameter> getConfigurationParameters()"
+      "signature": "java.util.List<org.flywaydb.core.extensibility.ConfigurationParameter> getConfigurationParameters()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getDescription()",
-      "signature": "default java.lang.String getDescription()"
+      "signature": "java.lang.String getDescription()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getDocumentationLink()",
-      "signature": "default java.lang.String getDocumentationLink()"
+      "signature": "java.lang.String getDocumentationLink()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getExample()",
-      "signature": "default java.lang.String getExample()"
+      "signature": "java.lang.String getExample()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getFlags()",
-      "signature": "default java.util.List<org.flywaydb.core.extensibility.ConfigurationParameter> getFlags()"
+      "signature": "java.util.List<org.flywaydb.core.extensibility.ConfigurationParameter> getFlags()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getHelpText()",
-      "signature": "default java.lang.String getHelpText()"
+      "signature": "java.lang.String getHelpText()"
     },
     {
       "key": "org.flywaydb.core.extensibility.PluginMetadata#getUsage()",
-      "signature": "default java.util.List<org.flywaydb.core.internal.util.Pair<java.lang.String, java.lang.String>> getUsage()"
+      "signature": "java.util.List<org.flywaydb.core.internal.util.Pair<java.lang.String, java.lang.String>> getUsage()"
     },
     {
       "key": "org.flywaydb.core.extensibility.ResourceType#isVersioned()",
-      "signature": "abstract boolean isVersioned()"
+      "signature": "boolean isVersioned()"
     },
     {
       "key": "org.flywaydb.core.extensibility.ResourceTypeProvider#getPrefixTypePairs(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract java.util.List<org.flywaydb.core.internal.util.Pair<java.lang.String, org.flywaydb.core.extensibility.ResourceType>> getPrefixTypePairs(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.util.List<org.flywaydb.core.internal.util.Pair<java.lang.String, org.flywaydb.core.extensibility.ResourceType>> getPrefixTypePairs(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.RgDomainChecker#isInDomain(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract boolean isInDomain(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "boolean isInDomain(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.extensibility.RootTelemetryModel#getDatabaseEngine()",
@@ -4908,19 +4908,19 @@
     },
     {
       "key": "org.flywaydb.core.extensibility.TelemetryPlugin#logEventDetails(org.flywaydb.core.extensibility.EventTelemetryModel)",
-      "signature": "abstract void logEventDetails(org.flywaydb.core.extensibility.EventTelemetryModel)"
+      "signature": "void logEventDetails(org.flywaydb.core.extensibility.EventTelemetryModel)"
     },
     {
       "key": "org.flywaydb.core.extensibility.TelemetryPlugin#logRootDetails(org.flywaydb.core.extensibility.RootTelemetryModel)",
-      "signature": "abstract void logRootDetails(org.flywaydb.core.extensibility.RootTelemetryModel)"
+      "signature": "void logRootDetails(org.flywaydb.core.extensibility.RootTelemetryModel)"
     },
     {
       "key": "org.flywaydb.core.internal.authentication.ExternalAuthFileReader#getAllContents()",
-      "signature": "abstract java.util.List<java.lang.String> getAllContents()"
+      "signature": "java.util.List<java.lang.String> getAllContents()"
     },
     {
       "key": "org.flywaydb.core.internal.authentication.ExternalAuthPropertiesProvider#get()",
-      "signature": "abstract java.util.Properties get()"
+      "signature": "java.util.Properties get()"
     },
     {
       "key": "org.flywaydb.core.internal.authentication.postgres.PgpassFileReader#getAllContents()",
@@ -4932,23 +4932,23 @@
     },
     {
       "key": "org.flywaydb.core.internal.callback.CallbackExecutor#onEachMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)",
-      "signature": "abstract void onEachMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)"
+      "signature": "void onEachMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)"
     },
     {
       "key": "org.flywaydb.core.internal.callback.CallbackExecutor#onEvent(org.flywaydb.core.api.callback.Event)",
-      "signature": "abstract void onEvent(org.flywaydb.core.api.callback.Event)"
+      "signature": "void onEvent(org.flywaydb.core.api.callback.Event)"
     },
     {
       "key": "org.flywaydb.core.internal.callback.CallbackExecutor#onMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)",
-      "signature": "abstract void onMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)"
+      "signature": "void onMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)"
     },
     {
       "key": "org.flywaydb.core.internal.callback.CallbackExecutor#onOperationFinishEvent(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.output.OperationResult)",
-      "signature": "abstract void onOperationFinishEvent(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.output.OperationResult)"
+      "signature": "void onOperationFinishEvent(org.flywaydb.core.api.callback.Event, org.flywaydb.core.api.output.OperationResult)"
     },
     {
       "key": "org.flywaydb.core.internal.callback.CallbackExecutor#setMigrationInfo(org.flywaydb.core.api.MigrationInfo)",
-      "signature": "abstract void setMigrationInfo(org.flywaydb.core.api.MigrationInfo)"
+      "signature": "void setMigrationInfo(org.flywaydb.core.api.MigrationInfo)"
     },
     {
       "key": "org.flywaydb.core.internal.callback.DefaultCallbackExecutor#onEachMigrateOrUndoEvent(org.flywaydb.core.api.callback.Event)",
@@ -5956,19 +5956,19 @@
     },
     {
       "key": "org.flywaydb.core.internal.configuration.resolvers.PropertyResolver#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.flywaydb.core.internal.configuration.resolvers.PropertyResolver#resolve(java.lang.String, org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext)",
-      "signature": "abstract java.lang.String resolve(java.lang.String, org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext)"
+      "signature": "java.lang.String resolve(java.lang.String, org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext)"
     },
     {
       "key": "org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext#resolveProperty(java.lang.String, java.lang.String)",
-      "signature": "abstract java.lang.String resolveProperty(java.lang.String, java.lang.String)"
+      "signature": "java.lang.String resolveProperty(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext#resolveValue(java.lang.String)",
-      "signature": "abstract java.lang.String resolveValue(java.lang.String)"
+      "signature": "java.lang.String resolveValue(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContextImpl#resolveProperty(java.lang.String, java.lang.String)",
@@ -5980,115 +5980,115 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseExecutionStrategy#execute(org.flywaydb.core.internal.util.SqlCallable<T>)",
-      "signature": "abstract <T> T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
+      "signature": "T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#alterConnectionAsNeeded(java.sql.Connection, org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract java.sql.Connection alterConnectionAsNeeded(java.sql.Connection, org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.sql.Connection alterConnectionAsNeeded(java.sql.Connection, org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createDatabase(org.flywaydb.core.api.configuration.Configuration, boolean, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "abstract org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, boolean, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, boolean, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "abstract org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createExecutionStrategy(java.sql.Connection)",
-      "signature": "abstract org.flywaydb.core.internal.database.DatabaseExecutionStrategy createExecutionStrategy(java.sql.Connection)"
+      "signature": "org.flywaydb.core.internal.database.DatabaseExecutionStrategy createExecutionStrategy(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)",
-      "signature": "abstract org.flywaydb.core.internal.parser.Parser createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)"
+      "signature": "org.flywaydb.core.internal.parser.Parser createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createSqlScriptExecutorFactory(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "abstract org.flywaydb.core.internal.sqlscript.SqlScriptExecutorFactory createSqlScriptExecutorFactory(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "org.flywaydb.core.internal.sqlscript.SqlScriptExecutorFactory createSqlScriptExecutorFactory(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createSqlScriptFactory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.parser.ParsingContext)",
-      "signature": "abstract org.flywaydb.core.internal.sqlscript.SqlScriptFactory createSqlScriptFactory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.parser.ParsingContext)"
+      "signature": "org.flywaydb.core.internal.sqlscript.SqlScriptFactory createSqlScriptFactory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.parser.ParsingContext)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#createTransactionalExecutionTemplate(java.sql.Connection, boolean)",
-      "signature": "abstract org.flywaydb.core.internal.jdbc.ExecutionTemplate createTransactionalExecutionTemplate(java.sql.Connection, boolean)"
+      "signature": "org.flywaydb.core.internal.jdbc.ExecutionTemplate createTransactionalExecutionTemplate(java.sql.Connection, boolean)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#detectPasswordRequiredByUrl(java.lang.String)",
-      "signature": "abstract boolean detectPasswordRequiredByUrl(java.lang.String)"
+      "signature": "boolean detectPasswordRequiredByUrl(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#detectUserRequiredByUrl(java.lang.String)",
-      "signature": "abstract boolean detectUserRequiredByUrl(java.lang.String)"
+      "signature": "boolean detectUserRequiredByUrl(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#externalAuthPropertiesRequired(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract boolean externalAuthPropertiesRequired(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "boolean externalAuthPropertiesRequired(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getBackupDriverClass(java.lang.String, java.lang.ClassLoader)",
-      "signature": "abstract java.lang.String getBackupDriverClass(java.lang.String, java.lang.ClassLoader)"
+      "signature": "java.lang.String getBackupDriverClass(java.lang.String, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getDriverClass(java.lang.String, java.lang.ClassLoader)",
-      "signature": "abstract java.lang.String getDriverClass(java.lang.String, java.lang.ClassLoader)"
+      "signature": "java.lang.String getDriverClass(java.lang.String, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getExternalAuthProperties(java.lang.String, java.lang.String)",
-      "signature": "abstract java.util.Properties getExternalAuthProperties(java.lang.String, java.lang.String)"
+      "signature": "java.util.Properties getExternalAuthProperties(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getJDBCCredentialsPattern()",
-      "signature": "abstract java.util.regex.Pattern getJDBCCredentialsPattern()"
+      "signature": "java.util.regex.Pattern getJDBCCredentialsPattern()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getNullType()",
-      "signature": "abstract int getNullType()"
+      "signature": "int getNullType()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#getSpecialResourceFilenames(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "default java.util.List<java.lang.String> getSpecialResourceFilenames(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.util.List<java.lang.String> getSpecialResourceFilenames(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)",
-      "signature": "abstract boolean handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)"
+      "signature": "boolean handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#handlesJDBCUrl(java.lang.String)",
-      "signature": "abstract boolean handlesJDBCUrl(java.lang.String)"
+      "signature": "boolean handlesJDBCUrl(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#instantiateClassExtendedErrorMessage()",
-      "signature": "abstract java.lang.String instantiateClassExtendedErrorMessage()"
+      "signature": "java.lang.String instantiateClassExtendedErrorMessage()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#printMessages()",
-      "signature": "abstract void printMessages()"
+      "signature": "void printMessages()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#setConfigConnectionProps(org.flywaydb.core.api.configuration.Configuration, java.util.Properties, java.lang.ClassLoader)",
-      "signature": "abstract void setConfigConnectionProps(org.flywaydb.core.api.configuration.Configuration, java.util.Properties, java.lang.ClassLoader)"
+      "signature": "void setConfigConnectionProps(org.flywaydb.core.api.configuration.Configuration, java.util.Properties, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#setDefaultConnectionProps(java.lang.String, java.util.Properties, java.lang.ClassLoader)",
-      "signature": "abstract void setDefaultConnectionProps(java.lang.String, java.util.Properties, java.lang.ClassLoader)"
+      "signature": "void setDefaultConnectionProps(java.lang.String, java.util.Properties, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#setOverridingConnectionProps(java.util.Map<java.lang.String, java.lang.String>)",
-      "signature": "abstract void setOverridingConnectionProps(java.util.Map<java.lang.String, java.lang.String>)"
+      "signature": "void setOverridingConnectionProps(java.util.Map<java.lang.String, java.lang.String>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#shutdownDatabase(java.lang.String, java.sql.Driver)",
-      "signature": "abstract void shutdownDatabase(java.lang.String, java.sql.Driver)"
+      "signature": "void shutdownDatabase(java.lang.String, java.sql.Driver)"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseType#supportsReadOnlyTransactions()",
-      "signature": "abstract boolean supportsReadOnlyTransactions()"
+      "signature": "boolean supportsReadOnlyTransactions()"
     },
     {
       "key": "org.flywaydb.core.internal.database.DatabaseTypeRegister#getDatabaseTypeForConnection(java.sql.Connection)",
@@ -6104,7 +6104,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.DefaultExecutionStrategy#execute(org.flywaydb.core.internal.util.SqlCallable<T>)",
-      "signature": "<T> T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
+      "signature": "T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.InsertRowLock#doLock(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
@@ -6124,7 +6124,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
-      "signature": "abstract org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
+      "signature": "org.flywaydb.core.internal.database.base.Database createDatabase(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.jdbc.StatementInterceptor)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#createExecutionStrategy(java.sql.Connection)",
@@ -6132,7 +6132,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)",
-      "signature": "abstract org.flywaydb.core.internal.parser.Parser createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)"
+      "signature": "org.flywaydb.core.internal.parser.Parser createParser(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.api.ResourceProvider, org.flywaydb.core.internal.parser.ParsingContext)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#createSqlScriptExecutorFactory(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, org.flywaydb.core.internal.callback.CallbackExecutor, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
@@ -6168,7 +6168,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#getDriverClass(java.lang.String, java.lang.ClassLoader)",
-      "signature": "abstract java.lang.String getDriverClass(java.lang.String, java.lang.ClassLoader)"
+      "signature": "java.lang.String getDriverClass(java.lang.String, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#getExternalAuthProperties(java.lang.String, java.lang.String)",
@@ -6180,11 +6180,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#getNullType()",
-      "signature": "abstract int getNullType()"
+      "signature": "int getNullType()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#getSelectVersionOutput(java.sql.Connection)",
@@ -6192,11 +6192,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)",
-      "signature": "abstract boolean handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)"
+      "signature": "boolean handlesDatabaseProductNameAndVersion(java.lang.String, java.lang.String, java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#handlesJDBCUrl(java.lang.String)",
-      "signature": "abstract boolean handlesJDBCUrl(java.lang.String)"
+      "signature": "boolean handlesJDBCUrl(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.BaseDatabaseType#instantiateClassExtendedErrorMessage()",
@@ -6252,11 +6252,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Connection#getSchema(java.lang.String)",
-      "signature": "abstract org.flywaydb.core.internal.database.base.Schema getSchema(java.lang.String)"
+      "signature": "org.flywaydb.core.internal.database.base.Schema getSchema(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Connection#lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)",
-      "signature": "<T> T lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)"
+      "signature": "T lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Connection#restoreOriginalState()",
@@ -6264,7 +6264,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#catalogIsSchema()",
-      "signature": "abstract boolean catalogIsSchema()"
+      "signature": "boolean catalogIsSchema()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#cleanPostSchemas(org.flywaydb.core.internal.database.base.Schema[])",
@@ -6288,7 +6288,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#ensureSupported()",
-      "signature": "abstract void ensureSupported()"
+      "signature": "void ensureSupported()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getAllSchemas()",
@@ -6300,11 +6300,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getBooleanFalse()",
-      "signature": "abstract java.lang.String getBooleanFalse()"
+      "signature": "java.lang.String getBooleanFalse()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getBooleanTrue()",
-      "signature": "abstract java.lang.String getBooleanTrue()"
+      "signature": "java.lang.String getBooleanTrue()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getCatalog()",
@@ -6356,7 +6356,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getRawCreateScript(org.flywaydb.core.internal.database.base.Table, boolean)",
-      "signature": "abstract java.lang.String getRawCreateScript(org.flywaydb.core.internal.database.base.Table, boolean)"
+      "signature": "java.lang.String getRawCreateScript(org.flywaydb.core.internal.database.base.Table, boolean)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#getSelectStatement(org.flywaydb.core.internal.database.base.Table)",
@@ -6376,7 +6376,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#supportsDdlTransactions()",
-      "signature": "abstract boolean supportsDdlTransactions()"
+      "signature": "boolean supportsDdlTransactions()"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Database#supportsEmptyMigrationDescription()",
@@ -6436,7 +6436,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Schema#getTable(java.lang.String)",
-      "signature": "abstract org.flywaydb.core.internal.database.base.Table getTable(java.lang.String)"
+      "signature": "org.flywaydb.core.internal.database.base.Table getTable(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.database.base.Schema#hashCode()",
@@ -6636,7 +6636,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.cockroachdb.CockroachDBRetryingStrategy#execute(org.flywaydb.core.internal.util.SqlCallable<T>)",
-      "signature": "<T> T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
+      "signature": "T execute(org.flywaydb.core.internal.util.SqlCallable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.cockroachdb.CockroachDBSchema#getTable(java.lang.String)",
@@ -6644,7 +6644,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.cockroachdb.CockroachRetryingTransactionalExecutionTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.db2.DB2Connection#doChangeCurrentSchemaOrSearchPathTo(java.lang.String)",
@@ -7024,7 +7024,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.postgresql.PostgreSQLConfigurationExtension#equals(java.lang.Object)",
@@ -7080,7 +7080,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection#lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)",
-      "signature": "<T> T lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)"
+      "signature": "T lock(org.flywaydb.core.internal.database.base.Table, java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.database.postgresql.PostgreSQLCopyParsedStatement#execute(org.flywaydb.core.internal.jdbc.JdbcTemplate)",
@@ -7772,7 +7772,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.DriverDataSource#unwrap(java.lang.Class<T>)",
-      "signature": "<T> T unwrap(java.lang.Class<T>)"
+      "signature": "T unwrap(java.lang.Class<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.ErrorImpl#getCode()",
@@ -7796,7 +7796,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.ExecutionTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "abstract <T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.ExecutionTemplateFactory#createExecutionTemplate(java.sql.Connection)",
@@ -7840,7 +7840,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.JdbcConnectionFactory$ConnectionInitializer#initialize(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, java.sql.Connection)",
-      "signature": "abstract void initialize(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, java.sql.Connection)"
+      "signature": "void initialize(org.flywaydb.core.internal.jdbc.JdbcConnectionFactory, java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.JdbcNullTypes#valueOf(java.lang.String)",
@@ -7868,7 +7868,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.JdbcTemplate#query(java.lang.String, org.flywaydb.core.internal.jdbc.RowMapper<T>, java.lang.Object...)",
-      "signature": "<T> java.util.List<T> query(java.lang.String, org.flywaydb.core.internal.jdbc.RowMapper<T>, java.lang.Object...)"
+      "signature": "java.util.List<T> query(java.lang.String, org.flywaydb.core.internal.jdbc.RowMapper<T>, java.lang.Object...)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.JdbcTemplate#queryForBoolean(java.lang.String, java.lang.String...)",
@@ -7928,7 +7928,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.PlainExecutionTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.Result#getColumns()",
@@ -7980,83 +7980,83 @@
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.RowMapper#mapRow(java.sql.ResultSet)",
-      "signature": "abstract T mapRow(java.sql.ResultSet)"
+      "signature": "T mapRow(java.sql.ResultSet)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#createConnectionProxy(java.sql.Connection)",
-      "signature": "abstract java.sql.Connection createConnectionProxy(java.sql.Connection)"
+      "signature": "java.sql.Connection createConnectionProxy(java.sql.Connection)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#getCallbacks()",
-      "signature": "abstract java.util.List<org.flywaydb.core.api.callback.Callback> getCallbacks()"
+      "signature": "java.util.List<org.flywaydb.core.api.callback.Callback> getCallbacks()"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#getSchemaHistory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.schemahistory.SchemaHistory)",
-      "signature": "abstract org.flywaydb.core.internal.schemahistory.SchemaHistory getSchemaHistory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.schemahistory.SchemaHistory)"
+      "signature": "org.flywaydb.core.internal.schemahistory.SchemaHistory getSchemaHistory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.schemahistory.SchemaHistory)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#init(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Table)",
-      "signature": "abstract void init(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Table)"
+      "signature": "void init(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Table)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#interceptCallableStatement(java.lang.String)",
-      "signature": "abstract void interceptCallableStatement(java.lang.String)"
+      "signature": "void interceptCallableStatement(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#interceptCommand(java.lang.String)",
-      "signature": "abstract void interceptCommand(java.lang.String)"
+      "signature": "void interceptCommand(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#interceptPreparedStatement(java.lang.String, java.util.Map<java.lang.Integer, java.lang.Object>)",
-      "signature": "abstract void interceptPreparedStatement(java.lang.String, java.util.Map<java.lang.Integer, java.lang.Object>)"
+      "signature": "void interceptPreparedStatement(java.lang.String, java.util.Map<java.lang.Integer, java.lang.Object>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#interceptStatement(java.lang.String)",
-      "signature": "abstract void interceptStatement(java.lang.String)"
+      "signature": "void interceptStatement(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#isConfigured(org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "abstract boolean isConfigured(org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "boolean isConfigured(org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#javaMigration(org.flywaydb.core.api.migration.JavaMigration)",
-      "signature": "abstract void javaMigration(org.flywaydb.core.api.migration.JavaMigration)"
+      "signature": "void javaMigration(org.flywaydb.core.api.migration.JavaMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#schemaHistoryTableCreate(boolean)",
-      "signature": "abstract void schemaHistoryTableCreate(boolean)"
+      "signature": "void schemaHistoryTableCreate(boolean)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#schemaHistoryTableDeleteFailed(org.flywaydb.core.internal.database.base.Table, org.flywaydb.core.extensibility.AppliedMigration)",
-      "signature": "abstract void schemaHistoryTableDeleteFailed(org.flywaydb.core.internal.database.base.Table, org.flywaydb.core.extensibility.AppliedMigration)"
+      "signature": "void schemaHistoryTableDeleteFailed(org.flywaydb.core.internal.database.base.Table, org.flywaydb.core.extensibility.AppliedMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#schemaHistoryTableInsert(org.flywaydb.core.extensibility.AppliedMigration)",
-      "signature": "abstract void schemaHistoryTableInsert(org.flywaydb.core.extensibility.AppliedMigration)"
+      "signature": "void schemaHistoryTableInsert(org.flywaydb.core.extensibility.AppliedMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#scriptMigration(org.flywaydb.core.api.resource.LoadableResource)",
-      "signature": "abstract void scriptMigration(org.flywaydb.core.api.resource.LoadableResource)"
+      "signature": "void scriptMigration(org.flywaydb.core.api.resource.LoadableResource)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#sqlScript(org.flywaydb.core.api.resource.LoadableResource)",
-      "signature": "abstract void sqlScript(org.flywaydb.core.api.resource.LoadableResource)"
+      "signature": "void sqlScript(org.flywaydb.core.api.resource.LoadableResource)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.StatementInterceptor#sqlStatement(org.flywaydb.core.internal.sqlscript.SqlStatement)",
-      "signature": "abstract void sqlStatement(org.flywaydb.core.internal.sqlscript.SqlStatement)"
+      "signature": "void sqlStatement(org.flywaydb.core.internal.sqlscript.SqlStatement)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.TableLockingExecutionTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate#execute(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T execute(java.util.concurrent.Callable<T>)"
+      "signature": "T execute(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.jdbc.WarningImpl#getCode()",
@@ -8756,15 +8756,15 @@
     },
     {
       "key": "org.flywaydb.core.internal.plugin.PluginRegister#getLicensedPlugins(java.lang.Class<T>, org.flywaydb.core.api.configuration.Configuration)",
-      "signature": "<T extends org.flywaydb.core.extensibility.Plugin> java.util.List<T> getLicensedPlugins(java.lang.Class<T>, org.flywaydb.core.api.configuration.Configuration)"
+      "signature": "java.util.List<T> getLicensedPlugins(java.lang.Class<T>, org.flywaydb.core.api.configuration.Configuration)"
     },
     {
       "key": "org.flywaydb.core.internal.plugin.PluginRegister#getPlugin(java.lang.Class<T>)",
-      "signature": "<T extends org.flywaydb.core.extensibility.Plugin> T getPlugin(java.lang.Class<T>)"
+      "signature": "T getPlugin(java.lang.Class<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.plugin.PluginRegister#getPlugins(java.lang.Class<T>)",
-      "signature": "<T extends org.flywaydb.core.extensibility.Plugin> java.util.List<T> getPlugins(java.lang.Class<T>)"
+      "signature": "java.util.List<T> getPlugins(java.lang.Class<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.proprietaryStubs.CommandExtensionStub#getDescription()",
@@ -8872,11 +8872,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.reports.json.HtmlResultDeserializer#canDeserialize(com.google.gson.JsonObject)",
-      "signature": "abstract boolean canDeserialize(com.google.gson.JsonObject)"
+      "signature": "boolean canDeserialize(com.google.gson.JsonObject)"
     },
     {
       "key": "org.flywaydb.core.internal.reports.json.HtmlResultDeserializer#deserialize(com.google.gson.JsonObject)",
-      "signature": "abstract T deserialize(com.google.gson.JsonObject)"
+      "signature": "T deserialize(com.google.gson.JsonObject)"
     },
     {
       "key": "org.flywaydb.core.internal.reports.json.InfoResultDeserializer#canDeserialize(com.google.gson.JsonObject)",
@@ -8952,7 +8952,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutorFactory#createSqlMigrationExecutor()",
-      "signature": "abstract org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor createSqlMigrationExecutor()"
+      "signature": "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutor createSqlMigrationExecutor()"
     },
     {
       "key": "org.flywaydb.core.internal.resource.CoreResourceTypeProvider#getPrefixTypePairs(org.flywaydb.core.api.configuration.Configuration)",
@@ -9160,7 +9160,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.ClassPathLocationScanner#findResourceNames(java.lang.String, java.net.URL)",
-      "signature": "abstract java.util.Set<java.lang.String> findResourceNames(java.lang.String, java.net.URL)"
+      "signature": "java.util.Set<java.lang.String> findResourceNames(java.lang.String, java.net.URL)"
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.ClassPathScanner#scanForClasses()",
@@ -9188,15 +9188,15 @@
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.ResourceAndClassScanner#scanForClasses()",
-      "signature": "abstract java.util.Collection<java.lang.Class<? extends I>> scanForClasses()"
+      "signature": "java.util.Collection<java.lang.Class<? extends I>> scanForClasses()"
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.ResourceAndClassScanner#scanForResources()",
-      "signature": "abstract java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> scanForResources()"
+      "signature": "java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> scanForResources()"
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.UrlResolver#toStandardJavaUrl(java.net.URL)",
-      "signature": "abstract java.net.URL toStandardJavaUrl(java.net.URL)"
+      "signature": "java.net.URL toStandardJavaUrl(java.net.URL)"
     },
     {
       "key": "org.flywaydb.core.internal.scanner.classpath.jboss.JBossVFSv2UrlResolver#toStandardJavaUrl(java.net.URL)",
@@ -9208,7 +9208,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.scanner.cloud.CloudScanner#scanForResources(org.flywaydb.core.api.Location)",
-      "signature": "abstract java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> scanForResources(org.flywaydb.core.api.Location)"
+      "signature": "java.util.Collection<org.flywaydb.core.api.resource.LoadableResource> scanForResources(org.flywaydb.core.api.Location)"
     },
     {
       "key": "org.flywaydb.core.internal.scanner.cloud.s3.AwsS3Scanner#scanForResources(org.flywaydb.core.api.Location)",
@@ -9304,7 +9304,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory#lock(java.util.concurrent.Callable<T>)",
-      "signature": "<T> T lock(java.util.concurrent.Callable<T>)"
+      "signature": "T lock(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory#removeFailedMigrations(org.flywaydb.core.api.output.RepairResult, org.flywaydb.core.api.MigrationPattern[])",
@@ -9324,7 +9324,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#allAppliedMigrations()",
-      "signature": "abstract java.util.List<org.flywaydb.core.extensibility.AppliedMigration> allAppliedMigrations()"
+      "signature": "java.util.List<org.flywaydb.core.extensibility.AppliedMigration> allAppliedMigrations()"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#clearCache()",
@@ -9332,15 +9332,15 @@
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#create(boolean)",
-      "signature": "abstract void create(boolean)"
+      "signature": "void create(boolean)"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#delete(org.flywaydb.core.extensibility.AppliedMigration)",
-      "signature": "abstract void delete(org.flywaydb.core.extensibility.AppliedMigration)"
+      "signature": "void delete(org.flywaydb.core.extensibility.AppliedMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#exists()",
-      "signature": "abstract boolean exists()"
+      "signature": "boolean exists()"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#getBaselineMarker()",
@@ -9360,11 +9360,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#lock(java.util.concurrent.Callable<T>)",
-      "signature": "abstract <T> T lock(java.util.concurrent.Callable<T>)"
+      "signature": "T lock(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#removeFailedMigrations(org.flywaydb.core.api.output.RepairResult, org.flywaydb.core.api.MigrationPattern[])",
-      "signature": "abstract boolean removeFailedMigrations(org.flywaydb.core.api.output.RepairResult, org.flywaydb.core.api.MigrationPattern[])"
+      "signature": "boolean removeFailedMigrations(org.flywaydb.core.api.output.RepairResult, org.flywaydb.core.api.MigrationPattern[])"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#toString()",
@@ -9372,7 +9372,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistory#update(org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.api.resolver.ResolvedMigration)",
-      "signature": "abstract void update(org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.api.resolver.ResolvedMigration)"
+      "signature": "void update(org.flywaydb.core.extensibility.AppliedMigration, org.flywaydb.core.api.resolver.ResolvedMigration)"
     },
     {
       "key": "org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory#getSchemaHistory(org.flywaydb.core.api.configuration.Configuration, org.flywaydb.core.internal.sqlscript.SqlScriptExecutorFactory, org.flywaydb.core.internal.sqlscript.SqlScriptFactory, org.flywaydb.core.internal.database.base.Database, org.flywaydb.core.internal.database.base.Schema, org.flywaydb.core.internal.jdbc.StatementInterceptor)",
@@ -9496,43 +9496,43 @@
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#executeInTransaction()",
-      "signature": "abstract boolean executeInTransaction()"
+      "signature": "boolean executeInTransaction()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#getReferencedSqlScripts()",
-      "signature": "abstract java.util.Collection<org.flywaydb.core.internal.sqlscript.SqlScript> getReferencedSqlScripts()"
+      "signature": "java.util.Collection<org.flywaydb.core.internal.sqlscript.SqlScript> getReferencedSqlScripts()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#getResource()",
-      "signature": "abstract org.flywaydb.core.api.resource.LoadableResource getResource()"
+      "signature": "org.flywaydb.core.api.resource.LoadableResource getResource()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#getSqlStatementCount()",
-      "signature": "abstract int getSqlStatementCount()"
+      "signature": "int getSqlStatementCount()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#getSqlStatements()",
-      "signature": "abstract org.flywaydb.core.internal.sqlscript.SqlStatementIterator getSqlStatements()"
+      "signature": "org.flywaydb.core.internal.sqlscript.SqlStatementIterator getSqlStatements()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#shouldExecute()",
-      "signature": "abstract boolean shouldExecute()"
+      "signature": "boolean shouldExecute()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScript#validate()",
-      "signature": "abstract void validate()"
+      "signature": "void validate()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScriptExecutor#execute(org.flywaydb.core.internal.sqlscript.SqlScript)",
-      "signature": "abstract void execute(org.flywaydb.core.internal.sqlscript.SqlScript)"
+      "signature": "void execute(org.flywaydb.core.internal.sqlscript.SqlScript)"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScriptExecutorFactory#createSqlScriptExecutor(java.sql.Connection, boolean, boolean, boolean)",
-      "signature": "abstract org.flywaydb.core.internal.sqlscript.SqlScriptExecutor createSqlScriptExecutor(java.sql.Connection, boolean, boolean, boolean)"
+      "signature": "org.flywaydb.core.internal.sqlscript.SqlScriptExecutor createSqlScriptExecutor(java.sql.Connection, boolean, boolean, boolean)"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScriptFactory#createSqlScript(org.flywaydb.core.api.resource.LoadableResource, boolean, org.flywaydb.core.api.ResourceProvider)",
-      "signature": "abstract org.flywaydb.core.internal.sqlscript.SqlScript createSqlScript(org.flywaydb.core.api.resource.LoadableResource, boolean, org.flywaydb.core.api.ResourceProvider)"
+      "signature": "org.flywaydb.core.internal.sqlscript.SqlScript createSqlScript(org.flywaydb.core.api.resource.LoadableResource, boolean, org.flywaydb.core.api.ResourceProvider)"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlScriptMetadata#encoding()",
@@ -9564,27 +9564,27 @@
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatement#canExecuteInTransaction()",
-      "signature": "abstract boolean canExecuteInTransaction()"
+      "signature": "boolean canExecuteInTransaction()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatement#execute(org.flywaydb.core.internal.jdbc.JdbcTemplate)",
-      "signature": "abstract org.flywaydb.core.internal.jdbc.Results execute(org.flywaydb.core.internal.jdbc.JdbcTemplate)"
+      "signature": "org.flywaydb.core.internal.jdbc.Results execute(org.flywaydb.core.internal.jdbc.JdbcTemplate)"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatement#getDelimiter()",
-      "signature": "abstract java.lang.String getDelimiter()"
+      "signature": "java.lang.String getDelimiter()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatement#getLineNumber()",
-      "signature": "abstract int getLineNumber()"
+      "signature": "int getLineNumber()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatement#getSql()",
-      "signature": "abstract java.lang.String getSql()"
+      "signature": "java.lang.String getSql()"
     },
     {
       "key": "org.flywaydb.core.internal.sqlscript.SqlStatementIterator#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.flywaydb.core.internal.strategy.BackoffStrategy#next()",
@@ -9652,11 +9652,11 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.ClassUtils#instantiate(java.lang.Class<T>)",
-      "signature": "<T> T instantiate(java.lang.Class<T>)"
+      "signature": "T instantiate(java.lang.Class<T>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.ClassUtils#instantiate(java.lang.String, java.lang.ClassLoader, java.lang.Object...)",
-      "signature": "<T> T instantiate(java.lang.String, java.lang.ClassLoader, java.lang.Object...)"
+      "signature": "T instantiate(java.lang.String, java.lang.ClassLoader, java.lang.Object...)"
     },
     {
       "key": "org.flywaydb.core.internal.util.ClassUtils#isImplementationPresent(java.lang.String, java.lang.ClassLoader)",
@@ -9664,7 +9664,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.ClassUtils#loadClass(java.lang.Class<I>, java.lang.String, java.lang.ClassLoader)",
-      "signature": "<I> java.lang.Class<? extends I> loadClass(java.lang.Class<I>, java.lang.String, java.lang.ClassLoader)"
+      "signature": "java.lang.Class<? extends I> loadClass(java.lang.Class<I>, java.lang.String, java.lang.ClassLoader)"
     },
     {
       "key": "org.flywaydb.core.internal.util.CollectionsUtils#hasItems(java.util.Collection<?>)",
@@ -9792,7 +9792,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.JsonUtils#appendIfExists(java.lang.String, org.flywaydb.core.api.output.CompositeResult<T>, com.google.gson.JsonDeserializer<org.flywaydb.core.api.output.CompositeResult<T>>)",
-      "signature": "<T extends org.flywaydb.core.api.output.OperationResult> org.flywaydb.core.api.output.CompositeResult<T> appendIfExists(java.lang.String, org.flywaydb.core.api.output.CompositeResult<T>, com.google.gson.JsonDeserializer<org.flywaydb.core.api.output.CompositeResult<T>>)"
+      "signature": "org.flywaydb.core.api.output.CompositeResult<T> appendIfExists(java.lang.String, org.flywaydb.core.api.output.CompositeResult<T>, com.google.gson.JsonDeserializer<org.flywaydb.core.api.output.CompositeResult<T>>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.JsonUtils#getFromJson(java.lang.String, java.lang.String)",
@@ -9816,7 +9816,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.JsonUtils#toList(java.lang.String)",
-      "signature": "<T> java.util.List<T> toList(java.lang.String)"
+      "signature": "java.util.List<T> toList(java.lang.String)"
     },
     {
       "key": "org.flywaydb.core.internal.util.LocalDateTimeSerializer#deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)",
@@ -9832,15 +9832,15 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.MergeUtils#merge(T, T)",
-      "signature": "<T> T merge(T, T)"
+      "signature": "T merge(T, T)"
     },
     {
       "key": "org.flywaydb.core.internal.util.MergeUtils#merge(java.util.Map<K, V>, java.util.Map<K, V>, java.util.function.BiFunction<V, V, V>)",
-      "signature": "<K, V> java.util.Map<K, V> merge(java.util.Map<K, V>, java.util.Map<K, V>, java.util.function.BiFunction<V, V, V>)"
+      "signature": "java.util.Map<K, V> merge(java.util.Map<K, V>, java.util.Map<K, V>, java.util.function.BiFunction<V, V, V>)"
     },
     {
       "key": "org.flywaydb.core.internal.util.MergeUtils#mergeModel(T, T)",
-      "signature": "<T> void mergeModel(T, T)"
+      "signature": "void mergeModel(T, T)"
     },
     {
       "key": "org.flywaydb.core.internal.util.ObjectMapperFactory#getObjectMapper(java.lang.String)",
@@ -9864,7 +9864,7 @@
     },
     {
       "key": "org.flywaydb.core.internal.util.SqlCallable#call()",
-      "signature": "abstract V call()"
+      "signature": "V call()"
     },
     {
       "key": "org.flywaydb.core.internal.util.StringUtils#arrayToDelimitedString(java.lang.String, java.lang.Object[])",
@@ -9953,8 +9953,8 @@
     },
     {
       "name": "org.flywaydb.core.api.resolver.MigrationResolver#resolveMigrations",
-      "old": "abstract java.util.Collection<org.flywaydb.core.api.resolver.ResolvedMigration> resolveMigrations()",
-      "new": "abstract java.util.Collection<org.flywaydb.core.api.resolver.ResolvedMigration> resolveMigrations(org.flywaydb.core.api.resolver.MigrationResolver$Context)",
+      "old": "java.util.Collection<org.flywaydb.core.api.resolver.ResolvedMigration> resolveMigrations()",
+      "new": "java.util.Collection<org.flywaydb.core.api.resolver.ResolvedMigration> resolveMigrations(org.flywaydb.core.api.resolver.MigrationResolver$Context)",
       "old_key": "org.flywaydb.core.api.resolver.MigrationResolver#resolveMigrations()",
       "new_key": "org.flywaydb.core.api.resolver.MigrationResolver#resolveMigrations(org.flywaydb.core.api.resolver.MigrationResolver$Context)"
     },
@@ -10006,13 +10006,561 @@
     "new_methods": 2120,
     "removed": 486,
     "added": 1999,
-    "changed": 8
+    "changed": 8,
+    "removed_classes": 126,
+    "added_classes": 371
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.flywaydb_flyway-core_3.2.1.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.flywaydb_flyway-core_9.21.1.jar",
+  "removed_classes": [
+    "org.flywaydb.core.Flyway$Command",
+    "org.flywaydb.core.api.MigrationType",
+    "org.flywaydb.core.api.android.ContextHolder",
+    "org.flywaydb.core.api.callback.FlywayCallback",
+    "org.flywaydb.core.api.migration.MigrationChecksumProvider",
+    "org.flywaydb.core.api.migration.MigrationInfoProvider",
+    "org.flywaydb.core.api.migration.jdbc.JdbcMigration",
+    "org.flywaydb.core.api.migration.spring.SpringJdbcMigration",
+    "org.flywaydb.core.api.resolver.MigrationExecutor",
+    "org.flywaydb.core.internal.callback.SqlScriptFlywayCallback",
+    "org.flywaydb.core.internal.command.DbClean",
+    "org.flywaydb.core.internal.dbsupport.DbSupport",
+    "org.flywaydb.core.internal.dbsupport.DbSupportFactory",
+    "org.flywaydb.core.internal.dbsupport.Delimiter",
+    "org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException",
+    "org.flywaydb.core.internal.dbsupport.Function",
+    "org.flywaydb.core.internal.dbsupport.JdbcTemplate",
+    "org.flywaydb.core.internal.dbsupport.Schema",
+    "org.flywaydb.core.internal.dbsupport.SchemaObject",
+    "org.flywaydb.core.internal.dbsupport.SqlScript",
+    "org.flywaydb.core.internal.dbsupport.SqlStatement",
+    "org.flywaydb.core.internal.dbsupport.SqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.SqlStatementBuilder$TokenType",
+    "org.flywaydb.core.internal.dbsupport.Table",
+    "org.flywaydb.core.internal.dbsupport.Type",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2DbSupport",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2Function",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2Schema",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2SqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2Table",
+    "org.flywaydb.core.internal.dbsupport.db2.DB2Type",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosDbSupport",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosFunction",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSchema",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosTable",
+    "org.flywaydb.core.internal.dbsupport.db2zos.DB2zosType",
+    "org.flywaydb.core.internal.dbsupport.derby.DerbyDbSupport",
+    "org.flywaydb.core.internal.dbsupport.derby.DerbySchema",
+    "org.flywaydb.core.internal.dbsupport.derby.DerbySqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.derby.DerbyTable",
+    "org.flywaydb.core.internal.dbsupport.h2.H2DbSupport",
+    "org.flywaydb.core.internal.dbsupport.h2.H2Schema",
+    "org.flywaydb.core.internal.dbsupport.h2.H2SqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.h2.H2Table",
+    "org.flywaydb.core.internal.dbsupport.hsql.HsqlDbSupport",
+    "org.flywaydb.core.internal.dbsupport.hsql.HsqlSchema",
+    "org.flywaydb.core.internal.dbsupport.hsql.HsqlSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.hsql.HsqlTable",
+    "org.flywaydb.core.internal.dbsupport.mysql.MySQLDbSupport",
+    "org.flywaydb.core.internal.dbsupport.mysql.MySQLSchema",
+    "org.flywaydb.core.internal.dbsupport.mysql.MySQLSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.mysql.MySQLTable",
+    "org.flywaydb.core.internal.dbsupport.oracle.OracleDbSupport",
+    "org.flywaydb.core.internal.dbsupport.oracle.OracleSchema",
+    "org.flywaydb.core.internal.dbsupport.oracle.OracleSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.oracle.OracleTable",
+    "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLDbSupport",
+    "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSchema",
+    "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLTable",
+    "org.flywaydb.core.internal.dbsupport.postgresql.PostgreSQLType",
+    "org.flywaydb.core.internal.dbsupport.redshift.RedshiftDbSupport",
+    "org.flywaydb.core.internal.dbsupport.redshift.RedshiftSchema",
+    "org.flywaydb.core.internal.dbsupport.redshift.RedshiftTable",
+    "org.flywaydb.core.internal.dbsupport.solid.SolidDbSupport",
+    "org.flywaydb.core.internal.dbsupport.solid.SolidSchema",
+    "org.flywaydb.core.internal.dbsupport.solid.SolidSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.solid.SolidTable",
+    "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteDbSupport",
+    "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSchema",
+    "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.sqlite.SQLiteTable",
+    "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerDbSupport",
+    "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSchema",
+    "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerSqlStatementBuilder",
+    "org.flywaydb.core.internal.dbsupport.sqlserver.SQLServerTable",
+    "org.flywaydb.core.internal.dbsupport.vertica.VerticaDbSupport",
+    "org.flywaydb.core.internal.dbsupport.vertica.VerticaSchema",
+    "org.flywaydb.core.internal.dbsupport.vertica.VerticaStatementBuilder",
+    "org.flywaydb.core.internal.metadatatable.AppliedMigration",
+    "org.flywaydb.core.internal.metadatatable.MetaDataTable",
+    "org.flywaydb.core.internal.metadatatable.MetaDataTableImpl",
+    "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationExecutor",
+    "org.flywaydb.core.internal.resolver.jdbc.JdbcMigrationResolver",
+    "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationExecutor",
+    "org.flywaydb.core.internal.resolver.spring.SpringJdbcMigrationResolver",
+    "org.flywaydb.core.internal.util.FileCopyUtils",
+    "org.flywaydb.core.internal.util.Location",
+    "org.flywaydb.core.internal.util.ObjectUtils",
+    "org.flywaydb.core.internal.util.PlaceholderReplacer",
+    "org.flywaydb.core.internal.util.PropertiesUtils",
+    "org.flywaydb.core.internal.util.VersionPrinter",
+    "org.flywaydb.core.internal.util.jdbc.DriverDataSource",
+    "org.flywaydb.core.internal.util.jdbc.DriverDataSource$SuppressCloseHandler",
+    "org.flywaydb.core.internal.util.jdbc.JdbcUtils",
+    "org.flywaydb.core.internal.util.jdbc.RowMapper",
+    "org.flywaydb.core.internal.util.jdbc.TransactionCallback",
+    "org.flywaydb.core.internal.util.jdbc.TransactionTemplate",
+    "org.flywaydb.core.internal.util.logging.Log",
+    "org.flywaydb.core.internal.util.logging.LogCreator",
+    "org.flywaydb.core.internal.util.logging.LogFactory",
+    "org.flywaydb.core.internal.util.logging.android.AndroidLog",
+    "org.flywaydb.core.internal.util.logging.android.AndroidLogCreator",
+    "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLog",
+    "org.flywaydb.core.internal.util.logging.apachecommons.ApacheCommonsLogCreator",
+    "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLog",
+    "org.flywaydb.core.internal.util.logging.javautil.JavaUtilLogCreator",
+    "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLog",
+    "org.flywaydb.core.internal.util.logging.slf4j.Slf4jLogCreator",
+    "org.flywaydb.core.internal.util.scanner.Resource",
+    "org.flywaydb.core.internal.util.scanner.Scanner",
+    "org.flywaydb.core.internal.util.scanner.android.AndroidResource",
+    "org.flywaydb.core.internal.util.scanner.android.AndroidScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.ClassPathLocationScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.ClassPathResource",
+    "org.flywaydb.core.internal.util.scanner.classpath.ClassPathScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.DefaultUrlResolver",
+    "org.flywaydb.core.internal.util.scanner.classpath.FileSystemClassPathLocationScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.JarFileClassPathLocationScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.OsgiClassPathLocationScanner",
+    "org.flywaydb.core.internal.util.scanner.classpath.UrlResolver",
+    "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv2UrlResolver",
+    "org.flywaydb.core.internal.util.scanner.classpath.jboss.JBossVFSv3ClassPathLocationScanner",
+    "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemResource",
+    "org.flywaydb.core.internal.util.scanner.filesystem.FileSystemScanner"
+  ],
+  "added_classes": [
+    "org.flywaydb.core.FlywayExecutor",
+    "org.flywaydb.core.FlywayExecutor$Command",
+    "org.flywaydb.core.FlywayTelemetryManager",
+    "org.flywaydb.core.api.ClassProvider",
+    "org.flywaydb.core.api.CoreMigrationType",
+    "org.flywaydb.core.api.ErrorCode",
+    "org.flywaydb.core.api.ErrorDetails",
+    "org.flywaydb.core.api.InfoOutputProvider",
+    "org.flywaydb.core.api.Location",
+    "org.flywaydb.core.api.MigrationPattern",
+    "org.flywaydb.core.api.ResourceProvider",
+    "org.flywaydb.core.api.callback.BaseCallback",
+    "org.flywaydb.core.api.callback.Callback",
+    "org.flywaydb.core.api.callback.Context",
+    "org.flywaydb.core.api.callback.Error",
+    "org.flywaydb.core.api.callback.Event",
+    "org.flywaydb.core.api.callback.Statement",
+    "org.flywaydb.core.api.callback.Warning",
+    "org.flywaydb.core.api.configuration.ClassicConfiguration",
+    "org.flywaydb.core.api.configuration.Configuration",
+    "org.flywaydb.core.api.configuration.FluentConfiguration",
+    "org.flywaydb.core.api.configuration.S3ClientFactory",
+    "org.flywaydb.core.api.exception.FlywayValidateException",
+    "org.flywaydb.core.api.executor.Context",
+    "org.flywaydb.core.api.executor.MigrationExecutor",
+    "org.flywaydb.core.api.logging.Log",
+    "org.flywaydb.core.api.logging.LogCreator",
+    "org.flywaydb.core.api.logging.LogFactory",
+    "org.flywaydb.core.api.migration.BaseJavaMigration",
+    "org.flywaydb.core.api.migration.Context",
+    "org.flywaydb.core.api.migration.JavaMigration",
+    "org.flywaydb.core.api.migration.baseline.BaselineAppliedMigration",
+    "org.flywaydb.core.api.migration.baseline.BaselineJavaMigration",
+    "org.flywaydb.core.api.migration.baseline.BaselineMigrationConfigurationExtension",
+    "org.flywaydb.core.api.migration.baseline.BaselineMigrationResolver",
+    "org.flywaydb.core.api.migration.baseline.BaselineMigrationType",
+    "org.flywaydb.core.api.migration.baseline.BaselineResolvedMigration",
+    "org.flywaydb.core.api.migration.baseline.BaselineResourceTypeProvider",
+    "org.flywaydb.core.api.migration.baseline.BaselineResourceTypeProvider$BaselineResourceType",
+    "org.flywaydb.core.api.output.BaselineResult",
+    "org.flywaydb.core.api.output.CleanResult",
+    "org.flywaydb.core.api.output.CommandResultFactory",
+    "org.flywaydb.core.api.output.CompositeResult",
+    "org.flywaydb.core.api.output.DashboardRenderer",
+    "org.flywaydb.core.api.output.DashboardResult",
+    "org.flywaydb.core.api.output.ErrorOutput",
+    "org.flywaydb.core.api.output.ErrorOutput$ErrorOutputItem",
+    "org.flywaydb.core.api.output.HoldingRenderer",
+    "org.flywaydb.core.api.output.HoldingResult",
+    "org.flywaydb.core.api.output.HtmlResult",
+    "org.flywaydb.core.api.output.HtmlTableRenderer",
+    "org.flywaydb.core.api.output.InfoHtmlRenderer",
+    "org.flywaydb.core.api.output.InfoOutput",
+    "org.flywaydb.core.api.output.InfoResult",
+    "org.flywaydb.core.api.output.MigrateErrorResult",
+    "org.flywaydb.core.api.output.MigrateHtmlRenderer",
+    "org.flywaydb.core.api.output.MigrateOutput",
+    "org.flywaydb.core.api.output.MigrateResult",
+    "org.flywaydb.core.api.output.OperationResult",
+    "org.flywaydb.core.api.output.OperationResultBase",
+    "org.flywaydb.core.api.output.OperationResultJsonBase",
+    "org.flywaydb.core.api.output.RepairOutput",
+    "org.flywaydb.core.api.output.RepairResult",
+    "org.flywaydb.core.api.output.UndoOutput",
+    "org.flywaydb.core.api.output.UndoResult",
+    "org.flywaydb.core.api.output.ValidateOutput",
+    "org.flywaydb.core.api.output.ValidateResult",
+    "org.flywaydb.core.api.pattern.ValidatePattern",
+    "org.flywaydb.core.api.resolver.ChecksumMatcher",
+    "org.flywaydb.core.api.resolver.MigrationResolver$Context",
+    "org.flywaydb.core.api.resource.LoadableResource",
+    "org.flywaydb.core.api.resource.Resource",
+    "org.flywaydb.core.extensibility.AppliedMigration",
+    "org.flywaydb.core.extensibility.CleanModePlugin",
+    "org.flywaydb.core.extensibility.CommandExtension",
+    "org.flywaydb.core.extensibility.ConfigurationExtension",
+    "org.flywaydb.core.extensibility.ConfigurationParameter",
+    "org.flywaydb.core.extensibility.ConfigurationProvider",
+    "org.flywaydb.core.extensibility.EventTelemetryModel",
+    "org.flywaydb.core.extensibility.FlywayExpiredLicenseKeyException",
+    "org.flywaydb.core.extensibility.FlywayInvalidLicenseKeyException",
+    "org.flywaydb.core.extensibility.FlywayMissingLicenseKeyException",
+    "org.flywaydb.core.extensibility.FlywayRedgateLicenseKeyException",
+    "org.flywaydb.core.extensibility.FlywayTrialExpiredException",
+    "org.flywaydb.core.extensibility.HtmlRenderer",
+    "org.flywaydb.core.extensibility.HtmlReportSummary",
+    "org.flywaydb.core.extensibility.InfoTelemetryModel",
+    "org.flywaydb.core.extensibility.LicenseGuard",
+    "org.flywaydb.core.extensibility.LicenseInfo",
+    "org.flywaydb.core.extensibility.LicenseRgDomainChecker",
+    "org.flywaydb.core.extensibility.LicenseType",
+    "org.flywaydb.core.extensibility.MigrationType",
+    "org.flywaydb.core.extensibility.Plugin",
+    "org.flywaydb.core.extensibility.PluginMetadata",
+    "org.flywaydb.core.extensibility.ResourceType",
+    "org.flywaydb.core.extensibility.ResourceTypeProvider",
+    "org.flywaydb.core.extensibility.RgDomainChecker",
+    "org.flywaydb.core.extensibility.RootTelemetryModel",
+    "org.flywaydb.core.extensibility.TelemetryPlugin",
+    "org.flywaydb.core.internal.authentication.ExternalAuthFileReader",
+    "org.flywaydb.core.internal.authentication.ExternalAuthPropertiesProvider",
+    "org.flywaydb.core.internal.authentication.postgres.PgpassFileReader",
+    "org.flywaydb.core.internal.callback.CallbackExecutor",
+    "org.flywaydb.core.internal.callback.DefaultCallbackExecutor",
+    "org.flywaydb.core.internal.callback.NoopCallback",
+    "org.flywaydb.core.internal.callback.NoopCallbackExecutor",
+    "org.flywaydb.core.internal.callback.SimpleContext",
+    "org.flywaydb.core.internal.callback.SimpleContext$SimpleStatement",
+    "org.flywaydb.core.internal.callback.SqlScriptCallbackFactory",
+    "org.flywaydb.core.internal.callback.SqlScriptCallbackFactory$SqlScriptCallback",
+    "org.flywaydb.core.internal.clazz.NoopClassProvider",
+    "org.flywaydb.core.internal.command.DbInfo",
+    "org.flywaydb.core.internal.command.DbMigrate$FlywayMigrateException",
+    "org.flywaydb.core.internal.command.DbRepair$CompletedRepairActions",
+    "org.flywaydb.core.internal.command.clean.CleanExecutor",
+    "org.flywaydb.core.internal.command.clean.CleanModeConfigurationExtension",
+    "org.flywaydb.core.internal.command.clean.CleanModeConfigurationExtension$Mode",
+    "org.flywaydb.core.internal.command.clean.CleanModel",
+    "org.flywaydb.core.internal.command.clean.DbClean",
+    "org.flywaydb.core.internal.command.clean.SchemaModel",
+    "org.flywaydb.core.internal.configuration.ConfigUtils",
+    "org.flywaydb.core.internal.configuration.ConfigurationValidator",
+    "org.flywaydb.core.internal.configuration.ListDeserializer",
+    "org.flywaydb.core.internal.configuration.TomlUtils",
+    "org.flywaydb.core.internal.configuration.models.ConfigurationModel",
+    "org.flywaydb.core.internal.configuration.models.EnvironmentModel",
+    "org.flywaydb.core.internal.configuration.models.FlywayModel",
+    "org.flywaydb.core.internal.configuration.models.PropertyResolver",
+    "org.flywaydb.core.internal.configuration.models.ResolvedEnvironment",
+    "org.flywaydb.core.internal.configuration.resolvers.EnvironmentResolver",
+    "org.flywaydb.core.internal.configuration.resolvers.EnvironmentVariableResolver",
+    "org.flywaydb.core.internal.configuration.resolvers.PropertyResolver",
+    "org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContext",
+    "org.flywaydb.core.internal.configuration.resolvers.PropertyResolverContextImpl",
+    "org.flywaydb.core.internal.database.DatabaseExecutionStrategy",
+    "org.flywaydb.core.internal.database.DatabaseType",
+    "org.flywaydb.core.internal.database.DatabaseTypeRegister",
+    "org.flywaydb.core.internal.database.DefaultExecutionStrategy",
+    "org.flywaydb.core.internal.database.InsertRowLock",
+    "org.flywaydb.core.internal.database.base.BaseDatabaseType",
+    "org.flywaydb.core.internal.database.base.Connection",
+    "org.flywaydb.core.internal.database.base.Database",
+    "org.flywaydb.core.internal.database.base.Function",
+    "org.flywaydb.core.internal.database.base.Schema",
+    "org.flywaydb.core.internal.database.base.SchemaObject",
+    "org.flywaydb.core.internal.database.base.Table",
+    "org.flywaydb.core.internal.database.base.TestContainersDatabaseType",
+    "org.flywaydb.core.internal.database.base.Type",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBConnection",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBDatabase",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBDatabaseType",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBParser",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBRetryingStrategy",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBSchema",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachDBTable",
+    "org.flywaydb.core.internal.database.cockroachdb.CockroachRetryingTransactionalExecutionTemplate",
+    "org.flywaydb.core.internal.database.db2.DB2Connection",
+    "org.flywaydb.core.internal.database.db2.DB2Database",
+    "org.flywaydb.core.internal.database.db2.DB2DatabaseType",
+    "org.flywaydb.core.internal.database.db2.DB2Function",
+    "org.flywaydb.core.internal.database.db2.DB2Parser",
+    "org.flywaydb.core.internal.database.db2.DB2Schema",
+    "org.flywaydb.core.internal.database.db2.DB2Table",
+    "org.flywaydb.core.internal.database.db2.DB2Type",
+    "org.flywaydb.core.internal.database.derby.DerbyConnection",
+    "org.flywaydb.core.internal.database.derby.DerbyDatabase",
+    "org.flywaydb.core.internal.database.derby.DerbyDatabaseType",
+    "org.flywaydb.core.internal.database.derby.DerbyParser",
+    "org.flywaydb.core.internal.database.derby.DerbySchema",
+    "org.flywaydb.core.internal.database.derby.DerbyTable",
+    "org.flywaydb.core.internal.database.h2.H2Connection",
+    "org.flywaydb.core.internal.database.h2.H2Database",
+    "org.flywaydb.core.internal.database.h2.H2Database$CompatibilityMode",
+    "org.flywaydb.core.internal.database.h2.H2DatabaseType",
+    "org.flywaydb.core.internal.database.h2.H2Parser",
+    "org.flywaydb.core.internal.database.h2.H2Schema",
+    "org.flywaydb.core.internal.database.h2.H2Table",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBConnection",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBDatabase",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBDatabaseType",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBParser",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBSchema",
+    "org.flywaydb.core.internal.database.hsqldb.HSQLDBTable",
+    "org.flywaydb.core.internal.database.informix.InformixConnection",
+    "org.flywaydb.core.internal.database.informix.InformixDatabase",
+    "org.flywaydb.core.internal.database.informix.InformixDatabaseType",
+    "org.flywaydb.core.internal.database.informix.InformixParser",
+    "org.flywaydb.core.internal.database.informix.InformixSchema",
+    "org.flywaydb.core.internal.database.informix.InformixTable",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLAdvisoryLockTemplate",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLConfigurationExtension",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLConnection",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLCopyParsedStatement",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabase",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLDatabaseType",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLParser",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLSchema",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLTable",
+    "org.flywaydb.core.internal.database.postgresql.PostgreSQLType",
+    "org.flywaydb.core.internal.database.postgresql.TransactionalModel",
+    "org.flywaydb.core.internal.database.redshift.RedshiftConnection",
+    "org.flywaydb.core.internal.database.redshift.RedshiftDatabase",
+    "org.flywaydb.core.internal.database.redshift.RedshiftDatabaseType",
+    "org.flywaydb.core.internal.database.redshift.RedshiftParser",
+    "org.flywaydb.core.internal.database.redshift.RedshiftSchema",
+    "org.flywaydb.core.internal.database.redshift.RedshiftTable",
+    "org.flywaydb.core.internal.database.redshift.RedshiftType",
+    "org.flywaydb.core.internal.database.saphana.SAPHANAConnection",
+    "org.flywaydb.core.internal.database.saphana.SAPHANADatabase",
+    "org.flywaydb.core.internal.database.saphana.SAPHANADatabaseType",
+    "org.flywaydb.core.internal.database.saphana.SAPHANAParser",
+    "org.flywaydb.core.internal.database.saphana.SAPHANASchema",
+    "org.flywaydb.core.internal.database.saphana.SAPHANATable",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeConnection",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeDatabase",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeDatabaseType",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeParser",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeSchema",
+    "org.flywaydb.core.internal.database.snowflake.SnowflakeTable",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteConnection",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteDatabase",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteDatabaseType",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteParser",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteSchema",
+    "org.flywaydb.core.internal.database.sqlite.SQLiteTable",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASEConnection",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASEDatabase",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASEJConnectDatabaseType",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASEJTDSDatabaseType",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASEParser",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASESchema",
+    "org.flywaydb.core.internal.database.sybasease.SybaseASETable",
+    "org.flywaydb.core.internal.exception.FlywayDbUpgradeRequiredException",
+    "org.flywaydb.core.internal.exception.FlywaySqlException",
+    "org.flywaydb.core.internal.info.AppliedMigrationAttributes",
+    "org.flywaydb.core.internal.jdbc.DriverDataSource",
+    "org.flywaydb.core.internal.jdbc.ErrorImpl",
+    "org.flywaydb.core.internal.jdbc.ExecutionTemplate",
+    "org.flywaydb.core.internal.jdbc.ExecutionTemplateFactory",
+    "org.flywaydb.core.internal.jdbc.JdbcConnectionFactory",
+    "org.flywaydb.core.internal.jdbc.JdbcConnectionFactory$ConnectionInitializer",
+    "org.flywaydb.core.internal.jdbc.JdbcNullTypes",
+    "org.flywaydb.core.internal.jdbc.JdbcTemplate",
+    "org.flywaydb.core.internal.jdbc.JdbcUtils",
+    "org.flywaydb.core.internal.jdbc.PlainExecutionTemplate",
+    "org.flywaydb.core.internal.jdbc.Result",
+    "org.flywaydb.core.internal.jdbc.Results",
+    "org.flywaydb.core.internal.jdbc.RowMapper",
+    "org.flywaydb.core.internal.jdbc.StatementInterceptor",
+    "org.flywaydb.core.internal.jdbc.TableLockingExecutionTemplate",
+    "org.flywaydb.core.internal.jdbc.TransactionalExecutionTemplate",
+    "org.flywaydb.core.internal.jdbc.WarningImpl",
+    "org.flywaydb.core.internal.license.Edition",
+    "org.flywaydb.core.internal.license.FlywayEditionUpgradeRequiredException",
+    "org.flywaydb.core.internal.license.FlywayTeamsUpgradeMessage",
+    "org.flywaydb.core.internal.license.FlywayTeamsUpgradeRequiredException",
+    "org.flywaydb.core.internal.license.FlywayTrialExpiredException",
+    "org.flywaydb.core.internal.license.VersionPrinter",
+    "org.flywaydb.core.internal.logging.EvolvingLog",
+    "org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog",
+    "org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLogCreator",
+    "org.flywaydb.core.internal.logging.buffered.BufferedLog",
+    "org.flywaydb.core.internal.logging.buffered.BufferedLog$BufferedLogMessage",
+    "org.flywaydb.core.internal.logging.buffered.BufferedLog$Level",
+    "org.flywaydb.core.internal.logging.buffered.BufferedLogCreator",
+    "org.flywaydb.core.internal.logging.javautil.JavaUtilLog",
+    "org.flywaydb.core.internal.logging.javautil.JavaUtilLogCreator",
+    "org.flywaydb.core.internal.logging.log4j2.Log4j2Log",
+    "org.flywaydb.core.internal.logging.log4j2.Log4j2LogCreator",
+    "org.flywaydb.core.internal.logging.multi.MultiLogCreator",
+    "org.flywaydb.core.internal.logging.multi.MultiLogger",
+    "org.flywaydb.core.internal.logging.slf4j.Slf4jLog",
+    "org.flywaydb.core.internal.logging.slf4j.Slf4jLogCreator",
+    "org.flywaydb.core.internal.parser.Parser",
+    "org.flywaydb.core.internal.parser.Parser$ParserSqlStatementIterator",
+    "org.flywaydb.core.internal.parser.ParserContext",
+    "org.flywaydb.core.internal.parser.ParsingContext",
+    "org.flywaydb.core.internal.parser.PeekingReader",
+    "org.flywaydb.core.internal.parser.PlaceholderReplacingReader",
+    "org.flywaydb.core.internal.parser.PlaceholderReplacingReader$CaseInsensitiveMap",
+    "org.flywaydb.core.internal.parser.PositionTracker",
+    "org.flywaydb.core.internal.parser.PositionTrackingReader",
+    "org.flywaydb.core.internal.parser.Recorder",
+    "org.flywaydb.core.internal.parser.RecordingReader",
+    "org.flywaydb.core.internal.parser.Statement",
+    "org.flywaydb.core.internal.parser.StatementType",
+    "org.flywaydb.core.internal.parser.Token",
+    "org.flywaydb.core.internal.parser.TokenType",
+    "org.flywaydb.core.internal.parser.UnboundedReadAheadReader",
+    "org.flywaydb.core.internal.plugin.PluginRegister",
+    "org.flywaydb.core.internal.proprietaryStubs.CommandExtensionStub",
+    "org.flywaydb.core.internal.proprietaryStubs.FlywayProprietaryRequiredException",
+    "org.flywaydb.core.internal.reports.ReportDetails",
+    "org.flywaydb.core.internal.reports.html.HoldingTabMetadata",
+    "org.flywaydb.core.internal.reports.html.HtmlReportGenerator",
+    "org.flywaydb.core.internal.reports.json.CompositeResultDeserializer",
+    "org.flywaydb.core.internal.reports.json.HtmlResultDeserializer",
+    "org.flywaydb.core.internal.reports.json.InfoResultDeserializer",
+    "org.flywaydb.core.internal.reports.json.MigrateResultDeserializer",
+    "org.flywaydb.core.internal.resolver.ChecksumCalculator",
+    "org.flywaydb.core.internal.resolver.java.FixedJavaMigrationResolver",
+    "org.flywaydb.core.internal.resolver.java.JavaMigrationExecutor",
+    "org.flywaydb.core.internal.resolver.java.ScanningJavaMigrationResolver",
+    "org.flywaydb.core.internal.resolver.sql.DefaultSqlMigrationExecutorFactory",
+    "org.flywaydb.core.internal.resolver.sql.SqlMigrationExecutorFactory",
+    "org.flywaydb.core.internal.resource.CoreResourceTypeProvider",
+    "org.flywaydb.core.internal.resource.CoreResourceTypeProvider$CoreResourceType",
+    "org.flywaydb.core.internal.resource.NoopResourceProvider",
+    "org.flywaydb.core.internal.resource.ResourceName",
+    "org.flywaydb.core.internal.resource.ResourceNameParser",
+    "org.flywaydb.core.internal.resource.ResourceNameValidator",
+    "org.flywaydb.core.internal.resource.StringResource",
+    "org.flywaydb.core.internal.resource.classpath.ClassPathResource",
+    "org.flywaydb.core.internal.resource.filesystem.FileSystemResource",
+    "org.flywaydb.core.internal.resource.s3.AwsS3Resource",
+    "org.flywaydb.core.internal.scanner.ClasspathClassScanner",
+    "org.flywaydb.core.internal.scanner.LocationScannerCache",
+    "org.flywaydb.core.internal.scanner.ResourceNameCache",
+    "org.flywaydb.core.internal.scanner.Scanner",
+    "org.flywaydb.core.internal.scanner.classpath.ClassPathLocationScanner",
+    "org.flywaydb.core.internal.scanner.classpath.ClassPathScanner",
+    "org.flywaydb.core.internal.scanner.classpath.DefaultUrlResolver",
+    "org.flywaydb.core.internal.scanner.classpath.FileSystemClassPathLocationScanner",
+    "org.flywaydb.core.internal.scanner.classpath.JarFileClassPathLocationScanner",
+    "org.flywaydb.core.internal.scanner.classpath.OsgiClassPathLocationScanner",
+    "org.flywaydb.core.internal.scanner.classpath.ResourceAndClassScanner",
+    "org.flywaydb.core.internal.scanner.classpath.UrlResolver",
+    "org.flywaydb.core.internal.scanner.classpath.jboss.JBossVFSv2UrlResolver",
+    "org.flywaydb.core.internal.scanner.classpath.jboss.JBossVFSv3ClassPathLocationScanner",
+    "org.flywaydb.core.internal.scanner.cloud.CloudScanner",
+    "org.flywaydb.core.internal.scanner.cloud.s3.AwsS3Scanner",
+    "org.flywaydb.core.internal.scanner.filesystem.FileSystemScanner",
+    "org.flywaydb.core.internal.scanner.filesystem.FileSystemScanner$DirectoryValidationResult",
+    "org.flywaydb.core.internal.schemahistory.BaseAppliedMigration",
+    "org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory",
+    "org.flywaydb.core.internal.schemahistory.SchemaHistory",
+    "org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory",
+    "org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor",
+    "org.flywaydb.core.internal.sqlscript.Delimiter",
+    "org.flywaydb.core.internal.sqlscript.FlywaySqlScriptException",
+    "org.flywaydb.core.internal.sqlscript.ParsedSqlStatement",
+    "org.flywaydb.core.internal.sqlscript.ParserSqlScript",
+    "org.flywaydb.core.internal.sqlscript.SqlScript",
+    "org.flywaydb.core.internal.sqlscript.SqlScriptExecutor",
+    "org.flywaydb.core.internal.sqlscript.SqlScriptExecutorFactory",
+    "org.flywaydb.core.internal.sqlscript.SqlScriptFactory",
+    "org.flywaydb.core.internal.sqlscript.SqlScriptMetadata",
+    "org.flywaydb.core.internal.sqlscript.SqlStatement",
+    "org.flywaydb.core.internal.sqlscript.SqlStatementIterator",
+    "org.flywaydb.core.internal.strategy.BackoffStrategy",
+    "org.flywaydb.core.internal.strategy.RetryStrategy",
+    "org.flywaydb.core.internal.util.AbbreviationUtils",
+    "org.flywaydb.core.internal.util.AsciiTable",
+    "org.flywaydb.core.internal.util.BomFilter",
+    "org.flywaydb.core.internal.util.BomStrippingReader",
+    "org.flywaydb.core.internal.util.BooleanEvaluator",
+    "org.flywaydb.core.internal.util.CloseableIterator",
+    "org.flywaydb.core.internal.util.CollectionsUtils",
+    "org.flywaydb.core.internal.util.CommandExtensionUtils",
+    "org.flywaydb.core.internal.util.DataUnits",
+    "org.flywaydb.core.internal.util.FileUtils",
+    "org.flywaydb.core.internal.util.FingerprintUtils",
+    "org.flywaydb.core.internal.util.FlywayDbWebsiteLinks",
+    "org.flywaydb.core.internal.util.HtmlUtils",
+    "org.flywaydb.core.internal.util.IOUtils",
+    "org.flywaydb.core.internal.util.JsonUtils",
+    "org.flywaydb.core.internal.util.LocalDateTimeSerializer",
+    "org.flywaydb.core.internal.util.MergeUtils",
+    "org.flywaydb.core.internal.util.ObjectMapperFactory",
+    "org.flywaydb.core.internal.util.SqlCallable",
+    "org.flywaydb.core.internal.util.ValidatePatternUtils"
+  ],
+  "old_jar": "jar_cache/org.flywaydb_flyway-core_3.2.1.jar",
+  "new_jar": "jar_cache/org.flywaydb_flyway-core_9.21.1.jar",
   "group_id": "org.flywaydb",
   "artifact_id": "flyway-core",
   "old_version": "3.2.1",
   "new_version": "9.21.1",
-  "project": "nem"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "ch.qos.logback:logback-classic",
+        "com.google.android:android",
+        "com.google.appengine:appengine-api-1.0-sdk",
+        "com.google.appengine:appengine-api-labs",
+        "com.google.appengine:appengine-api-stubs",
+        "com.google.appengine:appengine-testing",
+        "com.h2database:h2",
+        "junit:junit",
+        "mysql:mysql-connector-java",
+        "net.sourceforge.jtds:jtds",
+        "org.apache.derby:derby",
+        "org.eclipse.equinox:org.eclipse.equinox.common",
+        "org.hsqldb:hsqldb",
+        "org.mariadb.jdbc:mariadb-java-client",
+        "org.mockito:mockito-core",
+        "org.springframework:spring-jdbc",
+        "org.xerial:sqlite-jdbc"
+      ],
+      "added": [
+        "com.amazonaws.secretsmanager:aws-secretsmanager-jdbc",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
+        "com.google.cloud:google-cloud-storage",
+        "com.google.code.gson:gson",
+        "com.oracle.database.jdbc:ojdbc8",
+        "org.apache.commons:commons-text",
+        "org.apache.logging.log4j:log4j-api",
+        "org.osgi:org.osgi.core",
+        "org.projectlombok:lombok",
+        "software.amazon.awssdk:s3"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "nem"
+  ]
 }

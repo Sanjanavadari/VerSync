@@ -102,7 +102,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#findObjectId(java.lang.Object, com.fasterxml.jackson.annotation.ObjectIdGenerator<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.deser.impl.ReadableObjectId findObjectId(java.lang.Object, com.fasterxml.jackson.annotation.ObjectIdGenerator<?>)"
+      "signature": "com.fasterxml.jackson.databind.deser.impl.ReadableObjectId findObjectId(java.lang.Object, com.fasterxml.jackson.annotation.ObjectIdGenerator<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#hasValueDeserializerFor(com.fasterxml.jackson.databind.JavaType)",
@@ -122,7 +122,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#narrowContentsBy(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType narrowContentsBy(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JavaType narrowContentsBy(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#widenBy(java.lang.Class<?>)",
@@ -130,7 +130,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#widenContentsBy(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType widenContentsBy(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JavaType widenContentsBy(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.JsonMappingException$Reference#setFieldName(java.lang.String)",
@@ -278,7 +278,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#withVisibility(com.fasterxml.jackson.annotation.PropertyAccessor, com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility)",
-      "signature": "abstract T withVisibility(com.fasterxml.jackson.annotation.PropertyAccessor, com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility)"
+      "signature": "T withVisibility(com.fasterxml.jackson.annotation.PropertyAccessor, com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.BeanDeserializer#withIgnorableProperties(java.util.HashSet<java.lang.String>)",
@@ -378,7 +378,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.impl.InnerClassProperty#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.impl.InnerClassProperty#getMember()",
@@ -406,7 +406,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.impl.ManagedReferenceProperty#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.impl.ManagedReferenceProperty#getMember()",
@@ -514,7 +514,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.Annotated withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)"
+      "signature": "com.fasterxml.jackson.databind.introspect.Annotated withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#withFallBackAnnotationsFrom(com.fasterxml.jackson.databind.introspect.Annotated)",
@@ -534,7 +534,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedField#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedField#getFullName()",
@@ -574,11 +574,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedParameter#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedWithParams#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedWithParams#resolveParameterType(int, com.fasterxml.jackson.databind.type.TypeBindings)",
@@ -902,7 +902,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.impl.TypeIdResolverBase#typeFromId(java.lang.String)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType typeFromId(java.lang.String)"
+      "signature": "com.fasterxml.jackson.databind.JavaType typeFromId(java.lang.String)"
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.impl.TypeNameIdResolver#typeFromId(java.lang.String)",
@@ -1002,7 +1002,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.ContainerSerializer#isEmpty(T)",
-      "signature": "abstract boolean isEmpty(T)"
+      "signature": "boolean isEmpty(T)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.DefaultSerializerProvider#hasSerializerFor(java.lang.Class<?>)",
@@ -1510,11 +1510,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.type.TypeBase#getTypeHandler()",
-      "signature": "<T> T getTypeHandler()"
+      "signature": "T getTypeHandler()"
     },
     {
       "key": "com.fasterxml.jackson.databind.type.TypeBase#getValueHandler()",
-      "signature": "<T> T getValueHandler()"
+      "signature": "T getValueHandler()"
     },
     {
       "key": "com.fasterxml.jackson.databind.type.TypeBindings#_addPlaceholder(java.lang.String)",
@@ -1554,19 +1554,19 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ArrayBuilders#addToList(java.util.List<T>, T)",
-      "signature": "<T> java.util.List<T> addToList(java.util.List<T>, T)"
+      "signature": "java.util.List<T> addToList(java.util.List<T>, T)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ArrayBuilders#arrayToList(T[])",
-      "signature": "<T> java.util.ArrayList<T> arrayToList(T[])"
+      "signature": "java.util.ArrayList<T> arrayToList(T[])"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ArrayBuilders#insertInList(T[], T)",
-      "signature": "<T> T[] insertInList(T[], T)"
+      "signature": "T[] insertInList(T[], T)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ArrayBuilders#setAndArray(java.util.Set<T>, T[])",
-      "signature": "<T> java.util.HashSet<T> setAndArray(java.util.Set<T>, T[])"
+      "signature": "java.util.HashSet<T> setAndArray(java.util.Set<T>, T[])"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#findClass(java.lang.String)",
@@ -1594,7 +1594,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ContainerBuilder#finishArray(int, java.lang.Class<T>)",
-      "signature": "<T> java.lang.Object[] finishArray(int, java.lang.Class<T>)"
+      "signature": "java.lang.Object[] finishArray(int, java.lang.Class<T>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ContainerBuilder#finishList(int)",
@@ -1626,7 +1626,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.EmptyIterator#instance()",
-      "signature": "<T> java.util.Iterator<T> instance()"
+      "signature": "java.util.Iterator<T> instance()"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.EmptyIterator#next()",
@@ -1756,7 +1756,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findAnySetterAccessor()",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.AnnotatedMember findAnySetterAccessor()"
+      "signature": "com.fasterxml.jackson.databind.introspect.AnnotatedMember findAnySetterAccessor()"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findAnySetterField()",
@@ -1764,7 +1764,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findBackReferences()",
-      "signature": "abstract java.util.List<com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition> findBackReferences()"
+      "signature": "java.util.List<com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition> findBackReferences()"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findClassDescription()",
@@ -1772,11 +1772,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findDefaultViews()",
-      "signature": "abstract java.lang.Class<?>[] findDefaultViews()"
+      "signature": "java.lang.Class<?>[] findDefaultViews()"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#findJsonValueAccessor()",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.AnnotatedMember findJsonValueAccessor()"
+      "signature": "com.fasterxml.jackson.databind.introspect.AnnotatedMember findJsonValueAccessor()"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanDescription#isNonStaticInnerClass()",
@@ -1784,11 +1784,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty#findAliases(com.fasterxml.jackson.databind.cfg.MapperConfig<?>)",
-      "signature": "abstract java.util.List<com.fasterxml.jackson.databind.PropertyName> findAliases(com.fasterxml.jackson.databind.cfg.MapperConfig<?>)"
+      "signature": "java.util.List<com.fasterxml.jackson.databind.PropertyName> findAliases(com.fasterxml.jackson.databind.cfg.MapperConfig<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty#isVirtual()",
-      "signature": "abstract boolean isVirtual()"
+      "signature": "boolean isVirtual()"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty$Bogus#depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)",
@@ -1800,11 +1800,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty$Bogus#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty$Bogus#getContextAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getContextAnnotation(java.lang.Class<A>)"
+      "signature": "A getContextAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.BeanProperty$Bogus#getFullName()",
@@ -1848,19 +1848,19 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.DatabindContext#getLocale()",
-      "signature": "abstract java.util.Locale getLocale()"
+      "signature": "java.util.Locale getLocale()"
     },
     {
       "key": "com.fasterxml.jackson.databind.DatabindContext#getTimeZone()",
-      "signature": "abstract java.util.TimeZone getTimeZone()"
+      "signature": "java.util.TimeZone getTimeZone()"
     },
     {
       "key": "com.fasterxml.jackson.databind.DatabindContext#reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)",
-      "signature": "abstract <T> T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
+      "signature": "T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DatabindContext#reportBadDefinition(java.lang.Class<?>, java.lang.String)",
-      "signature": "<T> T reportBadDefinition(java.lang.Class<?>, java.lang.String)"
+      "signature": "T reportBadDefinition(java.lang.Class<?>, java.lang.String)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DatabindContext#resolveSubType(com.fasterxml.jackson.databind.JavaType, java.lang.String)",
@@ -1984,35 +1984,35 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)",
-      "signature": "<T> T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
+      "signature": "T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportBadMerge(com.fasterxml.jackson.databind.JsonDeserializer<?>)",
-      "signature": "<T> T reportBadMerge(com.fasterxml.jackson.databind.JsonDeserializer<?>)"
+      "signature": "T reportBadMerge(com.fasterxml.jackson.databind.JsonDeserializer<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)"
+      "signature": "T reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)"
+      "signature": "T reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportInputMismatch(com.fasterxml.jackson.databind.BeanProperty, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportInputMismatch(com.fasterxml.jackson.databind.BeanProperty, java.lang.String, java.lang.Object...)"
+      "signature": "T reportInputMismatch(com.fasterxml.jackson.databind.BeanProperty, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportInputMismatch(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportInputMismatch(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Object...)"
+      "signature": "T reportInputMismatch(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportInputMismatch(com.fasterxml.jackson.databind.JsonDeserializer<?>, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportInputMismatch(com.fasterxml.jackson.databind.JsonDeserializer<?>, java.lang.String, java.lang.Object...)"
+      "signature": "T reportInputMismatch(com.fasterxml.jackson.databind.JsonDeserializer<?>, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportInputMismatch(java.lang.Class<?>, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportInputMismatch(java.lang.Class<?>, java.lang.String, java.lang.Object...)"
+      "signature": "T reportInputMismatch(java.lang.Class<?>, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportMappingException(java.lang.String, java.lang.Object...)",
@@ -2024,11 +2024,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportTrailingTokens(java.lang.Class<?>, com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.core.JsonToken)",
-      "signature": "<T> T reportTrailingTokens(java.lang.Class<?>, com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.core.JsonToken)"
+      "signature": "T reportTrailingTokens(java.lang.Class<?>, com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.core.JsonToken)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportUnresolvedObjectId(com.fasterxml.jackson.databind.deser.impl.ObjectIdReader, java.lang.Object)",
-      "signature": "<T> T reportUnresolvedObjectId(com.fasterxml.jackson.databind.deser.impl.ObjectIdReader, java.lang.Object)"
+      "signature": "T reportUnresolvedObjectId(com.fasterxml.jackson.databind.deser.impl.ObjectIdReader, java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.DeserializationContext#reportWrongTokenException(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.core.JsonToken, java.lang.String, java.lang.Object...)",
@@ -2068,15 +2068,15 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#findSuperType(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType findSuperType(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JavaType findSuperType(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#findTypeParameters(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType[] findTypeParameters(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JavaType[] findTypeParameters(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#getBindings()",
-      "signature": "abstract com.fasterxml.jackson.databind.type.TypeBindings getBindings()"
+      "signature": "com.fasterxml.jackson.databind.type.TypeBindings getBindings()"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#getContentTypeHandler()",
@@ -2088,7 +2088,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#getInterfaces()",
-      "signature": "abstract java.util.List<com.fasterxml.jackson.databind.JavaType> getInterfaces()"
+      "signature": "java.util.List<com.fasterxml.jackson.databind.JavaType> getInterfaces()"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#getParameterSource()",
@@ -2100,7 +2100,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#getSuperClass()",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType getSuperClass()"
+      "signature": "com.fasterxml.jackson.databind.JavaType getSuperClass()"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#hasContentType()",
@@ -2128,11 +2128,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#refine(java.lang.Class<?>, com.fasterxml.jackson.databind.type.TypeBindings, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JavaType[])",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType refine(java.lang.Class<?>, com.fasterxml.jackson.databind.type.TypeBindings, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JavaType[])"
+      "signature": "com.fasterxml.jackson.databind.JavaType refine(java.lang.Class<?>, com.fasterxml.jackson.databind.type.TypeBindings, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JavaType[])"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#withContentType(com.fasterxml.jackson.databind.JavaType)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType withContentType(com.fasterxml.jackson.databind.JavaType)"
+      "signature": "com.fasterxml.jackson.databind.JavaType withContentType(com.fasterxml.jackson.databind.JavaType)"
     },
     {
       "key": "com.fasterxml.jackson.databind.JavaType#withHandlersFrom(com.fasterxml.jackson.databind.JavaType)",
@@ -2224,11 +2224,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.Module$SetupContext#configOverride(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.cfg.MutableConfigOverride configOverride(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.cfg.MutableConfigOverride configOverride(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.Module$SetupContext#registerSubtypes(java.util.Collection<java.lang.Class<?>>)",
-      "signature": "abstract void registerSubtypes(java.util.Collection<java.lang.Class<?>>)"
+      "signature": "void registerSubtypes(java.util.Collection<java.lang.Class<?>>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#addMixIn(java.lang.Class<?>, java.lang.Class<?>)",
@@ -2276,11 +2276,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#readValue(java.io.DataInput, com.fasterxml.jackson.databind.JavaType)",
-      "signature": "<T> T readValue(java.io.DataInput, com.fasterxml.jackson.databind.JavaType)"
+      "signature": "T readValue(java.io.DataInput, com.fasterxml.jackson.databind.JavaType)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#readValue(java.io.DataInput, java.lang.Class<T>)",
-      "signature": "<T> T readValue(java.io.DataInput, java.lang.Class<T>)"
+      "signature": "T readValue(java.io.DataInput, java.lang.Class<T>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#readerFor(com.fasterxml.jackson.core.type.TypeReference<?>)",
@@ -2344,7 +2344,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#updateValue(T, java.lang.Object)",
-      "signature": "<T> T updateValue(T, java.lang.Object)"
+      "signature": "T updateValue(T, java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectMapper#writeValue(java.io.DataOutput, java.lang.Object)",
@@ -2392,11 +2392,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectReader#readValue(java.io.DataInput)",
-      "signature": "<T> T readValue(java.io.DataInput)"
+      "signature": "T readValue(java.io.DataInput)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectReader#readValues(java.io.DataInput)",
-      "signature": "<T> com.fasterxml.jackson.databind.MappingIterator<T> readValues(java.io.DataInput)"
+      "signature": "com.fasterxml.jackson.databind.MappingIterator<T> readValues(java.io.DataInput)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ObjectReader#with(com.fasterxml.jackson.core.FormatFeature)",
@@ -2736,11 +2736,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#includeFilterInstance(com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.Class<?>)",
-      "signature": "abstract java.lang.Object includeFilterInstance(com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.Class<?>)"
+      "signature": "java.lang.Object includeFilterInstance(com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#includeFilterSuppressNulls(java.lang.Object)",
-      "signature": "abstract boolean includeFilterSuppressNulls(java.lang.Object)"
+      "signature": "boolean includeFilterSuppressNulls(java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#invalidTypeIdException(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.String)",
@@ -2760,23 +2760,23 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)",
-      "signature": "<T> T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
+      "signature": "T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Throwable)",
-      "signature": "<T> T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Throwable)"
+      "signature": "T reportBadDefinition(com.fasterxml.jackson.databind.JavaType, java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportBadDefinition(java.lang.Class<?>, java.lang.String, java.lang.Throwable)",
-      "signature": "<T> T reportBadDefinition(java.lang.Class<?>, java.lang.String, java.lang.Throwable)"
+      "signature": "T reportBadDefinition(java.lang.Class<?>, java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)"
+      "signature": "T reportBadPropertyDefinition(com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)",
-      "signature": "<T> T reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)"
+      "signature": "T reportBadTypeDefinition(com.fasterxml.jackson.databind.BeanDescription, java.lang.String, java.lang.Object...)"
     },
     {
       "key": "com.fasterxml.jackson.databind.SerializerProvider#reportMappingProblem(java.lang.String, java.lang.Object...)",
@@ -2788,43 +2788,43 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend#prepend()",
-      "signature": "abstract boolean prepend()"
+      "signature": "boolean prepend()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Attr#propName()",
-      "signature": "abstract java.lang.String propName()"
+      "signature": "java.lang.String propName()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Attr#propNamespace()",
-      "signature": "abstract java.lang.String propNamespace()"
+      "signature": "java.lang.String propNamespace()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Attr#required()",
-      "signature": "abstract boolean required()"
+      "signature": "boolean required()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Attr#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop#namespace()",
-      "signature": "abstract java.lang.String namespace()"
+      "signature": "java.lang.String namespace()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop#required()",
-      "signature": "abstract boolean required()"
+      "signature": "boolean required()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop#type()",
-      "signature": "abstract java.lang.Class<?> type()"
+      "signature": "java.lang.Class<?> type()"
     },
     {
       "key": "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop#value()",
-      "signature": "abstract java.lang.Class<? extends com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter> value()"
+      "signature": "java.lang.Class<? extends com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter> value()"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.BaseSettings#copy()",
@@ -2836,7 +2836,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.ConfigFeature#enabledIn(int)",
-      "signature": "abstract boolean enabledIn(int)"
+      "signature": "boolean enabledIn(int)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.ConfigOverride#empty()",
@@ -2896,31 +2896,31 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#findConfigOverride(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.cfg.ConfigOverride findConfigOverride(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.cfg.ConfigOverride findConfigOverride(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#findRootName(com.fasterxml.jackson.databind.JavaType)",
-      "signature": "abstract com.fasterxml.jackson.databind.PropertyName findRootName(com.fasterxml.jackson.databind.JavaType)"
+      "signature": "com.fasterxml.jackson.databind.PropertyName findRootName(com.fasterxml.jackson.databind.JavaType)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#findRootName(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.PropertyName findRootName(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.PropertyName findRootName(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#getConfigOverride(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.cfg.ConfigOverride getConfigOverride(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.cfg.ConfigOverride getConfigOverride(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#getDefaultMergeable()",
-      "signature": "abstract java.lang.Boolean getDefaultMergeable()"
+      "signature": "java.lang.Boolean getDefaultMergeable()"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#getDefaultMergeable(java.lang.Class<?>)",
-      "signature": "abstract java.lang.Boolean getDefaultMergeable(java.lang.Class<?>)"
+      "signature": "java.lang.Boolean getDefaultMergeable(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfig#getDefaultVisibilityChecker(java.lang.Class<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass)",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.VisibilityChecker<?> getDefaultVisibilityChecker(java.lang.Class<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
+      "signature": "com.fasterxml.jackson.databind.introspect.VisibilityChecker<?> getDefaultVisibilityChecker(java.lang.Class<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#findConfigOverride(java.lang.Class<?>)",
@@ -2968,7 +2968,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#withRootName(com.fasterxml.jackson.databind.PropertyName)",
-      "signature": "abstract T withRootName(com.fasterxml.jackson.databind.PropertyName)"
+      "signature": "T withRootName(com.fasterxml.jackson.databind.PropertyName)"
     },
     {
       "key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#without(com.fasterxml.jackson.databind.MapperFeature...)",
@@ -3148,11 +3148,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.DeserializerFactory#createReferenceDeserializer(com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonDeserializer<?> createReferenceDeserializer(com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription)"
+      "signature": "com.fasterxml.jackson.databind.JsonDeserializer<?> createReferenceDeserializer(com.fasterxml.jackson.databind.DeserializationContext, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.Deserializers#findReferenceDeserializer(com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeDeserializer, com.fasterxml.jackson.databind.JsonDeserializer<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonDeserializer<?> findReferenceDeserializer(com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeDeserializer, com.fasterxml.jackson.databind.JsonDeserializer<?>)"
+      "signature": "com.fasterxml.jackson.databind.JsonDeserializer<?> findReferenceDeserializer(com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeDeserializer, com.fasterxml.jackson.databind.JsonDeserializer<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.Deserializers$Base#findReferenceDeserializer(com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.DeserializationConfig, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeDeserializer, com.fasterxml.jackson.databind.JsonDeserializer<?>)",
@@ -3160,11 +3160,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.NullValueProvider#getNullAccessPattern()",
-      "signature": "abstract com.fasterxml.jackson.databind.util.AccessPattern getNullAccessPattern()"
+      "signature": "com.fasterxml.jackson.databind.util.AccessPattern getNullAccessPattern()"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.NullValueProvider#getNullValue(com.fasterxml.jackson.databind.DeserializationContext)",
-      "signature": "abstract java.lang.Object getNullValue(com.fasterxml.jackson.databind.DeserializationContext)"
+      "signature": "java.lang.Object getNullValue(com.fasterxml.jackson.databind.DeserializationContext)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.SettableAnyProperty#fixAccess(com.fasterxml.jackson.databind.DeserializationConfig)",
@@ -3192,7 +3192,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.SettableBeanProperty#withNullProvider(com.fasterxml.jackson.databind.deser.NullValueProvider)",
-      "signature": "abstract com.fasterxml.jackson.databind.deser.SettableBeanProperty withNullProvider(com.fasterxml.jackson.databind.deser.NullValueProvider)"
+      "signature": "com.fasterxml.jackson.databind.deser.SettableBeanProperty withNullProvider(com.fasterxml.jackson.databind.deser.NullValueProvider)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.SettableBeanProperty$Delegating#assignIndex(int)",
@@ -3212,7 +3212,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.SettableBeanProperty$Delegating#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.SettableBeanProperty$Delegating#getCreatorIndex()",
@@ -3320,7 +3320,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.ValueInstantiator$Gettable#getValueInstantiator()",
-      "signature": "abstract com.fasterxml.jackson.databind.deser.ValueInstantiator getValueInstantiator()"
+      "signature": "com.fasterxml.jackson.databind.deser.ValueInstantiator getValueInstantiator()"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.impl.BeanAsArrayBuilderDeserializer#supportsUpdate(com.fasterxml.jackson.databind.DeserializationConfig)",
@@ -4100,11 +4100,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#getNullValue(com.fasterxml.jackson.databind.DeserializationContext)",
-      "signature": "abstract T getNullValue(com.fasterxml.jackson.databind.DeserializationContext)"
+      "signature": "T getNullValue(com.fasterxml.jackson.databind.DeserializationContext)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#getReferenced(T)",
-      "signature": "abstract java.lang.Object getReferenced(T)"
+      "signature": "java.lang.Object getReferenced(T)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#getValueType()",
@@ -4112,7 +4112,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#referenceValue(java.lang.Object)",
-      "signature": "abstract T referenceValue(java.lang.Object)"
+      "signature": "T referenceValue(java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#supportsUpdate(com.fasterxml.jackson.databind.DeserializationConfig)",
@@ -4120,7 +4120,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer#updateReference(T, java.lang.Object)",
-      "signature": "abstract T updateReference(T, java.lang.Object)"
+      "signature": "T updateReference(T, java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.StdDelegatingDeserializer#deserialize(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext, java.lang.Object)",
@@ -4136,7 +4136,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.StdNodeBasedDeserializer#convert(com.fasterxml.jackson.databind.JsonNode, com.fasterxml.jackson.databind.DeserializationContext)",
-      "signature": "abstract T convert(com.fasterxml.jackson.databind.JsonNode, com.fasterxml.jackson.databind.DeserializationContext)"
+      "signature": "T convert(com.fasterxml.jackson.databind.JsonNode, com.fasterxml.jackson.databind.DeserializationContext)"
     },
     {
       "key": "com.fasterxml.jackson.databind.deser.std.StdNodeBasedDeserializer#deserialize(com.fasterxml.jackson.core.JsonParser, com.fasterxml.jackson.databind.DeserializationContext)",
@@ -4344,27 +4344,27 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#findConstructorName(com.fasterxml.jackson.databind.introspect.AnnotatedParameter)",
-      "signature": "abstract com.fasterxml.jackson.databind.PropertyName findConstructorName(com.fasterxml.jackson.databind.introspect.AnnotatedParameter)"
+      "signature": "com.fasterxml.jackson.databind.PropertyName findConstructorName(com.fasterxml.jackson.databind.introspect.AnnotatedParameter)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#findTransient(com.fasterxml.jackson.databind.introspect.Annotated)",
-      "signature": "abstract java.lang.Boolean findTransient(com.fasterxml.jackson.databind.introspect.Annotated)"
+      "signature": "java.lang.Boolean findTransient(com.fasterxml.jackson.databind.introspect.Annotated)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#getClassJavaNioFilePath()",
-      "signature": "abstract java.lang.Class<?> getClassJavaNioFilePath()"
+      "signature": "java.lang.Class<?> getClassJavaNioFilePath()"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#getDeserializerForJavaNioFilePath(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonDeserializer<?> getDeserializerForJavaNioFilePath(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JsonDeserializer<?> getDeserializerForJavaNioFilePath(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#getSerializerForJavaNioFilePath(java.lang.Class<?>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonSerializer<?> getSerializerForJavaNioFilePath(java.lang.Class<?>)"
+      "signature": "com.fasterxml.jackson.databind.JsonSerializer<?> getSerializerForJavaNioFilePath(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#hasCreatorAnnotation(com.fasterxml.jackson.databind.introspect.Annotated)",
-      "signature": "abstract java.lang.Boolean hasCreatorAnnotation(com.fasterxml.jackson.databind.introspect.Annotated)"
+      "signature": "java.lang.Boolean hasCreatorAnnotation(com.fasterxml.jackson.databind.introspect.Annotated)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ext.Java7Support#instance()",
@@ -4416,23 +4416,23 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#equals(java.lang.Object)",
-      "signature": "abstract boolean equals(java.lang.Object)"
+      "signature": "boolean equals(java.lang.Object)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#getType()",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType getType()"
+      "signature": "com.fasterxml.jackson.databind.JavaType getType()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])",
-      "signature": "abstract boolean hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
+      "signature": "boolean hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#hashCode()",
-      "signature": "abstract int hashCode()"
+      "signature": "int hashCode()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.Annotated#toString()",
-      "signature": "abstract java.lang.String toString()"
+      "signature": "java.lang.String toString()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedClass#construct(com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.cfg.MapperConfig<?>, com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver)",
@@ -4532,7 +4532,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedMember#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedMember#getFullName()",
@@ -4552,7 +4552,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedMember#withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.Annotated withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)"
+      "signature": "com.fasterxml.jackson.databind.introspect.Annotated withAnnotations(com.fasterxml.jackson.databind.introspect.AnnotationMap)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedMethod#callOn(java.lang.Object)",
@@ -4596,19 +4596,19 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotatedWithParams#getParameterType(int)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType getParameterType(int)"
+      "signature": "com.fasterxml.jackson.databind.JavaType getParameterType(int)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector#addOrOverride(java.lang.annotation.Annotation)",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.AnnotationCollector addOrOverride(java.lang.annotation.Annotation)"
+      "signature": "com.fasterxml.jackson.databind.introspect.AnnotationCollector addOrOverride(java.lang.annotation.Annotation)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector#asAnnotationMap()",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.AnnotationMap asAnnotationMap()"
+      "signature": "com.fasterxml.jackson.databind.introspect.AnnotationMap asAnnotationMap()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector#asAnnotations()",
-      "signature": "abstract com.fasterxml.jackson.databind.util.Annotations asAnnotations()"
+      "signature": "com.fasterxml.jackson.databind.util.Annotations asAnnotations()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector#emptyAnnotations()",
@@ -4628,7 +4628,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector#isPresent(java.lang.annotation.Annotation)",
-      "signature": "abstract boolean isPresent(java.lang.annotation.Annotation)"
+      "signature": "boolean isPresent(java.lang.annotation.Annotation)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$EmptyCollector#addOrOverride(java.lang.annotation.Annotation)",
@@ -4664,7 +4664,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$NoAnnotations#get(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A get(java.lang.Class<A>)"
+      "signature": "A get(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$NoAnnotations#has(java.lang.Class<?>)",
@@ -4680,7 +4680,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$OneAnnotation#get(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A get(java.lang.Class<A>)"
+      "signature": "A get(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$OneAnnotation#has(java.lang.Class<?>)",
@@ -4712,7 +4712,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$TwoAnnotations#get(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A get(java.lang.Class<A>)"
+      "signature": "A get(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.AnnotationCollector$TwoAnnotations#has(java.lang.Class<?>)",
@@ -4840,11 +4840,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition#getPrimaryType()",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType getPrimaryType()"
+      "signature": "com.fasterxml.jackson.databind.JavaType getPrimaryType()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition#getRawPrimaryType()",
-      "signature": "abstract java.lang.Class<?> getRawPrimaryType()"
+      "signature": "java.lang.Class<?> getRawPrimaryType()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition#hasName(com.fasterxml.jackson.databind.PropertyName)",
@@ -4852,7 +4852,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.ClassIntrospector#copy()",
-      "signature": "abstract com.fasterxml.jackson.databind.introspect.ClassIntrospector copy()"
+      "signature": "com.fasterxml.jackson.databind.introspect.ClassIntrospector copy()"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase#findAliases(com.fasterxml.jackson.databind.cfg.MapperConfig<?>)",
@@ -5012,7 +5012,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.TypeResolutionContext#resolveType(java.lang.reflect.Type)",
-      "signature": "abstract com.fasterxml.jackson.databind.JavaType resolveType(java.lang.reflect.Type)"
+      "signature": "com.fasterxml.jackson.databind.JavaType resolveType(java.lang.reflect.Type)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.TypeResolutionContext$Basic#resolveType(java.lang.reflect.Type)",
@@ -5076,7 +5076,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.VisibilityChecker#withOverrides(com.fasterxml.jackson.annotation.JsonAutoDetect$Value)",
-      "signature": "abstract T withOverrides(com.fasterxml.jackson.annotation.JsonAutoDetect$Value)"
+      "signature": "T withOverrides(com.fasterxml.jackson.annotation.JsonAutoDetect$Value)"
     },
     {
       "key": "com.fasterxml.jackson.databind.introspect.VisibilityChecker$Std#withOverrides(com.fasterxml.jackson.annotation.JsonAutoDetect$Value)",
@@ -5148,11 +5148,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.SubtypeResolver#registerSubtypes(java.util.Collection<java.lang.Class<?>>)",
-      "signature": "abstract void registerSubtypes(java.util.Collection<java.lang.Class<?>>)"
+      "signature": "void registerSubtypes(java.util.Collection<java.lang.Class<?>>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.TypeIdResolver#getDescForKnownTypeIds()",
-      "signature": "abstract java.lang.String getDescForKnownTypeIds()"
+      "signature": "java.lang.String getDescForKnownTypeIds()"
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.TypeSerializer#typeId(java.lang.Object, com.fasterxml.jackson.core.JsonToken)",
@@ -5168,11 +5168,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.TypeSerializer#writeTypePrefix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)",
-      "signature": "abstract com.fasterxml.jackson.core.type.WritableTypeId writeTypePrefix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)"
+      "signature": "com.fasterxml.jackson.core.type.WritableTypeId writeTypePrefix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)"
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.TypeSerializer#writeTypeSuffix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)",
-      "signature": "abstract com.fasterxml.jackson.core.type.WritableTypeId writeTypeSuffix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)"
+      "signature": "com.fasterxml.jackson.core.type.WritableTypeId writeTypeSuffix(com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.core.type.WritableTypeId)"
     },
     {
       "key": "com.fasterxml.jackson.databind.jsontype.impl.AsExistingPropertyTypeSerializer#forProperty(com.fasterxml.jackson.databind.BeanProperty)",
@@ -5272,7 +5272,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.node.BaseJsonNode#hashCode()",
-      "signature": "abstract int hashCode()"
+      "signature": "int hashCode()"
     },
     {
       "key": "com.fasterxml.jackson.databind.node.BooleanNode#hashCode()",
@@ -5296,11 +5296,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.node.JsonNodeCreator#arrayNode(int)",
-      "signature": "abstract com.fasterxml.jackson.databind.node.ArrayNode arrayNode(int)"
+      "signature": "com.fasterxml.jackson.databind.node.ArrayNode arrayNode(int)"
     },
     {
       "key": "com.fasterxml.jackson.databind.node.JsonNodeCreator#rawValueNode(com.fasterxml.jackson.databind.util.RawValue)",
-      "signature": "abstract com.fasterxml.jackson.databind.node.ValueNode rawValueNode(com.fasterxml.jackson.databind.util.RawValue)"
+      "signature": "com.fasterxml.jackson.databind.node.ValueNode rawValueNode(com.fasterxml.jackson.databind.util.RawValue)"
     },
     {
       "key": "com.fasterxml.jackson.databind.node.JsonNodeFactory#arrayNode(int)",
@@ -5488,15 +5488,15 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.PropertyWriter#findAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A findAnnotation(java.lang.Class<A>)"
+      "signature": "A findAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.PropertyWriter#getAnnotation(java.lang.Class<A>)",
-      "signature": "abstract <A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.PropertyWriter#getContextAnnotation(java.lang.Class<A>)",
-      "signature": "abstract <A extends java.lang.annotation.Annotation> A getContextAnnotation(java.lang.Class<A>)"
+      "signature": "A getContextAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.SerializerCache#addAndResolveNonTypedSerializer(java.lang.Class<?>, com.fasterxml.jackson.databind.JavaType, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>, com.fasterxml.jackson.databind.SerializerProvider)",
@@ -5504,7 +5504,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.Serializers#findReferenceSerializer(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonSerializer<?> findReferenceSerializer(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>)"
+      "signature": "com.fasterxml.jackson.databind.JsonSerializer<?> findReferenceSerializer(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.Serializers$Base#findReferenceSerializer(com.fasterxml.jackson.databind.SerializationConfig, com.fasterxml.jackson.databind.type.ReferenceType, com.fasterxml.jackson.databind.BeanDescription, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<java.lang.Object>)",
@@ -5524,7 +5524,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter#withConfig(com.fasterxml.jackson.databind.cfg.MapperConfig<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, com.fasterxml.jackson.databind.JavaType)",
-      "signature": "abstract com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter withConfig(com.fasterxml.jackson.databind.cfg.MapperConfig<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, com.fasterxml.jackson.databind.JavaType)"
+      "signature": "com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter withConfig(com.fasterxml.jackson.databind.cfg.MapperConfig<?>, com.fasterxml.jackson.databind.introspect.AnnotatedClass, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, com.fasterxml.jackson.databind.JavaType)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.impl.AttributePropertyWriter#construct(java.lang.String, com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition, com.fasterxml.jackson.databind.util.Annotations, com.fasterxml.jackson.databind.JavaType)",
@@ -5724,7 +5724,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.ArraySerializerBase#_withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonSerializer<?> _withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)"
+      "signature": "com.fasterxml.jackson.databind.JsonSerializer<?> _withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.ArraySerializerBase#createContextual(com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.BeanProperty)",
@@ -5732,7 +5732,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase#withResolved(com.fasterxml.jackson.databind.BeanProperty, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<?>, java.lang.Boolean)",
-      "signature": "abstract com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase<T> withResolved(com.fasterxml.jackson.databind.BeanProperty, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<?>, java.lang.Boolean)"
+      "signature": "com.fasterxml.jackson.databind.ser.std.AsArraySerializerBase<T> withResolved(com.fasterxml.jackson.databind.BeanProperty, com.fasterxml.jackson.databind.jsontype.TypeSerializer, com.fasterxml.jackson.databind.JsonSerializer<?>, java.lang.Boolean)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.AtomicReferenceSerializer#withContentInclusion(java.lang.Object, boolean)",
@@ -5940,11 +5940,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.MapProperty#getAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getAnnotation(java.lang.Class<A>)"
+      "signature": "A getAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.MapProperty#getContextAnnotation(java.lang.Class<A>)",
-      "signature": "<A extends java.lang.annotation.Annotation> A getContextAnnotation(java.lang.Class<A>)"
+      "signature": "A getContextAnnotation(java.lang.Class<A>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.MapProperty#getMember()",
@@ -6056,7 +6056,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer#withContentInclusion(java.lang.Object, boolean)",
-      "signature": "abstract com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer<T> withContentInclusion(java.lang.Object, boolean)"
+      "signature": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer<T> withContentInclusion(java.lang.Object, boolean)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.SerializableSerializer#isEmpty(com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.JsonSerializable)",
@@ -6068,7 +6068,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.StaticListSerializerBase#_withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)",
-      "signature": "abstract com.fasterxml.jackson.databind.JsonSerializer<?> _withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)"
+      "signature": "com.fasterxml.jackson.databind.JsonSerializer<?> _withResolved(com.fasterxml.jackson.databind.BeanProperty, java.lang.Boolean)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.StaticListSerializerBase#createContextual(com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.BeanProperty)",
@@ -6080,7 +6080,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.StaticListSerializerBase#serializeWithType(T, com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.jsontype.TypeSerializer)",
-      "signature": "abstract void serializeWithType(T, com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.jsontype.TypeSerializer)"
+      "signature": "void serializeWithType(T, com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.jsontype.TypeSerializer)"
     },
     {
       "key": "com.fasterxml.jackson.databind.ser.std.StaticListSerializerBase#serializeWithType(java.lang.Object, com.fasterxml.jackson.core.JsonGenerator, com.fasterxml.jackson.databind.SerializerProvider, com.fasterxml.jackson.databind.jsontype.TypeSerializer)",
@@ -6744,11 +6744,11 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.Annotations#has(java.lang.Class<?>)",
-      "signature": "abstract boolean has(java.lang.Class<?>)"
+      "signature": "boolean has(java.lang.Class<?>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.Annotations#hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])",
-      "signature": "abstract boolean hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
+      "signature": "boolean hasOneOf(java.lang.Class<? extends java.lang.annotation.Annotation>[])"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.BeanUtil#getDefaultValue(com.fasterxml.jackson.databind.JavaType)",
@@ -6780,7 +6780,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#emptyIterator()",
-      "signature": "<T> java.util.Iterator<T> emptyIterator()"
+      "signature": "java.util.Iterator<T> emptyIterator()"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#exceptionMessage(java.lang.Throwable)",
@@ -6792,7 +6792,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#findFirstAnnotatedEnumValue(java.lang.Class<java.lang.Enum<?>>, java.lang.Class<T>)",
-      "signature": "<T extends java.lang.annotation.Annotation> java.lang.Enum<?> findFirstAnnotatedEnumValue(java.lang.Class<java.lang.Enum<?>>, java.lang.Class<T>)"
+      "signature": "java.lang.Enum<?> findFirstAnnotatedEnumValue(java.lang.Class<java.lang.Enum<?>>, java.lang.Class<T>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#findRawSuperTypes(java.lang.Class<?>, java.lang.Class<?>, boolean)",
@@ -6864,7 +6864,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#nonNull(T, T)",
-      "signature": "<T> T nonNull(T, T)"
+      "signature": "T nonNull(T, T)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#nonNullString(java.lang.String)",
@@ -6888,7 +6888,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#throwAsMappingException(com.fasterxml.jackson.databind.DeserializationContext, java.io.IOException)",
-      "signature": "<T> T throwAsMappingException(com.fasterxml.jackson.databind.DeserializationContext, java.io.IOException)"
+      "signature": "T throwAsMappingException(com.fasterxml.jackson.databind.DeserializationContext, java.io.IOException)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.ClassUtil#throwIfError(java.lang.Throwable)",
@@ -6932,7 +6932,7 @@
     },
     {
       "key": "com.fasterxml.jackson.databind.util.CompactStringObjectMap#construct(java.util.Map<java.lang.String, T>)",
-      "signature": "<T> com.fasterxml.jackson.databind.util.CompactStringObjectMap construct(java.util.Map<java.lang.String, T>)"
+      "signature": "com.fasterxml.jackson.databind.util.CompactStringObjectMap construct(java.util.Map<java.lang.String, T>)"
     },
     {
       "key": "com.fasterxml.jackson.databind.util.CompactStringObjectMap#find(java.lang.String)",
@@ -7242,8 +7242,8 @@
   "changed": [
     {
       "name": "com.fasterxml.jackson.databind.BeanProperty#depositSchemaProperty",
-      "old": "abstract void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
-      "new": "abstract void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)",
+      "old": "void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
+      "new": "void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)",
       "old_key": "com.fasterxml.jackson.databind.BeanProperty#depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
       "new_key": "com.fasterxml.jackson.databind.BeanProperty#depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)"
     },
@@ -7354,8 +7354,8 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.cfg.ContextAttributes#withSharedAttributes",
-      "old": "abstract com.fasterxml.jackson.databind.cfg.ContextAttributes withSharedAttributes(java.util.Map<java.lang.Object, java.lang.Object>)",
-      "new": "abstract com.fasterxml.jackson.databind.cfg.ContextAttributes withSharedAttributes(java.util.Map<?, ?>)",
+      "old": "com.fasterxml.jackson.databind.cfg.ContextAttributes withSharedAttributes(java.util.Map<java.lang.Object, java.lang.Object>)",
+      "new": "com.fasterxml.jackson.databind.cfg.ContextAttributes withSharedAttributes(java.util.Map<?, ?>)",
       "old_key": "com.fasterxml.jackson.databind.cfg.ContextAttributes#withSharedAttributes(java.util.Map<java.lang.Object, java.lang.Object>)",
       "new_key": "com.fasterxml.jackson.databind.cfg.ContextAttributes#withSharedAttributes(java.util.Map<?, ?>)"
     },
@@ -7368,7 +7368,7 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#with",
-      "old": "abstract T with(com.fasterxml.jackson.databind.introspect.VisibilityChecker<?>)",
+      "old": "T with(com.fasterxml.jackson.databind.introspect.VisibilityChecker<?>)",
       "new": "com.fasterxml.jackson.databind.cfg.MapperConfig with(com.fasterxml.jackson.databind.MapperFeature, boolean)",
       "old_key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#with(com.fasterxml.jackson.databind.introspect.VisibilityChecker<?>)",
       "new_key": "com.fasterxml.jackson.databind.cfg.MapperConfigBase#with(com.fasterxml.jackson.databind.MapperFeature, boolean)"
@@ -7389,8 +7389,8 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase#withIgnorableProperties",
-      "old": "abstract com.fasterxml.jackson.databind.deser.BeanDeserializerBase withIgnorableProperties(java.util.HashSet<java.lang.String>)",
-      "new": "abstract com.fasterxml.jackson.databind.deser.BeanDeserializerBase withIgnorableProperties(java.util.Set<java.lang.String>)",
+      "old": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase withIgnorableProperties(java.util.HashSet<java.lang.String>)",
+      "new": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase withIgnorableProperties(java.util.Set<java.lang.String>)",
       "old_key": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase#withIgnorableProperties(java.util.HashSet<java.lang.String>)",
       "new_key": "com.fasterxml.jackson.databind.deser.BeanDeserializerBase#withIgnorableProperties(java.util.Set<java.lang.String>)"
     },
@@ -7557,8 +7557,8 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.introspect.Annotated#hasAnnotation",
-      "old": "<A extends java.lang.annotation.Annotation> boolean hasAnnotation(java.lang.Class<A>)",
-      "new": "abstract boolean hasAnnotation(java.lang.Class<?>)",
+      "old": "boolean hasAnnotation(java.lang.Class<A>)",
+      "new": "boolean hasAnnotation(java.lang.Class<?>)",
       "old_key": "com.fasterxml.jackson.databind.introspect.Annotated#hasAnnotation(java.lang.Class<A>)",
       "new_key": "com.fasterxml.jackson.databind.introspect.Annotated#hasAnnotation(java.lang.Class<?>)"
     },
@@ -7599,8 +7599,8 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.jsontype.TypeIdResolver#typeFromId",
-      "old": "abstract com.fasterxml.jackson.databind.JavaType typeFromId(java.lang.String)",
-      "new": "abstract com.fasterxml.jackson.databind.JavaType typeFromId(com.fasterxml.jackson.databind.DatabindContext, java.lang.String)",
+      "old": "com.fasterxml.jackson.databind.JavaType typeFromId(java.lang.String)",
+      "new": "com.fasterxml.jackson.databind.JavaType typeFromId(com.fasterxml.jackson.databind.DatabindContext, java.lang.String)",
       "old_key": "com.fasterxml.jackson.databind.jsontype.TypeIdResolver#typeFromId(java.lang.String)",
       "new_key": "com.fasterxml.jackson.databind.jsontype.TypeIdResolver#typeFromId(com.fasterxml.jackson.databind.DatabindContext, java.lang.String)"
     },
@@ -7613,8 +7613,8 @@
     },
     {
       "name": "com.fasterxml.jackson.databind.ser.PropertyWriter#depositSchemaProperty",
-      "old": "abstract void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
-      "new": "abstract void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)",
+      "old": "void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
+      "new": "void depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)",
       "old_key": "com.fasterxml.jackson.databind.ser.PropertyWriter#depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor)",
       "new_key": "com.fasterxml.jackson.databind.ser.PropertyWriter#depositSchemaProperty(com.fasterxml.jackson.databind.jsonFormatVisitors.JsonObjectFormatVisitor, com.fasterxml.jackson.databind.SerializerProvider)"
     },
@@ -7946,13 +7946,171 @@
     "new_methods": 4979,
     "removed": 423,
     "added": 1386,
-    "changed": 100
+    "changed": 100,
+    "removed_classes": 20,
+    "added_classes": 97
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.core_jackson-databind_2.4.2.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.core_jackson-databind_2.9.10.8.jar",
+  "removed_classes": [
+    "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap$Bucket",
+    "com.fasterxml.jackson.databind.deser.impl.BeanPropertyMap$IteratorImpl",
+    "com.fasterxml.jackson.databind.deser.impl.CreatorCollector$Vanilla",
+    "com.fasterxml.jackson.databind.deser.impl.NullProvider",
+    "com.fasterxml.jackson.databind.deser.std.EnumDeserializer$FactoryBasedDeserializer",
+    "com.fasterxml.jackson.databind.node.NodeCursor$Array",
+    "com.fasterxml.jackson.databind.node.NodeCursor$Object",
+    "com.fasterxml.jackson.databind.node.NodeCursor$RootValue",
+    "com.fasterxml.jackson.databind.ser.SerializerCache$TypeKey",
+    "com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap",
+    "com.fasterxml.jackson.databind.ser.impl.JsonSerializerMap$Bucket",
+    "com.fasterxml.jackson.databind.ser.std.EnumMapSerializer",
+    "com.fasterxml.jackson.databind.ser.std.StdArraySerializers$ByteArraySerializer",
+    "com.fasterxml.jackson.databind.ser.std.StdJdkSerializers$AtomicReferenceSerializer",
+    "com.fasterxml.jackson.databind.ser.std.StdKeySerializers$CalendarKeySerializer",
+    "com.fasterxml.jackson.databind.ser.std.StdKeySerializers$DateKeySerializer",
+    "com.fasterxml.jackson.databind.type.HierarchicType",
+    "com.fasterxml.jackson.databind.util.ContainerBuilder",
+    "com.fasterxml.jackson.databind.util.EmptyIterator",
+    "com.fasterxml.jackson.databind.util.ObjectIdMap"
+  ],
+  "added_classes": [
+    "com.fasterxml.jackson.databind.BeanProperty$Bogus",
+    "com.fasterxml.jackson.databind.JsonSerializable$Base",
+    "com.fasterxml.jackson.databind.ObjectWriter$GeneratorSettings",
+    "com.fasterxml.jackson.databind.ObjectWriter$Prefetch",
+    "com.fasterxml.jackson.databind.PropertyMetadata$MergeInfo",
+    "com.fasterxml.jackson.databind.PropertyNamingStrategy$KebabCaseStrategy",
+    "com.fasterxml.jackson.databind.PropertyNamingStrategy$SnakeCaseStrategy",
+    "com.fasterxml.jackson.databind.PropertyNamingStrategy$UpperCamelCaseStrategy",
+    "com.fasterxml.jackson.databind.SequenceWriter",
+    "com.fasterxml.jackson.databind.annotation.JsonAppend",
+    "com.fasterxml.jackson.databind.annotation.JsonAppend$Attr",
+    "com.fasterxml.jackson.databind.annotation.JsonAppend$Prop",
+    "com.fasterxml.jackson.databind.cfg.ConfigOverride",
+    "com.fasterxml.jackson.databind.cfg.ConfigOverride$Empty",
+    "com.fasterxml.jackson.databind.cfg.ConfigOverrides",
+    "com.fasterxml.jackson.databind.cfg.MutableConfigOverride",
+    "com.fasterxml.jackson.databind.deser.BeanDeserializer$BeanReferring",
+    "com.fasterxml.jackson.databind.deser.NullValueProvider",
+    "com.fasterxml.jackson.databind.deser.SettableBeanProperty$Delegating",
+    "com.fasterxml.jackson.databind.deser.ValueInstantiator$Base",
+    "com.fasterxml.jackson.databind.deser.ValueInstantiator$Gettable",
+    "com.fasterxml.jackson.databind.deser.impl.CreatorCandidate",
+    "com.fasterxml.jackson.databind.deser.impl.CreatorCandidate$Param",
+    "com.fasterxml.jackson.databind.deser.impl.CreatorCollector$StdTypeConstructor",
+    "com.fasterxml.jackson.databind.deser.impl.ErrorThrowingDeserializer",
+    "com.fasterxml.jackson.databind.deser.impl.JavaUtilCollectionsDeserializers",
+    "com.fasterxml.jackson.databind.deser.impl.JavaUtilCollectionsDeserializers$JavaUtilCollectionsConverter",
+    "com.fasterxml.jackson.databind.deser.impl.MergingSettableBeanProperty",
+    "com.fasterxml.jackson.databind.deser.impl.NullsAsEmptyProvider",
+    "com.fasterxml.jackson.databind.deser.impl.NullsConstantProvider",
+    "com.fasterxml.jackson.databind.deser.impl.NullsFailProvider",
+    "com.fasterxml.jackson.databind.deser.impl.PropertyBasedCreator$CaseInsensitiveMap",
+    "com.fasterxml.jackson.databind.deser.std.FactoryBasedEnumDeserializer",
+    "com.fasterxml.jackson.databind.deser.std.MapEntryDeserializer",
+    "com.fasterxml.jackson.databind.deser.std.ReferenceTypeDeserializer",
+    "com.fasterxml.jackson.databind.deser.std.StdNodeBasedDeserializer",
+    "com.fasterxml.jackson.databind.exc.InvalidDefinitionException",
+    "com.fasterxml.jackson.databind.exc.InvalidNullException",
+    "com.fasterxml.jackson.databind.exc.InvalidTypeIdException",
+    "com.fasterxml.jackson.databind.exc.MismatchedInputException",
+    "com.fasterxml.jackson.databind.ext.Java7Support",
+    "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "com.fasterxml.jackson.databind.ext.NioPathDeserializer",
+    "com.fasterxml.jackson.databind.ext.NioPathSerializer",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedClass$Creators",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedClassResolver",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedCreatorCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedFieldCollector$FieldBuilder",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotatedMethodCollector$MethodBuilder",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$EmptyCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$NCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$NoAnnotations",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$OneAnnotation",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$OneCollector",
+    "com.fasterxml.jackson.databind.introspect.AnnotationCollector$TwoAnnotations",
+    "com.fasterxml.jackson.databind.introspect.CollectorBase",
+    "com.fasterxml.jackson.databind.introspect.ConcreteBeanPropertyBase",
+    "com.fasterxml.jackson.databind.introspect.POJOPropertyBuilder$MemberIterator",
+    "com.fasterxml.jackson.databind.introspect.SimpleMixInResolver",
+    "com.fasterxml.jackson.databind.introspect.TypeResolutionContext",
+    "com.fasterxml.jackson.databind.introspect.TypeResolutionContext$Basic",
+    "com.fasterxml.jackson.databind.introspect.VirtualAnnotatedMember",
+    "com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatVisitorWrapper$Base",
+    "com.fasterxml.jackson.databind.jsontype.impl.AsExistingPropertyTypeSerializer",
+    "com.fasterxml.jackson.databind.jsontype.impl.SubTypeValidator",
+    "com.fasterxml.jackson.databind.node.NodeCursor$ArrayCursor",
+    "com.fasterxml.jackson.databind.node.NodeCursor$ObjectCursor",
+    "com.fasterxml.jackson.databind.node.NodeCursor$RootCursor",
+    "com.fasterxml.jackson.databind.ser.VirtualBeanPropertyWriter",
+    "com.fasterxml.jackson.databind.ser.impl.AttributePropertyWriter",
+    "com.fasterxml.jackson.databind.ser.impl.MapEntrySerializer",
+    "com.fasterxml.jackson.databind.ser.impl.ReadOnlyClassToSerializerMap$Bucket",
+    "com.fasterxml.jackson.databind.ser.std.AtomicReferenceSerializer",
+    "com.fasterxml.jackson.databind.ser.std.BooleanSerializer$AsNumber",
+    "com.fasterxml.jackson.databind.ser.std.ByteArraySerializer",
+    "com.fasterxml.jackson.databind.ser.std.JsonValueSerializer$TypeSerializerRerouter",
+    "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer",
+    "com.fasterxml.jackson.databind.ser.std.StdKeySerializers$Default",
+    "com.fasterxml.jackson.databind.ser.std.StdKeySerializers$Dynamic",
+    "com.fasterxml.jackson.databind.ser.std.StdKeySerializers$EnumKeySerializer",
+    "com.fasterxml.jackson.databind.type.ClassStack",
+    "com.fasterxml.jackson.databind.type.PlaceholderForType",
+    "com.fasterxml.jackson.databind.type.ReferenceType",
+    "com.fasterxml.jackson.databind.type.ResolvedRecursiveType",
+    "com.fasterxml.jackson.databind.type.TypeBindings$AsKey",
+    "com.fasterxml.jackson.databind.type.TypeBindings$TypeParamStash",
+    "com.fasterxml.jackson.databind.util.AccessPattern",
+    "com.fasterxml.jackson.databind.util.ClassUtil$Ctor",
+    "com.fasterxml.jackson.databind.util.CompactStringObjectMap",
+    "com.fasterxml.jackson.databind.util.ConstantValueInstantiator",
+    "com.fasterxml.jackson.databind.util.NameTransformer$NopTransformer",
+    "com.fasterxml.jackson.databind.util.RawValue",
+    "com.fasterxml.jackson.databind.util.TokenBufferReadContext",
+    "com.fasterxml.jackson.databind.util.TypeKey"
+  ],
+  "old_jar": "jar_cache/com.fasterxml.jackson.core_jackson-databind_2.4.2.jar",
+  "new_jar": "jar_cache/com.fasterxml.jackson.core_jackson-databind_2.9.10.8.jar",
   "group_id": "com.fasterxml.jackson.core",
   "artifact_id": "jackson-databind",
   "old_version": "2.4.2",
   "new_version": "2.9.10.8",
-  "project": "wsdoc"
+  "status": "OK",
+  "packaging": "bundle",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "cglib:cglib",
+        "org.codehaus.groovy:groovy",
+        "org.hibernate:hibernate-cglib-repack"
+      ],
+      "added": [
+        "javax.measure:jsr-275",
+        "org.powermock:powermock-api-mockito",
+        "org.powermock:powermock-module-junit4"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.fasterxml.jackson.core:jackson-annotations",
+          "old": "2.4.0",
+          "new": "${jackson.version.annotations}"
+        },
+        {
+          "dependency": "com.fasterxml.jackson.core:jackson-core",
+          "old": "2.4.2",
+          "new": "${jackson.version.core}"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "wsdoc"
+  ]
 }

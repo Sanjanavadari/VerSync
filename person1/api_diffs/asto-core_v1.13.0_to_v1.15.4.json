@@ -6,7 +6,7 @@
     },
     {
       "key": "com.artipie.asto.ArtipieStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
-      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+      "signature": "java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
     },
     {
       "key": "com.artipie.asto.ArtipieStorage#exists(com.artipie.asto.Key)",
@@ -46,7 +46,7 @@
     },
     {
       "key": "com.artipie.asto.etcd.EtcdMeta#read(com.artipie.asto.Meta$ReadOperator<T>)",
-      "signature": "<T> T read(com.artipie.asto.Meta$ReadOperator<T>)"
+      "signature": "T read(com.artipie.asto.Meta$ReadOperator<T>)"
     },
     {
       "key": "com.artipie.asto.etcd.EtcdStorage#delete(com.artipie.asto.Key)",
@@ -54,7 +54,7 @@
     },
     {
       "key": "com.artipie.asto.etcd.EtcdStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
-      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+      "signature": "java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
     },
     {
       "key": "com.artipie.asto.etcd.EtcdStorage#exists(com.artipie.asto.Key)",
@@ -86,15 +86,15 @@
     },
     {
       "key": "com.artipie.asto.factory.StorageConfig#config(java.lang.String)",
-      "signature": "abstract com.artipie.asto.factory.StorageConfig config(java.lang.String)"
+      "signature": "com.artipie.asto.factory.StorageConfig config(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.StorageConfig#sequence(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> sequence(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.StorageConfig#string(java.lang.String)",
-      "signature": "abstract java.lang.String string(java.lang.String)"
+      "signature": "java.lang.String string(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.StorageConfig$StrictStorageConfig#config(java.lang.String)",
@@ -134,7 +134,7 @@
     },
     {
       "key": "com.artipie.asto.fs.VertxFileStorage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
-      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+      "signature": "java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
     },
     {
       "key": "com.artipie.asto.fs.VertxFileStorage#exists(com.artipie.asto.Key)",
@@ -222,7 +222,7 @@
     },
     {
       "key": "com.artipie.asto.s3.S3HeadMeta#read(com.artipie.asto.Meta$ReadOperator<T>)",
-      "signature": "<T> T read(com.artipie.asto.Meta$ReadOperator<T>)"
+      "signature": "T read(com.artipie.asto.Meta$ReadOperator<T>)"
     },
     {
       "key": "com.artipie.asto.s3.S3Storage#delete(com.artipie.asto.Key)",
@@ -230,7 +230,7 @@
     },
     {
       "key": "com.artipie.asto.s3.S3Storage#exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)",
-      "signature": "<T> java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
+      "signature": "java.util.concurrent.CompletionStage<T> exclusively(com.artipie.asto.Key, java.util.function.Function<com.artipie.asto.Storage, java.util.concurrent.CompletionStage<T>>)"
     },
     {
       "key": "com.artipie.asto.s3.S3Storage#exists(com.artipie.asto.Key)",
@@ -308,7 +308,7 @@
     },
     {
       "key": "com.artipie.asto.Storage#identifier()",
-      "signature": "default java.lang.String identifier()"
+      "signature": "java.lang.String identifier()"
     },
     {
       "key": "com.artipie.asto.Storage$Wrap#identifier()",
@@ -320,15 +320,15 @@
     },
     {
       "key": "com.artipie.asto.factory.Config#config(java.lang.String)",
-      "signature": "abstract com.artipie.asto.factory.Config config(java.lang.String)"
+      "signature": "com.artipie.asto.factory.Config config(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.Config#sequence(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> sequence(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> sequence(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.Config#string(java.lang.String)",
-      "signature": "abstract java.lang.String string(java.lang.String)"
+      "signature": "java.lang.String string(java.lang.String)"
     },
     {
       "key": "com.artipie.asto.factory.Config$StrictStorageConfig#config(java.lang.String)",
@@ -360,19 +360,19 @@
     },
     {
       "key": "com.artipie.asto.factory.FactoryLoader#defPackage()",
-      "signature": "abstract java.lang.String defPackage()"
+      "signature": "java.lang.String defPackage()"
     },
     {
       "key": "com.artipie.asto.factory.FactoryLoader#getFactoryName(java.lang.Class<?>)",
-      "signature": "abstract java.lang.String getFactoryName(java.lang.Class<?>)"
+      "signature": "java.lang.String getFactoryName(java.lang.Class<?>)"
     },
     {
       "key": "com.artipie.asto.factory.FactoryLoader#newObject(java.lang.String, C)",
-      "signature": "abstract O newObject(java.lang.String, C)"
+      "signature": "O newObject(java.lang.String, C)"
     },
     {
       "key": "com.artipie.asto.factory.FactoryLoader#scanPackagesEnv()",
-      "signature": "abstract java.lang.String scanPackagesEnv()"
+      "signature": "java.lang.String scanPackagesEnv()"
     },
     {
       "key": "com.artipie.asto.factory.StoragesLoader#defPackage()",
@@ -404,11 +404,11 @@
     },
     {
       "key": "com.artipie.asto.misc.Cleanable#invalidate(T)",
-      "signature": "abstract void invalidate(T)"
+      "signature": "void invalidate(T)"
     },
     {
       "key": "com.artipie.asto.misc.Cleanable#invalidateAll()",
-      "signature": "abstract void invalidateAll()"
+      "signature": "void invalidateAll()"
     },
     {
       "key": "com.artipie.asto.test.StorageWhiteboxVerification#deleteAll_shouldDeleteAllItemsWithKeyPrefix()",
@@ -548,14 +548,14 @@
     },
     {
       "key": "com.artipie.asto.test.StorageWhiteboxVerification$StorageConsumer#accept(org.apache.commons.lang3.tuple.ImmutablePair<java.lang.String, com.artipie.asto.Storage>)",
-      "signature": "abstract void accept(org.apache.commons.lang3.tuple.ImmutablePair<java.lang.String, com.artipie.asto.Storage>)"
+      "signature": "void accept(org.apache.commons.lang3.tuple.ImmutablePair<java.lang.String, com.artipie.asto.Storage>)"
     }
   ],
   "changed": [
     {
       "name": "com.artipie.asto.factory.StorageFactory#newStorage",
-      "old": "abstract com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)",
-      "new": "abstract com.artipie.asto.Storage newStorage(com.artipie.asto.factory.Config)",
+      "old": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.StorageConfig)",
+      "new": "com.artipie.asto.Storage newStorage(com.artipie.asto.factory.Config)",
       "old_key": "com.artipie.asto.factory.StorageFactory#newStorage(com.artipie.asto.factory.StorageConfig)",
       "new_key": "com.artipie.asto.factory.StorageFactory#newStorage(com.artipie.asto.factory.Config)"
     },
@@ -572,13 +572,87 @@
     "new_methods": 307,
     "removed": 72,
     "added": 65,
-    "changed": 2
+    "changed": 2,
+    "removed_classes": 20,
+    "added_classes": 10
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.artipie_asto-core_v1.13.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.artipie_asto-core_v1.15.4.jar",
+  "removed_classes": [
+    "com.artipie.asto.ArtipieStorage",
+    "com.artipie.asto.etcd.EtcdMeta",
+    "com.artipie.asto.etcd.EtcdStorage",
+    "com.artipie.asto.etcd.EtcdStorageFactory",
+    "com.artipie.asto.factory.StorageConfig",
+    "com.artipie.asto.factory.StorageConfig$StrictStorageConfig",
+    "com.artipie.asto.factory.StorageConfig$YamlStorageConfig",
+    "com.artipie.asto.factory.Storages",
+    "com.artipie.asto.fs.VertxFileStorage",
+    "com.artipie.asto.fs.VertxRxFile",
+    "com.artipie.asto.s3.Bucket",
+    "com.artipie.asto.s3.EstimatedContentCompliment",
+    "com.artipie.asto.s3.InternalExceptionHandle",
+    "com.artipie.asto.s3.MultipartUpload",
+    "com.artipie.asto.s3.MultipartUpload$UploadedPart",
+    "com.artipie.asto.s3.S3HeadMeta",
+    "com.artipie.asto.s3.S3Storage",
+    "com.artipie.asto.s3.S3Storage$ContentBody",
+    "com.artipie.asto.s3.S3Storage$ResponseAdapter",
+    "com.artipie.asto.s3.S3StorageFactory"
+  ],
+  "added_classes": [
+    "com.artipie.asto.Key$Base",
+    "com.artipie.asto.factory.Config",
+    "com.artipie.asto.factory.Config$StrictStorageConfig",
+    "com.artipie.asto.factory.Config$YamlStorageConfig",
+    "com.artipie.asto.factory.FactoryLoader",
+    "com.artipie.asto.factory.StoragesLoader",
+    "com.artipie.asto.misc.Cleanable",
+    "com.artipie.asto.test.StorageWhiteboxVerification",
+    "com.artipie.asto.test.StorageWhiteboxVerification$FakeOperation",
+    "com.artipie.asto.test.StorageWhiteboxVerification$StorageConsumer"
+  ],
+  "old_jar": "jar_cache/com.artipie_asto-core_v1.13.0.jar",
+  "new_jar": "jar_cache/com.artipie_asto-core_v1.15.4.jar",
   "group_id": "com.artipie",
   "artifact_id": "asto-core",
   "old_version": "v1.13.0",
   "new_version": "v1.15.4",
-  "project": "docker-adapter"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.adobe.testing:s3mock",
+        "com.adobe.testing:s3mock-junit5",
+        "com.artipie:http-client",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
+        "io.etcd:jetcd-core",
+        "io.vertx:vertx-core",
+        "io.vertx:vertx-reactive-streams",
+        "io.vertx:vertx-rx-java2",
+        "org.eclipse.jetty:jetty-http",
+        "software.amazon.awssdk:s3",
+        "wtf.g4s8:tuples"
+      ],
+      "added": [
+        "org.apache.commons:commons-lang3",
+        "org.junit.jupiter:junit-jupiter-params",
+        "org.testng:testng"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.amihaiemil.web:eo-yaml",
+          "old": "5.1.5",
+          "new": "7.0.1"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "docker-adapter"
+  ]
 }

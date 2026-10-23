@@ -246,19 +246,19 @@
     },
     {
       "key": "net.lingala.zip4j.crypto.IDecrypter#decryptData(byte[])",
-      "signature": "abstract int decryptData(byte[])"
+      "signature": "int decryptData(byte[])"
     },
     {
       "key": "net.lingala.zip4j.crypto.IDecrypter#decryptData(byte[], int, int)",
-      "signature": "abstract int decryptData(byte[], int, int)"
+      "signature": "int decryptData(byte[], int, int)"
     },
     {
       "key": "net.lingala.zip4j.crypto.IEncrypter#encryptData(byte[])",
-      "signature": "abstract int encryptData(byte[])"
+      "signature": "int encryptData(byte[])"
     },
     {
       "key": "net.lingala.zip4j.crypto.IEncrypter#encryptData(byte[], int, int)",
-      "signature": "abstract int encryptData(byte[], int, int)"
+      "signature": "int encryptData(byte[], int, int)"
     },
     {
       "key": "net.lingala.zip4j.crypto.PBKDF2.PBKDF2Engine#deriveKey(char[], int)",
@@ -1916,15 +1916,15 @@
     },
     {
       "key": "net.lingala.zip4j.crypto.Decrypter#decryptData(byte[], int, int)",
-      "signature": "abstract int decryptData(byte[], int, int)"
+      "signature": "int decryptData(byte[], int, int)"
     },
     {
       "key": "net.lingala.zip4j.crypto.Encrypter#encryptData(byte[])",
-      "signature": "abstract int encryptData(byte[])"
+      "signature": "int encryptData(byte[])"
     },
     {
       "key": "net.lingala.zip4j.crypto.Encrypter#encryptData(byte[], int, int)",
-      "signature": "abstract int encryptData(byte[], int, int)"
+      "signature": "int encryptData(byte[], int, int)"
     },
     {
       "key": "net.lingala.zip4j.headers.FileHeaderFactory#generateFileHeader(net.lingala.zip4j.model.ZipParameters, boolean, int, java.nio.charset.Charset, net.lingala.zip4j.util.RawIO)",
@@ -2192,7 +2192,7 @@
     },
     {
       "key": "net.lingala.zip4j.io.inputstream.SplitFileInputStream#prepareExtractionForFileHeader(net.lingala.zip4j.model.FileHeader)",
-      "signature": "abstract void prepareExtractionForFileHeader(net.lingala.zip4j.model.FileHeader)"
+      "signature": "void prepareExtractionForFileHeader(net.lingala.zip4j.model.FileHeader)"
     },
     {
       "key": "net.lingala.zip4j.io.inputstream.ZipEntryInputStream#close()",
@@ -2404,11 +2404,11 @@
     },
     {
       "key": "net.lingala.zip4j.io.outputstream.OutputStreamWithSplitZipSupport#getCurrentSplitFileCounter()",
-      "signature": "abstract int getCurrentSplitFileCounter()"
+      "signature": "int getCurrentSplitFileCounter()"
     },
     {
       "key": "net.lingala.zip4j.io.outputstream.OutputStreamWithSplitZipSupport#getFilePointer()",
-      "signature": "abstract long getFilePointer()"
+      "signature": "long getFilePointer()"
     },
     {
       "key": "net.lingala.zip4j.io.outputstream.SplitOutputStream#checkBufferSizeAndStartNextSplitFile(int)",
@@ -2760,7 +2760,7 @@
     },
     {
       "key": "net.lingala.zip4j.model.ExcludeFileFilter#isExcluded(java.io.File)",
-      "signature": "abstract boolean isExcluded(java.io.File)"
+      "signature": "boolean isExcluded(java.io.File)"
     },
     {
       "key": "net.lingala.zip4j.model.FileHeader#equals(java.lang.Object)",
@@ -3292,7 +3292,7 @@
     },
     {
       "key": "net.lingala.zip4j.util.PasswordCallback#getPassword()",
-      "signature": "abstract char[] getPassword()"
+      "signature": "char[] getPassword()"
     },
     {
       "key": "net.lingala.zip4j.util.RawIO#readIntLittleEndian(byte[])",
@@ -3524,13 +3524,157 @@
     "new_methods": 581,
     "removed": 416,
     "added": 438,
-    "changed": 14
+    "changed": 14,
+    "removed_classes": 28,
+    "added_classes": 88
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\net.lingala.zip4j_zip4j_1.3.2.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\net.lingala.zip4j_zip4j_2.11.1.jar",
+  "removed_classes": [
+    "net.lingala.zip4j.core.HeaderReader",
+    "net.lingala.zip4j.core.HeaderWriter",
+    "net.lingala.zip4j.core.ZipFile",
+    "net.lingala.zip4j.crypto.AESEncrpyter",
+    "net.lingala.zip4j.crypto.IDecrypter",
+    "net.lingala.zip4j.crypto.IEncrypter",
+    "net.lingala.zip4j.exception.ZipExceptionConstants",
+    "net.lingala.zip4j.io.BaseInputStream",
+    "net.lingala.zip4j.io.BaseOutputStream",
+    "net.lingala.zip4j.io.CipherOutputStream",
+    "net.lingala.zip4j.io.DeflaterOutputStream",
+    "net.lingala.zip4j.io.InflaterInputStream",
+    "net.lingala.zip4j.io.PartInputStream",
+    "net.lingala.zip4j.io.SplitOutputStream",
+    "net.lingala.zip4j.io.ZipInputStream",
+    "net.lingala.zip4j.io.ZipOutputStream",
+    "net.lingala.zip4j.model.EndCentralDirRecord",
+    "net.lingala.zip4j.model.UnzipEngineParameters",
+    "net.lingala.zip4j.model.Zip64EndCentralDirLocator",
+    "net.lingala.zip4j.model.Zip64EndCentralDirRecord",
+    "net.lingala.zip4j.unzip.Unzip",
+    "net.lingala.zip4j.unzip.UnzipEngine",
+    "net.lingala.zip4j.unzip.UnzipUtil",
+    "net.lingala.zip4j.util.ArchiveMaintainer",
+    "net.lingala.zip4j.util.CRCUtil",
+    "net.lingala.zip4j.util.Raw",
+    "net.lingala.zip4j.util.Zip4jConstants",
+    "net.lingala.zip4j.zip.ZipEngine"
+  ],
+  "added_classes": [
+    "net.lingala.zip4j.ZipFile",
+    "net.lingala.zip4j.crypto.AESEncrypter",
+    "net.lingala.zip4j.crypto.AesCipherUtil",
+    "net.lingala.zip4j.crypto.Decrypter",
+    "net.lingala.zip4j.crypto.Encrypter",
+    "net.lingala.zip4j.exception.ZipException$Type",
+    "net.lingala.zip4j.headers.FileHeaderFactory",
+    "net.lingala.zip4j.headers.HeaderReader",
+    "net.lingala.zip4j.headers.HeaderSignature",
+    "net.lingala.zip4j.headers.HeaderUtil",
+    "net.lingala.zip4j.headers.HeaderWriter",
+    "net.lingala.zip4j.headers.VersionMadeBy",
+    "net.lingala.zip4j.headers.VersionNeededToExtract",
+    "net.lingala.zip4j.io.inputstream.AesCipherInputStream",
+    "net.lingala.zip4j.io.inputstream.CipherInputStream",
+    "net.lingala.zip4j.io.inputstream.DecompressedInputStream",
+    "net.lingala.zip4j.io.inputstream.InflaterInputStream",
+    "net.lingala.zip4j.io.inputstream.NoCipherInputStream",
+    "net.lingala.zip4j.io.inputstream.NoCipherInputStream$NoDecrypter",
+    "net.lingala.zip4j.io.inputstream.NumberedSplitFileInputStream",
+    "net.lingala.zip4j.io.inputstream.NumberedSplitRandomAccessFile",
+    "net.lingala.zip4j.io.inputstream.SplitFileInputStream",
+    "net.lingala.zip4j.io.inputstream.StoreInputStream",
+    "net.lingala.zip4j.io.inputstream.ZipEntryInputStream",
+    "net.lingala.zip4j.io.inputstream.ZipInputStream",
+    "net.lingala.zip4j.io.inputstream.ZipStandardCipherInputStream",
+    "net.lingala.zip4j.io.inputstream.ZipStandardSplitFileInputStream",
+    "net.lingala.zip4j.io.outputstream.AesCipherOutputStream",
+    "net.lingala.zip4j.io.outputstream.CipherOutputStream",
+    "net.lingala.zip4j.io.outputstream.CompressedOutputStream",
+    "net.lingala.zip4j.io.outputstream.CountingOutputStream",
+    "net.lingala.zip4j.io.outputstream.DeflaterOutputStream",
+    "net.lingala.zip4j.io.outputstream.NoCipherOutputStream",
+    "net.lingala.zip4j.io.outputstream.NoCipherOutputStream$NoEncrypter",
+    "net.lingala.zip4j.io.outputstream.OutputStreamWithSplitZipSupport",
+    "net.lingala.zip4j.io.outputstream.SplitOutputStream",
+    "net.lingala.zip4j.io.outputstream.StoreOutputStream",
+    "net.lingala.zip4j.io.outputstream.ZipEntryOutputStream",
+    "net.lingala.zip4j.io.outputstream.ZipOutputStream",
+    "net.lingala.zip4j.io.outputstream.ZipStandardCipherOutputStream",
+    "net.lingala.zip4j.model.AbstractFileHeader",
+    "net.lingala.zip4j.model.EndOfCentralDirectoryRecord",
+    "net.lingala.zip4j.model.ExcludeFileFilter",
+    "net.lingala.zip4j.model.Zip4jConfig",
+    "net.lingala.zip4j.model.Zip64EndOfCentralDirectoryLocator",
+    "net.lingala.zip4j.model.Zip64EndOfCentralDirectoryRecord",
+    "net.lingala.zip4j.model.ZipHeader",
+    "net.lingala.zip4j.model.ZipParameters$SymbolicLinkAction",
+    "net.lingala.zip4j.model.enums.AesKeyStrength",
+    "net.lingala.zip4j.model.enums.AesVersion",
+    "net.lingala.zip4j.model.enums.CompressionLevel",
+    "net.lingala.zip4j.model.enums.CompressionMethod",
+    "net.lingala.zip4j.model.enums.EncryptionMethod",
+    "net.lingala.zip4j.model.enums.RandomAccessFileMode",
+    "net.lingala.zip4j.progress.ProgressMonitor$Result",
+    "net.lingala.zip4j.progress.ProgressMonitor$State",
+    "net.lingala.zip4j.progress.ProgressMonitor$Task",
+    "net.lingala.zip4j.tasks.AbstractAddFileToZipTask",
+    "net.lingala.zip4j.tasks.AbstractExtractFileTask",
+    "net.lingala.zip4j.tasks.AbstractModifyFileTask",
+    "net.lingala.zip4j.tasks.AbstractZipTaskParameters",
+    "net.lingala.zip4j.tasks.AddFilesToZipTask",
+    "net.lingala.zip4j.tasks.AddFilesToZipTask$AddFilesToZipTaskParameters",
+    "net.lingala.zip4j.tasks.AddFolderToZipTask",
+    "net.lingala.zip4j.tasks.AddFolderToZipTask$AddFolderToZipTaskParameters",
+    "net.lingala.zip4j.tasks.AddStreamToZipTask",
+    "net.lingala.zip4j.tasks.AddStreamToZipTask$AddStreamToZipTaskParameters",
+    "net.lingala.zip4j.tasks.AsyncZipTask",
+    "net.lingala.zip4j.tasks.AsyncZipTask$AsyncTaskParameters",
+    "net.lingala.zip4j.tasks.ExtractAllFilesTask",
+    "net.lingala.zip4j.tasks.ExtractAllFilesTask$ExtractAllFilesTaskParameters",
+    "net.lingala.zip4j.tasks.ExtractFileTask",
+    "net.lingala.zip4j.tasks.ExtractFileTask$ExtractFileTaskParameters",
+    "net.lingala.zip4j.tasks.MergeSplitZipFileTask",
+    "net.lingala.zip4j.tasks.MergeSplitZipFileTask$MergeSplitZipFileTaskParameters",
+    "net.lingala.zip4j.tasks.RemoveFilesFromZipTask",
+    "net.lingala.zip4j.tasks.RemoveFilesFromZipTask$RemoveFilesFromZipTaskParameters",
+    "net.lingala.zip4j.tasks.RenameFilesTask",
+    "net.lingala.zip4j.tasks.RenameFilesTask$RenameFilesTaskParameters",
+    "net.lingala.zip4j.tasks.SetCommentTask",
+    "net.lingala.zip4j.tasks.SetCommentTask$SetCommentTaskTaskParameters",
+    "net.lingala.zip4j.util.BitUtils",
+    "net.lingala.zip4j.util.CrcUtil",
+    "net.lingala.zip4j.util.FileUtils",
+    "net.lingala.zip4j.util.PasswordCallback",
+    "net.lingala.zip4j.util.RawIO",
+    "net.lingala.zip4j.util.UnzipUtil",
+    "net.lingala.zip4j.util.ZipVersionUtils"
+  ],
+  "old_jar": "jar_cache/net.lingala.zip4j_zip4j_1.3.2.jar",
+  "new_jar": "jar_cache/net.lingala.zip4j_zip4j_2.11.1.jar",
   "group_id": "net.lingala.zip4j",
   "artifact_id": "zip4j",
   "old_version": "1.3.2",
   "new_version": "2.11.1",
-  "project": "allure-maven"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "junit:junit",
+        "org.assertj:assertj-core",
+        "org.mockito:mockito-core",
+        "org.powermock:powermock-api-mockito2",
+        "org.powermock:powermock-module-junit4"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "allure-maven"
+  ]
 }

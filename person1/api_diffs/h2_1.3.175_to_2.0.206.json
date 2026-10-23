@@ -282,11 +282,11 @@
     },
     {
       "key": "org.h2.command.dml.Query#addGlobalCondition(org.h2.expression.Parameter, int, int)",
-      "signature": "abstract void addGlobalCondition(org.h2.expression.Parameter, int, int)"
+      "signature": "void addGlobalCondition(org.h2.expression.Parameter, int, int)"
     },
     {
       "key": "org.h2.command.dml.Query#allowGlobalConditions()",
-      "signature": "abstract boolean allowGlobalConditions()"
+      "signature": "boolean allowGlobalConditions()"
     },
     {
       "key": "org.h2.command.dml.Query#disableCache()",
@@ -294,15 +294,15 @@
     },
     {
       "key": "org.h2.command.dml.Query#fireBeforeSelectTriggers()",
-      "signature": "abstract void fireBeforeSelectTriggers()"
+      "signature": "void fireBeforeSelectTriggers()"
     },
     {
       "key": "org.h2.command.dml.Query#getColumnCount()",
-      "signature": "abstract int getColumnCount()"
+      "signature": "int getColumnCount()"
     },
     {
       "key": "org.h2.command.dml.Query#getCost()",
-      "signature": "abstract double getCost()"
+      "signature": "double getCost()"
     },
     {
       "key": "org.h2.command.dml.Query#getCostAsExpression()",
@@ -310,7 +310,7 @@
     },
     {
       "key": "org.h2.command.dml.Query#getExpressions()",
-      "signature": "abstract java.util.ArrayList<org.h2.expression.Expression> getExpressions()"
+      "signature": "java.util.ArrayList<org.h2.expression.Expression> getExpressions()"
     },
     {
       "key": "org.h2.command.dml.Query#getLimit()",
@@ -330,11 +330,11 @@
     },
     {
       "key": "org.h2.command.dml.Query#getTables()",
-      "signature": "abstract java.util.HashSet<org.h2.table.Table> getTables()"
+      "signature": "java.util.HashSet<org.h2.table.Table> getTables()"
     },
     {
       "key": "org.h2.command.dml.Query#init()",
-      "signature": "abstract void init()"
+      "signature": "void init()"
     },
     {
       "key": "org.h2.command.dml.Query#isDistinct()",
@@ -342,7 +342,7 @@
     },
     {
       "key": "org.h2.command.dml.Query#isEverything(org.h2.expression.ExpressionVisitor)",
-      "signature": "abstract boolean isEverything(org.h2.expression.ExpressionVisitor)"
+      "signature": "boolean isEverything(org.h2.expression.ExpressionVisitor)"
     },
     {
       "key": "org.h2.command.dml.Query#isQuery()",
@@ -354,7 +354,7 @@
     },
     {
       "key": "org.h2.command.dml.Query#mapColumns(org.h2.table.ColumnResolver, int)",
-      "signature": "abstract void mapColumns(org.h2.table.ColumnResolver, int)"
+      "signature": "void mapColumns(org.h2.table.ColumnResolver, int)"
     },
     {
       "key": "org.h2.command.dml.Query#prepareOrder(java.util.ArrayList<org.h2.command.dml.SelectOrderBy>, int)",
@@ -370,11 +370,11 @@
     },
     {
       "key": "org.h2.command.dml.Query#setEvaluatable(org.h2.table.TableFilter, boolean)",
-      "signature": "abstract void setEvaluatable(org.h2.table.TableFilter, boolean)"
+      "signature": "void setEvaluatable(org.h2.table.TableFilter, boolean)"
     },
     {
       "key": "org.h2.command.dml.Query#setForUpdate(boolean)",
-      "signature": "abstract void setForUpdate(boolean)"
+      "signature": "void setForUpdate(boolean)"
     },
     {
       "key": "org.h2.command.dml.Query#setLimit(org.h2.expression.Expression)",
@@ -386,7 +386,7 @@
     },
     {
       "key": "org.h2.command.dml.Query#setOrder(java.util.ArrayList<org.h2.command.dml.SelectOrderBy>)",
-      "signature": "abstract void setOrder(java.util.ArrayList<org.h2.command.dml.SelectOrderBy>)"
+      "signature": "void setOrder(java.util.ArrayList<org.h2.command.dml.SelectOrderBy>)"
     },
     {
       "key": "org.h2.command.dml.Query#setRandomAccessResult(boolean)",
@@ -398,7 +398,7 @@
     },
     {
       "key": "org.h2.command.dml.Query#updateAggregate(org.h2.engine.Session)",
-      "signature": "abstract void updateAggregate(org.h2.engine.Session)"
+      "signature": "void updateAggregate(org.h2.engine.Session)"
     },
     {
       "key": "org.h2.command.dml.Replace#addRow(org.h2.expression.Expression[])",
@@ -942,7 +942,7 @@
     },
     {
       "key": "org.h2.constraint.Constraint#getConstraintType()",
-      "signature": "abstract java.lang.String getConstraintType()"
+      "signature": "java.lang.String getConstraintType()"
     },
     {
       "key": "org.h2.constraint.Constraint#getDropSQL()",
@@ -950,7 +950,7 @@
     },
     {
       "key": "org.h2.constraint.Constraint#getUniqueIndex()",
-      "signature": "abstract org.h2.index.Index getUniqueIndex()"
+      "signature": "org.h2.index.Index getUniqueIndex()"
     },
     {
       "key": "org.h2.constraint.ConstraintCheck#getConstraintType()",
@@ -1138,7 +1138,7 @@
     },
     {
       "key": "org.h2.engine.DbObjectBase#checkRename()",
-      "signature": "abstract void checkRename()"
+      "signature": "void checkRename()"
     },
     {
       "key": "org.h2.engine.DbObjectBase#getChildren()",
@@ -1150,7 +1150,7 @@
     },
     {
       "key": "org.h2.engine.DbObjectBase#getCreateSQL()",
-      "signature": "abstract java.lang.String getCreateSQL()"
+      "signature": "java.lang.String getCreateSQL()"
     },
     {
       "key": "org.h2.engine.DbObjectBase#getDatabase()",
@@ -1158,7 +1158,7 @@
     },
     {
       "key": "org.h2.engine.DbObjectBase#getDropSQL()",
-      "signature": "abstract java.lang.String getDropSQL()"
+      "signature": "java.lang.String getDropSQL()"
     },
     {
       "key": "org.h2.engine.DbObjectBase#getId()",
@@ -1182,7 +1182,7 @@
     },
     {
       "key": "org.h2.engine.DbObjectBase#removeChildrenAndResources(org.h2.engine.Session)",
-      "signature": "abstract void removeChildrenAndResources(org.h2.engine.Session)"
+      "signature": "void removeChildrenAndResources(org.h2.engine.Session)"
     },
     {
       "key": "org.h2.engine.DbObjectBase#rename(java.lang.String)",
@@ -1686,67 +1686,67 @@
     },
     {
       "key": "org.h2.engine.SessionFactory#createSession(org.h2.engine.ConnectionInfo)",
-      "signature": "abstract org.h2.engine.SessionInterface createSession(org.h2.engine.ConnectionInfo)"
+      "signature": "org.h2.engine.SessionInterface createSession(org.h2.engine.ConnectionInfo)"
     },
     {
       "key": "org.h2.engine.SessionInterface#addTemporaryLob(org.h2.value.Value)",
-      "signature": "abstract void addTemporaryLob(org.h2.value.Value)"
+      "signature": "void addTemporaryLob(org.h2.value.Value)"
     },
     {
       "key": "org.h2.engine.SessionInterface#afterWriting()",
-      "signature": "abstract void afterWriting()"
+      "signature": "void afterWriting()"
     },
     {
       "key": "org.h2.engine.SessionInterface#cancel()",
-      "signature": "abstract void cancel()"
+      "signature": "void cancel()"
     },
     {
       "key": "org.h2.engine.SessionInterface#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.h2.engine.SessionInterface#getAutoCommit()",
-      "signature": "abstract boolean getAutoCommit()"
+      "signature": "boolean getAutoCommit()"
     },
     {
       "key": "org.h2.engine.SessionInterface#getDataHandler()",
-      "signature": "abstract org.h2.store.DataHandler getDataHandler()"
+      "signature": "org.h2.store.DataHandler getDataHandler()"
     },
     {
       "key": "org.h2.engine.SessionInterface#getPowerOffCount()",
-      "signature": "abstract int getPowerOffCount()"
+      "signature": "int getPowerOffCount()"
     },
     {
       "key": "org.h2.engine.SessionInterface#getTrace()",
-      "signature": "abstract org.h2.message.Trace getTrace()"
+      "signature": "org.h2.message.Trace getTrace()"
     },
     {
       "key": "org.h2.engine.SessionInterface#hasPendingTransaction()",
-      "signature": "abstract boolean hasPendingTransaction()"
+      "signature": "boolean hasPendingTransaction()"
     },
     {
       "key": "org.h2.engine.SessionInterface#isClosed()",
-      "signature": "abstract boolean isClosed()"
+      "signature": "boolean isClosed()"
     },
     {
       "key": "org.h2.engine.SessionInterface#isReconnectNeeded(boolean)",
-      "signature": "abstract boolean isReconnectNeeded(boolean)"
+      "signature": "boolean isReconnectNeeded(boolean)"
     },
     {
       "key": "org.h2.engine.SessionInterface#prepareCommand(java.lang.String, int)",
-      "signature": "abstract org.h2.command.CommandInterface prepareCommand(java.lang.String, int)"
+      "signature": "org.h2.command.CommandInterface prepareCommand(java.lang.String, int)"
     },
     {
       "key": "org.h2.engine.SessionInterface#reconnect(boolean)",
-      "signature": "abstract org.h2.engine.SessionInterface reconnect(boolean)"
+      "signature": "org.h2.engine.SessionInterface reconnect(boolean)"
     },
     {
       "key": "org.h2.engine.SessionInterface#setAutoCommit(boolean)",
-      "signature": "abstract void setAutoCommit(boolean)"
+      "signature": "void setAutoCommit(boolean)"
     },
     {
       "key": "org.h2.engine.SessionInterface#setPowerOffCount(int)",
-      "signature": "abstract void setPowerOffCount(int)"
+      "signature": "void setPowerOffCount(int)"
     },
     {
       "key": "org.h2.engine.SessionRemote#afterWriting()",
@@ -2426,7 +2426,7 @@
     },
     {
       "key": "org.h2.expression.Expression#getDisplaySize()",
-      "signature": "abstract int getDisplaySize()"
+      "signature": "int getDisplaySize()"
     },
     {
       "key": "org.h2.expression.Expression#getExpressionColumns(org.h2.engine.Session)",
@@ -2438,11 +2438,11 @@
     },
     {
       "key": "org.h2.expression.Expression#getPrecision()",
-      "signature": "abstract long getPrecision()"
+      "signature": "long getPrecision()"
     },
     {
       "key": "org.h2.expression.Expression#getScale()",
-      "signature": "abstract int getScale()"
+      "signature": "int getScale()"
     },
     {
       "key": "org.h2.expression.Expression#isAutoIncrement()",
@@ -2590,39 +2590,39 @@
     },
     {
       "key": "org.h2.expression.FunctionCall#getArgs()",
-      "signature": "abstract org.h2.expression.Expression[] getArgs()"
+      "signature": "org.h2.expression.Expression[] getArgs()"
     },
     {
       "key": "org.h2.expression.FunctionCall#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.h2.expression.FunctionCall#getParameterCount()",
-      "signature": "abstract int getParameterCount()"
+      "signature": "int getParameterCount()"
     },
     {
       "key": "org.h2.expression.FunctionCall#getSQL()",
-      "signature": "abstract java.lang.String getSQL()"
+      "signature": "java.lang.String getSQL()"
     },
     {
       "key": "org.h2.expression.FunctionCall#getType()",
-      "signature": "abstract int getType()"
+      "signature": "int getType()"
     },
     {
       "key": "org.h2.expression.FunctionCall#getValueForColumnList(org.h2.engine.Session, org.h2.expression.Expression[])",
-      "signature": "abstract org.h2.value.ValueResultSet getValueForColumnList(org.h2.engine.Session, org.h2.expression.Expression[])"
+      "signature": "org.h2.value.ValueResultSet getValueForColumnList(org.h2.engine.Session, org.h2.expression.Expression[])"
     },
     {
       "key": "org.h2.expression.FunctionCall#isBufferResultSetToLocalTemp()",
-      "signature": "abstract boolean isBufferResultSetToLocalTemp()"
+      "signature": "boolean isBufferResultSetToLocalTemp()"
     },
     {
       "key": "org.h2.expression.FunctionCall#isDeterministic()",
-      "signature": "abstract boolean isDeterministic()"
+      "signature": "boolean isDeterministic()"
     },
     {
       "key": "org.h2.expression.FunctionCall#optimize(org.h2.engine.Session)",
-      "signature": "abstract org.h2.expression.Expression optimize(org.h2.engine.Session)"
+      "signature": "org.h2.expression.Expression optimize(org.h2.engine.Session)"
     },
     {
       "key": "org.h2.expression.JavaAggregate#getCost()",
@@ -2830,11 +2830,11 @@
     },
     {
       "key": "org.h2.expression.ParameterInterface#getPrecision()",
-      "signature": "abstract long getPrecision()"
+      "signature": "long getPrecision()"
     },
     {
       "key": "org.h2.expression.ParameterInterface#getScale()",
-      "signature": "abstract int getScale()"
+      "signature": "int getScale()"
     },
     {
       "key": "org.h2.expression.ParameterRemote#getPrecision()",
@@ -3294,19 +3294,19 @@
     },
     {
       "key": "org.h2.index.Index#commit(int, org.h2.result.Row)",
-      "signature": "abstract void commit(int, org.h2.result.Row)"
+      "signature": "void commit(int, org.h2.result.Row)"
     },
     {
       "key": "org.h2.index.Index#find(org.h2.table.TableFilter, org.h2.result.SearchRow, org.h2.result.SearchRow)",
-      "signature": "abstract org.h2.index.Cursor find(org.h2.table.TableFilter, org.h2.result.SearchRow, org.h2.result.SearchRow)"
+      "signature": "org.h2.index.Cursor find(org.h2.table.TableFilter, org.h2.result.SearchRow, org.h2.result.SearchRow)"
     },
     {
       "key": "org.h2.index.Index#remove(org.h2.engine.Session, org.h2.result.Row)",
-      "signature": "abstract void remove(org.h2.engine.Session, org.h2.result.Row)"
+      "signature": "void remove(org.h2.engine.Session, org.h2.result.Row)"
     },
     {
       "key": "org.h2.index.Index#setSortedInsertMode(boolean)",
-      "signature": "abstract void setSortedInsertMode(boolean)"
+      "signature": "void setSortedInsertMode(boolean)"
     },
     {
       "key": "org.h2.index.LinkedIndex#canGetFirstOrLast()",
@@ -4042,7 +4042,7 @@
     },
     {
       "key": "org.h2.index.PageIndex#writeRowCount()",
-      "signature": "abstract void writeRowCount()"
+      "signature": "void writeRowCount()"
     },
     {
       "key": "org.h2.index.RangeIndex#add(org.h2.engine.Session, org.h2.result.Row)",
@@ -4470,23 +4470,23 @@
     },
     {
       "key": "org.h2.jmx.DatabaseInfoMBean#getFileWriteCountTotal()",
-      "signature": "abstract long getFileWriteCountTotal()"
+      "signature": "long getFileWriteCountTotal()"
     },
     {
       "key": "org.h2.jmx.DatabaseInfoMBean#getLogMode()",
-      "signature": "abstract int getLogMode()"
+      "signature": "int getLogMode()"
     },
     {
       "key": "org.h2.jmx.DatabaseInfoMBean#isMultiThreaded()",
-      "signature": "abstract boolean isMultiThreaded()"
+      "signature": "boolean isMultiThreaded()"
     },
     {
       "key": "org.h2.jmx.DatabaseInfoMBean#isMvcc()",
-      "signature": "abstract boolean isMvcc()"
+      "signature": "boolean isMvcc()"
     },
     {
       "key": "org.h2.jmx.DatabaseInfoMBean#setLogMode(int)",
-      "signature": "abstract void setLogMode(int)"
+      "signature": "void setLogMode(int)"
     },
     {
       "key": "org.h2.message.DbException#convertToIOException(java.lang.Throwable)",
@@ -4846,7 +4846,7 @@
     },
     {
       "key": "org.h2.mvstore.db.TransactionStore$Transaction#removeMap(org.h2.mvstore.db.TransactionStore$TransactionMap<K, V>)",
-      "signature": "<K, V> void removeMap(org.h2.mvstore.db.TransactionStore$TransactionMap<K, V>)"
+      "signature": "void removeMap(org.h2.mvstore.db.TransactionStore$TransactionMap<K, V>)"
     },
     {
       "key": "org.h2.mvstore.db.TransactionStore$Transaction#rollback()",
@@ -4986,7 +4986,7 @@
     },
     {
       "key": "org.h2.mvstore.rtree.MVRTreeMap#create(int, org.h2.mvstore.type.DataType)",
-      "signature": "<V> org.h2.mvstore.rtree.MVRTreeMap<V> create(int, org.h2.mvstore.type.DataType)"
+      "signature": "org.h2.mvstore.rtree.MVRTreeMap<V> create(int, org.h2.mvstore.type.DataType)"
     },
     {
       "key": "org.h2.mvstore.rtree.MVRTreeMap$RTreeCursor#remove()",
@@ -5098,23 +5098,23 @@
     },
     {
       "key": "org.h2.result.ResultExternal#done()",
-      "signature": "abstract void done()"
+      "signature": "void done()"
     },
     {
       "key": "org.h2.result.ResultInterface#getColumnPrecision(int)",
-      "signature": "abstract long getColumnPrecision(int)"
+      "signature": "long getColumnPrecision(int)"
     },
     {
       "key": "org.h2.result.ResultInterface#getColumnScale(int)",
-      "signature": "abstract int getColumnScale(int)"
+      "signature": "int getColumnScale(int)"
     },
     {
       "key": "org.h2.result.ResultInterface#getDisplaySize(int)",
-      "signature": "abstract int getDisplaySize(int)"
+      "signature": "int getDisplaySize(int)"
     },
     {
       "key": "org.h2.result.ResultInterface#isAutoIncrement(int)",
-      "signature": "abstract boolean isAutoIncrement(int)"
+      "signature": "boolean isAutoIncrement(int)"
     },
     {
       "key": "org.h2.result.ResultRemote#currentRow()",
@@ -5286,11 +5286,11 @@
     },
     {
       "key": "org.h2.result.SearchRow#getVersion()",
-      "signature": "abstract int getVersion()"
+      "signature": "int getVersion()"
     },
     {
       "key": "org.h2.result.SearchRow#setKeyAndVersion(org.h2.result.SearchRow)",
-      "signature": "abstract void setKeyAndVersion(org.h2.result.SearchRow)"
+      "signature": "void setKeyAndVersion(org.h2.result.SearchRow)"
     },
     {
       "key": "org.h2.result.SimpleRow#getColumnCount()",
@@ -5534,11 +5534,11 @@
     },
     {
       "key": "org.h2.store.DataHandler#getJavaObjectSerializer()",
-      "signature": "abstract org.h2.api.JavaObjectSerializer getJavaObjectSerializer()"
+      "signature": "org.h2.api.JavaObjectSerializer getJavaObjectSerializer()"
     },
     {
       "key": "org.h2.store.DataHandler#getLobCompressionAlgorithm(int)",
-      "signature": "abstract java.lang.String getLobCompressionAlgorithm(int)"
+      "signature": "java.lang.String getLobCompressionAlgorithm(int)"
     },
     {
       "key": "org.h2.store.DataReader#readFully(byte[], int, int)",
@@ -5630,7 +5630,7 @@
     },
     {
       "key": "org.h2.store.LobStorageInterface#setTable(long, int)",
-      "signature": "abstract void setTable(long, int)"
+      "signature": "void setTable(long, int)"
     },
     {
       "key": "org.h2.store.LobStorageRemoteInputStream#skip(long)",
@@ -5642,19 +5642,19 @@
     },
     {
       "key": "org.h2.store.Page#insert(T[], int, int, T)",
-      "signature": "<T> T[] insert(T[], int, int, T)"
+      "signature": "T[] insert(T[], int, int, T)"
     },
     {
       "key": "org.h2.store.Page#moveTo(org.h2.engine.Session, int)",
-      "signature": "abstract void moveTo(org.h2.engine.Session, int)"
+      "signature": "void moveTo(org.h2.engine.Session, int)"
     },
     {
       "key": "org.h2.store.Page#remove(T[], int, int)",
-      "signature": "<T> T[] remove(T[], int, int)"
+      "signature": "T[] remove(T[], int, int)"
     },
     {
       "key": "org.h2.store.Page#write()",
-      "signature": "abstract void write()"
+      "signature": "void write()"
     },
     {
       "key": "org.h2.store.PageFreeList#canMove()",
@@ -6014,27 +6014,27 @@
     },
     {
       "key": "org.h2.store.fs.FileBase#position()",
-      "signature": "abstract long position()"
+      "signature": "long position()"
     },
     {
       "key": "org.h2.store.fs.FileBase#position(long)",
-      "signature": "abstract java.nio.channels.FileChannel position(long)"
+      "signature": "java.nio.channels.FileChannel position(long)"
     },
     {
       "key": "org.h2.store.fs.FileBase#read(java.nio.ByteBuffer)",
-      "signature": "abstract int read(java.nio.ByteBuffer)"
+      "signature": "int read(java.nio.ByteBuffer)"
     },
     {
       "key": "org.h2.store.fs.FileBase#size()",
-      "signature": "abstract long size()"
+      "signature": "long size()"
     },
     {
       "key": "org.h2.store.fs.FileBase#truncate(long)",
-      "signature": "abstract java.nio.channels.FileChannel truncate(long)"
+      "signature": "java.nio.channels.FileChannel truncate(long)"
     },
     {
       "key": "org.h2.store.fs.FileBase#write(java.nio.ByteBuffer)",
-      "signature": "abstract int write(java.nio.ByteBuffer)"
+      "signature": "int write(java.nio.ByteBuffer)"
     },
     {
       "key": "org.h2.store.fs.FileChannelOutputStream#close()",
@@ -7354,7 +7354,7 @@
     },
     {
       "key": "org.h2.table.Table#getUniqueIndex()",
-      "signature": "abstract org.h2.index.Index getUniqueIndex()"
+      "signature": "org.h2.index.Index getUniqueIndex()"
     },
     {
       "key": "org.h2.table.Table#getViews()",
@@ -7766,27 +7766,27 @@
     },
     {
       "key": "org.h2.util.New#arrayList()",
-      "signature": "<T> java.util.ArrayList<T> arrayList()"
+      "signature": "java.util.ArrayList<T> arrayList()"
     },
     {
       "key": "org.h2.util.New#arrayList(int)",
-      "signature": "<T> java.util.ArrayList<T> arrayList(int)"
+      "signature": "java.util.ArrayList<T> arrayList(int)"
     },
     {
       "key": "org.h2.util.New#arrayList(java.util.Collection<T>)",
-      "signature": "<T> java.util.ArrayList<T> arrayList(java.util.Collection<T>)"
+      "signature": "java.util.ArrayList<T> arrayList(java.util.Collection<T>)"
     },
     {
       "key": "org.h2.util.New#hashMap()",
-      "signature": "<K, V> java.util.HashMap<K, V> hashMap()"
+      "signature": "java.util.HashMap<K, V> hashMap()"
     },
     {
       "key": "org.h2.util.New#hashMap(int)",
-      "signature": "<K, V> java.util.HashMap<K, V> hashMap(int)"
+      "signature": "java.util.HashMap<K, V> hashMap(int)"
     },
     {
       "key": "org.h2.util.New#hashSet()",
-      "signature": "<T> java.util.HashSet<T> hashSet()"
+      "signature": "java.util.HashSet<T> hashSet()"
     },
     {
       "key": "org.h2.util.SoftHashMap#clear()",
@@ -7962,7 +7962,7 @@
     },
     {
       "key": "org.h2.util.ValueHashMap#newInstance()",
-      "signature": "<T> org.h2.util.ValueHashMap<T> newInstance()"
+      "signature": "org.h2.util.ValueHashMap<T> newInstance()"
     },
     {
       "key": "org.h2.util.ValueHashMap#put(org.h2.value.Value, V)",
@@ -8054,15 +8054,15 @@
     },
     {
       "key": "org.h2.value.Value#getDisplaySize()",
-      "signature": "abstract int getDisplaySize()"
+      "signature": "int getDisplaySize()"
     },
     {
       "key": "org.h2.value.Value#getObject()",
-      "signature": "abstract java.lang.Object getObject()"
+      "signature": "java.lang.Object getObject()"
     },
     {
       "key": "org.h2.value.Value#getPrecision()",
-      "signature": "abstract long getPrecision()"
+      "signature": "long getPrecision()"
     },
     {
       "key": "org.h2.value.Value#getResultSet()",
@@ -8070,7 +8070,7 @@
     },
     {
       "key": "org.h2.value.Value#getSQL()",
-      "signature": "abstract java.lang.String getSQL()"
+      "signature": "java.lang.String getSQL()"
     },
     {
       "key": "org.h2.value.Value#getScale()",
@@ -8106,7 +8106,7 @@
     },
     {
       "key": "org.h2.value.Value#set(java.sql.PreparedStatement, int)",
-      "signature": "abstract void set(java.sql.PreparedStatement, int)"
+      "signature": "void set(java.sql.PreparedStatement, int)"
     },
     {
       "key": "org.h2.value.Value#unlink(org.h2.store.DataHandler)",
@@ -9336,23 +9336,23 @@
     },
     {
       "key": "org.h2.api.Aggregate#add(java.lang.Object)",
-      "signature": "abstract void add(java.lang.Object)"
+      "signature": "void add(java.lang.Object)"
     },
     {
       "key": "org.h2.api.Aggregate#getInternalType(int[])",
-      "signature": "abstract int getInternalType(int[])"
+      "signature": "int getInternalType(int[])"
     },
     {
       "key": "org.h2.api.Aggregate#getResult()",
-      "signature": "abstract java.lang.Object getResult()"
+      "signature": "java.lang.Object getResult()"
     },
     {
       "key": "org.h2.api.Aggregate#init(java.sql.Connection)",
-      "signature": "default void init(java.sql.Connection)"
+      "signature": "void init(java.sql.Connection)"
     },
     {
       "key": "org.h2.api.CredentialsValidator#validateCredentials(org.h2.security.auth.AuthenticationInfo)",
-      "signature": "abstract boolean validateCredentials(org.h2.security.auth.AuthenticationInfo)"
+      "signature": "boolean validateCredentials(org.h2.security.auth.AuthenticationInfo)"
     },
     {
       "key": "org.h2.api.ErrorCode#getState(int)",
@@ -9580,7 +9580,7 @@
     },
     {
       "key": "org.h2.api.UserToRolesMapper#mapUserToRoles(org.h2.security.auth.AuthenticationInfo)",
-      "signature": "abstract java.util.Collection<java.lang.String> mapUserToRoles(org.h2.security.auth.AuthenticationInfo)"
+      "signature": "java.util.Collection<java.lang.String> mapUserToRoles(org.h2.security.auth.AuthenticationInfo)"
     },
     {
       "key": "org.h2.bnf.Bnf#addAlias(java.lang.String, java.lang.String)",
@@ -9596,11 +9596,11 @@
     },
     {
       "key": "org.h2.bnf.BnfVisitor#visitRuleExtension(org.h2.bnf.Rule, boolean)",
-      "signature": "abstract void visitRuleExtension(org.h2.bnf.Rule, boolean)"
+      "signature": "void visitRuleExtension(org.h2.bnf.Rule, boolean)"
     },
     {
       "key": "org.h2.bnf.BnfVisitor#visitRuleOptional(java.util.ArrayList<org.h2.bnf.Rule>)",
-      "signature": "abstract void visitRuleOptional(java.util.ArrayList<org.h2.bnf.Rule>)"
+      "signature": "void visitRuleOptional(java.util.ArrayList<org.h2.bnf.Rule>)"
     },
     {
       "key": "org.h2.bnf.RuleElement#toString()",
@@ -9652,7 +9652,7 @@
     },
     {
       "key": "org.h2.command.Command#getDependencies()",
-      "signature": "abstract java.util.Set<org.h2.engine.DbObject> getDependencies()"
+      "signature": "java.util.Set<org.h2.engine.DbObject> getDependencies()"
     },
     {
       "key": "org.h2.command.Command#setCanReuse(boolean)",
@@ -9688,7 +9688,7 @@
     },
     {
       "key": "org.h2.command.CommandInterface#stop()",
-      "signature": "abstract void stop()"
+      "signature": "void stop()"
     },
     {
       "key": "org.h2.command.CommandList#getDependencies()",
@@ -9960,7 +9960,7 @@
     },
     {
       "key": "org.h2.command.ddl.CommandWithColumns#addColumn(org.h2.table.Column)",
-      "signature": "abstract void addColumn(org.h2.table.Column)"
+      "signature": "void addColumn(org.h2.table.Column)"
     },
     {
       "key": "org.h2.command.ddl.CommandWithColumns#addConstraintCommand(org.h2.command.ddl.DefineCommand)",
@@ -10196,11 +10196,11 @@
     },
     {
       "key": "org.h2.command.dml.DataChangeStatement#getStatementName()",
-      "signature": "abstract java.lang.String getStatementName()"
+      "signature": "java.lang.String getStatementName()"
     },
     {
       "key": "org.h2.command.dml.DataChangeStatement#getTable()",
-      "signature": "abstract org.h2.table.Table getTable()"
+      "signature": "org.h2.table.Table getTable()"
     },
     {
       "key": "org.h2.command.dml.DataChangeStatement#isCacheable()",
@@ -10220,7 +10220,7 @@
     },
     {
       "key": "org.h2.command.dml.DataChangeStatement#update(org.h2.result.ResultTarget, org.h2.table.DataChangeDeltaTable$ResultOption)",
-      "signature": "abstract long update(org.h2.result.ResultTarget, org.h2.table.DataChangeDeltaTable$ResultOption)"
+      "signature": "long update(org.h2.result.ResultTarget, org.h2.table.DataChangeDeltaTable$ResultOption)"
     },
     {
       "key": "org.h2.command.dml.Delete#collectDependencies(java.util.HashSet<org.h2.engine.DbObject>)",
@@ -10532,11 +10532,11 @@
     },
     {
       "key": "org.h2.command.query.Query#addGlobalCondition(org.h2.expression.Parameter, int, int)",
-      "signature": "abstract void addGlobalCondition(org.h2.expression.Parameter, int, int)"
+      "signature": "void addGlobalCondition(org.h2.expression.Parameter, int, int)"
     },
     {
       "key": "org.h2.command.query.Query#allowGlobalConditions()",
-      "signature": "abstract boolean allowGlobalConditions()"
+      "signature": "boolean allowGlobalConditions()"
     },
     {
       "key": "org.h2.command.query.Query#collectDependencies(java.util.HashSet<org.h2.engine.DbObject>)",
@@ -10552,7 +10552,7 @@
     },
     {
       "key": "org.h2.command.query.Query#fireBeforeSelectTriggers()",
-      "signature": "abstract void fireBeforeSelectTriggers()"
+      "signature": "void fireBeforeSelectTriggers()"
     },
     {
       "key": "org.h2.command.query.Query#getColumnCount()",
@@ -10560,7 +10560,7 @@
     },
     {
       "key": "org.h2.command.query.Query#getCost()",
-      "signature": "abstract double getCost()"
+      "signature": "double getCost()"
     },
     {
       "key": "org.h2.command.query.Query#getCostAsExpression()",
@@ -10592,7 +10592,7 @@
     },
     {
       "key": "org.h2.command.query.Query#getTables()",
-      "signature": "abstract java.util.HashSet<org.h2.table.Table> getTables()"
+      "signature": "java.util.HashSet<org.h2.table.Table> getTables()"
     },
     {
       "key": "org.h2.command.query.Query#getType()",
@@ -10604,7 +10604,7 @@
     },
     {
       "key": "org.h2.command.query.Query#init()",
-      "signature": "abstract void init()"
+      "signature": "void init()"
     },
     {
       "key": "org.h2.command.query.Query#isAnyDistinct()",
@@ -10616,7 +10616,7 @@
     },
     {
       "key": "org.h2.command.query.Query#isEverything(org.h2.expression.ExpressionVisitor)",
-      "signature": "abstract boolean isEverything(org.h2.expression.ExpressionVisitor)"
+      "signature": "boolean isEverything(org.h2.expression.ExpressionVisitor)"
     },
     {
       "key": "org.h2.command.query.Query#isFetchPercent()",
@@ -10648,7 +10648,7 @@
     },
     {
       "key": "org.h2.command.query.Query#isUnion()",
-      "signature": "abstract boolean isUnion()"
+      "signature": "boolean isUnion()"
     },
     {
       "key": "org.h2.command.query.Query#isWithTies()",
@@ -10656,7 +10656,7 @@
     },
     {
       "key": "org.h2.command.query.Query#mapColumns(org.h2.table.ColumnResolver, int)",
-      "signature": "abstract void mapColumns(org.h2.table.ColumnResolver, int)"
+      "signature": "void mapColumns(org.h2.table.ColumnResolver, int)"
     },
     {
       "key": "org.h2.command.query.Query#query(long)",
@@ -10676,7 +10676,7 @@
     },
     {
       "key": "org.h2.command.query.Query#setEvaluatable(org.h2.table.TableFilter, boolean)",
-      "signature": "abstract void setEvaluatable(org.h2.table.TableFilter, boolean)"
+      "signature": "void setEvaluatable(org.h2.table.TableFilter, boolean)"
     },
     {
       "key": "org.h2.command.query.Query#setFetch(org.h2.expression.Expression)",
@@ -10688,7 +10688,7 @@
     },
     {
       "key": "org.h2.command.query.Query#setForUpdate(boolean)",
-      "signature": "abstract void setForUpdate(boolean)"
+      "signature": "void setForUpdate(boolean)"
     },
     {
       "key": "org.h2.command.query.Query#setNeverLazy(boolean)",
@@ -10716,7 +10716,7 @@
     },
     {
       "key": "org.h2.command.query.Query#updateAggregate(org.h2.engine.SessionLocal, int)",
-      "signature": "abstract void updateAggregate(org.h2.engine.SessionLocal, int)"
+      "signature": "void updateAggregate(org.h2.engine.SessionLocal, int)"
     },
     {
       "key": "org.h2.command.query.QueryOrderBy#getSQL(java.lang.StringBuilder, int)",
@@ -10940,7 +10940,7 @@
     },
     {
       "key": "org.h2.command.query.SelectGroups#next()",
-      "signature": "abstract org.h2.value.ValueRow next()"
+      "signature": "org.h2.value.ValueRow next()"
     },
     {
       "key": "org.h2.command.query.SelectGroups#nextLazyGroup()",
@@ -10952,7 +10952,7 @@
     },
     {
       "key": "org.h2.command.query.SelectGroups#nextSource()",
-      "signature": "abstract void nextSource()"
+      "signature": "void nextSource()"
     },
     {
       "key": "org.h2.command.query.SelectGroups#remove()",
@@ -11356,23 +11356,23 @@
     },
     {
       "key": "org.h2.engine.CastDataProvider#currentTimeZone()",
-      "signature": "abstract org.h2.util.TimeZoneProvider currentTimeZone()"
+      "signature": "org.h2.util.TimeZoneProvider currentTimeZone()"
     },
     {
       "key": "org.h2.engine.CastDataProvider#currentTimestamp()",
-      "signature": "abstract org.h2.value.ValueTimestampTimeZone currentTimestamp()"
+      "signature": "org.h2.value.ValueTimestampTimeZone currentTimestamp()"
     },
     {
       "key": "org.h2.engine.CastDataProvider#getJavaObjectSerializer()",
-      "signature": "abstract org.h2.api.JavaObjectSerializer getJavaObjectSerializer()"
+      "signature": "org.h2.api.JavaObjectSerializer getJavaObjectSerializer()"
     },
     {
       "key": "org.h2.engine.CastDataProvider#getMode()",
-      "signature": "abstract org.h2.engine.Mode getMode()"
+      "signature": "org.h2.engine.Mode getMode()"
     },
     {
       "key": "org.h2.engine.CastDataProvider#zeroBasedEnums()",
-      "signature": "abstract boolean zeroBasedEnums()"
+      "signature": "boolean zeroBasedEnums()"
     },
     {
       "key": "org.h2.engine.ConnectionInfo#cleanAuthenticationInfo()",
@@ -11484,11 +11484,11 @@
     },
     {
       "key": "org.h2.engine.Database#newConcurrentStringMap()",
-      "signature": "<V> java.util.concurrent.ConcurrentHashMap<java.lang.String, V> newConcurrentStringMap()"
+      "signature": "java.util.concurrent.ConcurrentHashMap<java.lang.String, V> newConcurrentStringMap()"
     },
     {
       "key": "org.h2.engine.Database#newStringMap(int)",
-      "signature": "<V> java.util.HashMap<java.lang.String, V> newStringMap(int)"
+      "signature": "java.util.HashMap<java.lang.String, V> newStringMap(int)"
     },
     {
       "key": "org.h2.engine.Database#releaseDatabaseObjectIds(java.util.BitSet)",
@@ -11652,23 +11652,23 @@
     },
     {
       "key": "org.h2.engine.Session#getClusterServers()",
-      "signature": "abstract java.util.ArrayList<java.lang.String> getClusterServers()"
+      "signature": "java.util.ArrayList<java.lang.String> getClusterServers()"
     },
     {
       "key": "org.h2.engine.Session#getDatabaseMeta()",
-      "signature": "abstract org.h2.jdbc.meta.DatabaseMeta getDatabaseMeta()"
+      "signature": "org.h2.jdbc.meta.DatabaseMeta getDatabaseMeta()"
     },
     {
       "key": "org.h2.engine.Session#getIsolationLevel()",
-      "signature": "abstract org.h2.engine.IsolationLevel getIsolationLevel()"
+      "signature": "org.h2.engine.IsolationLevel getIsolationLevel()"
     },
     {
       "key": "org.h2.engine.Session#isOldInformationSchema()",
-      "signature": "abstract boolean isOldInformationSchema()"
+      "signature": "boolean isOldInformationSchema()"
     },
     {
       "key": "org.h2.engine.Session#isRemote()",
-      "signature": "abstract boolean isRemote()"
+      "signature": "boolean isRemote()"
     },
     {
       "key": "org.h2.engine.Session#resetThreadLocalSession(org.h2.engine.Session)",
@@ -11676,15 +11676,15 @@
     },
     {
       "key": "org.h2.engine.Session#setCurrentSchemaName(java.lang.String)",
-      "signature": "abstract void setCurrentSchemaName(java.lang.String)"
+      "signature": "void setCurrentSchemaName(java.lang.String)"
     },
     {
       "key": "org.h2.engine.Session#setIsolationLevel(org.h2.engine.IsolationLevel)",
-      "signature": "abstract void setIsolationLevel(org.h2.engine.IsolationLevel)"
+      "signature": "void setIsolationLevel(org.h2.engine.IsolationLevel)"
     },
     {
       "key": "org.h2.engine.Session#setNetworkConnectionInfo(org.h2.util.NetworkConnectionInfo)",
-      "signature": "abstract void setNetworkConnectionInfo(org.h2.util.NetworkConnectionInfo)"
+      "signature": "void setNetworkConnectionInfo(org.h2.util.NetworkConnectionInfo)"
     },
     {
       "key": "org.h2.engine.Session#setThreadLocalSession()",
@@ -12488,7 +12488,7 @@
     },
     {
       "key": "org.h2.expression.Expression#getUnenclosedSQL(java.lang.StringBuilder, int)",
-      "signature": "abstract java.lang.StringBuilder getUnenclosedSQL(java.lang.StringBuilder, int)"
+      "signature": "java.lang.StringBuilder getUnenclosedSQL(java.lang.StringBuilder, int)"
     },
     {
       "key": "org.h2.expression.Expression#getWhenSQL(java.lang.StringBuilder, int)",
@@ -12584,19 +12584,19 @@
     },
     {
       "key": "org.h2.expression.ExpressionWithFlags#getFlags()",
-      "signature": "abstract int getFlags()"
+      "signature": "int getFlags()"
     },
     {
       "key": "org.h2.expression.ExpressionWithFlags#setFlags(int)",
-      "signature": "abstract void setFlags(int)"
+      "signature": "void setFlags(int)"
     },
     {
       "key": "org.h2.expression.ExpressionWithVariableParameters#addParameter(org.h2.expression.Expression)",
-      "signature": "abstract void addParameter(org.h2.expression.Expression)"
+      "signature": "void addParameter(org.h2.expression.Expression)"
     },
     {
       "key": "org.h2.expression.ExpressionWithVariableParameters#doneWithParameters()",
-      "signature": "abstract void doneWithParameters()"
+      "signature": "void doneWithParameters()"
     },
     {
       "key": "org.h2.expression.FieldReference#getUnenclosedSQL(java.lang.StringBuilder, int)",
@@ -13160,7 +13160,7 @@
     },
     {
       "key": "org.h2.expression.analysis.DataAnalysisOperation#isAggregate()",
-      "signature": "abstract boolean isAggregate()"
+      "signature": "boolean isAggregate()"
     },
     {
       "key": "org.h2.expression.analysis.DataAnalysisOperation#isEverything(org.h2.expression.ExpressionVisitor)",
@@ -14968,7 +14968,7 @@
     },
     {
       "key": "org.h2.expression.function.NamedExpression#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.h2.expression.function.NullIfFunction#getName()",
@@ -15344,15 +15344,15 @@
     },
     {
       "key": "org.h2.expression.function.table.TableFunction#getValue(org.h2.engine.SessionLocal)",
-      "signature": "abstract org.h2.result.ResultInterface getValue(org.h2.engine.SessionLocal)"
+      "signature": "org.h2.result.ResultInterface getValue(org.h2.engine.SessionLocal)"
     },
     {
       "key": "org.h2.expression.function.table.TableFunction#getValueTemplate(org.h2.engine.SessionLocal)",
-      "signature": "abstract org.h2.result.ResultInterface getValueTemplate(org.h2.engine.SessionLocal)"
+      "signature": "org.h2.result.ResultInterface getValueTemplate(org.h2.engine.SessionLocal)"
     },
     {
       "key": "org.h2.expression.function.table.TableFunction#isDeterministic()",
-      "signature": "abstract boolean isDeterministic()"
+      "signature": "boolean isDeterministic()"
     },
     {
       "key": "org.h2.expression.function.table.TableFunction#optimize(org.h2.engine.SessionLocal)",
@@ -15472,7 +15472,7 @@
     },
     {
       "key": "org.h2.index.Index#remove(org.h2.engine.SessionLocal, org.h2.result.Row)",
-      "signature": "abstract void remove(org.h2.engine.SessionLocal, org.h2.result.Row)"
+      "signature": "void remove(org.h2.engine.SessionLocal, org.h2.result.Row)"
     },
     {
       "key": "org.h2.index.Index#removeChildrenAndResources(org.h2.engine.SessionLocal)",
@@ -15624,11 +15624,11 @@
     },
     {
       "key": "org.h2.jdbc.JdbcCallableStatement#getObject(int, java.lang.Class<T>)",
-      "signature": "<T> T getObject(int, java.lang.Class<T>)"
+      "signature": "T getObject(int, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcCallableStatement#getObject(java.lang.String, java.lang.Class<T>)",
-      "signature": "<T> T getObject(java.lang.String, java.lang.Class<T>)"
+      "signature": "T getObject(java.lang.String, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcCallableStatement#setObject(java.lang.String, java.lang.Object, java.sql.SQLType)",
@@ -15688,23 +15688,23 @@
     },
     {
       "key": "org.h2.jdbc.JdbcException#getErrorCode()",
-      "signature": "abstract int getErrorCode()"
+      "signature": "int getErrorCode()"
     },
     {
       "key": "org.h2.jdbc.JdbcException#getOriginalMessage()",
-      "signature": "abstract java.lang.String getOriginalMessage()"
+      "signature": "java.lang.String getOriginalMessage()"
     },
     {
       "key": "org.h2.jdbc.JdbcException#getSQL()",
-      "signature": "abstract java.lang.String getSQL()"
+      "signature": "java.lang.String getSQL()"
     },
     {
       "key": "org.h2.jdbc.JdbcException#setSQL(java.lang.String)",
-      "signature": "abstract void setSQL(java.lang.String)"
+      "signature": "void setSQL(java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.JdbcException#toString()",
-      "signature": "abstract java.lang.String toString()"
+      "signature": "java.lang.String toString()"
     },
     {
       "key": "org.h2.jdbc.JdbcLob#free()",
@@ -15744,11 +15744,11 @@
     },
     {
       "key": "org.h2.jdbc.JdbcResultSet#getObject(int, java.lang.Class<T>)",
-      "signature": "<T> T getObject(int, java.lang.Class<T>)"
+      "signature": "T getObject(int, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcResultSet#getObject(java.lang.String, java.lang.Class<T>)",
-      "signature": "<T> T getObject(java.lang.String, java.lang.Class<T>)"
+      "signature": "T getObject(java.lang.String, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcResultSet#getResult()",
@@ -16064,7 +16064,7 @@
     },
     {
       "key": "org.h2.jdbc.JdbcSQLXML#getSource(java.lang.Class<T>)",
-      "signature": "<T extends javax.xml.transform.Source> T getSource(java.lang.Class<T>)"
+      "signature": "T getSource(java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcSQLXML#getString()",
@@ -16080,7 +16080,7 @@
     },
     {
       "key": "org.h2.jdbc.JdbcSQLXML#setResult(java.lang.Class<T>)",
-      "signature": "<T extends javax.xml.transform.Result> T setResult(java.lang.Class<T>)"
+      "signature": "T setResult(java.lang.Class<T>)"
     },
     {
       "key": "org.h2.jdbc.JdbcSQLXML#setString(java.lang.String)",
@@ -16140,151 +16140,151 @@
     },
     {
       "key": "org.h2.jdbc.JdbcStatementBackwardsCompat#enquoteIdentifier(java.lang.String, boolean)",
-      "signature": "abstract java.lang.String enquoteIdentifier(java.lang.String, boolean)"
+      "signature": "java.lang.String enquoteIdentifier(java.lang.String, boolean)"
     },
     {
       "key": "org.h2.jdbc.JdbcStatementBackwardsCompat#isSimpleIdentifier(java.lang.String)",
-      "signature": "abstract boolean isSimpleIdentifier(java.lang.String)"
+      "signature": "boolean isSimpleIdentifier(java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#defaultNullOrdering()",
-      "signature": "abstract org.h2.mode.DefaultNullOrdering defaultNullOrdering()"
+      "signature": "org.h2.mode.DefaultNullOrdering defaultNullOrdering()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getBestRowIdentifier(java.lang.String, java.lang.String, java.lang.String, int, boolean)",
-      "signature": "abstract org.h2.result.ResultInterface getBestRowIdentifier(java.lang.String, java.lang.String, java.lang.String, int, boolean)"
+      "signature": "org.h2.result.ResultInterface getBestRowIdentifier(java.lang.String, java.lang.String, java.lang.String, int, boolean)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getCatalogs()",
-      "signature": "abstract org.h2.result.ResultInterface getCatalogs()"
+      "signature": "org.h2.result.ResultInterface getCatalogs()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getColumnPrivileges(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getColumnPrivileges(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getColumnPrivileges(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getDatabaseMajorVersion()",
-      "signature": "abstract int getDatabaseMajorVersion()"
+      "signature": "int getDatabaseMajorVersion()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getDatabaseMinorVersion()",
-      "signature": "abstract int getDatabaseMinorVersion()"
+      "signature": "int getDatabaseMinorVersion()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getDatabaseProductVersion()",
-      "signature": "abstract java.lang.String getDatabaseProductVersion()"
+      "signature": "java.lang.String getDatabaseProductVersion()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getExportedKeys(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getExportedKeys(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getExportedKeys(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getFunctionColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getFunctionColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getFunctionColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getFunctions(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getFunctions(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getFunctions(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getImportedKeys(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getImportedKeys(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getImportedKeys(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getIndexInfo(java.lang.String, java.lang.String, java.lang.String, boolean, boolean)",
-      "signature": "abstract org.h2.result.ResultInterface getIndexInfo(java.lang.String, java.lang.String, java.lang.String, boolean, boolean)"
+      "signature": "org.h2.result.ResultInterface getIndexInfo(java.lang.String, java.lang.String, java.lang.String, boolean, boolean)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getNumericFunctions()",
-      "signature": "abstract java.lang.String getNumericFunctions()"
+      "signature": "java.lang.String getNumericFunctions()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getPrimaryKeys(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getPrimaryKeys(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getPrimaryKeys(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getProcedureColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getProcedureColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getProcedureColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getProcedures(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getProcedures(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getProcedures(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getPseudoColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getPseudoColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getPseudoColumns(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSQLKeywords()",
-      "signature": "abstract java.lang.String getSQLKeywords()"
+      "signature": "java.lang.String getSQLKeywords()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSchemas()",
-      "signature": "abstract org.h2.result.ResultInterface getSchemas()"
+      "signature": "org.h2.result.ResultInterface getSchemas()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSchemas(java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getSchemas(java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getSchemas(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSearchStringEscape()",
-      "signature": "abstract java.lang.String getSearchStringEscape()"
+      "signature": "java.lang.String getSearchStringEscape()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getStringFunctions()",
-      "signature": "abstract java.lang.String getStringFunctions()"
+      "signature": "java.lang.String getStringFunctions()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSuperTables(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getSuperTables(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getSuperTables(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSuperTypes(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getSuperTypes(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getSuperTypes(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getSystemFunctions()",
-      "signature": "abstract java.lang.String getSystemFunctions()"
+      "signature": "java.lang.String getSystemFunctions()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getTablePrivileges(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getTablePrivileges(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getTablePrivileges(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getTableTypes()",
-      "signature": "abstract org.h2.result.ResultInterface getTableTypes()"
+      "signature": "org.h2.result.ResultInterface getTableTypes()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getTables(java.lang.String, java.lang.String, java.lang.String, java.lang.String[])",
-      "signature": "abstract org.h2.result.ResultInterface getTables(java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
+      "signature": "org.h2.result.ResultInterface getTables(java.lang.String, java.lang.String, java.lang.String, java.lang.String[])"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getTimeDateFunctions()",
-      "signature": "abstract java.lang.String getTimeDateFunctions()"
+      "signature": "java.lang.String getTimeDateFunctions()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getTypeInfo()",
-      "signature": "abstract org.h2.result.ResultInterface getTypeInfo()"
+      "signature": "org.h2.result.ResultInterface getTypeInfo()"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getUDTs(java.lang.String, java.lang.String, java.lang.String, int[])",
-      "signature": "abstract org.h2.result.ResultInterface getUDTs(java.lang.String, java.lang.String, java.lang.String, int[])"
+      "signature": "org.h2.result.ResultInterface getUDTs(java.lang.String, java.lang.String, java.lang.String, int[])"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMeta#getVersionColumns(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.h2.result.ResultInterface getVersionColumns(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.h2.result.ResultInterface getVersionColumns(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.h2.jdbc.meta.DatabaseMetaLegacy#defaultNullOrdering()",
@@ -16748,7 +16748,7 @@
     },
     {
       "key": "org.h2.message.TraceWriter#write(int, int, java.lang.String, java.lang.Throwable)",
-      "signature": "abstract void write(int, int, java.lang.String, java.lang.Throwable)"
+      "signature": "void write(int, int, java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "org.h2.message.TraceWriterAdapter#write(int, int, java.lang.String, java.lang.Throwable)",
@@ -16944,7 +16944,7 @@
     },
     {
       "key": "org.h2.mode.ToDateTokenizer$ToDateParslet#parse(org.h2.mode.ToDateParser, org.h2.mode.ToDateTokenizer$FormatTokenEnum, java.lang.String)",
-      "signature": "abstract void parse(org.h2.mode.ToDateParser, org.h2.mode.ToDateTokenizer$FormatTokenEnum, java.lang.String)"
+      "signature": "void parse(org.h2.mode.ToDateParser, org.h2.mode.ToDateTokenizer$FormatTokenEnum, java.lang.String)"
     },
     {
       "key": "org.h2.mode.ToDateTokenizer$YearParslet#parse(org.h2.mode.ToDateParser, org.h2.mode.ToDateTokenizer$FormatTokenEnum, java.lang.String)",
@@ -17132,7 +17132,7 @@
     },
     {
       "key": "org.h2.mvstore.MVMap$DecisionMaker#selectValue(T, T)",
-      "signature": "<T extends V> T selectValue(T, T)"
+      "signature": "T selectValue(T, T)"
     },
     {
       "key": "org.h2.mvstore.MVMap$EqualsDecisionMaker#reset()",
@@ -17144,19 +17144,19 @@
     },
     {
       "key": "org.h2.mvstore.MVMap$MapBuilder#getKeyType()",
-      "signature": "abstract org.h2.mvstore.type.DataType<K> getKeyType()"
+      "signature": "org.h2.mvstore.type.DataType<K> getKeyType()"
     },
     {
       "key": "org.h2.mvstore.MVMap$MapBuilder#getValueType()",
-      "signature": "abstract org.h2.mvstore.type.DataType<V> getValueType()"
+      "signature": "org.h2.mvstore.type.DataType<V> getValueType()"
     },
     {
       "key": "org.h2.mvstore.MVMap$MapBuilder#setKeyType(org.h2.mvstore.type.DataType<? super K>)",
-      "signature": "abstract void setKeyType(org.h2.mvstore.type.DataType<? super K>)"
+      "signature": "void setKeyType(org.h2.mvstore.type.DataType<? super K>)"
     },
     {
       "key": "org.h2.mvstore.MVMap$MapBuilder#setValueType(org.h2.mvstore.type.DataType<? super V>)",
-      "signature": "abstract void setValueType(org.h2.mvstore.type.DataType<? super V>)"
+      "signature": "void setValueType(org.h2.mvstore.type.DataType<? super V>)"
     },
     {
       "key": "org.h2.mvstore.MVMap$RewriteDecisionMaker#reset()",
@@ -17164,7 +17164,7 @@
     },
     {
       "key": "org.h2.mvstore.MVMap$RewriteDecisionMaker#selectValue(T, T)",
-      "signature": "<T extends V> T selectValue(T, T)"
+      "signature": "T selectValue(T, T)"
     },
     {
       "key": "org.h2.mvstore.MVMap$RewriteDecisionMaker#toString()",
@@ -17224,7 +17224,7 @@
     },
     {
       "key": "org.h2.mvstore.MVStore#getMap(int)",
-      "signature": "<K, V> org.h2.mvstore.MVMap<K, V> getMap(int)"
+      "signature": "org.h2.mvstore.MVMap<K, V> getMap(int)"
     },
     {
       "key": "org.h2.mvstore.MVStore#getMaxPageSize()",
@@ -17372,15 +17372,15 @@
     },
     {
       "key": "org.h2.mvstore.Page#createNode(org.h2.mvstore.MVMap<K, V>, K[], org.h2.mvstore.Page$PageReference<K, V>[], long, int)",
-      "signature": "<K, V> org.h2.mvstore.Page<K, V> createNode(org.h2.mvstore.MVMap<K, V>, K[], org.h2.mvstore.Page$PageReference<K, V>[], long, int)"
+      "signature": "org.h2.mvstore.Page<K, V> createNode(org.h2.mvstore.MVMap<K, V>, K[], org.h2.mvstore.Page$PageReference<K, V>[], long, int)"
     },
     {
       "key": "org.h2.mvstore.Page#getAppendCursorPos(org.h2.mvstore.CursorPos<K, V>)",
-      "signature": "abstract org.h2.mvstore.CursorPos<K, V> getAppendCursorPos(org.h2.mvstore.CursorPos<K, V>)"
+      "signature": "org.h2.mvstore.CursorPos<K, V> getAppendCursorPos(org.h2.mvstore.CursorPos<K, V>)"
     },
     {
       "key": "org.h2.mvstore.Page#getChildPagePos(int)",
-      "signature": "abstract long getChildPagePos(int)"
+      "signature": "long getChildPagePos(int)"
     },
     {
       "key": "org.h2.mvstore.Page#getDiskSpaceUsed()",
@@ -17392,15 +17392,15 @@
     },
     {
       "key": "org.h2.mvstore.Page#getNodeType()",
-      "signature": "abstract int getNodeType()"
+      "signature": "int getNodeType()"
     },
     {
       "key": "org.h2.mvstore.Page#getPrependCursorPos(org.h2.mvstore.CursorPos<K, V>)",
-      "signature": "abstract org.h2.mvstore.CursorPos<K, V> getPrependCursorPos(org.h2.mvstore.CursorPos<K, V>)"
+      "signature": "org.h2.mvstore.CursorPos<K, V> getPrependCursorPos(org.h2.mvstore.CursorPos<K, V>)"
     },
     {
       "key": "org.h2.mvstore.Page#getRawChildPageCount()",
-      "signature": "abstract int getRawChildPageCount()"
+      "signature": "int getRawChildPageCount()"
     },
     {
       "key": "org.h2.mvstore.Page#isComplete()",
@@ -17416,7 +17416,7 @@
     },
     {
       "key": "org.h2.mvstore.Page#removeAllRecursive(long)",
-      "signature": "abstract int removeAllRecursive(long)"
+      "signature": "int removeAllRecursive(long)"
     },
     {
       "key": "org.h2.mvstore.Page#setComplete()",
@@ -17784,15 +17784,15 @@
     },
     {
       "key": "org.h2.mvstore.db.MVIndex#addBufferedRows(java.util.List<java.lang.String>)",
-      "signature": "abstract void addBufferedRows(java.util.List<java.lang.String>)"
+      "signature": "void addBufferedRows(java.util.List<java.lang.String>)"
     },
     {
       "key": "org.h2.mvstore.db.MVIndex#addRowsToBuffer(java.util.List<org.h2.result.Row>, java.lang.String)",
-      "signature": "abstract void addRowsToBuffer(java.util.List<org.h2.result.Row>, java.lang.String)"
+      "signature": "void addRowsToBuffer(java.util.List<org.h2.result.Row>, java.lang.String)"
     },
     {
       "key": "org.h2.mvstore.db.MVIndex#getMVMap()",
-      "signature": "abstract org.h2.mvstore.MVMap<K, org.h2.value.VersionedValue<V>> getMVMap()"
+      "signature": "org.h2.mvstore.MVMap<K, org.h2.value.VersionedValue<V>> getMVMap()"
     },
     {
       "key": "org.h2.mvstore.db.MVPlainTempResult#addRow(org.h2.value.Value[])",
@@ -18364,35 +18364,35 @@
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#clone(long)",
-      "signature": "abstract org.h2.mvstore.rtree.Spatial clone(long)"
+      "signature": "org.h2.mvstore.rtree.Spatial clone(long)"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#equalsIgnoringId(org.h2.mvstore.rtree.Spatial)",
-      "signature": "abstract boolean equalsIgnoringId(org.h2.mvstore.rtree.Spatial)"
+      "signature": "boolean equalsIgnoringId(org.h2.mvstore.rtree.Spatial)"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#getId()",
-      "signature": "abstract long getId()"
+      "signature": "long getId()"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#isNull()",
-      "signature": "abstract boolean isNull()"
+      "signature": "boolean isNull()"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#max(int)",
-      "signature": "abstract float max(int)"
+      "signature": "float max(int)"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#min(int)",
-      "signature": "abstract float min(int)"
+      "signature": "float min(int)"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#setMax(int, float)",
-      "signature": "abstract void setMax(int, float)"
+      "signature": "void setMax(int, float)"
     },
     {
       "key": "org.h2.mvstore.rtree.Spatial#setMin(int, float)",
-      "signature": "abstract void setMin(int, float)"
+      "signature": "void setMin(int, float)"
     },
     {
       "key": "org.h2.mvstore.rtree.SpatialDataType#compare(org.h2.mvstore.rtree.Spatial, org.h2.mvstore.rtree.Spatial)",
@@ -18528,15 +18528,15 @@
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#openMap(java.lang.String)",
-      "signature": "<K, V> org.h2.mvstore.tx.TransactionMap<K, V> openMap(java.lang.String)"
+      "signature": "org.h2.mvstore.tx.TransactionMap<K, V> openMap(java.lang.String)"
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)",
-      "signature": "<K, V> org.h2.mvstore.tx.TransactionMap<K, V> openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)"
+      "signature": "org.h2.mvstore.tx.TransactionMap<K, V> openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)"
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#openMapX(org.h2.mvstore.MVMap<K, org.h2.value.VersionedValue<V>>)",
-      "signature": "<K, V> org.h2.mvstore.tx.TransactionMap<K, V> openMapX(org.h2.mvstore.MVMap<K, org.h2.value.VersionedValue<V>>)"
+      "signature": "org.h2.mvstore.tx.TransactionMap<K, V> openMapX(org.h2.mvstore.MVMap<K, org.h2.value.VersionedValue<V>>)"
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#prepare()",
@@ -18544,7 +18544,7 @@
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#removeMap(org.h2.mvstore.tx.TransactionMap<K, V>)",
-      "signature": "<K, V> void removeMap(org.h2.mvstore.tx.TransactionMap<K, V>)"
+      "signature": "void removeMap(org.h2.mvstore.tx.TransactionMap<K, V>)"
     },
     {
       "key": "org.h2.mvstore.tx.Transaction#rollback()",
@@ -18704,7 +18704,7 @@
     },
     {
       "key": "org.h2.mvstore.tx.TransactionMap$TMIterator#fetchNext()",
-      "signature": "abstract X fetchNext()"
+      "signature": "X fetchNext()"
     },
     {
       "key": "org.h2.mvstore.tx.TransactionMap$TMIterator#hasNext()",
@@ -18752,7 +18752,7 @@
     },
     {
       "key": "org.h2.mvstore.tx.TransactionStore#openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)",
-      "signature": "<K, V> org.h2.mvstore.MVMap<K, V> openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)"
+      "signature": "org.h2.mvstore.MVMap<K, V> openMap(java.lang.String, org.h2.mvstore.type.DataType<K>, org.h2.mvstore.type.DataType<V>)"
     },
     {
       "key": "org.h2.mvstore.tx.TransactionStore#setMaxTransactionId(int)",
@@ -18760,7 +18760,7 @@
     },
     {
       "key": "org.h2.mvstore.tx.TransactionStore$RollbackListener#onRollback(org.h2.mvstore.MVMap<java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>>, java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>, org.h2.value.VersionedValue<java.lang.Object>)",
-      "signature": "abstract void onRollback(org.h2.mvstore.MVMap<java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>>, java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>, org.h2.value.VersionedValue<java.lang.Object>)"
+      "signature": "void onRollback(org.h2.mvstore.MVMap<java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>>, java.lang.Object, org.h2.value.VersionedValue<java.lang.Object>, org.h2.value.VersionedValue<java.lang.Object>)"
     },
     {
       "key": "org.h2.mvstore.tx.TransactionStore$TxMapBuilder#create(org.h2.mvstore.MVStore, java.util.Map<java.lang.String, java.lang.Object>)",
@@ -18912,7 +18912,7 @@
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#getMemory(T)",
-      "signature": "abstract int getMemory(T)"
+      "signature": "int getMemory(T)"
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#hashCode()",
@@ -18924,7 +18924,7 @@
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#read(java.nio.ByteBuffer)",
-      "signature": "abstract T read(java.nio.ByteBuffer)"
+      "signature": "T read(java.nio.ByteBuffer)"
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#read(java.nio.ByteBuffer, java.lang.Object, int)",
@@ -18932,7 +18932,7 @@
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#write(org.h2.mvstore.WriteBuffer, T)",
-      "signature": "abstract void write(org.h2.mvstore.WriteBuffer, T)"
+      "signature": "void write(org.h2.mvstore.WriteBuffer, T)"
     },
     {
       "key": "org.h2.mvstore.type.BasicDataType#write(org.h2.mvstore.WriteBuffer, java.lang.Object, int)",
@@ -18964,23 +18964,23 @@
     },
     {
       "key": "org.h2.mvstore.type.DataType#binarySearch(T, java.lang.Object, int, int)",
-      "signature": "abstract int binarySearch(T, java.lang.Object, int, int)"
+      "signature": "int binarySearch(T, java.lang.Object, int, int)"
     },
     {
       "key": "org.h2.mvstore.type.DataType#createStorage(int)",
-      "signature": "abstract T[] createStorage(int)"
+      "signature": "T[] createStorage(int)"
     },
     {
       "key": "org.h2.mvstore.type.DataType#isMemoryEstimationAllowed()",
-      "signature": "abstract boolean isMemoryEstimationAllowed()"
+      "signature": "boolean isMemoryEstimationAllowed()"
     },
     {
       "key": "org.h2.mvstore.type.DataType#read(java.nio.ByteBuffer, java.lang.Object, int)",
-      "signature": "abstract void read(java.nio.ByteBuffer, java.lang.Object, int)"
+      "signature": "void read(java.nio.ByteBuffer, java.lang.Object, int)"
     },
     {
       "key": "org.h2.mvstore.type.DataType#write(org.h2.mvstore.WriteBuffer, java.lang.Object, int)",
-      "signature": "abstract void write(org.h2.mvstore.WriteBuffer, java.lang.Object, int)"
+      "signature": "void write(org.h2.mvstore.WriteBuffer, java.lang.Object, int)"
     },
     {
       "key": "org.h2.mvstore.type.LongDataType#binarySearch(java.lang.Long, java.lang.Object, int, int)",
@@ -19344,11 +19344,11 @@
     },
     {
       "key": "org.h2.mvstore.type.StatefulDataType#save(org.h2.mvstore.WriteBuffer, org.h2.mvstore.type.MetaType<D>)",
-      "signature": "abstract void save(org.h2.mvstore.WriteBuffer, org.h2.mvstore.type.MetaType<D>)"
+      "signature": "void save(org.h2.mvstore.WriteBuffer, org.h2.mvstore.type.MetaType<D>)"
     },
     {
       "key": "org.h2.mvstore.type.StatefulDataType$Factory#create(java.nio.ByteBuffer, org.h2.mvstore.type.MetaType<D>, D)",
-      "signature": "abstract org.h2.mvstore.type.DataType<?> create(java.nio.ByteBuffer, org.h2.mvstore.type.MetaType<D>, D)"
+      "signature": "org.h2.mvstore.type.DataType<?> create(java.nio.ByteBuffer, org.h2.mvstore.type.MetaType<D>, D)"
     },
     {
       "key": "org.h2.mvstore.type.StringDataType#binarySearch(java.lang.Object, java.lang.Object, int, int)",
@@ -19564,27 +19564,27 @@
     },
     {
       "key": "org.h2.result.ResultInterface#createShallowCopy(org.h2.engine.Session)",
-      "signature": "abstract org.h2.result.ResultInterface createShallowCopy(org.h2.engine.Session)"
+      "signature": "org.h2.result.ResultInterface createShallowCopy(org.h2.engine.Session)"
     },
     {
       "key": "org.h2.result.ResultInterface#hasNext()",
-      "signature": "abstract boolean hasNext()"
+      "signature": "boolean hasNext()"
     },
     {
       "key": "org.h2.result.ResultInterface#isAfterLast()",
-      "signature": "abstract boolean isAfterLast()"
+      "signature": "boolean isAfterLast()"
     },
     {
       "key": "org.h2.result.ResultInterface#isClosed()",
-      "signature": "abstract boolean isClosed()"
+      "signature": "boolean isClosed()"
     },
     {
       "key": "org.h2.result.ResultInterface#isIdentity(int)",
-      "signature": "abstract boolean isIdentity(int)"
+      "signature": "boolean isIdentity(int)"
     },
     {
       "key": "org.h2.result.ResultInterface#isLazy()",
-      "signature": "abstract boolean isLazy()"
+      "signature": "boolean isLazy()"
     },
     {
       "key": "org.h2.result.ResultRemote#hasNext()",
@@ -19604,7 +19604,7 @@
     },
     {
       "key": "org.h2.result.ResultTarget#limitsWereApplied()",
-      "signature": "abstract void limitsWereApplied()"
+      "signature": "void limitsWereApplied()"
     },
     {
       "key": "org.h2.result.ResultWithGeneratedKeys#getGeneratedKeys()",
@@ -19732,11 +19732,11 @@
     },
     {
       "key": "org.h2.result.RowFactory#createRow()",
-      "signature": "abstract org.h2.result.SearchRow createRow()"
+      "signature": "org.h2.result.SearchRow createRow()"
     },
     {
       "key": "org.h2.result.RowFactory#createRow(org.h2.value.Value[], int)",
-      "signature": "abstract org.h2.result.Row createRow(org.h2.value.Value[], int)"
+      "signature": "org.h2.result.Row createRow(org.h2.value.Value[], int)"
     },
     {
       "key": "org.h2.result.RowFactory#createRowFactory(org.h2.engine.CastDataProvider, org.h2.value.CompareMode, org.h2.store.DataHandler, org.h2.value.Typed[], org.h2.table.IndexColumn[], boolean)",
@@ -19744,19 +19744,19 @@
     },
     {
       "key": "org.h2.result.RowFactory#getColumnCount()",
-      "signature": "abstract int getColumnCount()"
+      "signature": "int getColumnCount()"
     },
     {
       "key": "org.h2.result.RowFactory#getColumnTypes()",
-      "signature": "abstract org.h2.value.TypeInfo[] getColumnTypes()"
+      "signature": "org.h2.value.TypeInfo[] getColumnTypes()"
     },
     {
       "key": "org.h2.result.RowFactory#getIndexes()",
-      "signature": "abstract int[] getIndexes()"
+      "signature": "int[] getIndexes()"
     },
     {
       "key": "org.h2.result.RowFactory#getRowDataType()",
-      "signature": "abstract org.h2.mvstore.db.RowDataType getRowDataType()"
+      "signature": "org.h2.mvstore.db.RowDataType getRowDataType()"
     },
     {
       "key": "org.h2.result.RowFactory#getRowFactory()",
@@ -19764,7 +19764,7 @@
     },
     {
       "key": "org.h2.result.RowFactory#getStoreKeys()",
-      "signature": "abstract boolean getStoreKeys()"
+      "signature": "boolean getStoreKeys()"
     },
     {
       "key": "org.h2.result.RowFactory$DefaultRowFactory#createRow()",
@@ -19808,7 +19808,7 @@
     },
     {
       "key": "org.h2.result.SearchRow#copyFrom(org.h2.result.SearchRow)",
-      "signature": "abstract void copyFrom(org.h2.result.SearchRow)"
+      "signature": "void copyFrom(org.h2.result.SearchRow)"
     },
     {
       "key": "org.h2.result.SearchRow#equals(java.lang.Object)",
@@ -20472,11 +20472,11 @@
     },
     {
       "key": "org.h2.security.auth.Authenticator#authenticate(org.h2.security.auth.AuthenticationInfo, org.h2.engine.Database)",
-      "signature": "abstract org.h2.engine.User authenticate(org.h2.security.auth.AuthenticationInfo, org.h2.engine.Database)"
+      "signature": "org.h2.engine.User authenticate(org.h2.security.auth.AuthenticationInfo, org.h2.engine.Database)"
     },
     {
       "key": "org.h2.security.auth.Authenticator#init(org.h2.engine.Database)",
-      "signature": "abstract void init(org.h2.engine.Database)"
+      "signature": "void init(org.h2.engine.Database)"
     },
     {
       "key": "org.h2.security.auth.AuthenticatorFactory#createAuthenticator()",
@@ -20504,7 +20504,7 @@
     },
     {
       "key": "org.h2.security.auth.Configurable#configure(org.h2.security.auth.ConfigProperties)",
-      "signature": "abstract void configure(org.h2.security.auth.ConfigProperties)"
+      "signature": "void configure(org.h2.security.auth.ConfigProperties)"
     },
     {
       "key": "org.h2.security.auth.DefaultAuthenticator#addRealm(java.lang.String, org.h2.api.CredentialsValidator)",
@@ -20608,7 +20608,7 @@
     },
     {
       "key": "org.h2.security.auth.HasConfigProperties#getProperties()",
-      "signature": "abstract java.util.List<org.h2.security.auth.PropertyConfig> getProperties()"
+      "signature": "java.util.List<org.h2.security.auth.PropertyConfig> getProperties()"
     },
     {
       "key": "org.h2.security.auth.PropertyConfig#getName()",
@@ -20748,7 +20748,7 @@
     },
     {
       "key": "org.h2.store.DataHandler#getCompareMode()",
-      "signature": "abstract org.h2.value.CompareMode getCompareMode()"
+      "signature": "org.h2.value.CompareMode getCompareMode()"
     },
     {
       "key": "org.h2.store.FileLockMethod#valueOf(java.lang.String)",
@@ -20764,7 +20764,7 @@
     },
     {
       "key": "org.h2.store.InDoubtTransaction#getStateDescription()",
-      "signature": "default java.lang.String getStateDescription()"
+      "signature": "java.lang.String getStateDescription()"
     },
     {
       "key": "org.h2.store.LobStorageFrontend#getInputStream(long, long)",
@@ -20780,15 +20780,15 @@
     },
     {
       "key": "org.h2.store.LobStorageInterface#getInputStream(long, long)",
-      "signature": "abstract java.io.InputStream getInputStream(long, long)"
+      "signature": "java.io.InputStream getInputStream(long, long)"
     },
     {
       "key": "org.h2.store.LobStorageInterface#isReadOnly()",
-      "signature": "abstract boolean isReadOnly()"
+      "signature": "boolean isReadOnly()"
     },
     {
       "key": "org.h2.store.LobStorageInterface#removeAllForTable(int)",
-      "signature": "abstract void removeAllForTable(int)"
+      "signature": "void removeAllForTable(int)"
     },
     {
       "key": "org.h2.store.RangeInputStream#available()",
@@ -21864,59 +21864,59 @@
     },
     {
       "key": "org.h2.table.ColumnResolver#findColumn(java.lang.String)",
-      "signature": "abstract org.h2.table.Column findColumn(java.lang.String)"
+      "signature": "org.h2.table.Column findColumn(java.lang.String)"
     },
     {
       "key": "org.h2.table.ColumnResolver#getColumnName(org.h2.table.Column)",
-      "signature": "default java.lang.String getColumnName(org.h2.table.Column)"
+      "signature": "java.lang.String getColumnName(org.h2.table.Column)"
     },
     {
       "key": "org.h2.table.ColumnResolver#hasDerivedColumnList()",
-      "signature": "default boolean hasDerivedColumnList()"
+      "signature": "boolean hasDerivedColumnList()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getDefaultExpression()",
-      "signature": "abstract org.h2.expression.Expression getDefaultExpression()"
+      "signature": "org.h2.expression.Expression getDefaultExpression()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getDefaultSQL()",
-      "signature": "abstract java.lang.String getDefaultSQL()"
+      "signature": "java.lang.String getDefaultSQL()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getDomain()",
-      "signature": "abstract org.h2.schema.Domain getDomain()"
+      "signature": "org.h2.schema.Domain getDomain()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getEffectiveDefaultExpression()",
-      "signature": "abstract org.h2.expression.Expression getEffectiveDefaultExpression()"
+      "signature": "org.h2.expression.Expression getEffectiveDefaultExpression()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getEffectiveOnUpdateExpression()",
-      "signature": "abstract org.h2.expression.Expression getEffectiveOnUpdateExpression()"
+      "signature": "org.h2.expression.Expression getEffectiveOnUpdateExpression()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getOnUpdateExpression()",
-      "signature": "abstract org.h2.expression.Expression getOnUpdateExpression()"
+      "signature": "org.h2.expression.Expression getOnUpdateExpression()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#getOnUpdateSQL()",
-      "signature": "abstract java.lang.String getOnUpdateSQL()"
+      "signature": "java.lang.String getOnUpdateSQL()"
     },
     {
       "key": "org.h2.table.ColumnTemplate#prepareExpressions(org.h2.engine.SessionLocal)",
-      "signature": "abstract void prepareExpressions(org.h2.engine.SessionLocal)"
+      "signature": "void prepareExpressions(org.h2.engine.SessionLocal)"
     },
     {
       "key": "org.h2.table.ColumnTemplate#setDefaultExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)",
-      "signature": "abstract void setDefaultExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)"
+      "signature": "void setDefaultExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)"
     },
     {
       "key": "org.h2.table.ColumnTemplate#setDomain(org.h2.schema.Domain)",
-      "signature": "abstract void setDomain(org.h2.schema.Domain)"
+      "signature": "void setDomain(org.h2.schema.Domain)"
     },
     {
       "key": "org.h2.table.ColumnTemplate#setOnUpdateExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)",
-      "signature": "abstract void setOnUpdateExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)"
+      "signature": "void setOnUpdateExpression(org.h2.engine.SessionLocal, org.h2.expression.Expression)"
     },
     {
       "key": "org.h2.table.DataChangeDeltaTable#canGetRowCount(org.h2.engine.SessionLocal)",
@@ -22464,7 +22464,7 @@
     },
     {
       "key": "org.h2.table.VirtualConstructedTable#getResult(org.h2.engine.SessionLocal)",
-      "signature": "abstract org.h2.result.ResultInterface getResult(org.h2.engine.SessionLocal)"
+      "signature": "org.h2.result.ResultInterface getResult(org.h2.engine.SessionLocal)"
     },
     {
       "key": "org.h2.table.VirtualConstructedTable#getScanIndex(org.h2.engine.SessionLocal)",
@@ -22608,11 +22608,11 @@
     },
     {
       "key": "org.h2.tools.SimpleResultSet#getObject(int, java.lang.Class<T>)",
-      "signature": "<T> T getObject(int, java.lang.Class<T>)"
+      "signature": "T getObject(int, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.tools.SimpleResultSet#getObject(java.lang.String, java.lang.Class<T>)",
-      "signature": "<T> T getObject(java.lang.String, java.lang.Class<T>)"
+      "signature": "T getObject(java.lang.String, java.lang.Class<T>)"
     },
     {
       "key": "org.h2.tools.Upgrade#loadH2(int)",
@@ -22880,15 +22880,15 @@
     },
     {
       "key": "org.h2.util.HasSQL#getSQL(int)",
-      "signature": "default java.lang.String getSQL(int)"
+      "signature": "java.lang.String getSQL(int)"
     },
     {
       "key": "org.h2.util.HasSQL#getSQL(java.lang.StringBuilder, int)",
-      "signature": "abstract java.lang.StringBuilder getSQL(java.lang.StringBuilder, int)"
+      "signature": "java.lang.StringBuilder getSQL(java.lang.StringBuilder, int)"
     },
     {
       "key": "org.h2.util.HasSQL#getTraceSQL()",
-      "signature": "default java.lang.String getTraceSQL()"
+      "signature": "java.lang.String getTraceSQL()"
     },
     {
       "key": "org.h2.util.IOUtils#nameSeparatorsToNative(java.lang.String)",
@@ -23036,7 +23036,7 @@
     },
     {
       "key": "org.h2.util.JdbcUtils#loadUserClass(java.lang.String)",
-      "signature": "<Z> java.lang.Class<Z> loadUserClass(java.lang.String)"
+      "signature": "java.lang.Class<Z> loadUserClass(java.lang.String)"
     },
     {
       "key": "org.h2.util.JdbcUtils#removeClassFactory(org.h2.util.Utils$ClassFactory)",
@@ -23108,7 +23108,7 @@
     },
     {
       "key": "org.h2.util.LegacyDateTimeUtils#valueToLegacyType(java.lang.Class<T>, org.h2.value.Value, org.h2.engine.CastDataProvider)",
-      "signature": "<T> T valueToLegacyType(java.lang.Class<T>, org.h2.value.Value, org.h2.engine.CastDataProvider)"
+      "signature": "T valueToLegacyType(java.lang.Class<T>, org.h2.value.Value, org.h2.engine.CastDataProvider)"
     },
     {
       "key": "org.h2.util.MathUtils#convertIntToShort(int)",
@@ -23116,11 +23116,11 @@
     },
     {
       "key": "org.h2.util.MemoryEstimator#estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T)",
-      "signature": "<T> int estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T)"
+      "signature": "int estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T)"
     },
     {
       "key": "org.h2.util.MemoryEstimator#estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T[], int)",
-      "signature": "<T> int estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T[], int)"
+      "signature": "int estimateMemory(java.util.concurrent.atomic.AtomicLong, org.h2.mvstore.type.DataType<T>, T[], int)"
     },
     {
       "key": "org.h2.util.MemoryEstimator#samplingPct(java.util.concurrent.atomic.AtomicLong)",
@@ -23304,23 +23304,23 @@
     },
     {
       "key": "org.h2.util.TimeZoneProvider#getEpochSecondsFromLocal(long, long)",
-      "signature": "abstract long getEpochSecondsFromLocal(long, long)"
+      "signature": "long getEpochSecondsFromLocal(long, long)"
     },
     {
       "key": "org.h2.util.TimeZoneProvider#getId()",
-      "signature": "abstract java.lang.String getId()"
+      "signature": "java.lang.String getId()"
     },
     {
       "key": "org.h2.util.TimeZoneProvider#getShortId(long)",
-      "signature": "abstract java.lang.String getShortId(long)"
+      "signature": "java.lang.String getShortId(long)"
     },
     {
       "key": "org.h2.util.TimeZoneProvider#getTimeZoneOffsetLocal(long, long)",
-      "signature": "abstract int getTimeZoneOffsetLocal(long, long)"
+      "signature": "int getTimeZoneOffsetLocal(long, long)"
     },
     {
       "key": "org.h2.util.TimeZoneProvider#getTimeZoneOffsetUTC(long)",
-      "signature": "abstract int getTimeZoneOffsetUTC(long)"
+      "signature": "int getTimeZoneOffsetUTC(long)"
     },
     {
       "key": "org.h2.util.TimeZoneProvider#hasFixedOffset()",
@@ -23436,7 +23436,7 @@
     },
     {
       "key": "org.h2.util.Utils#newSmallArrayList()",
-      "signature": "<T> java.util.ArrayList<T> newSmallArrayList()"
+      "signature": "java.util.ArrayList<T> newSmallArrayList()"
     },
     {
       "key": "org.h2.util.Utils#parseBoolean(java.lang.String, boolean, boolean)",
@@ -23664,7 +23664,7 @@
     },
     {
       "key": "org.h2.util.json.JSONBytesSource#parse(byte[], org.h2.util.json.JSONTarget<R>)",
-      "signature": "<R> R parse(byte[], org.h2.util.json.JSONTarget<R>)"
+      "signature": "R parse(byte[], org.h2.util.json.JSONTarget<R>)"
     },
     {
       "key": "org.h2.util.json.JSONBytesSource#toString()",
@@ -23716,7 +23716,7 @@
     },
     {
       "key": "org.h2.util.json.JSONStringSource#parse(java.lang.String, org.h2.util.json.JSONTarget<R>)",
-      "signature": "<R> R parse(java.lang.String, org.h2.util.json.JSONTarget<R>)"
+      "signature": "R parse(java.lang.String, org.h2.util.json.JSONTarget<R>)"
     },
     {
       "key": "org.h2.util.json.JSONStringSource#toString()",
@@ -23780,55 +23780,55 @@
     },
     {
       "key": "org.h2.util.json.JSONTarget#endArray()",
-      "signature": "abstract void endArray()"
+      "signature": "void endArray()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#endObject()",
-      "signature": "abstract void endObject()"
+      "signature": "void endObject()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#getResult()",
-      "signature": "abstract R getResult()"
+      "signature": "R getResult()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#isPropertyExpected()",
-      "signature": "abstract boolean isPropertyExpected()"
+      "signature": "boolean isPropertyExpected()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#isValueSeparatorExpected()",
-      "signature": "abstract boolean isValueSeparatorExpected()"
+      "signature": "boolean isValueSeparatorExpected()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#member(java.lang.String)",
-      "signature": "abstract void member(java.lang.String)"
+      "signature": "void member(java.lang.String)"
     },
     {
       "key": "org.h2.util.json.JSONTarget#startArray()",
-      "signature": "abstract void startArray()"
+      "signature": "void startArray()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#startObject()",
-      "signature": "abstract void startObject()"
+      "signature": "void startObject()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#valueFalse()",
-      "signature": "abstract void valueFalse()"
+      "signature": "void valueFalse()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#valueNull()",
-      "signature": "abstract void valueNull()"
+      "signature": "void valueNull()"
     },
     {
       "key": "org.h2.util.json.JSONTarget#valueNumber(java.math.BigDecimal)",
-      "signature": "abstract void valueNumber(java.math.BigDecimal)"
+      "signature": "void valueNumber(java.math.BigDecimal)"
     },
     {
       "key": "org.h2.util.json.JSONTarget#valueString(java.lang.String)",
-      "signature": "abstract void valueString(java.lang.String)"
+      "signature": "void valueString(java.lang.String)"
     },
     {
       "key": "org.h2.util.json.JSONTarget#valueTrue()",
-      "signature": "abstract void valueTrue()"
+      "signature": "void valueTrue()"
     },
     {
       "key": "org.h2.util.json.JSONValidationTarget#getResult()",
@@ -23940,7 +23940,7 @@
     },
     {
       "key": "org.h2.util.json.JSONValue#addTo(org.h2.util.json.JSONTarget<?>)",
-      "signature": "abstract void addTo(org.h2.util.json.JSONTarget<?>)"
+      "signature": "void addTo(org.h2.util.json.JSONTarget<?>)"
     },
     {
       "key": "org.h2.util.json.JSONValue#toString()",
@@ -24348,7 +24348,7 @@
     },
     {
       "key": "org.h2.value.Typed#getType()",
-      "signature": "abstract org.h2.value.TypeInfo getType()"
+      "signature": "org.h2.value.TypeInfo getType()"
     },
     {
       "key": "org.h2.value.Value#castTo(org.h2.value.TypeInfo, org.h2.engine.CastDataProvider)",
@@ -24360,7 +24360,7 @@
     },
     {
       "key": "org.h2.value.Value#compareTypeSafe(org.h2.value.Value, org.h2.value.CompareMode, org.h2.engine.CastDataProvider)",
-      "signature": "abstract int compareTypeSafe(org.h2.value.Value, org.h2.value.CompareMode, org.h2.engine.CastDataProvider)"
+      "signature": "int compareTypeSafe(org.h2.value.Value, org.h2.value.CompareMode, org.h2.engine.CastDataProvider)"
     },
     {
       "key": "org.h2.value.Value#compareWithNull(org.h2.value.Value, boolean, org.h2.engine.CastDataProvider, org.h2.value.CompareMode)",
@@ -24468,7 +24468,7 @@
     },
     {
       "key": "org.h2.value.Value#getValueType()",
-      "signature": "abstract int getValueType()"
+      "signature": "int getValueType()"
     },
     {
       "key": "org.h2.value.Value#isFalse()",
@@ -25300,7 +25300,7 @@
     },
     {
       "key": "org.h2.value.ValueLob#copy(org.h2.store.DataHandler, int)",
-      "signature": "abstract org.h2.value.ValueLob copy(org.h2.store.DataHandler, int)"
+      "signature": "org.h2.value.ValueLob copy(org.h2.store.DataHandler, int)"
     },
     {
       "key": "org.h2.value.ValueLob#copyToResult()",
@@ -25936,7 +25936,7 @@
     },
     {
       "key": "org.h2.value.ValueToObjectConverter#valueToObject(java.lang.Class<T>, org.h2.value.Value, org.h2.jdbc.JdbcConnection)",
-      "signature": "<T> T valueToObject(java.lang.Class<T>, org.h2.value.Value, org.h2.jdbc.JdbcConnection)"
+      "signature": "T valueToObject(java.lang.Class<T>, org.h2.value.Value, org.h2.jdbc.JdbcConnection)"
     },
     {
       "key": "org.h2.value.ValueToObjectConverter2#classToType(java.lang.Class<?>)",
@@ -26076,7 +26076,7 @@
     },
     {
       "key": "org.h2.value.lob.LobData#getInputStream(long)",
-      "signature": "abstract java.io.InputStream getInputStream(long)"
+      "signature": "java.io.InputStream getInputStream(long)"
     },
     {
       "key": "org.h2.value.lob.LobData#getMemory()",
@@ -26182,8 +26182,8 @@
   "changed": [
     {
       "name": "org.h2.api.DatabaseEventListener#setProgress",
-      "old": "abstract void setProgress(int, java.lang.String, int, int)",
-      "new": "default void setProgress(int, java.lang.String, long, long)",
+      "old": "void setProgress(int, java.lang.String, int, int)",
+      "new": "void setProgress(int, java.lang.String, long, long)",
       "old_key": "org.h2.api.DatabaseEventListener#setProgress(int, java.lang.String, int, int)",
       "new_key": "org.h2.api.DatabaseEventListener#setProgress(int, java.lang.String, long, long)"
     },
@@ -26211,14 +26211,14 @@
     {
       "name": "org.h2.command.Command#query",
       "old": "org.h2.result.ResultInterface query(int)",
-      "new": "abstract org.h2.result.ResultInterface query(long)",
+      "new": "org.h2.result.ResultInterface query(long)",
       "old_key": "org.h2.command.Command#query(int)",
       "new_key": "org.h2.command.Command#query(long)"
     },
     {
       "name": "org.h2.command.Command#update",
       "old": "int update()",
-      "new": "abstract org.h2.result.ResultWithGeneratedKeys update(java.lang.Object)",
+      "new": "org.h2.result.ResultWithGeneratedKeys update(java.lang.Object)",
       "old_key": "org.h2.command.Command#update()",
       "new_key": "org.h2.command.Command#update(java.lang.Object)"
     },
@@ -26238,15 +26238,15 @@
     },
     {
       "name": "org.h2.command.CommandInterface#executeQuery",
-      "old": "abstract org.h2.result.ResultInterface executeQuery(int, boolean)",
-      "new": "abstract org.h2.result.ResultInterface executeQuery(long, boolean)",
+      "old": "org.h2.result.ResultInterface executeQuery(int, boolean)",
+      "new": "org.h2.result.ResultInterface executeQuery(long, boolean)",
       "old_key": "org.h2.command.CommandInterface#executeQuery(int, boolean)",
       "new_key": "org.h2.command.CommandInterface#executeQuery(long, boolean)"
     },
     {
       "name": "org.h2.command.CommandInterface#executeUpdate",
-      "old": "abstract int executeUpdate()",
-      "new": "abstract org.h2.result.ResultWithGeneratedKeys executeUpdate(java.lang.Object)",
+      "old": "int executeUpdate()",
+      "new": "org.h2.result.ResultWithGeneratedKeys executeUpdate(java.lang.Object)",
       "old_key": "org.h2.command.CommandInterface#executeUpdate()",
       "new_key": "org.h2.command.CommandInterface#executeUpdate(java.lang.Object)"
     },
@@ -26511,22 +26511,22 @@
     },
     {
       "name": "org.h2.compress.Compressor#compress",
-      "old": "abstract int compress(byte[], int, byte[], int)",
-      "new": "abstract int compress(byte[], int, int, byte[], int)",
+      "old": "int compress(byte[], int, byte[], int)",
+      "new": "int compress(byte[], int, int, byte[], int)",
       "old_key": "org.h2.compress.Compressor#compress(byte[], int, byte[], int)",
       "new_key": "org.h2.compress.Compressor#compress(byte[], int, int, byte[], int)"
     },
     {
       "name": "org.h2.constraint.Constraint#checkExistingData",
-      "old": "abstract void checkExistingData(org.h2.engine.Session)",
-      "new": "abstract void checkExistingData(org.h2.engine.SessionLocal)",
+      "old": "void checkExistingData(org.h2.engine.Session)",
+      "new": "void checkExistingData(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.constraint.Constraint#checkExistingData(org.h2.engine.Session)",
       "new_key": "org.h2.constraint.Constraint#checkExistingData(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.constraint.Constraint#checkRow",
-      "old": "abstract void checkRow(org.h2.engine.Session, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)",
-      "new": "abstract void checkRow(org.h2.engine.SessionLocal, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)",
+      "old": "void checkRow(org.h2.engine.Session, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)",
+      "new": "void checkRow(org.h2.engine.SessionLocal, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)",
       "old_key": "org.h2.constraint.Constraint#checkRow(org.h2.engine.Session, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)",
       "new_key": "org.h2.constraint.Constraint#checkRow(org.h2.engine.SessionLocal, org.h2.table.Table, org.h2.result.Row, org.h2.result.Row)"
     },
@@ -26721,15 +26721,15 @@
     },
     {
       "name": "org.h2.engine.DbObject#getSQL",
-      "old": "abstract java.lang.String getSQL()",
+      "old": "java.lang.String getSQL()",
       "new": "java.lang.String getSQL(int)",
       "old_key": "org.h2.engine.DbObject#getSQL()",
       "new_key": "org.h2.engine.DbObject#getSQL(int)"
     },
     {
       "name": "org.h2.engine.DbObject#removeChildrenAndResources",
-      "old": "abstract void removeChildrenAndResources(org.h2.engine.Session)",
-      "new": "abstract void removeChildrenAndResources(org.h2.engine.SessionLocal)",
+      "old": "void removeChildrenAndResources(org.h2.engine.Session)",
+      "new": "void removeChildrenAndResources(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.engine.DbObject#removeChildrenAndResources(org.h2.engine.Session)",
       "new_key": "org.h2.engine.DbObject#removeChildrenAndResources(org.h2.engine.SessionLocal)"
     },
@@ -26764,7 +26764,7 @@
     {
       "name": "org.h2.engine.Session#addTemporaryLob",
       "old": "void addTemporaryLob(org.h2.value.Value)",
-      "new": "abstract org.h2.value.ValueLob addTemporaryLob(org.h2.value.ValueLob)",
+      "new": "org.h2.value.ValueLob addTemporaryLob(org.h2.value.ValueLob)",
       "old_key": "org.h2.engine.Session#addTemporaryLob(org.h2.value.Value)",
       "new_key": "org.h2.engine.Session#addTemporaryLob(org.h2.value.ValueLob)"
     },
@@ -26875,36 +26875,36 @@
     },
     {
       "name": "org.h2.expression.Expression#getSQL",
-      "old": "abstract java.lang.String getSQL()",
+      "old": "java.lang.String getSQL()",
       "new": "java.lang.String getSQL(int)",
       "old_key": "org.h2.expression.Expression#getSQL()",
       "new_key": "org.h2.expression.Expression#getSQL(int)"
     },
     {
       "name": "org.h2.expression.Expression#getValue",
-      "old": "abstract org.h2.value.Value getValue(org.h2.engine.Session)",
-      "new": "abstract org.h2.value.Value getValue(org.h2.engine.SessionLocal)",
+      "old": "org.h2.value.Value getValue(org.h2.engine.Session)",
+      "new": "org.h2.value.Value getValue(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.expression.Expression#getValue(org.h2.engine.Session)",
       "new_key": "org.h2.expression.Expression#getValue(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.expression.Expression#mapColumns",
-      "old": "abstract void mapColumns(org.h2.table.ColumnResolver, int)",
-      "new": "abstract void mapColumns(org.h2.table.ColumnResolver, int, int)",
+      "old": "void mapColumns(org.h2.table.ColumnResolver, int)",
+      "new": "void mapColumns(org.h2.table.ColumnResolver, int, int)",
       "old_key": "org.h2.expression.Expression#mapColumns(org.h2.table.ColumnResolver, int)",
       "new_key": "org.h2.expression.Expression#mapColumns(org.h2.table.ColumnResolver, int, int)"
     },
     {
       "name": "org.h2.expression.Expression#optimize",
-      "old": "abstract org.h2.expression.Expression optimize(org.h2.engine.Session)",
-      "new": "abstract org.h2.expression.Expression optimize(org.h2.engine.SessionLocal)",
+      "old": "org.h2.expression.Expression optimize(org.h2.engine.Session)",
+      "new": "org.h2.expression.Expression optimize(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.expression.Expression#optimize(org.h2.engine.Session)",
       "new_key": "org.h2.expression.Expression#optimize(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.expression.Expression#updateAggregate",
-      "old": "abstract void updateAggregate(org.h2.engine.Session)",
-      "new": "abstract void updateAggregate(org.h2.engine.SessionLocal, int)",
+      "old": "void updateAggregate(org.h2.engine.Session)",
+      "new": "void updateAggregate(org.h2.engine.SessionLocal, int)",
       "old_key": "org.h2.expression.Expression#updateAggregate(org.h2.engine.Session)",
       "new_key": "org.h2.expression.Expression#updateAggregate(org.h2.engine.SessionLocal, int)"
     },
@@ -27127,78 +27127,78 @@
     },
     {
       "name": "org.h2.index.Index#add",
-      "old": "abstract void add(org.h2.engine.Session, org.h2.result.Row)",
-      "new": "abstract void add(org.h2.engine.SessionLocal, org.h2.result.Row)",
+      "old": "void add(org.h2.engine.Session, org.h2.result.Row)",
+      "new": "void add(org.h2.engine.SessionLocal, org.h2.result.Row)",
       "old_key": "org.h2.index.Index#add(org.h2.engine.Session, org.h2.result.Row)",
       "new_key": "org.h2.index.Index#add(org.h2.engine.SessionLocal, org.h2.result.Row)"
     },
     {
       "name": "org.h2.index.Index#close",
-      "old": "abstract void close(org.h2.engine.Session)",
-      "new": "abstract void close(org.h2.engine.SessionLocal)",
+      "old": "void close(org.h2.engine.Session)",
+      "new": "void close(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.index.Index#close(org.h2.engine.Session)",
       "new_key": "org.h2.index.Index#close(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.index.Index#find",
-      "old": "abstract org.h2.index.Cursor find(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
-      "new": "abstract org.h2.index.Cursor find(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)",
+      "old": "org.h2.index.Cursor find(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
+      "new": "org.h2.index.Cursor find(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "old_key": "org.h2.index.Index#find(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "new_key": "org.h2.index.Index#find(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)"
     },
     {
       "name": "org.h2.index.Index#findFirstOrLast",
-      "old": "abstract org.h2.index.Cursor findFirstOrLast(org.h2.engine.Session, boolean)",
+      "old": "org.h2.index.Cursor findFirstOrLast(org.h2.engine.Session, boolean)",
       "new": "org.h2.index.Cursor findFirstOrLast(org.h2.engine.SessionLocal, boolean)",
       "old_key": "org.h2.index.Index#findFirstOrLast(org.h2.engine.Session, boolean)",
       "new_key": "org.h2.index.Index#findFirstOrLast(org.h2.engine.SessionLocal, boolean)"
     },
     {
       "name": "org.h2.index.Index#findNext",
-      "old": "abstract org.h2.index.Cursor findNext(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
+      "old": "org.h2.index.Cursor findNext(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "new": "org.h2.index.Cursor findNext(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "old_key": "org.h2.index.Index#findNext(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "new_key": "org.h2.index.Index#findNext(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)"
     },
     {
       "name": "org.h2.index.Index#getCost",
-      "old": "abstract double getCost(org.h2.engine.Session, int[], org.h2.table.TableFilter, org.h2.result.SortOrder)",
-      "new": "abstract double getCost(org.h2.engine.SessionLocal, int[], org.h2.table.TableFilter[], int, org.h2.result.SortOrder, org.h2.command.query.AllColumnsForPlan)",
+      "old": "double getCost(org.h2.engine.Session, int[], org.h2.table.TableFilter, org.h2.result.SortOrder)",
+      "new": "double getCost(org.h2.engine.SessionLocal, int[], org.h2.table.TableFilter[], int, org.h2.result.SortOrder, org.h2.command.query.AllColumnsForPlan)",
       "old_key": "org.h2.index.Index#getCost(org.h2.engine.Session, int[], org.h2.table.TableFilter, org.h2.result.SortOrder)",
       "new_key": "org.h2.index.Index#getCost(org.h2.engine.SessionLocal, int[], org.h2.table.TableFilter[], int, org.h2.result.SortOrder, org.h2.command.query.AllColumnsForPlan)"
     },
     {
       "name": "org.h2.index.Index#getRow",
-      "old": "abstract org.h2.result.Row getRow(org.h2.engine.Session, long)",
+      "old": "org.h2.result.Row getRow(org.h2.engine.Session, long)",
       "new": "org.h2.result.Row getRow(org.h2.engine.SessionLocal, long)",
       "old_key": "org.h2.index.Index#getRow(org.h2.engine.Session, long)",
       "new_key": "org.h2.index.Index#getRow(org.h2.engine.SessionLocal, long)"
     },
     {
       "name": "org.h2.index.Index#getRowCount",
-      "old": "abstract long getRowCount(org.h2.engine.Session)",
-      "new": "abstract long getRowCount(org.h2.engine.SessionLocal)",
+      "old": "long getRowCount(org.h2.engine.Session)",
+      "new": "long getRowCount(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.index.Index#getRowCount(org.h2.engine.Session)",
       "new_key": "org.h2.index.Index#getRowCount(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.index.Index#getRowCountApproximation",
-      "old": "abstract long getRowCountApproximation()",
-      "new": "abstract long getRowCountApproximation(org.h2.engine.SessionLocal)",
+      "old": "long getRowCountApproximation()",
+      "new": "long getRowCountApproximation(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.index.Index#getRowCountApproximation()",
       "new_key": "org.h2.index.Index#getRowCountApproximation(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.index.Index#remove",
-      "old": "abstract void remove(org.h2.engine.Session)",
-      "new": "abstract void remove(org.h2.engine.SessionLocal)",
+      "old": "void remove(org.h2.engine.Session)",
+      "new": "void remove(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.index.Index#remove(org.h2.engine.Session)",
       "new_key": "org.h2.index.Index#remove(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.index.Index#truncate",
-      "old": "abstract void truncate(org.h2.engine.Session)",
-      "new": "abstract void truncate(org.h2.engine.SessionLocal)",
+      "old": "void truncate(org.h2.engine.Session)",
+      "new": "void truncate(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.index.Index#truncate(org.h2.engine.Session)",
       "new_key": "org.h2.index.Index#truncate(org.h2.engine.SessionLocal)"
     },
@@ -27379,8 +27379,8 @@
     },
     {
       "name": "org.h2.index.SpatialIndex#findByGeometry",
-      "old": "abstract org.h2.index.Cursor findByGeometry(org.h2.table.TableFilter, org.h2.result.SearchRow)",
-      "new": "abstract org.h2.index.Cursor findByGeometry(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow, org.h2.result.SearchRow)",
+      "old": "org.h2.index.Cursor findByGeometry(org.h2.table.TableFilter, org.h2.result.SearchRow)",
+      "new": "org.h2.index.Cursor findByGeometry(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "old_key": "org.h2.index.SpatialIndex#findByGeometry(org.h2.table.TableFilter, org.h2.result.SearchRow)",
       "new_key": "org.h2.index.SpatialIndex#findByGeometry(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow, org.h2.result.SearchRow)"
     },
@@ -27470,8 +27470,8 @@
     },
     {
       "name": "org.h2.mvstore.MVMap$MapBuilder#create",
-      "old": "abstract M create()",
-      "new": "abstract M create(org.h2.mvstore.MVStore, java.util.Map<java.lang.String, java.lang.Object>)",
+      "old": "M create()",
+      "new": "M create(org.h2.mvstore.MVStore, java.util.Map<java.lang.String, java.lang.Object>)",
       "old_key": "org.h2.mvstore.MVMap$MapBuilder#create()",
       "new_key": "org.h2.mvstore.MVMap$MapBuilder#create(org.h2.mvstore.MVStore, java.util.Map<java.lang.String, java.lang.Object>)"
     },
@@ -27499,14 +27499,14 @@
     {
       "name": "org.h2.mvstore.Page#insertLeaf",
       "old": "void insertLeaf(int, java.lang.Object, java.lang.Object)",
-      "new": "abstract void insertLeaf(int, K, V)",
+      "new": "void insertLeaf(int, K, V)",
       "old_key": "org.h2.mvstore.Page#insertLeaf(int, java.lang.Object, java.lang.Object)",
       "new_key": "org.h2.mvstore.Page#insertLeaf(int, K, V)"
     },
     {
       "name": "org.h2.mvstore.Page#insertNode",
       "old": "void insertNode(int, java.lang.Object, org.h2.mvstore.Page)",
-      "new": "abstract void insertNode(int, K, org.h2.mvstore.Page<K, V>)",
+      "new": "void insertNode(int, K, org.h2.mvstore.Page<K, V>)",
       "old_key": "org.h2.mvstore.Page#insertNode(int, java.lang.Object, org.h2.mvstore.Page)",
       "new_key": "org.h2.mvstore.Page#insertNode(int, K, org.h2.mvstore.Page<K, V>)"
     },
@@ -27520,7 +27520,7 @@
     {
       "name": "org.h2.mvstore.Page#setChild",
       "old": "void setChild(int, org.h2.mvstore.Page)",
-      "new": "abstract void setChild(int, org.h2.mvstore.Page<K, V>)",
+      "new": "void setChild(int, org.h2.mvstore.Page<K, V>)",
       "old_key": "org.h2.mvstore.Page#setChild(int, org.h2.mvstore.Page)",
       "new_key": "org.h2.mvstore.Page#setChild(int, org.h2.mvstore.Page<K, V>)"
     },
@@ -27534,7 +27534,7 @@
     {
       "name": "org.h2.mvstore.Page#setValue",
       "old": "java.lang.Object setValue(int, java.lang.Object)",
-      "new": "abstract V setValue(int, V)",
+      "new": "V setValue(int, V)",
       "old_key": "org.h2.mvstore.Page#setValue(int, java.lang.Object)",
       "new_key": "org.h2.mvstore.Page#setValue(int, V)"
     },
@@ -27953,22 +27953,22 @@
     },
     {
       "name": "org.h2.mvstore.type.DataType#compare",
-      "old": "abstract int compare(java.lang.Object, java.lang.Object)",
-      "new": "abstract int compare(T, T)",
+      "old": "int compare(java.lang.Object, java.lang.Object)",
+      "new": "int compare(T, T)",
       "old_key": "org.h2.mvstore.type.DataType#compare(java.lang.Object, java.lang.Object)",
       "new_key": "org.h2.mvstore.type.DataType#compare(T, T)"
     },
     {
       "name": "org.h2.mvstore.type.DataType#getMemory",
-      "old": "abstract int getMemory(java.lang.Object)",
-      "new": "abstract int getMemory(T)",
+      "old": "int getMemory(java.lang.Object)",
+      "new": "int getMemory(T)",
       "old_key": "org.h2.mvstore.type.DataType#getMemory(java.lang.Object)",
       "new_key": "org.h2.mvstore.type.DataType#getMemory(T)"
     },
     {
       "name": "org.h2.mvstore.type.DataType#write",
-      "old": "abstract void write(org.h2.mvstore.WriteBuffer, java.lang.Object)",
-      "new": "abstract void write(org.h2.mvstore.WriteBuffer, T)",
+      "old": "void write(org.h2.mvstore.WriteBuffer, java.lang.Object)",
+      "new": "void write(org.h2.mvstore.WriteBuffer, T)",
       "old_key": "org.h2.mvstore.type.DataType#write(org.h2.mvstore.WriteBuffer, java.lang.Object)",
       "new_key": "org.h2.mvstore.type.DataType#write(org.h2.mvstore.WriteBuffer, T)"
     },
@@ -28009,15 +28009,15 @@
     },
     {
       "name": "org.h2.result.ResultExternal#addRows",
-      "old": "abstract int addRows(java.util.ArrayList<org.h2.value.Value[]>)",
-      "new": "abstract int addRows(java.util.Collection<org.h2.value.Value[]>)",
+      "old": "int addRows(java.util.ArrayList<org.h2.value.Value[]>)",
+      "new": "int addRows(java.util.Collection<org.h2.value.Value[]>)",
       "old_key": "org.h2.result.ResultExternal#addRows(java.util.ArrayList<org.h2.value.Value[]>)",
       "new_key": "org.h2.result.ResultExternal#addRows(java.util.Collection<org.h2.value.Value[]>)"
     },
     {
       "name": "org.h2.result.ResultTarget#addRow",
-      "old": "abstract void addRow(org.h2.value.Value[])",
-      "new": "abstract void addRow(org.h2.value.Value...)",
+      "old": "void addRow(org.h2.value.Value[])",
+      "new": "void addRow(org.h2.value.Value...)",
       "old_key": "org.h2.result.ResultTarget#addRow(org.h2.value.Value[])",
       "new_key": "org.h2.result.ResultTarget#addRow(org.h2.value.Value...)"
     },
@@ -28205,22 +28205,22 @@
     },
     {
       "name": "org.h2.store.LobStorageInterface#copyLob",
-      "old": "abstract org.h2.value.ValueLobDb copyLob(int, long, int, long)",
-      "new": "abstract org.h2.value.ValueLob copyLob(org.h2.value.ValueLob, int)",
+      "old": "org.h2.value.ValueLobDb copyLob(int, long, int, long)",
+      "new": "org.h2.value.ValueLob copyLob(org.h2.value.ValueLob, int)",
       "old_key": "org.h2.store.LobStorageInterface#copyLob(int, long, int, long)",
       "new_key": "org.h2.store.LobStorageInterface#copyLob(org.h2.value.ValueLob, int)"
     },
     {
       "name": "org.h2.store.LobStorageInterface#getInputStream",
-      "old": "abstract java.io.InputStream getInputStream(long, byte[], long)",
-      "new": "abstract java.io.InputStream getInputStream(long, int, long)",
+      "old": "java.io.InputStream getInputStream(long, byte[], long)",
+      "new": "java.io.InputStream getInputStream(long, int, long)",
       "old_key": "org.h2.store.LobStorageInterface#getInputStream(long, byte[], long)",
       "new_key": "org.h2.store.LobStorageInterface#getInputStream(long, int, long)"
     },
     {
       "name": "org.h2.store.LobStorageInterface#removeLob",
-      "old": "abstract void removeLob(long)",
-      "new": "abstract void removeLob(org.h2.value.ValueLob)",
+      "old": "void removeLob(long)",
+      "new": "void removeLob(org.h2.value.ValueLob)",
       "old_key": "org.h2.store.LobStorageInterface#removeLob(long)",
       "new_key": "org.h2.store.LobStorageInterface#removeLob(org.h2.value.ValueLob)"
     },
@@ -28233,8 +28233,8 @@
     },
     {
       "name": "org.h2.store.fs.FilePath#moveTo",
-      "old": "abstract void moveTo(org.h2.store.fs.FilePath)",
-      "new": "abstract void moveTo(org.h2.store.fs.FilePath, boolean)",
+      "old": "void moveTo(org.h2.store.fs.FilePath)",
+      "new": "void moveTo(org.h2.store.fs.FilePath, boolean)",
       "old_key": "org.h2.store.fs.FilePath#moveTo(org.h2.store.fs.FilePath)",
       "new_key": "org.h2.store.fs.FilePath#moveTo(org.h2.store.fs.FilePath, boolean)"
     },
@@ -28360,7 +28360,7 @@
     {
       "name": "org.h2.table.MetaTable#generateRows",
       "old": "java.util.ArrayList<org.h2.result.Row> generateRows(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
-      "new": "abstract java.util.ArrayList<org.h2.result.Row> generateRows(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)",
+      "new": "java.util.ArrayList<org.h2.result.Row> generateRows(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "old_key": "org.h2.table.MetaTable#generateRows(org.h2.engine.Session, org.h2.result.SearchRow, org.h2.result.SearchRow)",
       "new_key": "org.h2.table.MetaTable#generateRows(org.h2.engine.SessionLocal, org.h2.result.SearchRow, org.h2.result.SearchRow)"
     },
@@ -28464,22 +28464,22 @@
     },
     {
       "name": "org.h2.table.Table#addIndex",
-      "old": "abstract org.h2.index.Index addIndex(org.h2.engine.Session, java.lang.String, int, org.h2.table.IndexColumn[], org.h2.index.IndexType, boolean, java.lang.String)",
-      "new": "abstract org.h2.index.Index addIndex(org.h2.engine.SessionLocal, java.lang.String, int, org.h2.table.IndexColumn[], int, org.h2.index.IndexType, boolean, java.lang.String)",
+      "old": "org.h2.index.Index addIndex(org.h2.engine.Session, java.lang.String, int, org.h2.table.IndexColumn[], org.h2.index.IndexType, boolean, java.lang.String)",
+      "new": "org.h2.index.Index addIndex(org.h2.engine.SessionLocal, java.lang.String, int, org.h2.table.IndexColumn[], int, org.h2.index.IndexType, boolean, java.lang.String)",
       "old_key": "org.h2.table.Table#addIndex(org.h2.engine.Session, java.lang.String, int, org.h2.table.IndexColumn[], org.h2.index.IndexType, boolean, java.lang.String)",
       "new_key": "org.h2.table.Table#addIndex(org.h2.engine.SessionLocal, java.lang.String, int, org.h2.table.IndexColumn[], int, org.h2.index.IndexType, boolean, java.lang.String)"
     },
     {
       "name": "org.h2.table.Table#addRow",
-      "old": "abstract void addRow(org.h2.engine.Session, org.h2.result.Row)",
-      "new": "abstract void addRow(org.h2.engine.SessionLocal, org.h2.result.Row)",
+      "old": "void addRow(org.h2.engine.Session, org.h2.result.Row)",
+      "new": "void addRow(org.h2.engine.SessionLocal, org.h2.result.Row)",
       "old_key": "org.h2.table.Table#addRow(org.h2.engine.Session, org.h2.result.Row)",
       "new_key": "org.h2.table.Table#addRow(org.h2.engine.SessionLocal, org.h2.result.Row)"
     },
     {
       "name": "org.h2.table.Table#canGetRowCount",
-      "old": "abstract boolean canGetRowCount()",
-      "new": "abstract boolean canGetRowCount(org.h2.engine.SessionLocal)",
+      "old": "boolean canGetRowCount()",
+      "new": "boolean canGetRowCount(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#canGetRowCount()",
       "new_key": "org.h2.table.Table#canGetRowCount(org.h2.engine.SessionLocal)"
     },
@@ -28492,8 +28492,8 @@
     },
     {
       "name": "org.h2.table.Table#close",
-      "old": "abstract void close(org.h2.engine.Session)",
-      "new": "abstract void close(org.h2.engine.SessionLocal)",
+      "old": "void close(org.h2.engine.Session)",
+      "new": "void close(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#close(org.h2.engine.Session)",
       "new_key": "org.h2.table.Table#close(org.h2.engine.SessionLocal)"
     },
@@ -28541,22 +28541,22 @@
     },
     {
       "name": "org.h2.table.Table#getRowCount",
-      "old": "abstract long getRowCount(org.h2.engine.Session)",
-      "new": "abstract long getRowCount(org.h2.engine.SessionLocal)",
+      "old": "long getRowCount(org.h2.engine.Session)",
+      "new": "long getRowCount(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#getRowCount(org.h2.engine.Session)",
       "new_key": "org.h2.table.Table#getRowCount(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.table.Table#getRowCountApproximation",
-      "old": "abstract long getRowCountApproximation()",
-      "new": "abstract long getRowCountApproximation(org.h2.engine.SessionLocal)",
+      "old": "long getRowCountApproximation()",
+      "new": "long getRowCountApproximation(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#getRowCountApproximation()",
       "new_key": "org.h2.table.Table#getRowCountApproximation(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.table.Table#getScanIndex",
-      "old": "abstract org.h2.index.Index getScanIndex(org.h2.engine.Session)",
-      "new": "abstract org.h2.index.Index getScanIndex(org.h2.engine.SessionLocal)",
+      "old": "org.h2.index.Index getScanIndex(org.h2.engine.Session)",
+      "new": "org.h2.index.Index getScanIndex(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#getScanIndex(org.h2.engine.Session)",
       "new_key": "org.h2.table.Table#getScanIndex(org.h2.engine.SessionLocal)"
     },
@@ -28569,7 +28569,7 @@
     },
     {
       "name": "org.h2.table.Table#lock",
-      "old": "abstract void lock(org.h2.engine.Session, boolean, boolean)",
+      "old": "void lock(org.h2.engine.Session, boolean, boolean)",
       "new": "boolean lock(org.h2.engine.SessionLocal, boolean, boolean)",
       "old_key": "org.h2.table.Table#lock(org.h2.engine.Session, boolean, boolean)",
       "new_key": "org.h2.table.Table#lock(org.h2.engine.SessionLocal, boolean, boolean)"
@@ -28590,8 +28590,8 @@
     },
     {
       "name": "org.h2.table.Table#removeRow",
-      "old": "abstract void removeRow(org.h2.engine.Session, org.h2.result.Row)",
-      "new": "abstract void removeRow(org.h2.engine.SessionLocal, org.h2.result.Row)",
+      "old": "void removeRow(org.h2.engine.Session, org.h2.result.Row)",
+      "new": "void removeRow(org.h2.engine.SessionLocal, org.h2.result.Row)",
       "old_key": "org.h2.table.Table#removeRow(org.h2.engine.Session, org.h2.result.Row)",
       "new_key": "org.h2.table.Table#removeRow(org.h2.engine.SessionLocal, org.h2.result.Row)"
     },
@@ -28604,14 +28604,14 @@
     },
     {
       "name": "org.h2.table.Table#truncate",
-      "old": "abstract void truncate(org.h2.engine.Session)",
-      "new": "abstract long truncate(org.h2.engine.SessionLocal)",
+      "old": "void truncate(org.h2.engine.Session)",
+      "new": "long truncate(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#truncate(org.h2.engine.Session)",
       "new_key": "org.h2.table.Table#truncate(org.h2.engine.SessionLocal)"
     },
     {
       "name": "org.h2.table.Table#unlock",
-      "old": "abstract void unlock(org.h2.engine.Session)",
+      "old": "void unlock(org.h2.engine.Session)",
       "new": "void unlock(org.h2.engine.SessionLocal)",
       "old_key": "org.h2.table.Table#unlock(org.h2.engine.Session)",
       "new_key": "org.h2.table.Table#unlock(org.h2.engine.SessionLocal)"
@@ -29084,13 +29084,769 @@
     "new_methods": 8207,
     "removed": 2332,
     "added": 4212,
-    "changed": 414
+    "changed": 414,
+    "removed_classes": 178,
+    "added_classes": 556
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.h2database_h2_1.3.175.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.h2database_h2_2.0.206.jar",
+  "removed_classes": [
+    "org.h2.command.ddl.CreateUserDataType",
+    "org.h2.command.ddl.DropUserDataType",
+    "org.h2.command.dml.AlterSequence",
+    "org.h2.command.dml.Optimizer",
+    "org.h2.command.dml.Query",
+    "org.h2.command.dml.Replace",
+    "org.h2.command.dml.Select",
+    "org.h2.command.dml.SelectListColumnResolver",
+    "org.h2.command.dml.SelectOrderBy",
+    "org.h2.command.dml.SelectUnion",
+    "org.h2.constant.DbSettings",
+    "org.h2.constant.ErrorCode",
+    "org.h2.constant.SysProperties",
+    "org.h2.engine.DatabaseCloser",
+    "org.h2.engine.DbObjectBase",
+    "org.h2.engine.FunctionAlias",
+    "org.h2.engine.FunctionAlias$JavaMethod",
+    "org.h2.engine.Session$Savepoint",
+    "org.h2.engine.SessionFactory",
+    "org.h2.engine.SessionInterface",
+    "org.h2.engine.SessionWithState",
+    "org.h2.engine.UndoLog",
+    "org.h2.engine.UndoLogRecord",
+    "org.h2.engine.UserAggregate",
+    "org.h2.engine.UserDataType",
+    "org.h2.expression.Aggregate",
+    "org.h2.expression.AggregateData",
+    "org.h2.expression.AggregateDataCount",
+    "org.h2.expression.AggregateDataCountAll",
+    "org.h2.expression.AggregateDataDefault",
+    "org.h2.expression.AggregateDataGroupConcat",
+    "org.h2.expression.AggregateDataHistogram",
+    "org.h2.expression.AggregateDataSelectivity",
+    "org.h2.expression.CompareLike",
+    "org.h2.expression.Comparison",
+    "org.h2.expression.Condition",
+    "org.h2.expression.ConditionAndOr",
+    "org.h2.expression.ConditionExists",
+    "org.h2.expression.ConditionIn",
+    "org.h2.expression.ConditionInConstantSet",
+    "org.h2.expression.ConditionInSelect",
+    "org.h2.expression.ConditionNot",
+    "org.h2.expression.Function",
+    "org.h2.expression.FunctionCall",
+    "org.h2.expression.FunctionInfo",
+    "org.h2.expression.JavaAggregate",
+    "org.h2.expression.JavaFunction",
+    "org.h2.expression.Operation",
+    "org.h2.expression.TableFunction",
+    "org.h2.index.BaseIndex",
+    "org.h2.index.FunctionCursor",
+    "org.h2.index.FunctionCursorResultSet",
+    "org.h2.index.FunctionIndex",
+    "org.h2.index.HashIndex",
+    "org.h2.index.MultiVersionCursor",
+    "org.h2.index.MultiVersionIndex",
+    "org.h2.index.NonUniqueHashCursor",
+    "org.h2.index.NonUniqueHashIndex",
+    "org.h2.index.PageBtree",
+    "org.h2.index.PageBtreeCursor",
+    "org.h2.index.PageBtreeIndex",
+    "org.h2.index.PageBtreeLeaf",
+    "org.h2.index.PageBtreeNode",
+    "org.h2.index.PageData",
+    "org.h2.index.PageDataCursor",
+    "org.h2.index.PageDataIndex",
+    "org.h2.index.PageDataLeaf",
+    "org.h2.index.PageDataNode",
+    "org.h2.index.PageDataOverflow",
+    "org.h2.index.PageDelegateIndex",
+    "org.h2.index.PageIndex",
+    "org.h2.index.ScanCursor",
+    "org.h2.index.ScanIndex",
+    "org.h2.index.SpatialTreeIndex",
+    "org.h2.index.SpatialTreeIndex$SpatialCursor",
+    "org.h2.index.TreeCursor",
+    "org.h2.index.TreeIndex",
+    "org.h2.index.TreeNode",
+    "org.h2.index.ViewIndex$CostElement",
+    "org.h2.mvstore.DataUtils$MapEntry",
+    "org.h2.mvstore.MVMapConcurrent",
+    "org.h2.mvstore.MVMapConcurrent$Builder",
+    "org.h2.mvstore.db.MVTableEngine",
+    "org.h2.mvstore.db.MVTableEngine$MVInDoubtTransaction",
+    "org.h2.mvstore.db.MVTableEngine$Store",
+    "org.h2.mvstore.db.TransactionStore",
+    "org.h2.mvstore.db.TransactionStore$ArrayType",
+    "org.h2.mvstore.db.TransactionStore$Change",
+    "org.h2.mvstore.db.TransactionStore$Transaction",
+    "org.h2.mvstore.db.TransactionStore$TransactionMap",
+    "org.h2.mvstore.db.TransactionStore$VersionedValue",
+    "org.h2.mvstore.db.TransactionStore$VersionedValueType",
+    "org.h2.mvstore.rtree.SpatialKey",
+    "org.h2.result.ResultDiskBuffer",
+    "org.h2.result.ResultDiskBuffer$ResultDiskTape",
+    "org.h2.result.ResultTempTable",
+    "org.h2.result.RowList",
+    "org.h2.result.SimpleRow",
+    "org.h2.schema.SchemaObjectBase",
+    "org.h2.store.LobStorageBackend",
+    "org.h2.store.LobStorageBackend$CountingReaderInputStream",
+    "org.h2.store.LobStorageBackend$LobInputStream",
+    "org.h2.store.Page",
+    "org.h2.store.PageFreeList",
+    "org.h2.store.PageInputStream",
+    "org.h2.store.PageLog",
+    "org.h2.store.PageOutputStream",
+    "org.h2.store.PageStore",
+    "org.h2.store.PageStoreInDoubtTransaction",
+    "org.h2.store.PageStreamData",
+    "org.h2.store.PageStreamTrunk",
+    "org.h2.store.PageStreamTrunk$Iterator",
+    "org.h2.store.SessionState",
+    "org.h2.store.WriterThread",
+    "org.h2.store.fs.FileChannelOutputStream",
+    "org.h2.store.fs.FileDisk",
+    "org.h2.store.fs.FileMem",
+    "org.h2.store.fs.FileMemData",
+    "org.h2.store.fs.FileMemData$Cache",
+    "org.h2.store.fs.FileMemData$CompressItem",
+    "org.h2.store.fs.FileNio",
+    "org.h2.store.fs.FileNioMapped",
+    "org.h2.store.fs.FileNioMem",
+    "org.h2.store.fs.FileNioMemData",
+    "org.h2.store.fs.FileNioMemData$Cache",
+    "org.h2.store.fs.FileNioMemData$CompressItem",
+    "org.h2.store.fs.FilePathDisk",
+    "org.h2.store.fs.FilePathEncrypt",
+    "org.h2.store.fs.FilePathEncrypt$FileEncrypt",
+    "org.h2.store.fs.FilePathEncrypt$XTS",
+    "org.h2.store.fs.FilePathMem",
+    "org.h2.store.fs.FilePathMemLZF",
+    "org.h2.store.fs.FilePathNio",
+    "org.h2.store.fs.FilePathNioMapped",
+    "org.h2.store.fs.FilePathNioMem",
+    "org.h2.store.fs.FilePathNioMemLZF",
+    "org.h2.store.fs.FilePathRec",
+    "org.h2.store.fs.FilePathSplit",
+    "org.h2.store.fs.FilePathZip",
+    "org.h2.store.fs.FileRec",
+    "org.h2.store.fs.FileSplit",
+    "org.h2.store.fs.FileZip",
+    "org.h2.table.LinkSchema",
+    "org.h2.table.RegularTable",
+    "org.h2.table.SingleColumnResolver",
+    "org.h2.tools.Recover$PageInputStream",
+    "org.h2.tools.Recover$Stats",
+    "org.h2.tools.SimpleResultSet$Column",
+    "org.h2.tools.TriggerAdapter$TriggerRowSource",
+    "org.h2.upgrade.DbUpgrade",
+    "org.h2.util.AutoCloseInputStream",
+    "org.h2.util.BitField",
+    "org.h2.util.HashBase",
+    "org.h2.util.IntIntHashMap",
+    "org.h2.util.New",
+    "org.h2.util.SoftHashMap",
+    "org.h2.util.SoftHashMap$SoftValue",
+    "org.h2.util.StatementBuilder",
+    "org.h2.util.SynchronizedVerifier",
+    "org.h2.util.ToChar",
+    "org.h2.util.ToChar$Capitalization",
+    "org.h2.util.ValueHashMap",
+    "org.h2.value.Value$ValueBlob",
+    "org.h2.value.Value$ValueClob",
+    "org.h2.value.ValueByte",
+    "org.h2.value.ValueBytes",
+    "org.h2.value.ValueDecimal",
+    "org.h2.value.ValueFloat",
+    "org.h2.value.ValueGeometry$ZVisitor",
+    "org.h2.value.ValueInt",
+    "org.h2.value.ValueJavaObject$NotSerialized",
+    "org.h2.value.ValueLobDb",
+    "org.h2.value.ValueLong",
+    "org.h2.value.ValueResultSet",
+    "org.h2.value.ValueShort",
+    "org.h2.value.ValueString",
+    "org.h2.value.ValueStringFixed",
+    "org.h2.value.ValueStringIgnoreCase"
+  ],
+  "added_classes": [
+    "org.h2.JdbcDriverBackwardsCompat",
+    "org.h2.api.Aggregate",
+    "org.h2.api.CredentialsValidator",
+    "org.h2.api.ErrorCode",
+    "org.h2.api.H2Type",
+    "org.h2.api.Interval",
+    "org.h2.api.IntervalQualifier",
+    "org.h2.api.UserToRolesMapper",
+    "org.h2.bnf.RuleExtension",
+    "org.h2.command.CommandContainer$GeneratedKeysCollector",
+    "org.h2.command.Parser$NullConstraintType",
+    "org.h2.command.ddl.AlterDomain",
+    "org.h2.command.ddl.AlterDomainAddConstraint",
+    "org.h2.command.ddl.AlterDomainDropConstraint",
+    "org.h2.command.ddl.AlterDomainExpressions",
+    "org.h2.command.ddl.AlterDomainRename",
+    "org.h2.command.ddl.AlterDomainRenameConstraint",
+    "org.h2.command.ddl.AlterSequence",
+    "org.h2.command.ddl.AlterTable",
+    "org.h2.command.ddl.AlterTableRenameConstraint",
+    "org.h2.command.ddl.Analyze$SelectivityData",
+    "org.h2.command.ddl.CommandWithColumns",
+    "org.h2.command.ddl.CreateDomain",
+    "org.h2.command.ddl.CreateSynonym",
+    "org.h2.command.ddl.CreateSynonymData",
+    "org.h2.command.ddl.DropDomain",
+    "org.h2.command.ddl.DropSynonym",
+    "org.h2.command.ddl.DropTable$SchemaAndTable",
+    "org.h2.command.ddl.SchemaOwnerCommand",
+    "org.h2.command.ddl.SequenceOptions",
+    "org.h2.command.dml.CommandWithValues",
+    "org.h2.command.dml.DataChangeStatement",
+    "org.h2.command.dml.ExecuteImmediate",
+    "org.h2.command.dml.FilteredDataChangeStatement",
+    "org.h2.command.dml.Help",
+    "org.h2.command.dml.MergeUsing",
+    "org.h2.command.dml.MergeUsing$When",
+    "org.h2.command.dml.MergeUsing$WhenMatchedThenDelete",
+    "org.h2.command.dml.MergeUsing$WhenMatchedThenUpdate",
+    "org.h2.command.dml.MergeUsing$WhenNotMatched",
+    "org.h2.command.dml.SetClauseList",
+    "org.h2.command.dml.SetClauseList$RowExpression",
+    "org.h2.command.dml.SetClauseList$SetMultiple",
+    "org.h2.command.dml.SetClauseList$SetSimple",
+    "org.h2.command.dml.SetClauseList$UpdateAction",
+    "org.h2.command.dml.SetSessionCharacteristics",
+    "org.h2.command.query.AllColumnsForPlan",
+    "org.h2.command.query.Optimizer",
+    "org.h2.command.query.Query",
+    "org.h2.command.query.Query$OffsetFetch",
+    "org.h2.command.query.QueryOrderBy",
+    "org.h2.command.query.Select",
+    "org.h2.command.query.Select$LazyResultGroupSorted",
+    "org.h2.command.query.Select$LazyResultQueryFlat",
+    "org.h2.command.query.Select$LazyResultSelect",
+    "org.h2.command.query.SelectGroups",
+    "org.h2.command.query.SelectGroups$Grouped",
+    "org.h2.command.query.SelectGroups$Plain",
+    "org.h2.command.query.SelectListColumnResolver",
+    "org.h2.command.query.SelectUnion",
+    "org.h2.command.query.SelectUnion$LazyResultUnion",
+    "org.h2.command.query.SelectUnion$UnionType",
+    "org.h2.command.query.TableValueConstructor",
+    "org.h2.command.query.TableValueConstructor$TableValueColumnResolver",
+    "org.h2.constraint.Constraint$Type",
+    "org.h2.constraint.ConstraintActionType",
+    "org.h2.constraint.ConstraintDomain",
+    "org.h2.constraint.ConstraintDomain$CheckExistingData",
+    "org.h2.constraint.DomainColumnResolver",
+    "org.h2.engine.CastDataProvider",
+    "org.h2.engine.DbSettings",
+    "org.h2.engine.DelayedDatabaseCloser",
+    "org.h2.engine.Engine$DatabaseHolder",
+    "org.h2.engine.GeneratedKeysMode",
+    "org.h2.engine.IsolationLevel",
+    "org.h2.engine.Mode$CharPadding",
+    "org.h2.engine.Mode$ExpressionNames",
+    "org.h2.engine.Mode$ModeEnum",
+    "org.h2.engine.Mode$UniqueIndexNullsHandling",
+    "org.h2.engine.Mode$ViewExpressionNames",
+    "org.h2.engine.OnExitDatabaseCloser",
+    "org.h2.engine.Session$DynamicSettings",
+    "org.h2.engine.Session$StaticSettings",
+    "org.h2.engine.SessionLocal",
+    "org.h2.engine.SessionLocal$RowNumberAndValue",
+    "org.h2.engine.SessionLocal$Savepoint",
+    "org.h2.engine.SessionLocal$SequenceAndPrepared",
+    "org.h2.engine.SessionLocal$State",
+    "org.h2.engine.SessionLocal$TimeoutValue",
+    "org.h2.engine.SysProperties",
+    "org.h2.engine.UserBuilder",
+    "org.h2.expression.ArrayConstructorByQuery",
+    "org.h2.expression.ArrayElementReference",
+    "org.h2.expression.BinaryOperation",
+    "org.h2.expression.BinaryOperation$OpType",
+    "org.h2.expression.CompatibilityDatePlusTimeOperation",
+    "org.h2.expression.ConcatenationOperation",
+    "org.h2.expression.DomainValueExpression",
+    "org.h2.expression.ExpressionWithFlags",
+    "org.h2.expression.ExpressionWithVariableParameters",
+    "org.h2.expression.FieldReference",
+    "org.h2.expression.Format",
+    "org.h2.expression.Format$FormatEnum",
+    "org.h2.expression.IntervalOperation",
+    "org.h2.expression.IntervalOperation$IntervalOpType",
+    "org.h2.expression.Operation0",
+    "org.h2.expression.Operation1",
+    "org.h2.expression.Operation1_2",
+    "org.h2.expression.Operation2",
+    "org.h2.expression.OperationN",
+    "org.h2.expression.SearchedCase",
+    "org.h2.expression.SimpleCase",
+    "org.h2.expression.SimpleCase$SimpleWhen",
+    "org.h2.expression.TimeZoneOperation",
+    "org.h2.expression.TypedValueExpression",
+    "org.h2.expression.UnaryOperation",
+    "org.h2.expression.aggregate.AbstractAggregate",
+    "org.h2.expression.aggregate.Aggregate",
+    "org.h2.expression.aggregate.AggregateData",
+    "org.h2.expression.aggregate.AggregateDataAvg",
+    "org.h2.expression.aggregate.AggregateDataBinarySet",
+    "org.h2.expression.aggregate.AggregateDataCollecting",
+    "org.h2.expression.aggregate.AggregateDataCollecting$NullCollectionMode",
+    "org.h2.expression.aggregate.AggregateDataCorr",
+    "org.h2.expression.aggregate.AggregateDataCount",
+    "org.h2.expression.aggregate.AggregateDataCovar",
+    "org.h2.expression.aggregate.AggregateDataDefault",
+    "org.h2.expression.aggregate.AggregateDataDistinctWithCounts",
+    "org.h2.expression.aggregate.AggregateDataEnvelope",
+    "org.h2.expression.aggregate.AggregateDataStdVar",
+    "org.h2.expression.aggregate.AggregateType",
+    "org.h2.expression.aggregate.JavaAggregate",
+    "org.h2.expression.aggregate.ListaggArguments",
+    "org.h2.expression.aggregate.LongDataCounter",
+    "org.h2.expression.aggregate.Percentile",
+    "org.h2.expression.analysis.DataAnalysisOperation",
+    "org.h2.expression.analysis.PartitionData",
+    "org.h2.expression.analysis.Window",
+    "org.h2.expression.analysis.WindowFrame",
+    "org.h2.expression.analysis.WindowFrame$BiItr",
+    "org.h2.expression.analysis.WindowFrame$BiReverseItr",
+    "org.h2.expression.analysis.WindowFrame$Itr",
+    "org.h2.expression.analysis.WindowFrame$PlainItr",
+    "org.h2.expression.analysis.WindowFrame$PlainReverseItr",
+    "org.h2.expression.analysis.WindowFrame$TriItr",
+    "org.h2.expression.analysis.WindowFrame$TriReverseItr",
+    "org.h2.expression.analysis.WindowFrameBound",
+    "org.h2.expression.analysis.WindowFrameBoundType",
+    "org.h2.expression.analysis.WindowFrameExclusion",
+    "org.h2.expression.analysis.WindowFrameUnits",
+    "org.h2.expression.analysis.WindowFunction",
+    "org.h2.expression.analysis.WindowFunctionType",
+    "org.h2.expression.condition.BetweenPredicate",
+    "org.h2.expression.condition.BooleanTest",
+    "org.h2.expression.condition.CompareLike",
+    "org.h2.expression.condition.CompareLike$LikeType",
+    "org.h2.expression.condition.Comparison",
+    "org.h2.expression.condition.Condition",
+    "org.h2.expression.condition.ConditionAndOr",
+    "org.h2.expression.condition.ConditionAndOrN",
+    "org.h2.expression.condition.ConditionIn",
+    "org.h2.expression.condition.ConditionInConstantSet",
+    "org.h2.expression.condition.ConditionInParameter",
+    "org.h2.expression.condition.ConditionInParameter$ParameterList",
+    "org.h2.expression.condition.ConditionInQuery",
+    "org.h2.expression.condition.ConditionLocalAndGlobal",
+    "org.h2.expression.condition.ConditionNot",
+    "org.h2.expression.condition.ExistsPredicate",
+    "org.h2.expression.condition.IsJsonPredicate",
+    "org.h2.expression.condition.NullPredicate",
+    "org.h2.expression.condition.PredicateWithSubquery",
+    "org.h2.expression.condition.SimplePredicate",
+    "org.h2.expression.condition.TypePredicate",
+    "org.h2.expression.condition.UniquePredicate",
+    "org.h2.expression.condition.UniquePredicate$Target",
+    "org.h2.expression.function.ArrayFunction",
+    "org.h2.expression.function.BitFunction",
+    "org.h2.expression.function.BuiltinFunctions",
+    "org.h2.expression.function.CSVWriteFunction",
+    "org.h2.expression.function.CardinalityExpression",
+    "org.h2.expression.function.CastSpecification",
+    "org.h2.expression.function.CoalesceFunction",
+    "org.h2.expression.function.CompatibilitySequenceValueFunction",
+    "org.h2.expression.function.CompressFunction",
+    "org.h2.expression.function.ConcatFunction",
+    "org.h2.expression.function.CryptFunction",
+    "org.h2.expression.function.CurrentDateTimeValueFunction",
+    "org.h2.expression.function.CurrentGeneralValueSpecification",
+    "org.h2.expression.function.DBObjectFunction",
+    "org.h2.expression.function.DataTypeSQLFunction",
+    "org.h2.expression.function.DateTimeFormatFunction",
+    "org.h2.expression.function.DateTimeFormatFunction$CacheKey",
+    "org.h2.expression.function.DateTimeFormatFunction$CacheValue",
+    "org.h2.expression.function.DateTimeFunction",
+    "org.h2.expression.function.DayMonthNameFunction",
+    "org.h2.expression.function.FileFunction",
+    "org.h2.expression.function.Function0_1",
+    "org.h2.expression.function.Function1",
+    "org.h2.expression.function.Function1_2",
+    "org.h2.expression.function.Function2",
+    "org.h2.expression.function.FunctionN",
+    "org.h2.expression.function.HashFunction",
+    "org.h2.expression.function.JavaFunction",
+    "org.h2.expression.function.JsonConstructorFunction",
+    "org.h2.expression.function.LengthFunction",
+    "org.h2.expression.function.MathFunction",
+    "org.h2.expression.function.MathFunction1",
+    "org.h2.expression.function.MathFunction2",
+    "org.h2.expression.function.NamedExpression",
+    "org.h2.expression.function.NullIfFunction",
+    "org.h2.expression.function.RandFunction",
+    "org.h2.expression.function.RegexpFunction",
+    "org.h2.expression.function.SessionControlFunction",
+    "org.h2.expression.function.SetFunction",
+    "org.h2.expression.function.SignalFunction",
+    "org.h2.expression.function.SoundexFunction",
+    "org.h2.expression.function.StringFunction",
+    "org.h2.expression.function.StringFunction1",
+    "org.h2.expression.function.StringFunction2",
+    "org.h2.expression.function.SubstringFunction",
+    "org.h2.expression.function.SysInfoFunction",
+    "org.h2.expression.function.TableInfoFunction",
+    "org.h2.expression.function.ToCharFunction",
+    "org.h2.expression.function.ToCharFunction$Capitalization",
+    "org.h2.expression.function.TrimFunction",
+    "org.h2.expression.function.TruncateValueFunction",
+    "org.h2.expression.function.XMLFunction",
+    "org.h2.expression.function.table.ArrayTableFunction",
+    "org.h2.expression.function.table.CSVReadFunction",
+    "org.h2.expression.function.table.JavaTableFunction",
+    "org.h2.expression.function.table.LinkSchemaFunction",
+    "org.h2.expression.function.table.TableFunction",
+    "org.h2.index.DualCursor",
+    "org.h2.index.DualIndex",
+    "org.h2.index.VirtualConstructedTableIndex",
+    "org.h2.index.VirtualTableCursor",
+    "org.h2.index.VirtualTableIndex",
+    "org.h2.jdbc.JdbcConnectionBackwardsCompat",
+    "org.h2.jdbc.JdbcDatabaseMetaDataBackwardsCompat",
+    "org.h2.jdbc.JdbcException",
+    "org.h2.jdbc.JdbcLob",
+    "org.h2.jdbc.JdbcLob$LobPipedOutputStream",
+    "org.h2.jdbc.JdbcLob$State",
+    "org.h2.jdbc.JdbcSQLDataException",
+    "org.h2.jdbc.JdbcSQLFeatureNotSupportedException",
+    "org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException",
+    "org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException",
+    "org.h2.jdbc.JdbcSQLNonTransientConnectionException",
+    "org.h2.jdbc.JdbcSQLNonTransientException",
+    "org.h2.jdbc.JdbcSQLSyntaxErrorException",
+    "org.h2.jdbc.JdbcSQLTimeoutException",
+    "org.h2.jdbc.JdbcSQLTransactionRollbackException",
+    "org.h2.jdbc.JdbcSQLTransientException",
+    "org.h2.jdbc.JdbcSQLXML",
+    "org.h2.jdbc.JdbcStatementBackwardsCompat",
+    "org.h2.jdbc.meta.DatabaseMeta",
+    "org.h2.jdbc.meta.DatabaseMetaLegacy",
+    "org.h2.jdbc.meta.DatabaseMetaLocal",
+    "org.h2.jdbc.meta.DatabaseMetaLocalBase",
+    "org.h2.jdbc.meta.DatabaseMetaRemote",
+    "org.h2.jdbc.meta.DatabaseMetaServer",
+    "org.h2.jdbcx.JdbcConnectionPoolBackwardsCompat",
+    "org.h2.jdbcx.JdbcDataSourceBackwardsCompat",
+    "org.h2.mode.DefaultNullOrdering",
+    "org.h2.mode.FunctionInfo",
+    "org.h2.mode.FunctionsDB2Derby",
+    "org.h2.mode.FunctionsMSSQLServer",
+    "org.h2.mode.FunctionsMySQL",
+    "org.h2.mode.FunctionsOracle",
+    "org.h2.mode.FunctionsPostgreSQL",
+    "org.h2.mode.ModeFunction",
+    "org.h2.mode.OnDuplicateKeyValues",
+    "org.h2.mode.PgCatalogSchema",
+    "org.h2.mode.PgCatalogTable",
+    "org.h2.mode.Regclass",
+    "org.h2.mode.ToDateParser",
+    "org.h2.mode.ToDateParser$ConfigParam",
+    "org.h2.mode.ToDateTokenizer",
+    "org.h2.mode.ToDateTokenizer$DayParslet",
+    "org.h2.mode.ToDateTokenizer$FormatTokenEnum",
+    "org.h2.mode.ToDateTokenizer$InlineParslet",
+    "org.h2.mode.ToDateTokenizer$MonthParslet",
+    "org.h2.mode.ToDateTokenizer$TimeParslet",
+    "org.h2.mode.ToDateTokenizer$ToDateParslet",
+    "org.h2.mode.ToDateTokenizer$YearParslet",
+    "org.h2.mvstore.Chunk$PositionComparator",
+    "org.h2.mvstore.MVMap$BasicBuilder",
+    "org.h2.mvstore.MVMap$Decision",
+    "org.h2.mvstore.MVMap$DecisionMaker",
+    "org.h2.mvstore.MVMap$EqualsDecisionMaker",
+    "org.h2.mvstore.MVMap$IntValueHolder",
+    "org.h2.mvstore.MVMap$RewriteDecisionMaker",
+    "org.h2.mvstore.MVStore$RemovedPageInfo",
+    "org.h2.mvstore.MVStore$TxCounter",
+    "org.h2.mvstore.MVStoreException",
+    "org.h2.mvstore.MVStoreTool$GenericDataType",
+    "org.h2.mvstore.Page$IncompleteNonLeaf",
+    "org.h2.mvstore.Page$Leaf",
+    "org.h2.mvstore.Page$NonLeaf",
+    "org.h2.mvstore.Page$PageReference",
+    "org.h2.mvstore.RootReference",
+    "org.h2.mvstore.cache.CacheLongKeyLIRS$Config",
+    "org.h2.mvstore.db.LobStorageMap",
+    "org.h2.mvstore.db.LobStorageMap$BlobMeta",
+    "org.h2.mvstore.db.LobStorageMap$BlobMeta$Type",
+    "org.h2.mvstore.db.LobStorageMap$BlobReference",
+    "org.h2.mvstore.db.LobStorageMap$BlobReference$Type",
+    "org.h2.mvstore.db.LobStorageMap$LobInputStream",
+    "org.h2.mvstore.db.MVInDoubtTransaction",
+    "org.h2.mvstore.db.MVIndex",
+    "org.h2.mvstore.db.MVPlainTempResult",
+    "org.h2.mvstore.db.MVSecondaryIndex$Source",
+    "org.h2.mvstore.db.MVSecondaryIndex$Source$Comparator",
+    "org.h2.mvstore.db.MVSortedTempResult",
+    "org.h2.mvstore.db.MVSpatialIndex$FindBoundsCursor",
+    "org.h2.mvstore.db.MVSpatialIndex$SpatialKeyIterator",
+    "org.h2.mvstore.db.MVTable$TraceLockEvent",
+    "org.h2.mvstore.db.MVTempResult",
+    "org.h2.mvstore.db.MVTempResult$CloseImpl",
+    "org.h2.mvstore.db.NullValueDataType",
+    "org.h2.mvstore.db.RowDataType",
+    "org.h2.mvstore.db.RowDataType$Factory",
+    "org.h2.mvstore.db.SpatialKey",
+    "org.h2.mvstore.db.Store",
+    "org.h2.mvstore.db.ValueDataType$Factory",
+    "org.h2.mvstore.rtree.DefaultSpatial",
+    "org.h2.mvstore.rtree.MVRTreeMap$ContainsRTreeCursor",
+    "org.h2.mvstore.rtree.MVRTreeMap$IntersectsRTreeCursor",
+    "org.h2.mvstore.rtree.Spatial",
+    "org.h2.mvstore.tx.CommitDecisionMaker",
+    "org.h2.mvstore.tx.Record",
+    "org.h2.mvstore.tx.Record$Type",
+    "org.h2.mvstore.tx.RollbackDecisionMaker",
+    "org.h2.mvstore.tx.Snapshot",
+    "org.h2.mvstore.tx.Transaction",
+    "org.h2.mvstore.tx.TransactionMap",
+    "org.h2.mvstore.tx.TransactionMap$CommittedIterator",
+    "org.h2.mvstore.tx.TransactionMap$RepeatableIterator",
+    "org.h2.mvstore.tx.TransactionMap$TMIterator",
+    "org.h2.mvstore.tx.TransactionMap$UncommittedIterator",
+    "org.h2.mvstore.tx.TransactionMap$ValidationIterator",
+    "org.h2.mvstore.tx.TransactionStore",
+    "org.h2.mvstore.tx.TransactionStore$Change",
+    "org.h2.mvstore.tx.TransactionStore$RollbackListener",
+    "org.h2.mvstore.tx.TransactionStore$TxMapBuilder",
+    "org.h2.mvstore.tx.TransactionStore$TxMapBuilder$TMVMap",
+    "org.h2.mvstore.tx.TxDecisionMaker",
+    "org.h2.mvstore.tx.TxDecisionMaker$LockDecisionMaker",
+    "org.h2.mvstore.tx.TxDecisionMaker$PutIfAbsentDecisionMaker",
+    "org.h2.mvstore.tx.TxDecisionMaker$RepeatableReadLockDecisionMaker",
+    "org.h2.mvstore.tx.VersionedBitSet",
+    "org.h2.mvstore.tx.VersionedValueCommitted",
+    "org.h2.mvstore.tx.VersionedValueType",
+    "org.h2.mvstore.tx.VersionedValueType$Factory",
+    "org.h2.mvstore.tx.VersionedValueUncommitted",
+    "org.h2.mvstore.type.BasicDataType",
+    "org.h2.mvstore.type.ByteArrayDataType",
+    "org.h2.mvstore.type.LongDataType",
+    "org.h2.mvstore.type.MetaType",
+    "org.h2.mvstore.type.ObjectDataType$Holder",
+    "org.h2.mvstore.type.StatefulDataType",
+    "org.h2.mvstore.type.StatefulDataType$Factory",
+    "org.h2.result.DefaultRow",
+    "org.h2.result.FetchedResult",
+    "org.h2.result.LazyResult",
+    "org.h2.result.MergedResult",
+    "org.h2.result.ResultWithGeneratedKeys",
+    "org.h2.result.ResultWithGeneratedKeys$WithKeys",
+    "org.h2.result.ResultWithPaddedStrings",
+    "org.h2.result.RowFactory",
+    "org.h2.result.RowFactory$DefaultRowFactory",
+    "org.h2.result.RowFactory$Holder",
+    "org.h2.result.SimpleResult",
+    "org.h2.result.SimpleResult$Column",
+    "org.h2.result.Sparse",
+    "org.h2.schema.Domain",
+    "org.h2.schema.FunctionAlias",
+    "org.h2.schema.FunctionAlias$JavaMethod",
+    "org.h2.schema.InformationSchema",
+    "org.h2.schema.MetaSchema",
+    "org.h2.schema.Sequence$Cycle",
+    "org.h2.schema.UserAggregate",
+    "org.h2.schema.UserAggregate$AggregateWrapper",
+    "org.h2.schema.UserDefinedFunction",
+    "org.h2.security.SHA3",
+    "org.h2.security.auth.AuthConfigException",
+    "org.h2.security.auth.AuthenticationException",
+    "org.h2.security.auth.AuthenticationInfo",
+    "org.h2.security.auth.Authenticator",
+    "org.h2.security.auth.AuthenticatorFactory",
+    "org.h2.security.auth.ConfigProperties",
+    "org.h2.security.auth.Configurable",
+    "org.h2.security.auth.DefaultAuthenticator",
+    "org.h2.security.auth.H2AuthConfig",
+    "org.h2.security.auth.H2AuthConfigXml",
+    "org.h2.security.auth.HasConfigProperties",
+    "org.h2.security.auth.PropertyConfig",
+    "org.h2.security.auth.RealmConfig",
+    "org.h2.security.auth.UserToRolesMapperConfig",
+    "org.h2.security.auth.impl.AssignRealmNameRole",
+    "org.h2.security.auth.impl.JaasCredentialsValidator",
+    "org.h2.security.auth.impl.JaasCredentialsValidator$AuthenticationInfoCallbackHandler",
+    "org.h2.security.auth.impl.LdapCredentialsValidator",
+    "org.h2.security.auth.impl.StaticRolesMapper",
+    "org.h2.security.auth.impl.StaticUserCredentialsValidator",
+    "org.h2.store.CountingReaderInputStream",
+    "org.h2.store.FileLockMethod",
+    "org.h2.store.RangeInputStream",
+    "org.h2.store.RangeReader",
+    "org.h2.store.fs.FakeFileChannel",
+    "org.h2.store.fs.FileBaseDefault",
+    "org.h2.store.fs.async.FileAsync",
+    "org.h2.store.fs.async.FilePathAsync",
+    "org.h2.store.fs.disk.FilePathDisk",
+    "org.h2.store.fs.encrypt.FileEncrypt",
+    "org.h2.store.fs.encrypt.FilePathEncrypt",
+    "org.h2.store.fs.encrypt.XTS",
+    "org.h2.store.fs.mem.FileMem",
+    "org.h2.store.fs.mem.FileMemData",
+    "org.h2.store.fs.mem.FileMemData$Cache",
+    "org.h2.store.fs.mem.FileMemData$CompressItem",
+    "org.h2.store.fs.mem.FilePathMem",
+    "org.h2.store.fs.mem.FilePathMemLZF",
+    "org.h2.store.fs.niomapped.FileNioMapped",
+    "org.h2.store.fs.niomapped.FilePathNioMapped",
+    "org.h2.store.fs.niomem.FileNioMem",
+    "org.h2.store.fs.niomem.FileNioMemData",
+    "org.h2.store.fs.niomem.FileNioMemData$CompressItem",
+    "org.h2.store.fs.niomem.FileNioMemData$CompressLaterCache",
+    "org.h2.store.fs.niomem.FilePathNioMem",
+    "org.h2.store.fs.niomem.FilePathNioMemLZF",
+    "org.h2.store.fs.rec.FilePathRec",
+    "org.h2.store.fs.rec.FileRec",
+    "org.h2.store.fs.retry.FilePathRetryOnInterrupt",
+    "org.h2.store.fs.retry.FileRetryOnInterrupt",
+    "org.h2.store.fs.retry.FileRetryOnInterrupt$FileLockRetry",
+    "org.h2.store.fs.split.FilePathSplit",
+    "org.h2.store.fs.split.FileSplit",
+    "org.h2.store.fs.zip.FilePathZip",
+    "org.h2.store.fs.zip.FileZip",
+    "org.h2.table.ColumnTemplate",
+    "org.h2.table.DataChangeDeltaTable",
+    "org.h2.table.DataChangeDeltaTable$ResultOption",
+    "org.h2.table.DualTable",
+    "org.h2.table.GeneratedColumnResolver",
+    "org.h2.table.IndexHints",
+    "org.h2.table.InformationSchemaTable",
+    "org.h2.table.InformationSchemaTable$DataTypeInformation",
+    "org.h2.table.InformationSchemaTableLegacy",
+    "org.h2.table.TableFilter$MapColumnsVisitor",
+    "org.h2.table.TableSynonym",
+    "org.h2.table.TableType",
+    "org.h2.table.TableValueConstructorTable",
+    "org.h2.table.TableView$CacheKey",
+    "org.h2.table.VirtualConstructedTable",
+    "org.h2.table.VirtualTable",
+    "org.h2.tools.GUIConsole",
+    "org.h2.tools.Upgrade",
+    "org.h2.util.AbbaDetector",
+    "org.h2.util.AbbaLockingDetector",
+    "org.h2.util.Bits",
+    "org.h2.util.ByteStack",
+    "org.h2.util.DebuggingThreadLocal",
+    "org.h2.util.HasSQL",
+    "org.h2.util.IntervalUtils",
+    "org.h2.util.JSR310Utils",
+    "org.h2.util.LegacyDateTimeUtils",
+    "org.h2.util.MemoryEstimator",
+    "org.h2.util.MemoryUnmapper",
+    "org.h2.util.NetworkConnectionInfo",
+    "org.h2.util.ParserUtil",
+    "org.h2.util.SimpleColumnInfo",
+    "org.h2.util.SoftValuesHashMap",
+    "org.h2.util.SoftValuesHashMap$SoftValue",
+    "org.h2.util.ThreadDeadlockDetector",
+    "org.h2.util.TimeZoneProvider",
+    "org.h2.util.TimeZoneProvider$Simple",
+    "org.h2.util.TimeZoneProvider$WithTimeZone",
+    "org.h2.util.Utils10",
+    "org.h2.util.geometry.EWKBUtils",
+    "org.h2.util.geometry.EWKBUtils$EWKBSource",
+    "org.h2.util.geometry.EWKBUtils$EWKBTarget",
+    "org.h2.util.geometry.EWKTUtils",
+    "org.h2.util.geometry.EWKTUtils$EWKTSource",
+    "org.h2.util.geometry.EWKTUtils$EWKTTarget",
+    "org.h2.util.geometry.GeoJsonUtils",
+    "org.h2.util.geometry.GeoJsonUtils$GeoJsonTarget",
+    "org.h2.util.geometry.GeometryUtils",
+    "org.h2.util.geometry.GeometryUtils$DimensionSystemTarget",
+    "org.h2.util.geometry.GeometryUtils$EnvelopeAndDimensionSystemTarget",
+    "org.h2.util.geometry.GeometryUtils$EnvelopeTarget",
+    "org.h2.util.geometry.GeometryUtils$Target",
+    "org.h2.util.geometry.JTSUtils",
+    "org.h2.util.geometry.JTSUtils$GeometryTarget",
+    "org.h2.util.json.JSONArray",
+    "org.h2.util.json.JSONBoolean",
+    "org.h2.util.json.JSONByteArrayTarget",
+    "org.h2.util.json.JSONBytesSource",
+    "org.h2.util.json.JSONItemType",
+    "org.h2.util.json.JSONNull",
+    "org.h2.util.json.JSONNumber",
+    "org.h2.util.json.JSONObject",
+    "org.h2.util.json.JSONString",
+    "org.h2.util.json.JSONStringSource",
+    "org.h2.util.json.JSONStringTarget",
+    "org.h2.util.json.JSONTarget",
+    "org.h2.util.json.JSONTextSource",
+    "org.h2.util.json.JSONValidationTarget",
+    "org.h2.util.json.JSONValidationTargetWithUniqueKeys",
+    "org.h2.util.json.JSONValidationTargetWithoutUniqueKeys",
+    "org.h2.util.json.JSONValue",
+    "org.h2.util.json.JSONValueTarget",
+    "org.h2.util.json.JsonConstructorUtils",
+    "org.h2.value.CaseInsensitiveConcurrentMap",
+    "org.h2.value.CharsetCollator",
+    "org.h2.value.CharsetCollator$CharsetCollationKey",
+    "org.h2.value.ExtTypeInfo",
+    "org.h2.value.ExtTypeInfoEnum",
+    "org.h2.value.ExtTypeInfoGeometry",
+    "org.h2.value.ExtTypeInfoNumeric",
+    "org.h2.value.ExtTypeInfoRow",
+    "org.h2.value.TypeInfo",
+    "org.h2.value.Typed",
+    "org.h2.value.ValueBigDecimalBase",
+    "org.h2.value.ValueBigint",
+    "org.h2.value.ValueBinary",
+    "org.h2.value.ValueBlob",
+    "org.h2.value.ValueBytesBase",
+    "org.h2.value.ValueChar",
+    "org.h2.value.ValueClob",
+    "org.h2.value.ValueCollectionBase",
+    "org.h2.value.ValueDecfloat",
+    "org.h2.value.ValueEnum",
+    "org.h2.value.ValueEnumBase",
+    "org.h2.value.ValueInteger",
+    "org.h2.value.ValueInterval",
+    "org.h2.value.ValueJson",
+    "org.h2.value.ValueNumeric",
+    "org.h2.value.ValueReal",
+    "org.h2.value.ValueRow",
+    "org.h2.value.ValueSmallint",
+    "org.h2.value.ValueStringBase",
+    "org.h2.value.ValueTimeTimeZone",
+    "org.h2.value.ValueTimestampTimeZone",
+    "org.h2.value.ValueTinyint",
+    "org.h2.value.ValueToObjectConverter",
+    "org.h2.value.ValueToObjectConverter2",
+    "org.h2.value.ValueVarbinary",
+    "org.h2.value.ValueVarchar",
+    "org.h2.value.ValueVarcharIgnoreCase",
+    "org.h2.value.VersionedValue",
+    "org.h2.value.lob.LobData",
+    "org.h2.value.lob.LobDataDatabase",
+    "org.h2.value.lob.LobDataFetchOnDemand",
+    "org.h2.value.lob.LobDataFile",
+    "org.h2.value.lob.LobDataInMemory"
+  ],
+  "old_jar": "jar_cache/com.h2database_h2_1.3.175.jar",
+  "new_jar": "jar_cache/com.h2database_h2_2.0.206.jar",
   "group_id": "com.h2database",
   "artifact_id": "h2",
   "old_version": "1.3.175",
   "new_version": "2.0.206",
-  "project": "geostore"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "geostore"
+  ]
 }

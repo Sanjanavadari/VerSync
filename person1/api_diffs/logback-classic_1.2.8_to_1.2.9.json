@@ -1,0 +1,508 @@
+{
+  "removed": [
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#doEvaluate(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "boolean doEvaluate(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.EvaluatorTemplate#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.GEventEvaluator#evaluate(ch.qos.logback.classic.spi.ILoggingEvent)",
+      "signature": "boolean evaluate(ch.qos.logback.classic.spi.ILoggingEvent)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.GEventEvaluator#evaluate(java.lang.Object)",
+      "signature": "boolean evaluate(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.GEventEvaluator#getExpression()",
+      "signature": "java.lang.String getExpression()"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.GEventEvaluator#setExpression(java.lang.String)",
+      "signature": "void setExpression(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.boolex.GEventEvaluator#start()",
+      "signature": "void start()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#appenderRef(java.lang.String)",
+      "signature": "void appenderRef(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#getAppendersByName()",
+      "signature": "java.util.Map<java.lang.String, ch.qos.logback.core.Appender<?>> getAppendersByName()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#getLabel()",
+      "signature": "java.lang.String getLabel()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#setAppendersByName(java.util.Map<java.lang.String, ch.qos.logback.core.Appender<?>>)",
+      "signature": "void setAppendersByName(java.util.Map<java.lang.String, ch.qos.logback.core.Appender<?>>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#super$3$$getStaticMetaClass()",
+      "signature": "groovy.lang.MetaClass super$3$$getStaticMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate#super$3$getLabel()",
+      "signature": "java.lang.String super$3$getLabel()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate$_closure1#doCall()",
+      "signature": "java.lang.Object doCall()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.AppenderDelegate$_closure1#doCall(java.lang.Object)",
+      "signature": "java.lang.Object doCall(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#analyzeArgs(java.lang.Object...)",
+      "signature": "java.lang.Object analyzeArgs(java.lang.Object...)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#cascadeFields(ch.qos.logback.classic.gaffer.ComponentDelegate)",
+      "signature": "void cascadeFields(ch.qos.logback.classic.gaffer.ComponentDelegate)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getComponent()",
+      "signature": "java.lang.Object getComponent()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getComponentName()",
+      "signature": "java.lang.String getComponentName()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getFieldsToCascade()",
+      "signature": "java.util.List getFieldsToCascade()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getLabel()",
+      "signature": "java.lang.String getLabel()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getLabelFistLetterInUpperCase()",
+      "signature": "java.lang.String getLabelFistLetterInUpperCase()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#injectParent(java.lang.Object)",
+      "signature": "void injectParent(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#methodMissing(java.lang.String, java.lang.Object)",
+      "signature": "void methodMissing(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#parseClassArgument(java.lang.Object)",
+      "signature": "java.lang.Class parseClassArgument(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#parseNameArgument(java.lang.Object)",
+      "signature": "java.lang.String parseNameArgument(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#propertyMissing(java.lang.String, java.lang.Object)",
+      "signature": "void propertyMissing(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ComponentDelegate#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationContributor#getMappings()",
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getMappings()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#appender(java.lang.String, java.lang.Class)",
+      "signature": "void appender(java.lang.String, java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#appender(java.lang.String, java.lang.Class, groovy.lang.Closure)",
+      "signature": "void appender(java.lang.String, java.lang.Class, groovy.lang.Closure)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#conversionRule(java.lang.String, java.lang.Class)",
+      "signature": "void conversionRule(java.lang.String, java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#getAppenderList()",
+      "signature": "java.util.List<ch.qos.logback.core.Appender> getAppenderList()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#getDeclaredOrigin()",
+      "signature": "java.lang.Object getDeclaredOrigin()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#jmxConfigurator()",
+      "signature": "void jmxConfigurator()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#jmxConfigurator(java.lang.String)",
+      "signature": "void jmxConfigurator(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#logger(java.lang.String, ch.qos.logback.classic.Level)",
+      "signature": "void logger(java.lang.String, ch.qos.logback.classic.Level)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#logger(java.lang.String, ch.qos.logback.classic.Level, java.util.List<java.lang.String>)",
+      "signature": "void logger(java.lang.String, ch.qos.logback.classic.Level, java.util.List<java.lang.String>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#logger(java.lang.String, ch.qos.logback.classic.Level, java.util.List<java.lang.String>, java.lang.Boolean)",
+      "signature": "void logger(java.lang.String, ch.qos.logback.classic.Level, java.util.List<java.lang.String>, java.lang.Boolean)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#receiver(java.lang.String, java.lang.Class)",
+      "signature": "void receiver(java.lang.String, java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#receiver(java.lang.String, java.lang.Class, groovy.lang.Closure)",
+      "signature": "void receiver(java.lang.String, java.lang.Class, groovy.lang.Closure)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#root(ch.qos.logback.classic.Level)",
+      "signature": "void root(ch.qos.logback.classic.Level)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#root(ch.qos.logback.classic.Level, java.util.List<java.lang.String>)",
+      "signature": "void root(ch.qos.logback.classic.Level, java.util.List<java.lang.String>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#scan()",
+      "signature": "void scan()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#scan(java.lang.String)",
+      "signature": "void scan(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#setAppenderList(java.util.List<ch.qos.logback.core.Appender>)",
+      "signature": "void setAppenderList(java.util.List<ch.qos.logback.core.Appender>)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#statusListener(java.lang.Class)",
+      "signature": "void statusListener(java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#super$2$getDeclaredOrigin()",
+      "signature": "java.lang.Object super$2$getDeclaredOrigin()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#timestamp(java.lang.String)",
+      "signature": "java.lang.String timestamp(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#timestamp(java.lang.String, long)",
+      "signature": "java.lang.String timestamp(java.lang.String, long)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#turboFilter(java.lang.Class)",
+      "signature": "void turboFilter(java.lang.Class)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate#turboFilter(java.lang.Class, groovy.lang.Closure)",
+      "signature": "void turboFilter(java.lang.Class, groovy.lang.Closure)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2#call(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object call(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2#doCall(java.lang.Object, java.lang.Object)",
+      "signature": "java.lang.Object doCall(java.lang.Object, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2#getAppender()",
+      "signature": "ch.qos.logback.core.Appender getAppender()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2#getAppenderDelegate()",
+      "signature": "ch.qos.logback.classic.gaffer.AppenderDelegate getAppenderDelegate()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_logger_closure1#doCall(java.lang.Object)",
+      "signature": "java.lang.Object doCall(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_logger_closure1#getaName()",
+      "signature": "java.lang.Object getaName()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#getContext()",
+      "signature": "ch.qos.logback.classic.LoggerContext getContext()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#getDEBUG_SYSTEM_PROPERTY_KEY()",
+      "signature": "java.lang.String getDEBUG_SYSTEM_PROPERTY_KEY()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#run(java.io.File)",
+      "signature": "void run(java.io.File)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#run(java.lang.String)",
+      "signature": "void run(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#run(java.net.URL)",
+      "signature": "void run(java.net.URL)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#setContext(ch.qos.logback.classic.LoggerContext)",
+      "signature": "void setContext(ch.qos.logback.classic.LoggerContext)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator$_run_closure1#doCall()",
+      "signature": "java.lang.Object doCall()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator$_run_closure1#doCall(java.lang.Object)",
+      "signature": "java.lang.Object doCall(java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferConfigurator$_run_closure1#getDslScript()",
+      "signature": "groovy.lang.Script getDslScript()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferUtil#runGafferConfiguratorOn(ch.qos.logback.classic.LoggerContext, java.lang.Object, java.io.File)",
+      "signature": "void runGafferConfiguratorOn(ch.qos.logback.classic.LoggerContext, java.lang.Object, java.io.File)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.GafferUtil#runGafferConfiguratorOn(ch.qos.logback.classic.LoggerContext, java.lang.Object, java.net.URL)",
+      "signature": "void runGafferConfiguratorOn(ch.qos.logback.classic.LoggerContext, java.lang.Object, java.net.URL)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#$INIT(java.lang.Object...)",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType $INIT(java.lang.Object...)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#next()",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType next()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#previous()",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType previous()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#valueOf(java.lang.String)",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType valueOf(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.NestingType#values()",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType[] values()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#attach(ch.qos.logback.classic.gaffer.NestingType, java.lang.Object, java.lang.Object, java.lang.String)",
+      "signature": "void attach(ch.qos.logback.classic.gaffer.NestingType, java.lang.Object, java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#convertByValueMethod(java.lang.Object, java.lang.String, java.lang.String)",
+      "signature": "java.lang.Object convertByValueMethod(java.lang.Object, java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#getMetaClass()",
+      "signature": "groovy.lang.MetaClass getMetaClass()"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#getProperty(java.lang.String)",
+      "signature": "java.lang.Object getProperty(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#hasAdderMethod(java.lang.Object, java.lang.String)",
+      "signature": "boolean hasAdderMethod(java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#invokeMethod(java.lang.String, java.lang.Object)",
+      "signature": "java.lang.Object invokeMethod(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#nestingType(java.lang.Object, java.lang.String, java.lang.Object)",
+      "signature": "ch.qos.logback.classic.gaffer.NestingType nestingType(java.lang.Object, java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#setMetaClass(groovy.lang.MetaClass)",
+      "signature": "void setMetaClass(groovy.lang.MetaClass)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#setProperty(java.lang.String, java.lang.Object)",
+      "signature": "void setProperty(java.lang.String, java.lang.Object)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#transformFirstLetter(java.lang.String, groovy.lang.Closure)",
+      "signature": "java.lang.String transformFirstLetter(java.lang.String, groovy.lang.Closure)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil#upperCaseFirstLetter(java.lang.String)",
+      "signature": "java.lang.String upperCaseFirstLetter(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil$_upperCaseFirstLetter_closure1#call(java.lang.String)",
+      "signature": "java.lang.Object call(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.gaffer.PropertyUtil$_upperCaseFirstLetter_closure1#doCall(java.lang.String)",
+      "signature": "java.lang.Object doCall(java.lang.String)"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.JNDIUtil#getInitialContext()",
+      "signature": "javax.naming.Context getInitialContext()"
+    },
+    {
+      "key": "ch.qos.logback.classic.util.JNDIUtil#lookup(javax.naming.Context, java.lang.String)",
+      "signature": "java.lang.String lookup(javax.naming.Context, java.lang.String)"
+    }
+  ],
+  "added": [],
+  "changed": [],
+  "counts": {
+    "old_methods": 736,
+    "new_methods": 624,
+    "removed": 112,
+    "added": 0,
+    "changed": 0,
+    "removed_classes": 16,
+    "added_classes": 0
+  },
+  "removed_classes": [
+    "ch.qos.logback.classic.boolex.EvaluatorTemplate",
+    "ch.qos.logback.classic.boolex.GEventEvaluator",
+    "ch.qos.logback.classic.gaffer.AppenderDelegate",
+    "ch.qos.logback.classic.gaffer.AppenderDelegate$_closure1",
+    "ch.qos.logback.classic.gaffer.ComponentDelegate",
+    "ch.qos.logback.classic.gaffer.ConfigurationContributor",
+    "ch.qos.logback.classic.gaffer.ConfigurationDelegate",
+    "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2",
+    "ch.qos.logback.classic.gaffer.ConfigurationDelegate$_logger_closure1",
+    "ch.qos.logback.classic.gaffer.GafferConfigurator",
+    "ch.qos.logback.classic.gaffer.GafferConfigurator$_run_closure1",
+    "ch.qos.logback.classic.gaffer.GafferUtil",
+    "ch.qos.logback.classic.gaffer.NestingType",
+    "ch.qos.logback.classic.gaffer.PropertyUtil",
+    "ch.qos.logback.classic.gaffer.PropertyUtil$_upperCaseFirstLetter_closure1",
+    "ch.qos.logback.classic.util.JNDIUtil"
+  ],
+  "added_classes": [],
+  "old_jar": "jar_cache/ch.qos.logback_logback-classic_1.2.8.jar",
+  "new_jar": "jar_cache/ch.qos.logback_logback-classic_1.2.9.jar",
+  "group_id": "ch.qos.logback",
+  "artifact_id": "logback-classic",
+  "old_version": "1.2.8",
+  "new_version": "1.2.9",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.codehaus.groovy:groovy",
+        "org.codehaus.groovy:groovy-test"
+      ],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "html2pop3"
+  ]
+}

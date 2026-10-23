@@ -1,0 +1,79 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.jsoup.helper.Validate#ensureNotNull(java.lang.Object, java.lang.String, java.lang.Object...)",
+      "signature": "java.lang.Object ensureNotNull(java.lang.Object, java.lang.String, java.lang.Object...)"
+    },
+    {
+      "key": "org.jsoup.helper.Validate#notEmptyParam(java.lang.String, java.lang.String)",
+      "signature": "void notEmptyParam(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "org.jsoup.helper.Validate#notNullParam(java.lang.Object, java.lang.String)",
+      "signature": "void notNullParam(java.lang.Object, java.lang.String)"
+    },
+    {
+      "key": "org.jsoup.helper.ValidationException#fillInStackTrace()",
+      "signature": "java.lang.Throwable fillInStackTrace()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 895,
+    "new_methods": 899,
+    "removed": 0,
+    "added": 4,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 1
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.jsoup.helper.ValidationException"
+  ],
+  "old_jar": "jar_cache/org.jsoup_jsoup_1.15.2.jar",
+  "new_jar": "jar_cache/org.jsoup_jsoup_1.15.3.jar",
+  "group_id": "org.jsoup",
+  "artifact_id": "jsoup",
+  "old_version": "1.15.2",
+  "new_version": "1.15.3",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.google.code.gson:gson",
+          "old": "2.9.0",
+          "new": "2.9.1"
+        },
+        {
+          "dependency": "org.eclipse.jetty:jetty-server",
+          "old": "9.4.46.v20220331",
+          "new": "9.4.48.v20220622"
+        },
+        {
+          "dependency": "org.eclipse.jetty:jetty-servlet",
+          "old": "9.4.46.v20220331",
+          "new": "9.4.48.v20220622"
+        },
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter",
+          "old": "5.8.2",
+          "new": "5.9.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "html2pop3"
+  ]
+}

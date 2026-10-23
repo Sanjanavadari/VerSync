@@ -414,7 +414,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.AbstractHttpConnection#handle()",
-      "signature": "abstract org.eclipse.jetty.io.Connection handle()"
+      "signature": "org.eclipse.jetty.io.Connection handle()"
     },
     {
       "key": "org.eclipse.jetty.server.AbstractHttpConnection#include()",
@@ -550,7 +550,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.AsyncContinuation#createListener(java.lang.Class<T>)",
-      "signature": "<T extends javax.servlet.AsyncListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.AsyncContinuation#dispatch()",
@@ -730,15 +730,15 @@
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$Deferred#authenticate(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract org.eclipse.jetty.server.Authentication authenticate(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "org.eclipse.jetty.server.Authentication authenticate(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$Deferred#login(java.lang.String, java.lang.Object, javax.servlet.ServletRequest)",
-      "signature": "abstract org.eclipse.jetty.server.Authentication login(java.lang.String, java.lang.Object, javax.servlet.ServletRequest)"
+      "signature": "org.eclipse.jetty.server.Authentication login(java.lang.String, java.lang.Object, javax.servlet.ServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$User#logout()",
-      "signature": "abstract void logout()"
+      "signature": "void logout()"
     },
     {
       "key": "org.eclipse.jetty.server.BlockingHttpConnection#handle()",
@@ -746,195 +746,195 @@
     },
     {
       "key": "org.eclipse.jetty.server.Connector#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#customize(org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.server.Request)",
-      "signature": "abstract void customize(org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.server.Request)"
+      "signature": "void customize(org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConfidentialPort()",
-      "signature": "abstract int getConfidentialPort()"
+      "signature": "int getConfidentialPort()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConfidentialScheme()",
-      "signature": "abstract java.lang.String getConfidentialScheme()"
+      "signature": "java.lang.String getConfidentialScheme()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnection()",
-      "signature": "abstract java.lang.Object getConnection()"
+      "signature": "java.lang.Object getConnection()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnections()",
-      "signature": "abstract int getConnections()"
+      "signature": "int getConnections()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsDurationMax()",
-      "signature": "abstract long getConnectionsDurationMax()"
+      "signature": "long getConnectionsDurationMax()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsDurationMean()",
-      "signature": "abstract double getConnectionsDurationMean()"
+      "signature": "double getConnectionsDurationMean()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsDurationStdDev()",
-      "signature": "abstract double getConnectionsDurationStdDev()"
+      "signature": "double getConnectionsDurationStdDev()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsDurationTotal()",
-      "signature": "abstract long getConnectionsDurationTotal()"
+      "signature": "long getConnectionsDurationTotal()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsOpen()",
-      "signature": "abstract int getConnectionsOpen()"
+      "signature": "int getConnectionsOpen()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsOpenMax()",
-      "signature": "abstract int getConnectionsOpenMax()"
+      "signature": "int getConnectionsOpenMax()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsRequestsMax()",
-      "signature": "abstract int getConnectionsRequestsMax()"
+      "signature": "int getConnectionsRequestsMax()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsRequestsMean()",
-      "signature": "abstract double getConnectionsRequestsMean()"
+      "signature": "double getConnectionsRequestsMean()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionsRequestsStdDev()",
-      "signature": "abstract double getConnectionsRequestsStdDev()"
+      "signature": "double getConnectionsRequestsStdDev()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getHost()",
-      "signature": "abstract java.lang.String getHost()"
+      "signature": "java.lang.String getHost()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getIntegralPort()",
-      "signature": "abstract int getIntegralPort()"
+      "signature": "int getIntegralPort()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getIntegralScheme()",
-      "signature": "abstract java.lang.String getIntegralScheme()"
+      "signature": "java.lang.String getIntegralScheme()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getLocalPort()",
-      "signature": "abstract int getLocalPort()"
+      "signature": "int getLocalPort()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getLowResourceMaxIdleTime()",
-      "signature": "abstract int getLowResourceMaxIdleTime()"
+      "signature": "int getLowResourceMaxIdleTime()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getMaxIdleTime()",
-      "signature": "abstract int getMaxIdleTime()"
+      "signature": "int getMaxIdleTime()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getPort()",
-      "signature": "abstract int getPort()"
+      "signature": "int getPort()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getRequestBufferSize()",
-      "signature": "abstract int getRequestBufferSize()"
+      "signature": "int getRequestBufferSize()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getRequestBuffers()",
-      "signature": "abstract org.eclipse.jetty.io.Buffers getRequestBuffers()"
+      "signature": "org.eclipse.jetty.io.Buffers getRequestBuffers()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getRequestHeaderSize()",
-      "signature": "abstract int getRequestHeaderSize()"
+      "signature": "int getRequestHeaderSize()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getRequests()",
-      "signature": "abstract int getRequests()"
+      "signature": "int getRequests()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getResolveNames()",
-      "signature": "abstract boolean getResolveNames()"
+      "signature": "boolean getResolveNames()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getResponseBufferSize()",
-      "signature": "abstract int getResponseBufferSize()"
+      "signature": "int getResponseBufferSize()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getResponseBuffers()",
-      "signature": "abstract org.eclipse.jetty.io.Buffers getResponseBuffers()"
+      "signature": "org.eclipse.jetty.io.Buffers getResponseBuffers()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getResponseHeaderSize()",
-      "signature": "abstract int getResponseHeaderSize()"
+      "signature": "int getResponseHeaderSize()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getStatsOn()",
-      "signature": "abstract boolean getStatsOn()"
+      "signature": "boolean getStatsOn()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getStatsOnMs()",
-      "signature": "abstract long getStatsOnMs()"
+      "signature": "long getStatsOnMs()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#isConfidential(org.eclipse.jetty.server.Request)",
-      "signature": "abstract boolean isConfidential(org.eclipse.jetty.server.Request)"
+      "signature": "boolean isConfidential(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#isIntegral(org.eclipse.jetty.server.Request)",
-      "signature": "abstract boolean isIntegral(org.eclipse.jetty.server.Request)"
+      "signature": "boolean isIntegral(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#isLowResources()",
-      "signature": "abstract boolean isLowResources()"
+      "signature": "boolean isLowResources()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#open()",
-      "signature": "abstract void open()"
+      "signature": "void open()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#persist(org.eclipse.jetty.io.EndPoint)",
-      "signature": "abstract void persist(org.eclipse.jetty.io.EndPoint)"
+      "signature": "void persist(org.eclipse.jetty.io.EndPoint)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setHost(java.lang.String)",
-      "signature": "abstract void setHost(java.lang.String)"
+      "signature": "void setHost(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setLowResourceMaxIdleTime(int)",
-      "signature": "abstract void setLowResourceMaxIdleTime(int)"
+      "signature": "void setLowResourceMaxIdleTime(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setMaxIdleTime(int)",
-      "signature": "abstract void setMaxIdleTime(int)"
+      "signature": "void setMaxIdleTime(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setPort(int)",
-      "signature": "abstract void setPort(int)"
+      "signature": "void setPort(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setRequestBufferSize(int)",
-      "signature": "abstract void setRequestBufferSize(int)"
+      "signature": "void setRequestBufferSize(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setRequestHeaderSize(int)",
-      "signature": "abstract void setRequestHeaderSize(int)"
+      "signature": "void setRequestHeaderSize(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setResponseBufferSize(int)",
-      "signature": "abstract void setResponseBufferSize(int)"
+      "signature": "void setResponseBufferSize(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setResponseHeaderSize(int)",
-      "signature": "abstract void setResponseHeaderSize(int)"
+      "signature": "void setResponseHeaderSize(int)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setServer(org.eclipse.jetty.server.Server)",
-      "signature": "abstract void setServer(org.eclipse.jetty.server.Server)"
+      "signature": "void setServer(org.eclipse.jetty.server.Server)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#setStatsOn(boolean)",
-      "signature": "abstract void setStatsOn(boolean)"
+      "signature": "void setStatsOn(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#statsReset()",
-      "signature": "abstract void statsReset()"
+      "signature": "void statsReset()"
     },
     {
       "key": "org.eclipse.jetty.server.CookieCutter#addCookieField(java.lang.String)",
@@ -1458,143 +1458,143 @@
     },
     {
       "key": "org.eclipse.jetty.server.Server$Graceful#setShutdown(boolean)",
-      "signature": "abstract void setShutdown(boolean)"
+      "signature": "void setShutdown(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#addSession(javax.servlet.http.HttpSession)",
-      "signature": "abstract void addSession(javax.servlet.http.HttpSession)"
+      "signature": "void addSession(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getClusterId(java.lang.String)",
-      "signature": "abstract java.lang.String getClusterId(java.lang.String)"
+      "signature": "java.lang.String getClusterId(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getNodeId(java.lang.String, javax.servlet.http.HttpServletRequest)",
-      "signature": "abstract java.lang.String getNodeId(java.lang.String, javax.servlet.http.HttpServletRequest)"
+      "signature": "java.lang.String getNodeId(java.lang.String, javax.servlet.http.HttpServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#idInUse(java.lang.String)",
-      "signature": "abstract boolean idInUse(java.lang.String)"
+      "signature": "boolean idInUse(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#removeSession(javax.servlet.http.HttpSession)",
-      "signature": "abstract void removeSession(javax.servlet.http.HttpSession)"
+      "signature": "void removeSession(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#access(javax.servlet.http.HttpSession, boolean)",
-      "signature": "abstract org.eclipse.jetty.http.HttpCookie access(javax.servlet.http.HttpSession, boolean)"
+      "signature": "org.eclipse.jetty.http.HttpCookie access(javax.servlet.http.HttpSession, boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#addEventListener(java.util.EventListener)",
-      "signature": "abstract void addEventListener(java.util.EventListener)"
+      "signature": "void addEventListener(java.util.EventListener)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#clearEventListeners()",
-      "signature": "abstract void clearEventListeners()"
+      "signature": "void clearEventListeners()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#complete(javax.servlet.http.HttpSession)",
-      "signature": "abstract void complete(javax.servlet.http.HttpSession)"
+      "signature": "void complete(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getClusterId(javax.servlet.http.HttpSession)",
-      "signature": "abstract java.lang.String getClusterId(javax.servlet.http.HttpSession)"
+      "signature": "java.lang.String getClusterId(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getDefaultSessionTrackingModes()",
-      "signature": "abstract java.util.Set<javax.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
+      "signature": "java.util.Set<javax.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getEffectiveSessionTrackingModes()",
-      "signature": "abstract java.util.Set<javax.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
+      "signature": "java.util.Set<javax.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getHttpOnly()",
-      "signature": "abstract boolean getHttpOnly()"
+      "signature": "boolean getHttpOnly()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getHttpSession(java.lang.String)",
-      "signature": "abstract javax.servlet.http.HttpSession getHttpSession(java.lang.String)"
+      "signature": "javax.servlet.http.HttpSession getHttpSession(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getMaxInactiveInterval()",
-      "signature": "abstract int getMaxInactiveInterval()"
+      "signature": "int getMaxInactiveInterval()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getMetaManager()",
-      "signature": "abstract org.eclipse.jetty.server.SessionIdManager getMetaManager()"
+      "signature": "org.eclipse.jetty.server.SessionIdManager getMetaManager()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getNodeId(javax.servlet.http.HttpSession)",
-      "signature": "abstract java.lang.String getNodeId(javax.servlet.http.HttpSession)"
+      "signature": "java.lang.String getNodeId(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getSessionCookie(javax.servlet.http.HttpSession, java.lang.String, boolean)",
-      "signature": "abstract org.eclipse.jetty.http.HttpCookie getSessionCookie(javax.servlet.http.HttpSession, java.lang.String, boolean)"
+      "signature": "org.eclipse.jetty.http.HttpCookie getSessionCookie(javax.servlet.http.HttpSession, java.lang.String, boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getSessionCookieConfig()",
-      "signature": "abstract javax.servlet.SessionCookieConfig getSessionCookieConfig()"
+      "signature": "javax.servlet.SessionCookieConfig getSessionCookieConfig()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getSessionIdManager()",
-      "signature": "abstract org.eclipse.jetty.server.SessionIdManager getSessionIdManager()"
+      "signature": "org.eclipse.jetty.server.SessionIdManager getSessionIdManager()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getSessionIdPathParameterName()",
-      "signature": "abstract java.lang.String getSessionIdPathParameterName()"
+      "signature": "java.lang.String getSessionIdPathParameterName()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#getSessionIdPathParameterNamePrefix()",
-      "signature": "abstract java.lang.String getSessionIdPathParameterNamePrefix()"
+      "signature": "java.lang.String getSessionIdPathParameterNamePrefix()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#isCheckingRemoteSessionIdEncoding()",
-      "signature": "abstract boolean isCheckingRemoteSessionIdEncoding()"
+      "signature": "boolean isCheckingRemoteSessionIdEncoding()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#isUsingCookies()",
-      "signature": "abstract boolean isUsingCookies()"
+      "signature": "boolean isUsingCookies()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#isUsingURLs()",
-      "signature": "abstract boolean isUsingURLs()"
+      "signature": "boolean isUsingURLs()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#isValid(javax.servlet.http.HttpSession)",
-      "signature": "abstract boolean isValid(javax.servlet.http.HttpSession)"
+      "signature": "boolean isValid(javax.servlet.http.HttpSession)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#newHttpSession(javax.servlet.http.HttpServletRequest)",
-      "signature": "abstract javax.servlet.http.HttpSession newHttpSession(javax.servlet.http.HttpServletRequest)"
+      "signature": "javax.servlet.http.HttpSession newHttpSession(javax.servlet.http.HttpServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#removeEventListener(java.util.EventListener)",
-      "signature": "abstract void removeEventListener(java.util.EventListener)"
+      "signature": "void removeEventListener(java.util.EventListener)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setCheckingRemoteSessionIdEncoding(boolean)",
-      "signature": "abstract void setCheckingRemoteSessionIdEncoding(boolean)"
+      "signature": "void setCheckingRemoteSessionIdEncoding(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setMaxInactiveInterval(int)",
-      "signature": "abstract void setMaxInactiveInterval(int)"
+      "signature": "void setMaxInactiveInterval(int)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setSessionHandler(org.eclipse.jetty.server.session.SessionHandler)",
-      "signature": "abstract void setSessionHandler(org.eclipse.jetty.server.session.SessionHandler)"
+      "signature": "void setSessionHandler(org.eclipse.jetty.server.session.SessionHandler)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setSessionIdManager(org.eclipse.jetty.server.SessionIdManager)",
-      "signature": "abstract void setSessionIdManager(org.eclipse.jetty.server.SessionIdManager)"
+      "signature": "void setSessionIdManager(org.eclipse.jetty.server.SessionIdManager)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setSessionIdPathParameterName(java.lang.String)",
-      "signature": "abstract void setSessionIdPathParameterName(java.lang.String)"
+      "signature": "void setSessionIdPathParameterName(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionManager#setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)",
-      "signature": "abstract void setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)"
+      "signature": "void setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)"
     },
     {
       "key": "org.eclipse.jetty.server.ShutdownMonitor#getServerSocket()",
@@ -1918,15 +1918,15 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$Context#createFilter(java.lang.Class<T>)",
-      "signature": "<T extends javax.servlet.Filter> T createFilter(java.lang.Class<T>)"
+      "signature": "T createFilter(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$Context#createListener(java.lang.Class<T>)",
-      "signature": "<T extends java.util.EventListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$Context#createServlet(java.lang.Class<T>)",
-      "signature": "<T extends javax.servlet.Servlet> T createServlet(java.lang.Class<T>)"
+      "signature": "T createServlet(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$Context#getDefaultSessionTrackingModes()",
@@ -2086,7 +2086,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.HandlerWrapper#getNestedHandlerByClass(java.lang.Class<H>)",
-      "signature": "<H extends org.eclipse.jetty.server.Handler> H getNestedHandlerByClass(java.lang.Class<H>)"
+      "signature": "H getNestedHandlerByClass(java.lang.Class<H>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.HandlerWrapper#setServer(org.eclipse.jetty.server.Server)",
@@ -2222,7 +2222,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.nio.NIOConnector#getUseDirectBuffers()",
-      "signature": "abstract boolean getUseDirectBuffers()"
+      "signature": "boolean getUseDirectBuffers()"
     },
     {
       "key": "org.eclipse.jetty.server.nio.NetworkTrafficSelectChannelConnector#addNetworkTrafficListener(org.eclipse.jetty.io.NetworkTrafficListener)",
@@ -2562,7 +2562,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionManager#getSession(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.AbstractSession getSession(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.AbstractSession getSession(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionManager#getSessionCookie()",
@@ -2738,7 +2738,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionManager$SessionIf#getSession()",
-      "signature": "abstract org.eclipse.jetty.server.session.AbstractSession getSession()"
+      "signature": "org.eclipse.jetty.server.session.AbstractSession getSession()"
     },
     {
       "key": "org.eclipse.jetty.server.session.HashSessionIdManager#addSession(javax.servlet.http.HttpSession)",
@@ -3138,139 +3138,139 @@
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getExcludeCipherSuites()",
-      "signature": "abstract java.lang.String[] getExcludeCipherSuites()"
+      "signature": "java.lang.String[] getExcludeCipherSuites()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getIncludeCipherSuites()",
-      "signature": "abstract java.lang.String[] getIncludeCipherSuites()"
+      "signature": "java.lang.String[] getIncludeCipherSuites()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getKeystore()",
-      "signature": "abstract java.lang.String getKeystore()"
+      "signature": "java.lang.String getKeystore()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getKeystoreType()",
-      "signature": "abstract java.lang.String getKeystoreType()"
+      "signature": "java.lang.String getKeystoreType()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getNeedClientAuth()",
-      "signature": "abstract boolean getNeedClientAuth()"
+      "signature": "boolean getNeedClientAuth()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getProtocol()",
-      "signature": "abstract java.lang.String getProtocol()"
+      "signature": "java.lang.String getProtocol()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getProvider()",
-      "signature": "abstract java.lang.String getProvider()"
+      "signature": "java.lang.String getProvider()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getSecureRandomAlgorithm()",
-      "signature": "abstract java.lang.String getSecureRandomAlgorithm()"
+      "signature": "java.lang.String getSecureRandomAlgorithm()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getSslContext()",
-      "signature": "abstract javax.net.ssl.SSLContext getSslContext()"
+      "signature": "javax.net.ssl.SSLContext getSslContext()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getSslContextFactory()",
-      "signature": "abstract org.eclipse.jetty.util.ssl.SslContextFactory getSslContextFactory()"
+      "signature": "org.eclipse.jetty.util.ssl.SslContextFactory getSslContextFactory()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getSslKeyManagerFactoryAlgorithm()",
-      "signature": "abstract java.lang.String getSslKeyManagerFactoryAlgorithm()"
+      "signature": "java.lang.String getSslKeyManagerFactoryAlgorithm()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getSslTrustManagerFactoryAlgorithm()",
-      "signature": "abstract java.lang.String getSslTrustManagerFactoryAlgorithm()"
+      "signature": "java.lang.String getSslTrustManagerFactoryAlgorithm()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getTruststore()",
-      "signature": "abstract java.lang.String getTruststore()"
+      "signature": "java.lang.String getTruststore()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getTruststoreType()",
-      "signature": "abstract java.lang.String getTruststoreType()"
+      "signature": "java.lang.String getTruststoreType()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#getWantClientAuth()",
-      "signature": "abstract boolean getWantClientAuth()"
+      "signature": "boolean getWantClientAuth()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#isAllowRenegotiate()",
-      "signature": "abstract boolean isAllowRenegotiate()"
+      "signature": "boolean isAllowRenegotiate()"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setAllowRenegotiate(boolean)",
-      "signature": "abstract void setAllowRenegotiate(boolean)"
+      "signature": "void setAllowRenegotiate(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setExcludeCipherSuites(java.lang.String[])",
-      "signature": "abstract void setExcludeCipherSuites(java.lang.String[])"
+      "signature": "void setExcludeCipherSuites(java.lang.String[])"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setIncludeCipherSuites(java.lang.String[])",
-      "signature": "abstract void setIncludeCipherSuites(java.lang.String[])"
+      "signature": "void setIncludeCipherSuites(java.lang.String[])"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setKeyPassword(java.lang.String)",
-      "signature": "abstract void setKeyPassword(java.lang.String)"
+      "signature": "void setKeyPassword(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setKeystore(java.lang.String)",
-      "signature": "abstract void setKeystore(java.lang.String)"
+      "signature": "void setKeystore(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setKeystoreType(java.lang.String)",
-      "signature": "abstract void setKeystoreType(java.lang.String)"
+      "signature": "void setKeystoreType(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setNeedClientAuth(boolean)",
-      "signature": "abstract void setNeedClientAuth(boolean)"
+      "signature": "void setNeedClientAuth(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setPassword(java.lang.String)",
-      "signature": "abstract void setPassword(java.lang.String)"
+      "signature": "void setPassword(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setProtocol(java.lang.String)",
-      "signature": "abstract void setProtocol(java.lang.String)"
+      "signature": "void setProtocol(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setProvider(java.lang.String)",
-      "signature": "abstract void setProvider(java.lang.String)"
+      "signature": "void setProvider(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setSecureRandomAlgorithm(java.lang.String)",
-      "signature": "abstract void setSecureRandomAlgorithm(java.lang.String)"
+      "signature": "void setSecureRandomAlgorithm(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setSslContext(javax.net.ssl.SSLContext)",
-      "signature": "abstract void setSslContext(javax.net.ssl.SSLContext)"
+      "signature": "void setSslContext(javax.net.ssl.SSLContext)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setSslKeyManagerFactoryAlgorithm(java.lang.String)",
-      "signature": "abstract void setSslKeyManagerFactoryAlgorithm(java.lang.String)"
+      "signature": "void setSslKeyManagerFactoryAlgorithm(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setSslTrustManagerFactoryAlgorithm(java.lang.String)",
-      "signature": "abstract void setSslTrustManagerFactoryAlgorithm(java.lang.String)"
+      "signature": "void setSslTrustManagerFactoryAlgorithm(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setTrustPassword(java.lang.String)",
-      "signature": "abstract void setTrustPassword(java.lang.String)"
+      "signature": "void setTrustPassword(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setTruststore(java.lang.String)",
-      "signature": "abstract void setTruststore(java.lang.String)"
+      "signature": "void setTruststore(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setTruststoreType(java.lang.String)",
-      "signature": "abstract void setTruststoreType(java.lang.String)"
+      "signature": "void setTruststoreType(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslConnector#setWantClientAuth(boolean)",
-      "signature": "abstract void setWantClientAuth(boolean)"
+      "signature": "void setWantClientAuth(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.ssl.SslSelectChannelConnector#customize(org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.server.Request)",
@@ -3696,7 +3696,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.AbstractConnector#getConnectionFactory(java.lang.Class<T>)",
-      "signature": "<T> T getConnectionFactory(java.lang.Class<T>)"
+      "signature": "T getConnectionFactory(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.AbstractConnector#getConnectionFactory(java.lang.String)",
@@ -4008,7 +4008,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.AsyncContextState#createListener(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.AsyncListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.AsyncContextState#dispatch()",
@@ -4088,15 +4088,15 @@
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$Deferred#authenticate(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract org.eclipse.jetty.server.Authentication authenticate(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "org.eclipse.jetty.server.Authentication authenticate(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$LoginAuthentication#login(java.lang.String, java.lang.Object, jakarta.servlet.ServletRequest)",
-      "signature": "abstract org.eclipse.jetty.server.Authentication login(java.lang.String, java.lang.Object, jakarta.servlet.ServletRequest)"
+      "signature": "org.eclipse.jetty.server.Authentication login(java.lang.String, java.lang.Object, jakarta.servlet.ServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.Authentication$LogoutAuthentication#logout(jakarta.servlet.ServletRequest)",
-      "signature": "abstract org.eclipse.jetty.server.Authentication logout(jakarta.servlet.ServletRequest)"
+      "signature": "org.eclipse.jetty.server.Authentication logout(jakarta.servlet.ServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.BlockingContentProducer#available()",
@@ -4308,23 +4308,23 @@
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionFactory#getProtocol()",
-      "signature": "abstract java.lang.String getProtocol()"
+      "signature": "java.lang.String getProtocol()"
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionFactory#getProtocols()",
-      "signature": "abstract java.util.List<java.lang.String> getProtocols()"
+      "signature": "java.util.List<java.lang.String> getProtocols()"
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionFactory#newConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint)",
-      "signature": "abstract org.eclipse.jetty.io.Connection newConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint)"
+      "signature": "org.eclipse.jetty.io.Connection newConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint)"
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionFactory$Configuring#configure(org.eclipse.jetty.server.Connector)",
-      "signature": "abstract void configure(org.eclipse.jetty.server.Connector)"
+      "signature": "void configure(org.eclipse.jetty.server.Connector)"
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionFactory$Upgrading#upgradeConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.HttpFields$Mutable)",
-      "signature": "abstract org.eclipse.jetty.io.Connection upgradeConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.HttpFields$Mutable)"
+      "signature": "org.eclipse.jetty.io.Connection upgradeConnection(org.eclipse.jetty.server.Connector, org.eclipse.jetty.io.EndPoint, org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.HttpFields$Mutable)"
     },
     {
       "key": "org.eclipse.jetty.server.ConnectionLimit#getConnections()",
@@ -4368,99 +4368,99 @@
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getByteBufferPool()",
-      "signature": "abstract org.eclipse.jetty.io.ByteBufferPool getByteBufferPool()"
+      "signature": "org.eclipse.jetty.io.ByteBufferPool getByteBufferPool()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectedEndPoints()",
-      "signature": "abstract java.util.Collection<org.eclipse.jetty.io.EndPoint> getConnectedEndPoints()"
+      "signature": "java.util.Collection<org.eclipse.jetty.io.EndPoint> getConnectedEndPoints()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionFactories()",
-      "signature": "abstract java.util.Collection<org.eclipse.jetty.server.ConnectionFactory> getConnectionFactories()"
+      "signature": "java.util.Collection<org.eclipse.jetty.server.ConnectionFactory> getConnectionFactories()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionFactory(java.lang.Class<T>)",
-      "signature": "abstract <T> T getConnectionFactory(java.lang.Class<T>)"
+      "signature": "T getConnectionFactory(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getConnectionFactory(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.ConnectionFactory getConnectionFactory(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.ConnectionFactory getConnectionFactory(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getDefaultConnectionFactory()",
-      "signature": "abstract org.eclipse.jetty.server.ConnectionFactory getDefaultConnectionFactory()"
+      "signature": "org.eclipse.jetty.server.ConnectionFactory getDefaultConnectionFactory()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getExecutor()",
-      "signature": "abstract java.util.concurrent.Executor getExecutor()"
+      "signature": "java.util.concurrent.Executor getExecutor()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getIdleTimeout()",
-      "signature": "abstract long getIdleTimeout()"
+      "signature": "long getIdleTimeout()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getProtocols()",
-      "signature": "abstract java.util.List<java.lang.String> getProtocols()"
+      "signature": "java.util.List<java.lang.String> getProtocols()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getScheduler()",
-      "signature": "abstract org.eclipse.jetty.util.thread.Scheduler getScheduler()"
+      "signature": "org.eclipse.jetty.util.thread.Scheduler getScheduler()"
     },
     {
       "key": "org.eclipse.jetty.server.Connector#getTransport()",
-      "signature": "abstract java.lang.Object getTransport()"
+      "signature": "java.lang.Object getTransport()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#available()",
-      "signature": "abstract int available()"
+      "signature": "int available()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#checkMinDataRate()",
-      "signature": "abstract void checkMinDataRate()"
+      "signature": "void checkMinDataRate()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#consumeAll()",
-      "signature": "abstract boolean consumeAll()"
+      "signature": "boolean consumeAll()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#getRawContentArrived()",
-      "signature": "abstract long getRawContentArrived()"
+      "signature": "long getRawContentArrived()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#hasContent()",
-      "signature": "abstract boolean hasContent()"
+      "signature": "boolean hasContent()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#isError()",
-      "signature": "abstract boolean isError()"
+      "signature": "boolean isError()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#isReady()",
-      "signature": "abstract boolean isReady()"
+      "signature": "boolean isReady()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#lock()",
-      "signature": "abstract org.eclipse.jetty.util.thread.AutoLock lock()"
+      "signature": "org.eclipse.jetty.util.thread.AutoLock lock()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#onContentProducible()",
-      "signature": "abstract boolean onContentProducible()"
+      "signature": "boolean onContentProducible()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#reclaim(org.eclipse.jetty.server.HttpInput$Content)",
-      "signature": "abstract void reclaim(org.eclipse.jetty.server.HttpInput$Content)"
+      "signature": "void reclaim(org.eclipse.jetty.server.HttpInput$Content)"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#recycle()",
-      "signature": "abstract void recycle()"
+      "signature": "void recycle()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#reopen()",
-      "signature": "abstract void reopen()"
+      "signature": "void reopen()"
     },
     {
       "key": "org.eclipse.jetty.server.ContentProducer#setInterceptor(org.eclipse.jetty.server.HttpInput$Interceptor)",
-      "signature": "abstract void setInterceptor(org.eclipse.jetty.server.HttpInput$Interceptor)"
+      "signature": "void setInterceptor(org.eclipse.jetty.server.HttpInput$Interceptor)"
     },
     {
       "key": "org.eclipse.jetty.server.Cookies#addCookieField(java.lang.String)",
@@ -4788,11 +4788,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel#failAllContent(java.lang.Throwable)",
-      "signature": "abstract boolean failAllContent(java.lang.Throwable)"
+      "signature": "boolean failAllContent(java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel#failed(java.lang.Throwable)",
-      "signature": "abstract boolean failed(java.lang.Throwable)"
+      "signature": "boolean failed(java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel#getByteBufferPool()",
@@ -4924,7 +4924,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel#needContent()",
-      "signature": "abstract boolean needContent()"
+      "signature": "boolean needContent()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel#onBadMessage(org.eclipse.jetty.http.BadMessageException)",
@@ -5000,67 +5000,67 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Dispatchable#dispatch()",
-      "signature": "abstract void dispatch()"
+      "signature": "void dispatch()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onAfterDispatch(org.eclipse.jetty.server.Request)",
-      "signature": "default void onAfterDispatch(org.eclipse.jetty.server.Request)"
+      "signature": "void onAfterDispatch(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onBeforeDispatch(org.eclipse.jetty.server.Request)",
-      "signature": "default void onBeforeDispatch(org.eclipse.jetty.server.Request)"
+      "signature": "void onBeforeDispatch(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onComplete(org.eclipse.jetty.server.Request)",
-      "signature": "default void onComplete(org.eclipse.jetty.server.Request)"
+      "signature": "void onComplete(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onDispatchFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)",
-      "signature": "default void onDispatchFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
+      "signature": "void onDispatchFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestBegin(org.eclipse.jetty.server.Request)",
-      "signature": "default void onRequestBegin(org.eclipse.jetty.server.Request)"
+      "signature": "void onRequestBegin(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)",
-      "signature": "default void onRequestContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
+      "signature": "void onRequestContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestContentEnd(org.eclipse.jetty.server.Request)",
-      "signature": "default void onRequestContentEnd(org.eclipse.jetty.server.Request)"
+      "signature": "void onRequestContentEnd(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestEnd(org.eclipse.jetty.server.Request)",
-      "signature": "default void onRequestEnd(org.eclipse.jetty.server.Request)"
+      "signature": "void onRequestEnd(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)",
-      "signature": "default void onRequestFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
+      "signature": "void onRequestFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onRequestTrailers(org.eclipse.jetty.server.Request)",
-      "signature": "default void onRequestTrailers(org.eclipse.jetty.server.Request)"
+      "signature": "void onRequestTrailers(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onResponseBegin(org.eclipse.jetty.server.Request)",
-      "signature": "default void onResponseBegin(org.eclipse.jetty.server.Request)"
+      "signature": "void onResponseBegin(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onResponseCommit(org.eclipse.jetty.server.Request)",
-      "signature": "default void onResponseCommit(org.eclipse.jetty.server.Request)"
+      "signature": "void onResponseCommit(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onResponseContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)",
-      "signature": "default void onResponseContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
+      "signature": "void onResponseContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onResponseEnd(org.eclipse.jetty.server.Request)",
-      "signature": "default void onResponseEnd(org.eclipse.jetty.server.Request)"
+      "signature": "void onResponseEnd(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Listener#onResponseFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)",
-      "signature": "default void onResponseFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
+      "signature": "void onResponseFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannel$Send1XXCallback#succeeded()",
@@ -5196,15 +5196,15 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannelListeners$NotifyContent#onContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)",
-      "signature": "abstract void onContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
+      "signature": "void onContent(org.eclipse.jetty.server.Request, java.nio.ByteBuffer)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannelListeners$NotifyFailure#onFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)",
-      "signature": "abstract void onFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
+      "signature": "void onFailure(org.eclipse.jetty.server.Request, java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannelListeners$NotifyRequest#onRequest(org.eclipse.jetty.server.Request)",
-      "signature": "abstract void onRequest(org.eclipse.jetty.server.Request)"
+      "signature": "void onRequest(org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpChannelOverHttp#abort(java.lang.Throwable)",
@@ -5488,7 +5488,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpConfiguration#getCustomizer(java.lang.Class<T>)",
-      "signature": "<T> T getCustomizer(java.lang.Class<T>)"
+      "signature": "T getCustomizer(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpConfiguration#getFormEncodedMethods()",
@@ -5740,11 +5740,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpConfiguration$ConnectionFactory#getHttpConfiguration()",
-      "signature": "abstract org.eclipse.jetty.server.HttpConfiguration getHttpConfiguration()"
+      "signature": "org.eclipse.jetty.server.HttpConfiguration getHttpConfiguration()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpConfiguration$Customizer#customize(org.eclipse.jetty.server.Connector, org.eclipse.jetty.server.HttpConfiguration, org.eclipse.jetty.server.Request)",
-      "signature": "abstract void customize(org.eclipse.jetty.server.Connector, org.eclipse.jetty.server.HttpConfiguration, org.eclipse.jetty.server.Request)"
+      "signature": "void customize(org.eclipse.jetty.server.Connector, org.eclipse.jetty.server.HttpConfiguration, org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpConnection#abort(java.lang.Throwable)",
@@ -6212,11 +6212,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpOutput$Interceptor#resetBuffer()",
-      "signature": "default void resetBuffer()"
+      "signature": "void resetBuffer()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpOutput$Interceptor#write(java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)",
-      "signature": "abstract void write(java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)"
+      "signature": "void write(java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpOutput$NestedChannelWriteCB#onCompleteFailure(java.lang.Throwable)",
@@ -6236,23 +6236,23 @@
     },
     {
       "key": "org.eclipse.jetty.server.HttpTransport#abort(java.lang.Throwable)",
-      "signature": "abstract void abort(java.lang.Throwable)"
+      "signature": "void abort(java.lang.Throwable)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpTransport#isPushSupported()",
-      "signature": "abstract boolean isPushSupported()"
+      "signature": "boolean isPushSupported()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpTransport#onCompleted()",
-      "signature": "abstract void onCompleted()"
+      "signature": "void onCompleted()"
     },
     {
       "key": "org.eclipse.jetty.server.HttpTransport#push(org.eclipse.jetty.http.MetaData$Request)",
-      "signature": "abstract void push(org.eclipse.jetty.http.MetaData$Request)"
+      "signature": "void push(org.eclipse.jetty.http.MetaData$Request)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpTransport#send(org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.MetaData$Response, java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)",
-      "signature": "abstract void send(org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.MetaData$Response, java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)"
+      "signature": "void send(org.eclipse.jetty.http.MetaData$Request, org.eclipse.jetty.http.MetaData$Response, java.nio.ByteBuffer, boolean, org.eclipse.jetty.util.Callback)"
     },
     {
       "key": "org.eclipse.jetty.server.HttpWriter#complete(org.eclipse.jetty.util.Callback)",
@@ -6428,11 +6428,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.LowResourceMonitor$LowResourceCheck#getReason()",
-      "signature": "abstract java.lang.String getReason()"
+      "signature": "java.lang.String getReason()"
     },
     {
       "key": "org.eclipse.jetty.server.LowResourceMonitor$LowResourceCheck#isLowOnResources()",
-      "signature": "abstract boolean isLowOnResources()"
+      "signature": "boolean isLowOnResources()"
     },
     {
       "key": "org.eclipse.jetty.server.LowResourceMonitor$MainThreadPoolLowResourceCheck#getReason()",
@@ -6728,39 +6728,39 @@
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#content(java.nio.ByteBuffer, boolean)",
-      "signature": "default boolean content(java.nio.ByteBuffer, boolean)"
+      "signature": "boolean content(java.nio.ByteBuffer, boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#earlyEOF()",
-      "signature": "default void earlyEOF()"
+      "signature": "void earlyEOF()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#headerComplete()",
-      "signature": "default boolean headerComplete()"
+      "signature": "boolean headerComplete()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#messageComplete()",
-      "signature": "default boolean messageComplete()"
+      "signature": "boolean messageComplete()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#parsedField(java.lang.String, java.lang.String)",
-      "signature": "default void parsedField(java.lang.String, java.lang.String)"
+      "signature": "void parsedField(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.MultiPartParser$Handler#startPart()",
-      "signature": "default void startPart()"
+      "signature": "void startPart()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiParts#getPart(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.Part getPart(java.lang.String)"
+      "signature": "jakarta.servlet.http.Part getPart(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.MultiParts#getParts()",
-      "signature": "abstract java.util.Collection<jakarta.servlet.http.Part> getParts()"
+      "signature": "java.util.Collection<jakarta.servlet.http.Part> getParts()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiParts#isEmpty()",
-      "signature": "abstract boolean isEmpty()"
+      "signature": "boolean isEmpty()"
     },
     {
       "key": "org.eclipse.jetty.server.MultiParts$MultiPartsHttpParser#close()",
@@ -6832,7 +6832,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.NegotiatingServerConnection$CipherDiscriminator#isAcceptable(java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract boolean isAcceptable(java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "boolean isAcceptable(java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.NegotiatingServerConnectionFactory#getDefaultProtocol()",
@@ -6856,27 +6856,27 @@
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#getHost()",
-      "signature": "abstract java.lang.String getHost()"
+      "signature": "java.lang.String getHost()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#getLocalPort()",
-      "signature": "abstract int getLocalPort()"
+      "signature": "int getLocalPort()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#getPort()",
-      "signature": "abstract int getPort()"
+      "signature": "int getPort()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#isOpen()",
-      "signature": "abstract boolean isOpen()"
+      "signature": "boolean isOpen()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkConnector#open()",
-      "signature": "abstract void open()"
+      "signature": "void open()"
     },
     {
       "key": "org.eclipse.jetty.server.NetworkTrafficServerConnector#getNetworkTrafficListener()",
@@ -7284,7 +7284,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.Request#upgrade(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.RequestLog$Collection#log(org.eclipse.jetty.server.Request, org.eclipse.jetty.server.Response)",
@@ -7292,7 +7292,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.RequestLog$Writer#write(java.lang.String)",
-      "signature": "abstract void write(java.lang.String)"
+      "signature": "void write(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.RequestLogCollection#add(org.eclipse.jetty.server.RequestLog)",
@@ -7444,7 +7444,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.ResourceService$WelcomeFactory#getWelcomeFile(java.lang.String)",
-      "signature": "abstract java.lang.String getWelcomeFile(java.lang.String)"
+      "signature": "java.lang.String getWelcomeFile(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.Response#closeOutput()",
@@ -7992,39 +7992,39 @@
     },
     {
       "key": "org.eclipse.jetty.server.ServletRequestHttpWrapper#upgrade(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#expireAll(java.lang.String)",
-      "signature": "abstract void expireAll(java.lang.String)"
+      "signature": "void expireAll(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getExtendedId(java.lang.String, jakarta.servlet.http.HttpServletRequest)",
-      "signature": "abstract java.lang.String getExtendedId(java.lang.String, jakarta.servlet.http.HttpServletRequest)"
+      "signature": "java.lang.String getExtendedId(java.lang.String, jakarta.servlet.http.HttpServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getId(java.lang.String)",
-      "signature": "abstract java.lang.String getId(java.lang.String)"
+      "signature": "java.lang.String getId(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getSessionHandlers()",
-      "signature": "abstract java.util.Set<org.eclipse.jetty.server.session.SessionHandler> getSessionHandlers()"
+      "signature": "java.util.Set<org.eclipse.jetty.server.session.SessionHandler> getSessionHandlers()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#getSessionHouseKeeper()",
-      "signature": "abstract org.eclipse.jetty.server.session.HouseKeeper getSessionHouseKeeper()"
+      "signature": "org.eclipse.jetty.server.session.HouseKeeper getSessionHouseKeeper()"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#isIdInUse(java.lang.String)",
-      "signature": "abstract boolean isIdInUse(java.lang.String)"
+      "signature": "boolean isIdInUse(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#renewSessionId(java.lang.String, java.lang.String, jakarta.servlet.http.HttpServletRequest)",
-      "signature": "abstract java.lang.String renewSessionId(java.lang.String, java.lang.String, jakarta.servlet.http.HttpServletRequest)"
+      "signature": "java.lang.String renewSessionId(java.lang.String, java.lang.String, jakarta.servlet.http.HttpServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.SessionIdManager#setSessionHouseKeeper(org.eclipse.jetty.server.session.HouseKeeper)",
-      "signature": "abstract void setSessionHouseKeeper(org.eclipse.jetty.server.session.HouseKeeper)"
+      "signature": "void setSessionHouseKeeper(org.eclipse.jetty.server.session.HouseKeeper)"
     },
     {
       "key": "org.eclipse.jetty.server.ShutdownMonitor#await()",
@@ -8112,7 +8112,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.UserIdentity$Scope#getContextHandler()",
-      "signature": "abstract org.eclipse.jetty.server.handler.ContextHandler getContextHandler()"
+      "signature": "org.eclipse.jetty.server.handler.ContextHandler getContextHandler()"
     },
     {
       "key": "org.eclipse.jetty.server.Utf8HttpWriter#write(char[], int, int)",
@@ -8120,7 +8120,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.AbstractHandler#handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
-      "signature": "abstract void handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)"
+      "signature": "void handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.AbstractHandler$ErrorDispatchHandler#handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
@@ -8300,15 +8300,15 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$ContextScopeListener#enterScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request, java.lang.Object)",
-      "signature": "abstract void enterScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request, java.lang.Object)"
+      "signature": "void enterScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request, java.lang.Object)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$ContextScopeListener#exitScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request)",
-      "signature": "abstract void exitScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request)"
+      "signature": "void exitScope(org.eclipse.jetty.server.handler.ContextHandler$Context, org.eclipse.jetty.server.Request)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#addListener(T)",
-      "signature": "<T extends java.util.EventListener> void addListener(T)"
+      "signature": "void addListener(T)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#addListener(java.lang.Class<? extends java.util.EventListener>)",
@@ -8320,19 +8320,19 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#createFilter(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.Filter> T createFilter(java.lang.Class<T>)"
+      "signature": "T createFilter(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#createInstance(java.lang.Class<T>)",
-      "signature": "<T> T createInstance(java.lang.Class<T>)"
+      "signature": "T createInstance(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#createListener(java.lang.Class<T>)",
-      "signature": "<T extends java.util.EventListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#createServlet(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.Servlet> T createServlet(java.lang.Class<T>)"
+      "signature": "T createServlet(java.lang.Class<T>)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.ContextHandler$StaticContext#declareRoles(java.lang.String...)",
@@ -8552,7 +8552,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.ErrorHandler$ErrorPageMapper#getErrorPage(jakarta.servlet.http.HttpServletRequest)",
-      "signature": "abstract java.lang.String getErrorPage(jakarta.servlet.http.HttpServletRequest)"
+      "signature": "java.lang.String getErrorPage(jakarta.servlet.http.HttpServletRequest)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.FileBufferedResponseHandler#getTempDir()",
@@ -8884,11 +8884,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.handler.gzip.GzipFactory#getDeflaterEntry(org.eclipse.jetty.server.Request, long)",
-      "signature": "abstract org.eclipse.jetty.util.compression.CompressionPool<java.util.zip.Deflater>.Entry getDeflaterEntry(org.eclipse.jetty.server.Request, long)"
+      "signature": "org.eclipse.jetty.util.compression.CompressionPool<java.util.zip.Deflater>.Entry getDeflaterEntry(org.eclipse.jetty.server.Request, long)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.gzip.GzipFactory#isMimeTypeGzipable(java.lang.String)",
-      "signature": "abstract boolean isMimeTypeGzipable(java.lang.String)"
+      "signature": "boolean isMimeTypeGzipable(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.handler.gzip.GzipHandler#addExcludedInflationPaths(java.lang.String...)",
@@ -9156,11 +9156,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.resource.InputStreamRangeWriter$InputStreamSupplier#newInputStream()",
-      "signature": "abstract java.io.InputStream newInputStream()"
+      "signature": "java.io.InputStream newInputStream()"
     },
     {
       "key": "org.eclipse.jetty.server.resource.RangeWriter#writeTo(java.io.OutputStream, long, long)",
-      "signature": "abstract void writeTo(java.io.OutputStream, long, long)"
+      "signature": "void writeTo(java.io.OutputStream, long, long)"
     },
     {
       "key": "org.eclipse.jetty.server.resource.SeekableByteChannelRangeWriter#close()",
@@ -9172,7 +9172,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.resource.SeekableByteChannelRangeWriter$ChannelSupplier#newSeekableByteChannel()",
-      "signature": "abstract java.nio.channels.SeekableByteChannel newSeekableByteChannel()"
+      "signature": "java.nio.channels.SeekableByteChannel newSeekableByteChannel()"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#add(java.lang.String, org.eclipse.jetty.server.session.Session)",
@@ -9200,7 +9200,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#doDelete(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session doDelete(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.Session doDelete(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#exists(java.lang.String)",
@@ -9252,11 +9252,11 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#newSession(jakarta.servlet.http.HttpServletRequest, org.eclipse.jetty.server.session.SessionData)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session newSession(jakarta.servlet.http.HttpServletRequest, org.eclipse.jetty.server.session.SessionData)"
+      "signature": "org.eclipse.jetty.server.session.Session newSession(jakarta.servlet.http.HttpServletRequest, org.eclipse.jetty.server.session.SessionData)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#newSession(org.eclipse.jetty.server.session.SessionData)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session newSession(org.eclipse.jetty.server.session.SessionData)"
+      "signature": "org.eclipse.jetty.server.session.Session newSession(org.eclipse.jetty.server.session.SessionData)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCache#put(java.lang.String, org.eclipse.jetty.server.session.Session)",
@@ -9332,7 +9332,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCacheFactory#newSessionCache(org.eclipse.jetty.server.session.SessionHandler)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionCache newSessionCache(org.eclipse.jetty.server.session.SessionHandler)"
+      "signature": "org.eclipse.jetty.server.session.SessionCache newSessionCache(org.eclipse.jetty.server.session.SessionHandler)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionCacheFactory#setEvictionPolicy(int)",
@@ -9364,27 +9364,27 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doCheckExpired(java.util.Set<java.lang.String>, long)",
-      "signature": "abstract java.util.Set<java.lang.String> doCheckExpired(java.util.Set<java.lang.String>, long)"
+      "signature": "java.util.Set<java.lang.String> doCheckExpired(java.util.Set<java.lang.String>, long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doCleanOrphans(long)",
-      "signature": "abstract void doCleanOrphans(long)"
+      "signature": "void doCleanOrphans(long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doExists(java.lang.String)",
-      "signature": "abstract boolean doExists(java.lang.String)"
+      "signature": "boolean doExists(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doGetExpired(long)",
-      "signature": "abstract java.util.Set<java.lang.String> doGetExpired(long)"
+      "signature": "java.util.Set<java.lang.String> doGetExpired(long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doLoad(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionData doLoad(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.SessionData doLoad(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#doStore(java.lang.String, org.eclipse.jetty.server.session.SessionData, long)",
-      "signature": "abstract void doStore(java.lang.String, org.eclipse.jetty.server.session.SessionData, long)"
+      "signature": "void doStore(java.lang.String, org.eclipse.jetty.server.session.SessionData, long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.AbstractSessionDataStore#exists(java.lang.String)",
@@ -10348,127 +10348,127 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#add(java.lang.String, org.eclipse.jetty.server.session.Session)",
-      "signature": "abstract void add(java.lang.String, org.eclipse.jetty.server.session.Session)"
+      "signature": "void add(java.lang.String, org.eclipse.jetty.server.session.Session)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#checkExpiration(java.util.Set<java.lang.String>)",
-      "signature": "abstract java.util.Set<java.lang.String> checkExpiration(java.util.Set<java.lang.String>)"
+      "signature": "java.util.Set<java.lang.String> checkExpiration(java.util.Set<java.lang.String>)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#checkInactiveSession(org.eclipse.jetty.server.session.Session)",
-      "signature": "abstract void checkInactiveSession(org.eclipse.jetty.server.session.Session)"
+      "signature": "void checkInactiveSession(org.eclipse.jetty.server.session.Session)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#commit(org.eclipse.jetty.server.session.Session)",
-      "signature": "abstract void commit(org.eclipse.jetty.server.session.Session)"
+      "signature": "void commit(org.eclipse.jetty.server.session.Session)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#contains(java.lang.String)",
-      "signature": "abstract boolean contains(java.lang.String)"
+      "signature": "boolean contains(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#delete(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session delete(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.Session delete(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#exists(java.lang.String)",
-      "signature": "abstract boolean exists(java.lang.String)"
+      "signature": "boolean exists(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#get(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session get(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.Session get(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#getEvictionPolicy()",
-      "signature": "abstract int getEvictionPolicy()"
+      "signature": "int getEvictionPolicy()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#getSessionDataStore()",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionDataStore getSessionDataStore()"
+      "signature": "org.eclipse.jetty.server.session.SessionDataStore getSessionDataStore()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#getSessionHandler()",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionHandler getSessionHandler()"
+      "signature": "org.eclipse.jetty.server.session.SessionHandler getSessionHandler()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#initialize(org.eclipse.jetty.server.session.SessionContext)",
-      "signature": "abstract void initialize(org.eclipse.jetty.server.session.SessionContext)"
+      "signature": "void initialize(org.eclipse.jetty.server.session.SessionContext)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#isFlushOnResponseCommit()",
-      "signature": "abstract boolean isFlushOnResponseCommit()"
+      "signature": "boolean isFlushOnResponseCommit()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#isInvalidateOnShutdown()",
-      "signature": "abstract boolean isInvalidateOnShutdown()"
+      "signature": "boolean isInvalidateOnShutdown()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#isRemoveUnloadableSessions()",
-      "signature": "abstract boolean isRemoveUnloadableSessions()"
+      "signature": "boolean isRemoveUnloadableSessions()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#isSaveOnCreate()",
-      "signature": "abstract boolean isSaveOnCreate()"
+      "signature": "boolean isSaveOnCreate()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#isSaveOnInactiveEviction()",
-      "signature": "abstract boolean isSaveOnInactiveEviction()"
+      "signature": "boolean isSaveOnInactiveEviction()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#newSession(jakarta.servlet.http.HttpServletRequest, java.lang.String, long, long)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session newSession(jakarta.servlet.http.HttpServletRequest, java.lang.String, long, long)"
+      "signature": "org.eclipse.jetty.server.session.Session newSession(jakarta.servlet.http.HttpServletRequest, java.lang.String, long, long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#newSession(org.eclipse.jetty.server.session.SessionData)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session newSession(org.eclipse.jetty.server.session.SessionData)"
+      "signature": "org.eclipse.jetty.server.session.Session newSession(org.eclipse.jetty.server.session.SessionData)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#put(java.lang.String, org.eclipse.jetty.server.session.Session)",
-      "signature": "abstract void put(java.lang.String, org.eclipse.jetty.server.session.Session)"
+      "signature": "void put(java.lang.String, org.eclipse.jetty.server.session.Session)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#release(java.lang.String, org.eclipse.jetty.server.session.Session)",
-      "signature": "abstract void release(java.lang.String, org.eclipse.jetty.server.session.Session)"
+      "signature": "void release(java.lang.String, org.eclipse.jetty.server.session.Session)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#renewSessionId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.Session renewSessionId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.Session renewSessionId(java.lang.String, java.lang.String, java.lang.String, java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setEvictionPolicy(int)",
-      "signature": "abstract void setEvictionPolicy(int)"
+      "signature": "void setEvictionPolicy(int)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setFlushOnResponseCommit(boolean)",
-      "signature": "abstract void setFlushOnResponseCommit(boolean)"
+      "signature": "void setFlushOnResponseCommit(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setInvalidateOnShutdown(boolean)",
-      "signature": "abstract void setInvalidateOnShutdown(boolean)"
+      "signature": "void setInvalidateOnShutdown(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setRemoveUnloadableSessions(boolean)",
-      "signature": "abstract void setRemoveUnloadableSessions(boolean)"
+      "signature": "void setRemoveUnloadableSessions(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setSaveOnCreate(boolean)",
-      "signature": "abstract void setSaveOnCreate(boolean)"
+      "signature": "void setSaveOnCreate(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setSaveOnInactiveEviction(boolean)",
-      "signature": "abstract void setSaveOnInactiveEviction(boolean)"
+      "signature": "void setSaveOnInactiveEviction(boolean)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#setSessionDataStore(org.eclipse.jetty.server.session.SessionDataStore)",
-      "signature": "abstract void setSessionDataStore(org.eclipse.jetty.server.session.SessionDataStore)"
+      "signature": "void setSessionDataStore(org.eclipse.jetty.server.session.SessionDataStore)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCache#shutdown()",
-      "signature": "abstract void shutdown()"
+      "signature": "void shutdown()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionCacheFactory#getSessionCache(org.eclipse.jetty.server.session.SessionHandler)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionCache getSessionCache(org.eclipse.jetty.server.session.SessionHandler)"
+      "signature": "org.eclipse.jetty.server.session.SessionCache getSessionCache(org.eclipse.jetty.server.session.SessionHandler)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionContext#getCanonicalContextPath()",
@@ -10668,43 +10668,43 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataMap#delete(java.lang.String)",
-      "signature": "abstract boolean delete(java.lang.String)"
+      "signature": "boolean delete(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataMap#initialize(org.eclipse.jetty.server.session.SessionContext)",
-      "signature": "abstract void initialize(org.eclipse.jetty.server.session.SessionContext)"
+      "signature": "void initialize(org.eclipse.jetty.server.session.SessionContext)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataMap#load(java.lang.String)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionData load(java.lang.String)"
+      "signature": "org.eclipse.jetty.server.session.SessionData load(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataMap#store(java.lang.String, org.eclipse.jetty.server.session.SessionData)",
-      "signature": "abstract void store(java.lang.String, org.eclipse.jetty.server.session.SessionData)"
+      "signature": "void store(java.lang.String, org.eclipse.jetty.server.session.SessionData)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataMapFactory#getSessionDataMap()",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionDataMap getSessionDataMap()"
+      "signature": "org.eclipse.jetty.server.session.SessionDataMap getSessionDataMap()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataStore#exists(java.lang.String)",
-      "signature": "abstract boolean exists(java.lang.String)"
+      "signature": "boolean exists(java.lang.String)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataStore#getExpired(java.util.Set<java.lang.String>)",
-      "signature": "abstract java.util.Set<java.lang.String> getExpired(java.util.Set<java.lang.String>)"
+      "signature": "java.util.Set<java.lang.String> getExpired(java.util.Set<java.lang.String>)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataStore#isPassivating()",
-      "signature": "abstract boolean isPassivating()"
+      "signature": "boolean isPassivating()"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataStore#newSessionData(java.lang.String, long, long, long, long)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionData newSessionData(java.lang.String, long, long, long, long)"
+      "signature": "org.eclipse.jetty.server.session.SessionData newSessionData(java.lang.String, long, long, long, long)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionDataStoreFactory#getSessionDataStore(org.eclipse.jetty.server.session.SessionHandler)",
-      "signature": "abstract org.eclipse.jetty.server.session.SessionDataStore getSessionDataStore(org.eclipse.jetty.server.session.SessionHandler)"
+      "signature": "org.eclipse.jetty.server.session.SessionDataStore getSessionDataStore(org.eclipse.jetty.server.session.SessionHandler)"
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionHandler#access(jakarta.servlet.http.HttpSession, boolean)",
@@ -10992,7 +10992,7 @@
     },
     {
       "key": "org.eclipse.jetty.server.session.SessionHandler$SessionIf#getSession()",
-      "signature": "abstract org.eclipse.jetty.server.session.Session getSession()"
+      "signature": "org.eclipse.jetty.server.session.Session getSession()"
     },
     {
       "key": "org.eclipse.jetty.server.session.UnreadableSessionDataException#getId()",
@@ -11014,8 +11014,8 @@
   "changed": [
     {
       "name": "org.eclipse.jetty.server.Authentication$Deferred#authenticate",
-      "old": "abstract org.eclipse.jetty.server.Authentication authenticate(javax.servlet.ServletRequest)",
-      "new": "abstract org.eclipse.jetty.server.Authentication authenticate(jakarta.servlet.ServletRequest)",
+      "old": "org.eclipse.jetty.server.Authentication authenticate(javax.servlet.ServletRequest)",
+      "new": "org.eclipse.jetty.server.Authentication authenticate(jakarta.servlet.ServletRequest)",
       "old_key": "org.eclipse.jetty.server.Authentication$Deferred#authenticate(javax.servlet.ServletRequest)",
       "new_key": "org.eclipse.jetty.server.Authentication$Deferred#authenticate(jakarta.servlet.ServletRequest)"
     },
@@ -11042,8 +11042,8 @@
     },
     {
       "name": "org.eclipse.jetty.server.Handler#handle",
-      "old": "abstract void handle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
-      "new": "abstract void handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
+      "old": "void handle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+      "new": "void handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
       "old_key": "org.eclipse.jetty.server.Handler#handle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
       "new_key": "org.eclipse.jetty.server.Handler#handle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)"
     },
@@ -11161,8 +11161,8 @@
     },
     {
       "name": "org.eclipse.jetty.server.SessionIdManager#newSessionId",
-      "old": "abstract java.lang.String newSessionId(javax.servlet.http.HttpServletRequest, long)",
-      "new": "abstract java.lang.String newSessionId(jakarta.servlet.http.HttpServletRequest, long)",
+      "old": "java.lang.String newSessionId(javax.servlet.http.HttpServletRequest, long)",
+      "new": "java.lang.String newSessionId(jakarta.servlet.http.HttpServletRequest, long)",
       "old_key": "org.eclipse.jetty.server.SessionIdManager#newSessionId(javax.servlet.http.HttpServletRequest, long)",
       "new_key": "org.eclipse.jetty.server.SessionIdManager#newSessionId(jakarta.servlet.http.HttpServletRequest, long)"
     },
@@ -11280,14 +11280,14 @@
     },
     {
       "name": "org.eclipse.jetty.server.handler.ScopedHandler#doHandle",
-      "old": "abstract void doHandle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
-      "new": "abstract void doHandle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
+      "old": "void doHandle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+      "new": "void doHandle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
       "old_key": "org.eclipse.jetty.server.handler.ScopedHandler#doHandle(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
       "new_key": "org.eclipse.jetty.server.handler.ScopedHandler#doHandle(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)"
     },
     {
       "name": "org.eclipse.jetty.server.handler.ScopedHandler#doScope",
-      "old": "abstract void doScope(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
+      "old": "void doScope(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
       "new": "void doScope(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)",
       "old_key": "org.eclipse.jetty.server.handler.ScopedHandler#doScope(java.lang.String, org.eclipse.jetty.server.Request, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)",
       "new_key": "org.eclipse.jetty.server.handler.ScopedHandler#doScope(java.lang.String, org.eclipse.jetty.server.Request, jakarta.servlet.http.HttpServletRequest, jakarta.servlet.http.HttpServletResponse)"
@@ -11347,13 +11347,362 @@
     "new_methods": 2353,
     "removed": 909,
     "added": 1843,
-    "changed": 47
+    "changed": 47,
+    "removed_classes": 62,
+    "added_classes": 242
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.eclipse.jetty_jetty-server_8.1.11.v20130520.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.eclipse.jetty_jetty-server_11.0.10.jar",
+  "removed_classes": [
+    "org.eclipse.jetty.server.AbstractHttpConnection",
+    "org.eclipse.jetty.server.AbstractHttpConnection$Output",
+    "org.eclipse.jetty.server.AbstractHttpConnection$OutputWriter",
+    "org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler",
+    "org.eclipse.jetty.server.AsyncContinuation",
+    "org.eclipse.jetty.server.AsyncContinuation$AsyncEventState",
+    "org.eclipse.jetty.server.AsyncContinuation$AsyncTimeout",
+    "org.eclipse.jetty.server.AsyncHttpConnection",
+    "org.eclipse.jetty.server.AsyncNCSARequestLog",
+    "org.eclipse.jetty.server.AsyncNCSARequestLog$WriterThread",
+    "org.eclipse.jetty.server.BlockingHttpConnection",
+    "org.eclipse.jetty.server.CookieCutter",
+    "org.eclipse.jetty.server.LocalConnector$Request",
+    "org.eclipse.jetty.server.NCSARequestLog",
+    "org.eclipse.jetty.server.Request$MultiPartCleanerListener",
+    "org.eclipse.jetty.server.ResourceCache",
+    "org.eclipse.jetty.server.ResourceCache$Content",
+    "org.eclipse.jetty.server.Response$NullOutput",
+    "org.eclipse.jetty.server.Server$Graceful",
+    "org.eclipse.jetty.server.SessionManager",
+    "org.eclipse.jetty.server.ShutdownMonitor$ShutdownMonitorThread",
+    "org.eclipse.jetty.server.bio.SocketConnector",
+    "org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint",
+    "org.eclipse.jetty.server.handler.ConnectHandler",
+    "org.eclipse.jetty.server.handler.ConnectHandler$ClientToProxyConnection",
+    "org.eclipse.jetty.server.handler.ConnectHandler$Manager",
+    "org.eclipse.jetty.server.handler.ConnectHandler$ProxyToServerConnection",
+    "org.eclipse.jetty.server.handler.ContextHandler$ApprovePathPrefixAliases",
+    "org.eclipse.jetty.server.handler.ContextHandler$ApproveSameSuffixAliases",
+    "org.eclipse.jetty.server.handler.ContextHandler$CLDump",
+    "org.eclipse.jetty.server.handler.GzipHandler",
+    "org.eclipse.jetty.server.handler.IPAccessHandler",
+    "org.eclipse.jetty.server.handler.ProxyHandler",
+    "org.eclipse.jetty.server.nio.AbstractNIOConnector",
+    "org.eclipse.jetty.server.nio.BlockingChannelConnector",
+    "org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint",
+    "org.eclipse.jetty.server.nio.InheritedChannelConnector",
+    "org.eclipse.jetty.server.nio.NIOConnector",
+    "org.eclipse.jetty.server.nio.NetworkTrafficSelectChannelConnector",
+    "org.eclipse.jetty.server.nio.SelectChannelConnector",
+    "org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager",
+    "org.eclipse.jetty.server.session.AbstractSession",
+    "org.eclipse.jetty.server.session.AbstractSessionIdManager",
+    "org.eclipse.jetty.server.session.AbstractSessionManager",
+    "org.eclipse.jetty.server.session.AbstractSessionManager$SessionIf",
+    "org.eclipse.jetty.server.session.HashSessionIdManager",
+    "org.eclipse.jetty.server.session.HashSessionManager",
+    "org.eclipse.jetty.server.session.HashSessionManager$ClassLoadingObjectInputStream",
+    "org.eclipse.jetty.server.session.HashedSession",
+    "org.eclipse.jetty.server.session.JDBCSessionIdManager",
+    "org.eclipse.jetty.server.session.JDBCSessionIdManager$DatabaseAdaptor",
+    "org.eclipse.jetty.server.session.JDBCSessionManager",
+    "org.eclipse.jetty.server.session.JDBCSessionManager$ClassLoadingObjectInputStream",
+    "org.eclipse.jetty.server.session.JDBCSessionManager$Session",
+    "org.eclipse.jetty.server.session.jmx.AbstractSessionManagerMBean",
+    "org.eclipse.jetty.server.ssl.ServletSSL",
+    "org.eclipse.jetty.server.ssl.SslCertificates",
+    "org.eclipse.jetty.server.ssl.SslCertificates$CachedInfo",
+    "org.eclipse.jetty.server.ssl.SslConnector",
+    "org.eclipse.jetty.server.ssl.SslSelectChannelConnector",
+    "org.eclipse.jetty.server.ssl.SslSocketConnector",
+    "org.eclipse.jetty.server.ssl.SslSocketConnector$SslConnectorEndPoint"
+  ],
+  "added_classes": [
+    "org.eclipse.jetty.server.AbstractConnectionFactory",
+    "org.eclipse.jetty.server.AbstractNetworkConnector",
+    "org.eclipse.jetty.server.AcceptRateLimit",
+    "org.eclipse.jetty.server.AcceptRateLimit$Rate",
+    "org.eclipse.jetty.server.AllowedResourceAliasChecker",
+    "org.eclipse.jetty.server.AllowedResourceAliasChecker$AllowedResourceAliasCheckListener",
+    "org.eclipse.jetty.server.AsyncAttributes",
+    "org.eclipse.jetty.server.AsyncContentProducer",
+    "org.eclipse.jetty.server.AsyncContentProducer$LockedSemaphore",
+    "org.eclipse.jetty.server.AsyncContextEvent",
+    "org.eclipse.jetty.server.AsyncContextState",
+    "org.eclipse.jetty.server.AsyncContextState$WrappedAsyncListener",
+    "org.eclipse.jetty.server.AsyncRequestLogWriter",
+    "org.eclipse.jetty.server.AsyncRequestLogWriter$WriterThread",
+    "org.eclipse.jetty.server.Authentication$Failed",
+    "org.eclipse.jetty.server.Authentication$LoginAuthentication",
+    "org.eclipse.jetty.server.Authentication$LogoutAuthentication",
+    "org.eclipse.jetty.server.Authentication$NonAuthenticated",
+    "org.eclipse.jetty.server.BlockingContentProducer",
+    "org.eclipse.jetty.server.CachedContentFactory",
+    "org.eclipse.jetty.server.CachedContentFactory$CachedHttpContent",
+    "org.eclipse.jetty.server.CachedContentFactory$CachedPrecompressedHttpContent",
+    "org.eclipse.jetty.server.ClassLoaderDump",
+    "org.eclipse.jetty.server.ConnectionFactory",
+    "org.eclipse.jetty.server.ConnectionFactory$Configuring",
+    "org.eclipse.jetty.server.ConnectionFactory$Detecting",
+    "org.eclipse.jetty.server.ConnectionFactory$Detecting$Detection",
+    "org.eclipse.jetty.server.ConnectionFactory$Upgrading",
+    "org.eclipse.jetty.server.ConnectionLimit",
+    "org.eclipse.jetty.server.ContentProducer",
+    "org.eclipse.jetty.server.Cookies",
+    "org.eclipse.jetty.server.CustomRequestLog",
+    "org.eclipse.jetty.server.CustomRequestLog$Token",
+    "org.eclipse.jetty.server.DebugListener",
+    "org.eclipse.jetty.server.DetectorConnectionFactory",
+    "org.eclipse.jetty.server.DetectorConnectionFactory$DetectionFailureException",
+    "org.eclipse.jetty.server.DetectorConnectionFactory$DetectorConnection",
+    "org.eclipse.jetty.server.EncodingHttpWriter",
+    "org.eclipse.jetty.server.ForwardedRequestCustomizer",
+    "org.eclipse.jetty.server.ForwardedRequestCustomizer$Forwarded",
+    "org.eclipse.jetty.server.ForwardedRequestCustomizer$MutableHostPort",
+    "org.eclipse.jetty.server.ForwardedRequestCustomizer$Source",
+    "org.eclipse.jetty.server.HomeBaseWarning",
+    "org.eclipse.jetty.server.HostHeaderCustomizer",
+    "org.eclipse.jetty.server.HttpChannel",
+    "org.eclipse.jetty.server.HttpChannel$Dispatchable",
+    "org.eclipse.jetty.server.HttpChannel$Listener",
+    "org.eclipse.jetty.server.HttpChannel$Send1XXCallback",
+    "org.eclipse.jetty.server.HttpChannel$SendCallback",
+    "org.eclipse.jetty.server.HttpChannel$TransientListeners",
+    "org.eclipse.jetty.server.HttpChannelListeners",
+    "org.eclipse.jetty.server.HttpChannelListeners$NotifyContent",
+    "org.eclipse.jetty.server.HttpChannelListeners$NotifyFailure",
+    "org.eclipse.jetty.server.HttpChannelListeners$NotifyRequest",
+    "org.eclipse.jetty.server.HttpChannelOverHttp",
+    "org.eclipse.jetty.server.HttpChannelOverHttp$RequestBuilder",
+    "org.eclipse.jetty.server.HttpChannelState",
+    "org.eclipse.jetty.server.HttpChannelState$Action",
+    "org.eclipse.jetty.server.HttpChannelState$InputState",
+    "org.eclipse.jetty.server.HttpChannelState$OutputState",
+    "org.eclipse.jetty.server.HttpChannelState$RequestState",
+    "org.eclipse.jetty.server.HttpChannelState$State",
+    "org.eclipse.jetty.server.HttpConfiguration",
+    "org.eclipse.jetty.server.HttpConfiguration$ConnectionFactory",
+    "org.eclipse.jetty.server.HttpConfiguration$Customizer",
+    "org.eclipse.jetty.server.HttpConnection",
+    "org.eclipse.jetty.server.HttpConnection$AsyncReadCallback",
+    "org.eclipse.jetty.server.HttpConnection$Content",
+    "org.eclipse.jetty.server.HttpConnection$SendCallback",
+    "org.eclipse.jetty.server.HttpConnectionFactory",
+    "org.eclipse.jetty.server.HttpInput$ChainedInterceptor",
+    "org.eclipse.jetty.server.HttpInput$Content",
+    "org.eclipse.jetty.server.HttpInput$EofContent",
+    "org.eclipse.jetty.server.HttpInput$ErrorContent",
+    "org.eclipse.jetty.server.HttpInput$Interceptor",
+    "org.eclipse.jetty.server.HttpInput$SpecialContent",
+    "org.eclipse.jetty.server.HttpInput$WrappingContent",
+    "org.eclipse.jetty.server.HttpOutput$ApiState",
+    "org.eclipse.jetty.server.HttpOutput$AsyncFlush",
+    "org.eclipse.jetty.server.HttpOutput$AsyncWrite",
+    "org.eclipse.jetty.server.HttpOutput$ChannelWriteCB",
+    "org.eclipse.jetty.server.HttpOutput$InputStreamWritingCB",
+    "org.eclipse.jetty.server.HttpOutput$Interceptor",
+    "org.eclipse.jetty.server.HttpOutput$NestedChannelWriteCB",
+    "org.eclipse.jetty.server.HttpOutput$ReadableByteChannelWritingCB",
+    "org.eclipse.jetty.server.HttpOutput$State",
+    "org.eclipse.jetty.server.HttpOutput$WriteBlocker",
+    "org.eclipse.jetty.server.HttpOutput$WriteCompleteCB",
+    "org.eclipse.jetty.server.HttpTransport",
+    "org.eclipse.jetty.server.Iso88591HttpWriter",
+    "org.eclipse.jetty.server.LocalConnector$LocalEndPoint",
+    "org.eclipse.jetty.server.LowResourceMonitor",
+    "org.eclipse.jetty.server.LowResourceMonitor$ConnectorsThreadPoolLowResourceCheck",
+    "org.eclipse.jetty.server.LowResourceMonitor$LRMScheduler",
+    "org.eclipse.jetty.server.LowResourceMonitor$LowResourceCheck",
+    "org.eclipse.jetty.server.LowResourceMonitor$MainThreadPoolLowResourceCheck",
+    "org.eclipse.jetty.server.LowResourceMonitor$MaxConnectionsLowResourceCheck",
+    "org.eclipse.jetty.server.LowResourceMonitor$MemoryLowResourceCheck",
+    "org.eclipse.jetty.server.MultiPartFormDataCompliance",
+    "org.eclipse.jetty.server.MultiPartFormInputStream",
+    "org.eclipse.jetty.server.MultiPartFormInputStream$Handler",
+    "org.eclipse.jetty.server.MultiPartFormInputStream$MultiPart",
+    "org.eclipse.jetty.server.MultiPartFormInputStream$State",
+    "org.eclipse.jetty.server.MultiPartInputStreamParser",
+    "org.eclipse.jetty.server.MultiPartInputStreamParser$Base64InputStream",
+    "org.eclipse.jetty.server.MultiPartInputStreamParser$MultiPart",
+    "org.eclipse.jetty.server.MultiPartParser",
+    "org.eclipse.jetty.server.MultiPartParser$FieldState",
+    "org.eclipse.jetty.server.MultiPartParser$Handler",
+    "org.eclipse.jetty.server.MultiPartParser$IllegalCharacterException",
+    "org.eclipse.jetty.server.MultiPartParser$State",
+    "org.eclipse.jetty.server.MultiParts",
+    "org.eclipse.jetty.server.MultiParts$MultiPartsHttpParser",
+    "org.eclipse.jetty.server.MultiParts$MultiPartsUtilParser",
+    "org.eclipse.jetty.server.MultiParts$NonCompliance",
+    "org.eclipse.jetty.server.NegotiatingServerConnection",
+    "org.eclipse.jetty.server.NegotiatingServerConnection$CipherDiscriminator",
+    "org.eclipse.jetty.server.NegotiatingServerConnectionFactory",
+    "org.eclipse.jetty.server.NetworkConnector",
+    "org.eclipse.jetty.server.NetworkTrafficServerConnector",
+    "org.eclipse.jetty.server.OptionalSslConnectionFactory",
+    "org.eclipse.jetty.server.ProxyConnectionFactory",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyEndPoint",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV1ConnectionFactory",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV1ConnectionFactory$ProxyProtocolV1Connection",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV2ConnectionFactory",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV2ConnectionFactory$Family",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV2ConnectionFactory$ProxyProtocolV2Connection",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$ProxyV2ConnectionFactory$Transport",
+    "org.eclipse.jetty.server.ProxyConnectionFactory$UnixDomain",
+    "org.eclipse.jetty.server.ProxyCustomizer",
+    "org.eclipse.jetty.server.ProxyCustomizer$ProxyAttributes",
+    "org.eclipse.jetty.server.PushBuilderImpl",
+    "org.eclipse.jetty.server.QuietServletException",
+    "org.eclipse.jetty.server.RequestLog$Collection",
+    "org.eclipse.jetty.server.RequestLog$Writer",
+    "org.eclipse.jetty.server.RequestLogCollection",
+    "org.eclipse.jetty.server.RequestLogWriter",
+    "org.eclipse.jetty.server.ResourceContentFactory",
+    "org.eclipse.jetty.server.ResourceService",
+    "org.eclipse.jetty.server.ResourceService$WelcomeFactory",
+    "org.eclipse.jetty.server.Response$EncodingFrom",
+    "org.eclipse.jetty.server.Response$HttpFieldsSupplier",
+    "org.eclipse.jetty.server.Response$OutputType",
+    "org.eclipse.jetty.server.ResponseWriter",
+    "org.eclipse.jetty.server.SameFileAliasChecker",
+    "org.eclipse.jetty.server.SecureRequestCustomizer",
+    "org.eclipse.jetty.server.SecureRequestCustomizer$SslAttributes",
+    "org.eclipse.jetty.server.SecureRequestCustomizer$SslSessionData",
+    "org.eclipse.jetty.server.Server$DateField",
+    "org.eclipse.jetty.server.ServerConnectionStatistics",
+    "org.eclipse.jetty.server.ServerConnector",
+    "org.eclipse.jetty.server.ServerConnector$ServerConnectorManager",
+    "org.eclipse.jetty.server.ServletAttributes",
+    "org.eclipse.jetty.server.ServletPathMapping",
+    "org.eclipse.jetty.server.ShutdownMonitor$ShutdownMonitorRunnable",
+    "org.eclipse.jetty.server.Slf4jRequestLogWriter",
+    "org.eclipse.jetty.server.SocketCustomizationListener",
+    "org.eclipse.jetty.server.SslConnectionFactory",
+    "org.eclipse.jetty.server.SymlinkAllowedResourceAliasChecker",
+    "org.eclipse.jetty.server.Utf8HttpWriter",
+    "org.eclipse.jetty.server.handler.AbstractHandler$ErrorDispatchHandler",
+    "org.eclipse.jetty.server.handler.AllowSymLinkAliasChecker",
+    "org.eclipse.jetty.server.handler.AsyncDelayHandler",
+    "org.eclipse.jetty.server.handler.BufferedResponseHandler",
+    "org.eclipse.jetty.server.handler.BufferedResponseHandler$ArrayBufferedInterceptor",
+    "org.eclipse.jetty.server.handler.BufferedResponseHandler$BufferedInterceptor",
+    "org.eclipse.jetty.server.handler.ContextHandler$ApproveAliases",
+    "org.eclipse.jetty.server.handler.ContextHandler$Availability",
+    "org.eclipse.jetty.server.handler.ContextHandler$Caller",
+    "org.eclipse.jetty.server.handler.ContextHandler$ContextScopeListener",
+    "org.eclipse.jetty.server.handler.ContextHandler$ContextStatus",
+    "org.eclipse.jetty.server.handler.ContextHandler$ProtectedTargetType",
+    "org.eclipse.jetty.server.handler.ContextHandler$StaticContext",
+    "org.eclipse.jetty.server.handler.ContextHandlerCollection$Branch",
+    "org.eclipse.jetty.server.handler.ContextHandlerCollection$Mapping",
+    "org.eclipse.jetty.server.handler.ErrorHandler$ErrorPageMapper",
+    "org.eclipse.jetty.server.handler.FileBufferedResponseHandler",
+    "org.eclipse.jetty.server.handler.FileBufferedResponseHandler$FileBufferedInterceptor",
+    "org.eclipse.jetty.server.handler.HandlerCollection$Handlers",
+    "org.eclipse.jetty.server.handler.IdleTimeoutHandler",
+    "org.eclipse.jetty.server.handler.InetAccessHandler",
+    "org.eclipse.jetty.server.handler.InetAccessSet",
+    "org.eclipse.jetty.server.handler.InetAccessSet$AccessTuple",
+    "org.eclipse.jetty.server.handler.InetAccessSet$PatternTuple",
+    "org.eclipse.jetty.server.handler.ManagedAttributeListener",
+    "org.eclipse.jetty.server.handler.SecuredRedirectHandler",
+    "org.eclipse.jetty.server.handler.ThreadLimitHandler",
+    "org.eclipse.jetty.server.handler.ThreadLimitHandler$RFC7239",
+    "org.eclipse.jetty.server.handler.ThreadLimitHandler$Remote",
+    "org.eclipse.jetty.server.handler.gzip.GzipFactory",
+    "org.eclipse.jetty.server.handler.gzip.GzipHandler",
+    "org.eclipse.jetty.server.handler.gzip.GzipHttpInputInterceptor",
+    "org.eclipse.jetty.server.handler.gzip.GzipHttpInputInterceptor$Decoder",
+    "org.eclipse.jetty.server.handler.gzip.GzipHttpOutputInterceptor",
+    "org.eclipse.jetty.server.handler.gzip.GzipHttpOutputInterceptor$GZState",
+    "org.eclipse.jetty.server.handler.gzip.GzipHttpOutputInterceptor$GzipBufferCB",
+    "org.eclipse.jetty.server.jmx.AbstractConnectorMBean",
+    "org.eclipse.jetty.server.resource.ByteBufferRangeWriter",
+    "org.eclipse.jetty.server.resource.HttpContentRangeWriter",
+    "org.eclipse.jetty.server.resource.InputStreamRangeWriter",
+    "org.eclipse.jetty.server.resource.InputStreamRangeWriter$InputStreamSupplier",
+    "org.eclipse.jetty.server.resource.RangeWriter",
+    "org.eclipse.jetty.server.resource.SeekableByteChannelRangeWriter",
+    "org.eclipse.jetty.server.resource.SeekableByteChannelRangeWriter$ChannelSupplier",
+    "org.eclipse.jetty.server.session.AbstractSessionCache",
+    "org.eclipse.jetty.server.session.AbstractSessionCacheFactory",
+    "org.eclipse.jetty.server.session.AbstractSessionDataStore",
+    "org.eclipse.jetty.server.session.AbstractSessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.CachingSessionDataStore",
+    "org.eclipse.jetty.server.session.CachingSessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.DatabaseAdaptor",
+    "org.eclipse.jetty.server.session.DefaultSessionCache",
+    "org.eclipse.jetty.server.session.DefaultSessionCacheFactory",
+    "org.eclipse.jetty.server.session.DefaultSessionIdManager",
+    "org.eclipse.jetty.server.session.FileSessionDataStore",
+    "org.eclipse.jetty.server.session.FileSessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.HouseKeeper",
+    "org.eclipse.jetty.server.session.HouseKeeper$Runner",
+    "org.eclipse.jetty.server.session.JDBCSessionDataStore",
+    "org.eclipse.jetty.server.session.JDBCSessionDataStore$SessionTableSchema",
+    "org.eclipse.jetty.server.session.JDBCSessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.NullSessionCache",
+    "org.eclipse.jetty.server.session.NullSessionCacheFactory",
+    "org.eclipse.jetty.server.session.NullSessionDataStore",
+    "org.eclipse.jetty.server.session.NullSessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.Session",
+    "org.eclipse.jetty.server.session.Session$IdState",
+    "org.eclipse.jetty.server.session.Session$SessionInactivityTimer",
+    "org.eclipse.jetty.server.session.Session$State",
+    "org.eclipse.jetty.server.session.SessionCache",
+    "org.eclipse.jetty.server.session.SessionCacheFactory",
+    "org.eclipse.jetty.server.session.SessionContext",
+    "org.eclipse.jetty.server.session.SessionData",
+    "org.eclipse.jetty.server.session.SessionDataMap",
+    "org.eclipse.jetty.server.session.SessionDataMapFactory",
+    "org.eclipse.jetty.server.session.SessionDataStore",
+    "org.eclipse.jetty.server.session.SessionDataStoreFactory",
+    "org.eclipse.jetty.server.session.SessionHandler$CookieConfig",
+    "org.eclipse.jetty.server.session.SessionHandler$SessionIf",
+    "org.eclipse.jetty.server.session.UnreadableSessionDataException",
+    "org.eclipse.jetty.server.session.UnwriteableSessionDataException"
+  ],
+  "old_jar": "jar_cache/org.eclipse.jetty_jetty-server_8.1.11.v20130520.jar",
+  "new_jar": "jar_cache/org.eclipse.jetty_jetty-server_11.0.10.jar",
   "group_id": "org.eclipse.jetty",
   "artifact_id": "jetty-server",
   "old_version": "8.1.11.v20130520",
   "new_version": "11.0.10",
-  "project": "jadler"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.eclipse.jetty.orbit:javax.servlet",
+        "org.eclipse.jetty:jetty-continuation",
+        "org.mockito:mockito-core"
+      ],
+      "added": [
+        "org.eclipse.jetty.tests:jetty-http-tools",
+        "org.eclipse.jetty.toolchain:jetty-jakarta-servlet-api",
+        "org.eclipse.jetty:jetty-io",
+        "org.eclipse.jetty:jetty-slf4j-impl",
+        "org.eclipse.jetty:jetty-util-ajax",
+        "org.eclipse.jetty:jetty-xml",
+        "org.slf4j:slf4j-api"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.eclipse.jetty:jetty-http",
+          "old": "8.1.11.v20130520",
+          "new": ""
+        },
+        {
+          "dependency": "org.eclipse.jetty:jetty-jmx",
+          "old": "8.1.11.v20130520",
+          "new": ""
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jadler"
+  ]
 }

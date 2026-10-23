@@ -14,7 +14,7 @@
     },
     {
       "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(java.io.File)",
-      "signature": "<T extends org.apache.poi.extractor.POITextExtractor> T createExtractor(java.io.File)"
+      "signature": "T createExtractor(java.io.File)"
     },
     {
       "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(java.io.InputStream)",
@@ -26,11 +26,11 @@
     },
     {
       "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(org.apache.poi.poifs.filesystem.DirectoryNode)",
-      "signature": "<T extends org.apache.poi.extractor.POITextExtractor> T createExtractor(org.apache.poi.poifs.filesystem.DirectoryNode)"
+      "signature": "T createExtractor(org.apache.poi.poifs.filesystem.DirectoryNode)"
     },
     {
       "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#createExtractor(org.apache.poi.poifs.filesystem.POIFSFileSystem)",
-      "signature": "<T extends org.apache.poi.extractor.POITextExtractor> T createExtractor(org.apache.poi.poifs.filesystem.POIFSFileSystem)"
+      "signature": "T createExtractor(org.apache.poi.poifs.filesystem.POIFSFileSystem)"
     },
     {
       "key": "org.apache.poi.ooxml.extractor.ExtractorFactory#getAllThreadsPreferEventExtractors()",
@@ -162,7 +162,7 @@
     },
     {
       "key": "org.apache.poi.poifs.crypt.dsig.SignatureConfig$SignatureConfigurable#setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)",
-      "signature": "abstract void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
+      "signature": "void setSignatureConfig(org.apache.poi.poifs.crypt.dsig.SignatureConfig)"
     },
     {
       "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleEvent(org.w3c.dom.events.Event)",
@@ -198,7 +198,7 @@
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFCategoryDataSource#getDataRangeReference()",
-      "signature": "default java.lang.String getDataRangeReference()"
+      "signature": "java.lang.String getDataRangeReference()"
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$NumericalArrayDataSource#getFormula()",
@@ -218,11 +218,11 @@
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFNumericalDataSource#fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)",
-      "signature": "default void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
+      "signature": "void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFNumericalDataSource#getFormatCode()",
-      "signature": "abstract java.lang.String getFormatCode()"
+      "signature": "java.lang.String getFormatCode()"
     },
     {
       "key": "org.apache.poi.xdgf.extractor.XDGFVisioExtractor#main(java.lang.String[])",
@@ -294,7 +294,7 @@
     },
     {
       "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)",
-      "signature": "abstract boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)"
+      "signature": "boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties)"
     },
     {
       "key": "org.apache.poi.xslf.usermodel.XSLFHyperlink#getTypeEnum()",
@@ -306,7 +306,7 @@
     },
     {
       "key": "org.apache.poi.xslf.usermodel.XSLFShape#selectProperty(java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)",
-      "signature": "<T extends org.apache.xmlbeans.XmlObject> T selectProperty(java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
+      "signature": "T selectProperty(java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
     },
     {
       "key": "org.apache.poi.xslf.usermodel.XSLFSlideShowFactory#createSlideShow(java.io.File, boolean)",
@@ -602,7 +602,7 @@
     },
     {
       "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getLine()",
-      "signature": "abstract org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.main.CTShapeProperties getLine()"
     },
     {
       "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getLogBase()",
@@ -610,7 +610,7 @@
     },
     {
       "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMajorGridLines()",
-      "signature": "abstract org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
+      "signature": "org.openxmlformats.schemas.drawingml.x2006.chart.CTChartLines getMajorGridLines()"
     },
     {
       "key": "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis#getMajorTickMark()",
@@ -988,7 +988,7 @@
     },
     {
       "key": "org.apache.poi.ooxml.extractor.POIXMLTextExtractor#checkMaxTextSize(java.lang.CharSequence, java.lang.String)",
-      "signature": "default void checkMaxTextSize(java.lang.CharSequence, java.lang.String)"
+      "signature": "void checkMaxTextSize(java.lang.CharSequence, java.lang.String)"
     },
     {
       "key": "org.apache.poi.ooxml.util.POIXMLUnits#parseLength(org.openxmlformats.schemas.drawingml.x2006.main.STCoordinate)",
@@ -1084,11 +1084,11 @@
     },
     {
       "key": "org.apache.poi.ooxml.util.XPathHelper#selectProperty(org.apache.xmlbeans.XmlObject, java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)",
-      "signature": "<T extends org.apache.xmlbeans.XmlObject> T selectProperty(org.apache.xmlbeans.XmlObject, java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
+      "signature": "T selectProperty(org.apache.xmlbeans.XmlObject, java.lang.Class<T>, org.apache.poi.xslf.usermodel.XSLFShape$ReparseFactory<T>, javax.xml.namespace.QName[]...)"
     },
     {
       "key": "org.apache.poi.openxml4j.opc.OPCPackage#isClosed()",
-      "signature": "abstract boolean isClosed()"
+      "signature": "boolean isClosed()"
     },
     {
       "key": "org.apache.poi.openxml4j.opc.OPCPackage#isStrictOoxmlFormat()",
@@ -1384,7 +1384,7 @@
     },
     {
       "key": "org.apache.poi.poifs.crypt.dsig.SignatureLine$AddPictureData#addPictureData(byte[], org.apache.poi.common.usermodel.PictureType)",
-      "signature": "abstract java.lang.String addPictureData(byte[], org.apache.poi.common.usermodel.PictureType)"
+      "signature": "java.lang.String addPictureData(byte[], org.apache.poi.common.usermodel.PictureType)"
     },
     {
       "key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalDefaultListener#handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)",
@@ -1456,11 +1456,11 @@
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSource#fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)",
-      "signature": "default void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
+      "signature": "void fillNumericalCache(org.openxmlformats.schemas.drawingml.x2006.chart.CTNumData)"
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSource#getFormatCode()",
-      "signature": "abstract java.lang.String getFormatCode()"
+      "signature": "java.lang.String getFormatCode()"
     },
     {
       "key": "org.apache.poi.xddf.usermodel.chart.XDDFDataSourcesFactory$StringArrayDataSource#getFormatCode()",
@@ -1816,7 +1816,7 @@
     },
     {
       "key": "org.apache.poi.xslf.model.CharacterPropertyFetcher$CharPropFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.util.function.Consumer<S>)",
-      "signature": "abstract void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.util.function.Consumer<S>)"
+      "signature": "void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.util.function.Consumer<S>)"
     },
     {
       "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher#fetchProperty(org.apache.poi.xslf.usermodel.XSLFShape)",
@@ -1824,7 +1824,7 @@
     },
     {
       "key": "org.apache.poi.xslf.model.ParagraphPropertyFetcher$ParaPropFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.util.function.Consumer<S>)",
-      "signature": "abstract void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.util.function.Consumer<S>)"
+      "signature": "void fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.util.function.Consumer<S>)"
     },
     {
       "key": "org.apache.poi.xslf.model.PropertyFetcher#isSet()",
@@ -2260,15 +2260,15 @@
     },
     {
       "key": "org.apache.poi.xslf.util.OutputFormat#addSlide(double, double)",
-      "signature": "abstract java.awt.Graphics2D addSlide(double, double)"
+      "signature": "java.awt.Graphics2D addSlide(double, double)"
     },
     {
       "key": "org.apache.poi.xslf.util.OutputFormat#writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)",
-      "signature": "default void writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+      "signature": "void writeDocument(org.apache.poi.xslf.util.MFProxy, java.io.File)"
     },
     {
       "key": "org.apache.poi.xslf.util.OutputFormat#writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)",
-      "signature": "abstract void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
+      "signature": "void writeSlide(org.apache.poi.xslf.util.MFProxy, java.io.File)"
     },
     {
       "key": "org.apache.poi.xslf.util.PDFFormat#addSlide(double, double)",
@@ -2288,7 +2288,7 @@
     },
     {
       "key": "org.apache.poi.xslf.util.PPTX2PNG$ProxyConsumer#parse(org.apache.poi.xslf.util.MFProxy)",
-      "signature": "abstract void parse(org.apache.poi.xslf.util.MFProxy)"
+      "signature": "void parse(org.apache.poi.xslf.util.MFProxy)"
     },
     {
       "key": "org.apache.poi.xslf.util.SVGFormat#addSlide(double, double)",
@@ -2388,7 +2388,7 @@
     },
     {
       "key": "org.apache.poi.xssf.streaming.RowGeneratorFunction#generateRows(org.apache.poi.xssf.streaming.SXSSFSheet)",
-      "signature": "abstract void generateRows(org.apache.poi.xssf.streaming.SXSSFSheet)"
+      "signature": "void generateRows(org.apache.poi.xssf.streaming.SXSSFSheet)"
     },
     {
       "key": "org.apache.poi.xssf.streaming.SXSSFSheet#flushBufferedData()",
@@ -2404,7 +2404,7 @@
     },
     {
       "key": "org.apache.poi.xssf.streaming.SXSSFWorkbook$ISheetInjector#writeSheetData(java.io.OutputStream)",
-      "signature": "abstract void writeSheetData(java.io.OutputStream)"
+      "signature": "void writeSheetData(java.io.OutputStream)"
     },
     {
       "key": "org.apache.poi.xssf.streaming.StreamingSheetWriter#close()",
@@ -2774,7 +2774,7 @@
     {
       "name": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement",
       "old": "void handleElement(org.w3c.dom.Element)",
-      "new": "abstract void handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)",
+      "new": "void handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)",
       "old_key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement(org.w3c.dom.Element)",
       "new_key": "org.apache.poi.poifs.crypt.dsig.SignatureMarshalListener#handleElement(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, org.w3c.dom.events.EventTarget, org.w3c.dom.events.EventListener)"
     },
@@ -2809,14 +2809,14 @@
     {
       "name": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign",
       "old": "void postSign(org.w3c.dom.Document)",
-      "new": "default void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
+      "new": "void postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)",
       "old_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign(org.w3c.dom.Document)",
       "new_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#postSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document)"
     },
     {
       "name": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign",
       "old": "void preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
-      "new": "default void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
+      "new": "void preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
       "old_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign(org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)",
       "new_key": "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacet#preSign(org.apache.poi.poifs.crypt.dsig.SignatureInfo, org.w3c.dom.Document, java.util.List<javax.xml.crypto.dsig.Reference>, java.util.List<javax.xml.crypto.dsig.XMLObject>)"
     },
@@ -2843,36 +2843,36 @@
     },
     {
       "name": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp",
-      "old": "abstract byte[] timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
-      "new": "abstract byte[] timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "old": "byte[] timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
+      "new": "byte[] timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
       "old_key": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp(byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)",
       "new_key": "org.apache.poi.poifs.crypt.dsig.services.TimeStampService#timeStamp(org.apache.poi.poifs.crypt.dsig.SignatureInfo, byte[], org.apache.poi.poifs.crypt.dsig.services.RevocationData)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty",
-      "old": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty",
-      "old": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChart#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty",
-      "old": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty",
-      "old": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFChartLegend#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
@@ -2885,35 +2885,35 @@
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty",
-      "old": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty",
-      "old": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.chart.XDDFLegendEntry#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty",
-      "old": "abstract <R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "abstract <R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty",
-      "old": "abstract <R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "abstract <R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xddf.usermodel.text.TextContainer#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
     {
       "name": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch",
-      "old": "abstract boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties)",
+      "old": "boolean fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties)",
       "new": "boolean fetch(org.apache.poi.xslf.usermodel.XSLFShape)",
       "old_key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch(org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties)",
       "new_key": "org.apache.poi.xslf.model.CharacterPropertyFetcher#fetch(org.apache.poi.xslf.usermodel.XSLFShape)"
@@ -2927,29 +2927,29 @@
     },
     {
       "name": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty",
-      "old": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty",
-      "old": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xslf.usermodel.XSLFTextShape#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
     {
       "name": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty",
-      "old": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "old_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)",
       "new_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedParagraphProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextParagraphProperties, R>)"
     },
     {
       "name": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty",
-      "old": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
-      "new": "<R> java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "old": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
+      "new": "java.util.Optional<R> findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "old_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty(java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, java.lang.Boolean>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)",
       "new_key": "org.apache.poi.xssf.usermodel.XSSFSimpleShape#findDefinedRunProperty(java.util.function.Predicate<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties>, java.util.function.Function<org.openxmlformats.schemas.drawingml.x2006.main.CTTextCharacterProperties, R>)"
     },
@@ -2966,13 +2966,150 @@
     "new_methods": 6118,
     "removed": 230,
     "added": 460,
-    "changed": 28
+    "changed": 28,
+    "removed_classes": 37,
+    "added_classes": 51
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.poi_poi-ooxml_4.1.2.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.poi_poi-ooxml_5.1.0.jar",
+  "removed_classes": [
+    "org.apache.poi.ooxml.extractor.ExtractorFactory",
+    "org.apache.poi.openxml4j.util.Nullable",
+    "org.apache.poi.poifs.crypt.agile.AgileDecryptor",
+    "org.apache.poi.poifs.crypt.agile.AgileDecryptor$AgileCipherInputStream",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionHeader",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionInfoBuilder",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptionVerifier$AgileCertificateEntry",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptor",
+    "org.apache.poi.poifs.crypt.agile.AgileEncryptor$AgileCipherOutputStream",
+    "org.apache.poi.poifs.crypt.dsig.CertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.ExpiredCertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.RevokedCertificateSecurityException",
+    "org.apache.poi.poifs.crypt.dsig.SignatureConfig$SignatureConfigurable",
+    "org.apache.poi.poifs.crypt.dsig.TrustCertificateSecurityException",
+    "org.apache.poi.xdgf.geom.Dimension2dDouble",
+    "org.apache.poi.xdgf.usermodel.section.CombinedIterable",
+    "org.apache.poi.xdgf.usermodel.section.geometry.GeometryRowFactory",
+    "org.apache.poi.xdgf.util.ObjectFactory",
+    "org.apache.poi.xslf.extractor.XSLFPowerPointExtractor",
+    "org.apache.poi.xslf.usermodel.XSLFObjectShape$XSLFObjectOutputStream",
+    "org.apache.poi.xssf.binary.package",
+    "org.apache.poi.xssf.usermodel.charts.AbstractXSSFChartSeries",
+    "org.apache.poi.xssf.usermodel.charts.XSSFCategoryAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartDataFactory",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartLegend",
+    "org.apache.poi.xssf.usermodel.charts.XSSFChartUtil",
+    "org.apache.poi.xssf.usermodel.charts.XSSFDateAxis",
+    "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData",
+    "org.apache.poi.xssf.usermodel.charts.XSSFLineChartData$Series",
+    "org.apache.poi.xssf.usermodel.charts.XSSFManualLayout",
+    "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData",
+    "org.apache.poi.xssf.usermodel.charts.XSSFScatterChartData$Series",
+    "org.apache.poi.xssf.usermodel.charts.XSSFValueAxis",
+    "org.apache.poi.xwpf.model.WMLHelper",
+    "org.apache.poi.xwpf.package"
+  ],
+  "added_classes": [
+    "org.apache.poi.ooxml.extractor.POIXMLExtractorFactory",
+    "org.apache.poi.ooxml.util.POIXMLUnits",
+    "org.apache.poi.openxml4j.opc.internal.EncryptedTempFilePackagePart",
+    "org.apache.poi.openxml4j.opc.internal.TempFilePackagePart",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$SignaturePartIterator",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$XmlProviderInitSingleton",
+    "org.apache.poi.poifs.crypt.dsig.SignatureInfo$XmlProviderInitSingleton$SingletonHelper",
+    "org.apache.poi.poifs.crypt.dsig.SignatureLine",
+    "org.apache.poi.poifs.crypt.dsig.SignatureLine$AddPictureData",
+    "org.apache.poi.poifs.crypt.dsig.SignatureMarshalDefaultListener",
+    "org.apache.poi.poifs.crypt.dsig.facets.SignatureFacetHelper",
+    "org.apache.poi.poifs.crypt.dsig.services.RelationshipTransformService$POIXmlDsigProvider",
+    "org.apache.poi.xddf.usermodel.chart.XDDFDataPoint",
+    "org.apache.poi.xdgf.usermodel.section.GeometryRowTypes",
+    "org.apache.poi.xdgf.usermodel.section.XDGFSectionTypes",
+    "org.apache.poi.xslf.draw.SVGPOIGraphics2D",
+    "org.apache.poi.xslf.draw.SVGRenderExtension",
+    "org.apache.poi.xslf.draw.SVGUserAgent",
+    "org.apache.poi.xslf.draw.geom.XSLFAdjustPoint",
+    "org.apache.poi.xslf.draw.geom.XSLFAdjustValue",
+    "org.apache.poi.xslf.draw.geom.XSLFArcTo",
+    "org.apache.poi.xslf.draw.geom.XSLFConnectionSite",
+    "org.apache.poi.xslf.draw.geom.XSLFCurveTo",
+    "org.apache.poi.xslf.draw.geom.XSLFCustomGeometry",
+    "org.apache.poi.xslf.draw.geom.XSLFGuide",
+    "org.apache.poi.xslf.draw.geom.XSLFLineTo",
+    "org.apache.poi.xslf.draw.geom.XSLFMoveTo",
+    "org.apache.poi.xslf.draw.geom.XSLFPath",
+    "org.apache.poi.xslf.draw.geom.XSLFPolarAdjustHandle",
+    "org.apache.poi.xslf.draw.geom.XSLFQuadTo",
+    "org.apache.poi.xslf.draw.geom.XSLFXYAdjustHandle",
+    "org.apache.poi.xslf.extractor.XSLFExtractor",
+    "org.apache.poi.xslf.model.CharacterPropertyFetcher$CharPropFetcher",
+    "org.apache.poi.xslf.model.ParagraphPropertyFetcher$ParaPropFetcher",
+    "org.apache.poi.xslf.util.BitmapFormat",
+    "org.apache.poi.xslf.util.DummyFormat",
+    "org.apache.poi.xslf.util.DummyGraphics2d",
+    "org.apache.poi.xslf.util.OutputFormat",
+    "org.apache.poi.xslf.util.PDFFontMapper",
+    "org.apache.poi.xslf.util.PDFFormat",
+    "org.apache.poi.xslf.util.PPTX2PNG$ProxyConsumer",
+    "org.apache.poi.xslf.util.SVGFormat",
+    "org.apache.poi.xssf.streaming.DeferredSXSSFSheet",
+    "org.apache.poi.xssf.streaming.DeferredSXSSFWorkbook",
+    "org.apache.poi.xssf.streaming.RowGeneratorFunction",
+    "org.apache.poi.xssf.streaming.SXSSFWorkbook$ISheetInjector",
+    "org.apache.poi.xssf.streaming.StreamingSheetWriter",
+    "org.apache.poi.xssf.usermodel.XSSFSignatureLine",
+    "org.apache.poi.xwpf.usermodel.TableRowHeightRule",
+    "org.apache.poi.xwpf.usermodel.XWPFComments",
+    "org.apache.poi.xwpf.usermodel.XWPFSignatureLine"
+  ],
+  "old_jar": "jar_cache/org.apache.poi_poi-ooxml_4.1.2.jar",
+  "new_jar": "jar_cache/org.apache.poi_poi-ooxml_5.1.0.jar",
   "group_id": "org.apache.poi",
   "artifact_id": "poi-ooxml",
   "old_version": "4.1.2",
   "new_version": "5.1.0",
-  "project": "fscrawler"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.apache.poi:poi-ooxml-schemas"
+      ],
+      "added": [
+        "commons-io:commons-io",
+        "de.rototor.pdfbox:graphics2d",
+        "org.apache.commons:commons-collections4",
+        "org.apache.logging.log4j:log4j-api",
+        "org.apache.poi:poi-ooxml-lite",
+        "org.apache.santuario:xmlsec",
+        "org.apache.xmlbeans:xmlbeans",
+        "org.apache.xmlgraphics:batik-bridge",
+        "org.apache.xmlgraphics:batik-codec",
+        "org.apache.xmlgraphics:batik-svggen",
+        "org.apache.xmlgraphics:batik-svgrasterizer",
+        "org.bouncycastle:bcpkix-jdk15on",
+        "org.bouncycastle:bcutil-jdk15on"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.apache.commons:commons-compress",
+          "old": "1.19",
+          "new": "1.21"
+        },
+        {
+          "dependency": "org.apache.poi:poi",
+          "old": "4.1.2",
+          "new": "5.1.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "fscrawler"
+  ]
 }

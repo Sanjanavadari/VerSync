@@ -42,11 +42,11 @@
     },
     {
       "key": "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToObjectConverter#canConvert(java.lang.Class<?>)",
-      "signature": "abstract boolean canConvert(java.lang.Class<?>)"
+      "signature": "boolean canConvert(java.lang.Class<?>)"
     },
     {
       "key": "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToObjectConverter#convert(java.lang.String, java.lang.Class<?>)",
-      "signature": "abstract java.lang.Object convert(java.lang.String, java.lang.Class<?>)"
+      "signature": "java.lang.Object convert(java.lang.String, java.lang.Class<?>)"
     },
     {
       "key": "org.junit.jupiter.params.converter.JavaTimeArgumentConverter#accept(java.lang.Object)",
@@ -124,7 +124,7 @@
   "added": [
     {
       "key": "org.junit.jupiter.params.aggregator.ArgumentsAccessor#getInvocationIndex()",
-      "signature": "abstract int getInvocationIndex()"
+      "signature": "int getInvocationIndex()"
     },
     {
       "key": "org.junit.jupiter.params.aggregator.DefaultArgumentsAccessor#getInvocationIndex()",
@@ -208,15 +208,15 @@
     },
     {
       "key": "org.junit.jupiter.params.converter.StringToObjectConverter#canConvert(java.lang.Class<?>)",
-      "signature": "abstract boolean canConvert(java.lang.Class<?>)"
+      "signature": "boolean canConvert(java.lang.Class<?>)"
     },
     {
       "key": "org.junit.jupiter.params.converter.StringToObjectConverter#convert(java.lang.String, java.lang.Class<?>)",
-      "signature": "abstract java.lang.Object convert(java.lang.String, java.lang.Class<?>)"
+      "signature": "java.lang.Object convert(java.lang.String, java.lang.Class<?>)"
     },
     {
       "key": "org.junit.jupiter.params.converter.StringToObjectConverter#convert(java.lang.String, java.lang.Class<?>, java.lang.ClassLoader)",
-      "signature": "default java.lang.Object convert(java.lang.String, java.lang.Class<?>, java.lang.ClassLoader)"
+      "signature": "java.lang.Object convert(java.lang.String, java.lang.Class<?>, java.lang.ClassLoader)"
     },
     {
       "key": "org.junit.jupiter.params.provider.AnnotationBasedArgumentsProvider#accept(A)",
@@ -248,8 +248,8 @@
     },
     {
       "name": "org.junit.jupiter.params.ParameterizedTestMethodContext$Resolver#resolve",
-      "old": "abstract java.lang.Object resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[])",
-      "new": "abstract java.lang.Object resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[], int)",
+      "old": "java.lang.Object resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[])",
+      "new": "java.lang.Object resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[], int)",
       "old_key": "org.junit.jupiter.params.ParameterizedTestMethodContext$Resolver#resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[])",
       "new_key": "org.junit.jupiter.params.ParameterizedTestMethodContext$Resolver#resolve(org.junit.jupiter.api.extension.ParameterContext, java.lang.Object[], int)"
     },
@@ -266,13 +266,64 @@
     "new_methods": 1927,
     "removed": 30,
     "added": 27,
-    "changed": 4
+    "changed": 4,
+    "removed_classes": 6,
+    "added_classes": 11
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.junit.jupiter_junit-jupiter-params_5.9.3.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.junit.jupiter_junit-jupiter-params_5.10.0.jar",
+  "removed_classes": [
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToBooleanAndCharPrimitiveConverter",
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToCommonJavaTypesConverter",
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToEnumConverter",
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToJavaTimeConverter",
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToNumericPrimitiveConverter",
+    "org.junit.jupiter.params.converter.DefaultArgumentConverter$StringToObjectConverter"
+  ],
+  "added_classes": [
+    "org.junit.jupiter.params.converter.AnnotationBasedArgumentConverter",
+    "org.junit.jupiter.params.converter.StringToBooleanConverter",
+    "org.junit.jupiter.params.converter.StringToCharacterConverter",
+    "org.junit.jupiter.params.converter.StringToClassConverter",
+    "org.junit.jupiter.params.converter.StringToCommonJavaTypesConverter",
+    "org.junit.jupiter.params.converter.StringToEnumConverter",
+    "org.junit.jupiter.params.converter.StringToJavaTimeConverter",
+    "org.junit.jupiter.params.converter.StringToNumberConverter",
+    "org.junit.jupiter.params.converter.StringToObjectConverter",
+    "org.junit.jupiter.params.provider.AnnotationBasedArgumentsProvider",
+    "org.junit.jupiter.params.support.AnnotationConsumerInitializer$AnnotationConsumingMethodSignature"
+  ],
+  "old_jar": "jar_cache/org.junit.jupiter_junit-jupiter-params_5.9.3.jar",
+  "new_jar": "jar_cache/org.junit.jupiter_junit-jupiter-params_5.10.0.jar",
   "group_id": "org.junit.jupiter",
   "artifact_id": "junit-jupiter-params",
   "old_version": "5.9.3",
   "new_version": "5.10.0",
-  "project": "pgpverify-maven-plugin"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter-api",
+          "old": "5.9.3",
+          "new": "5.10.0"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.junit:junit-bom",
+          "old": "5.9.3",
+          "new": "5.10.0"
+        }
+      ]
+    }
+  },
+  "projects": [
+    "pgpverify-maven-plugin"
+  ]
 }

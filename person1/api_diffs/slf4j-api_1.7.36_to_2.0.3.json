@@ -246,7 +246,7 @@
     },
     {
       "key": "org.slf4j.event.LoggingEvent#getMarker()",
-      "signature": "abstract org.slf4j.Marker getMarker()"
+      "signature": "org.slf4j.Marker getMarker()"
     },
     {
       "key": "org.slf4j.event.SubstituteLoggingEvent#getMarker()",
@@ -260,35 +260,35 @@
   "added": [
     {
       "key": "org.slf4j.Logger#atDebug()",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atDebug()"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atDebug()"
     },
     {
       "key": "org.slf4j.Logger#atError()",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atError()"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atError()"
     },
     {
       "key": "org.slf4j.Logger#atInfo()",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atInfo()"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atInfo()"
     },
     {
       "key": "org.slf4j.Logger#atLevel(org.slf4j.event.Level)",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atLevel(org.slf4j.event.Level)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atLevel(org.slf4j.event.Level)"
     },
     {
       "key": "org.slf4j.Logger#atTrace()",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atTrace()"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atTrace()"
     },
     {
       "key": "org.slf4j.Logger#atWarn()",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder atWarn()"
+      "signature": "org.slf4j.spi.LoggingEventBuilder atWarn()"
     },
     {
       "key": "org.slf4j.Logger#isEnabledForLevel(org.slf4j.event.Level)",
-      "signature": "default boolean isEnabledForLevel(org.slf4j.event.Level)"
+      "signature": "boolean isEnabledForLevel(org.slf4j.event.Level)"
     },
     {
       "key": "org.slf4j.Logger#makeLoggingEventBuilder(org.slf4j.event.Level)",
-      "signature": "default org.slf4j.spi.LoggingEventBuilder makeLoggingEventBuilder(org.slf4j.event.Level)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder makeLoggingEventBuilder(org.slf4j.event.Level)"
     },
     {
       "key": "org.slf4j.LoggerFactoryFriend#reset()",
@@ -420,19 +420,19 @@
     },
     {
       "key": "org.slf4j.event.LoggingEvent#getArguments()",
-      "signature": "abstract java.util.List<java.lang.Object> getArguments()"
+      "signature": "java.util.List<java.lang.Object> getArguments()"
     },
     {
       "key": "org.slf4j.event.LoggingEvent#getCallerBoundary()",
-      "signature": "default java.lang.String getCallerBoundary()"
+      "signature": "java.lang.String getCallerBoundary()"
     },
     {
       "key": "org.slf4j.event.LoggingEvent#getKeyValuePairs()",
-      "signature": "abstract java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
+      "signature": "java.util.List<org.slf4j.event.KeyValuePair> getKeyValuePairs()"
     },
     {
       "key": "org.slf4j.event.LoggingEvent#getMarkers()",
-      "signature": "abstract java.util.List<org.slf4j.Marker> getMarkers()"
+      "signature": "java.util.List<org.slf4j.Marker> getMarkers()"
     },
     {
       "key": "org.slf4j.event.SubstituteLoggingEvent#addMarker(org.slf4j.Marker)",
@@ -960,7 +960,7 @@
     },
     {
       "key": "org.slf4j.spi.CallerBoundaryAware#setCallerBoundary(java.lang.String)",
-      "signature": "abstract void setCallerBoundary(java.lang.String)"
+      "signature": "void setCallerBoundary(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.DefaultLoggingEventBuilder#addArgument(java.lang.Object)",
@@ -1024,79 +1024,79 @@
     },
     {
       "key": "org.slf4j.spi.LoggingEventAware#log(org.slf4j.event.LoggingEvent)",
-      "signature": "abstract void log(org.slf4j.event.LoggingEvent)"
+      "signature": "void log(org.slf4j.event.LoggingEvent)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#addArgument(java.lang.Object)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder addArgument(java.lang.Object)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder addArgument(java.lang.Object)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#addArgument(java.util.function.Supplier<?>)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder addArgument(java.util.function.Supplier<?>)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder addArgument(java.util.function.Supplier<?>)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#addKeyValue(java.lang.String, java.lang.Object)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder addKeyValue(java.lang.String, java.lang.Object)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder addKeyValue(java.lang.String, java.lang.Object)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#addKeyValue(java.lang.String, java.util.function.Supplier<java.lang.Object>)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder addKeyValue(java.lang.String, java.util.function.Supplier<java.lang.Object>)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder addKeyValue(java.lang.String, java.util.function.Supplier<java.lang.Object>)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#addMarker(org.slf4j.Marker)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder addMarker(org.slf4j.Marker)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder addMarker(org.slf4j.Marker)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log()",
-      "signature": "abstract void log()"
+      "signature": "void log()"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log(java.lang.String)",
-      "signature": "abstract void log(java.lang.String)"
+      "signature": "void log(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log(java.lang.String, java.lang.Object)",
-      "signature": "abstract void log(java.lang.String, java.lang.Object)"
+      "signature": "void log(java.lang.String, java.lang.Object)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log(java.lang.String, java.lang.Object, java.lang.Object)",
-      "signature": "abstract void log(java.lang.String, java.lang.Object, java.lang.Object)"
+      "signature": "void log(java.lang.String, java.lang.Object, java.lang.Object)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log(java.lang.String, java.lang.Object...)",
-      "signature": "abstract void log(java.lang.String, java.lang.Object...)"
+      "signature": "void log(java.lang.String, java.lang.Object...)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#log(java.util.function.Supplier<java.lang.String>)",
-      "signature": "abstract void log(java.util.function.Supplier<java.lang.String>)"
+      "signature": "void log(java.util.function.Supplier<java.lang.String>)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#setCause(java.lang.Throwable)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder setCause(java.lang.Throwable)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder setCause(java.lang.Throwable)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#setMessage(java.lang.String)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder setMessage(java.lang.String)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder setMessage(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.LoggingEventBuilder#setMessage(java.util.function.Supplier<java.lang.String>)",
-      "signature": "abstract org.slf4j.spi.LoggingEventBuilder setMessage(java.util.function.Supplier<java.lang.String>)"
+      "signature": "org.slf4j.spi.LoggingEventBuilder setMessage(java.util.function.Supplier<java.lang.String>)"
     },
     {
       "key": "org.slf4j.spi.MDCAdapter#clearDequeByKey(java.lang.String)",
-      "signature": "abstract void clearDequeByKey(java.lang.String)"
+      "signature": "void clearDequeByKey(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.MDCAdapter#getCopyOfDequeByKey(java.lang.String)",
-      "signature": "abstract java.util.Deque<java.lang.String> getCopyOfDequeByKey(java.lang.String)"
+      "signature": "java.util.Deque<java.lang.String> getCopyOfDequeByKey(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.MDCAdapter#popByKey(java.lang.String)",
-      "signature": "abstract java.lang.String popByKey(java.lang.String)"
+      "signature": "java.lang.String popByKey(java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.MDCAdapter#pushByKey(java.lang.String, java.lang.String)",
-      "signature": "abstract void pushByKey(java.lang.String, java.lang.String)"
+      "signature": "void pushByKey(java.lang.String, java.lang.String)"
     },
     {
       "key": "org.slf4j.spi.NOPLoggingEventBuilder#addArgument(java.lang.Object)",
@@ -1160,23 +1160,23 @@
     },
     {
       "key": "org.slf4j.spi.SLF4JServiceProvider#getLoggerFactory()",
-      "signature": "abstract org.slf4j.ILoggerFactory getLoggerFactory()"
+      "signature": "org.slf4j.ILoggerFactory getLoggerFactory()"
     },
     {
       "key": "org.slf4j.spi.SLF4JServiceProvider#getMDCAdapter()",
-      "signature": "abstract org.slf4j.spi.MDCAdapter getMDCAdapter()"
+      "signature": "org.slf4j.spi.MDCAdapter getMDCAdapter()"
     },
     {
       "key": "org.slf4j.spi.SLF4JServiceProvider#getMarkerFactory()",
-      "signature": "abstract org.slf4j.IMarkerFactory getMarkerFactory()"
+      "signature": "org.slf4j.IMarkerFactory getMarkerFactory()"
     },
     {
       "key": "org.slf4j.spi.SLF4JServiceProvider#getRequestedApiVersion()",
-      "signature": "abstract java.lang.String getRequestedApiVersion()"
+      "signature": "java.lang.String getRequestedApiVersion()"
     },
     {
       "key": "org.slf4j.spi.SLF4JServiceProvider#initialize()",
-      "signature": "abstract void initialize()"
+      "signature": "void initialize()"
     }
   ],
   "changed": [],
@@ -1185,13 +1185,53 @@
     "new_methods": 539,
     "removed": 64,
     "added": 230,
-    "changed": 0
+    "changed": 0,
+    "removed_classes": 1,
+    "added_classes": 17
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.slf4j_slf4j-api_1.7.36.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.slf4j_slf4j-api_2.0.3.jar",
+  "removed_classes": [
+    "org.slf4j.event.EventRecodingLogger"
+  ],
+  "added_classes": [
+    "org.slf4j.LoggerFactoryFriend",
+    "org.slf4j.event.DefaultLoggingEvent",
+    "org.slf4j.event.EventRecordingLogger",
+    "org.slf4j.event.KeyValuePair",
+    "org.slf4j.helpers.AbstractLogger",
+    "org.slf4j.helpers.CheckReturnValue",
+    "org.slf4j.helpers.LegacyAbstractLogger",
+    "org.slf4j.helpers.NOP_FallbackServiceProvider",
+    "org.slf4j.helpers.NormalizedParameters",
+    "org.slf4j.helpers.SubstituteServiceProvider",
+    "org.slf4j.helpers.ThreadLocalMapOfStacks",
+    "org.slf4j.spi.CallerBoundaryAware",
+    "org.slf4j.spi.DefaultLoggingEventBuilder",
+    "org.slf4j.spi.LoggingEventAware",
+    "org.slf4j.spi.LoggingEventBuilder",
+    "org.slf4j.spi.NOPLoggingEventBuilder",
+    "org.slf4j.spi.SLF4JServiceProvider"
+  ],
+  "old_jar": "jar_cache/org.slf4j_slf4j-api_1.7.36.jar",
+  "new_jar": "jar_cache/org.slf4j_slf4j-api_2.0.3.jar",
   "group_id": "org.slf4j",
   "artifact_id": "slf4j-api",
   "old_version": "1.7.36",
   "new_version": "2.0.3",
-  "project": "recheck"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "recheck"
+  ]
 }

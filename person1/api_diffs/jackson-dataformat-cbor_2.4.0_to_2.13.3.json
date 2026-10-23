@@ -333,13 +333,49 @@
     "new_methods": 196,
     "removed": 2,
     "added": 77,
-    "changed": 1
+    "changed": 1,
+    "removed_classes": 0,
+    "added_classes": 5
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.4.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.13.3.jar",
+  "removed_classes": [],
+  "added_classes": [
+    "com.fasterxml.jackson.dataformat.cbor.CBORFactoryBuilder",
+    "com.fasterxml.jackson.dataformat.cbor.CBORSimpleValue",
+    "com.fasterxml.jackson.dataformat.cbor.CBORWriteContext",
+    "com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper",
+    "com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper$Builder"
+  ],
+  "old_jar": "jar_cache/com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.4.0.jar",
+  "new_jar": "jar_cache/com.fasterxml.jackson.dataformat_jackson-dataformat-cbor_2.13.3.jar",
   "group_id": "com.fasterxml.jackson.dataformat",
   "artifact_id": "jackson-dataformat-cbor",
   "old_version": "2.4.0",
   "new_version": "2.13.3",
-  "project": "avans"
+  "status": "OK",
+  "packaging": "bundle",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.fasterxml.jackson.core:jackson-core"
+      ],
+      "added": [
+        "com.fasterxml.jackson.core:jackson-annotations"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.fasterxml.jackson.core:jackson-databind",
+          "old": "2.4.0",
+          "new": ""
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "avans"
+  ]
 }

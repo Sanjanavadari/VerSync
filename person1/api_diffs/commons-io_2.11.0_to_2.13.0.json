@@ -768,7 +768,7 @@
     },
     {
       "key": "org.apache.commons.io.file.FilesUncheck#readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)",
-      "signature": "<A extends java.nio.file.attribute.BasicFileAttributes> A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
+      "signature": "A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
     },
     {
       "key": "org.apache.commons.io.file.FilesUncheck#readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption...)",
@@ -920,7 +920,7 @@
     },
     {
       "key": "org.apache.commons.io.file.PathUtils#readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)",
-      "signature": "<A extends java.nio.file.attribute.BasicFileAttributes> A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
+      "signature": "A readAttributes(java.nio.file.Path, java.lang.Class<A>, java.nio.file.LinkOption...)"
     },
     {
       "key": "org.apache.commons.io.file.PathUtils#readBasicFileAttributes(java.nio.file.Path, java.nio.file.LinkOption...)",
@@ -1044,47 +1044,47 @@
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#asBaseStream()",
-      "signature": "default java.util.stream.BaseStream<T, B> asBaseStream()"
+      "signature": "java.util.stream.BaseStream<T, B> asBaseStream()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#close()",
-      "signature": "default void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#isParallel()",
-      "signature": "default boolean isParallel()"
+      "signature": "boolean isParallel()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#iterator()",
-      "signature": "default org.apache.commons.io.function.IOIterator<T> iterator()"
+      "signature": "org.apache.commons.io.function.IOIterator<T> iterator()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#onClose(org.apache.commons.io.function.IORunnable)",
-      "signature": "default S onClose(org.apache.commons.io.function.IORunnable)"
+      "signature": "S onClose(org.apache.commons.io.function.IORunnable)"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#parallel()",
-      "signature": "default S parallel()"
+      "signature": "S parallel()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#sequential()",
-      "signature": "default S sequential()"
+      "signature": "S sequential()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#spliterator()",
-      "signature": "default org.apache.commons.io.function.IOSpliterator<T> spliterator()"
+      "signature": "org.apache.commons.io.function.IOSpliterator<T> spliterator()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#unordered()",
-      "signature": "default S unordered()"
+      "signature": "S unordered()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#unwrap()",
-      "signature": "abstract B unwrap()"
+      "signature": "B unwrap()"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStream#wrap(B)",
-      "signature": "abstract S wrap(B)"
+      "signature": "S wrap(B)"
     },
     {
       "key": "org.apache.commons.io.function.IOBaseStreamAdapter#unwrap()",
@@ -1092,111 +1092,111 @@
     },
     {
       "key": "org.apache.commons.io.function.IOBiConsumer#accept(T, U)",
-      "signature": "abstract void accept(T, U)"
+      "signature": "void accept(T, U)"
     },
     {
       "key": "org.apache.commons.io.function.IOBiConsumer#andThen(org.apache.commons.io.function.IOBiConsumer<? super T, ? super U>)",
-      "signature": "default org.apache.commons.io.function.IOBiConsumer<T, U> andThen(org.apache.commons.io.function.IOBiConsumer<? super T, ? super U>)"
+      "signature": "org.apache.commons.io.function.IOBiConsumer<T, U> andThen(org.apache.commons.io.function.IOBiConsumer<? super T, ? super U>)"
     },
     {
       "key": "org.apache.commons.io.function.IOBiConsumer#asBiConsumer()",
-      "signature": "default java.util.function.BiConsumer<T, U> asBiConsumer()"
+      "signature": "java.util.function.BiConsumer<T, U> asBiConsumer()"
     },
     {
       "key": "org.apache.commons.io.function.IOBiConsumer#noop()",
-      "signature": "<T, U> org.apache.commons.io.function.IOBiConsumer<T, U> noop()"
+      "signature": "org.apache.commons.io.function.IOBiConsumer<T, U> noop()"
     },
     {
       "key": "org.apache.commons.io.function.IOBiFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends V>)",
-      "signature": "default <V> org.apache.commons.io.function.IOBiFunction<T, U, V> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends V>)"
+      "signature": "org.apache.commons.io.function.IOBiFunction<T, U, V> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends V>)"
     },
     {
       "key": "org.apache.commons.io.function.IOBiFunction#apply(T, U)",
-      "signature": "abstract R apply(T, U)"
+      "signature": "R apply(T, U)"
     },
     {
       "key": "org.apache.commons.io.function.IOBiFunction#asBiFunction()",
-      "signature": "default java.util.function.BiFunction<T, U, R> asBiFunction()"
+      "signature": "java.util.function.BiFunction<T, U, R> asBiFunction()"
     },
     {
       "key": "org.apache.commons.io.function.IOBinaryOperator#asBinaryOperator()",
-      "signature": "default java.util.function.BinaryOperator<T> asBinaryOperator()"
+      "signature": "java.util.function.BinaryOperator<T> asBinaryOperator()"
     },
     {
       "key": "org.apache.commons.io.function.IOBinaryOperator#maxBy(org.apache.commons.io.function.IOComparator<? super T>)",
-      "signature": "<T> org.apache.commons.io.function.IOBinaryOperator<T> maxBy(org.apache.commons.io.function.IOComparator<? super T>)"
+      "signature": "org.apache.commons.io.function.IOBinaryOperator<T> maxBy(org.apache.commons.io.function.IOComparator<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOBinaryOperator#minBy(org.apache.commons.io.function.IOComparator<? super T>)",
-      "signature": "<T> org.apache.commons.io.function.IOBinaryOperator<T> minBy(org.apache.commons.io.function.IOComparator<? super T>)"
+      "signature": "org.apache.commons.io.function.IOBinaryOperator<T> minBy(org.apache.commons.io.function.IOComparator<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOComparator#asComparator()",
-      "signature": "default java.util.Comparator<T> asComparator()"
+      "signature": "java.util.Comparator<T> asComparator()"
     },
     {
       "key": "org.apache.commons.io.function.IOComparator#compare(T, T)",
-      "signature": "abstract int compare(T, T)"
+      "signature": "int compare(T, T)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#asConsumer()",
-      "signature": "default java.util.function.Consumer<T> asConsumer()"
+      "signature": "java.util.function.Consumer<T> asConsumer()"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, T...)",
-      "signature": "<T> void forAll(org.apache.commons.io.function.IOConsumer<T>, T...)"
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, T...)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, java.lang.Iterable<T>)",
-      "signature": "<T> void forAll(org.apache.commons.io.function.IOConsumer<T>, java.lang.Iterable<T>)"
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.lang.Iterable<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.stream.Stream<T>)",
-      "signature": "<T> void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.stream.Stream<T>)"
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.stream.Stream<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forEach(T[], org.apache.commons.io.function.IOConsumer<T>)",
-      "signature": "<T> void forEach(T[], org.apache.commons.io.function.IOConsumer<T>)"
+      "signature": "void forEach(T[], org.apache.commons.io.function.IOConsumer<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forEach(java.lang.Iterable<T>, org.apache.commons.io.function.IOConsumer<T>)",
-      "signature": "<T> void forEach(java.lang.Iterable<T>, org.apache.commons.io.function.IOConsumer<T>)"
+      "signature": "void forEach(java.lang.Iterable<T>, org.apache.commons.io.function.IOConsumer<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOConsumer#forEach(java.util.stream.Stream<T>, org.apache.commons.io.function.IOConsumer<T>)",
-      "signature": "<T> void forEach(java.util.stream.Stream<T>, org.apache.commons.io.function.IOConsumer<T>)"
+      "signature": "void forEach(java.util.stream.Stream<T>, org.apache.commons.io.function.IOConsumer<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOFunction#asFunction()",
-      "signature": "default java.util.function.Function<T, R> asFunction()"
+      "signature": "java.util.function.Function<T, R> asFunction()"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#adapt(java.util.Iterator<E>)",
-      "signature": "<E> org.apache.commons.io.function.IOIterator<E> adapt(java.util.Iterator<E>)"
+      "signature": "org.apache.commons.io.function.IOIterator<E> adapt(java.util.Iterator<E>)"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#asIterator()",
-      "signature": "default java.util.Iterator<E> asIterator()"
+      "signature": "java.util.Iterator<E> asIterator()"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#forEachRemaining(org.apache.commons.io.function.IOConsumer<? super E>)",
-      "signature": "default void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super E>)"
+      "signature": "void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super E>)"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#hasNext()",
-      "signature": "abstract boolean hasNext()"
+      "signature": "boolean hasNext()"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#next()",
-      "signature": "abstract E next()"
+      "signature": "E next()"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#remove()",
-      "signature": "default void remove()"
+      "signature": "void remove()"
     },
     {
       "key": "org.apache.commons.io.function.IOIterator#unwrap()",
-      "signature": "abstract java.util.Iterator<E> unwrap()"
+      "signature": "java.util.Iterator<E> unwrap()"
     },
     {
       "key": "org.apache.commons.io.function.IOIteratorAdapter#hasNext()",
@@ -1212,95 +1212,95 @@
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#alwaysFalse()",
-      "signature": "<T> org.apache.commons.io.function.IOPredicate<T> alwaysFalse()"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> alwaysFalse()"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#alwaysTrue()",
-      "signature": "<T> org.apache.commons.io.function.IOPredicate<T> alwaysTrue()"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> alwaysTrue()"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#and(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default org.apache.commons.io.function.IOPredicate<T> and(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> and(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#asPredicate()",
-      "signature": "default java.util.function.Predicate<T> asPredicate()"
+      "signature": "java.util.function.Predicate<T> asPredicate()"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#isEqual(java.lang.Object)",
-      "signature": "<T> org.apache.commons.io.function.IOPredicate<T> isEqual(java.lang.Object)"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> isEqual(java.lang.Object)"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#negate()",
-      "signature": "default org.apache.commons.io.function.IOPredicate<T> negate()"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> negate()"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#or(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default org.apache.commons.io.function.IOPredicate<T> or(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "org.apache.commons.io.function.IOPredicate<T> or(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOPredicate#test(T)",
-      "signature": "abstract boolean test(T)"
+      "signature": "boolean test(T)"
     },
     {
       "key": "org.apache.commons.io.function.IOQuadFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends X>)",
-      "signature": "default <X> org.apache.commons.io.function.IOQuadFunction<T, U, V, W, X> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends X>)"
+      "signature": "org.apache.commons.io.function.IOQuadFunction<T, U, V, W, X> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends X>)"
     },
     {
       "key": "org.apache.commons.io.function.IOQuadFunction#apply(T, U, V, W)",
-      "signature": "abstract R apply(T, U, V, W)"
+      "signature": "R apply(T, U, V, W)"
     },
     {
       "key": "org.apache.commons.io.function.IORunnable#asRunnable()",
-      "signature": "default java.lang.Runnable asRunnable()"
+      "signature": "java.lang.Runnable asRunnable()"
     },
     {
       "key": "org.apache.commons.io.function.IORunnable#run()",
-      "signature": "abstract void run()"
+      "signature": "void run()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#adapt(java.util.Spliterator<E>)",
-      "signature": "<E> org.apache.commons.io.function.IOSpliterator<E> adapt(java.util.Spliterator<E>)"
+      "signature": "org.apache.commons.io.function.IOSpliterator<E> adapt(java.util.Spliterator<E>)"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#asSpliterator()",
-      "signature": "default java.util.Spliterator<T> asSpliterator()"
+      "signature": "java.util.Spliterator<T> asSpliterator()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#characteristics()",
-      "signature": "default int characteristics()"
+      "signature": "int characteristics()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#estimateSize()",
-      "signature": "default long estimateSize()"
+      "signature": "long estimateSize()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#forEachRemaining(org.apache.commons.io.function.IOConsumer<? super T>)",
-      "signature": "default void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super T>)"
+      "signature": "void forEachRemaining(org.apache.commons.io.function.IOConsumer<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#getComparator()",
-      "signature": "default org.apache.commons.io.function.IOComparator<? super T> getComparator()"
+      "signature": "org.apache.commons.io.function.IOComparator<? super T> getComparator()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#getExactSizeIfKnown()",
-      "signature": "default long getExactSizeIfKnown()"
+      "signature": "long getExactSizeIfKnown()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#hasCharacteristics(int)",
-      "signature": "default boolean hasCharacteristics(int)"
+      "signature": "boolean hasCharacteristics(int)"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#tryAdvance(org.apache.commons.io.function.IOConsumer<? super T>)",
-      "signature": "default boolean tryAdvance(org.apache.commons.io.function.IOConsumer<? super T>)"
+      "signature": "boolean tryAdvance(org.apache.commons.io.function.IOConsumer<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#trySplit()",
-      "signature": "default org.apache.commons.io.function.IOSpliterator<T> trySplit()"
+      "signature": "org.apache.commons.io.function.IOSpliterator<T> trySplit()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliterator#unwrap()",
-      "signature": "abstract java.util.Spliterator<T> unwrap()"
+      "signature": "java.util.Spliterator<T> unwrap()"
     },
     {
       "key": "org.apache.commons.io.function.IOSpliteratorAdapter#unwrap()",
@@ -1308,163 +1308,163 @@
     },
     {
       "key": "org.apache.commons.io.function.IOStream#adapt(java.util.stream.Stream<T>)",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> adapt(java.util.stream.Stream<T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> adapt(java.util.stream.Stream<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#allMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default boolean allMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "boolean allMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#anyMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default boolean anyMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "boolean anyMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#collect(java.util.stream.Collector<? super T, A, R>)",
-      "signature": "default <R, A> R collect(java.util.stream.Collector<? super T, A, R>)"
+      "signature": "R collect(java.util.stream.Collector<? super T, A, R>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#collect(org.apache.commons.io.function.IOSupplier<R>, org.apache.commons.io.function.IOBiConsumer<R, ? super T>, org.apache.commons.io.function.IOBiConsumer<R, R>)",
-      "signature": "default <R> R collect(org.apache.commons.io.function.IOSupplier<R>, org.apache.commons.io.function.IOBiConsumer<R, ? super T>, org.apache.commons.io.function.IOBiConsumer<R, R>)"
+      "signature": "R collect(org.apache.commons.io.function.IOSupplier<R>, org.apache.commons.io.function.IOBiConsumer<R, ? super T>, org.apache.commons.io.function.IOBiConsumer<R, R>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#count()",
-      "signature": "default long count()"
+      "signature": "long count()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#distinct()",
-      "signature": "default org.apache.commons.io.function.IOStream<T> distinct()"
+      "signature": "org.apache.commons.io.function.IOStream<T> distinct()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#empty()",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> empty()"
+      "signature": "org.apache.commons.io.function.IOStream<T> empty()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#filter(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default org.apache.commons.io.function.IOStream<T> filter(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> filter(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#findAny()",
-      "signature": "default java.util.Optional<T> findAny()"
+      "signature": "java.util.Optional<T> findAny()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#findFirst()",
-      "signature": "default java.util.Optional<T> findFirst()"
+      "signature": "java.util.Optional<T> findFirst()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#flatMap(org.apache.commons.io.function.IOFunction<? super T, ? extends org.apache.commons.io.function.IOStream<? extends R>>)",
-      "signature": "default <R> org.apache.commons.io.function.IOStream<R> flatMap(org.apache.commons.io.function.IOFunction<? super T, ? extends org.apache.commons.io.function.IOStream<? extends R>>)"
+      "signature": "org.apache.commons.io.function.IOStream<R> flatMap(org.apache.commons.io.function.IOFunction<? super T, ? extends org.apache.commons.io.function.IOStream<? extends R>>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#flatMapToDouble(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.DoubleStream>)",
-      "signature": "default java.util.stream.DoubleStream flatMapToDouble(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.DoubleStream>)"
+      "signature": "java.util.stream.DoubleStream flatMapToDouble(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.DoubleStream>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#flatMapToInt(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.IntStream>)",
-      "signature": "default java.util.stream.IntStream flatMapToInt(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.IntStream>)"
+      "signature": "java.util.stream.IntStream flatMapToInt(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.IntStream>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#flatMapToLong(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.LongStream>)",
-      "signature": "default java.util.stream.LongStream flatMapToLong(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.LongStream>)"
+      "signature": "java.util.stream.LongStream flatMapToLong(org.apache.commons.io.function.IOFunction<? super T, ? extends java.util.stream.LongStream>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#forAll(org.apache.commons.io.function.IOConsumer<T>)",
-      "signature": "default void forAll(org.apache.commons.io.function.IOConsumer<T>)"
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.function.BiFunction<java.lang.Integer, java.io.IOException, java.io.IOException>)",
-      "signature": "default void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.function.BiFunction<java.lang.Integer, java.io.IOException, java.io.IOException>)"
+      "signature": "void forAll(org.apache.commons.io.function.IOConsumer<T>, java.util.function.BiFunction<java.lang.Integer, java.io.IOException, java.io.IOException>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#forEach(org.apache.commons.io.function.IOConsumer<? super T>)",
-      "signature": "default void forEach(org.apache.commons.io.function.IOConsumer<? super T>)"
+      "signature": "void forEach(org.apache.commons.io.function.IOConsumer<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#forEachOrdered(org.apache.commons.io.function.IOConsumer<? super T>)",
-      "signature": "default void forEachOrdered(org.apache.commons.io.function.IOConsumer<? super T>)"
+      "signature": "void forEachOrdered(org.apache.commons.io.function.IOConsumer<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#iterate(T, org.apache.commons.io.function.IOUnaryOperator<T>)",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> iterate(T, org.apache.commons.io.function.IOUnaryOperator<T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> iterate(T, org.apache.commons.io.function.IOUnaryOperator<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#limit(long)",
-      "signature": "default org.apache.commons.io.function.IOStream<T> limit(long)"
+      "signature": "org.apache.commons.io.function.IOStream<T> limit(long)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#map(org.apache.commons.io.function.IOFunction<? super T, ? extends R>)",
-      "signature": "default <R> org.apache.commons.io.function.IOStream<R> map(org.apache.commons.io.function.IOFunction<? super T, ? extends R>)"
+      "signature": "org.apache.commons.io.function.IOStream<R> map(org.apache.commons.io.function.IOFunction<? super T, ? extends R>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#mapToDouble(java.util.function.ToDoubleFunction<? super T>)",
-      "signature": "default java.util.stream.DoubleStream mapToDouble(java.util.function.ToDoubleFunction<? super T>)"
+      "signature": "java.util.stream.DoubleStream mapToDouble(java.util.function.ToDoubleFunction<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#mapToInt(java.util.function.ToIntFunction<? super T>)",
-      "signature": "default java.util.stream.IntStream mapToInt(java.util.function.ToIntFunction<? super T>)"
+      "signature": "java.util.stream.IntStream mapToInt(java.util.function.ToIntFunction<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#mapToLong(java.util.function.ToLongFunction<? super T>)",
-      "signature": "default java.util.stream.LongStream mapToLong(java.util.function.ToLongFunction<? super T>)"
+      "signature": "java.util.stream.LongStream mapToLong(java.util.function.ToLongFunction<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#max(org.apache.commons.io.function.IOComparator<? super T>)",
-      "signature": "default java.util.Optional<T> max(org.apache.commons.io.function.IOComparator<? super T>)"
+      "signature": "java.util.Optional<T> max(org.apache.commons.io.function.IOComparator<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#min(org.apache.commons.io.function.IOComparator<? super T>)",
-      "signature": "default java.util.Optional<T> min(org.apache.commons.io.function.IOComparator<? super T>)"
+      "signature": "java.util.Optional<T> min(org.apache.commons.io.function.IOComparator<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#noneMatch(org.apache.commons.io.function.IOPredicate<? super T>)",
-      "signature": "default boolean noneMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
+      "signature": "boolean noneMatch(org.apache.commons.io.function.IOPredicate<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#of(T)",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> of(T)"
+      "signature": "org.apache.commons.io.function.IOStream<T> of(T)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#of(T...)",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> of(T...)"
+      "signature": "org.apache.commons.io.function.IOStream<T> of(T...)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#of(java.lang.Iterable<T>)",
-      "signature": "<T> org.apache.commons.io.function.IOStream<T> of(java.lang.Iterable<T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> of(java.lang.Iterable<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#peek(org.apache.commons.io.function.IOConsumer<? super T>)",
-      "signature": "default org.apache.commons.io.function.IOStream<T> peek(org.apache.commons.io.function.IOConsumer<? super T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> peek(org.apache.commons.io.function.IOConsumer<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#reduce(T, org.apache.commons.io.function.IOBinaryOperator<T>)",
-      "signature": "default T reduce(T, org.apache.commons.io.function.IOBinaryOperator<T>)"
+      "signature": "T reduce(T, org.apache.commons.io.function.IOBinaryOperator<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#reduce(U, org.apache.commons.io.function.IOBiFunction<U, ? super T, U>, org.apache.commons.io.function.IOBinaryOperator<U>)",
-      "signature": "default <U> U reduce(U, org.apache.commons.io.function.IOBiFunction<U, ? super T, U>, org.apache.commons.io.function.IOBinaryOperator<U>)"
+      "signature": "U reduce(U, org.apache.commons.io.function.IOBiFunction<U, ? super T, U>, org.apache.commons.io.function.IOBinaryOperator<U>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#reduce(org.apache.commons.io.function.IOBinaryOperator<T>)",
-      "signature": "default java.util.Optional<T> reduce(org.apache.commons.io.function.IOBinaryOperator<T>)"
+      "signature": "java.util.Optional<T> reduce(org.apache.commons.io.function.IOBinaryOperator<T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#skip(long)",
-      "signature": "default org.apache.commons.io.function.IOStream<T> skip(long)"
+      "signature": "org.apache.commons.io.function.IOStream<T> skip(long)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#sorted()",
-      "signature": "default org.apache.commons.io.function.IOStream<T> sorted()"
+      "signature": "org.apache.commons.io.function.IOStream<T> sorted()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#sorted(org.apache.commons.io.function.IOComparator<? super T>)",
-      "signature": "default org.apache.commons.io.function.IOStream<T> sorted(org.apache.commons.io.function.IOComparator<? super T>)"
+      "signature": "org.apache.commons.io.function.IOStream<T> sorted(org.apache.commons.io.function.IOComparator<? super T>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#toArray()",
-      "signature": "default java.lang.Object[] toArray()"
+      "signature": "java.lang.Object[] toArray()"
     },
     {
       "key": "org.apache.commons.io.function.IOStream#toArray(java.util.function.IntFunction<A[]>)",
-      "signature": "default <A> A[] toArray(java.util.function.IntFunction<A[]>)"
+      "signature": "A[] toArray(java.util.function.IntFunction<A[]>)"
     },
     {
       "key": "org.apache.commons.io.function.IOStreamAdapter#wrap(java.util.stream.BaseStream)",
@@ -1476,71 +1476,71 @@
     },
     {
       "key": "org.apache.commons.io.function.IOSupplier#asSupplier()",
-      "signature": "default java.util.function.Supplier<T> asSupplier()"
+      "signature": "java.util.function.Supplier<T> asSupplier()"
     },
     {
       "key": "org.apache.commons.io.function.IOTriConsumer#accept(T, U, V)",
-      "signature": "abstract void accept(T, U, V)"
+      "signature": "void accept(T, U, V)"
     },
     {
       "key": "org.apache.commons.io.function.IOTriConsumer#andThen(org.apache.commons.io.function.IOTriConsumer<? super T, ? super U, ? super V>)",
-      "signature": "default org.apache.commons.io.function.IOTriConsumer<T, U, V> andThen(org.apache.commons.io.function.IOTriConsumer<? super T, ? super U, ? super V>)"
+      "signature": "org.apache.commons.io.function.IOTriConsumer<T, U, V> andThen(org.apache.commons.io.function.IOTriConsumer<? super T, ? super U, ? super V>)"
     },
     {
       "key": "org.apache.commons.io.function.IOTriConsumer#noop()",
-      "signature": "<T, U, V> org.apache.commons.io.function.IOTriConsumer<T, U, V> noop()"
+      "signature": "org.apache.commons.io.function.IOTriConsumer<T, U, V> noop()"
     },
     {
       "key": "org.apache.commons.io.function.IOTriFunction#andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends W>)",
-      "signature": "default <W> org.apache.commons.io.function.IOTriFunction<T, U, V, W> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends W>)"
+      "signature": "org.apache.commons.io.function.IOTriFunction<T, U, V, W> andThen(org.apache.commons.io.function.IOFunction<? super R, ? extends W>)"
     },
     {
       "key": "org.apache.commons.io.function.IOTriFunction#apply(T, U, V)",
-      "signature": "abstract R apply(T, U, V)"
+      "signature": "R apply(T, U, V)"
     },
     {
       "key": "org.apache.commons.io.function.IOUnaryOperator#asUnaryOperator()",
-      "signature": "default java.util.function.UnaryOperator<T> asUnaryOperator()"
+      "signature": "java.util.function.UnaryOperator<T> asUnaryOperator()"
     },
     {
       "key": "org.apache.commons.io.function.IOUnaryOperator#identity()",
-      "signature": "<T> org.apache.commons.io.function.IOUnaryOperator<T> identity()"
+      "signature": "org.apache.commons.io.function.IOUnaryOperator<T> identity()"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOBiConsumer<T, U>, T, U)",
-      "signature": "<T, U> void accept(org.apache.commons.io.function.IOBiConsumer<T, U>, T, U)"
+      "signature": "void accept(org.apache.commons.io.function.IOBiConsumer<T, U>, T, U)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOConsumer<T>, T)",
-      "signature": "<T> void accept(org.apache.commons.io.function.IOConsumer<T>, T)"
+      "signature": "void accept(org.apache.commons.io.function.IOConsumer<T>, T)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#accept(org.apache.commons.io.function.IOTriConsumer<T, U, V>, T, U, V)",
-      "signature": "<T, U, V> void accept(org.apache.commons.io.function.IOTriConsumer<T, U, V>, T, U, V)"
+      "signature": "void accept(org.apache.commons.io.function.IOTriConsumer<T, U, V>, T, U, V)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOBiFunction<T, U, R>, T, U)",
-      "signature": "<T, U, R> R apply(org.apache.commons.io.function.IOBiFunction<T, U, R>, T, U)"
+      "signature": "R apply(org.apache.commons.io.function.IOBiFunction<T, U, R>, T, U)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOFunction<T, R>, T)",
-      "signature": "<T, R> R apply(org.apache.commons.io.function.IOFunction<T, R>, T)"
+      "signature": "R apply(org.apache.commons.io.function.IOFunction<T, R>, T)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOQuadFunction<T, U, V, W, R>, T, U, V, W)",
-      "signature": "<T, U, V, W, R> R apply(org.apache.commons.io.function.IOQuadFunction<T, U, V, W, R>, T, U, V, W)"
+      "signature": "R apply(org.apache.commons.io.function.IOQuadFunction<T, U, V, W, R>, T, U, V, W)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#apply(org.apache.commons.io.function.IOTriFunction<T, U, V, R>, T, U, V)",
-      "signature": "<T, U, V, R> R apply(org.apache.commons.io.function.IOTriFunction<T, U, V, R>, T, U, V)"
+      "signature": "R apply(org.apache.commons.io.function.IOTriFunction<T, U, V, R>, T, U, V)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#compare(org.apache.commons.io.function.IOComparator<T>, T, T)",
-      "signature": "<T> int compare(org.apache.commons.io.function.IOComparator<T>, T, T)"
+      "signature": "int compare(org.apache.commons.io.function.IOComparator<T>, T, T)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#get(org.apache.commons.io.function.IOSupplier<T>)",
-      "signature": "<T> T get(org.apache.commons.io.function.IOSupplier<T>)"
+      "signature": "T get(org.apache.commons.io.function.IOSupplier<T>)"
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#run(org.apache.commons.io.function.IORunnable)",
@@ -1548,7 +1548,7 @@
     },
     {
       "key": "org.apache.commons.io.function.Uncheck#test(org.apache.commons.io.function.IOPredicate<T>, T)",
-      "signature": "<T> boolean test(org.apache.commons.io.function.IOPredicate<T>, T)"
+      "signature": "boolean test(org.apache.commons.io.function.IOPredicate<T>, T)"
     },
     {
       "key": "org.apache.commons.io.function.UncheckedIOBaseStream#close()",
@@ -1648,7 +1648,7 @@
     },
     {
       "key": "org.apache.commons.io.input.ByteBufferCleaner$Cleaner#clean(java.nio.ByteBuffer)",
-      "signature": "abstract void clean(java.nio.ByteBuffer)"
+      "signature": "void clean(java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.commons.io.input.ByteBufferCleaner$Java8Cleaner#clean(java.nio.ByteBuffer)",
@@ -1756,27 +1756,27 @@
     },
     {
       "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#getPointer()",
-      "signature": "abstract long getPointer()"
+      "signature": "long getPointer()"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#read(byte[])",
-      "signature": "abstract int read(byte[])"
+      "signature": "int read(byte[])"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge#seek(long)",
-      "signature": "abstract void seek(long)"
+      "signature": "void seek(long)"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$Tailable#isNewer(java.nio.file.attribute.FileTime)",
-      "signature": "abstract boolean isNewer(java.nio.file.attribute.FileTime)"
+      "signature": "boolean isNewer(java.nio.file.attribute.FileTime)"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$Tailable#lastModifiedFileTime()",
-      "signature": "abstract java.nio.file.attribute.FileTime lastModifiedFileTime()"
+      "signature": "java.nio.file.attribute.FileTime lastModifiedFileTime()"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$Tailable#size()",
-      "signature": "abstract long size()"
+      "signature": "long size()"
     },
     {
       "key": "org.apache.commons.io.input.Tailer$TailablePath#isNewer(java.nio.file.attribute.FileTime)",
@@ -2052,15 +2052,15 @@
     },
     {
       "key": "org.apache.commons.io.output.UncheckedAppendable#append(char)",
-      "signature": "default java.lang.Appendable append(char)"
+      "signature": "java.lang.Appendable append(char)"
     },
     {
       "key": "org.apache.commons.io.output.UncheckedAppendable#append(java.lang.CharSequence)",
-      "signature": "default java.lang.Appendable append(java.lang.CharSequence)"
+      "signature": "java.lang.Appendable append(java.lang.CharSequence)"
     },
     {
       "key": "org.apache.commons.io.output.UncheckedAppendable#append(java.lang.CharSequence, int, int)",
-      "signature": "default java.lang.Appendable append(java.lang.CharSequence, int, int)"
+      "signature": "java.lang.Appendable append(java.lang.CharSequence, int, int)"
     },
     {
       "key": "org.apache.commons.io.output.UncheckedAppendable#on(java.lang.Appendable)",
@@ -2177,13 +2177,167 @@
     "new_methods": 1801,
     "removed": 8,
     "added": 534,
-    "changed": 0
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 110
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\commons-io_commons-io_2.11.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\commons-io_commons-io_2.13.0.jar",
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.commons.io.CloseableURLConnection",
+    "org.apache.commons.io.IO",
+    "org.apache.commons.io.RandomAccessFileMode",
+    "org.apache.commons.io.RandomAccessFiles",
+    "org.apache.commons.io.ThreadUtils",
+    "org.apache.commons.io.UncheckedIOExceptions",
+    "org.apache.commons.io.build.AbstractOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$ByteArrayOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$CharSequenceOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$FileOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$InputStreamOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$OutputStreamOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$PathOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$ReaderOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$URIOrigin",
+    "org.apache.commons.io.build.AbstractOrigin$WriterOrigin",
+    "org.apache.commons.io.build.AbstractOriginSupplier",
+    "org.apache.commons.io.build.AbstractStreamBuilder",
+    "org.apache.commons.io.build.AbstractSupplier",
+    "org.apache.commons.io.build.package",
+    "org.apache.commons.io.charset.CharsetDecoders",
+    "org.apache.commons.io.charset.CharsetEncoders",
+    "org.apache.commons.io.charset.package",
+    "org.apache.commons.io.comparator.package",
+    "org.apache.commons.io.file.FilesUncheck",
+    "org.apache.commons.io.file.attribute.FileTimes",
+    "org.apache.commons.io.file.attribute.package",
+    "org.apache.commons.io.file.package",
+    "org.apache.commons.io.file.spi.package",
+    "org.apache.commons.io.filefilter.WildcardFileFilter$Builder",
+    "org.apache.commons.io.filefilter.package",
+    "org.apache.commons.io.function.Constants",
+    "org.apache.commons.io.function.Erase",
+    "org.apache.commons.io.function.IOBaseStream",
+    "org.apache.commons.io.function.IOBaseStreamAdapter",
+    "org.apache.commons.io.function.IOBiConsumer",
+    "org.apache.commons.io.function.IOBiFunction",
+    "org.apache.commons.io.function.IOBinaryOperator",
+    "org.apache.commons.io.function.IOComparator",
+    "org.apache.commons.io.function.IOIterator",
+    "org.apache.commons.io.function.IOIteratorAdapter",
+    "org.apache.commons.io.function.IOPredicate",
+    "org.apache.commons.io.function.IOQuadFunction",
+    "org.apache.commons.io.function.IORunnable",
+    "org.apache.commons.io.function.IOSpliterator",
+    "org.apache.commons.io.function.IOSpliteratorAdapter",
+    "org.apache.commons.io.function.IOStream",
+    "org.apache.commons.io.function.IOStreamAdapter",
+    "org.apache.commons.io.function.IOStreams",
+    "org.apache.commons.io.function.IOTriConsumer",
+    "org.apache.commons.io.function.IOTriFunction",
+    "org.apache.commons.io.function.IOUnaryOperator",
+    "org.apache.commons.io.function.Uncheck",
+    "org.apache.commons.io.function.UncheckedIOBaseStream",
+    "org.apache.commons.io.function.UncheckedIOIterator",
+    "org.apache.commons.io.function.UncheckedIOSpliterator",
+    "org.apache.commons.io.function.package",
+    "org.apache.commons.io.input.AutoCloseInputStream$Builder",
+    "org.apache.commons.io.input.BOMInputStream$Builder",
+    "org.apache.commons.io.input.BufferedFileChannelInputStream$Builder",
+    "org.apache.commons.io.input.ByteBufferCleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Cleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Java8Cleaner",
+    "org.apache.commons.io.input.ByteBufferCleaner$Java9Cleaner",
+    "org.apache.commons.io.input.CharSequenceInputStream$Builder",
+    "org.apache.commons.io.input.MemoryMappedFileInputStream",
+    "org.apache.commons.io.input.MemoryMappedFileInputStream$Builder",
+    "org.apache.commons.io.input.MessageDigestCalculatingInputStream$Builder",
+    "org.apache.commons.io.input.QueueInputStream$Builder",
+    "org.apache.commons.io.input.RandomAccessFileInputStream$Builder",
+    "org.apache.commons.io.input.ReadAheadInputStream$Builder",
+    "org.apache.commons.io.input.ReaderInputStream$Builder",
+    "org.apache.commons.io.input.ReversedLinesFileReader$Builder",
+    "org.apache.commons.io.input.Tailer$Builder",
+    "org.apache.commons.io.input.Tailer$RandomAccessFileBridge",
+    "org.apache.commons.io.input.Tailer$RandomAccessResourceBridge",
+    "org.apache.commons.io.input.Tailer$Tailable",
+    "org.apache.commons.io.input.Tailer$TailablePath",
+    "org.apache.commons.io.input.UncheckedBufferedReader",
+    "org.apache.commons.io.input.UncheckedBufferedReader$Builder",
+    "org.apache.commons.io.input.UncheckedFilterInputStream",
+    "org.apache.commons.io.input.UncheckedFilterInputStream$Builder",
+    "org.apache.commons.io.input.UncheckedFilterReader",
+    "org.apache.commons.io.input.UncheckedFilterReader$Builder",
+    "org.apache.commons.io.input.UnsynchronizedBufferedInputStream",
+    "org.apache.commons.io.input.UnsynchronizedBufferedInputStream$Builder",
+    "org.apache.commons.io.input.UnsynchronizedByteArrayInputStream$Builder",
+    "org.apache.commons.io.input.UnsynchronizedFilterInputStream",
+    "org.apache.commons.io.input.UnsynchronizedFilterInputStream$Builder",
+    "org.apache.commons.io.input.XmlStreamReader$Builder",
+    "org.apache.commons.io.input.buffer.package",
+    "org.apache.commons.io.input.package",
+    "org.apache.commons.io.monitor.SerializableFileTime",
+    "org.apache.commons.io.monitor.package",
+    "org.apache.commons.io.output.ChunkedOutputStream$Builder",
+    "org.apache.commons.io.output.DeferredFileOutputStream$Builder",
+    "org.apache.commons.io.output.FileWriterWithEncoding$Builder",
+    "org.apache.commons.io.output.LockableFileWriter$Builder",
+    "org.apache.commons.io.output.UncheckedAppendable",
+    "org.apache.commons.io.output.UncheckedAppendableImpl",
+    "org.apache.commons.io.output.UncheckedFilterOutputStream",
+    "org.apache.commons.io.output.UncheckedFilterOutputStream$Builder",
+    "org.apache.commons.io.output.UncheckedFilterWriter",
+    "org.apache.commons.io.output.UncheckedFilterWriter$Builder",
+    "org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream$Builder",
+    "org.apache.commons.io.output.WriterOutputStream$Builder",
+    "org.apache.commons.io.output.XmlStreamWriter$Builder",
+    "org.apache.commons.io.output.package",
+    "org.apache.commons.io.package",
+    "org.apache.commons.io.serialization.package"
+  ],
+  "old_jar": "jar_cache/commons-io_commons-io_2.11.0.jar",
+  "new_jar": "jar_cache/commons-io_commons-io_2.13.0.jar",
   "group_id": "commons-io",
   "artifact_id": "commons-io",
   "old_version": "2.11.0",
   "new_version": "2.13.0",
-  "project": "jcabi-maven-plugin"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.junit-pioneer:junit-pioneer",
+          "old": "1.4.2",
+          "new": "1.9.1"
+        },
+        {
+          "dependency": "org.mockito:mockito-inline",
+          "old": "3.11.2",
+          "new": "4.11.0"
+        },
+        {
+          "dependency": "org.openjdk.jmh:jmh-core",
+          "old": "1.32",
+          "new": "1.36"
+        },
+        {
+          "dependency": "org.openjdk.jmh:jmh-generator-annprocess",
+          "old": "1.32",
+          "new": "1.36"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [
+        "org.junit:junit-bom"
+      ],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jcabi-maven-plugin"
+  ]
 }

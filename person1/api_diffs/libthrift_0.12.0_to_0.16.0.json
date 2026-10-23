@@ -134,11 +134,11 @@
     },
     {
       "key": "org.apache.thrift.transport.TNonblockingTransport#read(java.nio.ByteBuffer)",
-      "signature": "abstract int read(java.nio.ByteBuffer)"
+      "signature": "int read(java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.transport.TNonblockingTransport#write(java.nio.ByteBuffer)",
-      "signature": "abstract int write(java.nio.ByteBuffer)"
+      "signature": "int write(java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.transport.TSaslTransport$NegotiationStatus#getValue()",
@@ -236,111 +236,111 @@
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#createNewList(int)",
-      "signature": "abstract java.lang.Object createNewList(int)"
+      "signature": "java.lang.Object createNewList(int)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#createNewMap(int)",
-      "signature": "abstract java.lang.Object createNewMap(int)"
+      "signature": "java.lang.Object createNewMap(int)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#createNewSet(int)",
-      "signature": "abstract java.lang.Object createNewSet(int)"
+      "signature": "java.lang.Object createNewSet(int)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#createNewStruct(org.apache.thrift.partial.ThriftMetadata$ThriftStruct)",
-      "signature": "abstract java.lang.Object createNewStruct(org.apache.thrift.partial.ThriftMetadata$ThriftStruct)"
+      "signature": "java.lang.Object createNewStruct(org.apache.thrift.partial.ThriftMetadata$ThriftStruct)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareBinary(java.nio.ByteBuffer)",
-      "signature": "abstract java.lang.Object prepareBinary(java.nio.ByteBuffer)"
+      "signature": "java.lang.Object prepareBinary(java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareEnum(java.lang.Class<? extends org.apache.thrift.TEnum>, int)",
-      "signature": "abstract java.lang.Object prepareEnum(java.lang.Class<? extends org.apache.thrift.TEnum>, int)"
+      "signature": "java.lang.Object prepareEnum(java.lang.Class<? extends org.apache.thrift.TEnum>, int)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareList(java.lang.Object)",
-      "signature": "abstract java.lang.Object prepareList(java.lang.Object)"
+      "signature": "java.lang.Object prepareList(java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareMap(java.lang.Object)",
-      "signature": "abstract java.lang.Object prepareMap(java.lang.Object)"
+      "signature": "java.lang.Object prepareMap(java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareSet(java.lang.Object)",
-      "signature": "abstract java.lang.Object prepareSet(java.lang.Object)"
+      "signature": "java.lang.Object prepareSet(java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareString(java.nio.ByteBuffer)",
-      "signature": "abstract java.lang.Object prepareString(java.nio.ByteBuffer)"
+      "signature": "java.lang.Object prepareString(java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#prepareStruct(java.lang.Object)",
-      "signature": "abstract V prepareStruct(java.lang.Object)"
+      "signature": "V prepareStruct(java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setBinary(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)",
-      "signature": "abstract void setBinary(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)"
+      "signature": "void setBinary(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setBool(V, org.apache.thrift.TFieldIdEnum, boolean)",
-      "signature": "abstract void setBool(V, org.apache.thrift.TFieldIdEnum, boolean)"
+      "signature": "void setBool(V, org.apache.thrift.TFieldIdEnum, boolean)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setByte(V, org.apache.thrift.TFieldIdEnum, byte)",
-      "signature": "abstract void setByte(V, org.apache.thrift.TFieldIdEnum, byte)"
+      "signature": "void setByte(V, org.apache.thrift.TFieldIdEnum, byte)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setDouble(V, org.apache.thrift.TFieldIdEnum, double)",
-      "signature": "abstract void setDouble(V, org.apache.thrift.TFieldIdEnum, double)"
+      "signature": "void setDouble(V, org.apache.thrift.TFieldIdEnum, double)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setEnumField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)",
-      "signature": "abstract void setEnumField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
+      "signature": "void setEnumField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setInt16(V, org.apache.thrift.TFieldIdEnum, short)",
-      "signature": "abstract void setInt16(V, org.apache.thrift.TFieldIdEnum, short)"
+      "signature": "void setInt16(V, org.apache.thrift.TFieldIdEnum, short)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setInt32(V, org.apache.thrift.TFieldIdEnum, int)",
-      "signature": "abstract void setInt32(V, org.apache.thrift.TFieldIdEnum, int)"
+      "signature": "void setInt32(V, org.apache.thrift.TFieldIdEnum, int)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setInt64(V, org.apache.thrift.TFieldIdEnum, long)",
-      "signature": "abstract void setInt64(V, org.apache.thrift.TFieldIdEnum, long)"
+      "signature": "void setInt64(V, org.apache.thrift.TFieldIdEnum, long)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setListElement(java.lang.Object, int, java.lang.Object)",
-      "signature": "abstract void setListElement(java.lang.Object, int, java.lang.Object)"
+      "signature": "void setListElement(java.lang.Object, int, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setListField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)",
-      "signature": "abstract void setListField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
+      "signature": "void setListField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setMapElement(java.lang.Object, int, java.lang.Object, java.lang.Object)",
-      "signature": "abstract void setMapElement(java.lang.Object, int, java.lang.Object, java.lang.Object)"
+      "signature": "void setMapElement(java.lang.Object, int, java.lang.Object, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setMapField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)",
-      "signature": "abstract void setMapField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
+      "signature": "void setMapField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setSetElement(java.lang.Object, int, java.lang.Object)",
-      "signature": "abstract void setSetElement(java.lang.Object, int, java.lang.Object)"
+      "signature": "void setSetElement(java.lang.Object, int, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setSetField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)",
-      "signature": "abstract void setSetField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
+      "signature": "void setSetField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setString(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)",
-      "signature": "abstract void setString(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)"
+      "signature": "void setString(V, org.apache.thrift.TFieldIdEnum, java.nio.ByteBuffer)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftFieldValueProcessor#setStructField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)",
-      "signature": "abstract void setStructField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
+      "signature": "void setStructField(V, org.apache.thrift.TFieldIdEnum, java.lang.Object)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$FieldTypeEnum#getFieldName()",
@@ -352,7 +352,7 @@
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftContainer#hasUnion()",
-      "signature": "abstract boolean hasUnion()"
+      "signature": "boolean hasUnion()"
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftList#hasUnion()",
@@ -372,7 +372,7 @@
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftStruct#createNewStruct()",
-      "signature": "<T extends org.apache.thrift.TBase> T createNewStruct()"
+      "signature": "T createNewStruct()"
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftStruct#toString()",
@@ -384,7 +384,7 @@
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftStructBase#getStructClass(org.apache.thrift.meta_data.FieldMetaData)",
-      "signature": "<U extends org.apache.thrift.TBase> java.lang.Class<U> getStructClass(org.apache.thrift.meta_data.FieldMetaData)"
+      "signature": "java.lang.Class<U> getStructClass(org.apache.thrift.meta_data.FieldMetaData)"
     },
     {
       "key": "org.apache.thrift.partial.ThriftMetadata$ThriftStructBase#isUnion()",
@@ -584,7 +584,7 @@
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkNotNullAndNotEmpty(T[], java.lang.String)",
-      "signature": "<T> void checkNotNullAndNotEmpty(T[], java.lang.String)"
+      "signature": "void checkNotNullAndNotEmpty(T[], java.lang.String)"
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkNotNullAndNotEmpty(byte[], java.lang.String)",
@@ -596,7 +596,7 @@
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkNotNullAndNotEmpty(java.lang.Iterable<T>, java.lang.String)",
-      "signature": "<T> void checkNotNullAndNotEmpty(java.lang.Iterable<T>, java.lang.String)"
+      "signature": "void checkNotNullAndNotEmpty(java.lang.Iterable<T>, java.lang.String)"
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkNotNullAndNotEmpty(java.lang.String, java.lang.String)",
@@ -612,7 +612,7 @@
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkNotNullAndNumberOfElements(java.util.Collection<T>, int, java.lang.String)",
-      "signature": "<T> void checkNotNullAndNumberOfElements(java.util.Collection<T>, int, java.lang.String)"
+      "signature": "void checkNotNullAndNumberOfElements(java.util.Collection<T>, int, java.lang.String)"
     },
     {
       "key": "org.apache.thrift.partial.Validate#checkPathExists(java.nio.file.Path, java.lang.String)",
@@ -692,7 +692,7 @@
     },
     {
       "key": "org.apache.thrift.protocol.TProtocol#getMinSerializedSize(byte)",
-      "signature": "abstract int getMinSerializedSize(byte)"
+      "signature": "int getMinSerializedSize(byte)"
     },
     {
       "key": "org.apache.thrift.protocol.TProtocol#readFieldBeginData()",
@@ -740,11 +740,11 @@
     },
     {
       "key": "org.apache.thrift.server.ServerContext#isWrapperFor(java.lang.Class<?>)",
-      "signature": "abstract boolean isWrapperFor(java.lang.Class<?>)"
+      "signature": "boolean isWrapperFor(java.lang.Class<?>)"
     },
     {
       "key": "org.apache.thrift.server.ServerContext#unwrap(java.lang.Class<T>)",
-      "signature": "abstract <T> T unwrap(java.lang.Class<T>)"
+      "signature": "T unwrap(java.lang.Class<T>)"
     },
     {
       "key": "org.apache.thrift.server.TSaslNonblockingServer#serve()",
@@ -848,11 +848,11 @@
     },
     {
       "key": "org.apache.thrift.transport.TTransport#checkReadBytesAvailable(long)",
-      "signature": "abstract void checkReadBytesAvailable(long)"
+      "signature": "void checkReadBytesAvailable(long)"
     },
     {
       "key": "org.apache.thrift.transport.TTransport#getConfiguration()",
-      "signature": "abstract org.apache.thrift.TConfiguration getConfiguration()"
+      "signature": "org.apache.thrift.TConfiguration getConfiguration()"
     },
     {
       "key": "org.apache.thrift.transport.TTransport#read(java.nio.ByteBuffer)",
@@ -860,7 +860,7 @@
     },
     {
       "key": "org.apache.thrift.transport.TTransport#updateKnownMessageSize(long)",
-      "signature": "abstract void updateKnownMessageSize(long)"
+      "signature": "void updateKnownMessageSize(long)"
     },
     {
       "key": "org.apache.thrift.transport.TTransport#write(java.nio.ByteBuffer)",
@@ -1012,23 +1012,23 @@
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameHeaderReader#clear()",
-      "signature": "abstract void clear()"
+      "signature": "void clear()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameHeaderReader#isComplete()",
-      "signature": "abstract boolean isComplete()"
+      "signature": "boolean isComplete()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameHeaderReader#payloadSize()",
-      "signature": "abstract int payloadSize()"
+      "signature": "int payloadSize()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameHeaderReader#read(org.apache.thrift.transport.TTransport)",
-      "signature": "abstract boolean read(org.apache.thrift.transport.TTransport)"
+      "signature": "boolean read(org.apache.thrift.transport.TTransport)"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameHeaderReader#toBytes()",
-      "signature": "abstract byte[] toBytes()"
+      "signature": "byte[] toBytes()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameReader#clear()",
@@ -1080,7 +1080,7 @@
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameWriter#withOnlyPayload(byte[], int, int)",
-      "signature": "abstract void withOnlyPayload(byte[], int, int)"
+      "signature": "void withOnlyPayload(byte[], int, int)"
     },
     {
       "key": "org.apache.thrift.transport.sasl.FrameWriter#write(org.apache.thrift.transport.TNonblockingTransport)",
@@ -1148,35 +1148,35 @@
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#dispose()",
-      "signature": "abstract void dispose()"
+      "signature": "void dispose()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#evaluate(byte[])",
-      "signature": "abstract byte[] evaluate(byte[])"
+      "signature": "byte[] evaluate(byte[])"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#isAuthenticated()",
-      "signature": "abstract boolean isAuthenticated()"
+      "signature": "boolean isAuthenticated()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#isDataProtected()",
-      "signature": "abstract boolean isDataProtected()"
+      "signature": "boolean isDataProtected()"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#unwrap(byte[])",
-      "signature": "default byte[] unwrap(byte[])"
+      "signature": "byte[] unwrap(byte[])"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#unwrap(byte[], int, int)",
-      "signature": "abstract byte[] unwrap(byte[], int, int)"
+      "signature": "byte[] unwrap(byte[], int, int)"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#wrap(byte[])",
-      "signature": "default byte[] wrap(byte[])"
+      "signature": "byte[] wrap(byte[])"
     },
     {
       "key": "org.apache.thrift.transport.sasl.SaslPeer#wrap(byte[], int, int)",
-      "signature": "abstract byte[] wrap(byte[], int, int)"
+      "signature": "byte[] wrap(byte[], int, int)"
     },
     {
       "key": "org.apache.thrift.transport.sasl.ServerSaslPeer#dispose()",
@@ -1216,7 +1216,7 @@
     },
     {
       "key": "org.apache.thrift.transport.sasl.TSaslProcessorFactory#getProcessor(org.apache.thrift.transport.sasl.NonblockingSaslHandler)",
-      "signature": "abstract org.apache.thrift.TProcessor getProcessor(org.apache.thrift.transport.sasl.NonblockingSaslHandler)"
+      "signature": "org.apache.thrift.TProcessor getProcessor(org.apache.thrift.transport.sasl.NonblockingSaslHandler)"
     },
     {
       "key": "org.apache.thrift.transport.sasl.TSaslServerFactory#addSaslMechanism(java.lang.String, java.lang.String, java.lang.String, java.util.Map<java.lang.String, java.lang.String>, javax.security.auth.callback.CallbackHandler)",
@@ -1249,13 +1249,142 @@
     "new_methods": 1034,
     "removed": 36,
     "added": 272,
-    "changed": 1
+    "changed": 1,
+    "removed_classes": 8,
+    "added_classes": 62
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.thrift_libthrift_0.12.0.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.apache.thrift_libthrift_0.16.0.jar",
+  "removed_classes": [
+    "org.apache.thrift.ShortStack",
+    "org.apache.thrift.transport.TFastFramedTransport",
+    "org.apache.thrift.transport.TFastFramedTransport$Factory",
+    "org.apache.thrift.transport.TFramedTransport",
+    "org.apache.thrift.transport.TFramedTransport$Factory",
+    "org.apache.thrift.transport.TSaslServerTransport$TSaslServerDefinition",
+    "org.apache.thrift.transport.TSaslTransport$NegotiationStatus",
+    "org.apache.thrift.transport.TSaslTransportException"
+  ],
+  "added_classes": [
+    "org.apache.thrift.TConfiguration",
+    "org.apache.thrift.TConfiguration$Builder",
+    "org.apache.thrift.partial.EnumCache",
+    "org.apache.thrift.partial.PartialThriftComparer",
+    "org.apache.thrift.partial.PartialThriftComparer$ComparisonResult",
+    "org.apache.thrift.partial.TFieldData",
+    "org.apache.thrift.partial.ThriftField",
+    "org.apache.thrift.partial.ThriftFieldValueProcessor",
+    "org.apache.thrift.partial.ThriftMetadata",
+    "org.apache.thrift.partial.ThriftMetadata$ComparisonResult",
+    "org.apache.thrift.partial.ThriftMetadata$FieldTypeEnum",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftContainer",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftEnum",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftList",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftMap",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftObject",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftObject$Factory",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftPrimitive",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftSet",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftStruct",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftStructBase",
+    "org.apache.thrift.partial.ThriftMetadata$ThriftUnion",
+    "org.apache.thrift.partial.ThriftStructProcessor",
+    "org.apache.thrift.partial.Validate",
+    "org.apache.thrift.protocol.ShortStack",
+    "org.apache.thrift.server.TSaslNonblockingServer",
+    "org.apache.thrift.server.TSaslNonblockingServer$AcceptorThread",
+    "org.apache.thrift.server.TSaslNonblockingServer$Args",
+    "org.apache.thrift.server.TSaslNonblockingServer$NetworkThread",
+    "org.apache.thrift.server.TSaslNonblockingServer$NetworkThread$Computation",
+    "org.apache.thrift.server.TSaslNonblockingServer$NetworkThreadPool",
+    "org.apache.thrift.transport.TEOFException",
+    "org.apache.thrift.transport.TEndpointTransport",
+    "org.apache.thrift.transport.TMemoryTransport",
+    "org.apache.thrift.transport.layered.TFastFramedTransport",
+    "org.apache.thrift.transport.layered.TFastFramedTransport$Factory",
+    "org.apache.thrift.transport.layered.TFramedTransport",
+    "org.apache.thrift.transport.layered.TFramedTransport$Factory",
+    "org.apache.thrift.transport.layered.TLayeredTransport",
+    "org.apache.thrift.transport.sasl.DataFrameHeaderReader",
+    "org.apache.thrift.transport.sasl.DataFrameReader",
+    "org.apache.thrift.transport.sasl.DataFrameWriter",
+    "org.apache.thrift.transport.sasl.FixedSizeHeaderReader",
+    "org.apache.thrift.transport.sasl.FrameHeaderReader",
+    "org.apache.thrift.transport.sasl.FrameReader",
+    "org.apache.thrift.transport.sasl.FrameWriter",
+    "org.apache.thrift.transport.sasl.NegotiationStatus",
+    "org.apache.thrift.transport.sasl.NonblockingSaslHandler",
+    "org.apache.thrift.transport.sasl.NonblockingSaslHandler$Phase",
+    "org.apache.thrift.transport.sasl.SaslNegotiationFrameReader",
+    "org.apache.thrift.transport.sasl.SaslNegotiationFrameWriter",
+    "org.apache.thrift.transport.sasl.SaslNegotiationHeaderReader",
+    "org.apache.thrift.transport.sasl.SaslPeer",
+    "org.apache.thrift.transport.sasl.ServerSaslPeer",
+    "org.apache.thrift.transport.sasl.TBaseSaslProcessorFactory",
+    "org.apache.thrift.transport.sasl.TInvalidSaslFrameException",
+    "org.apache.thrift.transport.sasl.TSaslNegotiationException",
+    "org.apache.thrift.transport.sasl.TSaslNegotiationException$ErrorType",
+    "org.apache.thrift.transport.sasl.TSaslProcessorFactory",
+    "org.apache.thrift.transport.sasl.TSaslServerDefinition",
+    "org.apache.thrift.transport.sasl.TSaslServerFactory",
+    "org.apache.thrift.utils.StringUtils"
+  ],
+  "old_jar": "jar_cache/org.apache.thrift_libthrift_0.12.0.jar",
+  "new_jar": "jar_cache/org.apache.thrift_libthrift_0.16.0.jar",
   "group_id": "org.apache.thrift",
   "artifact_id": "libthrift",
   "old_version": "0.12.0",
   "new_version": "0.16.0",
-  "project": "singer"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "javax.servlet:servlet-api"
+      ],
+      "added": [
+        "javax.annotation:javax.annotation-api",
+        "javax.servlet:javax.servlet-api",
+        "org.apache.commons:commons-lang3"
+      ],
+      "version_changed": [
+        {
+          "dependency": "junit:junit",
+          "old": "4.12",
+          "new": "4.13.2"
+        },
+        {
+          "dependency": "org.apache.httpcomponents:httpclient",
+          "old": "4.5.6",
+          "new": "4.5.13"
+        },
+        {
+          "dependency": "org.apache.httpcomponents:httpcore",
+          "old": "4.4.1",
+          "new": "4.4.15"
+        },
+        {
+          "dependency": "org.mockito:mockito-all",
+          "old": "1.9.5",
+          "new": "1.10.19"
+        },
+        {
+          "dependency": "org.slf4j:slf4j-api",
+          "old": "1.7.25",
+          "new": "1.7.35"
+        },
+        {
+          "dependency": "org.slf4j:slf4j-log4j12",
+          "old": "1.7.25",
+          "new": "1.7.35"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "singer"
+  ]
 }

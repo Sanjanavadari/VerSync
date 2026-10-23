@@ -1,0 +1,301 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider#buildValidatorFactory(javax.validation.spi.ConfigurationState)",
+      "signature": "javax.validation.ValidatorFactory buildValidatorFactory(javax.validation.spi.ConfigurationState)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider#createGenericConfiguration(javax.validation.spi.BootstrapState)",
+      "signature": "javax.validation.Configuration<?> createGenericConfiguration(javax.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider#createSpecializedConfiguration(javax.validation.spi.BootstrapState)",
+      "signature": "javax.validation.Configuration createSpecializedConfiguration(javax.validation.spi.BootstrapState)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeClockProvider#getClock()",
+      "signature": "java.time.Clock getClock()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#addMapping(java.io.InputStream)",
+      "signature": "javax.validation.Configuration addMapping(java.io.InputStream)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#addProperty(java.lang.String, java.lang.String)",
+      "signature": "javax.validation.Configuration addProperty(java.lang.String, java.lang.String)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#addValueExtractor(javax.validation.valueextraction.ValueExtractor)",
+      "signature": "javax.validation.Configuration addValueExtractor(javax.validation.valueextraction.ValueExtractor)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#buildValidatorFactory()",
+      "signature": "javax.validation.ValidatorFactory buildValidatorFactory()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#clockProvider(javax.validation.ClockProvider)",
+      "signature": "javax.validation.Configuration clockProvider(javax.validation.ClockProvider)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "signature": "javax.validation.Configuration constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getBootstrapConfiguration()",
+      "signature": "javax.validation.BootstrapConfiguration getBootstrapConfiguration()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getDefaultClockProvider()",
+      "signature": "javax.validation.ClockProvider getDefaultClockProvider()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getDefaultConstraintValidatorFactory()",
+      "signature": "javax.validation.ConstraintValidatorFactory getDefaultConstraintValidatorFactory()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getDefaultMessageInterpolator()",
+      "signature": "javax.validation.MessageInterpolator getDefaultMessageInterpolator()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getDefaultParameterNameProvider()",
+      "signature": "javax.validation.ParameterNameProvider getDefaultParameterNameProvider()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#getDefaultTraversableResolver()",
+      "signature": "javax.validation.TraversableResolver getDefaultTraversableResolver()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#ignoreXmlConfiguration()",
+      "signature": "javax.validation.Configuration ignoreXmlConfiguration()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#messageInterpolator(javax.validation.MessageInterpolator)",
+      "signature": "javax.validation.Configuration messageInterpolator(javax.validation.MessageInterpolator)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#parameterNameProvider(javax.validation.ParameterNameProvider)",
+      "signature": "javax.validation.Configuration parameterNameProvider(javax.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration#traversableResolver(javax.validation.TraversableResolver)",
+      "signature": "javax.validation.Configuration traversableResolver(javax.validation.TraversableResolver)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConstraintValidator#isValid(java.lang.Object, javax.validation.ConstraintValidatorContext)",
+      "signature": "boolean isValid(java.lang.Object, javax.validation.ConstraintValidatorContext)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConstraintValidatorFactory#getInstance(java.lang.Class<T>)",
+      "signature": "<T extends javax.validation.ConstraintValidator<?, ?>> T getInstance(java.lang.Class<T>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeConstraintValidatorFactory#releaseInstance(javax.validation.ConstraintValidator<?, ?>)",
+      "signature": "void releaseInstance(javax.validation.ConstraintValidator<?, ?>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeExecutableValidator#validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateConstructorParameters(java.lang.reflect.Constructor<? extends T>, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeExecutableValidator#validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateConstructorReturnValue(java.lang.reflect.Constructor<? extends T>, T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeExecutableValidator#validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateParameters(T, java.lang.reflect.Method, java.lang.Object[], java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeExecutableValidator#validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateReturnValue(T, java.lang.reflect.Method, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeMessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)",
+      "signature": "java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeMessageInterpolator#interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)",
+      "signature": "java.lang.String interpolate(java.lang.String, javax.validation.MessageInterpolator$Context, java.util.Locale)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeParameterNameProvider#getParameterNames(java.lang.reflect.Constructor<?>)",
+      "signature": "java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Constructor<?>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeParameterNameProvider#getParameterNames(java.lang.reflect.Method)",
+      "signature": "java.util.List<java.lang.String> getParameterNames(java.lang.reflect.Method)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeTraversableResolver#isCascadable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "boolean isCascadable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeTraversableResolver#isReachable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)",
+      "signature": "boolean isReachable(java.lang.Object, javax.validation.Path$Node, java.lang.Class<?>, javax.validation.Path, java.lang.annotation.ElementType)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#forExecutables()",
+      "signature": "javax.validation.executable.ExecutableValidator forExecutables()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#getConstraintsForClass(java.lang.Class<?>)",
+      "signature": "javax.validation.metadata.BeanDescriptor getConstraintsForClass(java.lang.Class<?>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#unwrap(java.lang.Class<T>)",
+      "signature": "T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#validate(T, java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validate(T, java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#validateProperty(T, java.lang.String, java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateProperty(T, java.lang.String, java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidator#validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)",
+      "signature": "java.util.Set<javax.validation.ConstraintViolation<T>> validateValue(java.lang.Class<T>, java.lang.String, java.lang.Object, java.lang.Class<?>...)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)",
+      "signature": "javax.validation.ValidatorContext addValueExtractor(javax.validation.valueextraction.ValueExtractor<?>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#clockProvider(javax.validation.ClockProvider)",
+      "signature": "javax.validation.ValidatorContext clockProvider(javax.validation.ClockProvider)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)",
+      "signature": "javax.validation.ValidatorContext constraintValidatorFactory(javax.validation.ConstraintValidatorFactory)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#getValidator()",
+      "signature": "javax.validation.Validator getValidator()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#messageInterpolator(javax.validation.MessageInterpolator)",
+      "signature": "javax.validation.ValidatorContext messageInterpolator(javax.validation.MessageInterpolator)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#parameterNameProvider(javax.validation.ParameterNameProvider)",
+      "signature": "javax.validation.ValidatorContext parameterNameProvider(javax.validation.ParameterNameProvider)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext#traversableResolver(javax.validation.TraversableResolver)",
+      "signature": "javax.validation.ValidatorContext traversableResolver(javax.validation.TraversableResolver)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getClockProvider()",
+      "signature": "javax.validation.ClockProvider getClockProvider()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getConstraintValidatorFactory()",
+      "signature": "javax.validation.ConstraintValidatorFactory getConstraintValidatorFactory()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getMessageInterpolator()",
+      "signature": "javax.validation.MessageInterpolator getMessageInterpolator()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getParameterNameProvider()",
+      "signature": "javax.validation.ParameterNameProvider getParameterNameProvider()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getTraversableResolver()",
+      "signature": "javax.validation.TraversableResolver getTraversableResolver()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#getValidator()",
+      "signature": "javax.validation.Validator getValidator()"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#unwrap(java.lang.Class<T>)",
+      "signature": "T unwrap(java.lang.Class<T>)"
+    },
+    {
+      "key": "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory#usingContext()",
+      "signature": "javax.validation.ValidatorContext usingContext()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 135,
+    "new_methods": 190,
+    "removed": 0,
+    "added": 55,
+    "changed": 0,
+    "removed_classes": 1,
+    "added_classes": 12
+  },
+  "removed_classes": [
+    "com.jcabi.aspects.Tv"
+  ],
+  "added_classes": [
+    "com.jcabi.aspects.FakeValidationProvider",
+    "com.jcabi.aspects.FakeValidationProvider$FakeClockProvider",
+    "com.jcabi.aspects.FakeValidationProvider$FakeConfiguration",
+    "com.jcabi.aspects.FakeValidationProvider$FakeConstraintValidator",
+    "com.jcabi.aspects.FakeValidationProvider$FakeConstraintValidatorFactory",
+    "com.jcabi.aspects.FakeValidationProvider$FakeExecutableValidator",
+    "com.jcabi.aspects.FakeValidationProvider$FakeMessageInterpolator",
+    "com.jcabi.aspects.FakeValidationProvider$FakeParameterNameProvider",
+    "com.jcabi.aspects.FakeValidationProvider$FakeTraversableResolver",
+    "com.jcabi.aspects.FakeValidationProvider$FakeValidator",
+    "com.jcabi.aspects.FakeValidationProvider$FakeValidatorContext",
+    "com.jcabi.aspects.FakeValidationProvider$FakeValidatorFactory"
+  ],
+  "old_jar": "jar_cache/com.jcabi_jcabi-aspects_0.24.1.jar",
+  "new_jar": "jar_cache/com.jcabi_jcabi-aspects_0.25.1.jar",
+  "group_id": "com.jcabi",
+  "artifact_id": "jcabi-aspects",
+  "old_version": "0.24.1",
+  "new_version": "0.25.1",
+  "status": "OK",
+  "packaging": "bundle",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "com.jcabi:jcabi-log",
+          "old": "0.17",
+          "new": "0.23.0"
+        },
+        {
+          "dependency": "org.aspectj:aspectjrt",
+          "old": "1.9.9.1",
+          "new": "1.9.19"
+        },
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter-api",
+          "old": "5.8.2",
+          "new": "5.9.3"
+        },
+        {
+          "dependency": "org.junit.jupiter:junit-jupiter-params",
+          "old": "5.8.2",
+          "new": "5.9.3"
+        },
+        {
+          "dependency": "org.slf4j:slf4j-log4j12",
+          "old": "1.8.0-alpha2",
+          "new": "1.8.0-beta4"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jcabi-s3"
+  ]
+}

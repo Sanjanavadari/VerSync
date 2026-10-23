@@ -236,7 +236,7 @@
   "added": [
     {
       "key": "org.dhatim.dropwizard.sentry.SentryConfigurator#configure(io.sentry.SentryOptions)",
-      "signature": "abstract void configure(io.sentry.SentryOptions)"
+      "signature": "void configure(io.sentry.SentryOptions)"
     },
     {
       "key": "org.dhatim.dropwizard.sentry.logging.SentryBootstrap#bootstrap(java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean)",
@@ -261,13 +261,64 @@
     "new_methods": 10,
     "removed": 58,
     "added": 3,
-    "changed": 1
+    "changed": 1,
+    "removed_classes": 5,
+    "added_classes": 1
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.dhatim_dropwizard-sentry_2.0.22.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.dhatim_dropwizard-sentry_2.0.28-8.jar",
+  "removed_classes": [
+    "org.dhatim.dropwizard.sentry.logging.DelegateAppender",
+    "org.dhatim.dropwizard.sentry.logging.LoggingEventWithContext",
+    "org.dhatim.dropwizard.sentry.logging.SentryAppenderEx",
+    "org.dhatim.dropwizard.sentry.logging.UncaughtExceptionHandlers",
+    "org.dhatim.dropwizard.sentry.logging.UncaughtExceptionHandlers$Exiter"
+  ],
+  "added_classes": [
+    "org.dhatim.dropwizard.sentry.SentryConfigurator"
+  ],
+  "old_jar": "jar_cache/org.dhatim_dropwizard-sentry_2.0.22.jar",
+  "new_jar": "jar_cache/org.dhatim_dropwizard-sentry_2.0.28-8.jar",
   "group_id": "org.dhatim",
   "artifact_id": "dropwizard-sentry",
   "old_version": "2.0.22",
   "new_version": "2.0.28-8",
-  "project": "pay-cardid"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "org.hamcrest:hamcrest"
+      ],
+      "version_changed": [
+        {
+          "dependency": "io.dropwizard:dropwizard-core",
+          "old": "",
+          "new": "2.0.28"
+        },
+        {
+          "dependency": "io.dropwizard:dropwizard-testing",
+          "old": "",
+          "new": "2.0.28"
+        },
+        {
+          "dependency": "io.sentry:sentry-logback",
+          "old": "1.7.30",
+          "new": "5.6.0"
+        },
+        {
+          "dependency": "junit:junit",
+          "old": "",
+          "new": "4.13.2"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "pay-cardid"
+  ]
 }

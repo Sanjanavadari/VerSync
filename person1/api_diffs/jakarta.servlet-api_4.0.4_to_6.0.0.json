@@ -2,55 +2,55 @@
   "removed": [
     {
       "key": "javax.servlet.AsyncContext#addListener(javax.servlet.AsyncListener)",
-      "signature": "abstract void addListener(javax.servlet.AsyncListener)"
+      "signature": "void addListener(javax.servlet.AsyncListener)"
     },
     {
       "key": "javax.servlet.AsyncContext#addListener(javax.servlet.AsyncListener, javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void addListener(javax.servlet.AsyncListener, javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void addListener(javax.servlet.AsyncListener, javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.AsyncContext#complete()",
-      "signature": "abstract void complete()"
+      "signature": "void complete()"
     },
     {
       "key": "javax.servlet.AsyncContext#createListener(java.lang.Class<T>)",
-      "signature": "abstract <T extends javax.servlet.AsyncListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.AsyncContext#dispatch()",
-      "signature": "abstract void dispatch()"
+      "signature": "void dispatch()"
     },
     {
       "key": "javax.servlet.AsyncContext#dispatch(java.lang.String)",
-      "signature": "abstract void dispatch(java.lang.String)"
+      "signature": "void dispatch(java.lang.String)"
     },
     {
       "key": "javax.servlet.AsyncContext#dispatch(javax.servlet.ServletContext, java.lang.String)",
-      "signature": "abstract void dispatch(javax.servlet.ServletContext, java.lang.String)"
+      "signature": "void dispatch(javax.servlet.ServletContext, java.lang.String)"
     },
     {
       "key": "javax.servlet.AsyncContext#getRequest()",
-      "signature": "abstract javax.servlet.ServletRequest getRequest()"
+      "signature": "javax.servlet.ServletRequest getRequest()"
     },
     {
       "key": "javax.servlet.AsyncContext#getResponse()",
-      "signature": "abstract javax.servlet.ServletResponse getResponse()"
+      "signature": "javax.servlet.ServletResponse getResponse()"
     },
     {
       "key": "javax.servlet.AsyncContext#getTimeout()",
-      "signature": "abstract long getTimeout()"
+      "signature": "long getTimeout()"
     },
     {
       "key": "javax.servlet.AsyncContext#hasOriginalRequestAndResponse()",
-      "signature": "abstract boolean hasOriginalRequestAndResponse()"
+      "signature": "boolean hasOriginalRequestAndResponse()"
     },
     {
       "key": "javax.servlet.AsyncContext#setTimeout(long)",
-      "signature": "abstract void setTimeout(long)"
+      "signature": "void setTimeout(long)"
     },
     {
       "key": "javax.servlet.AsyncContext#start(java.lang.Runnable)",
-      "signature": "abstract void start(java.lang.Runnable)"
+      "signature": "void start(java.lang.Runnable)"
     },
     {
       "key": "javax.servlet.AsyncEvent#getAsyncContext()",
@@ -70,19 +70,19 @@
     },
     {
       "key": "javax.servlet.AsyncListener#onComplete(javax.servlet.AsyncEvent)",
-      "signature": "abstract void onComplete(javax.servlet.AsyncEvent)"
+      "signature": "void onComplete(javax.servlet.AsyncEvent)"
     },
     {
       "key": "javax.servlet.AsyncListener#onError(javax.servlet.AsyncEvent)",
-      "signature": "abstract void onError(javax.servlet.AsyncEvent)"
+      "signature": "void onError(javax.servlet.AsyncEvent)"
     },
     {
       "key": "javax.servlet.AsyncListener#onStartAsync(javax.servlet.AsyncEvent)",
-      "signature": "abstract void onStartAsync(javax.servlet.AsyncEvent)"
+      "signature": "void onStartAsync(javax.servlet.AsyncEvent)"
     },
     {
       "key": "javax.servlet.AsyncListener#onTimeout(javax.servlet.AsyncEvent)",
-      "signature": "abstract void onTimeout(javax.servlet.AsyncEvent)"
+      "signature": "void onTimeout(javax.servlet.AsyncEvent)"
     },
     {
       "key": "javax.servlet.DispatcherType#valueOf(java.lang.String)",
@@ -94,51 +94,51 @@
     },
     {
       "key": "javax.servlet.Filter#destroy()",
-      "signature": "default void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "javax.servlet.Filter#doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)",
-      "signature": "abstract void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)"
+      "signature": "void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)"
     },
     {
       "key": "javax.servlet.Filter#init(javax.servlet.FilterConfig)",
-      "signature": "default void init(javax.servlet.FilterConfig)"
+      "signature": "void init(javax.servlet.FilterConfig)"
     },
     {
       "key": "javax.servlet.FilterChain#doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.FilterConfig#getFilterName()",
-      "signature": "abstract java.lang.String getFilterName()"
+      "signature": "java.lang.String getFilterName()"
     },
     {
       "key": "javax.servlet.FilterConfig#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "javax.servlet.FilterConfig#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "javax.servlet.FilterConfig#getServletContext()",
-      "signature": "abstract javax.servlet.ServletContext getServletContext()"
+      "signature": "javax.servlet.ServletContext getServletContext()"
     },
     {
       "key": "javax.servlet.FilterRegistration#addMappingForServletNames(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)",
-      "signature": "abstract void addMappingForServletNames(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)"
+      "signature": "void addMappingForServletNames(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)"
     },
     {
       "key": "javax.servlet.FilterRegistration#addMappingForUrlPatterns(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)",
-      "signature": "abstract void addMappingForUrlPatterns(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)"
+      "signature": "void addMappingForUrlPatterns(java.util.EnumSet<javax.servlet.DispatcherType>, boolean, java.lang.String...)"
     },
     {
       "key": "javax.servlet.FilterRegistration#getServletNameMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getServletNameMappings()"
+      "signature": "java.util.Collection<java.lang.String> getServletNameMappings()"
     },
     {
       "key": "javax.servlet.FilterRegistration#getUrlPatternMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getUrlPatternMappings()"
+      "signature": "java.util.Collection<java.lang.String> getUrlPatternMappings()"
     },
     {
       "key": "javax.servlet.GenericFilter#getFilterConfig()",
@@ -214,7 +214,7 @@
     },
     {
       "key": "javax.servlet.GenericServlet#service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.HttpConstraintElement#getRolesAllowed()",
@@ -242,299 +242,299 @@
     },
     {
       "key": "javax.servlet.ReadListener#onAllDataRead()",
-      "signature": "abstract void onAllDataRead()"
+      "signature": "void onAllDataRead()"
     },
     {
       "key": "javax.servlet.ReadListener#onDataAvailable()",
-      "signature": "abstract void onDataAvailable()"
+      "signature": "void onDataAvailable()"
     },
     {
       "key": "javax.servlet.ReadListener#onError(java.lang.Throwable)",
-      "signature": "abstract void onError(java.lang.Throwable)"
+      "signature": "void onError(java.lang.Throwable)"
     },
     {
       "key": "javax.servlet.Registration#getClassName()",
-      "signature": "abstract java.lang.String getClassName()"
+      "signature": "java.lang.String getClassName()"
     },
     {
       "key": "javax.servlet.Registration#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "javax.servlet.Registration#getInitParameters()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getInitParameters()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getInitParameters()"
     },
     {
       "key": "javax.servlet.Registration#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "javax.servlet.Registration#setInitParameter(java.lang.String, java.lang.String)",
-      "signature": "abstract boolean setInitParameter(java.lang.String, java.lang.String)"
+      "signature": "boolean setInitParameter(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.Registration#setInitParameters(java.util.Map<java.lang.String, java.lang.String>)",
-      "signature": "abstract java.util.Set<java.lang.String> setInitParameters(java.util.Map<java.lang.String, java.lang.String>)"
+      "signature": "java.util.Set<java.lang.String> setInitParameters(java.util.Map<java.lang.String, java.lang.String>)"
     },
     {
       "key": "javax.servlet.Registration$Dynamic#setAsyncSupported(boolean)",
-      "signature": "abstract void setAsyncSupported(boolean)"
+      "signature": "void setAsyncSupported(boolean)"
     },
     {
       "key": "javax.servlet.RequestDispatcher#forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.RequestDispatcher#include(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void include(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void include(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.Servlet#destroy()",
-      "signature": "abstract void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "javax.servlet.Servlet#getServletConfig()",
-      "signature": "abstract javax.servlet.ServletConfig getServletConfig()"
+      "signature": "javax.servlet.ServletConfig getServletConfig()"
     },
     {
       "key": "javax.servlet.Servlet#getServletInfo()",
-      "signature": "abstract java.lang.String getServletInfo()"
+      "signature": "java.lang.String getServletInfo()"
     },
     {
       "key": "javax.servlet.Servlet#init(javax.servlet.ServletConfig)",
-      "signature": "abstract void init(javax.servlet.ServletConfig)"
+      "signature": "void init(javax.servlet.ServletConfig)"
     },
     {
       "key": "javax.servlet.Servlet#service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract void service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "void service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.ServletConfig#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletConfig#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "javax.servlet.ServletConfig#getServletContext()",
-      "signature": "abstract javax.servlet.ServletContext getServletContext()"
+      "signature": "javax.servlet.ServletContext getServletContext()"
     },
     {
       "key": "javax.servlet.ServletConfig#getServletName()",
-      "signature": "abstract java.lang.String getServletName()"
+      "signature": "java.lang.String getServletName()"
     },
     {
       "key": "javax.servlet.ServletContainerInitializer#onStartup(java.util.Set<java.lang.Class<?>>, javax.servlet.ServletContext)",
-      "signature": "abstract void onStartup(java.util.Set<java.lang.Class<?>>, javax.servlet.ServletContext)"
+      "signature": "void onStartup(java.util.Set<java.lang.Class<?>>, javax.servlet.ServletContext)"
     },
     {
       "key": "javax.servlet.ServletContext#addListener(T)",
-      "signature": "abstract <T extends java.util.EventListener> void addListener(T)"
+      "signature": "void addListener(T)"
     },
     {
       "key": "javax.servlet.ServletContext#addListener(java.lang.Class<? extends java.util.EventListener>)",
-      "signature": "abstract void addListener(java.lang.Class<? extends java.util.EventListener>)"
+      "signature": "void addListener(java.lang.Class<? extends java.util.EventListener>)"
     },
     {
       "key": "javax.servlet.ServletContext#addListener(java.lang.String)",
-      "signature": "abstract void addListener(java.lang.String)"
+      "signature": "void addListener(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#createFilter(java.lang.Class<T>)",
-      "signature": "abstract <T extends javax.servlet.Filter> T createFilter(java.lang.Class<T>)"
+      "signature": "T createFilter(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.ServletContext#createListener(java.lang.Class<T>)",
-      "signature": "abstract <T extends java.util.EventListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.ServletContext#createServlet(java.lang.Class<T>)",
-      "signature": "abstract <T extends javax.servlet.Servlet> T createServlet(java.lang.Class<T>)"
+      "signature": "T createServlet(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.ServletContext#declareRoles(java.lang.String...)",
-      "signature": "abstract void declareRoles(java.lang.String...)"
+      "signature": "void declareRoles(java.lang.String...)"
     },
     {
       "key": "javax.servlet.ServletContext#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "javax.servlet.ServletContext#getClassLoader()",
-      "signature": "abstract java.lang.ClassLoader getClassLoader()"
+      "signature": "java.lang.ClassLoader getClassLoader()"
     },
     {
       "key": "javax.servlet.ServletContext#getContext(java.lang.String)",
-      "signature": "abstract javax.servlet.ServletContext getContext(java.lang.String)"
+      "signature": "javax.servlet.ServletContext getContext(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getContextPath()",
-      "signature": "abstract java.lang.String getContextPath()"
+      "signature": "java.lang.String getContextPath()"
     },
     {
       "key": "javax.servlet.ServletContext#getDefaultSessionTrackingModes()",
-      "signature": "abstract java.util.Set<javax.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
+      "signature": "java.util.Set<javax.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
     },
     {
       "key": "javax.servlet.ServletContext#getEffectiveMajorVersion()",
-      "signature": "abstract int getEffectiveMajorVersion()"
+      "signature": "int getEffectiveMajorVersion()"
     },
     {
       "key": "javax.servlet.ServletContext#getEffectiveMinorVersion()",
-      "signature": "abstract int getEffectiveMinorVersion()"
+      "signature": "int getEffectiveMinorVersion()"
     },
     {
       "key": "javax.servlet.ServletContext#getEffectiveSessionTrackingModes()",
-      "signature": "abstract java.util.Set<javax.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
+      "signature": "java.util.Set<javax.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
     },
     {
       "key": "javax.servlet.ServletContext#getFilterRegistration(java.lang.String)",
-      "signature": "abstract javax.servlet.FilterRegistration getFilterRegistration(java.lang.String)"
+      "signature": "javax.servlet.FilterRegistration getFilterRegistration(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getFilterRegistrations()",
-      "signature": "abstract java.util.Map<java.lang.String, ? extends javax.servlet.FilterRegistration> getFilterRegistrations()"
+      "signature": "java.util.Map<java.lang.String, ? extends javax.servlet.FilterRegistration> getFilterRegistrations()"
     },
     {
       "key": "javax.servlet.ServletContext#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "javax.servlet.ServletContext#getJspConfigDescriptor()",
-      "signature": "abstract javax.servlet.descriptor.JspConfigDescriptor getJspConfigDescriptor()"
+      "signature": "javax.servlet.descriptor.JspConfigDescriptor getJspConfigDescriptor()"
     },
     {
       "key": "javax.servlet.ServletContext#getMajorVersion()",
-      "signature": "abstract int getMajorVersion()"
+      "signature": "int getMajorVersion()"
     },
     {
       "key": "javax.servlet.ServletContext#getMimeType(java.lang.String)",
-      "signature": "abstract java.lang.String getMimeType(java.lang.String)"
+      "signature": "java.lang.String getMimeType(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getMinorVersion()",
-      "signature": "abstract int getMinorVersion()"
+      "signature": "int getMinorVersion()"
     },
     {
       "key": "javax.servlet.ServletContext#getNamedDispatcher(java.lang.String)",
-      "signature": "abstract javax.servlet.RequestDispatcher getNamedDispatcher(java.lang.String)"
+      "signature": "javax.servlet.RequestDispatcher getNamedDispatcher(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getRealPath(java.lang.String)",
-      "signature": "abstract java.lang.String getRealPath(java.lang.String)"
+      "signature": "java.lang.String getRealPath(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getRequestCharacterEncoding()",
-      "signature": "abstract java.lang.String getRequestCharacterEncoding()"
+      "signature": "java.lang.String getRequestCharacterEncoding()"
     },
     {
       "key": "javax.servlet.ServletContext#getRequestDispatcher(java.lang.String)",
-      "signature": "abstract javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
+      "signature": "javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getResource(java.lang.String)",
-      "signature": "abstract java.net.URL getResource(java.lang.String)"
+      "signature": "java.net.URL getResource(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getResourceAsStream(java.lang.String)",
-      "signature": "abstract java.io.InputStream getResourceAsStream(java.lang.String)"
+      "signature": "java.io.InputStream getResourceAsStream(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getResourcePaths(java.lang.String)",
-      "signature": "abstract java.util.Set<java.lang.String> getResourcePaths(java.lang.String)"
+      "signature": "java.util.Set<java.lang.String> getResourcePaths(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getResponseCharacterEncoding()",
-      "signature": "abstract java.lang.String getResponseCharacterEncoding()"
+      "signature": "java.lang.String getResponseCharacterEncoding()"
     },
     {
       "key": "javax.servlet.ServletContext#getServerInfo()",
-      "signature": "abstract java.lang.String getServerInfo()"
+      "signature": "java.lang.String getServerInfo()"
     },
     {
       "key": "javax.servlet.ServletContext#getServlet(java.lang.String)",
-      "signature": "abstract javax.servlet.Servlet getServlet(java.lang.String)"
+      "signature": "javax.servlet.Servlet getServlet(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getServletContextName()",
-      "signature": "abstract java.lang.String getServletContextName()"
+      "signature": "java.lang.String getServletContextName()"
     },
     {
       "key": "javax.servlet.ServletContext#getServletNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getServletNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getServletNames()"
     },
     {
       "key": "javax.servlet.ServletContext#getServletRegistration(java.lang.String)",
-      "signature": "abstract javax.servlet.ServletRegistration getServletRegistration(java.lang.String)"
+      "signature": "javax.servlet.ServletRegistration getServletRegistration(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#getServletRegistrations()",
-      "signature": "abstract java.util.Map<java.lang.String, ? extends javax.servlet.ServletRegistration> getServletRegistrations()"
+      "signature": "java.util.Map<java.lang.String, ? extends javax.servlet.ServletRegistration> getServletRegistrations()"
     },
     {
       "key": "javax.servlet.ServletContext#getServlets()",
-      "signature": "abstract java.util.Enumeration<javax.servlet.Servlet> getServlets()"
+      "signature": "java.util.Enumeration<javax.servlet.Servlet> getServlets()"
     },
     {
       "key": "javax.servlet.ServletContext#getSessionCookieConfig()",
-      "signature": "abstract javax.servlet.SessionCookieConfig getSessionCookieConfig()"
+      "signature": "javax.servlet.SessionCookieConfig getSessionCookieConfig()"
     },
     {
       "key": "javax.servlet.ServletContext#getSessionTimeout()",
-      "signature": "abstract int getSessionTimeout()"
+      "signature": "int getSessionTimeout()"
     },
     {
       "key": "javax.servlet.ServletContext#getVirtualServerName()",
-      "signature": "abstract java.lang.String getVirtualServerName()"
+      "signature": "java.lang.String getVirtualServerName()"
     },
     {
       "key": "javax.servlet.ServletContext#log(java.lang.Exception, java.lang.String)",
-      "signature": "abstract void log(java.lang.Exception, java.lang.String)"
+      "signature": "void log(java.lang.Exception, java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#log(java.lang.String)",
-      "signature": "abstract void log(java.lang.String)"
+      "signature": "void log(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#log(java.lang.String, java.lang.Throwable)",
-      "signature": "abstract void log(java.lang.String, java.lang.Throwable)"
+      "signature": "void log(java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "javax.servlet.ServletContext#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "javax.servlet.ServletContext#setInitParameter(java.lang.String, java.lang.String)",
-      "signature": "abstract boolean setInitParameter(java.lang.String, java.lang.String)"
+      "signature": "boolean setInitParameter(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#setRequestCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setRequestCharacterEncoding(java.lang.String)"
+      "signature": "void setRequestCharacterEncoding(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#setResponseCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setResponseCharacterEncoding(java.lang.String)"
+      "signature": "void setResponseCharacterEncoding(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletContext#setSessionTimeout(int)",
-      "signature": "abstract void setSessionTimeout(int)"
+      "signature": "void setSessionTimeout(int)"
     },
     {
       "key": "javax.servlet.ServletContext#setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)",
-      "signature": "abstract void setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)"
+      "signature": "void setSessionTrackingModes(java.util.Set<javax.servlet.SessionTrackingMode>)"
     },
     {
       "key": "javax.servlet.ServletContextAttributeEvent#getName()",
@@ -546,15 +546,15 @@
     },
     {
       "key": "javax.servlet.ServletContextAttributeListener#attributeAdded(javax.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeAdded(javax.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeAdded(javax.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletContextAttributeListener#attributeRemoved(javax.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeRemoved(javax.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeRemoved(javax.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletContextAttributeListener#attributeReplaced(javax.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeReplaced(javax.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeReplaced(javax.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletContextEvent#getServletContext()",
@@ -562,11 +562,11 @@
     },
     {
       "key": "javax.servlet.ServletContextListener#contextDestroyed(javax.servlet.ServletContextEvent)",
-      "signature": "default void contextDestroyed(javax.servlet.ServletContextEvent)"
+      "signature": "void contextDestroyed(javax.servlet.ServletContextEvent)"
     },
     {
       "key": "javax.servlet.ServletContextListener#contextInitialized(javax.servlet.ServletContextEvent)",
-      "signature": "default void contextInitialized(javax.servlet.ServletContextEvent)"
+      "signature": "void contextInitialized(javax.servlet.ServletContextEvent)"
     },
     {
       "key": "javax.servlet.ServletException#getRootCause()",
@@ -574,11 +574,11 @@
     },
     {
       "key": "javax.servlet.ServletInputStream#isFinished()",
-      "signature": "abstract boolean isFinished()"
+      "signature": "boolean isFinished()"
     },
     {
       "key": "javax.servlet.ServletInputStream#isReady()",
-      "signature": "abstract boolean isReady()"
+      "signature": "boolean isReady()"
     },
     {
       "key": "javax.servlet.ServletInputStream#readLine(byte[], int, int)",
@@ -586,11 +586,11 @@
     },
     {
       "key": "javax.servlet.ServletInputStream#setReadListener(javax.servlet.ReadListener)",
-      "signature": "abstract void setReadListener(javax.servlet.ReadListener)"
+      "signature": "void setReadListener(javax.servlet.ReadListener)"
     },
     {
       "key": "javax.servlet.ServletOutputStream#isReady()",
-      "signature": "abstract boolean isReady()"
+      "signature": "boolean isReady()"
     },
     {
       "key": "javax.servlet.ServletOutputStream#print(boolean)",
@@ -654,183 +654,183 @@
     },
     {
       "key": "javax.servlet.ServletOutputStream#setWriteListener(javax.servlet.WriteListener)",
-      "signature": "abstract void setWriteListener(javax.servlet.WriteListener)"
+      "signature": "void setWriteListener(javax.servlet.WriteListener)"
     },
     {
       "key": "javax.servlet.ServletRegistration#addMapping(java.lang.String...)",
-      "signature": "abstract java.util.Set<java.lang.String> addMapping(java.lang.String...)"
+      "signature": "java.util.Set<java.lang.String> addMapping(java.lang.String...)"
     },
     {
       "key": "javax.servlet.ServletRegistration#getMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getMappings()"
+      "signature": "java.util.Collection<java.lang.String> getMappings()"
     },
     {
       "key": "javax.servlet.ServletRegistration#getRunAsRole()",
-      "signature": "abstract java.lang.String getRunAsRole()"
+      "signature": "java.lang.String getRunAsRole()"
     },
     {
       "key": "javax.servlet.ServletRegistration$Dynamic#setLoadOnStartup(int)",
-      "signature": "abstract void setLoadOnStartup(int)"
+      "signature": "void setLoadOnStartup(int)"
     },
     {
       "key": "javax.servlet.ServletRegistration$Dynamic#setMultipartConfig(javax.servlet.MultipartConfigElement)",
-      "signature": "abstract void setMultipartConfig(javax.servlet.MultipartConfigElement)"
+      "signature": "void setMultipartConfig(javax.servlet.MultipartConfigElement)"
     },
     {
       "key": "javax.servlet.ServletRegistration$Dynamic#setRunAsRole(java.lang.String)",
-      "signature": "abstract void setRunAsRole(java.lang.String)"
+      "signature": "void setRunAsRole(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRegistration$Dynamic#setServletSecurity(javax.servlet.ServletSecurityElement)",
-      "signature": "abstract java.util.Set<java.lang.String> setServletSecurity(javax.servlet.ServletSecurityElement)"
+      "signature": "java.util.Set<java.lang.String> setServletSecurity(javax.servlet.ServletSecurityElement)"
     },
     {
       "key": "javax.servlet.ServletRequest#getAsyncContext()",
-      "signature": "abstract javax.servlet.AsyncContext getAsyncContext()"
+      "signature": "javax.servlet.AsyncContext getAsyncContext()"
     },
     {
       "key": "javax.servlet.ServletRequest#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "javax.servlet.ServletRequest#getCharacterEncoding()",
-      "signature": "abstract java.lang.String getCharacterEncoding()"
+      "signature": "java.lang.String getCharacterEncoding()"
     },
     {
       "key": "javax.servlet.ServletRequest#getContentLength()",
-      "signature": "abstract int getContentLength()"
+      "signature": "int getContentLength()"
     },
     {
       "key": "javax.servlet.ServletRequest#getContentLengthLong()",
-      "signature": "abstract long getContentLengthLong()"
+      "signature": "long getContentLengthLong()"
     },
     {
       "key": "javax.servlet.ServletRequest#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "javax.servlet.ServletRequest#getDispatcherType()",
-      "signature": "abstract javax.servlet.DispatcherType getDispatcherType()"
+      "signature": "javax.servlet.DispatcherType getDispatcherType()"
     },
     {
       "key": "javax.servlet.ServletRequest#getInputStream()",
-      "signature": "abstract javax.servlet.ServletInputStream getInputStream()"
+      "signature": "javax.servlet.ServletInputStream getInputStream()"
     },
     {
       "key": "javax.servlet.ServletRequest#getLocalAddr()",
-      "signature": "abstract java.lang.String getLocalAddr()"
+      "signature": "java.lang.String getLocalAddr()"
     },
     {
       "key": "javax.servlet.ServletRequest#getLocalName()",
-      "signature": "abstract java.lang.String getLocalName()"
+      "signature": "java.lang.String getLocalName()"
     },
     {
       "key": "javax.servlet.ServletRequest#getLocalPort()",
-      "signature": "abstract int getLocalPort()"
+      "signature": "int getLocalPort()"
     },
     {
       "key": "javax.servlet.ServletRequest#getLocale()",
-      "signature": "abstract java.util.Locale getLocale()"
+      "signature": "java.util.Locale getLocale()"
     },
     {
       "key": "javax.servlet.ServletRequest#getLocales()",
-      "signature": "abstract java.util.Enumeration<java.util.Locale> getLocales()"
+      "signature": "java.util.Enumeration<java.util.Locale> getLocales()"
     },
     {
       "key": "javax.servlet.ServletRequest#getParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getParameter(java.lang.String)"
+      "signature": "java.lang.String getParameter(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#getParameterMap()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String[]> getParameterMap()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String[]> getParameterMap()"
     },
     {
       "key": "javax.servlet.ServletRequest#getParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getParameterNames()"
     },
     {
       "key": "javax.servlet.ServletRequest#getParameterValues(java.lang.String)",
-      "signature": "abstract java.lang.String[] getParameterValues(java.lang.String)"
+      "signature": "java.lang.String[] getParameterValues(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#getProtocol()",
-      "signature": "abstract java.lang.String getProtocol()"
+      "signature": "java.lang.String getProtocol()"
     },
     {
       "key": "javax.servlet.ServletRequest#getReader()",
-      "signature": "abstract java.io.BufferedReader getReader()"
+      "signature": "java.io.BufferedReader getReader()"
     },
     {
       "key": "javax.servlet.ServletRequest#getRealPath(java.lang.String)",
-      "signature": "abstract java.lang.String getRealPath(java.lang.String)"
+      "signature": "java.lang.String getRealPath(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#getRemoteAddr()",
-      "signature": "abstract java.lang.String getRemoteAddr()"
+      "signature": "java.lang.String getRemoteAddr()"
     },
     {
       "key": "javax.servlet.ServletRequest#getRemoteHost()",
-      "signature": "abstract java.lang.String getRemoteHost()"
+      "signature": "java.lang.String getRemoteHost()"
     },
     {
       "key": "javax.servlet.ServletRequest#getRemotePort()",
-      "signature": "abstract int getRemotePort()"
+      "signature": "int getRemotePort()"
     },
     {
       "key": "javax.servlet.ServletRequest#getRequestDispatcher(java.lang.String)",
-      "signature": "abstract javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
+      "signature": "javax.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#getScheme()",
-      "signature": "abstract java.lang.String getScheme()"
+      "signature": "java.lang.String getScheme()"
     },
     {
       "key": "javax.servlet.ServletRequest#getServerName()",
-      "signature": "abstract java.lang.String getServerName()"
+      "signature": "java.lang.String getServerName()"
     },
     {
       "key": "javax.servlet.ServletRequest#getServerPort()",
-      "signature": "abstract int getServerPort()"
+      "signature": "int getServerPort()"
     },
     {
       "key": "javax.servlet.ServletRequest#getServletContext()",
-      "signature": "abstract javax.servlet.ServletContext getServletContext()"
+      "signature": "javax.servlet.ServletContext getServletContext()"
     },
     {
       "key": "javax.servlet.ServletRequest#isAsyncStarted()",
-      "signature": "abstract boolean isAsyncStarted()"
+      "signature": "boolean isAsyncStarted()"
     },
     {
       "key": "javax.servlet.ServletRequest#isAsyncSupported()",
-      "signature": "abstract boolean isAsyncSupported()"
+      "signature": "boolean isAsyncSupported()"
     },
     {
       "key": "javax.servlet.ServletRequest#isSecure()",
-      "signature": "abstract boolean isSecure()"
+      "signature": "boolean isSecure()"
     },
     {
       "key": "javax.servlet.ServletRequest#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "javax.servlet.ServletRequest#setCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setCharacterEncoding(java.lang.String)"
+      "signature": "void setCharacterEncoding(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletRequest#startAsync()",
-      "signature": "abstract javax.servlet.AsyncContext startAsync()"
+      "signature": "javax.servlet.AsyncContext startAsync()"
     },
     {
       "key": "javax.servlet.ServletRequest#startAsync(javax.servlet.ServletRequest, javax.servlet.ServletResponse)",
-      "signature": "abstract javax.servlet.AsyncContext startAsync(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
+      "signature": "javax.servlet.AsyncContext startAsync(javax.servlet.ServletRequest, javax.servlet.ServletResponse)"
     },
     {
       "key": "javax.servlet.ServletRequestAttributeEvent#getName()",
@@ -842,15 +842,15 @@
     },
     {
       "key": "javax.servlet.ServletRequestAttributeListener#attributeAdded(javax.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeAdded(javax.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeAdded(javax.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletRequestAttributeListener#attributeRemoved(javax.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeRemoved(javax.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeRemoved(javax.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletRequestAttributeListener#attributeReplaced(javax.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeReplaced(javax.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeReplaced(javax.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "javax.servlet.ServletRequestEvent#getServletContext()",
@@ -862,11 +862,11 @@
     },
     {
       "key": "javax.servlet.ServletRequestListener#requestDestroyed(javax.servlet.ServletRequestEvent)",
-      "signature": "default void requestDestroyed(javax.servlet.ServletRequestEvent)"
+      "signature": "void requestDestroyed(javax.servlet.ServletRequestEvent)"
     },
     {
       "key": "javax.servlet.ServletRequestListener#requestInitialized(javax.servlet.ServletRequestEvent)",
-      "signature": "default void requestInitialized(javax.servlet.ServletRequestEvent)"
+      "signature": "void requestInitialized(javax.servlet.ServletRequestEvent)"
     },
     {
       "key": "javax.servlet.ServletRequestWrapper#getAsyncContext()",
@@ -1034,67 +1034,67 @@
     },
     {
       "key": "javax.servlet.ServletResponse#flushBuffer()",
-      "signature": "abstract void flushBuffer()"
+      "signature": "void flushBuffer()"
     },
     {
       "key": "javax.servlet.ServletResponse#getBufferSize()",
-      "signature": "abstract int getBufferSize()"
+      "signature": "int getBufferSize()"
     },
     {
       "key": "javax.servlet.ServletResponse#getCharacterEncoding()",
-      "signature": "abstract java.lang.String getCharacterEncoding()"
+      "signature": "java.lang.String getCharacterEncoding()"
     },
     {
       "key": "javax.servlet.ServletResponse#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "javax.servlet.ServletResponse#getLocale()",
-      "signature": "abstract java.util.Locale getLocale()"
+      "signature": "java.util.Locale getLocale()"
     },
     {
       "key": "javax.servlet.ServletResponse#getOutputStream()",
-      "signature": "abstract javax.servlet.ServletOutputStream getOutputStream()"
+      "signature": "javax.servlet.ServletOutputStream getOutputStream()"
     },
     {
       "key": "javax.servlet.ServletResponse#getWriter()",
-      "signature": "abstract java.io.PrintWriter getWriter()"
+      "signature": "java.io.PrintWriter getWriter()"
     },
     {
       "key": "javax.servlet.ServletResponse#isCommitted()",
-      "signature": "abstract boolean isCommitted()"
+      "signature": "boolean isCommitted()"
     },
     {
       "key": "javax.servlet.ServletResponse#reset()",
-      "signature": "abstract void reset()"
+      "signature": "void reset()"
     },
     {
       "key": "javax.servlet.ServletResponse#resetBuffer()",
-      "signature": "abstract void resetBuffer()"
+      "signature": "void resetBuffer()"
     },
     {
       "key": "javax.servlet.ServletResponse#setBufferSize(int)",
-      "signature": "abstract void setBufferSize(int)"
+      "signature": "void setBufferSize(int)"
     },
     {
       "key": "javax.servlet.ServletResponse#setCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setCharacterEncoding(java.lang.String)"
+      "signature": "void setCharacterEncoding(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletResponse#setContentLength(int)",
-      "signature": "abstract void setContentLength(int)"
+      "signature": "void setContentLength(int)"
     },
     {
       "key": "javax.servlet.ServletResponse#setContentLengthLong(long)",
-      "signature": "abstract void setContentLengthLong(long)"
+      "signature": "void setContentLengthLong(long)"
     },
     {
       "key": "javax.servlet.ServletResponse#setContentType(java.lang.String)",
-      "signature": "abstract void setContentType(java.lang.String)"
+      "signature": "void setContentType(java.lang.String)"
     },
     {
       "key": "javax.servlet.ServletResponse#setLocale(java.util.Locale)",
-      "signature": "abstract void setLocale(java.util.Locale)"
+      "signature": "void setLocale(java.util.Locale)"
     },
     {
       "key": "javax.servlet.ServletResponseWrapper#flushBuffer()",
@@ -1186,59 +1186,59 @@
     },
     {
       "key": "javax.servlet.SessionCookieConfig#getComment()",
-      "signature": "abstract java.lang.String getComment()"
+      "signature": "java.lang.String getComment()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#getDomain()",
-      "signature": "abstract java.lang.String getDomain()"
+      "signature": "java.lang.String getDomain()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#getMaxAge()",
-      "signature": "abstract int getMaxAge()"
+      "signature": "int getMaxAge()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#getPath()",
-      "signature": "abstract java.lang.String getPath()"
+      "signature": "java.lang.String getPath()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#isHttpOnly()",
-      "signature": "abstract boolean isHttpOnly()"
+      "signature": "boolean isHttpOnly()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#isSecure()",
-      "signature": "abstract boolean isSecure()"
+      "signature": "boolean isSecure()"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setComment(java.lang.String)",
-      "signature": "abstract void setComment(java.lang.String)"
+      "signature": "void setComment(java.lang.String)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setDomain(java.lang.String)",
-      "signature": "abstract void setDomain(java.lang.String)"
+      "signature": "void setDomain(java.lang.String)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setHttpOnly(boolean)",
-      "signature": "abstract void setHttpOnly(boolean)"
+      "signature": "void setHttpOnly(boolean)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setMaxAge(int)",
-      "signature": "abstract void setMaxAge(int)"
+      "signature": "void setMaxAge(int)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setName(java.lang.String)",
-      "signature": "abstract void setName(java.lang.String)"
+      "signature": "void setName(java.lang.String)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setPath(java.lang.String)",
-      "signature": "abstract void setPath(java.lang.String)"
+      "signature": "void setPath(java.lang.String)"
     },
     {
       "key": "javax.servlet.SessionCookieConfig#setSecure(boolean)",
-      "signature": "abstract void setSecure(boolean)"
+      "signature": "void setSecure(boolean)"
     },
     {
       "key": "javax.servlet.SessionTrackingMode#valueOf(java.lang.String)",
@@ -1262,215 +1262,215 @@
     },
     {
       "key": "javax.servlet.WriteListener#onError(java.lang.Throwable)",
-      "signature": "abstract void onError(java.lang.Throwable)"
+      "signature": "void onError(java.lang.Throwable)"
     },
     {
       "key": "javax.servlet.WriteListener#onWritePossible()",
-      "signature": "abstract void onWritePossible()"
+      "signature": "void onWritePossible()"
     },
     {
       "key": "javax.servlet.annotation.HandlesTypes#value()",
-      "signature": "abstract java.lang.Class<?>[] value()"
+      "signature": "java.lang.Class<?>[] value()"
     },
     {
       "key": "javax.servlet.annotation.HttpConstraint#rolesAllowed()",
-      "signature": "abstract java.lang.String[] rolesAllowed()"
+      "signature": "java.lang.String[] rolesAllowed()"
     },
     {
       "key": "javax.servlet.annotation.HttpMethodConstraint#rolesAllowed()",
-      "signature": "abstract java.lang.String[] rolesAllowed()"
+      "signature": "java.lang.String[] rolesAllowed()"
     },
     {
       "key": "javax.servlet.annotation.HttpMethodConstraint#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "javax.servlet.annotation.MultipartConfig#fileSizeThreshold()",
-      "signature": "abstract int fileSizeThreshold()"
+      "signature": "int fileSizeThreshold()"
     },
     {
       "key": "javax.servlet.annotation.MultipartConfig#location()",
-      "signature": "abstract java.lang.String location()"
+      "signature": "java.lang.String location()"
     },
     {
       "key": "javax.servlet.annotation.MultipartConfig#maxFileSize()",
-      "signature": "abstract long maxFileSize()"
+      "signature": "long maxFileSize()"
     },
     {
       "key": "javax.servlet.annotation.MultipartConfig#maxRequestSize()",
-      "signature": "abstract long maxRequestSize()"
+      "signature": "long maxRequestSize()"
     },
     {
       "key": "javax.servlet.annotation.ServletSecurity#httpMethodConstraints()",
-      "signature": "abstract javax.servlet.annotation.HttpMethodConstraint[] httpMethodConstraints()"
+      "signature": "javax.servlet.annotation.HttpMethodConstraint[] httpMethodConstraints()"
     },
     {
       "key": "javax.servlet.annotation.ServletSecurity#value()",
-      "signature": "abstract javax.servlet.annotation.HttpConstraint value()"
+      "signature": "javax.servlet.annotation.HttpConstraint value()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#asyncSupported()",
-      "signature": "abstract boolean asyncSupported()"
+      "signature": "boolean asyncSupported()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#dispatcherTypes()",
-      "signature": "abstract javax.servlet.DispatcherType[] dispatcherTypes()"
+      "signature": "javax.servlet.DispatcherType[] dispatcherTypes()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#displayName()",
-      "signature": "abstract java.lang.String displayName()"
+      "signature": "java.lang.String displayName()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#filterName()",
-      "signature": "abstract java.lang.String filterName()"
+      "signature": "java.lang.String filterName()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#initParams()",
-      "signature": "abstract javax.servlet.annotation.WebInitParam[] initParams()"
+      "signature": "javax.servlet.annotation.WebInitParam[] initParams()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#largeIcon()",
-      "signature": "abstract java.lang.String largeIcon()"
+      "signature": "java.lang.String largeIcon()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#servletNames()",
-      "signature": "abstract java.lang.String[] servletNames()"
+      "signature": "java.lang.String[] servletNames()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#smallIcon()",
-      "signature": "abstract java.lang.String smallIcon()"
+      "signature": "java.lang.String smallIcon()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#urlPatterns()",
-      "signature": "abstract java.lang.String[] urlPatterns()"
+      "signature": "java.lang.String[] urlPatterns()"
     },
     {
       "key": "javax.servlet.annotation.WebFilter#value()",
-      "signature": "abstract java.lang.String[] value()"
+      "signature": "java.lang.String[] value()"
     },
     {
       "key": "javax.servlet.annotation.WebInitParam#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "javax.servlet.annotation.WebInitParam#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "javax.servlet.annotation.WebInitParam#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "javax.servlet.annotation.WebListener#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#asyncSupported()",
-      "signature": "abstract boolean asyncSupported()"
+      "signature": "boolean asyncSupported()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#displayName()",
-      "signature": "abstract java.lang.String displayName()"
+      "signature": "java.lang.String displayName()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#initParams()",
-      "signature": "abstract javax.servlet.annotation.WebInitParam[] initParams()"
+      "signature": "javax.servlet.annotation.WebInitParam[] initParams()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#largeIcon()",
-      "signature": "abstract java.lang.String largeIcon()"
+      "signature": "java.lang.String largeIcon()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#loadOnStartup()",
-      "signature": "abstract int loadOnStartup()"
+      "signature": "int loadOnStartup()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#smallIcon()",
-      "signature": "abstract java.lang.String smallIcon()"
+      "signature": "java.lang.String smallIcon()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#urlPatterns()",
-      "signature": "abstract java.lang.String[] urlPatterns()"
+      "signature": "java.lang.String[] urlPatterns()"
     },
     {
       "key": "javax.servlet.annotation.WebServlet#value()",
-      "signature": "abstract java.lang.String[] value()"
+      "signature": "java.lang.String[] value()"
     },
     {
       "key": "javax.servlet.descriptor.JspConfigDescriptor#getJspPropertyGroups()",
-      "signature": "abstract java.util.Collection<javax.servlet.descriptor.JspPropertyGroupDescriptor> getJspPropertyGroups()"
+      "signature": "java.util.Collection<javax.servlet.descriptor.JspPropertyGroupDescriptor> getJspPropertyGroups()"
     },
     {
       "key": "javax.servlet.descriptor.JspConfigDescriptor#getTaglibs()",
-      "signature": "abstract java.util.Collection<javax.servlet.descriptor.TaglibDescriptor> getTaglibs()"
+      "signature": "java.util.Collection<javax.servlet.descriptor.TaglibDescriptor> getTaglibs()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getBuffer()",
-      "signature": "abstract java.lang.String getBuffer()"
+      "signature": "java.lang.String getBuffer()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getDefaultContentType()",
-      "signature": "abstract java.lang.String getDefaultContentType()"
+      "signature": "java.lang.String getDefaultContentType()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getDeferredSyntaxAllowedAsLiteral()",
-      "signature": "abstract java.lang.String getDeferredSyntaxAllowedAsLiteral()"
+      "signature": "java.lang.String getDeferredSyntaxAllowedAsLiteral()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getElIgnored()",
-      "signature": "abstract java.lang.String getElIgnored()"
+      "signature": "java.lang.String getElIgnored()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getErrorOnUndeclaredNamespace()",
-      "signature": "abstract java.lang.String getErrorOnUndeclaredNamespace()"
+      "signature": "java.lang.String getErrorOnUndeclaredNamespace()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getIncludeCodas()",
-      "signature": "abstract java.util.Collection<java.lang.String> getIncludeCodas()"
+      "signature": "java.util.Collection<java.lang.String> getIncludeCodas()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getIncludePreludes()",
-      "signature": "abstract java.util.Collection<java.lang.String> getIncludePreludes()"
+      "signature": "java.util.Collection<java.lang.String> getIncludePreludes()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getIsXml()",
-      "signature": "abstract java.lang.String getIsXml()"
+      "signature": "java.lang.String getIsXml()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getPageEncoding()",
-      "signature": "abstract java.lang.String getPageEncoding()"
+      "signature": "java.lang.String getPageEncoding()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getScriptingInvalid()",
-      "signature": "abstract java.lang.String getScriptingInvalid()"
+      "signature": "java.lang.String getScriptingInvalid()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getTrimDirectiveWhitespaces()",
-      "signature": "abstract java.lang.String getTrimDirectiveWhitespaces()"
+      "signature": "java.lang.String getTrimDirectiveWhitespaces()"
     },
     {
       "key": "javax.servlet.descriptor.JspPropertyGroupDescriptor#getUrlPatterns()",
-      "signature": "abstract java.util.Collection<java.lang.String> getUrlPatterns()"
+      "signature": "java.util.Collection<java.lang.String> getUrlPatterns()"
     },
     {
       "key": "javax.servlet.descriptor.TaglibDescriptor#getTaglibLocation()",
-      "signature": "abstract java.lang.String getTaglibLocation()"
+      "signature": "java.lang.String getTaglibLocation()"
     },
     {
       "key": "javax.servlet.descriptor.TaglibDescriptor#getTaglibURI()",
-      "signature": "abstract java.lang.String getTaglibURI()"
+      "signature": "java.lang.String getTaglibURI()"
     },
     {
       "key": "javax.servlet.http.Cookie#clone()",
@@ -1554,163 +1554,163 @@
     },
     {
       "key": "javax.servlet.http.HttpServletMapping#getMappingMatch()",
-      "signature": "abstract javax.servlet.http.MappingMatch getMappingMatch()"
+      "signature": "javax.servlet.http.MappingMatch getMappingMatch()"
     },
     {
       "key": "javax.servlet.http.HttpServletMapping#getMatchValue()",
-      "signature": "abstract java.lang.String getMatchValue()"
+      "signature": "java.lang.String getMatchValue()"
     },
     {
       "key": "javax.servlet.http.HttpServletMapping#getPattern()",
-      "signature": "abstract java.lang.String getPattern()"
+      "signature": "java.lang.String getPattern()"
     },
     {
       "key": "javax.servlet.http.HttpServletMapping#getServletName()",
-      "signature": "abstract java.lang.String getServletName()"
+      "signature": "java.lang.String getServletName()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#authenticate(javax.servlet.http.HttpServletResponse)",
-      "signature": "abstract boolean authenticate(javax.servlet.http.HttpServletResponse)"
+      "signature": "boolean authenticate(javax.servlet.http.HttpServletResponse)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#changeSessionId()",
-      "signature": "abstract java.lang.String changeSessionId()"
+      "signature": "java.lang.String changeSessionId()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getAuthType()",
-      "signature": "abstract java.lang.String getAuthType()"
+      "signature": "java.lang.String getAuthType()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getContextPath()",
-      "signature": "abstract java.lang.String getContextPath()"
+      "signature": "java.lang.String getContextPath()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getCookies()",
-      "signature": "abstract javax.servlet.http.Cookie[] getCookies()"
+      "signature": "javax.servlet.http.Cookie[] getCookies()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getDateHeader(java.lang.String)",
-      "signature": "abstract long getDateHeader(java.lang.String)"
+      "signature": "long getDateHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getHeaderNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getHeaderNames()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Enumeration<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getHttpServletMapping()",
-      "signature": "default javax.servlet.http.HttpServletMapping getHttpServletMapping()"
+      "signature": "javax.servlet.http.HttpServletMapping getHttpServletMapping()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getIntHeader(java.lang.String)",
-      "signature": "abstract int getIntHeader(java.lang.String)"
+      "signature": "int getIntHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getMethod()",
-      "signature": "abstract java.lang.String getMethod()"
+      "signature": "java.lang.String getMethod()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getPart(java.lang.String)",
-      "signature": "abstract javax.servlet.http.Part getPart(java.lang.String)"
+      "signature": "javax.servlet.http.Part getPart(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getParts()",
-      "signature": "abstract java.util.Collection<javax.servlet.http.Part> getParts()"
+      "signature": "java.util.Collection<javax.servlet.http.Part> getParts()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getPathInfo()",
-      "signature": "abstract java.lang.String getPathInfo()"
+      "signature": "java.lang.String getPathInfo()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getPathTranslated()",
-      "signature": "abstract java.lang.String getPathTranslated()"
+      "signature": "java.lang.String getPathTranslated()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getQueryString()",
-      "signature": "abstract java.lang.String getQueryString()"
+      "signature": "java.lang.String getQueryString()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getRemoteUser()",
-      "signature": "abstract java.lang.String getRemoteUser()"
+      "signature": "java.lang.String getRemoteUser()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getRequestURI()",
-      "signature": "abstract java.lang.String getRequestURI()"
+      "signature": "java.lang.String getRequestURI()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getRequestURL()",
-      "signature": "abstract java.lang.StringBuffer getRequestURL()"
+      "signature": "java.lang.StringBuffer getRequestURL()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getRequestedSessionId()",
-      "signature": "abstract java.lang.String getRequestedSessionId()"
+      "signature": "java.lang.String getRequestedSessionId()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getServletPath()",
-      "signature": "abstract java.lang.String getServletPath()"
+      "signature": "java.lang.String getServletPath()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getSession()",
-      "signature": "abstract javax.servlet.http.HttpSession getSession()"
+      "signature": "javax.servlet.http.HttpSession getSession()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getSession(boolean)",
-      "signature": "abstract javax.servlet.http.HttpSession getSession(boolean)"
+      "signature": "javax.servlet.http.HttpSession getSession(boolean)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getTrailerFields()",
-      "signature": "default java.util.Map<java.lang.String, java.lang.String> getTrailerFields()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getTrailerFields()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#getUserPrincipal()",
-      "signature": "abstract java.security.Principal getUserPrincipal()"
+      "signature": "java.security.Principal getUserPrincipal()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isRequestedSessionIdFromCookie()",
-      "signature": "abstract boolean isRequestedSessionIdFromCookie()"
+      "signature": "boolean isRequestedSessionIdFromCookie()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isRequestedSessionIdFromURL()",
-      "signature": "abstract boolean isRequestedSessionIdFromURL()"
+      "signature": "boolean isRequestedSessionIdFromURL()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isRequestedSessionIdFromUrl()",
-      "signature": "abstract boolean isRequestedSessionIdFromUrl()"
+      "signature": "boolean isRequestedSessionIdFromUrl()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isRequestedSessionIdValid()",
-      "signature": "abstract boolean isRequestedSessionIdValid()"
+      "signature": "boolean isRequestedSessionIdValid()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isTrailerFieldsReady()",
-      "signature": "default boolean isTrailerFieldsReady()"
+      "signature": "boolean isTrailerFieldsReady()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#isUserInRole(java.lang.String)",
-      "signature": "abstract boolean isUserInRole(java.lang.String)"
+      "signature": "boolean isUserInRole(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#login(java.lang.String, java.lang.String)",
-      "signature": "abstract void login(java.lang.String, java.lang.String)"
+      "signature": "void login(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#logout()",
-      "signature": "abstract void logout()"
+      "signature": "void logout()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#newPushBuilder()",
-      "signature": "default javax.servlet.http.PushBuilder newPushBuilder()"
+      "signature": "javax.servlet.http.PushBuilder newPushBuilder()"
     },
     {
       "key": "javax.servlet.http.HttpServletRequest#upgrade(java.lang.Class<T>)",
-      "signature": "abstract <T extends javax.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.http.HttpServletRequestWrapper#authenticate(javax.servlet.http.HttpServletResponse)",
@@ -1854,99 +1854,99 @@
     },
     {
       "key": "javax.servlet.http.HttpServletRequestWrapper#upgrade(java.lang.Class<T>)",
-      "signature": "<T extends javax.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#addCookie(javax.servlet.http.Cookie)",
-      "signature": "abstract void addCookie(javax.servlet.http.Cookie)"
+      "signature": "void addCookie(javax.servlet.http.Cookie)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#addDateHeader(java.lang.String, long)",
-      "signature": "abstract void addDateHeader(java.lang.String, long)"
+      "signature": "void addDateHeader(java.lang.String, long)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#addHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract void addHeader(java.lang.String, java.lang.String)"
+      "signature": "void addHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#addIntHeader(java.lang.String, int)",
-      "signature": "abstract void addIntHeader(java.lang.String, int)"
+      "signature": "void addIntHeader(java.lang.String, int)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#containsHeader(java.lang.String)",
-      "signature": "abstract boolean containsHeader(java.lang.String)"
+      "signature": "boolean containsHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#encodeRedirectURL(java.lang.String)",
-      "signature": "abstract java.lang.String encodeRedirectURL(java.lang.String)"
+      "signature": "java.lang.String encodeRedirectURL(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#encodeRedirectUrl(java.lang.String)",
-      "signature": "abstract java.lang.String encodeRedirectUrl(java.lang.String)"
+      "signature": "java.lang.String encodeRedirectUrl(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#encodeURL(java.lang.String)",
-      "signature": "abstract java.lang.String encodeURL(java.lang.String)"
+      "signature": "java.lang.String encodeURL(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#encodeUrl(java.lang.String)",
-      "signature": "abstract java.lang.String encodeUrl(java.lang.String)"
+      "signature": "java.lang.String encodeUrl(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#getHeaderNames()",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Collection<java.lang.String> getHeaderNames()"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#getStatus()",
-      "signature": "abstract int getStatus()"
+      "signature": "int getStatus()"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#getTrailerFields()",
-      "signature": "default java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>> getTrailerFields()"
+      "signature": "java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>> getTrailerFields()"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#sendError(int)",
-      "signature": "abstract void sendError(int)"
+      "signature": "void sendError(int)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#sendError(int, java.lang.String)",
-      "signature": "abstract void sendError(int, java.lang.String)"
+      "signature": "void sendError(int, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#sendRedirect(java.lang.String)",
-      "signature": "abstract void sendRedirect(java.lang.String)"
+      "signature": "void sendRedirect(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setDateHeader(java.lang.String, long)",
-      "signature": "abstract void setDateHeader(java.lang.String, long)"
+      "signature": "void setDateHeader(java.lang.String, long)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract void setHeader(java.lang.String, java.lang.String)"
+      "signature": "void setHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setIntHeader(java.lang.String, int)",
-      "signature": "abstract void setIntHeader(java.lang.String, int)"
+      "signature": "void setIntHeader(java.lang.String, int)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setStatus(int)",
-      "signature": "abstract void setStatus(int)"
+      "signature": "void setStatus(int)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setStatus(int, java.lang.String)",
-      "signature": "abstract void setStatus(int, java.lang.String)"
+      "signature": "void setStatus(int, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponse#setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)",
-      "signature": "default void setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)"
+      "signature": "void setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)"
     },
     {
       "key": "javax.servlet.http.HttpServletResponseWrapper#addCookie(javax.servlet.http.Cookie)",
@@ -2042,91 +2042,91 @@
     },
     {
       "key": "javax.servlet.http.HttpSession#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSession#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getCreationTime()",
-      "signature": "abstract long getCreationTime()"
+      "signature": "long getCreationTime()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getId()",
-      "signature": "abstract java.lang.String getId()"
+      "signature": "java.lang.String getId()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getLastAccessedTime()",
-      "signature": "abstract long getLastAccessedTime()"
+      "signature": "long getLastAccessedTime()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getMaxInactiveInterval()",
-      "signature": "abstract int getMaxInactiveInterval()"
+      "signature": "int getMaxInactiveInterval()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getServletContext()",
-      "signature": "abstract javax.servlet.ServletContext getServletContext()"
+      "signature": "javax.servlet.ServletContext getServletContext()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getSessionContext()",
-      "signature": "abstract javax.servlet.http.HttpSessionContext getSessionContext()"
+      "signature": "javax.servlet.http.HttpSessionContext getSessionContext()"
     },
     {
       "key": "javax.servlet.http.HttpSession#getValue(java.lang.String)",
-      "signature": "abstract java.lang.Object getValue(java.lang.String)"
+      "signature": "java.lang.Object getValue(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSession#getValueNames()",
-      "signature": "abstract java.lang.String[] getValueNames()"
+      "signature": "java.lang.String[] getValueNames()"
     },
     {
       "key": "javax.servlet.http.HttpSession#invalidate()",
-      "signature": "abstract void invalidate()"
+      "signature": "void invalidate()"
     },
     {
       "key": "javax.servlet.http.HttpSession#isNew()",
-      "signature": "abstract boolean isNew()"
+      "signature": "boolean isNew()"
     },
     {
       "key": "javax.servlet.http.HttpSession#putValue(java.lang.String, java.lang.Object)",
-      "signature": "abstract void putValue(java.lang.String, java.lang.Object)"
+      "signature": "void putValue(java.lang.String, java.lang.Object)"
     },
     {
       "key": "javax.servlet.http.HttpSession#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSession#removeValue(java.lang.String)",
-      "signature": "abstract void removeValue(java.lang.String)"
+      "signature": "void removeValue(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSession#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "javax.servlet.http.HttpSession#setMaxInactiveInterval(int)",
-      "signature": "abstract void setMaxInactiveInterval(int)"
+      "signature": "void setMaxInactiveInterval(int)"
     },
     {
       "key": "javax.servlet.http.HttpSessionActivationListener#sessionDidActivate(javax.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionDidActivate(javax.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionDidActivate(javax.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionActivationListener#sessionWillPassivate(javax.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionWillPassivate(javax.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionWillPassivate(javax.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionAttributeListener#attributeAdded(javax.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeAdded(javax.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeAdded(javax.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionAttributeListener#attributeRemoved(javax.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeRemoved(javax.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeRemoved(javax.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionAttributeListener#attributeReplaced(javax.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeReplaced(javax.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeReplaced(javax.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionBindingEvent#getName()",
@@ -2142,19 +2142,19 @@
     },
     {
       "key": "javax.servlet.http.HttpSessionBindingListener#valueBound(javax.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void valueBound(javax.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void valueBound(javax.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionBindingListener#valueUnbound(javax.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void valueUnbound(javax.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void valueUnbound(javax.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionContext#getIds()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getIds()"
+      "signature": "java.util.Enumeration<java.lang.String> getIds()"
     },
     {
       "key": "javax.servlet.http.HttpSessionContext#getSession(java.lang.String)",
-      "signature": "abstract javax.servlet.http.HttpSession getSession(java.lang.String)"
+      "signature": "javax.servlet.http.HttpSession getSession(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSessionEvent#getSession()",
@@ -2162,23 +2162,23 @@
     },
     {
       "key": "javax.servlet.http.HttpSessionIdListener#sessionIdChanged(javax.servlet.http.HttpSessionEvent, java.lang.String)",
-      "signature": "abstract void sessionIdChanged(javax.servlet.http.HttpSessionEvent, java.lang.String)"
+      "signature": "void sessionIdChanged(javax.servlet.http.HttpSessionEvent, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.HttpSessionListener#sessionCreated(javax.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionCreated(javax.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionCreated(javax.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "javax.servlet.http.HttpSessionListener#sessionDestroyed(javax.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionDestroyed(javax.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionDestroyed(javax.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "javax.servlet.http.HttpUpgradeHandler#destroy()",
-      "signature": "abstract void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "javax.servlet.http.HttpUpgradeHandler#init(javax.servlet.http.WebConnection)",
-      "signature": "abstract void init(javax.servlet.http.WebConnection)"
+      "signature": "void init(javax.servlet.http.WebConnection)"
     },
     {
       "key": "javax.servlet.http.HttpUtils#getRequestURL(javax.servlet.http.HttpServletRequest)",
@@ -2250,161 +2250,161 @@
     },
     {
       "key": "javax.servlet.http.Part#delete()",
-      "signature": "abstract void delete()"
+      "signature": "void delete()"
     },
     {
       "key": "javax.servlet.http.Part#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "javax.servlet.http.Part#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.Part#getHeaderNames()",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Collection<java.lang.String> getHeaderNames()"
     },
     {
       "key": "javax.servlet.http.Part#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.Part#getInputStream()",
-      "signature": "abstract java.io.InputStream getInputStream()"
+      "signature": "java.io.InputStream getInputStream()"
     },
     {
       "key": "javax.servlet.http.Part#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "javax.servlet.http.Part#getSize()",
-      "signature": "abstract long getSize()"
+      "signature": "long getSize()"
     },
     {
       "key": "javax.servlet.http.Part#getSubmittedFileName()",
-      "signature": "abstract java.lang.String getSubmittedFileName()"
+      "signature": "java.lang.String getSubmittedFileName()"
     },
     {
       "key": "javax.servlet.http.Part#write(java.lang.String)",
-      "signature": "abstract void write(java.lang.String)"
+      "signature": "void write(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#addHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder addHeader(java.lang.String, java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder addHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getHeaderNames()",
-      "signature": "abstract java.util.Set<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Set<java.lang.String> getHeaderNames()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getMethod()",
-      "signature": "abstract java.lang.String getMethod()"
+      "signature": "java.lang.String getMethod()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getPath()",
-      "signature": "abstract java.lang.String getPath()"
+      "signature": "java.lang.String getPath()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getQueryString()",
-      "signature": "abstract java.lang.String getQueryString()"
+      "signature": "java.lang.String getQueryString()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#getSessionId()",
-      "signature": "abstract java.lang.String getSessionId()"
+      "signature": "java.lang.String getSessionId()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#method(java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder method(java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder method(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#path(java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder path(java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder path(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#push()",
-      "signature": "abstract void push()"
+      "signature": "void push()"
     },
     {
       "key": "javax.servlet.http.PushBuilder#queryString(java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder queryString(java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder queryString(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#removeHeader(java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder removeHeader(java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder removeHeader(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#sessionId(java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder sessionId(java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder sessionId(java.lang.String)"
     },
     {
       "key": "javax.servlet.http.PushBuilder#setHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract javax.servlet.http.PushBuilder setHeader(java.lang.String, java.lang.String)"
+      "signature": "javax.servlet.http.PushBuilder setHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "javax.servlet.http.WebConnection#getInputStream()",
-      "signature": "abstract javax.servlet.ServletInputStream getInputStream()"
+      "signature": "javax.servlet.ServletInputStream getInputStream()"
     },
     {
       "key": "javax.servlet.http.WebConnection#getOutputStream()",
-      "signature": "abstract javax.servlet.ServletOutputStream getOutputStream()"
+      "signature": "javax.servlet.ServletOutputStream getOutputStream()"
     }
   ],
   "added": [
     {
       "key": "jakarta.servlet.AsyncContext#addListener(jakarta.servlet.AsyncListener)",
-      "signature": "abstract void addListener(jakarta.servlet.AsyncListener)"
+      "signature": "void addListener(jakarta.servlet.AsyncListener)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#addListener(jakarta.servlet.AsyncListener, jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void addListener(jakarta.servlet.AsyncListener, jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void addListener(jakarta.servlet.AsyncListener, jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#complete()",
-      "signature": "abstract void complete()"
+      "signature": "void complete()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#createListener(java.lang.Class<T>)",
-      "signature": "abstract <T extends jakarta.servlet.AsyncListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#dispatch()",
-      "signature": "abstract void dispatch()"
+      "signature": "void dispatch()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#dispatch(jakarta.servlet.ServletContext, java.lang.String)",
-      "signature": "abstract void dispatch(jakarta.servlet.ServletContext, java.lang.String)"
+      "signature": "void dispatch(jakarta.servlet.ServletContext, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#dispatch(java.lang.String)",
-      "signature": "abstract void dispatch(java.lang.String)"
+      "signature": "void dispatch(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#getRequest()",
-      "signature": "abstract jakarta.servlet.ServletRequest getRequest()"
+      "signature": "jakarta.servlet.ServletRequest getRequest()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#getResponse()",
-      "signature": "abstract jakarta.servlet.ServletResponse getResponse()"
+      "signature": "jakarta.servlet.ServletResponse getResponse()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#getTimeout()",
-      "signature": "abstract long getTimeout()"
+      "signature": "long getTimeout()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#hasOriginalRequestAndResponse()",
-      "signature": "abstract boolean hasOriginalRequestAndResponse()"
+      "signature": "boolean hasOriginalRequestAndResponse()"
     },
     {
       "key": "jakarta.servlet.AsyncContext#setTimeout(long)",
-      "signature": "abstract void setTimeout(long)"
+      "signature": "void setTimeout(long)"
     },
     {
       "key": "jakarta.servlet.AsyncContext#start(java.lang.Runnable)",
-      "signature": "abstract void start(java.lang.Runnable)"
+      "signature": "void start(java.lang.Runnable)"
     },
     {
       "key": "jakarta.servlet.AsyncEvent#getAsyncContext()",
@@ -2424,19 +2424,19 @@
     },
     {
       "key": "jakarta.servlet.AsyncListener#onComplete(jakarta.servlet.AsyncEvent)",
-      "signature": "abstract void onComplete(jakarta.servlet.AsyncEvent)"
+      "signature": "void onComplete(jakarta.servlet.AsyncEvent)"
     },
     {
       "key": "jakarta.servlet.AsyncListener#onError(jakarta.servlet.AsyncEvent)",
-      "signature": "abstract void onError(jakarta.servlet.AsyncEvent)"
+      "signature": "void onError(jakarta.servlet.AsyncEvent)"
     },
     {
       "key": "jakarta.servlet.AsyncListener#onStartAsync(jakarta.servlet.AsyncEvent)",
-      "signature": "abstract void onStartAsync(jakarta.servlet.AsyncEvent)"
+      "signature": "void onStartAsync(jakarta.servlet.AsyncEvent)"
     },
     {
       "key": "jakarta.servlet.AsyncListener#onTimeout(jakarta.servlet.AsyncEvent)",
-      "signature": "abstract void onTimeout(jakarta.servlet.AsyncEvent)"
+      "signature": "void onTimeout(jakarta.servlet.AsyncEvent)"
     },
     {
       "key": "jakarta.servlet.DispatcherType#valueOf(java.lang.String)",
@@ -2448,51 +2448,51 @@
     },
     {
       "key": "jakarta.servlet.Filter#destroy()",
-      "signature": "default void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "jakarta.servlet.Filter#doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)",
-      "signature": "abstract void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)"
+      "signature": "void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse, jakarta.servlet.FilterChain)"
     },
     {
       "key": "jakarta.servlet.Filter#init(jakarta.servlet.FilterConfig)",
-      "signature": "default void init(jakarta.servlet.FilterConfig)"
+      "signature": "void init(jakarta.servlet.FilterConfig)"
     },
     {
       "key": "jakarta.servlet.FilterChain#doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void doFilter(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.FilterConfig#getFilterName()",
-      "signature": "abstract java.lang.String getFilterName()"
+      "signature": "java.lang.String getFilterName()"
     },
     {
       "key": "jakarta.servlet.FilterConfig#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.FilterConfig#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "jakarta.servlet.FilterConfig#getServletContext()",
-      "signature": "abstract jakarta.servlet.ServletContext getServletContext()"
+      "signature": "jakarta.servlet.ServletContext getServletContext()"
     },
     {
       "key": "jakarta.servlet.FilterRegistration#addMappingForServletNames(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)",
-      "signature": "abstract void addMappingForServletNames(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)"
+      "signature": "void addMappingForServletNames(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)"
     },
     {
       "key": "jakarta.servlet.FilterRegistration#addMappingForUrlPatterns(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)",
-      "signature": "abstract void addMappingForUrlPatterns(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)"
+      "signature": "void addMappingForUrlPatterns(java.util.EnumSet<jakarta.servlet.DispatcherType>, boolean, java.lang.String...)"
     },
     {
       "key": "jakarta.servlet.FilterRegistration#getServletNameMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getServletNameMappings()"
+      "signature": "java.util.Collection<java.lang.String> getServletNameMappings()"
     },
     {
       "key": "jakarta.servlet.FilterRegistration#getUrlPatternMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getUrlPatternMappings()"
+      "signature": "java.util.Collection<java.lang.String> getUrlPatternMappings()"
     },
     {
       "key": "jakarta.servlet.GenericFilter#getFilterConfig()",
@@ -2568,7 +2568,7 @@
     },
     {
       "key": "jakarta.servlet.GenericServlet#service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.HttpConstraintElement#getRolesAllowed()",
@@ -2596,299 +2596,299 @@
     },
     {
       "key": "jakarta.servlet.ReadListener#onAllDataRead()",
-      "signature": "abstract void onAllDataRead()"
+      "signature": "void onAllDataRead()"
     },
     {
       "key": "jakarta.servlet.ReadListener#onDataAvailable()",
-      "signature": "abstract void onDataAvailable()"
+      "signature": "void onDataAvailable()"
     },
     {
       "key": "jakarta.servlet.ReadListener#onError(java.lang.Throwable)",
-      "signature": "abstract void onError(java.lang.Throwable)"
+      "signature": "void onError(java.lang.Throwable)"
     },
     {
       "key": "jakarta.servlet.Registration#getClassName()",
-      "signature": "abstract java.lang.String getClassName()"
+      "signature": "java.lang.String getClassName()"
     },
     {
       "key": "jakarta.servlet.Registration#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.Registration#getInitParameters()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getInitParameters()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getInitParameters()"
     },
     {
       "key": "jakarta.servlet.Registration#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "jakarta.servlet.Registration#setInitParameter(java.lang.String, java.lang.String)",
-      "signature": "abstract boolean setInitParameter(java.lang.String, java.lang.String)"
+      "signature": "boolean setInitParameter(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.Registration#setInitParameters(java.util.Map<java.lang.String, java.lang.String>)",
-      "signature": "abstract java.util.Set<java.lang.String> setInitParameters(java.util.Map<java.lang.String, java.lang.String>)"
+      "signature": "java.util.Set<java.lang.String> setInitParameters(java.util.Map<java.lang.String, java.lang.String>)"
     },
     {
       "key": "jakarta.servlet.Registration$Dynamic#setAsyncSupported(boolean)",
-      "signature": "abstract void setAsyncSupported(boolean)"
+      "signature": "void setAsyncSupported(boolean)"
     },
     {
       "key": "jakarta.servlet.RequestDispatcher#forward(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void forward(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void forward(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.RequestDispatcher#include(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void include(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void include(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.Servlet#destroy()",
-      "signature": "abstract void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "jakarta.servlet.Servlet#getServletConfig()",
-      "signature": "abstract jakarta.servlet.ServletConfig getServletConfig()"
+      "signature": "jakarta.servlet.ServletConfig getServletConfig()"
     },
     {
       "key": "jakarta.servlet.Servlet#getServletInfo()",
-      "signature": "abstract java.lang.String getServletInfo()"
+      "signature": "java.lang.String getServletInfo()"
     },
     {
       "key": "jakarta.servlet.Servlet#init(jakarta.servlet.ServletConfig)",
-      "signature": "abstract void init(jakarta.servlet.ServletConfig)"
+      "signature": "void init(jakarta.servlet.ServletConfig)"
     },
     {
       "key": "jakarta.servlet.Servlet#service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract void service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "void service(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.ServletConfig#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletConfig#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "jakarta.servlet.ServletConfig#getServletContext()",
-      "signature": "abstract jakarta.servlet.ServletContext getServletContext()"
+      "signature": "jakarta.servlet.ServletContext getServletContext()"
     },
     {
       "key": "jakarta.servlet.ServletConfig#getServletName()",
-      "signature": "abstract java.lang.String getServletName()"
+      "signature": "java.lang.String getServletName()"
     },
     {
       "key": "jakarta.servlet.ServletConnection#getConnectionId()",
-      "signature": "abstract java.lang.String getConnectionId()"
+      "signature": "java.lang.String getConnectionId()"
     },
     {
       "key": "jakarta.servlet.ServletConnection#getProtocol()",
-      "signature": "abstract java.lang.String getProtocol()"
+      "signature": "java.lang.String getProtocol()"
     },
     {
       "key": "jakarta.servlet.ServletConnection#getProtocolConnectionId()",
-      "signature": "abstract java.lang.String getProtocolConnectionId()"
+      "signature": "java.lang.String getProtocolConnectionId()"
     },
     {
       "key": "jakarta.servlet.ServletConnection#isSecure()",
-      "signature": "abstract boolean isSecure()"
+      "signature": "boolean isSecure()"
     },
     {
       "key": "jakarta.servlet.ServletContainerInitializer#onStartup(java.util.Set<java.lang.Class<?>>, jakarta.servlet.ServletContext)",
-      "signature": "abstract void onStartup(java.util.Set<java.lang.Class<?>>, jakarta.servlet.ServletContext)"
+      "signature": "void onStartup(java.util.Set<java.lang.Class<?>>, jakarta.servlet.ServletContext)"
     },
     {
       "key": "jakarta.servlet.ServletContext#addListener(T)",
-      "signature": "abstract <T extends java.util.EventListener> void addListener(T)"
+      "signature": "void addListener(T)"
     },
     {
       "key": "jakarta.servlet.ServletContext#addListener(java.lang.Class<? extends java.util.EventListener>)",
-      "signature": "abstract void addListener(java.lang.Class<? extends java.util.EventListener>)"
+      "signature": "void addListener(java.lang.Class<? extends java.util.EventListener>)"
     },
     {
       "key": "jakarta.servlet.ServletContext#addListener(java.lang.String)",
-      "signature": "abstract void addListener(java.lang.String)"
+      "signature": "void addListener(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#createFilter(java.lang.Class<T>)",
-      "signature": "abstract <T extends jakarta.servlet.Filter> T createFilter(java.lang.Class<T>)"
+      "signature": "T createFilter(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.ServletContext#createListener(java.lang.Class<T>)",
-      "signature": "abstract <T extends java.util.EventListener> T createListener(java.lang.Class<T>)"
+      "signature": "T createListener(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.ServletContext#createServlet(java.lang.Class<T>)",
-      "signature": "abstract <T extends jakarta.servlet.Servlet> T createServlet(java.lang.Class<T>)"
+      "signature": "T createServlet(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.ServletContext#declareRoles(java.lang.String...)",
-      "signature": "abstract void declareRoles(java.lang.String...)"
+      "signature": "void declareRoles(java.lang.String...)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getClassLoader()",
-      "signature": "abstract java.lang.ClassLoader getClassLoader()"
+      "signature": "java.lang.ClassLoader getClassLoader()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getContext(java.lang.String)",
-      "signature": "abstract jakarta.servlet.ServletContext getContext(java.lang.String)"
+      "signature": "jakarta.servlet.ServletContext getContext(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getContextPath()",
-      "signature": "abstract java.lang.String getContextPath()"
+      "signature": "java.lang.String getContextPath()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getDefaultSessionTrackingModes()",
-      "signature": "abstract java.util.Set<jakarta.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
+      "signature": "java.util.Set<jakarta.servlet.SessionTrackingMode> getDefaultSessionTrackingModes()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getEffectiveMajorVersion()",
-      "signature": "abstract int getEffectiveMajorVersion()"
+      "signature": "int getEffectiveMajorVersion()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getEffectiveMinorVersion()",
-      "signature": "abstract int getEffectiveMinorVersion()"
+      "signature": "int getEffectiveMinorVersion()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getEffectiveSessionTrackingModes()",
-      "signature": "abstract java.util.Set<jakarta.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
+      "signature": "java.util.Set<jakarta.servlet.SessionTrackingMode> getEffectiveSessionTrackingModes()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getFilterRegistration(java.lang.String)",
-      "signature": "abstract jakarta.servlet.FilterRegistration getFilterRegistration(java.lang.String)"
+      "signature": "jakarta.servlet.FilterRegistration getFilterRegistration(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getFilterRegistrations()",
-      "signature": "abstract java.util.Map<java.lang.String, ? extends jakarta.servlet.FilterRegistration> getFilterRegistrations()"
+      "signature": "java.util.Map<java.lang.String, ? extends jakarta.servlet.FilterRegistration> getFilterRegistrations()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getInitParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getInitParameter(java.lang.String)"
+      "signature": "java.lang.String getInitParameter(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getInitParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getInitParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getInitParameterNames()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getJspConfigDescriptor()",
-      "signature": "abstract jakarta.servlet.descriptor.JspConfigDescriptor getJspConfigDescriptor()"
+      "signature": "jakarta.servlet.descriptor.JspConfigDescriptor getJspConfigDescriptor()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getMajorVersion()",
-      "signature": "abstract int getMajorVersion()"
+      "signature": "int getMajorVersion()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getMimeType(java.lang.String)",
-      "signature": "abstract java.lang.String getMimeType(java.lang.String)"
+      "signature": "java.lang.String getMimeType(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getMinorVersion()",
-      "signature": "abstract int getMinorVersion()"
+      "signature": "int getMinorVersion()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getNamedDispatcher(java.lang.String)",
-      "signature": "abstract jakarta.servlet.RequestDispatcher getNamedDispatcher(java.lang.String)"
+      "signature": "jakarta.servlet.RequestDispatcher getNamedDispatcher(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getRealPath(java.lang.String)",
-      "signature": "abstract java.lang.String getRealPath(java.lang.String)"
+      "signature": "java.lang.String getRealPath(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getRequestCharacterEncoding()",
-      "signature": "abstract java.lang.String getRequestCharacterEncoding()"
+      "signature": "java.lang.String getRequestCharacterEncoding()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getRequestDispatcher(java.lang.String)",
-      "signature": "abstract jakarta.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
+      "signature": "jakarta.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getResource(java.lang.String)",
-      "signature": "abstract java.net.URL getResource(java.lang.String)"
+      "signature": "java.net.URL getResource(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getResourceAsStream(java.lang.String)",
-      "signature": "abstract java.io.InputStream getResourceAsStream(java.lang.String)"
+      "signature": "java.io.InputStream getResourceAsStream(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getResourcePaths(java.lang.String)",
-      "signature": "abstract java.util.Set<java.lang.String> getResourcePaths(java.lang.String)"
+      "signature": "java.util.Set<java.lang.String> getResourcePaths(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getResponseCharacterEncoding()",
-      "signature": "abstract java.lang.String getResponseCharacterEncoding()"
+      "signature": "java.lang.String getResponseCharacterEncoding()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getServerInfo()",
-      "signature": "abstract java.lang.String getServerInfo()"
+      "signature": "java.lang.String getServerInfo()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getServletContextName()",
-      "signature": "abstract java.lang.String getServletContextName()"
+      "signature": "java.lang.String getServletContextName()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getServletRegistration(java.lang.String)",
-      "signature": "abstract jakarta.servlet.ServletRegistration getServletRegistration(java.lang.String)"
+      "signature": "jakarta.servlet.ServletRegistration getServletRegistration(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#getServletRegistrations()",
-      "signature": "abstract java.util.Map<java.lang.String, ? extends jakarta.servlet.ServletRegistration> getServletRegistrations()"
+      "signature": "java.util.Map<java.lang.String, ? extends jakarta.servlet.ServletRegistration> getServletRegistrations()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getSessionCookieConfig()",
-      "signature": "abstract jakarta.servlet.SessionCookieConfig getSessionCookieConfig()"
+      "signature": "jakarta.servlet.SessionCookieConfig getSessionCookieConfig()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getSessionTimeout()",
-      "signature": "abstract int getSessionTimeout()"
+      "signature": "int getSessionTimeout()"
     },
     {
       "key": "jakarta.servlet.ServletContext#getVirtualServerName()",
-      "signature": "abstract java.lang.String getVirtualServerName()"
+      "signature": "java.lang.String getVirtualServerName()"
     },
     {
       "key": "jakarta.servlet.ServletContext#log(java.lang.String)",
-      "signature": "abstract void log(java.lang.String)"
+      "signature": "void log(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#log(java.lang.String, java.lang.Throwable)",
-      "signature": "abstract void log(java.lang.String, java.lang.Throwable)"
+      "signature": "void log(java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "jakarta.servlet.ServletContext#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setInitParameter(java.lang.String, java.lang.String)",
-      "signature": "abstract boolean setInitParameter(java.lang.String, java.lang.String)"
+      "signature": "boolean setInitParameter(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setRequestCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setRequestCharacterEncoding(java.lang.String)"
+      "signature": "void setRequestCharacterEncoding(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setResponseCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setResponseCharacterEncoding(java.lang.String)"
+      "signature": "void setResponseCharacterEncoding(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setSessionTimeout(int)",
-      "signature": "abstract void setSessionTimeout(int)"
+      "signature": "void setSessionTimeout(int)"
     },
     {
       "key": "jakarta.servlet.ServletContext#setSessionTrackingModes(java.util.Set<jakarta.servlet.SessionTrackingMode>)",
-      "signature": "abstract void setSessionTrackingModes(java.util.Set<jakarta.servlet.SessionTrackingMode>)"
+      "signature": "void setSessionTrackingModes(java.util.Set<jakarta.servlet.SessionTrackingMode>)"
     },
     {
       "key": "jakarta.servlet.ServletContextAttributeEvent#getName()",
@@ -2900,15 +2900,15 @@
     },
     {
       "key": "jakarta.servlet.ServletContextAttributeListener#attributeAdded(jakarta.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeAdded(jakarta.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeAdded(jakarta.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletContextAttributeListener#attributeRemoved(jakarta.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeRemoved(jakarta.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeRemoved(jakarta.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletContextAttributeListener#attributeReplaced(jakarta.servlet.ServletContextAttributeEvent)",
-      "signature": "default void attributeReplaced(jakarta.servlet.ServletContextAttributeEvent)"
+      "signature": "void attributeReplaced(jakarta.servlet.ServletContextAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletContextEvent#getServletContext()",
@@ -2916,11 +2916,11 @@
     },
     {
       "key": "jakarta.servlet.ServletContextListener#contextDestroyed(jakarta.servlet.ServletContextEvent)",
-      "signature": "default void contextDestroyed(jakarta.servlet.ServletContextEvent)"
+      "signature": "void contextDestroyed(jakarta.servlet.ServletContextEvent)"
     },
     {
       "key": "jakarta.servlet.ServletContextListener#contextInitialized(jakarta.servlet.ServletContextEvent)",
-      "signature": "default void contextInitialized(jakarta.servlet.ServletContextEvent)"
+      "signature": "void contextInitialized(jakarta.servlet.ServletContextEvent)"
     },
     {
       "key": "jakarta.servlet.ServletException#getRootCause()",
@@ -2928,11 +2928,11 @@
     },
     {
       "key": "jakarta.servlet.ServletInputStream#isFinished()",
-      "signature": "abstract boolean isFinished()"
+      "signature": "boolean isFinished()"
     },
     {
       "key": "jakarta.servlet.ServletInputStream#isReady()",
-      "signature": "abstract boolean isReady()"
+      "signature": "boolean isReady()"
     },
     {
       "key": "jakarta.servlet.ServletInputStream#readLine(byte[], int, int)",
@@ -2940,11 +2940,11 @@
     },
     {
       "key": "jakarta.servlet.ServletInputStream#setReadListener(jakarta.servlet.ReadListener)",
-      "signature": "abstract void setReadListener(jakarta.servlet.ReadListener)"
+      "signature": "void setReadListener(jakarta.servlet.ReadListener)"
     },
     {
       "key": "jakarta.servlet.ServletOutputStream#isReady()",
-      "signature": "abstract boolean isReady()"
+      "signature": "boolean isReady()"
     },
     {
       "key": "jakarta.servlet.ServletOutputStream#print(boolean)",
@@ -3008,191 +3008,191 @@
     },
     {
       "key": "jakarta.servlet.ServletOutputStream#setWriteListener(jakarta.servlet.WriteListener)",
-      "signature": "abstract void setWriteListener(jakarta.servlet.WriteListener)"
+      "signature": "void setWriteListener(jakarta.servlet.WriteListener)"
     },
     {
       "key": "jakarta.servlet.ServletRegistration#addMapping(java.lang.String...)",
-      "signature": "abstract java.util.Set<java.lang.String> addMapping(java.lang.String...)"
+      "signature": "java.util.Set<java.lang.String> addMapping(java.lang.String...)"
     },
     {
       "key": "jakarta.servlet.ServletRegistration#getMappings()",
-      "signature": "abstract java.util.Collection<java.lang.String> getMappings()"
+      "signature": "java.util.Collection<java.lang.String> getMappings()"
     },
     {
       "key": "jakarta.servlet.ServletRegistration#getRunAsRole()",
-      "signature": "abstract java.lang.String getRunAsRole()"
+      "signature": "java.lang.String getRunAsRole()"
     },
     {
       "key": "jakarta.servlet.ServletRegistration$Dynamic#setLoadOnStartup(int)",
-      "signature": "abstract void setLoadOnStartup(int)"
+      "signature": "void setLoadOnStartup(int)"
     },
     {
       "key": "jakarta.servlet.ServletRegistration$Dynamic#setMultipartConfig(jakarta.servlet.MultipartConfigElement)",
-      "signature": "abstract void setMultipartConfig(jakarta.servlet.MultipartConfigElement)"
+      "signature": "void setMultipartConfig(jakarta.servlet.MultipartConfigElement)"
     },
     {
       "key": "jakarta.servlet.ServletRegistration$Dynamic#setRunAsRole(java.lang.String)",
-      "signature": "abstract void setRunAsRole(java.lang.String)"
+      "signature": "void setRunAsRole(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRegistration$Dynamic#setServletSecurity(jakarta.servlet.ServletSecurityElement)",
-      "signature": "abstract java.util.Set<java.lang.String> setServletSecurity(jakarta.servlet.ServletSecurityElement)"
+      "signature": "java.util.Set<java.lang.String> setServletSecurity(jakarta.servlet.ServletSecurityElement)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getAsyncContext()",
-      "signature": "abstract jakarta.servlet.AsyncContext getAsyncContext()"
+      "signature": "jakarta.servlet.AsyncContext getAsyncContext()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getCharacterEncoding()",
-      "signature": "abstract java.lang.String getCharacterEncoding()"
+      "signature": "java.lang.String getCharacterEncoding()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getContentLength()",
-      "signature": "abstract int getContentLength()"
+      "signature": "int getContentLength()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getContentLengthLong()",
-      "signature": "abstract long getContentLengthLong()"
+      "signature": "long getContentLengthLong()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getDispatcherType()",
-      "signature": "abstract jakarta.servlet.DispatcherType getDispatcherType()"
+      "signature": "jakarta.servlet.DispatcherType getDispatcherType()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getInputStream()",
-      "signature": "abstract jakarta.servlet.ServletInputStream getInputStream()"
+      "signature": "jakarta.servlet.ServletInputStream getInputStream()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getLocalAddr()",
-      "signature": "abstract java.lang.String getLocalAddr()"
+      "signature": "java.lang.String getLocalAddr()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getLocalName()",
-      "signature": "abstract java.lang.String getLocalName()"
+      "signature": "java.lang.String getLocalName()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getLocalPort()",
-      "signature": "abstract int getLocalPort()"
+      "signature": "int getLocalPort()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getLocale()",
-      "signature": "abstract java.util.Locale getLocale()"
+      "signature": "java.util.Locale getLocale()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getLocales()",
-      "signature": "abstract java.util.Enumeration<java.util.Locale> getLocales()"
+      "signature": "java.util.Enumeration<java.util.Locale> getLocales()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getParameter(java.lang.String)",
-      "signature": "abstract java.lang.String getParameter(java.lang.String)"
+      "signature": "java.lang.String getParameter(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getParameterMap()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String[]> getParameterMap()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String[]> getParameterMap()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getParameterNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getParameterNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getParameterNames()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getParameterValues(java.lang.String)",
-      "signature": "abstract java.lang.String[] getParameterValues(java.lang.String)"
+      "signature": "java.lang.String[] getParameterValues(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getProtocol()",
-      "signature": "abstract java.lang.String getProtocol()"
+      "signature": "java.lang.String getProtocol()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getProtocolRequestId()",
-      "signature": "abstract java.lang.String getProtocolRequestId()"
+      "signature": "java.lang.String getProtocolRequestId()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getReader()",
-      "signature": "abstract java.io.BufferedReader getReader()"
+      "signature": "java.io.BufferedReader getReader()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getRemoteAddr()",
-      "signature": "abstract java.lang.String getRemoteAddr()"
+      "signature": "java.lang.String getRemoteAddr()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getRemoteHost()",
-      "signature": "abstract java.lang.String getRemoteHost()"
+      "signature": "java.lang.String getRemoteHost()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getRemotePort()",
-      "signature": "abstract int getRemotePort()"
+      "signature": "int getRemotePort()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getRequestDispatcher(java.lang.String)",
-      "signature": "abstract jakarta.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
+      "signature": "jakarta.servlet.RequestDispatcher getRequestDispatcher(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getRequestId()",
-      "signature": "abstract java.lang.String getRequestId()"
+      "signature": "java.lang.String getRequestId()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getScheme()",
-      "signature": "abstract java.lang.String getScheme()"
+      "signature": "java.lang.String getScheme()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getServerName()",
-      "signature": "abstract java.lang.String getServerName()"
+      "signature": "java.lang.String getServerName()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getServerPort()",
-      "signature": "abstract int getServerPort()"
+      "signature": "int getServerPort()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getServletConnection()",
-      "signature": "abstract jakarta.servlet.ServletConnection getServletConnection()"
+      "signature": "jakarta.servlet.ServletConnection getServletConnection()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#getServletContext()",
-      "signature": "abstract jakarta.servlet.ServletContext getServletContext()"
+      "signature": "jakarta.servlet.ServletContext getServletContext()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#isAsyncStarted()",
-      "signature": "abstract boolean isAsyncStarted()"
+      "signature": "boolean isAsyncStarted()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#isAsyncSupported()",
-      "signature": "abstract boolean isAsyncSupported()"
+      "signature": "boolean isAsyncSupported()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#isSecure()",
-      "signature": "abstract boolean isSecure()"
+      "signature": "boolean isSecure()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#setCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setCharacterEncoding(java.lang.String)"
+      "signature": "void setCharacterEncoding(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletRequest#startAsync()",
-      "signature": "abstract jakarta.servlet.AsyncContext startAsync()"
+      "signature": "jakarta.servlet.AsyncContext startAsync()"
     },
     {
       "key": "jakarta.servlet.ServletRequest#startAsync(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)",
-      "signature": "abstract jakarta.servlet.AsyncContext startAsync(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
+      "signature": "jakarta.servlet.AsyncContext startAsync(jakarta.servlet.ServletRequest, jakarta.servlet.ServletResponse)"
     },
     {
       "key": "jakarta.servlet.ServletRequestAttributeEvent#getName()",
@@ -3204,15 +3204,15 @@
     },
     {
       "key": "jakarta.servlet.ServletRequestAttributeListener#attributeAdded(jakarta.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeAdded(jakarta.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeAdded(jakarta.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletRequestAttributeListener#attributeRemoved(jakarta.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeRemoved(jakarta.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeRemoved(jakarta.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletRequestAttributeListener#attributeReplaced(jakarta.servlet.ServletRequestAttributeEvent)",
-      "signature": "default void attributeReplaced(jakarta.servlet.ServletRequestAttributeEvent)"
+      "signature": "void attributeReplaced(jakarta.servlet.ServletRequestAttributeEvent)"
     },
     {
       "key": "jakarta.servlet.ServletRequestEvent#getServletContext()",
@@ -3224,11 +3224,11 @@
     },
     {
       "key": "jakarta.servlet.ServletRequestListener#requestDestroyed(jakarta.servlet.ServletRequestEvent)",
-      "signature": "default void requestDestroyed(jakarta.servlet.ServletRequestEvent)"
+      "signature": "void requestDestroyed(jakarta.servlet.ServletRequestEvent)"
     },
     {
       "key": "jakarta.servlet.ServletRequestListener#requestInitialized(jakarta.servlet.ServletRequestEvent)",
-      "signature": "default void requestInitialized(jakarta.servlet.ServletRequestEvent)"
+      "signature": "void requestInitialized(jakarta.servlet.ServletRequestEvent)"
     },
     {
       "key": "jakarta.servlet.ServletRequestWrapper#getAsyncContext()",
@@ -3404,67 +3404,67 @@
     },
     {
       "key": "jakarta.servlet.ServletResponse#flushBuffer()",
-      "signature": "abstract void flushBuffer()"
+      "signature": "void flushBuffer()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getBufferSize()",
-      "signature": "abstract int getBufferSize()"
+      "signature": "int getBufferSize()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getCharacterEncoding()",
-      "signature": "abstract java.lang.String getCharacterEncoding()"
+      "signature": "java.lang.String getCharacterEncoding()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getLocale()",
-      "signature": "abstract java.util.Locale getLocale()"
+      "signature": "java.util.Locale getLocale()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getOutputStream()",
-      "signature": "abstract jakarta.servlet.ServletOutputStream getOutputStream()"
+      "signature": "jakarta.servlet.ServletOutputStream getOutputStream()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#getWriter()",
-      "signature": "abstract java.io.PrintWriter getWriter()"
+      "signature": "java.io.PrintWriter getWriter()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#isCommitted()",
-      "signature": "abstract boolean isCommitted()"
+      "signature": "boolean isCommitted()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#reset()",
-      "signature": "abstract void reset()"
+      "signature": "void reset()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#resetBuffer()",
-      "signature": "abstract void resetBuffer()"
+      "signature": "void resetBuffer()"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setBufferSize(int)",
-      "signature": "abstract void setBufferSize(int)"
+      "signature": "void setBufferSize(int)"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setCharacterEncoding(java.lang.String)",
-      "signature": "abstract void setCharacterEncoding(java.lang.String)"
+      "signature": "void setCharacterEncoding(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setContentLength(int)",
-      "signature": "abstract void setContentLength(int)"
+      "signature": "void setContentLength(int)"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setContentLengthLong(long)",
-      "signature": "abstract void setContentLengthLong(long)"
+      "signature": "void setContentLengthLong(long)"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setContentType(java.lang.String)",
-      "signature": "abstract void setContentType(java.lang.String)"
+      "signature": "void setContentType(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.ServletResponse#setLocale(java.util.Locale)",
-      "signature": "abstract void setLocale(java.util.Locale)"
+      "signature": "void setLocale(java.util.Locale)"
     },
     {
       "key": "jakarta.servlet.ServletResponseWrapper#flushBuffer()",
@@ -3556,71 +3556,71 @@
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.String getAttribute(java.lang.String)"
+      "signature": "java.lang.String getAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getAttributes()",
-      "signature": "abstract java.util.Map<java.lang.String, java.lang.String> getAttributes()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getAttributes()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getComment()",
-      "signature": "abstract java.lang.String getComment()"
+      "signature": "java.lang.String getComment()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getDomain()",
-      "signature": "abstract java.lang.String getDomain()"
+      "signature": "java.lang.String getDomain()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getMaxAge()",
-      "signature": "abstract int getMaxAge()"
+      "signature": "int getMaxAge()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#getPath()",
-      "signature": "abstract java.lang.String getPath()"
+      "signature": "java.lang.String getPath()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#isHttpOnly()",
-      "signature": "abstract boolean isHttpOnly()"
+      "signature": "boolean isHttpOnly()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#isSecure()",
-      "signature": "abstract boolean isSecure()"
+      "signature": "boolean isSecure()"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setAttribute(java.lang.String, java.lang.String)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.String)"
+      "signature": "void setAttribute(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setComment(java.lang.String)",
-      "signature": "abstract void setComment(java.lang.String)"
+      "signature": "void setComment(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setDomain(java.lang.String)",
-      "signature": "abstract void setDomain(java.lang.String)"
+      "signature": "void setDomain(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setHttpOnly(boolean)",
-      "signature": "abstract void setHttpOnly(boolean)"
+      "signature": "void setHttpOnly(boolean)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setMaxAge(int)",
-      "signature": "abstract void setMaxAge(int)"
+      "signature": "void setMaxAge(int)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setName(java.lang.String)",
-      "signature": "abstract void setName(java.lang.String)"
+      "signature": "void setName(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setPath(java.lang.String)",
-      "signature": "abstract void setPath(java.lang.String)"
+      "signature": "void setPath(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.SessionCookieConfig#setSecure(boolean)",
-      "signature": "abstract void setSecure(boolean)"
+      "signature": "void setSecure(boolean)"
     },
     {
       "key": "jakarta.servlet.SessionTrackingMode#valueOf(java.lang.String)",
@@ -3640,219 +3640,219 @@
     },
     {
       "key": "jakarta.servlet.WriteListener#onError(java.lang.Throwable)",
-      "signature": "abstract void onError(java.lang.Throwable)"
+      "signature": "void onError(java.lang.Throwable)"
     },
     {
       "key": "jakarta.servlet.WriteListener#onWritePossible()",
-      "signature": "abstract void onWritePossible()"
+      "signature": "void onWritePossible()"
     },
     {
       "key": "jakarta.servlet.annotation.HandlesTypes#value()",
-      "signature": "abstract java.lang.Class<?>[] value()"
+      "signature": "java.lang.Class<?>[] value()"
     },
     {
       "key": "jakarta.servlet.annotation.HttpConstraint#rolesAllowed()",
-      "signature": "abstract java.lang.String[] rolesAllowed()"
+      "signature": "java.lang.String[] rolesAllowed()"
     },
     {
       "key": "jakarta.servlet.annotation.HttpMethodConstraint#rolesAllowed()",
-      "signature": "abstract java.lang.String[] rolesAllowed()"
+      "signature": "java.lang.String[] rolesAllowed()"
     },
     {
       "key": "jakarta.servlet.annotation.HttpMethodConstraint#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "jakarta.servlet.annotation.MultipartConfig#fileSizeThreshold()",
-      "signature": "abstract int fileSizeThreshold()"
+      "signature": "int fileSizeThreshold()"
     },
     {
       "key": "jakarta.servlet.annotation.MultipartConfig#location()",
-      "signature": "abstract java.lang.String location()"
+      "signature": "java.lang.String location()"
     },
     {
       "key": "jakarta.servlet.annotation.MultipartConfig#maxFileSize()",
-      "signature": "abstract long maxFileSize()"
+      "signature": "long maxFileSize()"
     },
     {
       "key": "jakarta.servlet.annotation.MultipartConfig#maxRequestSize()",
-      "signature": "abstract long maxRequestSize()"
+      "signature": "long maxRequestSize()"
     },
     {
       "key": "jakarta.servlet.annotation.ServletSecurity#httpMethodConstraints()",
-      "signature": "abstract jakarta.servlet.annotation.HttpMethodConstraint[] httpMethodConstraints()"
+      "signature": "jakarta.servlet.annotation.HttpMethodConstraint[] httpMethodConstraints()"
     },
     {
       "key": "jakarta.servlet.annotation.ServletSecurity#value()",
-      "signature": "abstract jakarta.servlet.annotation.HttpConstraint value()"
+      "signature": "jakarta.servlet.annotation.HttpConstraint value()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#asyncSupported()",
-      "signature": "abstract boolean asyncSupported()"
+      "signature": "boolean asyncSupported()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#dispatcherTypes()",
-      "signature": "abstract jakarta.servlet.DispatcherType[] dispatcherTypes()"
+      "signature": "jakarta.servlet.DispatcherType[] dispatcherTypes()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#displayName()",
-      "signature": "abstract java.lang.String displayName()"
+      "signature": "java.lang.String displayName()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#filterName()",
-      "signature": "abstract java.lang.String filterName()"
+      "signature": "java.lang.String filterName()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#initParams()",
-      "signature": "abstract jakarta.servlet.annotation.WebInitParam[] initParams()"
+      "signature": "jakarta.servlet.annotation.WebInitParam[] initParams()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#largeIcon()",
-      "signature": "abstract java.lang.String largeIcon()"
+      "signature": "java.lang.String largeIcon()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#servletNames()",
-      "signature": "abstract java.lang.String[] servletNames()"
+      "signature": "java.lang.String[] servletNames()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#smallIcon()",
-      "signature": "abstract java.lang.String smallIcon()"
+      "signature": "java.lang.String smallIcon()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#urlPatterns()",
-      "signature": "abstract java.lang.String[] urlPatterns()"
+      "signature": "java.lang.String[] urlPatterns()"
     },
     {
       "key": "jakarta.servlet.annotation.WebFilter#value()",
-      "signature": "abstract java.lang.String[] value()"
+      "signature": "java.lang.String[] value()"
     },
     {
       "key": "jakarta.servlet.annotation.WebInitParam#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "jakarta.servlet.annotation.WebInitParam#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "jakarta.servlet.annotation.WebInitParam#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "jakarta.servlet.annotation.WebListener#value()",
-      "signature": "abstract java.lang.String value()"
+      "signature": "java.lang.String value()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#asyncSupported()",
-      "signature": "abstract boolean asyncSupported()"
+      "signature": "boolean asyncSupported()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#description()",
-      "signature": "abstract java.lang.String description()"
+      "signature": "java.lang.String description()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#displayName()",
-      "signature": "abstract java.lang.String displayName()"
+      "signature": "java.lang.String displayName()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#initParams()",
-      "signature": "abstract jakarta.servlet.annotation.WebInitParam[] initParams()"
+      "signature": "jakarta.servlet.annotation.WebInitParam[] initParams()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#largeIcon()",
-      "signature": "abstract java.lang.String largeIcon()"
+      "signature": "java.lang.String largeIcon()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#loadOnStartup()",
-      "signature": "abstract int loadOnStartup()"
+      "signature": "int loadOnStartup()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#name()",
-      "signature": "abstract java.lang.String name()"
+      "signature": "java.lang.String name()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#smallIcon()",
-      "signature": "abstract java.lang.String smallIcon()"
+      "signature": "java.lang.String smallIcon()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#urlPatterns()",
-      "signature": "abstract java.lang.String[] urlPatterns()"
+      "signature": "java.lang.String[] urlPatterns()"
     },
     {
       "key": "jakarta.servlet.annotation.WebServlet#value()",
-      "signature": "abstract java.lang.String[] value()"
+      "signature": "java.lang.String[] value()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspConfigDescriptor#getJspPropertyGroups()",
-      "signature": "abstract java.util.Collection<jakarta.servlet.descriptor.JspPropertyGroupDescriptor> getJspPropertyGroups()"
+      "signature": "java.util.Collection<jakarta.servlet.descriptor.JspPropertyGroupDescriptor> getJspPropertyGroups()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspConfigDescriptor#getTaglibs()",
-      "signature": "abstract java.util.Collection<jakarta.servlet.descriptor.TaglibDescriptor> getTaglibs()"
+      "signature": "java.util.Collection<jakarta.servlet.descriptor.TaglibDescriptor> getTaglibs()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getBuffer()",
-      "signature": "abstract java.lang.String getBuffer()"
+      "signature": "java.lang.String getBuffer()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getDefaultContentType()",
-      "signature": "abstract java.lang.String getDefaultContentType()"
+      "signature": "java.lang.String getDefaultContentType()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getDeferredSyntaxAllowedAsLiteral()",
-      "signature": "abstract java.lang.String getDeferredSyntaxAllowedAsLiteral()"
+      "signature": "java.lang.String getDeferredSyntaxAllowedAsLiteral()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getElIgnored()",
-      "signature": "abstract java.lang.String getElIgnored()"
+      "signature": "java.lang.String getElIgnored()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getErrorOnELNotFound()",
-      "signature": "abstract java.lang.String getErrorOnELNotFound()"
+      "signature": "java.lang.String getErrorOnELNotFound()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getErrorOnUndeclaredNamespace()",
-      "signature": "abstract java.lang.String getErrorOnUndeclaredNamespace()"
+      "signature": "java.lang.String getErrorOnUndeclaredNamespace()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getIncludeCodas()",
-      "signature": "abstract java.util.Collection<java.lang.String> getIncludeCodas()"
+      "signature": "java.util.Collection<java.lang.String> getIncludeCodas()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getIncludePreludes()",
-      "signature": "abstract java.util.Collection<java.lang.String> getIncludePreludes()"
+      "signature": "java.util.Collection<java.lang.String> getIncludePreludes()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getIsXml()",
-      "signature": "abstract java.lang.String getIsXml()"
+      "signature": "java.lang.String getIsXml()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getPageEncoding()",
-      "signature": "abstract java.lang.String getPageEncoding()"
+      "signature": "java.lang.String getPageEncoding()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getScriptingInvalid()",
-      "signature": "abstract java.lang.String getScriptingInvalid()"
+      "signature": "java.lang.String getScriptingInvalid()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getTrimDirectiveWhitespaces()",
-      "signature": "abstract java.lang.String getTrimDirectiveWhitespaces()"
+      "signature": "java.lang.String getTrimDirectiveWhitespaces()"
     },
     {
       "key": "jakarta.servlet.descriptor.JspPropertyGroupDescriptor#getUrlPatterns()",
-      "signature": "abstract java.util.Collection<java.lang.String> getUrlPatterns()"
+      "signature": "java.util.Collection<java.lang.String> getUrlPatterns()"
     },
     {
       "key": "jakarta.servlet.descriptor.TaglibDescriptor#getTaglibLocation()",
-      "signature": "abstract java.lang.String getTaglibLocation()"
+      "signature": "java.lang.String getTaglibLocation()"
     },
     {
       "key": "jakarta.servlet.descriptor.TaglibDescriptor#getTaglibURI()",
-      "signature": "abstract java.lang.String getTaglibURI()"
+      "signature": "java.lang.String getTaglibURI()"
     },
     {
       "key": "jakarta.servlet.http.Cookie#clone()",
@@ -3964,159 +3964,159 @@
     },
     {
       "key": "jakarta.servlet.http.HttpServletMapping#getMappingMatch()",
-      "signature": "abstract jakarta.servlet.http.MappingMatch getMappingMatch()"
+      "signature": "jakarta.servlet.http.MappingMatch getMappingMatch()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletMapping#getMatchValue()",
-      "signature": "abstract java.lang.String getMatchValue()"
+      "signature": "java.lang.String getMatchValue()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletMapping#getPattern()",
-      "signature": "abstract java.lang.String getPattern()"
+      "signature": "java.lang.String getPattern()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletMapping#getServletName()",
-      "signature": "abstract java.lang.String getServletName()"
+      "signature": "java.lang.String getServletName()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#authenticate(jakarta.servlet.http.HttpServletResponse)",
-      "signature": "abstract boolean authenticate(jakarta.servlet.http.HttpServletResponse)"
+      "signature": "boolean authenticate(jakarta.servlet.http.HttpServletResponse)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#changeSessionId()",
-      "signature": "abstract java.lang.String changeSessionId()"
+      "signature": "java.lang.String changeSessionId()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getAuthType()",
-      "signature": "abstract java.lang.String getAuthType()"
+      "signature": "java.lang.String getAuthType()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getContextPath()",
-      "signature": "abstract java.lang.String getContextPath()"
+      "signature": "java.lang.String getContextPath()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getCookies()",
-      "signature": "abstract jakarta.servlet.http.Cookie[] getCookies()"
+      "signature": "jakarta.servlet.http.Cookie[] getCookies()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getDateHeader(java.lang.String)",
-      "signature": "abstract long getDateHeader(java.lang.String)"
+      "signature": "long getDateHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getHeaderNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getHeaderNames()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Enumeration<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getHttpServletMapping()",
-      "signature": "default jakarta.servlet.http.HttpServletMapping getHttpServletMapping()"
+      "signature": "jakarta.servlet.http.HttpServletMapping getHttpServletMapping()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getIntHeader(java.lang.String)",
-      "signature": "abstract int getIntHeader(java.lang.String)"
+      "signature": "int getIntHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getMethod()",
-      "signature": "abstract java.lang.String getMethod()"
+      "signature": "java.lang.String getMethod()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getPart(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.Part getPart(java.lang.String)"
+      "signature": "jakarta.servlet.http.Part getPart(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getParts()",
-      "signature": "abstract java.util.Collection<jakarta.servlet.http.Part> getParts()"
+      "signature": "java.util.Collection<jakarta.servlet.http.Part> getParts()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getPathInfo()",
-      "signature": "abstract java.lang.String getPathInfo()"
+      "signature": "java.lang.String getPathInfo()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getPathTranslated()",
-      "signature": "abstract java.lang.String getPathTranslated()"
+      "signature": "java.lang.String getPathTranslated()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getQueryString()",
-      "signature": "abstract java.lang.String getQueryString()"
+      "signature": "java.lang.String getQueryString()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getRemoteUser()",
-      "signature": "abstract java.lang.String getRemoteUser()"
+      "signature": "java.lang.String getRemoteUser()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getRequestURI()",
-      "signature": "abstract java.lang.String getRequestURI()"
+      "signature": "java.lang.String getRequestURI()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getRequestURL()",
-      "signature": "abstract java.lang.StringBuffer getRequestURL()"
+      "signature": "java.lang.StringBuffer getRequestURL()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getRequestedSessionId()",
-      "signature": "abstract java.lang.String getRequestedSessionId()"
+      "signature": "java.lang.String getRequestedSessionId()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getServletPath()",
-      "signature": "abstract java.lang.String getServletPath()"
+      "signature": "java.lang.String getServletPath()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getSession()",
-      "signature": "abstract jakarta.servlet.http.HttpSession getSession()"
+      "signature": "jakarta.servlet.http.HttpSession getSession()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getSession(boolean)",
-      "signature": "abstract jakarta.servlet.http.HttpSession getSession(boolean)"
+      "signature": "jakarta.servlet.http.HttpSession getSession(boolean)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getTrailerFields()",
-      "signature": "default java.util.Map<java.lang.String, java.lang.String> getTrailerFields()"
+      "signature": "java.util.Map<java.lang.String, java.lang.String> getTrailerFields()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#getUserPrincipal()",
-      "signature": "abstract java.security.Principal getUserPrincipal()"
+      "signature": "java.security.Principal getUserPrincipal()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#isRequestedSessionIdFromCookie()",
-      "signature": "abstract boolean isRequestedSessionIdFromCookie()"
+      "signature": "boolean isRequestedSessionIdFromCookie()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#isRequestedSessionIdFromURL()",
-      "signature": "abstract boolean isRequestedSessionIdFromURL()"
+      "signature": "boolean isRequestedSessionIdFromURL()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#isRequestedSessionIdValid()",
-      "signature": "abstract boolean isRequestedSessionIdValid()"
+      "signature": "boolean isRequestedSessionIdValid()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#isTrailerFieldsReady()",
-      "signature": "default boolean isTrailerFieldsReady()"
+      "signature": "boolean isTrailerFieldsReady()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#isUserInRole(java.lang.String)",
-      "signature": "abstract boolean isUserInRole(java.lang.String)"
+      "signature": "boolean isUserInRole(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#login(java.lang.String, java.lang.String)",
-      "signature": "abstract void login(java.lang.String, java.lang.String)"
+      "signature": "void login(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#logout()",
-      "signature": "abstract void logout()"
+      "signature": "void logout()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#newPushBuilder()",
-      "signature": "default jakarta.servlet.http.PushBuilder newPushBuilder()"
+      "signature": "jakarta.servlet.http.PushBuilder newPushBuilder()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequest#upgrade(java.lang.Class<T>)",
-      "signature": "abstract <T extends jakarta.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequestWrapper#authenticate(jakarta.servlet.http.HttpServletResponse)",
@@ -4256,87 +4256,87 @@
     },
     {
       "key": "jakarta.servlet.http.HttpServletRequestWrapper#upgrade(java.lang.Class<T>)",
-      "signature": "<T extends jakarta.servlet.http.HttpUpgradeHandler> T upgrade(java.lang.Class<T>)"
+      "signature": "T upgrade(java.lang.Class<T>)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#addCookie(jakarta.servlet.http.Cookie)",
-      "signature": "abstract void addCookie(jakarta.servlet.http.Cookie)"
+      "signature": "void addCookie(jakarta.servlet.http.Cookie)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#addDateHeader(java.lang.String, long)",
-      "signature": "abstract void addDateHeader(java.lang.String, long)"
+      "signature": "void addDateHeader(java.lang.String, long)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#addHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract void addHeader(java.lang.String, java.lang.String)"
+      "signature": "void addHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#addIntHeader(java.lang.String, int)",
-      "signature": "abstract void addIntHeader(java.lang.String, int)"
+      "signature": "void addIntHeader(java.lang.String, int)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#containsHeader(java.lang.String)",
-      "signature": "abstract boolean containsHeader(java.lang.String)"
+      "signature": "boolean containsHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#encodeRedirectURL(java.lang.String)",
-      "signature": "abstract java.lang.String encodeRedirectURL(java.lang.String)"
+      "signature": "java.lang.String encodeRedirectURL(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#encodeURL(java.lang.String)",
-      "signature": "abstract java.lang.String encodeURL(java.lang.String)"
+      "signature": "java.lang.String encodeURL(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#getHeaderNames()",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Collection<java.lang.String> getHeaderNames()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#getStatus()",
-      "signature": "abstract int getStatus()"
+      "signature": "int getStatus()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#getTrailerFields()",
-      "signature": "default java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>> getTrailerFields()"
+      "signature": "java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>> getTrailerFields()"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#sendError(int)",
-      "signature": "abstract void sendError(int)"
+      "signature": "void sendError(int)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#sendError(int, java.lang.String)",
-      "signature": "abstract void sendError(int, java.lang.String)"
+      "signature": "void sendError(int, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#sendRedirect(java.lang.String)",
-      "signature": "abstract void sendRedirect(java.lang.String)"
+      "signature": "void sendRedirect(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#setDateHeader(java.lang.String, long)",
-      "signature": "abstract void setDateHeader(java.lang.String, long)"
+      "signature": "void setDateHeader(java.lang.String, long)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#setHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract void setHeader(java.lang.String, java.lang.String)"
+      "signature": "void setHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#setIntHeader(java.lang.String, int)",
-      "signature": "abstract void setIntHeader(java.lang.String, int)"
+      "signature": "void setIntHeader(java.lang.String, int)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#setStatus(int)",
-      "signature": "abstract void setStatus(int)"
+      "signature": "void setStatus(int)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponse#setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)",
-      "signature": "default void setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)"
+      "signature": "void setTrailerFields(java.util.function.Supplier<java.util.Map<java.lang.String, java.lang.String>>)"
     },
     {
       "key": "jakarta.servlet.http.HttpServletResponseWrapper#addCookie(jakarta.servlet.http.Cookie)",
@@ -4420,71 +4420,71 @@
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getAttribute(java.lang.String)",
-      "signature": "abstract java.lang.Object getAttribute(java.lang.String)"
+      "signature": "java.lang.Object getAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getAttributeNames()",
-      "signature": "abstract java.util.Enumeration<java.lang.String> getAttributeNames()"
+      "signature": "java.util.Enumeration<java.lang.String> getAttributeNames()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getCreationTime()",
-      "signature": "abstract long getCreationTime()"
+      "signature": "long getCreationTime()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getId()",
-      "signature": "abstract java.lang.String getId()"
+      "signature": "java.lang.String getId()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getLastAccessedTime()",
-      "signature": "abstract long getLastAccessedTime()"
+      "signature": "long getLastAccessedTime()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getMaxInactiveInterval()",
-      "signature": "abstract int getMaxInactiveInterval()"
+      "signature": "int getMaxInactiveInterval()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#getServletContext()",
-      "signature": "abstract jakarta.servlet.ServletContext getServletContext()"
+      "signature": "jakarta.servlet.ServletContext getServletContext()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#invalidate()",
-      "signature": "abstract void invalidate()"
+      "signature": "void invalidate()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#isNew()",
-      "signature": "abstract boolean isNew()"
+      "signature": "boolean isNew()"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#removeAttribute(java.lang.String)",
-      "signature": "abstract void removeAttribute(java.lang.String)"
+      "signature": "void removeAttribute(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#setAttribute(java.lang.String, java.lang.Object)",
-      "signature": "abstract void setAttribute(java.lang.String, java.lang.Object)"
+      "signature": "void setAttribute(java.lang.String, java.lang.Object)"
     },
     {
       "key": "jakarta.servlet.http.HttpSession#setMaxInactiveInterval(int)",
-      "signature": "abstract void setMaxInactiveInterval(int)"
+      "signature": "void setMaxInactiveInterval(int)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionActivationListener#sessionDidActivate(jakarta.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionDidActivate(jakarta.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionDidActivate(jakarta.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionActivationListener#sessionWillPassivate(jakarta.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionWillPassivate(jakarta.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionWillPassivate(jakarta.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionAttributeListener#attributeAdded(jakarta.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeAdded(jakarta.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeAdded(jakarta.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionAttributeListener#attributeRemoved(jakarta.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeRemoved(jakarta.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeRemoved(jakarta.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionAttributeListener#attributeReplaced(jakarta.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void attributeReplaced(jakarta.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void attributeReplaced(jakarta.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionBindingEvent#getName()",
@@ -4496,11 +4496,11 @@
     },
     {
       "key": "jakarta.servlet.http.HttpSessionBindingListener#valueBound(jakarta.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void valueBound(jakarta.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void valueBound(jakarta.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionBindingListener#valueUnbound(jakarta.servlet.http.HttpSessionBindingEvent)",
-      "signature": "default void valueUnbound(jakarta.servlet.http.HttpSessionBindingEvent)"
+      "signature": "void valueUnbound(jakarta.servlet.http.HttpSessionBindingEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionEvent#getSession()",
@@ -4508,23 +4508,23 @@
     },
     {
       "key": "jakarta.servlet.http.HttpSessionIdListener#sessionIdChanged(jakarta.servlet.http.HttpSessionEvent, java.lang.String)",
-      "signature": "abstract void sessionIdChanged(jakarta.servlet.http.HttpSessionEvent, java.lang.String)"
+      "signature": "void sessionIdChanged(jakarta.servlet.http.HttpSessionEvent, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionListener#sessionCreated(jakarta.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionCreated(jakarta.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionCreated(jakarta.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpSessionListener#sessionDestroyed(jakarta.servlet.http.HttpSessionEvent)",
-      "signature": "default void sessionDestroyed(jakarta.servlet.http.HttpSessionEvent)"
+      "signature": "void sessionDestroyed(jakarta.servlet.http.HttpSessionEvent)"
     },
     {
       "key": "jakarta.servlet.http.HttpUpgradeHandler#destroy()",
-      "signature": "abstract void destroy()"
+      "signature": "void destroy()"
     },
     {
       "key": "jakarta.servlet.http.HttpUpgradeHandler#init(jakarta.servlet.http.WebConnection)",
-      "signature": "abstract void init(jakarta.servlet.http.WebConnection)"
+      "signature": "void init(jakarta.servlet.http.WebConnection)"
     },
     {
       "key": "jakarta.servlet.http.MappingMatch#valueOf(java.lang.String)",
@@ -4596,107 +4596,107 @@
     },
     {
       "key": "jakarta.servlet.http.Part#delete()",
-      "signature": "abstract void delete()"
+      "signature": "void delete()"
     },
     {
       "key": "jakarta.servlet.http.Part#getContentType()",
-      "signature": "abstract java.lang.String getContentType()"
+      "signature": "java.lang.String getContentType()"
     },
     {
       "key": "jakarta.servlet.http.Part#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.Part#getHeaderNames()",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Collection<java.lang.String> getHeaderNames()"
     },
     {
       "key": "jakarta.servlet.http.Part#getHeaders(java.lang.String)",
-      "signature": "abstract java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
+      "signature": "java.util.Collection<java.lang.String> getHeaders(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.Part#getInputStream()",
-      "signature": "abstract java.io.InputStream getInputStream()"
+      "signature": "java.io.InputStream getInputStream()"
     },
     {
       "key": "jakarta.servlet.http.Part#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "jakarta.servlet.http.Part#getSize()",
-      "signature": "abstract long getSize()"
+      "signature": "long getSize()"
     },
     {
       "key": "jakarta.servlet.http.Part#getSubmittedFileName()",
-      "signature": "abstract java.lang.String getSubmittedFileName()"
+      "signature": "java.lang.String getSubmittedFileName()"
     },
     {
       "key": "jakarta.servlet.http.Part#write(java.lang.String)",
-      "signature": "abstract void write(java.lang.String)"
+      "signature": "void write(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#addHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder addHeader(java.lang.String, java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder addHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getHeader(java.lang.String)",
-      "signature": "abstract java.lang.String getHeader(java.lang.String)"
+      "signature": "java.lang.String getHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getHeaderNames()",
-      "signature": "abstract java.util.Set<java.lang.String> getHeaderNames()"
+      "signature": "java.util.Set<java.lang.String> getHeaderNames()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getMethod()",
-      "signature": "abstract java.lang.String getMethod()"
+      "signature": "java.lang.String getMethod()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getPath()",
-      "signature": "abstract java.lang.String getPath()"
+      "signature": "java.lang.String getPath()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getQueryString()",
-      "signature": "abstract java.lang.String getQueryString()"
+      "signature": "java.lang.String getQueryString()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#getSessionId()",
-      "signature": "abstract java.lang.String getSessionId()"
+      "signature": "java.lang.String getSessionId()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#method(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder method(java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder method(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#path(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder path(java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder path(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#push()",
-      "signature": "abstract void push()"
+      "signature": "void push()"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#queryString(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder queryString(java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder queryString(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#removeHeader(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder removeHeader(java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder removeHeader(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#sessionId(java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder sessionId(java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder sessionId(java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.PushBuilder#setHeader(java.lang.String, java.lang.String)",
-      "signature": "abstract jakarta.servlet.http.PushBuilder setHeader(java.lang.String, java.lang.String)"
+      "signature": "jakarta.servlet.http.PushBuilder setHeader(java.lang.String, java.lang.String)"
     },
     {
       "key": "jakarta.servlet.http.WebConnection#getInputStream()",
-      "signature": "abstract jakarta.servlet.ServletInputStream getInputStream()"
+      "signature": "jakarta.servlet.ServletInputStream getInputStream()"
     },
     {
       "key": "jakarta.servlet.http.WebConnection#getOutputStream()",
-      "signature": "abstract jakarta.servlet.ServletOutputStream getOutputStream()"
+      "signature": "jakarta.servlet.ServletOutputStream getOutputStream()"
     }
   ],
   "changed": [],
@@ -4705,13 +4705,205 @@
     "new_methods": 586,
     "removed": 588,
     "added": 586,
-    "changed": 0
+    "changed": 0,
+    "removed_classes": 84,
+    "added_classes": 82
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\jakarta.servlet_jakarta.servlet-api_4.0.4.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\jakarta.servlet_jakarta.servlet-api_6.0.0.jar",
+  "removed_classes": [
+    "javax.servlet.AsyncContext",
+    "javax.servlet.AsyncEvent",
+    "javax.servlet.AsyncListener",
+    "javax.servlet.DispatcherType",
+    "javax.servlet.Filter",
+    "javax.servlet.FilterChain",
+    "javax.servlet.FilterConfig",
+    "javax.servlet.FilterRegistration",
+    "javax.servlet.FilterRegistration$Dynamic",
+    "javax.servlet.GenericFilter",
+    "javax.servlet.GenericServlet",
+    "javax.servlet.HttpConstraintElement",
+    "javax.servlet.HttpMethodConstraintElement",
+    "javax.servlet.MultipartConfigElement",
+    "javax.servlet.ReadListener",
+    "javax.servlet.Registration",
+    "javax.servlet.Registration$Dynamic",
+    "javax.servlet.RequestDispatcher",
+    "javax.servlet.Servlet",
+    "javax.servlet.ServletConfig",
+    "javax.servlet.ServletContainerInitializer",
+    "javax.servlet.ServletContext",
+    "javax.servlet.ServletContextAttributeEvent",
+    "javax.servlet.ServletContextAttributeListener",
+    "javax.servlet.ServletContextEvent",
+    "javax.servlet.ServletContextListener",
+    "javax.servlet.ServletException",
+    "javax.servlet.ServletInputStream",
+    "javax.servlet.ServletOutputStream",
+    "javax.servlet.ServletRegistration",
+    "javax.servlet.ServletRegistration$Dynamic",
+    "javax.servlet.ServletRequest",
+    "javax.servlet.ServletRequestAttributeEvent",
+    "javax.servlet.ServletRequestAttributeListener",
+    "javax.servlet.ServletRequestEvent",
+    "javax.servlet.ServletRequestListener",
+    "javax.servlet.ServletRequestWrapper",
+    "javax.servlet.ServletResponse",
+    "javax.servlet.ServletResponseWrapper",
+    "javax.servlet.ServletSecurityElement",
+    "javax.servlet.SessionCookieConfig",
+    "javax.servlet.SessionTrackingMode",
+    "javax.servlet.SingleThreadModel",
+    "javax.servlet.UnavailableException",
+    "javax.servlet.WriteListener",
+    "javax.servlet.annotation.HandlesTypes",
+    "javax.servlet.annotation.HttpConstraint",
+    "javax.servlet.annotation.HttpMethodConstraint",
+    "javax.servlet.annotation.MultipartConfig",
+    "javax.servlet.annotation.ServletSecurity",
+    "javax.servlet.annotation.ServletSecurity$EmptyRoleSemantic",
+    "javax.servlet.annotation.ServletSecurity$TransportGuarantee",
+    "javax.servlet.annotation.WebFilter",
+    "javax.servlet.annotation.WebInitParam",
+    "javax.servlet.annotation.WebListener",
+    "javax.servlet.annotation.WebServlet",
+    "javax.servlet.descriptor.JspConfigDescriptor",
+    "javax.servlet.descriptor.JspPropertyGroupDescriptor",
+    "javax.servlet.descriptor.TaglibDescriptor",
+    "javax.servlet.http.Cookie",
+    "javax.servlet.http.HttpFilter",
+    "javax.servlet.http.HttpServlet",
+    "javax.servlet.http.HttpServletMapping",
+    "javax.servlet.http.HttpServletRequest",
+    "javax.servlet.http.HttpServletRequestWrapper",
+    "javax.servlet.http.HttpServletResponse",
+    "javax.servlet.http.HttpServletResponseWrapper",
+    "javax.servlet.http.HttpSession",
+    "javax.servlet.http.HttpSessionActivationListener",
+    "javax.servlet.http.HttpSessionAttributeListener",
+    "javax.servlet.http.HttpSessionBindingEvent",
+    "javax.servlet.http.HttpSessionBindingListener",
+    "javax.servlet.http.HttpSessionContext",
+    "javax.servlet.http.HttpSessionEvent",
+    "javax.servlet.http.HttpSessionIdListener",
+    "javax.servlet.http.HttpSessionListener",
+    "javax.servlet.http.HttpUpgradeHandler",
+    "javax.servlet.http.HttpUtils",
+    "javax.servlet.http.MappingMatch",
+    "javax.servlet.http.NoBodyOutputStream",
+    "javax.servlet.http.NoBodyResponse",
+    "javax.servlet.http.Part",
+    "javax.servlet.http.PushBuilder",
+    "javax.servlet.http.WebConnection"
+  ],
+  "added_classes": [
+    "jakarta.servlet.AsyncContext",
+    "jakarta.servlet.AsyncEvent",
+    "jakarta.servlet.AsyncListener",
+    "jakarta.servlet.DispatcherType",
+    "jakarta.servlet.Filter",
+    "jakarta.servlet.FilterChain",
+    "jakarta.servlet.FilterConfig",
+    "jakarta.servlet.FilterRegistration",
+    "jakarta.servlet.FilterRegistration$Dynamic",
+    "jakarta.servlet.GenericFilter",
+    "jakarta.servlet.GenericServlet",
+    "jakarta.servlet.HttpConstraintElement",
+    "jakarta.servlet.HttpMethodConstraintElement",
+    "jakarta.servlet.MultipartConfigElement",
+    "jakarta.servlet.ReadListener",
+    "jakarta.servlet.Registration",
+    "jakarta.servlet.Registration$Dynamic",
+    "jakarta.servlet.RequestDispatcher",
+    "jakarta.servlet.Servlet",
+    "jakarta.servlet.ServletConfig",
+    "jakarta.servlet.ServletConnection",
+    "jakarta.servlet.ServletContainerInitializer",
+    "jakarta.servlet.ServletContext",
+    "jakarta.servlet.ServletContextAttributeEvent",
+    "jakarta.servlet.ServletContextAttributeListener",
+    "jakarta.servlet.ServletContextEvent",
+    "jakarta.servlet.ServletContextListener",
+    "jakarta.servlet.ServletException",
+    "jakarta.servlet.ServletInputStream",
+    "jakarta.servlet.ServletOutputStream",
+    "jakarta.servlet.ServletRegistration",
+    "jakarta.servlet.ServletRegistration$Dynamic",
+    "jakarta.servlet.ServletRequest",
+    "jakarta.servlet.ServletRequestAttributeEvent",
+    "jakarta.servlet.ServletRequestAttributeListener",
+    "jakarta.servlet.ServletRequestEvent",
+    "jakarta.servlet.ServletRequestListener",
+    "jakarta.servlet.ServletRequestWrapper",
+    "jakarta.servlet.ServletResponse",
+    "jakarta.servlet.ServletResponseWrapper",
+    "jakarta.servlet.ServletSecurityElement",
+    "jakarta.servlet.SessionCookieConfig",
+    "jakarta.servlet.SessionTrackingMode",
+    "jakarta.servlet.UnavailableException",
+    "jakarta.servlet.WriteListener",
+    "jakarta.servlet.annotation.HandlesTypes",
+    "jakarta.servlet.annotation.HttpConstraint",
+    "jakarta.servlet.annotation.HttpMethodConstraint",
+    "jakarta.servlet.annotation.MultipartConfig",
+    "jakarta.servlet.annotation.ServletSecurity",
+    "jakarta.servlet.annotation.ServletSecurity$EmptyRoleSemantic",
+    "jakarta.servlet.annotation.ServletSecurity$TransportGuarantee",
+    "jakarta.servlet.annotation.WebFilter",
+    "jakarta.servlet.annotation.WebInitParam",
+    "jakarta.servlet.annotation.WebListener",
+    "jakarta.servlet.annotation.WebServlet",
+    "jakarta.servlet.descriptor.JspConfigDescriptor",
+    "jakarta.servlet.descriptor.JspPropertyGroupDescriptor",
+    "jakarta.servlet.descriptor.TaglibDescriptor",
+    "jakarta.servlet.http.Cookie",
+    "jakarta.servlet.http.HttpFilter",
+    "jakarta.servlet.http.HttpServlet",
+    "jakarta.servlet.http.HttpServletMapping",
+    "jakarta.servlet.http.HttpServletRequest",
+    "jakarta.servlet.http.HttpServletRequestWrapper",
+    "jakarta.servlet.http.HttpServletResponse",
+    "jakarta.servlet.http.HttpServletResponseWrapper",
+    "jakarta.servlet.http.HttpSession",
+    "jakarta.servlet.http.HttpSessionActivationListener",
+    "jakarta.servlet.http.HttpSessionAttributeListener",
+    "jakarta.servlet.http.HttpSessionBindingEvent",
+    "jakarta.servlet.http.HttpSessionBindingListener",
+    "jakarta.servlet.http.HttpSessionEvent",
+    "jakarta.servlet.http.HttpSessionIdListener",
+    "jakarta.servlet.http.HttpSessionListener",
+    "jakarta.servlet.http.HttpUpgradeHandler",
+    "jakarta.servlet.http.MappingMatch",
+    "jakarta.servlet.http.NoBodyOutputStream",
+    "jakarta.servlet.http.NoBodyResponse",
+    "jakarta.servlet.http.Part",
+    "jakarta.servlet.http.PushBuilder",
+    "jakarta.servlet.http.WebConnection"
+  ],
+  "old_jar": "jar_cache/jakarta.servlet_jakarta.servlet-api_4.0.4.jar",
+  "new_jar": "jar_cache/jakarta.servlet_jakarta.servlet-api_6.0.0.jar",
   "group_id": "jakarta.servlet",
   "artifact_id": "jakarta.servlet-api",
   "old_version": "4.0.4",
   "new_version": "6.0.0",
-  "project": "dropwizard-pac4j"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "org.hamcrest:hamcrest",
+        "org.junit.jupiter:junit-jupiter-engine",
+        "org.junit.jupiter:junit-jupiter-params"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "dropwizard-pac4j"
+  ]
 }

@@ -6,11 +6,11 @@
     },
     {
       "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#newInstance(java.lang.String, java.lang.String[], java.lang.String)",
-      "signature": "abstract java.lang.Object newInstance(java.lang.String, java.lang.String[], java.lang.String)"
+      "signature": "java.lang.Object newInstance(java.lang.String, java.lang.String[], java.lang.String)"
     },
     {
       "key": "org.springframework.cglib.proxy.Enhancer$EnhancerKey#newInstance(java.lang.String, java.lang.String[], org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter>, org.springframework.asm.Type[], boolean, boolean, java.lang.Long)",
-      "signature": "abstract java.lang.Object newInstance(java.lang.String, java.lang.String[], org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter>, org.springframework.asm.Type[], boolean, boolean, java.lang.Long)"
+      "signature": "java.lang.Object newInstance(java.lang.String, java.lang.String[], org.springframework.cglib.core.WeakCacheKey<org.springframework.cglib.proxy.CallbackFilter>, org.springframework.asm.Type[], boolean, boolean, java.lang.Long)"
     },
     {
       "key": "org.springframework.cglib.transform.AbstractProcessTask#addFileset(org.apache.tools.ant.types.FileSet)",
@@ -26,7 +26,7 @@
     },
     {
       "key": "org.springframework.cglib.transform.ClassTransformer#setTarget(org.springframework.asm.ClassVisitor)",
-      "signature": "abstract void setTarget(org.springframework.asm.ClassVisitor)"
+      "signature": "void setTarget(org.springframework.asm.ClassVisitor)"
     },
     {
       "key": "org.springframework.core.NestedCheckedException#getMessage()",
@@ -764,47 +764,47 @@
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addClassFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
-      "signature": "default void addClassFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+      "signature": "void addClassFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, java.lang.CharSequence)",
-      "signature": "default void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, java.lang.CharSequence)"
+      "signature": "void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, java.lang.CharSequence)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)",
-      "signature": "abstract void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)"
+      "signature": "void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
-      "signature": "default void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+      "signature": "void addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, java.lang.CharSequence)",
-      "signature": "default void addResourceFile(java.lang.String, java.lang.CharSequence)"
+      "signature": "void addResourceFile(java.lang.String, java.lang.CharSequence)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
-      "signature": "default void addResourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+      "signature": "void addResourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addResourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
-      "signature": "default void addResourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+      "signature": "void addResourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, java.lang.CharSequence)",
-      "signature": "default void addSourceFile(java.lang.String, java.lang.CharSequence)"
+      "signature": "void addSourceFile(java.lang.String, java.lang.CharSequence)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)",
-      "signature": "default void addSourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
+      "signature": "void addSourceFile(java.lang.String, org.springframework.core.io.InputStreamSource)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)",
-      "signature": "default void addSourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
+      "signature": "void addSourceFile(java.lang.String, org.springframework.util.function.ThrowingConsumer<java.lang.Appendable>)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedFiles#addSourceFile(org.springframework.javapoet.JavaFile)",
-      "signature": "default void addSourceFile(org.springframework.javapoet.JavaFile)"
+      "signature": "void addSourceFile(org.springframework.javapoet.JavaFile)"
     },
     {
       "key": "org.springframework.aot.generate.GeneratedMethod#getName()",
@@ -840,19 +840,19 @@
     },
     {
       "key": "org.springframework.aot.generate.GenerationContext#getGeneratedClasses()",
-      "signature": "abstract org.springframework.aot.generate.GeneratedClasses getGeneratedClasses()"
+      "signature": "org.springframework.aot.generate.GeneratedClasses getGeneratedClasses()"
     },
     {
       "key": "org.springframework.aot.generate.GenerationContext#getGeneratedFiles()",
-      "signature": "abstract org.springframework.aot.generate.GeneratedFiles getGeneratedFiles()"
+      "signature": "org.springframework.aot.generate.GeneratedFiles getGeneratedFiles()"
     },
     {
       "key": "org.springframework.aot.generate.GenerationContext#getRuntimeHints()",
-      "signature": "abstract org.springframework.aot.hint.RuntimeHints getRuntimeHints()"
+      "signature": "org.springframework.aot.hint.RuntimeHints getRuntimeHints()"
     },
     {
       "key": "org.springframework.aot.generate.GenerationContext#withName(java.lang.String)",
-      "signature": "abstract org.springframework.aot.generate.GenerationContext withName(java.lang.String)"
+      "signature": "org.springframework.aot.generate.GenerationContext withName(java.lang.String)"
     },
     {
       "key": "org.springframework.aot.generate.InMemoryGeneratedFiles#addFile(org.springframework.aot.generate.GeneratedFiles$Kind, java.lang.String, org.springframework.core.io.InputStreamSource)",
@@ -884,19 +884,19 @@
     },
     {
       "key": "org.springframework.aot.generate.MethodReference#toCodeBlock()",
-      "signature": "abstract org.springframework.javapoet.CodeBlock toCodeBlock()"
+      "signature": "org.springframework.javapoet.CodeBlock toCodeBlock()"
     },
     {
       "key": "org.springframework.aot.generate.MethodReference#toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator)",
-      "signature": "default org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator)"
+      "signature": "org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator)"
     },
     {
       "key": "org.springframework.aot.generate.MethodReference#toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)",
-      "signature": "abstract org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)"
+      "signature": "org.springframework.javapoet.CodeBlock toInvokeCodeBlock(org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator, org.springframework.javapoet.ClassName)"
     },
     {
       "key": "org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator#generateCode(org.springframework.javapoet.TypeName)",
-      "signature": "abstract org.springframework.javapoet.CodeBlock generateCode(org.springframework.javapoet.TypeName)"
+      "signature": "org.springframework.javapoet.CodeBlock generateCode(org.springframework.javapoet.TypeName)"
     },
     {
       "key": "org.springframework.aot.hint.AbstractTypeReference#equals(java.lang.Object)",
@@ -936,11 +936,11 @@
     },
     {
       "key": "org.springframework.aot.hint.ConditionalHint#conditionMatches(java.lang.ClassLoader)",
-      "signature": "default boolean conditionMatches(java.lang.ClassLoader)"
+      "signature": "boolean conditionMatches(java.lang.ClassLoader)"
     },
     {
       "key": "org.springframework.aot.hint.ConditionalHint#getReachableType()",
-      "signature": "abstract org.springframework.aot.hint.TypeReference getReachableType()"
+      "signature": "org.springframework.aot.hint.TypeReference getReachableType()"
     },
     {
       "key": "org.springframework.aot.hint.ExecutableHint#getMode()",
@@ -1076,15 +1076,15 @@
     },
     {
       "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#getTypeHint(org.springframework.aot.hint.ReflectionHints)",
-      "signature": "<T> org.springframework.aot.hint.TypeHint getTypeHint(org.springframework.aot.hint.ReflectionHints)"
+      "signature": "org.springframework.aot.hint.TypeHint getTypeHint(org.springframework.aot.hint.ReflectionHints)"
     },
     {
       "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#registerType(org.springframework.aot.hint.ReflectionHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.TypeHint$Builder, kotlin.Unit>)",
-      "signature": "<T> org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.TypeHint$Builder, kotlin.Unit>)"
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.TypeHint$Builder, kotlin.Unit>)"
     },
     {
       "key": "org.springframework.aot.hint.ReflectionHintsExtensionsKt#registerType(org.springframework.aot.hint.ReflectionHints, org.springframework.aot.hint.MemberCategory...)",
-      "signature": "<T> org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, org.springframework.aot.hint.MemberCategory...)"
+      "signature": "org.springframework.aot.hint.ReflectionHints registerType(org.springframework.aot.hint.ReflectionHints, org.springframework.aot.hint.MemberCategory...)"
     },
     {
       "key": "org.springframework.aot.hint.ReflectionTypeReference#getCanonicalName()",
@@ -1148,7 +1148,7 @@
     },
     {
       "key": "org.springframework.aot.hint.ResourceHintsExtensionsKt#registerType(org.springframework.aot.hint.ResourceHints)",
-      "signature": "<T> org.springframework.aot.hint.ResourceHints registerType(org.springframework.aot.hint.ResourceHints)"
+      "signature": "org.springframework.aot.hint.ResourceHints registerType(org.springframework.aot.hint.ResourceHints)"
     },
     {
       "key": "org.springframework.aot.hint.ResourcePatternHint#equals(java.lang.Object)",
@@ -1200,7 +1200,7 @@
     },
     {
       "key": "org.springframework.aot.hint.RuntimeHintsRegistrar#registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)",
-      "signature": "abstract void registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)"
+      "signature": "void registerHints(org.springframework.aot.hint.RuntimeHints, java.lang.ClassLoader)"
     },
     {
       "key": "org.springframework.aot.hint.SerializationHints#javaSerializationHints()",
@@ -1228,7 +1228,7 @@
     },
     {
       "key": "org.springframework.aot.hint.SerializationHintsExtensionsKt#registerType(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.JavaSerializationHint$Builder, kotlin.Unit>)",
-      "signature": "<T extends java.io.Serializable> org.springframework.aot.hint.SerializationHints registerType(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.JavaSerializationHint$Builder, kotlin.Unit>)"
+      "signature": "org.springframework.aot.hint.SerializationHints registerType(org.springframework.aot.hint.SerializationHints, kotlin.jvm.functions.Function1<? super org.springframework.aot.hint.JavaSerializationHint$Builder, kotlin.Unit>)"
     },
     {
       "key": "org.springframework.aot.hint.SimpleTypeReference#getCanonicalName()",
@@ -1272,23 +1272,23 @@
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#getCanonicalName()",
-      "signature": "abstract java.lang.String getCanonicalName()"
+      "signature": "java.lang.String getCanonicalName()"
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#getEnclosingType()",
-      "signature": "abstract org.springframework.aot.hint.TypeReference getEnclosingType()"
+      "signature": "org.springframework.aot.hint.TypeReference getEnclosingType()"
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#getName()",
-      "signature": "abstract java.lang.String getName()"
+      "signature": "java.lang.String getName()"
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#getPackageName()",
-      "signature": "abstract java.lang.String getPackageName()"
+      "signature": "java.lang.String getPackageName()"
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#getSimpleName()",
-      "signature": "abstract java.lang.String getSimpleName()"
+      "signature": "java.lang.String getSimpleName()"
     },
     {
       "key": "org.springframework.aot.hint.TypeReference#listOf(java.lang.Class<?>...)",
@@ -1304,15 +1304,15 @@
     },
     {
       "key": "org.springframework.aot.hint.annotation.Reflective#processors()",
-      "signature": "abstract java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] processors()"
+      "signature": "java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] processors()"
     },
     {
       "key": "org.springframework.aot.hint.annotation.Reflective#value()",
-      "signature": "abstract java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] value()"
+      "signature": "java.lang.Class<? extends org.springframework.aot.hint.annotation.ReflectiveProcessor>[] value()"
     },
     {
       "key": "org.springframework.aot.hint.annotation.ReflectiveProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
-      "signature": "abstract void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
+      "signature": "void registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)"
     },
     {
       "key": "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar#registerRuntimeHints(org.springframework.aot.hint.RuntimeHints, java.lang.Class<?>...)",
@@ -1344,11 +1344,11 @@
     },
     {
       "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBinding#classes()",
-      "signature": "abstract java.lang.Class<?>[] classes()"
+      "signature": "java.lang.Class<?>[] classes()"
     },
     {
       "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBinding#value()",
-      "signature": "abstract java.lang.Class<?>[] value()"
+      "signature": "java.lang.Class<?>[] value()"
     },
     {
       "key": "org.springframework.aot.hint.annotation.RegisterReflectionForBindingProcessor#registerReflectionHints(org.springframework.aot.hint.ReflectionHints, java.lang.reflect.AnnotatedElement)",
@@ -1540,7 +1540,7 @@
     },
     {
       "key": "org.springframework.cglib.core.ClassTransformer#setTarget(org.springframework.asm.ClassVisitor)",
-      "signature": "abstract void setTarget(org.springframework.asm.ClassVisitor)"
+      "signature": "void setTarget(org.springframework.asm.ClassVisitor)"
     },
     {
       "key": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey#equals(java.lang.Object)",
@@ -1684,11 +1684,11 @@
     },
     {
       "key": "org.springframework.core.io.Resource#getContentAsByteArray()",
-      "signature": "default byte[] getContentAsByteArray()"
+      "signature": "byte[] getContentAsByteArray()"
     },
     {
       "key": "org.springframework.core.io.Resource#getContentAsString(java.nio.charset.Charset)",
-      "signature": "default java.lang.String getContentAsString(java.nio.charset.Charset)"
+      "signature": "java.lang.String getContentAsString(java.nio.charset.Charset)"
     },
     {
       "key": "org.springframework.core.io.UrlResource#from(java.lang.String)",
@@ -1700,39 +1700,39 @@
     },
     {
       "key": "org.springframework.core.io.buffer.CloseableDataBuffer#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#ensureWritable(int)",
-      "signature": "abstract org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
+      "signature": "org.springframework.core.io.buffer.DataBuffer ensureWritable(int)"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#split(int)",
-      "signature": "abstract org.springframework.core.io.buffer.DataBuffer split(int)"
+      "signature": "org.springframework.core.io.buffer.DataBuffer split(int)"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer()",
-      "signature": "default java.nio.ByteBuffer toByteBuffer()"
+      "signature": "java.nio.ByteBuffer toByteBuffer()"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(int, int)",
-      "signature": "abstract java.nio.ByteBuffer toByteBuffer(int, int)"
+      "signature": "java.nio.ByteBuffer toByteBuffer(int, int)"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(int, java.nio.ByteBuffer, int, int)",
-      "signature": "abstract void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
+      "signature": "void toByteBuffer(int, java.nio.ByteBuffer, int, int)"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer#toByteBuffer(java.nio.ByteBuffer)",
-      "signature": "default void toByteBuffer(java.nio.ByteBuffer)"
+      "signature": "void toByteBuffer(java.nio.ByteBuffer)"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBuffer$ByteBufferIterator#close()",
-      "signature": "abstract void close()"
+      "signature": "void close()"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBufferFactory#isDirect()",
-      "signature": "abstract boolean isDirect()"
+      "signature": "boolean isDirect()"
     },
     {
       "key": "org.springframework.core.io.buffer.DataBufferInputStream#available()",
@@ -2108,7 +2108,7 @@
     },
     {
       "key": "org.springframework.core.io.buffer.TouchableDataBuffer#touch(java.lang.Object)",
-      "signature": "abstract org.springframework.core.io.buffer.TouchableDataBuffer touch(java.lang.Object)"
+      "signature": "org.springframework.core.io.buffer.TouchableDataBuffer touch(java.lang.Object)"
     },
     {
       "key": "org.springframework.core.io.support.EncodedResource#getContentAsString()",
@@ -2168,35 +2168,35 @@
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>)",
-      "signature": "<T> java.util.List<T> load(java.lang.Class<T>)"
+      "signature": "java.util.List<T> load(java.lang.Class<T>)"
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver)",
-      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver)"
+      "signature": "java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver)"
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)",
-      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
+      "signature": "java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader#load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)",
-      "signature": "<T> java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
+      "signature": "java.util.List<T> load(java.lang.Class<T>, org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler)"
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver#resolve(java.lang.Class<T>)",
-      "signature": "abstract <T> T resolve(java.lang.Class<T>)"
+      "signature": "T resolve(java.lang.Class<T>)"
     },
     {
       "key": "org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler#handleFailure(java.lang.Class<?>, java.lang.String, java.lang.Throwable)",
-      "signature": "abstract void handleFailure(java.lang.Class<?>, java.lang.String, java.lang.Throwable)"
+      "signature": "void handleFailure(java.lang.Class<?>, java.lang.String, java.lang.Throwable)"
     },
     {
       "key": "org.springframework.core.task.AsyncTaskExecutor#submitCompletable(java.lang.Runnable)",
-      "signature": "default java.util.concurrent.CompletableFuture<java.lang.Void> submitCompletable(java.lang.Runnable)"
+      "signature": "java.util.concurrent.CompletableFuture<java.lang.Void> submitCompletable(java.lang.Runnable)"
     },
     {
       "key": "org.springframework.core.task.AsyncTaskExecutor#submitCompletable(java.util.concurrent.Callable<T>)",
-      "signature": "default <T> java.util.concurrent.CompletableFuture<T> submitCompletable(java.util.concurrent.Callable<T>)"
+      "signature": "java.util.concurrent.CompletableFuture<T> submitCompletable(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.springframework.core.task.support.ExecutorServiceAdapter#close()",
@@ -2204,7 +2204,7 @@
     },
     {
       "key": "org.springframework.core.type.AnnotationMetadata#getDeclaredMethods()",
-      "signature": "abstract java.util.Set<org.springframework.core.type.MethodMetadata> getDeclaredMethods()"
+      "signature": "java.util.Set<org.springframework.core.type.MethodMetadata> getDeclaredMethods()"
     },
     {
       "key": "org.springframework.core.type.StandardAnnotationMetadata#getDeclaredMethods()",
@@ -2888,7 +2888,7 @@
     },
     {
       "key": "org.springframework.util.ObjectUtils#addObjectToArray(A[], O, int)",
-      "signature": "<A, O extends A> A[] addObjectToArray(A[], O, int)"
+      "signature": "A[] addObjectToArray(A[], O, int)"
     },
     {
       "key": "org.springframework.util.ResourceUtils#toRelativeURL(java.net.URL, java.lang.String)",
@@ -2900,7 +2900,7 @@
     },
     {
       "key": "org.springframework.util.SerializationUtils#clone(T)",
-      "signature": "<T extends java.io.Serializable> T clone(T)"
+      "signature": "T clone(T)"
     },
     {
       "key": "org.springframework.util.StringUtils#uncapitalizeAsProperty(java.lang.String)",
@@ -3140,7 +3140,7 @@
     },
     {
       "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#toArray(T[])",
-      "signature": "<T> T[] toArray(T[])"
+      "signature": "T[] toArray(T[])"
     },
     {
       "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet#toString()",
@@ -3280,7 +3280,7 @@
     },
     {
       "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#toArray(T[])",
-      "signature": "<T> T[] toArray(T[])"
+      "signature": "T[] toArray(T[])"
     },
     {
       "key": "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection#toString()",
@@ -3320,107 +3320,107 @@
     },
     {
       "key": "org.springframework.util.concurrent.FutureUtils#callAsync(java.util.concurrent.Callable<T>)",
-      "signature": "<T> java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>)"
+      "signature": "java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>)"
     },
     {
       "key": "org.springframework.util.concurrent.FutureUtils#callAsync(java.util.concurrent.Callable<T>, java.util.concurrent.Executor)",
-      "signature": "<T> java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>, java.util.concurrent.Executor)"
+      "signature": "java.util.concurrent.CompletableFuture<T> callAsync(java.util.concurrent.Callable<T>, java.util.concurrent.Executor)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#apply(T, U)",
-      "signature": "default R apply(T, U)"
+      "signature": "R apply(T, U)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#apply(T, U, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default R apply(T, U, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "R apply(T, U, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#applyWithException(T, U)",
-      "signature": "abstract R applyWithException(T, U)"
+      "signature": "R applyWithException(T, U)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#of(org.springframework.util.function.ThrowingBiFunction<T, U, R>)",
-      "signature": "<T, U, R> org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>)"
+      "signature": "org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#of(org.springframework.util.function.ThrowingBiFunction<T, U, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "<T, U, R> org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingBiFunction<T, U, R> of(org.springframework.util.function.ThrowingBiFunction<T, U, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingBiFunction#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default org.springframework.util.function.ThrowingBiFunction<T, U, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingBiFunction<T, U, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#accept(T)",
-      "signature": "default void accept(T)"
+      "signature": "void accept(T)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#accept(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default void accept(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "void accept(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#acceptWithException(T)",
-      "signature": "abstract void acceptWithException(T)"
+      "signature": "void acceptWithException(T)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#of(org.springframework.util.function.ThrowingConsumer<T>)",
-      "signature": "<T> org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>)"
+      "signature": "org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#of(org.springframework.util.function.ThrowingConsumer<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "<T> org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingConsumer<T> of(org.springframework.util.function.ThrowingConsumer<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingConsumer#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default org.springframework.util.function.ThrowingConsumer<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingConsumer<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#apply(T)",
-      "signature": "default R apply(T)"
+      "signature": "R apply(T)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#apply(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default R apply(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "R apply(T, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#applyWithException(T)",
-      "signature": "abstract R applyWithException(T)"
+      "signature": "R applyWithException(T)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#of(org.springframework.util.function.ThrowingFunction<T, R>)",
-      "signature": "<T, R> org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>)"
+      "signature": "org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#of(org.springframework.util.function.ThrowingFunction<T, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "<T, R> org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingFunction<T, R> of(org.springframework.util.function.ThrowingFunction<T, R>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingFunction#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default org.springframework.util.function.ThrowingFunction<T, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingFunction<T, R> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#get()",
-      "signature": "default T get()"
+      "signature": "T get()"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#get(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default T get(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "T get(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#getWithException()",
-      "signature": "abstract T getWithException()"
+      "signature": "T getWithException()"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#of(org.springframework.util.function.ThrowingSupplier<T>)",
-      "signature": "<T> org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>)"
+      "signature": "org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#of(org.springframework.util.function.ThrowingSupplier<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "<T> org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingSupplier<T> of(org.springframework.util.function.ThrowingSupplier<T>, java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     },
     {
       "key": "org.springframework.util.function.ThrowingSupplier#throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)",
-      "signature": "default org.springframework.util.function.ThrowingSupplier<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
+      "signature": "org.springframework.util.function.ThrowingSupplier<T> throwing(java.util.function.BiFunction<java.lang.String, java.lang.Exception, java.lang.RuntimeException>)"
     }
   ],
   "changed": [
@@ -3434,14 +3434,14 @@
     {
       "name": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount",
       "old": "reactor.core.publisher.Flux<org.springframework.core.io.buffer.DataBuffer> skipUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
-      "new": "<T extends org.springframework.core.io.buffer.DataBuffer> reactor.core.publisher.Flux<T> skipUntilByteCount(org.reactivestreams.Publisher<T>, long)",
+      "new": "reactor.core.publisher.Flux<T> skipUntilByteCount(org.reactivestreams.Publisher<T>, long)",
       "old_key": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
       "new_key": "org.springframework.core.io.buffer.DataBufferUtils#skipUntilByteCount(org.reactivestreams.Publisher<T>, long)"
     },
     {
       "name": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount",
       "old": "reactor.core.publisher.Flux<org.springframework.core.io.buffer.DataBuffer> takeUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
-      "new": "<T extends org.springframework.core.io.buffer.DataBuffer> reactor.core.publisher.Flux<T> takeUntilByteCount(org.reactivestreams.Publisher<T>, long)",
+      "new": "reactor.core.publisher.Flux<T> takeUntilByteCount(org.reactivestreams.Publisher<T>, long)",
       "old_key": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount(org.reactivestreams.Publisher<? extends org.springframework.core.io.buffer.DataBuffer>, long)",
       "new_key": "org.springframework.core.io.buffer.DataBufferUtils#takeUntilByteCount(org.reactivestreams.Publisher<T>, long)"
     },
@@ -3476,7 +3476,7 @@
     {
       "name": "org.springframework.util.MimeTypeUtils#sortBySpecificity",
       "old": "void sortBySpecificity(java.util.List<org.springframework.util.MimeType>)",
-      "new": "<T extends org.springframework.util.MimeType> void sortBySpecificity(java.util.List<T>)",
+      "new": "void sortBySpecificity(java.util.List<T>)",
       "old_key": "org.springframework.util.MimeTypeUtils#sortBySpecificity(java.util.List<org.springframework.util.MimeType>)",
       "new_key": "org.springframework.util.MimeTypeUtils#sortBySpecificity(java.util.List<T>)"
     }
@@ -3486,13 +3486,249 @@
     "new_methods": 4520,
     "removed": 154,
     "added": 701,
-    "changed": 8
+    "changed": 8,
+    "removed_classes": 32,
+    "added_classes": 176
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.springframework_spring-core_5.3.24.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\org.springframework_spring-core_6.0.7.jar",
+  "removed_classes": [
+    "org.springframework.cglib.transform.AbstractProcessTask",
+    "org.springframework.cglib.transform.AbstractTransformTask",
+    "org.springframework.cglib.transform.ClassTransformer",
+    "org.springframework.core.NestedIOException",
+    "org.springframework.core.ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar",
+    "org.springframework.core.ReactiveAdapterRegistry$RxJava1Registrar",
+    "org.springframework.core.ReactiveAdapterRegistry$RxJava2Registrar",
+    "org.springframework.core.annotation.SynthesizedAnnotation",
+    "org.springframework.core.env.ReadOnlySystemAttributesMap",
+    "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferInputStream",
+    "org.springframework.core.io.buffer.DefaultDataBuffer$DefaultDataBufferOutputStream",
+    "org.springframework.core.io.support.ResourcePropertiesPersister",
+    "org.springframework.core.type.classreading.AbstractRecursiveAnnotationVisitor",
+    "org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor",
+    "org.springframework.core.type.classreading.AnnotationMetadataReadingVisitor",
+    "org.springframework.core.type.classreading.AnnotationReadingVisitorUtils",
+    "org.springframework.core.type.classreading.ClassMetadataReadingVisitor",
+    "org.springframework.core.type.classreading.ClassMetadataReadingVisitor$EmptyAnnotationVisitor",
+    "org.springframework.core.type.classreading.ClassMetadataReadingVisitor$EmptyFieldVisitor",
+    "org.springframework.core.type.classreading.ClassMetadataReadingVisitor$EmptyMethodVisitor",
+    "org.springframework.core.type.classreading.MethodMetadataReadingVisitor",
+    "org.springframework.core.type.classreading.RecursiveAnnotationArrayVisitor",
+    "org.springframework.core.type.classreading.RecursiveAnnotationAttributesVisitor",
+    "org.springframework.lang.UsesJava7",
+    "org.springframework.lang.UsesJava8",
+    "org.springframework.lang.UsesSunHttpServer",
+    "org.springframework.lang.UsesSunMisc",
+    "org.springframework.util.CollectionUtils$EnumerationIterator",
+    "org.springframework.util.SocketUtils",
+    "org.springframework.util.SocketUtils$SocketType",
+    "org.springframework.util.comparator.CompoundComparator",
+    "org.springframework.util.comparator.InvertibleComparator"
+  ],
+  "added_classes": [
+    "org.springframework.aot.AotDetector",
+    "org.springframework.aot.generate.AccessControl",
+    "org.springframework.aot.generate.AccessControl$Visibility",
+    "org.springframework.aot.generate.AppendableConsumerInputStreamSource",
+    "org.springframework.aot.generate.ClassNameGenerator",
+    "org.springframework.aot.generate.DefaultGenerationContext",
+    "org.springframework.aot.generate.DefaultMethodReference",
+    "org.springframework.aot.generate.FileSystemGeneratedFiles",
+    "org.springframework.aot.generate.GeneratedClass",
+    "org.springframework.aot.generate.GeneratedClasses",
+    "org.springframework.aot.generate.GeneratedClasses$Owner",
+    "org.springframework.aot.generate.GeneratedFiles",
+    "org.springframework.aot.generate.GeneratedFiles$Kind",
+    "org.springframework.aot.generate.GeneratedMethod",
+    "org.springframework.aot.generate.GeneratedMethods",
+    "org.springframework.aot.generate.GeneratedTypeReference",
+    "org.springframework.aot.generate.GenerationContext",
+    "org.springframework.aot.generate.InMemoryGeneratedFiles",
+    "org.springframework.aot.generate.MethodName",
+    "org.springframework.aot.generate.MethodReference",
+    "org.springframework.aot.generate.MethodReference$ArgumentCodeGenerator",
+    "org.springframework.aot.generate.package",
+    "org.springframework.aot.hint.AbstractTypeReference",
+    "org.springframework.aot.hint.BindingReflectionHintsRegistrar",
+    "org.springframework.aot.hint.BindingReflectionHintsRegistrar$KotlinDelegate",
+    "org.springframework.aot.hint.ConditionalHint",
+    "org.springframework.aot.hint.ExecutableHint",
+    "org.springframework.aot.hint.ExecutableHint$Builder",
+    "org.springframework.aot.hint.ExecutableMode",
+    "org.springframework.aot.hint.FieldHint",
+    "org.springframework.aot.hint.JavaSerializationHint",
+    "org.springframework.aot.hint.JavaSerializationHint$Builder",
+    "org.springframework.aot.hint.JdkProxyHint",
+    "org.springframework.aot.hint.JdkProxyHint$Builder",
+    "org.springframework.aot.hint.JdkProxyHintExtensionsKt",
+    "org.springframework.aot.hint.MemberCategory",
+    "org.springframework.aot.hint.MemberHint",
+    "org.springframework.aot.hint.ProxyHints",
+    "org.springframework.aot.hint.ProxyHintsExtensionsKt",
+    "org.springframework.aot.hint.ReflectionHints",
+    "org.springframework.aot.hint.ReflectionHintsExtensionsKt",
+    "org.springframework.aot.hint.ReflectionTypeReference",
+    "org.springframework.aot.hint.ResourceBundleHint",
+    "org.springframework.aot.hint.ResourceBundleHint$Builder",
+    "org.springframework.aot.hint.ResourceHints",
+    "org.springframework.aot.hint.ResourceHintsExtensionsKt",
+    "org.springframework.aot.hint.ResourcePatternHint",
+    "org.springframework.aot.hint.ResourcePatternHints",
+    "org.springframework.aot.hint.ResourcePatternHints$Builder",
+    "org.springframework.aot.hint.RuntimeHints",
+    "org.springframework.aot.hint.RuntimeHintsRegistrar",
+    "org.springframework.aot.hint.SerializationHints",
+    "org.springframework.aot.hint.SerializationHintsExtensionsKt",
+    "org.springframework.aot.hint.SimpleTypeReference",
+    "org.springframework.aot.hint.TypeHint",
+    "org.springframework.aot.hint.TypeHint$Builder",
+    "org.springframework.aot.hint.TypeHint$ExecutableKey",
+    "org.springframework.aot.hint.TypeHintExtensionsKt",
+    "org.springframework.aot.hint.TypeReference",
+    "org.springframework.aot.hint.annotation.Reflective",
+    "org.springframework.aot.hint.annotation.ReflectiveProcessor",
+    "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar",
+    "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$DelegatingReflectiveProcessor",
+    "org.springframework.aot.hint.annotation.ReflectiveRuntimeHintsRegistrar$Entry",
+    "org.springframework.aot.hint.annotation.RegisterReflectionForBinding",
+    "org.springframework.aot.hint.annotation.RegisterReflectionForBindingProcessor",
+    "org.springframework.aot.hint.annotation.SimpleReflectiveProcessor",
+    "org.springframework.aot.hint.annotation.package",
+    "org.springframework.aot.hint.package",
+    "org.springframework.aot.hint.predicate.ProxyHintsPredicates",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$ConstructorHintPredicate",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$ExecutableHintPredicate",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$FieldHintPredicate",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$MethodHintPredicate",
+    "org.springframework.aot.hint.predicate.ReflectionHintsPredicates$TypeHintPredicate",
+    "org.springframework.aot.hint.predicate.ResourceHintsPredicates",
+    "org.springframework.aot.hint.predicate.ResourceHintsPredicates$AggregatedResourcePatternHints",
+    "org.springframework.aot.hint.predicate.RuntimeHintsPredicates",
+    "org.springframework.aot.hint.predicate.SerializationHintsPredicates",
+    "org.springframework.aot.hint.predicate.package",
+    "org.springframework.aot.hint.support.ClassHintUtils",
+    "org.springframework.aot.hint.support.FilePatternResourceHintsRegistrar",
+    "org.springframework.aot.hint.support.ObjectToObjectConverterRuntimeHints",
+    "org.springframework.aot.hint.support.SpringFactoriesLoaderRuntimeHints",
+    "org.springframework.aot.hint.support.SpringFactoriesLoaderRuntimeHints$ExtendedSpringFactoriesLoader",
+    "org.springframework.aot.hint.support.package",
+    "org.springframework.aot.nativex.BasicJsonWriter",
+    "org.springframework.aot.nativex.BasicJsonWriter$IndentingWriter",
+    "org.springframework.aot.nativex.FileNativeConfigurationWriter",
+    "org.springframework.aot.nativex.NativeConfigurationWriter",
+    "org.springframework.aot.nativex.ProxyHintsWriter",
+    "org.springframework.aot.nativex.ReflectionHintsWriter",
+    "org.springframework.aot.nativex.ResourceHintsWriter",
+    "org.springframework.aot.nativex.SerializationHintsWriter",
+    "org.springframework.aot.nativex.feature.PreComputeFieldFeature",
+    "org.springframework.aot.nativex.feature.ThrowawayClassLoader",
+    "org.springframework.aot.nativex.feature.package",
+    "org.springframework.aot.nativex.package",
+    "org.springframework.aot.nativex.substitution.Target_ClassFinder",
+    "org.springframework.aot.nativex.substitution.Target_Introspector",
+    "org.springframework.aot.nativex.substitution.package",
+    "org.springframework.aot.package",
+    "org.springframework.cglib.core.ClassTransformer",
+    "org.springframework.core.annotation.MergedAnnotations$Search",
+    "org.springframework.core.codec.Netty5BufferDecoder",
+    "org.springframework.core.codec.Netty5BufferEncoder",
+    "org.springframework.core.io.buffer.CloseableDataBuffer",
+    "org.springframework.core.io.buffer.DataBuffer$ByteBufferIterator",
+    "org.springframework.core.io.buffer.DataBufferInputStream",
+    "org.springframework.core.io.buffer.DataBufferOutputStream",
+    "org.springframework.core.io.buffer.DataBufferUtils$ReadCompletionHandler$Attachment",
+    "org.springframework.core.io.buffer.DataBufferUtils$WriteCompletionHandler$Attachment",
+    "org.springframework.core.io.buffer.DefaultDataBuffer$ByteBufferIterator",
+    "org.springframework.core.io.buffer.Netty5DataBuffer",
+    "org.springframework.core.io.buffer.Netty5DataBuffer$BufferComponentIterator",
+    "org.springframework.core.io.buffer.Netty5DataBufferFactory",
+    "org.springframework.core.io.buffer.NettyDataBuffer$ByteBufferIterator",
+    "org.springframework.core.io.buffer.TouchableDataBuffer",
+    "org.springframework.core.io.support.PropertySourceDescriptor",
+    "org.springframework.core.io.support.PropertySourceProcessor",
+    "org.springframework.core.io.support.SpringFactoriesLoader$ArgumentResolver",
+    "org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator",
+    "org.springframework.core.io.support.SpringFactoriesLoader$FailureHandler",
+    "org.springframework.core.io.support.SpringFactoriesLoader$KotlinDelegate",
+    "org.springframework.core.style.SimpleValueStyler",
+    "org.springframework.javapoet.AnnotationSpec",
+    "org.springframework.javapoet.AnnotationSpec$Builder",
+    "org.springframework.javapoet.AnnotationSpec$Visitor",
+    "org.springframework.javapoet.ArrayTypeName",
+    "org.springframework.javapoet.ClassName",
+    "org.springframework.javapoet.CodeBlock",
+    "org.springframework.javapoet.CodeBlock$Builder",
+    "org.springframework.javapoet.CodeBlock$CodeBlockJoiner",
+    "org.springframework.javapoet.CodeWriter",
+    "org.springframework.javapoet.CodeWriter$Multiset",
+    "org.springframework.javapoet.FieldSpec",
+    "org.springframework.javapoet.FieldSpec$Builder",
+    "org.springframework.javapoet.JavaFile",
+    "org.springframework.javapoet.JavaFile$Builder",
+    "org.springframework.javapoet.LineWrapper",
+    "org.springframework.javapoet.LineWrapper$FlushType",
+    "org.springframework.javapoet.LineWrapper$RecordingAppendable",
+    "org.springframework.javapoet.MethodSpec",
+    "org.springframework.javapoet.MethodSpec$Builder",
+    "org.springframework.javapoet.NameAllocator",
+    "org.springframework.javapoet.ParameterSpec",
+    "org.springframework.javapoet.ParameterSpec$Builder",
+    "org.springframework.javapoet.ParameterizedTypeName",
+    "org.springframework.javapoet.TypeName",
+    "org.springframework.javapoet.TypeSpec",
+    "org.springframework.javapoet.TypeSpec$Builder",
+    "org.springframework.javapoet.TypeSpec$Kind",
+    "org.springframework.javapoet.TypeVariableName",
+    "org.springframework.javapoet.Util",
+    "org.springframework.javapoet.WildcardTypeName",
+    "org.springframework.util.ConcurrentLruCache$AddTask",
+    "org.springframework.util.ConcurrentLruCache$CacheEntry",
+    "org.springframework.util.ConcurrentLruCache$CacheEntryState",
+    "org.springframework.util.ConcurrentLruCache$DrainStatus",
+    "org.springframework.util.ConcurrentLruCache$EvictionQueue",
+    "org.springframework.util.ConcurrentLruCache$Node",
+    "org.springframework.util.ConcurrentLruCache$ReadOperations",
+    "org.springframework.util.ConcurrentLruCache$RemovalTask",
+    "org.springframework.util.ConcurrentLruCache$WriteOperations",
+    "org.springframework.util.UnmodifiableMultiValueMap",
+    "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet",
+    "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntry",
+    "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableEntrySet$UnmodifiableEntrySpliterator",
+    "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection",
+    "org.springframework.util.UnmodifiableMultiValueMap$UnmodifiableValueCollection$UnmodifiableValueSpliterator",
+    "org.springframework.util.concurrent.FutureUtils",
+    "org.springframework.util.function.ThrowingBiFunction",
+    "org.springframework.util.function.ThrowingConsumer",
+    "org.springframework.util.function.ThrowingFunction",
+    "org.springframework.util.function.ThrowingSupplier"
+  ],
+  "old_jar": "jar_cache/org.springframework_spring-core_5.3.24.jar",
+  "new_jar": "jar_cache/org.springframework_spring-core_6.0.7.jar",
   "group_id": "org.springframework",
   "artifact_id": "spring-core",
   "old_version": "5.3.24",
   "new_version": "6.0.7",
-  "project": "IDS-Messaging-Services"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.springframework:spring-jcl",
+          "old": "5.3.24",
+          "new": "6.0.7"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "IDS-Messaging-Services"
+  ]
 }

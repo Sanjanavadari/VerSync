@@ -1,0 +1,91 @@
+{
+  "group_id": "io.jenkins.tools.bom",
+  "artifact_id": "bom-2.277.x",
+  "old_version": "29",
+  "new_version": "961.vf0c9f6f59827",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [
+        "io.jenkins.configuration-as-code:test-harness",
+        "io.jenkins.plugins:bootstrap4-api",
+        "io.jenkins.plugins:checks-api",
+        "io.jenkins.plugins:echarts-api",
+        "io.jenkins.plugins:font-awesome-api",
+        "io.jenkins.plugins:jquery3-api",
+        "io.jenkins.plugins:plugin-util-api",
+        "io.jenkins.plugins:popper-api",
+        "io.jenkins.plugins:snakeyaml-api",
+        "io.jenkins:configuration-as-code",
+        "org.jenkins-ci.plugins.workflow:workflow-api",
+        "org.jenkins-ci.plugins.workflow:workflow-basic-steps",
+        "org.jenkins-ci.plugins.workflow:workflow-cps",
+        "org.jenkins-ci.plugins.workflow:workflow-cps-global-lib",
+        "org.jenkins-ci.plugins.workflow:workflow-durable-task-step",
+        "org.jenkins-ci.plugins.workflow:workflow-job",
+        "org.jenkins-ci.plugins.workflow:workflow-multibranch",
+        "org.jenkins-ci.plugins.workflow:workflow-scm-step",
+        "org.jenkins-ci.plugins.workflow:workflow-step-api",
+        "org.jenkins-ci.plugins.workflow:workflow-support",
+        "org.jenkins-ci.plugins:ansicolor",
+        "org.jenkins-ci.plugins:apache-httpcomponents-client-4-api",
+        "org.jenkins-ci.plugins:branch-api",
+        "org.jenkins-ci.plugins:cloudbees-folder",
+        "org.jenkins-ci.plugins:command-launcher",
+        "org.jenkins-ci.plugins:credentials",
+        "org.jenkins-ci.plugins:credentials-binding",
+        "org.jenkins-ci.plugins:dashboard-view",
+        "org.jenkins-ci.plugins:display-url-api",
+        "org.jenkins-ci.plugins:durable-task",
+        "org.jenkins-ci.plugins:git",
+        "org.jenkins-ci.plugins:git-client",
+        "org.jenkins-ci.plugins:git-server",
+        "org.jenkins-ci.plugins:htmlpublisher",
+        "org.jenkins-ci.plugins:jackson2-api",
+        "org.jenkins-ci.plugins:jdk-tool",
+        "org.jenkins-ci.plugins:jquery",
+        "org.jenkins-ci.plugins:jsch",
+        "org.jenkins-ci.plugins:junit",
+        "org.jenkins-ci.plugins:junit-attachments",
+        "org.jenkins-ci.plugins:mailer",
+        "org.jenkins-ci.plugins:matrix-auth",
+        "org.jenkins-ci.plugins:pipeline-build-step",
+        "org.jenkins-ci.plugins:pipeline-input-step",
+        "org.jenkins-ci.plugins:pipeline-stage-step",
+        "org.jenkins-ci.plugins:plain-credentials",
+        "org.jenkins-ci.plugins:scm-api",
+        "org.jenkins-ci.plugins:script-security",
+        "org.jenkins-ci.plugins:structs",
+        "org.jenkins-ci.plugins:timestamper",
+        "org.jenkins-ci.plugins:token-macro",
+        "org.jenkins-ci.plugins:trilead-api",
+        "org.jenkins-ci.plugins:variant",
+        "org.jenkins-ci.ui:ace-editor",
+        "org.jenkins-ci.ui:jquery-detached",
+        "org.jenkins-ci:symbol-annotation",
+        "org.jenkinsci.plugins:pipeline-model-api",
+        "org.jenkinsci.plugins:pipeline-model-definition",
+        "org.jenkinsci.plugins:pipeline-model-extensions",
+        "org.jenkinsci.plugins:pipeline-stage-tags-metadata"
+      ],
+      "added": [
+        "${project.groupId}:bom-2.289.x"
+      ],
+      "version_changed": []
+    }
+  },
+  "counts": {
+    "managed_version_changed": 0,
+    "managed_removed": 60,
+    "managed_added": 1
+  },
+  "projects": [
+    "config-file-provider-plugin"
+  ]
+}

@@ -175,13 +175,44 @@
     "new_methods": 154,
     "removed": 19,
     "added": 17,
-    "changed": 3
+    "changed": 3,
+    "removed_classes": 0,
+    "added_classes": 0
   },
-  "old_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\io.dropwizard_dropwizard-client_2.1.5.jar",
-  "new_jar": "C:\\Users\\siva_\\Desktop\\Major Project 4 Year\\VerSync\\person1\\jar_cache\\io.dropwizard_dropwizard-client_4.0.0.jar",
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/io.dropwizard_dropwizard-client_2.1.5.jar",
+  "new_jar": "jar_cache/io.dropwizard_dropwizard-client_4.0.0.jar",
   "group_id": "io.dropwizard",
   "artifact_id": "dropwizard-client",
   "old_version": "2.1.5",
   "new_version": "4.0.0",
-  "project": "lithium"
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "com.google.code.findbugs:jsr305",
+        "io.dropwizard.metrics:metrics-httpclient",
+        "org.apache.httpcomponents:httpclient",
+        "org.apache.httpcomponents:httpcore"
+      ],
+      "added": [
+        "io.dropwizard.metrics:metrics-httpclient5",
+        "org.apache.httpcomponents.client5:httpclient5",
+        "org.apache.httpcomponents.core5:httpcore5",
+        "org.checkerframework:checker-qual",
+        "org.mockito:mockito-inline"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "lithium"
+  ]
 }
