@@ -1,0 +1,44 @@
+{
+  "group_id": "org.jenkins-ci.plugins",
+  "artifact_id": "plugin",
+  "old_version": "5.9",
+  "new_version": "5.28",
+  "status": "NOT_APPLICABLE_POM",
+  "packaging": "pom",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.jenkins-ci.main:jenkins-test-harness",
+          "old": "2411.v1e79b_0dc94b_7",
+          "new": "2519.v4ee63f85da_71"
+        },
+        {
+          "dependency": "org.junit:junit-bom",
+          "old": "5.12.0",
+          "new": "6.0.0"
+        },
+        {
+          "dependency": "org.mockito:mockito-bom",
+          "old": "5.16.0",
+          "new": "5.20.0"
+        }
+      ]
+    }
+  },
+  "counts": {
+    "managed_version_changed": 3,
+    "managed_removed": 0,
+    "managed_added": 0
+  },
+  "projects": [
+    "publish-over-ssh-plugin"
+  ]
+}

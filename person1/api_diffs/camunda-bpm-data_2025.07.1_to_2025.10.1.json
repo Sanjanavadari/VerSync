@@ -1,0 +1,133 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.CaseService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.CaseService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.RuntimeService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.RuntimeService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.TaskService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.TaskService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.delegate.VariableScope)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.delegate.VariableScope)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.externaltask.LockedExternalTask)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.externaltask.LockedExternalTask)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.runtime.ProcessInstanceWithVariables)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.runtime.ProcessInstanceWithVariables)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Readers$C7#reader(org.camunda.bpm.engine.variable.VariableMap)",
+      "signature": "io.holunda.camunda.bpm.data.reader.VariableReader reader(org.camunda.bpm.engine.variable.VariableMap)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#builder()",
+      "signature": "io.holunda.camunda.bpm.data.builder.VariableMapBuilder builder()"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#writer(org.camunda.bpm.engine.CaseService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.writer.VariableWriter<?> writer(org.camunda.bpm.engine.CaseService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#writer(org.camunda.bpm.engine.RuntimeService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.writer.VariableWriter<?> writer(org.camunda.bpm.engine.RuntimeService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#writer(org.camunda.bpm.engine.TaskService, java.lang.String)",
+      "signature": "io.holunda.camunda.bpm.data.writer.VariableWriter<?> writer(org.camunda.bpm.engine.TaskService, java.lang.String)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#writer(org.camunda.bpm.engine.delegate.VariableScope)",
+      "signature": "io.holunda.camunda.bpm.data.writer.VariableWriter<?> writer(org.camunda.bpm.engine.delegate.VariableScope)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.Writers$C7#writer(org.camunda.bpm.engine.variable.VariableMap)",
+      "signature": "io.holunda.camunda.bpm.data.writer.GlobalVariableWriter<?> writer(org.camunda.bpm.engine.variable.VariableMap)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.adapter.ReadAdapter#access$getLocalOrDefault$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter, java.lang.Object)",
+      "signature": "java.lang.Object access$getLocalOrDefault$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter, java.lang.Object)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.adapter.ReadAdapter#access$getLocalOrNull$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter)",
+      "signature": "java.lang.Object access$getLocalOrNull$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.adapter.ReadAdapter#access$getOrDefault$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter, java.lang.Object)",
+      "signature": "java.lang.Object access$getOrDefault$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter, java.lang.Object)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.adapter.ReadAdapter#access$getOrNull$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter)",
+      "signature": "java.lang.Object access$getOrNull$jd(io.holunda.camunda.bpm.data.adapter.ReadAdapter)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.factory.VariableFactory#access$getNonNull$jd(io.holunda.camunda.bpm.data.factory.VariableFactory)",
+      "signature": "io.holunda.camunda.bpm.data.factory.VariableFactory access$getNonNull$jd(io.holunda.camunda.bpm.data.factory.VariableFactory)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.reader.VariableReader#access$getLocalOrDefault$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory, java.lang.Object)",
+      "signature": "java.lang.Object access$getLocalOrDefault$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory, java.lang.Object)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.reader.VariableReader#access$getLocalOrNull$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory)",
+      "signature": "java.lang.Object access$getLocalOrNull$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.reader.VariableReader#access$getOrDefault$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory, java.lang.Object)",
+      "signature": "java.lang.Object access$getOrDefault$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory, java.lang.Object)"
+    },
+    {
+      "key": "io.holunda.camunda.bpm.data.reader.VariableReader#access$getOrNull$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory)",
+      "signature": "java.lang.Object access$getOrNull$jd(io.holunda.camunda.bpm.data.reader.VariableReader, io.holunda.camunda.bpm.data.factory.VariableFactory)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 803,
+    "new_methods": 825,
+    "removed": 0,
+    "added": 22,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 4
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "io.holunda.camunda.bpm.data.Readers",
+    "io.holunda.camunda.bpm.data.Readers$C7",
+    "io.holunda.camunda.bpm.data.Writers",
+    "io.holunda.camunda.bpm.data.Writers$C7"
+  ],
+  "old_jar": "jar_cache/io.holunda.data_camunda-bpm-data_2025.07.1.jar",
+  "new_jar": "jar_cache/io.holunda.data_camunda-bpm-data_2025.10.1.jar",
+  "group_id": "io.holunda.data",
+  "artifact_id": "camunda-bpm-data",
+  "old_version": "2025.07.1",
+  "new_version": "2025.10.1",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "camunda-platform-7-mockito"
+  ]
+}

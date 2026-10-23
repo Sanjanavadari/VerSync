@@ -36,6 +36,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -50,6 +51,7 @@ OUT_DIR = ROOT / "api_diffs"
 REPOSITORIES = [
     "https://repo1.maven.org/maven2",
     "https://repo.jenkins-ci.org/public",
+    "https://groovy.jfrog.io/artifactory/plugins-release",  # groovy-eclipse-compiler
 ]
 NO_API_PACKAGING = {"pom"}
 PLUGIN_PACKAGING = {"hpi", "jpi"}
@@ -90,12 +92,22 @@ def download(group: str, artifact: str, version: str, ext: str) -> Path:
     errors = []
     for repo in REPOSITORIES:
         url = maven_url(group, artifact, version, ext, repo)
-        try:
-            urllib.request.urlretrieve(url, dest)
-            print(f"  Downloaded {url}")
-            return dest
-        except urllib.error.HTTPError as exc:
-            errors.append(f"{exc.code} {url}")
+        for attempt in range(3):
+            try:
+                # urlretrieve has no timeout and can hang forever on a stalled connection.
+                with urllib.request.urlopen(url, timeout=60) as resp:
+                    data = resp.read()
+                dest.write_bytes(data)
+                print(f"  Downloaded {url}")
+                return dest
+            except urllib.error.HTTPError as exc:
+                errors.append(f"{exc.code} {url}")
+                break  # 404 etc.: try the next repository
+            except (urllib.error.URLError, TimeoutError, OSError) as exc:
+                if attempt == 2:
+                    errors.append(f"{exc} {url}")
+                else:
+                    time.sleep(5 * (attempt + 1))  # transient network error: retry
     dest.unlink(missing_ok=True)
     raise FileNotFoundError("not found in any repository: " + "; ".join(errors))
 

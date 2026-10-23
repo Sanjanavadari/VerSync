@@ -1,0 +1,75 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.apache.commons.lang3.SystemProperties#getPath(java.lang.String, java.util.function.Supplier<java.nio.file.Path>)",
+      "signature": "java.nio.file.Path getPath(java.lang.String, java.util.function.Supplier<java.nio.file.Path>)"
+    },
+    {
+      "key": "org.apache.commons.lang3.concurrent.TimedSemaphore$Builder#get()",
+      "signature": "java.lang.Object get()"
+    },
+    {
+      "key": "org.apache.commons.lang3.time.StopWatch#split(java.lang.String)",
+      "signature": "void split(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.lang3.time.StopWatch$Split#getDuration()",
+      "signature": "java.time.Duration getDuration()"
+    },
+    {
+      "key": "org.apache.commons.lang3.time.StopWatch$Split#getLabel()",
+      "signature": "java.lang.String getLabel()"
+    },
+    {
+      "key": "org.apache.commons.lang3.time.StopWatch$Split#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.commons.lang3.time.TimeZones#getTimeZone(java.lang.String)",
+      "signature": "java.util.TimeZone getTimeZone(java.lang.String)"
+    },
+    {
+      "key": "org.apache.commons.lang3.tuple.MutablePair#ofNonNull(java.util.Map$Entry<L, R>)",
+      "signature": "org.apache.commons.lang3.tuple.MutablePair<L, R> ofNonNull(java.util.Map$Entry<L, R>)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 3376,
+    "new_methods": 3384,
+    "removed": 0,
+    "added": 8,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.commons.lang3.concurrent.TimedSemaphore$Builder",
+    "org.apache.commons.lang3.time.StopWatch$Split"
+  ],
+  "old_jar": "jar_cache/org.apache.commons_commons-lang3_3.19.0.jar",
+  "new_jar": "jar_cache/org.apache.commons_commons-lang3_3.20.0.jar",
+  "group_id": "org.apache.commons",
+  "artifact_id": "commons-lang3",
+  "old_version": "3.19.0",
+  "new_version": "3.20.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "camunda-platform-7-mockito"
+  ]
+}

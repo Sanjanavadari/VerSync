@@ -1,0 +1,1044 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.apache.hc.client5.http.DnsResolver#resolve(java.lang.String, int)",
+      "signature": "java.util.List<java.net.InetSocketAddress> resolve(java.lang.String, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.EarlyHintsListener#onEarlyHints(org.apache.hc.core5.http.HttpResponse, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void onEarlyHints(org.apache.hc.core5.http.HttpResponse, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.HttpRoute#getUnixDomainSocket()",
+      "signature": "java.nio.file.Path getUnixDomainSocket()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.RouteInfo#getUnixDomainSocket()",
+      "signature": "java.nio.file.Path getUnixDomainSocket()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.RouteTracker#getUnixDomainSocket()",
+      "signature": "java.nio.file.Path getUnixDomainSocket()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#failed(java.lang.Exception)",
+      "signature": "void failed(java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#getTrailerNames()",
+      "signature": "java.util.Set<java.lang.String> getTrailerNames()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#isRepeatable()",
+      "signature": "boolean isRepeatable()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#produce(org.apache.hc.core5.http.nio.DataStreamChannel)",
+      "signature": "void produce(org.apache.hc.core5.http.nio.DataStreamChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel#endStream()",
+      "signature": "void endStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel#endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel#requestOutput()",
+      "signature": "void requestOutput()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel#write(java.nio.Buffer)",
+      "signature": "int write(java.nio.Buffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel#write(java.nio.ByteBuffer)",
+      "signature": "int write(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#failed(java.lang.Exception)",
+      "signature": "void failed(java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#getTrailerNames()",
+      "signature": "java.util.Set<java.lang.String> getTrailerNames()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#isRepeatable()",
+      "signature": "boolean isRepeatable()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#produce(org.apache.hc.core5.http.nio.DataStreamChannel)",
+      "signature": "void produce(org.apache.hc.core5.http.nio.DataStreamChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#failed(java.lang.Exception)",
+      "signature": "void failed(java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#getTrailerNames()",
+      "signature": "java.util.Set<java.lang.String> getTrailerNames()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#isRepeatable()",
+      "signature": "boolean isRepeatable()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#produce(org.apache.hc.core5.http.nio.DataStreamChannel)",
+      "signature": "void produce(org.apache.hc.core5.http.nio.DataStreamChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel#endStream()",
+      "signature": "void endStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel#endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel#requestOutput()",
+      "signature": "void requestOutput()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel#write(java.nio.Buffer)",
+      "signature": "int write(java.nio.Buffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel#write(java.nio.ByteBuffer)",
+      "signature": "int write(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#failed(java.lang.Exception)",
+      "signature": "void failed(java.lang.Exception)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#getContentType()",
+      "signature": "java.lang.String getContentType()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#getTrailerNames()",
+      "signature": "java.util.Set<java.lang.String> getTrailerNames()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#isRepeatable()",
+      "signature": "boolean isRepeatable()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#produce(org.apache.hc.core5.http.nio.DataStreamChannel)",
+      "signature": "void produce(org.apache.hc.core5.http.nio.DataStreamChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner#endStream()",
+      "signature": "void endStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner#endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void endStream(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner#requestOutput()",
+      "signature": "void requestOutput()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner#write(java.nio.Buffer)",
+      "signature": "int write(java.nio.Buffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner#write(java.nio.ByteBuffer)",
+      "signature": "int write(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingAsyncDataConsumer#consume(java.nio.ByteBuffer)",
+      "signature": "void consume(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingAsyncDataConsumer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingAsyncDataConsumer#streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingAsyncDataConsumer#updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)",
+      "signature": "void updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingBrotliDataConsumer#consume(java.nio.ByteBuffer)",
+      "signature": "void consume(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingBrotliDataConsumer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingBrotliDataConsumer#streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingBrotliDataConsumer#updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)",
+      "signature": "void updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingGzipDataConsumer#consume(java.nio.ByteBuffer)",
+      "signature": "void consume(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingGzipDataConsumer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingGzipDataConsumer#streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingGzipDataConsumer#updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)",
+      "signature": "void updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingZstdDataConsumer#consume(java.nio.ByteBuffer)",
+      "signature": "void consume(java.nio.ByteBuffer)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingZstdDataConsumer#releaseResources()",
+      "signature": "void releaseResources()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingZstdDataConsumer#streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)",
+      "signature": "void streamEnd(java.util.List<? extends org.apache.hc.core5.http.Header>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.async.methods.InflatingZstdDataConsumer#updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)",
+      "signature": "void updateCapacity(org.apache.hc.core5.http.nio.CapacityChannel)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.auth.AuthScheme#isChallengeExpected()",
+      "signature": "boolean isChallengeExpected()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.auth.AuthScheme#processChallenge(org.apache.hc.core5.http.HttpHost, boolean, org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void processChallenge(org.apache.hc.core5.http.HttpHost, boolean, org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.config.ConnectionConfig#getIdleTimeout()",
+      "signature": "org.apache.hc.core5.util.Timeout getIdleTimeout()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.config.RequestConfig#getH2Priority()",
+      "signature": "org.apache.hc.core5.http2.priority.PriorityValue getH2Priority()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.config.RequestConfig#getUnixDomainSocket()",
+      "signature": "java.nio.file.Path getUnixDomainSocket()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.DeflateCompressingEntity#getContent()",
+      "signature": "java.io.InputStream getContent()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.DeflateCompressingEntity#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.DeflateCompressingEntity#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.DeflateCompressingEntity#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.DeflateCompressingEntity#writeTo(java.io.OutputStream)",
+      "signature": "void writeTo(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.EntityBuilder#compressed(org.apache.hc.client5.http.entity.compress.ContentCoding)",
+      "signature": "org.apache.hc.client5.http.entity.EntityBuilder compressed(org.apache.hc.client5.http.entity.compress.ContentCoding)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.EntityBuilder#getCompressWith()",
+      "signature": "org.apache.hc.client5.http.entity.compress.ContentCoding getCompressWith()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.CompressingEntity#getContent()",
+      "signature": "java.io.InputStream getContent()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.CompressingEntity#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.CompressingEntity#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.CompressingEntity#isChunked()",
+      "signature": "boolean isChunked()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.CompressingEntity#writeTo(java.io.OutputStream)",
+      "signature": "void writeTo(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry#decoder(org.apache.hc.client5.http.entity.compress.ContentCoding)",
+      "signature": "java.util.function.UnaryOperator<org.apache.hc.core5.http.HttpEntity> decoder(org.apache.hc.client5.http.entity.compress.ContentCoding)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry#encoder(org.apache.hc.client5.http.entity.compress.ContentCoding)",
+      "signature": "java.util.function.UnaryOperator<org.apache.hc.core5.http.HttpEntity> encoder(org.apache.hc.client5.http.entity.compress.ContentCoding)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry#unwrap(org.apache.hc.client5.http.entity.compress.ContentCoding, org.apache.hc.core5.http.HttpEntity)",
+      "signature": "org.apache.hc.core5.http.HttpEntity unwrap(org.apache.hc.client5.http.entity.compress.ContentCoding, org.apache.hc.core5.http.HttpEntity)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry#wrap(org.apache.hc.client5.http.entity.compress.ContentCoding, org.apache.hc.core5.http.HttpEntity)",
+      "signature": "org.apache.hc.core5.http.HttpEntity wrap(org.apache.hc.client5.http.entity.compress.ContentCoding, org.apache.hc.core5.http.HttpEntity)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCoding#fromToken(java.lang.String)",
+      "signature": "org.apache.hc.client5.http.entity.compress.ContentCoding fromToken(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCoding#token()",
+      "signature": "java.lang.String token()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCoding#valueOf(java.lang.String)",
+      "signature": "org.apache.hc.client5.http.entity.compress.ContentCoding valueOf(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.ContentCoding#values()",
+      "signature": "org.apache.hc.client5.http.entity.compress.ContentCoding[] values()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity#getContent()",
+      "signature": "java.io.InputStream getContent()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity#getContentEncoding()",
+      "signature": "java.lang.String getContentEncoding()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity#writeTo(java.io.OutputStream)",
+      "signature": "void writeTo(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#available()",
+      "signature": "int available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream#skip(long)",
+      "signature": "long skip(long)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.FormBodyPartBuilder#create(java.lang.String, org.apache.hc.client5.http.entity.mime.ContentBody, org.apache.hc.client5.http.entity.mime.HttpMultipartMode)",
+      "signature": "org.apache.hc.client5.http.entity.mime.FormBodyPartBuilder create(java.lang.String, org.apache.hc.client5.http.entity.mime.ContentBody, org.apache.hc.client5.http.entity.mime.HttpMultipartMode)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.MultipartEntityBuilder#addBinaryBody(java.lang.String, java.nio.file.Path)",
+      "signature": "org.apache.hc.client5.http.entity.mime.MultipartEntityBuilder addBinaryBody(java.lang.String, java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.MultipartEntityBuilder#addBinaryBody(java.lang.String, java.nio.file.Path, org.apache.hc.core5.http.ContentType, java.lang.String)",
+      "signature": "org.apache.hc.client5.http.entity.mime.MultipartEntityBuilder addBinaryBody(java.lang.String, java.nio.file.Path, org.apache.hc.core5.http.ContentType, java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.PathBody#getContentLength()",
+      "signature": "long getContentLength()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.PathBody#getFilename()",
+      "signature": "java.lang.String getFilename()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.PathBody#getInputStream()",
+      "signature": "java.io.InputStream getInputStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.PathBody#getPath()",
+      "signature": "java.nio.file.Path getPath()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.entity.mime.PathBody#writeTo(java.io.OutputStream)",
+      "signature": "void writeTo(java.io.OutputStream)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.Brotli4jRuntime#available()",
+      "signature": "boolean available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.ConnectionHolder#get()",
+      "signature": "org.apache.hc.core5.http.HttpConnection get()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.ContentCodingSupport#parseContentCodecs(org.apache.hc.core5.http.EntityDetails)",
+      "signature": "java.util.List<java.lang.String> parseContentCodecs(org.apache.hc.core5.http.EntityDetails)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.ContentCodingSupport#validate(java.util.Collection<java.lang.String>, int)",
+      "signature": "void validate(java.util.Collection<java.lang.String>, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.DefaultRedirectStrategy#isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.LaxRedirectStrategy#isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.ProtocolSwitchStrategy$HeaderConsumer#accept(java.lang.CharSequence, org.apache.hc.core5.http.message.ParserCursor)",
+      "signature": "void accept(java.lang.CharSequence, org.apache.hc.core5.http.message.ParserCursor)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.ZstdRuntime#available()",
+      "signature": "boolean available()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.AbstractHttpAsyncClientBase#connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>)",
+      "signature": "java.util.concurrent.Future<org.apache.hc.core5.reactor.IOSession> connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.reactor.IOSession>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.ContentCompressionAsyncExec#execute(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.nio.AsyncEntityProducer, org.apache.hc.client5.http.async.AsyncExecChain$Scope, org.apache.hc.client5.http.async.AsyncExecChain, org.apache.hc.client5.http.async.AsyncExecCallback)",
+      "signature": "void execute(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.nio.AsyncEntityProducer, org.apache.hc.client5.http.async.AsyncExecChain$Scope, org.apache.hc.client5.http.async.AsyncExecChain, org.apache.hc.client5.http.async.AsyncExecCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.EarlyHintsAsyncExec#execute(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.nio.AsyncEntityProducer, org.apache.hc.client5.http.async.AsyncExecChain$Scope, org.apache.hc.client5.http.async.AsyncExecChain, org.apache.hc.client5.http.async.AsyncExecCallback)",
+      "signature": "void execute(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.nio.AsyncEntityProducer, org.apache.hc.client5.http.async.AsyncExecChain$Scope, org.apache.hc.client5.http.async.AsyncExecChain, org.apache.hc.client5.http.async.AsyncExecCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.H2AsyncClientBuilder#disableRequestPriority()",
+      "signature": "org.apache.hc.client5.http.impl.async.H2AsyncClientBuilder disableRequestPriority()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder#disableContentCompression()",
+      "signature": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder disableContentCompression()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder#disableRequestPriority()",
+      "signature": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder disableRequestPriority()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder#getConnManager()",
+      "signature": "org.apache.hc.client5.http.nio.AsyncClientConnectionManager getConnManager()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder#setContentDecoderMap(java.util.LinkedHashMap<java.lang.String, java.util.function.UnaryOperator<org.apache.hc.core5.http.nio.AsyncDataConsumer>>)",
+      "signature": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder setContentDecoderMap(java.util.LinkedHashMap<java.lang.String, java.util.function.UnaryOperator<org.apache.hc.core5.http.nio.AsyncDataConsumer>>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder#setEarlyHintsListener(org.apache.hc.client5.http.EarlyHintsListener)",
+      "signature": "org.apache.hc.client5.http.impl.async.HttpAsyncClientBuilder setEarlyHintsListener(org.apache.hc.client5.http.EarlyHintsListener)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.HttpAsyncClients#classic(org.apache.hc.client5.http.impl.async.CloseableHttpAsyncClient, org.apache.hc.core5.util.Timeout)",
+      "signature": "org.apache.hc.client5.http.impl.classic.CloseableHttpClient classic(org.apache.hc.client5.http.impl.async.CloseableHttpAsyncClient, org.apache.hc.core5.util.Timeout)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.InternalH2AsyncClient#connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)",
+      "signature": "java.util.concurrent.Future connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.InternalHttpAsyncClient#connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)",
+      "signature": "java.util.concurrent.Future connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.MinimalH2AsyncClient#connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)",
+      "signature": "java.util.concurrent.Future connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.async.MinimalHttpAsyncClient#connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)",
+      "signature": "java.util.concurrent.Future connect(org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.concurrent.FutureCallback)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.AuthenticationHandler#addAuthResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpRequest, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void addAuthResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpRequest, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.AuthenticationHandler#extractChallengeMap(org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.protocol.HttpClientContext)",
+      "signature": "java.util.Map<java.lang.String, org.apache.hc.client5.http.auth.AuthChallenge> extractChallengeMap(org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.protocol.HttpClientContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.AuthenticationHandler#handleResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.AuthenticationStrategy, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean handleResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.AuthenticationStrategy, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.AuthenticationHandler#isChallengeExpected(org.apache.hc.client5.http.auth.AuthExchange)",
+      "signature": "boolean isChallengeExpected(org.apache.hc.client5.http.auth.AuthExchange)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.AuthenticationHandler#isChallenged(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean isChallenged(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.ChallengeType, org.apache.hc.core5.http.HttpResponse, org.apache.hc.client5.http.auth.AuthExchange, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.SaslPrep#prepAsQueryString(java.lang.String)",
+      "signature": "java.lang.String prepAsQueryString(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.SaslPrep#prepAsStoredString(java.lang.String)",
+      "signature": "java.lang.String prepAsStoredString(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramExtension#process(java.lang.String, java.lang.String, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean process(java.lang.String, java.lang.String, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramExtension#supports(java.lang.String)",
+      "signature": "boolean supports(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#generateAuthResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "java.lang.String generateAuthResponse(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#getPrincipal()",
+      "signature": "java.security.Principal getPrincipal()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#getRealm()",
+      "signature": "java.lang.String getRealm()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#isChallengeComplete()",
+      "signature": "boolean isChallengeComplete()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#isChallengeExpected()",
+      "signature": "boolean isChallengeExpected()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#isConnectionBased()",
+      "signature": "boolean isConnectionBased()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#isResponseReady(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.CredentialsProvider, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean isResponseReady(org.apache.hc.core5.http.HttpHost, org.apache.hc.client5.http.auth.CredentialsProvider, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#processChallenge(org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void processChallenge(org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme#processChallenge(org.apache.hc.core5.http.HttpHost, boolean, org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void processChallenge(org.apache.hc.core5.http.HttpHost, boolean, org.apache.hc.client5.http.auth.AuthChallenge, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme$SimplePrincipal#getName()",
+      "signature": "java.lang.String getName()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramScheme$SimplePrincipal#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.auth.ScramSchemeFactory#create(org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "org.apache.hc.client5.http.auth.AuthScheme create(org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.classic.CloseableDelegate#close(java.io.Closeable, org.apache.hc.core5.io.CloseMode)",
+      "signature": "void close(java.io.Closeable, org.apache.hc.core5.io.CloseMode)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.classic.CloseableHttpResponse#create(org.apache.hc.core5.http.ClassicHttpResponse, org.apache.hc.client5.http.impl.classic.CloseableDelegate)",
+      "signature": "org.apache.hc.client5.http.impl.classic.CloseableHttpResponse create(org.apache.hc.core5.http.ClassicHttpResponse, org.apache.hc.client5.http.impl.classic.CloseableDelegate)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.classic.HttpClientBuilder#getConnManager()",
+      "signature": "org.apache.hc.client5.http.io.HttpClientConnectionManager getConnManager()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.compat.ClassicToAsyncAdaptor#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.compat.ClassicToAsyncAdaptor#close(org.apache.hc.core5.io.CloseMode)",
+      "signature": "void close(org.apache.hc.core5.io.CloseMode)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.io.BasicHttpClientConnectionManager$InternalConnectionEndpoint#get()",
+      "signature": "org.apache.hc.core5.http.HttpConnection get()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator#connect(org.apache.hc.client5.http.io.ManagedHttpClientConnection, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.net.NamedEndpoint, java.nio.file.Path, java.net.InetSocketAddress, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.http.io.SocketConfig, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void connect(org.apache.hc.client5.http.io.ManagedHttpClientConnection, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.net.NamedEndpoint, java.nio.file.Path, java.net.InetSocketAddress, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.http.io.SocketConfig, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.io.OffLockDisposalCallback#execute(T, org.apache.hc.core5.io.CloseMode)",
+      "signature": "void execute(T, org.apache.hc.core5.io.CloseMode)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager$InternalConnectionEndpoint#get()",
+      "signature": "org.apache.hc.core5.http.HttpConnection get()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder#setOffLockDisposalEnabled(boolean)",
+      "signature": "org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManagerBuilder setOffLockDisposalEnabled(boolean)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.DefaultAsyncClientConnectionOperator#connect(org.apache.hc.core5.reactor.ConnectionInitiator, org.apache.hc.core5.http.HttpHost, java.nio.file.Path, org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection>)",
+      "signature": "java.util.concurrent.Future<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection> connect(org.apache.hc.core5.reactor.ConnectionInitiator, org.apache.hc.core5.http.HttpHost, java.nio.file.Path, org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#close(org.apache.hc.core5.io.CloseMode)",
+      "signature": "void close(org.apache.hc.core5.io.CloseMode)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#closeExpired()",
+      "signature": "void closeExpired()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#closeIdle(org.apache.hc.core5.util.TimeValue)",
+      "signature": "void closeIdle(org.apache.hc.core5.util.TimeValue)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getDefaultMaxPerRoute()",
+      "signature": "int getDefaultMaxPerRoute()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getMaxPerRoute(T)",
+      "signature": "int getMaxPerRoute(T)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getMaxTotal()",
+      "signature": "int getMaxTotal()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getRoutes()",
+      "signature": "java.util.Set<T> getRoutes()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getStats(T)",
+      "signature": "org.apache.hc.core5.pool.PoolStats getStats(T)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#getTotalStats()",
+      "signature": "org.apache.hc.core5.pool.PoolStats getTotalStats()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#lease(T, java.lang.Object, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.pool.PoolEntry<T, C>>)",
+      "signature": "java.util.concurrent.Future<org.apache.hc.core5.pool.PoolEntry<T, C>> lease(T, java.lang.Object, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.core5.pool.PoolEntry<T, C>>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#release(org.apache.hc.core5.pool.PoolEntry<T, C>, boolean)",
+      "signature": "void release(org.apache.hc.core5.pool.PoolEntry<T, C>, boolean)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#setDefaultMaxPerRoute(int)",
+      "signature": "void setDefaultMaxPerRoute(int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#setMaxPerRoute(T, int)",
+      "signature": "void setMaxPerRoute(T, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#setMaxTotal(int)",
+      "signature": "void setMaxTotal(int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.H2SharingConnPool#toString()",
+      "signature": "java.lang.String toString()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.PoolingAsyncClientConnectionManager$InternalConnectionEndpoint#get()",
+      "signature": "org.apache.hc.core5.http.HttpConnection get()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.impl.nio.PoolingAsyncClientConnectionManagerBuilder#setMessageMultiplexing(boolean)",
+      "signature": "org.apache.hc.client5.http.impl.nio.PoolingAsyncClientConnectionManagerBuilder setMessageMultiplexing(boolean)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.io.DetachedSocketFactory#create(java.lang.String, java.net.Proxy)",
+      "signature": "java.net.Socket create(java.lang.String, java.net.Proxy)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.io.HttpClientConnectionOperator#connect(org.apache.hc.client5.http.io.ManagedHttpClientConnection, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.net.NamedEndpoint, java.nio.file.Path, java.net.InetSocketAddress, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.http.io.SocketConfig, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void connect(org.apache.hc.client5.http.io.ManagedHttpClientConnection, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.net.NamedEndpoint, java.nio.file.Path, java.net.InetSocketAddress, org.apache.hc.core5.util.Timeout, org.apache.hc.core5.http.io.SocketConfig, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.nio.AsyncClientConnectionOperator#connect(org.apache.hc.core5.reactor.ConnectionInitiator, org.apache.hc.core5.http.HttpHost, java.nio.file.Path, org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection>)",
+      "signature": "java.util.concurrent.Future<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection> connect(org.apache.hc.core5.reactor.ConnectionInitiator, org.apache.hc.core5.http.HttpHost, java.nio.file.Path, org.apache.hc.core5.net.NamedEndpoint, java.net.SocketAddress, org.apache.hc.core5.util.Timeout, java.lang.Object, org.apache.hc.core5.http.protocol.HttpContext, org.apache.hc.core5.concurrent.FutureCallback<org.apache.hc.client5.http.nio.ManagedAsyncClientConnection>)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.protocol.H2RequestPriority#process(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.EntityDetails, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void process(org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.EntityDetails, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.protocol.HttpClientContext#getNextNonce()",
+      "signature": "java.lang.String getNextNonce()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.protocol.HttpClientContext#setNextNonce(java.lang.String)",
+      "signature": "void setNextNonce(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.protocol.NextNonceInterceptor#process(org.apache.hc.core5.http.HttpResponse, org.apache.hc.core5.http.EntityDetails, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "void process(org.apache.hc.core5.http.HttpResponse, org.apache.hc.core5.http.EntityDetails, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.protocol.RedirectStrategy#isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)",
+      "signature": "boolean isRedirectAllowed(org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpHost, org.apache.hc.core5.http.HttpRequest, org.apache.hc.core5.http.protocol.HttpContext)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.psl.PublicSuffixMatcher#verify(java.lang.String)",
+      "signature": "boolean verify(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.psl.PublicSuffixMatcher#verifyInternal(java.lang.String)",
+      "signature": "boolean verifyInternal(java.lang.String)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#connect(java.net.SocketAddress)",
+      "signature": "void connect(java.net.SocketAddress)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#connect(java.net.SocketAddress, int)",
+      "signature": "void connect(java.net.SocketAddress, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#getInputStream()",
+      "signature": "java.io.InputStream getInputStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#getOutputStream()",
+      "signature": "java.io.OutputStream getOutputStream()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#getSoTimeout()",
+      "signature": "int getSoTimeout()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#isClosed()",
+      "signature": "boolean isClosed()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#isConnected()",
+      "signature": "boolean isConnected()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter#setSoTimeout(int)",
+      "signature": "void setSoTimeout(int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter#getOption(int)",
+      "signature": "java.lang.Object getOption(int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter#setOption(int, java.lang.Object)",
+      "signature": "void setOption(int, java.lang.Object)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$InputStreamAdapter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$InputStreamAdapter#read()",
+      "signature": "int read()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$InputStreamAdapter#read(byte[])",
+      "signature": "int read(byte[])"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$InputStreamAdapter#read(byte[], int, int)",
+      "signature": "int read(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$OutputStreamAdapter#close()",
+      "signature": "void close()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$OutputStreamAdapter#write(byte[])",
+      "signature": "void write(byte[])"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$OutputStreamAdapter#write(byte[], int, int)",
+      "signature": "void write(byte[], int, int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$OutputStreamAdapter#write(int)",
+      "signature": "void write(int)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory#connectSocket(java.net.Socket, java.nio.file.Path, org.apache.hc.core5.util.TimeValue)",
+      "signature": "java.net.Socket connectSocket(java.net.Socket, java.nio.file.Path, org.apache.hc.core5.util.TimeValue)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory#createSocket()",
+      "signature": "java.net.Socket createSocket()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory#createSocketAddress(java.nio.file.Path)",
+      "signature": "java.net.SocketAddress createSocketAddress(java.nio.file.Path)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory#getSocketFactory()",
+      "signature": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory getSocketFactory()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.socket.UnixDomainSocketFactory#isAvailable()",
+      "signature": "boolean isAvailable()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.ClientTlsStrategyBuilder#buildAsync()",
+      "signature": "org.apache.hc.core5.http.nio.ssl.TlsStrategy buildAsync()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.ClientTlsStrategyBuilder#buildClassic()",
+      "signature": "org.apache.hc.client5.http.ssl.TlsSocketStrategy buildClassic()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.ClientTlsStrategyBuilder#setHostVerificationPolicy(org.apache.hc.client5.http.ssl.HostnameVerificationPolicy)",
+      "signature": "org.apache.hc.client5.http.ssl.ClientTlsStrategyBuilder setHostVerificationPolicy(org.apache.hc.client5.http.ssl.HostnameVerificationPolicy)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$Builder#build()",
+      "signature": "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy build()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$ByteArrayKey#equals(java.lang.Object)",
+      "signature": "boolean equals(java.lang.Object)"
+    },
+    {
+      "key": "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$ByteArrayKey#hashCode()",
+      "signature": "int hashCode()"
+    },
+    {
+      "key": "org.apache.hc.client5.http.utils.DnsUtils#normalizeUnicode(java.lang.String)",
+      "signature": "java.lang.String normalizeUnicode(java.lang.String)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 1864,
+    "new_methods": 2097,
+    "removed": 0,
+    "added": 233,
+    "changed": 0,
+    "removed_classes": 1,
+    "added_classes": 59
+  },
+  "removed_classes": [
+    "org.apache.hc.client5.http.impl.ProtocolSwitchStrategy$ProtocolSwitch"
+  ],
+  "added_classes": [
+    "org.apache.hc.client5.http.EarlyHintsListener",
+    "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer",
+    "org.apache.hc.client5.http.async.methods.DeflatingAsyncEntityProducer$InnerChannel",
+    "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer",
+    "org.apache.hc.client5.http.async.methods.DeflatingBrotliEntityProducer$State",
+    "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer",
+    "org.apache.hc.client5.http.async.methods.DeflatingGzipEntityProducer$InnerChannel",
+    "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer",
+    "org.apache.hc.client5.http.async.methods.DeflatingZstdEntityProducer$Inner",
+    "org.apache.hc.client5.http.async.methods.InflatingAsyncDataConsumer",
+    "org.apache.hc.client5.http.async.methods.InflatingBrotliDataConsumer",
+    "org.apache.hc.client5.http.async.methods.InflatingGzipDataConsumer",
+    "org.apache.hc.client5.http.async.methods.InflatingZstdDataConsumer",
+    "org.apache.hc.client5.http.entity.DeflateCompressingEntity",
+    "org.apache.hc.client5.http.entity.compress.BrotliCodecFactory",
+    "org.apache.hc.client5.http.entity.compress.CommonsCompressCodecFactory",
+    "org.apache.hc.client5.http.entity.compress.CommonsCompressRuntime",
+    "org.apache.hc.client5.http.entity.compress.CompressingEntity",
+    "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry",
+    "org.apache.hc.client5.http.entity.compress.ContentCodecRegistry$Codec",
+    "org.apache.hc.client5.http.entity.compress.ContentCoding",
+    "org.apache.hc.client5.http.entity.compress.DecompressingEntity",
+    "org.apache.hc.client5.http.entity.compress.DecompressingEntity$LazyDecompressingInputStream",
+    "org.apache.hc.client5.http.entity.mime.PathBody",
+    "org.apache.hc.client5.http.impl.Brotli4jRuntime",
+    "org.apache.hc.client5.http.impl.ConnectionHolder",
+    "org.apache.hc.client5.http.impl.ContentCodingSupport",
+    "org.apache.hc.client5.http.impl.ProtocolSwitchStrategy$HeaderConsumer",
+    "org.apache.hc.client5.http.impl.ScramException",
+    "org.apache.hc.client5.http.impl.ZstdRuntime",
+    "org.apache.hc.client5.http.impl.async.ContentCompressionAsyncExec",
+    "org.apache.hc.client5.http.impl.async.EarlyHintsAsyncExec",
+    "org.apache.hc.client5.http.impl.auth.AuthenticationHandler",
+    "org.apache.hc.client5.http.impl.auth.DigestScheme$DigestAlgorithm",
+    "org.apache.hc.client5.http.impl.auth.SaslPrep",
+    "org.apache.hc.client5.http.impl.auth.SaslPrep$CharClass",
+    "org.apache.hc.client5.http.impl.auth.ScramExtension",
+    "org.apache.hc.client5.http.impl.auth.ScramScheme",
+    "org.apache.hc.client5.http.impl.auth.ScramScheme$SimplePrincipal",
+    "org.apache.hc.client5.http.impl.auth.ScramScheme$State",
+    "org.apache.hc.client5.http.impl.auth.ScramSchemeFactory",
+    "org.apache.hc.client5.http.impl.classic.CloseableDelegate",
+    "org.apache.hc.client5.http.impl.compat.ClassicToAsyncAdaptor",
+    "org.apache.hc.client5.http.impl.io.OffLockDisposalCallback",
+    "org.apache.hc.client5.http.impl.nio.H2SharingConnPool",
+    "org.apache.hc.client5.http.impl.nio.H2SharingConnPool$PerRoutePool",
+    "org.apache.hc.client5.http.protocol.H2RequestPriority",
+    "org.apache.hc.client5.http.protocol.NextNonceInterceptor",
+    "org.apache.hc.client5.http.psl.PublicSuffixMatcher$DomainRootInfo",
+    "org.apache.hc.client5.http.socket.Jep380SocketChannelAdapter",
+    "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter",
+    "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$InputStreamAdapter",
+    "org.apache.hc.client5.http.socket.Jep380SocketChannelImplAdapter$OutputStreamAdapter",
+    "org.apache.hc.client5.http.socket.UnixDomainSocketFactory",
+    "org.apache.hc.client5.http.socket.UnixDomainSocketFactory$Implementation",
+    "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy",
+    "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$Builder",
+    "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$ByteArrayKey",
+    "org.apache.hc.client5.http.ssl.SpkiPinningClientTlsStrategy$Rule"
+  ],
+  "old_jar": "jar_cache/org.apache.httpcomponents.client5_httpclient5_5.4.3.jar",
+  "new_jar": "jar_cache/org.apache.httpcomponents.client5_httpclient5_5.6.3.jar",
+  "group_id": "org.apache.httpcomponents.client5",
+  "artifact_id": "httpclient5",
+  "old_version": "5.4.3",
+  "new_version": "5.6.3",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "io.reactivex.rxjava2:rxjava",
+        "org.brotli:dec"
+      ],
+      "added": [
+        "com.aayushatharva.brotli4j:brotli4j",
+        "com.github.luben:zstd-jni",
+        "com.kohlschutter.junixsocket:junixsocket-core",
+        "commons-io:commons-io",
+        "io.reactivex.rxjava3:rxjava",
+        "org.apache.commons:commons-compress"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "webapp"
+  ]
+}

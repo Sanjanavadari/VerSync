@@ -1,0 +1,48 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.sonatype.central.publisher.client.model.DeploymentApiResponse#getWarnings()",
+      "signature": "java.util.List<java.lang.String> getWarnings()"
+    },
+    {
+      "key": "org.sonatype.central.publisher.client.model.DeploymentApiResponse#setWarnings(java.util.List<java.lang.String>)",
+      "signature": "void setWarnings(java.util.List<java.lang.String>)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 141,
+    "new_methods": 143,
+    "removed": 0,
+    "added": 2,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.sonatype.central_central-publishing-maven-plugin_0.10.0.jar",
+  "new_jar": "jar_cache/org.sonatype.central_central-publishing-maven-plugin_0.11.0.jar",
+  "group_id": "org.sonatype.central",
+  "artifact_id": "central-publishing-maven-plugin",
+  "old_version": "0.10.0",
+  "new_version": "0.11.0",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "assertj-vavr"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "com.mycila.maven.plugin.license.Report#getSummary()",
+      "signature": "java.lang.String getSummary()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 204,
+    "new_methods": 205,
+    "removed": 0,
+    "added": 1,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "com.mycila.maven.plugin.license.ShallowRepositoryException",
+    "com.mycila.maven.plugin.license.ShallowRepositorySkipException"
+  ],
+  "old_jar": "jar_cache/com.mycila_license-maven-plugin_5.0.0.jar",
+  "new_jar": "jar_cache/com.mycila_license-maven-plugin_5.1.1.jar",
+  "group_id": "com.mycila",
+  "artifact_id": "license-maven-plugin",
+  "old_version": "5.0.0",
+  "new_version": "5.1.1",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "org.codehaus.plexus:plexus-xml"
+      ],
+      "version_changed": [
+        {
+          "dependency": "com.google.code.gson:gson",
+          "old": "2.12.1",
+          "new": "2.14.0"
+        },
+        {
+          "dependency": "com.google.guava:guava",
+          "old": "33.4.0-jre",
+          "new": "33.6.0-jre"
+        },
+        {
+          "dependency": "org.assertj:assertj-core",
+          "old": "3.27.3",
+          "new": "3.27.7"
+        },
+        {
+          "dependency": "org.codehaus.plexus:plexus-utils",
+          "old": "4.0.2",
+          "new": "4.0.3"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.mockito:mockito-bom",
+          "old": "5.16.1",
+          "new": "5.23.0"
+        }
+      ]
+    }
+  },
+  "projects": [
+    "pdb"
+  ]
+}

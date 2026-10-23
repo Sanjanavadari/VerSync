@@ -1,0 +1,47 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "net.bytebuddy.jar.asm.ClassWriter#setComputeLimits(int, long)",
+      "signature": "void setComputeLimits(int, long)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 8279,
+    "new_methods": 8280,
+    "removed": 0,
+    "added": 1,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "net.bytebuddy.jar.asm.ComputeLimits",
+    "net.bytebuddy.jar.asm.LimitExceededException"
+  ],
+  "old_jar": "jar_cache/net.bytebuddy_byte-buddy_1.18.14.jar",
+  "new_jar": "jar_cache/net.bytebuddy_byte-buddy_1.18.15.jar",
+  "group_id": "net.bytebuddy",
+  "artifact_id": "byte-buddy",
+  "old_version": "1.18.14",
+  "new_version": "1.18.15",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "pgpverify-maven-plugin"
+  ]
+}

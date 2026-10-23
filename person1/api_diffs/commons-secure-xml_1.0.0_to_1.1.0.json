@@ -1,0 +1,71 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.apache.commons.xml.secure.SecureDocumentBuilderFactory#newNSDocumentBuilder()",
+      "signature": "javax.xml.parsers.DocumentBuilder newNSDocumentBuilder()"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureSAXParserFactory#newNSSAXParser()",
+      "signature": "javax.xml.parsers.SAXParser newNSSAXParser()"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureSAXParserFactory#newNSXMLReader()",
+      "signature": "org.xml.sax.XMLReader newNSXMLReader()"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureSAXParserFactory#newNSXMLReader(org.xml.sax.ContentHandler)",
+      "signature": "org.xml.sax.XMLReader newNSXMLReader(org.xml.sax.ContentHandler)"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureXMLFilter#setContentHandler(org.xml.sax.ContentHandler)",
+      "signature": "void setContentHandler(org.xml.sax.ContentHandler)"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureXMLFilter#setParent(org.xml.sax.XMLReader)",
+      "signature": "void setParent(org.xml.sax.XMLReader)"
+    },
+    {
+      "key": "org.apache.commons.xml.secure.SecureXMLFilter#startDocument()",
+      "signature": "void startDocument()"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 268,
+    "new_methods": 275,
+    "removed": 0,
+    "added": 7,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 0
+  },
+  "removed_classes": [],
+  "added_classes": [],
+  "old_jar": "jar_cache/org.apache.commons_commons-secure-xml_1.0.0.jar",
+  "new_jar": "jar_cache/org.apache.commons_commons-secure-xml_1.1.0.jar",
+  "group_id": "org.apache.commons",
+  "artifact_id": "commons-secure-xml",
+  "old_version": "1.0.0",
+  "new_version": "1.1.0",
+  "status": "OK",
+  "packaging": "jar",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [
+        "javax.xml.bind:jaxb-api",
+        "org.glassfish.jaxb:jaxb-runtime"
+      ],
+      "version_changed": []
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "opennlp"
+  ]
+}

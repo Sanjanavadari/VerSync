@@ -1,0 +1,72 @@
+{
+  "removed": [
+    {
+      "key": "org.sonatype.central.publisher.client.model.DeploymentApiResponse#getCherryBomUrl()",
+      "signature": "java.lang.String getCherryBomUrl()"
+    },
+    {
+      "key": "org.sonatype.central.publisher.client.model.DeploymentApiResponse#setCherryBomUrl(java.lang.String)",
+      "signature": "void setCherryBomUrl(java.lang.String)"
+    }
+  ],
+  "added": [
+    {
+      "key": "org.sonatype.central.publisher.plugin.utils.DirectoryUtils#hasFiles(java.io.File)",
+      "signature": "boolean hasFiles(java.io.File)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 142,
+    "new_methods": 141,
+    "removed": 2,
+    "added": 1,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 1
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.sonatype.central.publisher.plugin.utils.DirectoryUtils"
+  ],
+  "old_jar": "jar_cache/org.sonatype.central_central-publishing-maven-plugin_0.7.0.jar",
+  "new_jar": "jar_cache/org.sonatype.central_central-publishing-maven-plugin_0.10.0.jar",
+  "group_id": "org.sonatype.central",
+  "artifact_id": "central-publishing-maven-plugin",
+  "old_version": "0.7.0",
+  "new_version": "0.10.0",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.apache.commons:commons-lang3",
+          "old": "3.12.0",
+          "new": "3.18.0"
+        },
+        {
+          "dependency": "org.mock-server:mockserver-client-java",
+          "old": "5.15.0",
+          "new": ""
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": [
+        {
+          "dependency": "org.mock-server:mockserver-client-java",
+          "old": "",
+          "new": "5.15.0"
+        }
+      ]
+    }
+  },
+  "projects": [
+    "jspc-maven-plugin"
+  ]
+}

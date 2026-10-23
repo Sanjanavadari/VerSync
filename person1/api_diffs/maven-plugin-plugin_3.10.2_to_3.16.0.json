@@ -1,0 +1,78 @@
+{
+  "removed": [],
+  "added": [
+    {
+      "key": "org.apache.maven.plugin.plugin.ValidateComponentRequirement#validate(org.apache.maven.plugin.descriptor.PluginDescriptor, org.apache.maven.plugin.logging.Log)",
+      "signature": "void validate(org.apache.maven.plugin.descriptor.PluginDescriptor, org.apache.maven.plugin.logging.Log)"
+    },
+    {
+      "key": "org.apache.maven.plugin.plugin.metadata.LegacySupport#execute(org.apache.maven.project.MavenProject, java.lang.String)",
+      "signature": "void execute(org.apache.maven.project.MavenProject, java.lang.String)"
+    }
+  ],
+  "changed": [],
+  "counts": {
+    "old_methods": 15,
+    "new_methods": 17,
+    "removed": 0,
+    "added": 2,
+    "changed": 0,
+    "removed_classes": 0,
+    "added_classes": 2
+  },
+  "removed_classes": [],
+  "added_classes": [
+    "org.apache.maven.plugin.plugin.ValidateComponentRequirement",
+    "org.apache.maven.plugin.plugin.metadata.LegacySupport"
+  ],
+  "old_jar": "jar_cache/org.apache.maven.plugins_maven-plugin-plugin_3.10.2.jar",
+  "new_jar": "jar_cache/org.apache.maven.plugins_maven-plugin-plugin_3.16.0.jar",
+  "group_id": "org.apache.maven.plugins",
+  "artifact_id": "maven-plugin-plugin",
+  "old_version": "3.10.2",
+  "new_version": "3.16.0",
+  "status": "OK",
+  "packaging": "maven-plugin",
+  "pom_dependency_changes": {
+    "dependencies": {
+      "removed": [
+        "org.hamcrest:hamcrest",
+        "org.junit.jupiter:junit-jupiter"
+      ],
+      "added": [
+        "javax.inject:javax.inject",
+        "org.apache.maven.resolver:maven-resolver-api",
+        "org.apache.maven.resolver:maven-resolver-util",
+        "org.apache.maven:maven-settings",
+        "org.junit.jupiter:junit-jupiter-api",
+        "org.junit.jupiter:junit-jupiter-params",
+        "org.mockito:mockito-core"
+      ],
+      "version_changed": [
+        {
+          "dependency": "org.apache.maven.plugin-tools:maven-script-ant",
+          "old": "3.10.2",
+          "new": "3.16.0"
+        },
+        {
+          "dependency": "org.apache.maven.plugin-tools:maven-script-beanshell",
+          "old": "3.10.2",
+          "new": "3.16.0"
+        },
+        {
+          "dependency": "org.apache.maven:maven-repository-metadata",
+          "old": "${mavenVersion}",
+          "new": "${maven3Version}"
+        }
+      ]
+    },
+    "managed": {
+      "removed": [],
+      "added": [],
+      "version_changed": []
+    }
+  },
+  "projects": [
+    "jcabi-maven-plugin"
+  ]
+}
