@@ -21,7 +21,7 @@ Connects Person 1's verified dataset to the evaluation pipeline:
      and 95% Bootstrap Confidence Intervals.
 
 Usage:
-    python eval-system/train_baseline.py [--dataset <path>] [--dig-dir <path>] [--bootstrap-iters <int>]
+    python eval-system/train_baseline.py [--dataset <path>] [--dig-dir <path>] [--bootstrap-iters <int>] [--out <csv>]
 """
 
 from __future__ import annotations
@@ -44,7 +44,12 @@ from sklearn.preprocessing import StandardScaler
 # Re-use existing evaluation helpers from evaluator.py & analyzer.py
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from evaluator import compute_binary_metrics, compute_roc_auc
-from analyzer import classify_semver_bump, extract_graph_features, parse_semver
+from analyzer import (
+    _compute_graph_heuristic_score,
+    classify_semver_bump,
+    extract_graph_features,
+    parse_semver,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -209,6 +214,7 @@ def extract_graph_features_row(
             "affected_files_log": 0.0,
             "max_depth": 0.0,
             "ratio_affected_files": 0.0,
+            "analyzer_score": 0.0,
         }
 
     gf = extract_graph_features(dig_data, dep, old_v, new_v)
@@ -226,6 +232,8 @@ def extract_graph_features_row(
         "affected_files_log": float(np.log1p(gf["affected_files"])),
         "max_depth": float(gf["max_depth"]),
         "ratio_affected_files": float(min(1.0, ratio_files)),
+        # Score the shipped CLI/analyzer would output for this sample (untrained heuristic).
+        "analyzer_score": float(_compute_graph_heuristic_score(gf)),
     }
 
 
@@ -314,11 +322,13 @@ def evaluate_model_pipeline(
 
 def evaluate_majority_baseline(y: np.ndarray) -> Tuple[np.ndarray, Dict[str, float]]:
     """
-    Trivial baseline: always predicts the majority class ("BREAKING" / 1)
-    with probability equal to the class proportion.
+    Trivial baseline: ALWAYS predicts BREAKING (probability 1.0).
+
+    This is a fixed rule, not "the majority class": with the combined dataset
+    (51 BREAKING / 53 SAFE) the majority class is SAFE, so using the class
+    proportion as the probability would silently flip this arm to "always safe".
     """
-    majority_prob = float(np.mean(y == 1))
-    oof_probs = np.full(len(y), majority_prob, dtype=float)
+    oof_probs = np.ones(len(y), dtype=float)
     metrics = compute_extended_metrics(y, oof_probs, threshold=0.5)
     return oof_probs, metrics
 
@@ -345,15 +355,24 @@ def format_row(name: str, m: Dict[str, float], cis: Optional[Dict[str, Tuple[flo
     srec_str = cell(m["safe_recall"], "safe_recall")
 
     return (
-        f"| {name.ljust(30)} | {p_str.ljust(15)} | {r_str.ljust(15)} | {f_str.ljust(15)} "
-        f"| {auc_str.ljust(15)} | {bacc_str.ljust(15)} | {mcc_str.ljust(15)} | {srec_str.ljust(17)} |"
+        f"| {name.ljust(38)} | {p_str.ljust(17)} | {r_str.ljust(17)} | {f_str.ljust(17)} "
+        f"| {auc_str.ljust(17)} | {bacc_str.ljust(17)} | {mcc_str.ljust(17)} | {srec_str.ljust(17)} |"
     )
+
+
+CI_KEYS = ["precision", "recall", "f1", "roc_auc", "balanced_acc", "mcc", "safe_recall"]
+DOCKER_SOURCE = "bump_docker_reproduction"
+
+
+def _arm_cis(y: np.ndarray, probs: np.ndarray, iters: int) -> Dict[str, Tuple[float, float]]:
+    return {k: compute_bootstrap_ci(y, probs, k, n_iters=iters) for k in CI_KEYS}
 
 
 def run_experiment(
     dataset_path: str,
     dig_dir: Optional[str] = None,
     bootstrap_iters: int = 1000,
+    out_csv: Optional[str] = None,
 ) -> None:
     print(f"\n[VerSync] Loading dataset from: {dataset_path}")
     rows, y, groups, feat_dicts = load_and_featurize_dataset(dataset_path, dig_dir)
@@ -367,9 +386,19 @@ def run_experiment(
     print(f"[VerSync] Total samples: {n_total} ({n_breaking} BREAKING, {n_safe} SAFE)")
     print(f"[VerSync] Distinct repository groups: {n_groups}")
     print(f"[VerSync] Samples with real DIG graph: {n_graphs} / {n_total}")
+
+    # Composition table: bump type x label source x class (exposes the sampling confound)
+    sources = [r.get("label_source", "").strip() or "unknown" for r in rows]
+    bumps = [classify_semver_bump(r["old_version"], r["new_version"]) for r in rows]
+    comp: Dict[Tuple[str, str, str], int] = {}
+    for src, bump, label in zip(sources, bumps, y):
+        key = (src, "BREAKING" if label == 1 else "SAFE", bump)
+        comp[key] = comp.get(key, 0) + 1
+    print("\nComposition (label_source / class / SemVer bump -> n):")
+    for key in sorted(comp):
+        print(f"  {key[0]:<26} {key[1]:<9} {key[2]:<6} {comp[key]}")
     print("-" * 140)
 
-    # 1. Feature column names
     semver_cols = ["is_major", "is_minor", "is_patch", "maj_delta", "min_delta", "pat_delta", "version_distance"]
     graph_cols = [
         "dep_found_in_graph",
@@ -380,40 +409,29 @@ def run_experiment(
         "max_depth",
         "ratio_affected_files",
     ]
-
-    # Convert to numpy arrays
     X_semver_all = np.array([[fd[c] for c in semver_cols] for fd in feat_dicts])
 
-    # 2. Arm 1: Majority Baseline
-    maj_probs, maj_metrics = evaluate_majority_baseline(y)
-    maj_cis = {
-        k: compute_bootstrap_ci(y, maj_probs, k, n_iters=bootstrap_iters)
-        for k in ["precision", "recall", "f1", "roc_auc", "balanced_acc", "mcc", "safe_recall"]
-    }
+    arms: List[Tuple[str, int, np.ndarray, np.ndarray, Dict[str, float]]] = []
 
-    # 3. Arm 2: SemVer only (all samples)
-    semver_probs, semver_metrics = evaluate_model_pipeline(X_semver_all, y, groups)
-    semver_cis = {
-        k: compute_bootstrap_ci(y, semver_probs, k, n_iters=bootstrap_iters)
-        for k in ["precision", "recall", "f1", "roc_auc", "balanced_acc", "mcc", "safe_recall"]
-    }
+    def add_arm(name: str, y_arm: np.ndarray, probs: np.ndarray, metrics: Dict[str, float]) -> None:
+        arms.append((name, len(y_arm), y_arm, probs, metrics))
 
-    # Print Table Header
-    header = (
-        f"| {'Model Arm'.ljust(30)} | {'Precision'.ljust(15)} | {'Recall'.ljust(15)} | {'F1'.ljust(15)} "
-        f"| {'ROC-AUC'.ljust(15)} | {'Balanced Acc'.ljust(15)} | {'MCC'.ljust(15)} | {'Safe-class Recall'.ljust(17)} |"
-    )
-    sep = f"|{'-' * 32}|{'-' * 17}|{'-' * 17}|{'-' * 17}|{'-' * 17}|{'-' * 17}|{'-' * 17}|{'-' * 19}|"
+    # Arm 1: always-breaking rule
+    maj_probs, maj_m = evaluate_majority_baseline(y)
+    add_arm("Always breaking (rule)", y, maj_probs, maj_m)
 
-    print("\n" + "=" * 140)
-    print("                           VERSYNC BASELINE RISK MODEL EVALUATION REPORT")
-    print("=" * 140)
-    print(header)
-    print(sep)
-    print(format_row("Majority (always breaking)", maj_metrics, maj_cis))
-    print(format_row(f"SemVer only (all {n_total})", semver_metrics, semver_cis))
+    # Arm 2: SemVer only, every sample
+    p, m = evaluate_model_pipeline(X_semver_all, y, groups)
+    add_arm(f"SemVer only (all {n_total})", y, p, m)
 
-    # 4. Graph Subset Arms (3, 4, 5) if any real graphs exist
+    # Arm 2b: SemVer only, docker-reproduced labels only (removes the CI-label source)
+    docker_idx = [i for i, src in enumerate(sources) if src == DOCKER_SOURCE]
+    if 0 < len(docker_idx) < n_total and len(set(y[docker_idx])) == 2:
+        y_d = y[docker_idx]
+        p, m = evaluate_model_pipeline(X_semver_all[docker_idx], y_d, groups[docker_idx])
+        add_arm(f"SemVer only (docker labels n={len(docker_idx)})", y_d, p, m)
+
+    # Arms 3-6: graph subset
     if n_graphs >= 4:
         sub_idx = [i for i, fd in enumerate(feat_dicts) if fd.get("has_graph", 0.0) == 1.0]
         y_sub = y[sub_idx]
@@ -422,39 +440,68 @@ def run_experiment(
         X_graph_sub = np.array([[feat_dicts[i][c] for c in graph_cols] for i in sub_idx])
         X_both_sub = np.hstack([X_semver_sub, X_graph_sub])
 
-        # Arm 3: SemVer only on graph subset
-        s_sub_probs, s_sub_m = evaluate_model_pipeline(X_semver_sub, y_sub, groups_sub)
-        s_sub_cis = {k: compute_bootstrap_ci(y_sub, s_sub_probs, k, n_iters=bootstrap_iters) for k in s_sub_m}
-        print(format_row(f"SemVer only (subset n={n_graphs})", s_sub_m, s_sub_cis))
+        p, m = evaluate_model_pipeline(X_semver_sub, y_sub, groups_sub)
+        add_arm(f"SemVer only (subset n={n_graphs})", y_sub, p, m)
 
-        # Arm 4: Graph only on graph subset
-        g_sub_probs, g_sub_m = evaluate_model_pipeline(X_graph_sub, y_sub, groups_sub)
-        g_sub_cis = {k: compute_bootstrap_ci(y_sub, g_sub_probs, k, n_iters=bootstrap_iters) for k in g_sub_m}
-        print(format_row(f"Graph only (subset n={n_graphs})", g_sub_m, g_sub_cis))
+        p, m = evaluate_model_pipeline(X_graph_sub, y_sub, groups_sub)
+        add_arm(f"Graph only (subset n={n_graphs})", y_sub, p, m)
 
-        # Arm 5: SemVer + Graph on graph subset
-        both_probs, both_m = evaluate_model_pipeline(X_both_sub, y_sub, groups_sub)
-        both_cis = {k: compute_bootstrap_ci(y_sub, both_probs, k, n_iters=bootstrap_iters) for k in both_m}
-        print(format_row(f"SemVer + Graph (n={n_graphs})", both_m, both_cis))
-    else:
-        print(
-            f"| {'Graph Arms (subset)'.ljust(30)} | "
-            f"{'Pending batch DIG generation (run batch_build_digs.py first)'.ljust(111)} |"
-        )
+        p, m = evaluate_model_pipeline(X_both_sub, y_sub, groups_sub)
+        add_arm(f"SemVer + Graph (n={n_graphs})", y_sub, p, m)
 
-    print("=" * 140)
+        # Untrained: the score the shipped analyzer/CLI actually produces (no CV needed).
+        a_probs = np.array([feat_dicts[i]["analyzer_score"] for i in sub_idx], dtype=float)
+        a_m = compute_extended_metrics(y_sub, a_probs, threshold=0.5)
+        add_arm(f"Analyzer heuristic (subset n={n_graphs})", y_sub, a_probs, a_m)
+
+    header = (
+        f"| {'Model Arm'.ljust(38)} | {'Precision'.ljust(17)} | {'Recall'.ljust(17)} | {'F1'.ljust(17)} "
+        f"| {'ROC-AUC'.ljust(17)} | {'Balanced Acc'.ljust(17)} | {'MCC'.ljust(17)} | {'Safe-class Recall'.ljust(17)} |"
+    )
+    sep = "|" + "|".join("-" * (w + 2) for w in (38, 17, 17, 17, 17, 17, 17, 17)) + "|"
+
+    print("\n" + "=" * 150)
+    print("                           VERSYNC BASELINE RISK MODEL EVALUATION REPORT")
+    print("=" * 150)
+    print(header)
+    print(sep)
+
+    csv_rows = []
+    for name, n_arm, y_arm, probs, metrics in arms:
+        cis = _arm_cis(y_arm, probs, bootstrap_iters)
+        print(format_row(name, metrics, cis))
+        row = {"arm": name, "n": n_arm}
+        for k in CI_KEYS:
+            row[k] = metrics[k]
+            row[f"{k}_ci_low"], row[f"{k}_ci_high"] = cis[k]
+        for k in ("tp", "fp", "fn", "tn"):
+            row[k] = metrics[k]
+        csv_rows.append(row)
+
+    print("=" * 150)
     print("\nNotes:")
     print("  * Evaluated via 5-fold StratifiedGroupKFold grouped by project; probabilities pooled out-of-fold.")
-    print("  * 95% Bootstrap Confidence Intervals [lower, upper] computed across 1,000 resamples.")
-    print("  * Framing: Proof-of-pipeline baseline on initial N=59 dataset.")
+    print(f"  * 95% bootstrap confidence intervals [lower, upper] from {bootstrap_iters:,} resamples.")
+    print(f"  * Dataset: {os.path.basename(dataset_path)} (N={n_total}). Graph arms only cover samples with a DIG (n={n_graphs}).")
+    print("  * 'Always breaking' is a fixed rule (probability 1.0), not the majority class.")
+    print("  * 'Analyzer heuristic' is the untrained score the CLI ships; it is not cross-validated.")
+    print("  * Compare arms only on the same sample subset; the all-N and subset arms are not directly comparable.")
+
+    if out_csv:
+        os.makedirs(os.path.dirname(os.path.abspath(out_csv)), exist_ok=True)
+        with open(out_csv, "w", newline="", encoding="utf-8") as fh:
+            writer = csv.DictWriter(fh, fieldnames=list(csv_rows[0].keys()))
+            writer.writeheader()
+            writer.writerows(csv_rows)
+        print(f"\n[VerSync] Saved ablation table to {out_csv}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train and evaluate VerSync baseline risk models.")
     parser.add_argument(
         "--dataset",
-        default=os.path.join(os.path.dirname(__file__), "..", "person1", "final_verified_dataset.csv"),
-        help="Path to final_verified_dataset.csv",
+        default=os.path.join(os.path.dirname(__file__), "..", "person1", "combined_dataset.csv"),
+        help="Path to the dataset CSV (default: person1/combined_dataset.csv, 104 samples; use person1/final_verified_dataset.csv for the original 59).",
     )
     parser.add_argument(
         "--dig-dir",
@@ -467,12 +514,18 @@ def main() -> None:
         default=1000,
         help="Number of bootstrap resamples for 95% confidence intervals (default: 1000).",
     )
+    parser.add_argument(
+        "--out",
+        default=os.path.join(os.path.dirname(__file__), "..", "results", "ablation_combined.csv"),
+        help="Where to save the ablation table as CSV (default: results/ablation_combined.csv).",
+    )
     args = parser.parse_args()
 
     run_experiment(
         dataset_path=os.path.abspath(args.dataset),
         dig_dir=os.path.abspath(args.dig_dir) if os.path.exists(args.dig_dir) else None,
         bootstrap_iters=args.bootstrap_iters,
+        out_csv=os.path.abspath(args.out),
     )
 
 
