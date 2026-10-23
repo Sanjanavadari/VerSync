@@ -9,8 +9,30 @@ target/
 *.log
 .DS_Store
 
-# Person 1 local caches / external checkouts (re-created by the scripts)
+# Local clones / scratch data (re-created by the scripts)
+dataset/scratch_repos/
+dataset/bump
+
+# Person 1 local caches (re-created by the scripts)
 person1/jar_cache/
 person1/.cache/
 person1/*_api_cache.json
-dataset/bump
+
+# Secrets and credentials: never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*credentials*.json
+*secret*.json
+secrets/
+.netrc
+.npmrc
+.pypirc
