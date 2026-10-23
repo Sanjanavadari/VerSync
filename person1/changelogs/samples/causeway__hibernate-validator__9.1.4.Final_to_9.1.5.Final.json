@@ -1,0 +1,28 @@
+{
+  "project": "causeway",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/apache/causeway/pull/3871",
+  "dependency": "org.hibernate.validator:hibernate-validator",
+  "old_version": "9.1.4.Final",
+  "new_version": "9.1.5.Final",
+  "source_repo": "hibernate/hibernate-validator",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "9.1.5.Final"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/hibernate/hibernate-validator/compare/9.1.4.Final...9.1.5.Final",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from org.hibernate.validator:hibernate-validator's releases.\n\nRelease 9.1.5.Final\n\nHibernate Validator 9.1.5.Final released\n\nWe are pleased to announce the release of Hibernate Validator 9.1: 9.1.5.Final.\n\nYou can find the full list of 9.1.5.Final changes here.\n\nWhat's new\n\nSee the website for requirements and compatibilities.\n\nSee the What's New guide for details about new features and capabilities.\n\nConclusion\n\nFor additional details, see:\n\nthe release page\n\nthe Migration Guide\n\nthe Getting started\n\nthe Reference Guide\n\nthe API docs\n\nVisit the website for details on getting in touch with us.",
+    "pr_body_changelog": "Sourced from org.hibernate.validator:hibernate-validator's changelog.\n\n9.1.5.Final (2026-10-13)\n\nFull changelog\n\nBug\n\nHV-2256 - addMessageParameter fix\n\nImprovement\n\nHV-2263 - Bump joda-time to 2.14.4",
+    "pr_body_commits": "257c5b8 [Jenkins release job] Preparing release 9.1.5.Final\n\n79140b6 [Jenkins release job] changelog.md updated by release build 9.1.5.Final\n\n3c73c34 [Jenkins release job] README.md updated by release build 9.1.5.Final\n\n188fa51 HV-2256 Add updates to migration guide/what's new doc\n\nf4ddf9e HV-2256 Escape message parameters by default\n\nf0b26b8 [9.1] Bump the build-dependencies group across 1 directory with 4 updates\n\n668c038 Bump joda-time to 2.14.4 HV-2263\n\n3b87bf0 [9.1] Bump org.hibernate.infra:hibernate-asciidoctor-theme\n\n8d8cc71 [9.1] Bump org.asciidoctor:asciidoctorj-pdf\n\n5c8ca50 [Jenkins release job] Preparing next development iteration\n\nSee full diff in compare view",
+    "release_notes": "## 9.1.5.Final\n# Hibernate Validator 9.1.5.Final released\n\nWe are pleased to announce the release of Hibernate Validator 9.1: 9.1.5.Final.\n\nYou can find the full list of 9.1.5.Final changes [here](https://hibernate.atlassian.net/issues/?jql=project%20%3D%20HV%20AND%20fixVersion%20%3D%209.1.5.Final).\n\n## What's new\n\n* See the [website](https://hibernate.org/validator/releases/9.1) for requirements and compatibilities.\n* See the [What's New](https://docs.hibernate.org/validator/9.1/whats-new/en-US/html_single/) guide for details about new features and capabilities.\n\n## Conclusion\n\nFor additional details, see:\n\n- the [release page](https://hibernate.org/validator/releases/9.1/)\n- the [Migration Guide](https://docs.hibernate.org/validator/9.1/migration-guide/)\n- the [Getting started](https://docs.hibernate.org/validator/9.1/reference/en-US/html_single/#validator-gettingstarted)\n- the [Reference Guide](https://docs.hibernate.org/validator/9.1/reference/en-US/html_single/)\n- the [API docs](https://docs.hibernate.org/validator/9.1/api)\n\nVisit the [website](https://hibernate.org/community/) for details on getting in touch with us."
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

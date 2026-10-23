@@ -1,0 +1,20 @@
+{
+  "project": "flink-faker",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/knaufk/flink-faker/pull/52",
+  "dependency": "net.datafaker:datafaker",
+  "old_version": "1.3.0",
+  "new_version": "1.4.0",
+  "source_repo": "datafaker-net/datafaker",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "datafaker-net/datafaker",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/datafaker-net/datafaker/compare/1.3.0...1.4.0",
+  "sources": [],
+  "sections": {
+    "pr_body_commits": "3ed29a7 1.4.0 Release\n\n66cf513 imp(phonenumber): Improved quality of phone numbers a little bit.\n\nab388bb imp(bg): Fixed Bulgarian phone numbers\n\n50c14c2 imp(code): Added Soul Knight provider, added @​since annotation on new provide...\n\nf48b294 Use valid void class for PRIMITIVE_WRAPPER_MAP\n\n24faf83 Add cache for constructors\n\n7e2f374 Add caching of parsed args and keys\n\nd549f57 Replace regex with cycle for javaNameToYamlName\n\na378612 Merge pull request #148 from divinenickname/ph-names\n\n64785e9 Merge pull request #156 from Tahanima/feature/add-camera-faker\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "COMMITS_ONLY"
+}

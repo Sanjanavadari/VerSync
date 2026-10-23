@@ -1,0 +1,27 @@
+{
+  "project": "amazon-ecr-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/jenkinsci/amazon-ecr-plugin/pull/167",
+  "dependency": "org.jenkins-ci.plugins:docker-commons",
+  "old_version": "1.21",
+  "new_version": "422.v9d1a_89cede51",
+  "source_repo": "jenkinsci/docker-commons-plugin",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "419.v8e3cd84ef49c"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/jenkinsci/docker-commons-plugin/compare/1.21...422.v9d1a_89cede51",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from docker-commons's releases.\n\n422.v9d1a_89cede51\n\n👷 Changes for plugin developers\n\nUpgrade HtmlUnit from 2.x to 3.x (#136) @​timja-bot\n\n419.v8e3cd84ef49c\n\n👷 Changes for plugin developers\n\nEnable CD (#127) @​jglick",
+    "pr_body_commits": "See full diff in compare view",
+    "release_notes": "## 419.v8e3cd84ef49c\n## 👷 Changes for plugin developers\n\n* Enable CD (#127) @jglick"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

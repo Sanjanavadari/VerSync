@@ -1,0 +1,26 @@
+{
+  "project": "dropwizard-pac4j",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/pac4j/dropwizard-pac4j/pull/683",
+  "dependency": "org.sonatype.central:central-publishing-maven-plugin",
+  "old_version": "0.11.1",
+  "new_version": "0.12.0",
+  "source_repo": "sonatype-nexus-community/central-publishing-maven-plugin",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "release-0.12.0"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/sonatype-nexus-community/central-publishing-maven-plugin/compare/0.11.1...0.12.0",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "sonatype-nexus-community/central-publishing-maven-plugin (org.sonatype.central:central-publishing-maven-plugin)",
+    "release_notes": "## release-0.12.0\n## What's Changed\r\n* feat: add `skipUpload` property to build the bundle without uploading it by @madpah in https://github.com/sonatype-nexus-community/central-publishing-maven-plugin/pull/6\r\n* fix: remove local repository files from the bundle on Maven 3.10 by @madpah in https://github.com/sonatype-nexus-community/central-publishing-maven-plugin/pull/3\r\n\r\n\r\n**Full Changelog**: https://github.com/sonatype-nexus-community/central-publishing-maven-plugin/compare/release-0.11.1...release-0.12.0"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

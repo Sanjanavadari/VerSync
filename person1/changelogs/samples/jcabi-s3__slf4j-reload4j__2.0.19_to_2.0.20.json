@@ -1,0 +1,24 @@
+{
+  "project": "jcabi-s3",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/jcabi/jcabi-s3/pull/550",
+  "dependency": "org.slf4j:slf4j-reload4j",
+  "old_version": "2.0.19",
+  "new_version": "2.0.20",
+  "source_repo": "qos-ch/slf4j",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "v_2.0.20"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/qos-ch/slf4j/compare/2.0.19...2.0.20",
+  "sources": [
+    "github_release"
+  ],
+  "sections": {
+    "release_notes": "## v_2.0.20\n**2026-09-22 - Release of SLF4J 2.0.20**\r\n\r\n• `Marker` instances are slated to become immutable in future releases. As such, methods in the `Marker` interface adding/removing children are now marked as deprecated.\r\n\r\n• A bit-wise identical binary of this version can be reproduced by building from source code at commit 58d80a4fe8f2e811707fcfba4d292b5d62fc2fe9 associated with the tag v_2.0.20. Release built using Java \"21\" 2023-10-17 LTS build 21.0.1.+12-LTS-29 under Linux Debian 11.6. \r\n\r\n**Full Changelog**: https://github.com/qos-ch/slf4j/compare/v_2.0.19...v_2.0.20"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

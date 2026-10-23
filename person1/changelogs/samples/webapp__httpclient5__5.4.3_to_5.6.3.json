@@ -1,0 +1,23 @@
+{
+  "project": "webapp",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/elimu-ai/webapp/pull/2383",
+  "dependency": "org.apache.httpcomponents.client5:httpclient5",
+  "old_version": "5.4.3",
+  "new_version": "5.6.3",
+  "source_repo": "apache/httpcomponents-client",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [],
+  "changelog_url": "",
+  "github_compare": "https://github.com/apache/httpcomponents-client/compare/5.4.3...5.6.3",
+  "sources": [
+    "pr_body"
+  ],
+  "sections": {
+    "pr_body_changelog": "Sourced from org.apache.httpcomponents.client5:httpclient5's changelog.\n\nRelease 5.6.3\n\nThis maintenance release fixes a resource management defect in the content\ndecompression protocol handler of the classic transport.\n\nChange Log\n\nContentCompressionExec fails to close the underlying response stream in case of\nan unexpected runtime or protocol exception.\nContributed by Oleg Kalnichevski\n\nDo not call the backend when an only-if-cached request cannot be served from cache\n(RFC 9111 5.2.1.7).\nContributed by hunghh.dev\n\nInclude the request scheme in redirect same-authority check.\nContributed by Javid Khan\n\nEscape quotes and strip line breaks in RFC 7578 multipart parameters.\nContributed by Javid Khan\n\nHTTPCLIENT-2426: Do not wrap a discarded (null) response body in a content decoder.\nContributed by Arturo Bernal\n\nRelease 5.6.2\n\nThis maintenance release upgrades HttpCore to the latest stable version and restores\nlazy content decompression by the classic client transport.\n\nChange Log\n\nUpgraded HttpCore to version 5.4.3.\nContributed by Oleg Kalnichevski\n\nHTTPCLIENT-2422: Restore lazy content decompression. Defer construction of the\ndecompression stream until the response content is actually read.\nContributed by Arturo Bernal\n\nRelease 5.6.1\n\nThis maintenance release disables experimental SCRAM auth scheme by default and\nfixes SCRAM final response handling. The SCRAM auth scheme can be re-enabled by\nchoosing a custom auth scheme preference sequence that explicitly includes SCRAM auth.\n\n... (truncated)",
+    "pr_body_commits": "13408e3 HttpClient 5.6.3 release\n\n58728b1 Updated release notes for HttpClient 5.6.3 release\n\n55733f4 ContentCompressionExec fails to close the underlying response stream in case ...\n\n2485ddf Do not call the backend when an only-if-cached request cannot be served from ...\n\n26ece37 compare scheme in redirect same-authority check\n\n8cdf6fa escape quotes and strip line breaks in rfc7578 multipart parameters\n\nab20c86 HTTPCLIENT-2426: Do not wrap a discarded (null) response body in a content de...\n\nf092f56 Upgraded HttpClient version to 5.6.3-SNAPSHOT\n\na7405cd Updated release notes for HttpClient 5.6.2 release\n\nbb51196 Upgraded HttpCore to version 5.4.3\n\nAdditional commits viewable in compare view"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

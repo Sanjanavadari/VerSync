@@ -1,0 +1,27 @@
+{
+  "project": "forensics-api-plugin",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/jenkinsci/forensics-api-plugin/pull/650",
+  "dependency": "org.testcontainers:testcontainers",
+  "old_version": "2.0.2",
+  "new_version": "2.0.3",
+  "source_repo": "testcontainers/testcontainers-java",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "2.0.3"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/testcontainers/testcontainers-java/compare/2.0.2...2.0.3",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from org.testcontainers:testcontainers's releases.\n\n2.0.3\n\nWhat's Changed\n\nUpdate questdb/questdb image version to 9.2.2 (#11347) @​eddumelendez\n\nFix GitHub-Action Generate PR descriptions (#11129) @​JackPGreen\n\nUpdate testcontainers version to ${GITHUB_REF##*/} (#11220) @github-actions[bot]\n\nUpdate docs version to ${GITHUB_REF##*/} (#11221) @github-actions[bot]\n\n🐛 Bug Fixes\n\nFix compatibility with older Docker Engines by falling back to v1.32 (#11346) @​eddumelendez\n\n📖 Documentation\n\nDead links in CircleCI reference documentation (#10789) @​JohnWill14\n\n📦 Dependency updates\n\nCombined dependencies PR (#11353) @​eddumelendez\n\nCombined dependencies PR (#11352) @​eddumelendez\n\nCombined dependencies PR (#11341) @​eddumelendez\n\nCombined dependencies PR (#11334) @​eddumelendez\n\nCombined dependencies PR (#11333) @​eddumelendez\n\nCombined dependencies PR (#11332) @​eddumelendez\n\nCombined dependencies PR (#11323) @​eddumelendez",
+    "pr_body_commits": "43c6a97 Combined dependencies PR (#11353)\n\n7778cc5 Merge remote-tracking branch 'origin/dependabot/gradle/modules/activemq/org.a...\n\n30b043f Merge remote-tracking branch 'origin/dependabot/gradle/modules/db2/com.ibm.db...\n\n17d570b Merge remote-tracking branch 'origin/dependabot/gradle/modules/elasticsearch/...\n\n47e9ae5 Merge remote-tracking branch 'origin/dependabot/gradle/modules/gcloud/com.goo...\n\nf34ab26 Merge remote-tracking branch 'origin/dependabot/gradle/modules/couchbase/com....\n\nac66ad6 Merge remote-tracking branch 'origin/dependabot/gradle/modules/activemq/org.a...\n\nb6a1f28 Merge remote-tracking branch 'origin/dependabot/gradle/modules/milvus/io.milv...\n\n6a99624 Merge remote-tracking branch 'origin/dependabot/gradle/modules/influxdb/com.i...\n\n4ff0770 Merge remote-tracking branch 'origin/dependabot/gradle/modules/grafana/io.mic...\n\nAdditional commits viewable in compare view",
+    "release_notes": "## 2.0.3\n# What's Changed\r\n\r\n* Update questdb/questdb image version to 9.2.2 (#11347) @eddumelendez\r\n* Fix GitHub-Action Generate PR descriptions (#11129) @JackPGreen\r\n* Update testcontainers version to ${GITHUB_REF##*/} (#11220) @[github-actions[bot]](https://github.com/apps/github-actions)\r\n* Update docs version to ${GITHUB_REF##*/} (#11221) @[github-actions[bot]](https://github.com/apps/github-actions)\r\n\r\n## 🐛 Bug Fixes\r\n\r\n* Fix compatibility with older Docker Engines by falling back to v1.32 (#11346) @eddumelendez\r\n\r\n## 📖 Documentation\r\n\r\n* Dead links in CircleCI reference documentation (#10789) @JohnWill14\r\n\r\n## 📦 Dependency updates\r\n\r\n\r\n7 changes\r\n\r\n* Combined dependencies PR (#11353) @eddumelendez\r\n* Combined dependencies PR (#11352) @eddumelendez\r\n* Combined dependencies PR (#11341) @eddumelendez\r\n* Combined dependencies PR (#11334) @eddumelendez\r\n* Combined dependencies PR (#11333) @eddumelendez\r\n* Combined dependencies PR (#11332) @eddumelendez\r\n* Combined dependencies PR (#11323) @eddumelendez"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

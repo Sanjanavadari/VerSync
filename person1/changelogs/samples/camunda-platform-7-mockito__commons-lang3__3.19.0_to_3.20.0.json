@@ -1,0 +1,22 @@
+{
+  "project": "camunda-platform-7-mockito",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/camunda-community-hub/camunda-platform-7-mockito/pull/556",
+  "dependency": "org.apache.commons:commons-lang3",
+  "old_version": "3.19.0",
+  "new_version": "3.20.0",
+  "source_repo": "apache/commons-lang",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [],
+  "changelog_url": "https://raw.githubusercontent.com/apache/commons-lang/master/src/changes/changes.xml",
+  "github_compare": "https://github.com/apache/commons-lang/compare/3.19.0...3.20.0",
+  "sources": [
+    "changelog_file"
+  ],
+  "sections": {
+    "changelog_file": "<release version=\"3.20.0\" date=\"2025-11-12\" description=\"This is a feature and maintenance release. Java 8 or later is required.\">\n    <!-- FIX -->\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"mayuming, Gary Gregory\">Optimize ObjectToStringComparator.compare() method #1449.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"Marcono1234, Gary Gregory\">[javadoc] Improve StringUtils Javadoc #1450.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"mayuming, Gary Gregory\">Fix internal inverted logic in private isEnum() method and correct its usage in getFirstEnum() #1454.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"William Degrange, Gary Gregory, Rob Spoor\">Use accessors in ToStringStyle so subclasses can effectively override them.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"jack5505, Gary Gregory\">`LocaleUtils.toLocale(String)` for a 2 letter country code now returns a value instead of throwing an `IllegalArgumentException`.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"mayuming, Gary Gregory\">Fix typo in StringUtils.truncate() IllegalArgumentException message and test assertion messages.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"mayuming, Gary Gregory\">Fix test fixture in ReflectionDiffBuilderTest.testTransientFieldDifference() #1464.</action>\n    <action issue=\"LANG-1789\" type=\"fix\" dev=\"ggregory\" due-to=\"Hylke van der Schaaf, Gary Gregory\">NullPointerException when generating NoSuchMethodException in MethodUtils.</action>\n    <action issue=\"LANG-1786\" type=\"fix\" dev=\"ggregory\" due-to=\"Daniel Migowski, Gary Gregory, Lenny Primak\">Map deprecated TimeZone short IDs and avoid JRE WARNINGs to the console #1483.</action>\n    <action issue=\"LANG-1792\" type=\"fix\" dev=\"ggregory\" due-to=\"Mykhailo Hryb, Gary Gregory\">TypeUtils.toString() skips angle brackets for Class type.</action>\n    <action                   type=\"fix\" dev=\"ggregory\" due-to=\"Sebastian Peters, Gary Gregory\">Mention JDK 25 LTS as a tested version in the release notes #1485.</action>\n    <!-- ADD -->\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add SystemProperties.getPath(String, Supplier&lt;Path&gt;).</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add JavaVersion.JAVA_25.</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add JavaVersion.JAVA_26.</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add SystemUtils.IS_JAVA_25.</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add SystemUtils.IS_JAVA_26.</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"jack5505, Gary Gregory\">Add MutablePair.ofNonNull(Map.Entry).</action>\n    <action                   type=\"add\" dev=\"ggregory\" due-to=\"Gary Gregory\">Add TimedSemaphore.builder(), Builder, and deprecate constructors.</action>\n    <action issue=\"LANG-1504\" type=\"add\" dev=\"ggregory\" due-to=\"Edwin Delgado H, Gary Gregory\">Adding labels and history to split StopWatch #1473.</action>\n    <!-- UPDATE -->\n    <action                   type=\"update\" dev=\"ggregory\" due-to=\"Gary Gregory, Dependabot\">Bump org.apache.commons:commons-parent from 88 to 92 #1472, #1484.</action>\n    <action                   type=\"update\" dev=\"ggregory\" due-to=\"Gary Gregory\">[test] Bump commons-io:commons-io from 2.21.0 to 2.22.0.</action>\n  </release>"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

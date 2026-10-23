@@ -1,0 +1,27 @@
+{
+  "project": "license-maven-plugin",
+  "classification": "SAFE",
+  "label_source": "github_ci",
+  "pr_url": "https://github.com/mathieucarbou/license-maven-plugin/pull/1112",
+  "dependency": "com.google.guava:guava",
+  "old_version": "33.7.1-jre",
+  "new_version": "33.7.2-jre",
+  "source_repo": "google/guava",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "",
+  "releases_in_range": [
+    "v33.7.1"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/google/guava/compare/33.7.1-jre...33.7.2-jre",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from com.google.guava:guava's releases.\n\n33.7.2\n\nMaven\n\n\r\n  com.google.guava\r\n  guava\r\n  33.7.2-jre\r\n  \r\n  33.7.2-android\r\n\r\n\nJar files\n\n33.7.2-jre.jar\n\n33.7.2-android.jar\n\nGuava requires\none runtime dependency,\nwhich you can download here:\n\nfailureaccess-1.0.3.jar\n\nJavadoc\n\n33.7.2-jre\n\n33.7.2-android\n\nJDiff\n\n33.7.2-jre vs. 33.7.1-jre\n\n33.7.2-android vs. 33.7.1-android\n\n33.7.2-android vs. 33.7.2-jre\n\nChangelog\n\ncollect: Changed MapMaker, CompactHashMap, and CompactHashSet deserialization to avoid eagerly allocating as much memory as a serialization payload requests. (a0d0c36432)",
+    "pr_body_commits": "See full diff in compare view",
+    "release_notes": "## v33.7.1\n### Maven\r\n\r\n```xml\r\n\r\n  com.google.guava\r\n  guava\r\n  33.7.1-jre\r\n  \r\n  33.7.1-android\r\n\r\n```\r\n\r\n### Jar files\r\n\r\n- [33.7.1-jre.jar](https://repo1.maven.org/maven2/com/google/guava/guava/33.7.1-jre/guava-33.7.1-jre.jar)\r\n- [33.7.1-android.jar](https://repo1.maven.org/maven2/com/google/guava/guava/33.7.1-android/guava-33.7.1-android.jar)\r\n\r\nGuava requires [one runtime dependency](https://github.com/google/guava/wiki/UseGuavaInYourBuild#what-about-guavas-own-dependencies), which you can download here:\r\n\r\n- [failureaccess-1.0.3.jar](https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar)\r\n\r\n### Javadoc\r\n\r\n- [33.7.1-jre](https://guava.dev/releases/33.7.1-jre/api/docs/)\r\n- [33.7.1-android](https://guava.dev/releases/33.7.1-android/api/docs/)\r\n\r\n### JDiff\r\n\r\n- [33.7.1-jre vs. 33.7.0-jre](https://guava.dev/releases/33.7.1-jre/api/diffs/)\r\n- [33.7.1-android vs. 33.7.0-android](https://guava.dev/releases/33.7.1-android/api/diffs/)\r\n- [33.7.1-android vs. 33.7.1-jre](https://guava.dev/releases/33.7.1-android/api/androiddiffs/)\r\n\r\n### Changelog\r\n\r\nGuava 33.7.1 removes the `Multi-Release` line from our jar manifest, fixing an issue under Java 9 and 10 that was introduced to `guava-jre` in [version 33.7.0](https://github.com/google/guava/releases/tag/v33.7.0). Sorry for the trouble."
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

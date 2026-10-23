@@ -1,0 +1,22 @@
+{
+  "project": "docker-adapter",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/artipie/docker-adapter/pull/544",
+  "dependency": "com.artipie:asto-core",
+  "old_version": "v1.13.0",
+  "new_version": "v1.15.4",
+  "source_repo": "artipie/asto",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "artipie/asto",
+  "releases_in_range": [],
+  "changelog_url": "https://raw.githubusercontent.com/artipie/asto/master/CHANGELOG.md",
+  "github_compare": "https://github.com/artipie/asto/compare/v1.13.0...v1.15.4",
+  "sources": [
+    "changelog_file"
+  ],
+  "sections": {
+    "changelog_file": "# v1.15.0\n - cbed477d - fix: verification base tests corrected and file storage fixed (#479)\n - 9a53db7c - feat: storage identifier (#481)\n\n# v1.14.0\n - a5a70b2c - feat: create test framework for testing new storage implementations #445\n - 2f03422e - Remove `wtf.g4s8:tuples` dependency (#460)"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}

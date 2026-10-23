@@ -1,0 +1,36 @@
+{
+  "project": "code-coverage-api-plugin",
+  "classification": "BREAKING",
+  "label_source": "bump_docker_reproduction",
+  "pr_url": "https://github.com/jenkinsci/code-coverage-api-plugin/pull/645",
+  "dependency": "org.jenkins-ci:acceptance-test-harness",
+  "old_version": "5504.v485694f31cdf",
+  "new_version": "5541.va_c0a_36b_b_f825",
+  "source_repo": "jenkinsci/acceptance-test-harness",
+  "source_repo_origin": "pom_scm",
+  "bump_repo_slug": "Repository not found",
+  "releases_in_range": [
+    "5509.v07855a_003fc1",
+    "5522.v140a_54eea_7cb_",
+    "5523.vd392288d2b_22",
+    "5527.vf5d62a_388c39",
+    "5528.v806749710b_83",
+    "5534.vcb_64728b_649b_",
+    "5536.vf6d8a_73d1122",
+    "5537.v26d6599fdc59",
+    "5539.vcea_872b_fdb_29",
+    "5540.v09dd001c54d7"
+  ],
+  "changelog_url": "",
+  "github_compare": "https://github.com/jenkinsci/acceptance-test-harness/compare/5504.v485694f31cdf...5541.va_c0a_36b_b_f825",
+  "sources": [
+    "pr_body",
+    "github_release"
+  ],
+  "sections": {
+    "pr_body_release_notes": "Sourced from acceptance-test-harness's releases.\n\n5541.va_c0a_36b_b_f825\n\n🚀 New features and improvements\n\n#1053 Add metrics test (#1106) @​ampuscas\n\n5540.v09dd001c54d7\n\n🚀 New features and improvements\n\nexpand MatrixPluginTest (#1072) @​car-roll\n\n5539.vcea_872b_fdb_29\n\n🚀 New features and improvements\n\n#1053 Adding tests for MSTestRunner plugin (#1102) @​julieheard\n\n#1053 Adding tests for cloudbees folders plugin (#1092) @​rsandell\n\n5537.v26d6599fdc59\n\n🚀 New features and improvements\n\nadd tests for secure-requester-whitelist (#1104) @​ampuscas\n\n5536.vf6d8a_73d1122\n\n🐛 Bug fixes\n\nUpdate Selenium parameter for Selenium 4 (#1100) @​jtnord\n\n📦 Dependency updates\n\nBuild(deps): Bump jfrog/artifactory-oss from 7.55.9 to 7.55.10 in /src/main/resources/org/jenkinsci/test/acceptance/docker/fixtures/ArtifactoryContainer (#1105) @​dependabot\n\n5534.vcb_64728b_649b_\n\n🚀 New features and improvements\n\nAdd test for declarative migration assistant and pipeline with unstable tests (#1091) @​ampuscas\n\n✍ Other changes\n\nRevamp build/CI (#1097) @​basil\n\n📦 Dependency updates\n\nUpgrade parent POM from 1.94 to 1.97 (#1096) @​basil\n\nBuild(deps): Bump groovy.version from 3.0.16 to 3.0.17 (#1093) @​dependabot\n\nBuild(deps): Bump netty-bom from 4.1.90.Final to 4.1.91.Final (#1095) @​dependabot\n\n... (truncated)",
+    "pr_body_commits": "See full diff in compare view",
+    "release_notes": "## 5509.v07855a_003fc1\n## 💥 Breaking changes\n\n* Upgrade to Selenium 4 (#973) @jtnord\n\n## 📦 Dependency updates\n\n* Build(deps): Bump jfrog/artifactory-oss from 7.49.6 to 7.55.3 in /src/main/resources/org/jenkinsci/test/acceptance/docker/fixtures/ArtifactoryContainer (#1050) @dependabot\n* Build(deps): Bump groovy.version from 3.0.14 to 3.0.15 (#1031) @dependabot\n* Build(deps): Bump git-changelist-maven-extension from 1.4 to 1.6 (#1035) @dependabot\n* Build(deps): Bump json from 20220924 to 20230227 (#1049) @dependabot\n\n## 5522.v140a_54eea_7cb_\n## 🚀 New features and improvements\n\n* Pipeline test utility classes needed for multiple contributions (#1084) @rsandell\n* [#1053] Add tests for Ant Plugin (#1066) @ampuscas\n\n## 👻 Maintenance\n\n* Fix tomcat 10 dependabot path (#1063) @NotMyFault\n* Add URL to pom.xml (#1069) @timja\n\n## 📦 Dependency updates\n\n* Build(deps): Bump selenium.version from 4.6.0 to 4.8.1 (#1073) @dependabot\n* Build(deps): Bump jfrog/artifactory-oss from 7.55.6 to 7.55.9 in /src/main/resources/org/jenkinsci/test/acceptance/docker/fixtures/ArtifactoryContainer (#1082) @dependabot\n* Bump jffi from 1.3.10 to 1.3.11 (#1061) @NotMyFault\n* Update maven to 3.9.1 (#1070) @NotMyFault\n* Build(deps): Bump slf4j.version from 2.0.6 to 2.0.7 (#1074) @dependabot\n* Build(deps): Bump netty-bom from 4.1.84.Final to 4.1.90.Final (#1076) @dependabot\n* Build(deps): Bump jffi from 1.3.10 to 1.3.11 (#1057) @dependabot\n* Build(deps): Bump jfrog/artifactory-oss from 7.55.3 to 7.55.6 in /src/main/resources/org/jenkinsci/test/acceptance/docker/fixtures/ArtifactoryContainer (#1055) @dependabot\n* Build(deps): Bump groovy.version from 3.0.15 to 3.0.16 (#1059) @dependabot\n\n## 5523.vd392288d2b_22\n## 🐛 Bug fixes\n\n* Use Selenium 4 based docker containers in `FallbackConfig` (#1077) @jtnord\n\n## 5527.vf5d62a_388c39\n## 🚀 New features and improvements\n\n* Restore scriptler tests (#1088) @NotMyFault\n\n## 👻 Maintenance\n\n* Use `<<-` here document redirection operator where applicable (#1089) @basil\n* Clean up shell scripts (#1086) @basil\n* Sort dependencies (#1087) @basil\n\n## 5528.v806749710b_83\n## 🚀 New features and improvements\n\n* Add tests for DisplayUrlApi (#1085) @ampuscas\n\n## 5534.vcb_64728b_649b_\n## 🚀 New features and improvements\n\n* Add test for declarative migration assistant and pipeline with unstable tests (#1091) @ampuscas\n\n## ✍ Other changes\n\n* Revamp build/CI (#1097) @basil\n\n## 📦 Dependency updates\n\n* Upgrade parent POM from 1.94 to 1.97 (#1096) @basil\n* Build(deps): Bump groovy.version from 3.0.16 to 3.0.17 (#1093) @dependabot\n* Build(deps): Bump netty-bom from 4.1.90.Final to 4.1.91.Final (#1095) @dependabot\n* Build(deps): Bump commons-configuration2 from 2.8.0 to 2.9.0 (#1094) @dependabot\n\n## 5536.vf6d8a_73d1122\n## 🐛 Bug fixes\n\n* Update Selenium parameter for Selenium 4 (#1100) @jtnord\n\n## 📦 Dependency updates\n\n* Build(deps): Bump jfrog/artifactory-oss from 7.55.9 to 7.55.10 in /src/main/resources/org/jenkinsci/test/acceptance/docker/fixtures/ArtifactoryContainer (#1105) @dependabot\n\n## 5537.v26d6599fdc59\n## 🚀 New features and improvements\n\n* add tests for secure-requester-whitelist (#1104) @ampuscas\n\n## 5539.vcea_872b_fdb_29\n## 🚀 New features and improvements\n\n* [#1053] Adding tests for MSTestRunner plugin (#1102) @julieheard\n* [#1053] Adding tests for cloudbees folders plugin (#1092) @rsandell\n\n## 5540.v09dd001c54d7\n## 🚀 New features and improvements\n\n* expand MatrixPluginTest (#1072) @car-roll"
+  },
+  "evidence_status": "TEXT_EXTRACTED"
+}
