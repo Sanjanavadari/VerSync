@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from evaluate_localization import (  # noqa: E402
     bootstrap_mean_ci,
+    diagnose_missing_dependency,
     evaluate_ranking,
     expected_random_metrics,
     hit_sets,
@@ -186,6 +187,36 @@ class TraversalDeterminismTests(unittest.TestCase):
         self.assertEqual(len(orders[0]), 12)
         for other in orders[1:]:
             self.assertEqual(orders[0], other)
+
+
+class DiagnosisTests(unittest.TestCase):
+    DIG = {
+        "nodes": [
+            {"id": "api:io.dropwizard.core.Application.run", "type": "API"},
+            {"id": "api:io.dropwizard.core.setup.Bootstrap.add", "type": "API"},
+            {"id": "api:org.other.Thing.go", "type": "API"},
+            {"id": "dependency:io.dropwizard:dropwizard-core", "type": "DEPENDENCY"},
+        ],
+        "edges": [
+            {"source": "api:io.dropwizard.core.Application.run", "target": "dependency:io.dropwizard:dropwizard-core", "type": "PROVIDED_BY"},
+            {"source": "api:io.dropwizard.core.setup.Bootstrap.add", "target": "dependency:io.dropwizard:dropwizard-core", "type": "PROVIDED_BY"},
+        ],
+    }
+
+    def test_never_called(self):
+        reason, n, resolved = diagnose_missing_dependency("com.h2database", self.DIG)
+        self.assertEqual((n, resolved), (0, []))
+        self.assertIn("never called", reason)
+
+    def test_resolved_to_sibling_artifact(self):
+        reason, n, resolved = diagnose_missing_dependency("io.dropwizard", self.DIG)
+        self.assertEqual(n, 2)
+        self.assertEqual(resolved, ["io.dropwizard:dropwizard-core"])
+        self.assertIn("different artifact", reason)
+
+    def test_group_prefix_must_match_a_whole_segment(self):
+        reason, n, _ = diagnose_missing_dependency("io.drop", self.DIG)  # not a segment boundary
+        self.assertEqual(n, 0)
 
 
 if __name__ == "__main__":

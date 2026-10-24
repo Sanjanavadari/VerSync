@@ -116,6 +116,11 @@ def print_text_report(report: dict, show_tree: bool = True) -> None:
     # 2. Metadata: dependency, old vs new version, repo path
     print(f"Dependency Update:  {dependency} ({old_version} -> {new_version})")
     print(f"Target Repository:  {repo_path}")
+    if report.get("graph_source"):
+        print(f"Graph source:       {report['graph_source'].split(' (')[0]}")
+    if report.get("graph_stale"):
+        print(_wrap("WARNING: sources changed after this graph was built, so it may be out of date. "
+                    "Delete dig.json in the repository to rebuild it.", indent=" " * 20, width=WIDTH))
     print("-" * WIDTH)
 
     # 3. Risk score and triage classification

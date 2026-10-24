@@ -191,6 +191,23 @@ def _raise_csv_field_limit() -> None:
             limit //= 10
 
 
+def diagnose_missing_dependency(group_id: str, dig: dict) -> Tuple[str, int, List[str]]:
+    """
+    Why is an updated dependency absent from the DIG?
+
+    DEPENDENCY nodes only exist when some API call in the project's Java code resolves to them.
+    Returns (reason, n_api_calls_in_group_namespace, dependencies_those_calls_resolved_to).
+    """
+    prefix = "api:" + group_id
+    apis = [n["id"] for n in dig.get("nodes", [])
+            if n.get("type") == "API" and (n["id"] == prefix or n["id"].startswith(prefix + "."))]
+    provided_by = {e["source"]: e["target"] for e in dig.get("edges", []) if e.get("type") == "PROVIDED_BY"}
+    resolved = sorted({provided_by[a].replace("dependency:", "") for a in apis if a in provided_by})
+    if not apis:
+        return "never called from the project's Java code", 0, []
+    return "calls in its groupId namespace resolve to a different artifact", len(apis), resolved
+
+
 def load_samples(
     dataset_csv: str, gt_csv: str, dig_report_csv: str, dig_dir: str
 ) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
@@ -240,7 +257,9 @@ def load_samples(
             (n["id"][len("file:"):] if n["id"].startswith("file:") else n["id"])
             for n in dig.get("nodes", []) if n.get("type") == "FILE"
         })
+        diagnosis = diagnose_missing_dependency(row["dependency_group_id"], dig)
         samples.append({
+            "diagnosis": diagnosis,
             "project": row["project"],
             "commit": commit,
             "dependency": dep,
@@ -384,6 +403,17 @@ def run(args: argparse.Namespace) -> None:
     print(f"  * {acct['dependency_level_only']} breaking samples fail at the dependency level (no code location) and are excluded.")
 
     os.makedirs(args.out_dir, exist_ok=True)
+    unmatched = [s for s in samples if not s["dep_matched"]]
+    unmatched_path = os.path.join(args.out_dir, "localization_unmatched_dependencies.csv")
+    with open(unmatched_path, "w", newline="", encoding="utf-8") as fh:
+        wtr = csv.writer(fh)
+        wtr.writerow(["project", "commit", "dependency", "bump", "reason",
+                      "api_calls_in_group_namespace", "calls_resolved_to"])
+        for s in unmatched:
+            reason, n_calls, resolved = s["diagnosis"]
+            wtr.writerow([s["project"], s["commit"], s["dependency"], s["bump"], reason, n_calls, ";".join(resolved)])
+    n_never = sum(1 for s in unmatched if s["diagnosis"][1] == 0)
+    print(f"    ... of which never called from Java code {n_never}; resolved to a sibling artifact {len(unmatched) - n_never}")
     metrics_path = os.path.join(args.out_dir, "localization_metrics.csv")
     sample_path = os.path.join(args.out_dir, "localization_per_sample.csv")
     with open(metrics_path, "w", newline="", encoding="utf-8") as fh:
@@ -395,6 +425,7 @@ def run(args: argparse.Namespace) -> None:
         wtr.writeheader()
         wtr.writerows(per_sample)
     print(f"\n[VerSync] Saved {metrics_path}")
+    print(f"[VerSync] Saved {unmatched_path}")
     print(f"[VerSync] Saved {sample_path}")
 
 

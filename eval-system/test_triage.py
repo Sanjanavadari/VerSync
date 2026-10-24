@@ -10,12 +10,14 @@ import os
 import subprocess
 import sys
 import tempfile
+import time
 import unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
 from analyzer import (  # noqa: E402
+    _dig_is_stale,
     analyze_update,
     build_impact_tree,
     compute_blast_radius,
@@ -280,6 +282,82 @@ class CliTests(unittest.TestCase):
 
     def test_require_graph_ok_with_dig(self):
         self.assertEqual(self.run_cli("--require-graph").returncode, 0)
+
+
+class StaleCacheTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.repo = self.tmp.name
+        self.java = os.path.join(self.repo, "src", "A.java")
+        os.makedirs(os.path.dirname(self.java))
+        with open(self.java, "w") as fh:
+            fh.write("class A {}")
+        self.dig = os.path.join(self.repo, "dig.json")
+        with open(self.dig, "w", encoding="utf-8") as fh:
+            json.dump(toy_dig(), fh)
+        now = time.time()
+        os.utime(self.java, (now - 100, now - 100))   # source older than the cached DIG
+        os.utime(self.dig, (now - 50, now - 50))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def touch_newer(self, path):
+        t = time.time()
+        os.utime(path, (t, t))
+
+    def test_fresh_cache_is_not_stale(self):
+        self.assertFalse(_dig_is_stale(self.dig, self.repo))
+
+    def test_modified_java_makes_cache_stale(self):
+        self.touch_newer(self.java)
+        self.assertTrue(_dig_is_stale(self.dig, self.repo))
+
+    def test_modified_pom_makes_cache_stale(self):
+        pom = os.path.join(self.repo, "pom.xml")
+        with open(pom, "w") as fh:
+            fh.write("<project/>")
+        self.assertTrue(_dig_is_stale(self.dig, self.repo))
+
+    def test_ignored_directories_do_not_count(self):
+        os.makedirs(os.path.join(self.repo, "target"))
+        generated = os.path.join(self.repo, "target", "Gen.java")
+        with open(generated, "w") as fh:
+            fh.write("class Gen {}")
+        self.assertFalse(_dig_is_stale(self.dig, self.repo))
+
+    def test_missing_dig_is_not_reported_stale(self):
+        self.assertFalse(_dig_is_stale(os.path.join(self.repo, "nope.json"), self.repo))
+
+    def test_report_flags_stale_cached_dig(self):
+        self.assertFalse(analyze_update(self.repo, "org.x:dep", "1.0.0", "2.0.0")["graph_stale"])
+        self.touch_newer(self.java)
+        r = analyze_update(self.repo, "org.x:dep", "1.0.0", "2.0.0")
+        self.assertTrue(r["graph_stale"])
+        self.assertIn("cached repository DIG", r["graph_source"])
+
+    def test_explicit_dig_path_is_never_flagged(self):
+        self.touch_newer(self.java)
+        r = analyze_update(self.repo, "org.x:dep", "1.0.0", "2.0.0", dig_path=self.dig)
+        self.assertFalse(r["graph_stale"])
+        self.assertIn("explicit path", r["graph_source"])
+
+    def test_mock_report_has_no_graph_source(self):
+        with tempfile.TemporaryDirectory() as empty:
+            r = analyze_update(empty, "pandas", "1.0", "2.0")
+        self.assertIsNone(r["graph_source"])
+        self.assertFalse(r["graph_stale"])
+
+    def test_cli_warns_when_stale(self):
+        self.touch_newer(self.java)
+        cli = os.path.join(HERE, "cli.py")
+        out = subprocess.run(
+            [sys.executable, cli, "--repo-path", self.repo, "--dependency", "org.x:dep",
+             "--old-version", "1.0.0", "--new-version", "2.0.0"],
+            capture_output=True, text=True,
+        )
+        self.assertIn("WARNING: sources changed", out.stdout)
+        self.assertIn("Graph source:", out.stdout)
 
 
 if __name__ == "__main__":

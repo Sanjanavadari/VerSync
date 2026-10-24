@@ -123,6 +123,34 @@ def classify_semver_bump(old_version: str, new_version: str) -> str:
 # DIG Graph Loading & Fallback Resolution
 # ---------------------------------------------------------------------------
 
+# Directories ignored when checking whether a cached DIG is stale (same set the DIG builder skips).
+_STALE_SKIP_DIRS = {".git", "target", "build", ".idea", ".vscode", "node_modules"}
+
+
+def _dig_is_stale(dig_file: str, repo_path: str, slack_seconds: float = 2.0) -> bool:
+    """
+    True if any .java file or pom.xml under repo_path was modified after dig_file was written.
+
+    A cached <repo>/dig.json is reused without rebuilding, so after the code changes it would
+    silently describe an older version of the project. This detects edited or added files;
+    it cannot detect deleted ones.
+    """
+    try:
+        built = os.path.getmtime(dig_file)
+    except OSError:
+        return False
+    for root, dirs, files in os.walk(repo_path):
+        dirs[:] = [d for d in dirs if d not in _STALE_SKIP_DIRS]
+        for name in files:
+            if name.endswith(".java") or name == "pom.xml":
+                try:
+                    if os.path.getmtime(os.path.join(root, name)) > built + slack_seconds:
+                        return True
+                except OSError:
+                    continue
+    return False
+
+
 def _try_invoke_build_dig(repo_path: str) -> Optional[dict]:
     """Attempt to invoke graph-model/build_dig.py dynamically on repo_path."""
     here = os.path.dirname(os.path.abspath(__file__))
@@ -828,6 +856,8 @@ def analyze_update(
             "recommendation": str,
             # added in Task 5 (existing keys unchanged; risk_category is now the triage tier):
             "analysis_mode": str,         # "graph" | "mock" (mock = simulated, no DIG found)
+            "graph_source": str | None,   # where the DIG came from
+            "graph_stale": bool,          # cached dig.json older than the sources (graph mode only)
             "score_category": str,        # tier from the score alone, before evidence rules
             "triage": dict,               # tier, evidence, confidence, summary, next_steps
             "blast_radius": dict | None,  # functions, files, direct/transitive, depth, test functions
@@ -843,8 +873,17 @@ def analyze_update(
         print(f"[VerSync] Notice: the DIG from {graph_source} is empty (no Java sources found).", file=sys.stderr)
         dig_data = None
 
+    graph_stale = False
     if dig_data is not None:
         print(f"[VerSync] Graph source: {graph_source}", file=sys.stderr)
+        if graph_source and graph_source.startswith("cached repository DIG"):
+            graph_stale = _dig_is_stale(os.path.join(repo_path, "dig.json"), repo_path)
+            if graph_stale:
+                print(
+                    "[VerSync] Warning: sources changed after dig.json was built; the graph may be out of date. "
+                    "Delete dig.json to rebuild it.",
+                    file=sys.stderr,
+                )
 
         # 2. Extract features and perform reverse BFS traversal (Decision 2)
         features = extract_graph_features(dig_data, dependency, old_version, new_version)
@@ -891,6 +930,8 @@ def analyze_update(
             "reasoning": reasoning,
             "recommendation": recommendation,
             "analysis_mode": "graph",
+            "graph_source": graph_source,
+            "graph_stale": graph_stale,
             "score_category": triage["score_category"],
             "triage": triage,
             "blast_radius": compute_blast_radius(features) if matched_deps else None,  # None = not measured
@@ -919,6 +960,8 @@ def analyze_update(
         "reasoning": reasoning,
         "recommendation": recommendation,
         "analysis_mode": "mock",
+        "graph_source": None,
+        "graph_stale": False,
         "score_category": risk_category,
         "triage": {
             "tier": risk_category,
