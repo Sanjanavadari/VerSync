@@ -495,6 +495,303 @@ def _mock_recommendation(category: str) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Risk Triage & Impact Tree (Task 5)
+# ---------------------------------------------------------------------------
+
+# Evidence levels describe how much the graph tells us about this update.
+EVIDENCE_CALL_SITES = "call-sites-found"
+EVIDENCE_NO_CALL_SITES = "no-call-sites"
+EVIDENCE_NOT_IN_GRAPH = "dependency-not-in-graph"
+EVIDENCE_SIMULATED = "simulated"
+
+_CONFIDENCE_BY_EVIDENCE = {
+    EVIDENCE_CALL_SITES: "high",
+    EVIDENCE_NO_CALL_SITES: "medium",
+    EVIDENCE_NOT_IN_GRAPH: "low",
+    EVIDENCE_SIMULATED: "none",
+}
+
+
+def _is_test_path(path: Optional[str]) -> bool:
+    if not path:
+        return False
+    p = path.replace("\\", "/")
+    base = p.rsplit("/", 1)[-1]
+    return "/src/test/" in p or p.startswith("src/test/") or base.endswith(("Test.java", "Tests.java", "IT.java"))
+
+
+def compute_blast_radius(features: Dict[str, Any]) -> Dict[str, int]:
+    """Summarize the size of the affected region from extract_graph_features output."""
+    func_to_file = features.get("func_to_file", {})
+    in_tests = sum(1 for fid in features.get("func_depths", {}) if _is_test_path(func_to_file.get(fid)))
+    return {
+        "functions": features.get("affected_functions", 0),
+        "files": features.get("affected_files", 0),
+        "direct_call_sites": features.get("direct_calls", 0),
+        "transitive_callers": features.get("indirect_calls", 0),
+        "max_depth": features.get("max_depth", 0),
+        "functions_in_test_files": in_tests,
+    }
+
+
+def compute_triage(
+    features: Dict[str, Any],
+    risk_score: float,
+    dependency: str = "",
+    old_version: str = "",
+    new_version: str = "",
+) -> Dict[str, Any]:
+    """
+    Standardized SAFE / RISKY / CRITICAL triage with actionable next steps.
+
+    The tier starts from the score thresholds (SAFE_THRESHOLD / RISKY_THRESHOLD) but SAFE is only
+    allowed when the graph actually provides evidence:
+      * dependency not found in the graph  -> at least RISKY (no evidence either way; on the
+        57-sample DIG set 25 of the 31 such updates were breaking)
+      * dependency found, no call sites, MAJOR bump -> at least RISKY
+    CRITICAL is never assigned without call-site evidence because the score cannot reach 0.7
+    without it.
+    """
+    score_category = _categorize_risk(risk_score)
+    matched = bool(features.get("matched_dep_nodes"))
+    n_funcs = features.get("affected_functions", 0)
+    n_files = features.get("affected_files", 0)
+    direct = features.get("direct_calls", 0)
+    bump = features.get("bump_type", "")
+    dep = dependency or "the dependency"
+    rng = f"{old_version} -> {new_version}" if old_version or new_version else "the new version"
+
+    tier = score_category
+    if not matched:
+        evidence = EVIDENCE_NOT_IN_GRAPH
+        if tier == "SAFE":
+            tier = "RISKY"
+    elif n_funcs == 0:
+        evidence = EVIDENCE_NO_CALL_SITES
+        if tier == "SAFE" and bump == "MAJOR":
+            tier = "RISKY"
+    else:
+        evidence = EVIDENCE_CALL_SITES
+
+    if evidence == EVIDENCE_NOT_IN_GRAPH:
+        summary = (
+            f"'{dep}' was not found in the dependency graph, so its impact could not be measured "
+            f"(only the {bump or 'SemVer'} bump is known). Treat this result as unverified."
+        )
+        steps = [
+            "Run the full test suite before merging; static analysis has no evidence either way.",
+            f"Read the release notes for {dep} ({rng}).",
+            f"Check whether {dep} is a test, runtime or plugin dependency that the graph does not cover.",
+        ]
+    elif tier == "SAFE":
+        if evidence == EVIDENCE_NO_CALL_SITES:
+            summary = f"No project call sites reach {dep}; this {bump} update looks low risk."
+        else:
+            summary = f"Only a small, shallow set of call sites reaches {dep} ({direct} direct, {n_files} file(s))."
+        summary += " This is not a guarantee: static analysis can miss reflection, configuration and runtime behaviour changes."
+        steps = ["Run the existing test suite before merging.", "Merge only if it passes."]
+    elif tier == "RISKY" and evidence == EVIDENCE_NO_CALL_SITES:
+        summary = f"No call sites reach {dep}, but a {bump} bump can still remove or change APIs."
+        steps = [
+            f"Read the release notes for removed or renamed APIs ({rng}).",
+            "Run the full test suite, including build and integration steps.",
+        ]
+    elif tier == "RISKY":
+        summary = (
+            f"Review the {direct} direct call site(s) across {n_files} affected file(s). "
+            "Run targeted regression tests before merging."
+        )
+        steps = [
+            "Review the listed call sites, starting with the direct callers (depth 1).",
+            "Run targeted tests for the affected files.",
+            f"Read the release notes for {dep} ({rng}).",
+        ]
+    else:  # CRITICAL
+        summary = (
+            f"Large blast radius: {n_funcs} function(s) across {n_files} file(s). "
+            "Do not upgrade without checking breaking changes and updating call sites."
+        )
+        steps = [
+            "Do not merge automatically.",
+            "Review every listed file, starting with the direct callers (depth 1).",
+            f"Read the release notes for {dep} ({rng}) and update affected call sites.",
+            f"Run the full test suite and integration tests; consider pinning {dep} until reviewed.",
+        ]
+
+    return {
+        "tier": tier,
+        "score_category": score_category,
+        "evidence": evidence,
+        "confidence": _CONFIDENCE_BY_EVIDENCE[evidence],
+        "summary": summary,
+        "next_steps": steps,
+    }
+
+
+def _short_api(api_id: str) -> str:
+    """'api:org.apache.mina.core.buffer.IoBuffer.allocate' -> 'IoBuffer.allocate'."""
+    body = api_id[len("api:"):] if api_id.startswith("api:") else api_id
+    parts = body.split(".")
+    return ".".join(parts[-2:]) if len(parts) >= 2 else body
+
+
+def build_impact_tree(
+    dig: dict,
+    dep_node_ids: List[str],
+    dep_label: str = "",
+    max_depth: int = MAX_BFS_DEPTH,
+    max_children: int = 5,
+    max_nodes: int = 40,
+) -> Optional[Dict[str, Any]]:
+    """
+    Build a (truncated) tree of impacted functions rooted at the updated dependency.
+
+    Depth-1 nodes are functions that call the dependency's APIs directly; each deeper level holds
+    the callers of the level above. A function is attached to the first parent that reaches it, so
+    the depths match traverse_impacted_callsites. Children are ordered by subtree size (largest
+    blast radius first), then by path. To keep large repositories readable, at most `max_children`
+    children are shown per node and `max_nodes` nodes overall; the rest are counted in "hidden".
+
+    Returns None when there are no matched dependency nodes.
+    """
+    if not dep_node_ids:
+        return None
+
+    api_by_dep: Dict[str, List[str]] = collections.defaultdict(list)
+    callers_by_target: Dict[str, List[str]] = collections.defaultdict(list)
+    file_by_function: Dict[str, str] = {}
+    for edge in dig.get("edges", []):
+        s, t, etype = edge.get("source"), edge.get("target"), edge.get("type")
+        if etype == "PROVIDED_BY":
+            api_by_dep[t].append(s)
+        elif etype == "CALLS":
+            callers_by_target[t].append(s)
+        elif etype == "CONTAINS":
+            file_by_function[t] = s[len("file:"):] if isinstance(s, str) and s.startswith("file:") else s
+
+    target_apis = sorted({a for d in dep_node_ids for a in api_by_dep.get(d, [])})
+    called_apis: Dict[str, List[str]] = collections.defaultdict(list)
+    for api_id in target_apis:
+        for caller in callers_by_target.get(api_id, []):
+            if api_id not in called_apis[caller]:
+                called_apis[caller].append(api_id)
+
+    depth: Dict[str, int] = {f: 1 for f in called_apis}
+    children: Dict[str, List[str]] = collections.defaultdict(list)
+    queue: collections.deque = collections.deque(sorted(called_apis))
+    while queue:
+        func = queue.popleft()
+        if depth[func] >= max_depth:
+            continue
+        for caller in sorted(set(callers_by_target.get(func, []))):
+            if caller not in depth:
+                depth[caller] = depth[func] + 1
+                children[func].append(caller)
+                queue.append(caller)
+
+    def file_of(func_id: str) -> str:
+        f = file_by_function.get(func_id)
+        if f:
+            return f
+        body = func_id[len("function:"):] if func_id.startswith("function:") else func_id
+        return body.split("::")[0] if "::" in body else "unknown_file"
+
+    def func_name(func_id: str) -> str:
+        body = func_id[len("function:"):] if func_id.startswith("function:") else func_id
+        return body.split("::", 1)[1] if "::" in body else body
+
+    size_cache: Dict[str, int] = {}
+
+    def size(func_id: str) -> int:
+        if func_id not in size_cache:
+            size_cache[func_id] = 1 + sum(size(c) for c in children.get(func_id, []))
+        return size_cache[func_id]
+
+    def ordered(func_ids: List[str]) -> List[str]:
+        return sorted(func_ids, key=lambda f: (-size(f), file_of(f), func_name(f)))
+
+    def make_node(func_id: str) -> Dict[str, Any]:
+        path = file_of(func_id)
+        d = depth[func_id]
+        node: Dict[str, Any] = {
+            "name": f"{os.path.basename(path)}::{func_name(func_id)}()",
+            "file": path,
+            "depth": d,
+            "probability": _depth_to_probability(d),
+            "is_test": _is_test_path(path),
+            "children": [],
+            "hidden": 0,
+        }
+        if d == 1:
+            node["calls"] = sorted({_short_api(a) for a in called_apis[func_id]})[:3]
+        return node
+
+    level1 = ordered(list(called_apis))
+    total = len(depth)
+    root: Dict[str, Any] = {
+        "name": dep_label or dep_node_ids[0].replace("dependency:", ""),
+        "type": "dependency",
+        "total_functions": total,
+        "shown_functions": 0,
+        "children": [],
+        "hidden": 0,
+    }
+
+    budget = max_nodes
+    work: collections.deque = collections.deque()
+    work.append((None, root, level1))
+    while work:
+        _full, pruned, kids = work.popleft()
+        shown = 0
+        hidden_funcs = 0
+        for kid in kids:
+            if shown < max_children and budget > 0:
+                budget -= 1
+                shown += 1
+                node = make_node(kid)
+                pruned["children"].append(node)
+                work.append((kid, node, ordered(children.get(kid, []))))
+            else:
+                hidden_funcs += size(kid)
+        pruned["hidden"] = hidden_funcs
+    root["shown_functions"] = total - _count_hidden(root)
+    return root
+
+
+def _count_hidden(node: Dict[str, Any]) -> int:
+    return node.get("hidden", 0) + sum(_count_hidden(c) for c in node.get("children", []))
+
+
+def render_impact_tree(tree: Optional[Dict[str, Any]]) -> str:
+    """Render build_impact_tree output as plain-ASCII text (safe for any console)."""
+    if not tree:
+        return "(no impact tree: dependency not found in the graph)"
+
+    lines: List[str] = [f"{tree['name']}"]
+
+    def label(node: Dict[str, Any]) -> str:
+        text = f"{node['name']}  [d{node['depth']}, {round(node['probability'] * 100)}%]"
+        if node.get("is_test"):
+            text += " [test]"
+        if node.get("calls"):
+            text += "  calls " + ", ".join(node["calls"])
+        return text
+
+    def walk(node: Dict[str, Any], prefix: str) -> None:
+        kids = node.get("children", [])
+        hidden = node.get("hidden", 0)
+        for i, kid in enumerate(kids):
+            last = i == len(kids) - 1 and not hidden
+            lines.append(f"{prefix}{'`-- ' if last else '+-- '}{label(kid)}")
+            walk(kid, prefix + ("    " if last else "|   "))
+        if hidden:
+            lines.append(f"{prefix}`-- ... {hidden} more function(s) not shown")
+
+    walk(tree, "")
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
 # Main Public Interface
 # ---------------------------------------------------------------------------
 
@@ -529,10 +826,22 @@ def analyze_update(
             },
             "reasoning": str,
             "recommendation": str,
+            # added in Task 5 (existing keys unchanged; risk_category is now the triage tier):
+            "analysis_mode": str,         # "graph" | "mock" (mock = simulated, no DIG found)
+            "score_category": str,        # tier from the score alone, before evidence rules
+            "triage": dict,               # tier, evidence, confidence, summary, next_steps
+            "blast_radius": dict | None,  # functions, files, direct/transitive, depth, test functions
+            "impact_tree": dict | None,   # truncated caller tree; render with render_impact_tree()
         }
     """
     # 1. Attempt to load DIG via fallback order (Decision 1)
     dig_data, graph_source = load_dig(repo_path, dig_path)
+
+    # An empty DIG (e.g. built on demand from a directory with no Java sources) carries no
+    # information. Treat it as "no graph" so it cannot pass for a real analysis.
+    if dig_data is not None and not dig_data.get("nodes"):
+        print(f"[VerSync] Notice: the DIG from {graph_source} is empty (no Java sources found).", file=sys.stderr)
+        dig_data = None
 
     if dig_data is not None:
         print(f"[VerSync] Graph source: {graph_source}", file=sys.stderr)
@@ -540,7 +849,8 @@ def analyze_update(
         # 2. Extract features and perform reverse BFS traversal (Decision 2)
         features = extract_graph_features(dig_data, dependency, old_version, new_version)
         risk_score = _compute_graph_heuristic_score(features)
-        risk_category = _categorize_risk(risk_score)
+        triage = compute_triage(features, risk_score, dependency, old_version, new_version)
+        risk_category = triage["tier"]
         impacted_files = _format_impacted_files_from_graph(features["func_depths"], features["func_to_file"])
 
         # 3. Generate structured reasoning and recommendation
@@ -569,18 +879,7 @@ def analyze_update(
                 f"({old_version} -> {new_version}), the blast radius indicates {risk_category.lower()} update exposure."
             )
 
-        if risk_category == "SAFE":
-            recommendation = "Safe to upgrade. Run automated test suite to verify behavior."
-        elif risk_category == "RISKY":
-            recommendation = (
-                f"Review the {direct} direct call site(s) across {n_files} affected file(s). "
-                "Run targeted regression tests before merging."
-            )
-        else:
-            recommendation = (
-                f"Major blast radius detected across {n_files} file(s). Do not upgrade without checking "
-                "breaking changes in the release notes and updating call sites."
-            )
+        recommendation = triage["summary"]
 
         return {
             "dependency": dependency,
@@ -591,6 +890,11 @@ def analyze_update(
             "impacted_files": impacted_files,
             "reasoning": reasoning,
             "recommendation": recommendation,
+            "analysis_mode": "graph",
+            "score_category": triage["score_category"],
+            "triage": triage,
+            "blast_radius": compute_blast_radius(features) if matched_deps else None,  # None = not measured
+            "impact_tree": build_impact_tree(dig_data, matched_deps, dep_label=dependency),
         }
 
     # 4. Fallback: If no graph available, run deterministic mock (with stderr notification)
@@ -614,6 +918,21 @@ def analyze_update(
         "impacted_files": impacted_files,
         "reasoning": reasoning,
         "recommendation": recommendation,
+        "analysis_mode": "mock",
+        "score_category": risk_category,
+        "triage": {
+            "tier": risk_category,
+            "score_category": risk_category,
+            "evidence": EVIDENCE_SIMULATED,
+            "confidence": _CONFIDENCE_BY_EVIDENCE[EVIDENCE_SIMULATED],
+            "summary": "SIMULATED RESULT: no usable dependency graph was found, so this score and file list are not real analysis.",
+            "next_steps": [
+                "Build a DIG for this repository (graph-model) or pass --dig-path, then run again.",
+                "Do not use this result to decide whether to merge.",
+            ],
+        },
+        "blast_radius": None,
+        "impact_tree": None,
     }
 
 

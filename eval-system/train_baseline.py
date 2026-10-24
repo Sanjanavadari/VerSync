@@ -337,8 +337,18 @@ def evaluate_majority_baseline(y: np.ndarray) -> Tuple[np.ndarray, Dict[str, flo
 # Table Formatting & Main Pipeline
 # ---------------------------------------------------------------------------
 
-def format_row(name: str, m: Dict[str, float], cis: Optional[Dict[str, Tuple[float, float]]] = None) -> str:
-    """Format an arm row with optional 95% bootstrap confidence interval."""
+def format_row(
+    name: str,
+    m: Dict[str, float],
+    cis: Optional[Dict[str, Tuple[float, float]]] = None,
+    name_width: int = 30,
+    col_width: int = 15,
+) -> str:
+    """Format an arm row with optional 95% bootstrap confidence interval.
+
+    Defaults (30 / 15) keep the layout other scripts (e.g. train_models.py) print their own
+    headers against; train_baseline.py passes wider values for its longer arm names.
+    """
     def cell(val: float, key: str) -> str:
         s = f"{val:.3f}"
         if cis and key in cis:
@@ -355,8 +365,8 @@ def format_row(name: str, m: Dict[str, float], cis: Optional[Dict[str, Tuple[flo
     srec_str = cell(m["safe_recall"], "safe_recall")
 
     return (
-        f"| {name.ljust(38)} | {p_str.ljust(17)} | {r_str.ljust(17)} | {f_str.ljust(17)} "
-        f"| {auc_str.ljust(17)} | {bacc_str.ljust(17)} | {mcc_str.ljust(17)} | {srec_str.ljust(17)} |"
+        f"| {name.ljust(name_width)} | {p_str.ljust(col_width)} | {r_str.ljust(col_width)} | {f_str.ljust(col_width)} "
+        f"| {auc_str.ljust(col_width)} | {bacc_str.ljust(col_width)} | {mcc_str.ljust(col_width)} | {srec_str.ljust(17)} |"
     )
 
 
@@ -547,7 +557,7 @@ def run_experiment(
     csv_rows = []
     for name, idx, probs, metrics in arms:
         cis = _arm_cis(y[idx], probs, bootstrap_iters)
-        print(format_row(name, metrics, cis))
+        print(format_row(name, metrics, cis, name_width=38, col_width=17))
         row: Dict[str, Any] = {"arm": name, "n": len(idx)}
         for k in CI_KEYS:
             row[k] = metrics[k]

@@ -302,6 +302,10 @@ def run(args: argparse.Namespace) -> None:
     print(f"  Ground-truth files present in the DIG ..... {n_gt_in_dig} / {n_gt_total}")
     print(f"  Samples with >=1 ground-truth file in DIG . {n_reach} / {len(samples)}")
     print(f"  Samples where the dependency is matched ... {n_matched} / {len(samples)}")
+    n_absent = sum(1 for s in samples if not s["dep_matched"])
+    n_no_callers = sum(1 for s in samples if s["dep_matched"] and not s["ranked_main"])
+    print(f"    dependency node absent from the DIG ..... {n_absent}")
+    print(f"    dependency in DIG but no call sites ..... {n_no_callers}")
 
     per_sample: List[Dict[str, Any]] = []
     scored: List[Tuple[Dict[str, Any], Dict[str, Dict[str, float]]]] = []
