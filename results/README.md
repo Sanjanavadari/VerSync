@@ -106,3 +106,97 @@ overlap.
   come from the same source (and ideally the same repos) as BREAKING ones.
 - The structural/GNN arms are worth re-running once there are more SAFE samples and the
   dependency-to-DIG matching improves (currently 26 / 57; see `dataset/DIG_BUILD_REPORT.md`).
+
+---
+
+# Paper 2 evaluation: SemVer strata, localization and triage
+
+Produced by `train_baseline.py`, `evaluate_localization.py` and `calibrate_triage.py` (all in `eval-system/`).
+
+| File | Contents |
+|---|---|
+| `ablation_combined.csv` | Ablation arms on the 104-sample combined dataset (graph arms use the 57 samples with a DIG), with 95% CIs |
+| `stratified_by_bump.csv` | Every arm split by SemVer bump type (counts, accuracy + CI, recalls, AUC when both classes have >= 3 samples) |
+| `localization_metrics.csv`, `localization_per_sample.csv` | Hit@k, Precision@k, Recall@k, MRR with bootstrap CIs; one row per sample |
+| `localization_unmatched_dependencies.csv` | Why 17 samples have no ranking at all |
+| `triage_calibration.csv` | SAFE / RISKY / CRITICAL tiers vs. true labels on the DIG samples |
+
+## Ablation (point estimate [95% bootstrap CI])
+
+| Arm | n | ROC-AUC | Balanced Acc | Safe recall |
+|---|---|---|---|---|
+| Always breaking (rule) | 104 | 0.500 [0.50, 0.50] | 0.50 | 0.00 |
+| Version heuristic (all 104) | 104 | 0.763 [0.68, 0.84] | 0.64 | 0.38 |
+| Version heuristic (docker labels n=59) | 59 | 0.723 [0.53, 0.89] | 0.64 | 0.38 |
+| Version heuristic (subset n=57) | 57 | 0.736 [0.55, 0.89] | 0.65 | 0.38 |
+| SemVer only (all 104) | 104 | 0.736 [0.64, 0.82] | 0.71 | 0.96 |
+| SemVer only (docker labels n=59) | 59 | 0.621 [0.39, 0.82] | 0.56 | 0.50 |
+| SemVer only (subset n=57) | 57 | 0.652 [0.41, 0.86] | 0.58 | 0.62 |
+| Graph only (subset n=57) | 57 | 0.606 [0.37, 0.83] | 0.57 | 0.75 |
+| SemVer + Graph (n=57) | 57 | 0.770 [0.59, 0.92] | 0.76 | 0.75 |
+| Analyzer heuristic (subset n=57) | 57 | 0.801 [0.64, 0.93] | 0.69 | 1.00 |
+
+1. **The SemVer-only gain on 104 samples appears to come from the sample mix, not real signal.** The same model on the 59 docker-labelled samples gets AUC 0.62. The 45 added
+   CI-labelled safe samples are almost all minor/patch bumps from recent years, while the breaking ones are older and more often major.
+2. **A fixed version rule is competitive.** "Major = risky" scores AUC 0.74 on the graph subset and 0.76 on all 104, within the CIs of every trained arm.
+   Within MINOR and PATCH it cannot discriminate (AUC exactly 0.5), so its score comes entirely from the mix of bump types.
+3. **The graph arms still use only 57 samples**: the 45 CI-labelled safe samples have no DIG.
+4. Per-bump-type cells are small (e.g. a handful of safe samples in MINOR and PATCH), so the stratified numbers are descriptive only.
+
+## Localization (macro average over samples)
+
+Ground truth: files that actually failed (`person1/failure_ground_truth.csv`), mostly test files. 51 breaking samples -> 40 with code-level
+failures (11 fail at the dependency level and are excluded) -> 39 with a built DIG. Paths match by equality or path-segment suffix.
+
+**All localizable samples (n=39)** (samples whose dependency is absent from the DIG get an empty ranking and score 0)
+
+| Arm | Hit@1 | Hit@3 | Hit@10 | MRR |
+|---|---|---|---|---|
+| Depth + fan-in ranking | 0.128 | 0.205 | 0.282 | 0.179 |
+| Analyzer order (as shipped) | 0.154 | 0.205 | 0.282 | 0.195 |
+| Random order, impacted files only | 0.117 | 0.190 | 0.262 | 0.165 |
+| Random order, all DIG files | 0.040 | 0.100 | 0.239 | 0.104 |
+
+**Dependency matched in DIG (n=22)**
+
+| Arm | Hit@1 | Hit@3 | Hit@10 | MRR |
+|---|---|---|---|---|
+| Depth + fan-in ranking | 0.227 | 0.364 | 0.500 | 0.318 |
+| Analyzer order (as shipped) | 0.273 | 0.364 | 0.500 | 0.346 |
+| Random order, impacted files only | 0.208 | 0.336 | 0.464 | 0.293 |
+| Random order, all DIG files | 0.041 | 0.099 | 0.243 | 0.105 |
+
+- **The traversal finds the right set of files; the ordering adds little.** Randomly shuffling the impacted files performs about the same.
+  With a median of 5 files per ranking there is little to order. Intervals are wide (n = 22).
+- **17 of 39 samples cannot be localized because the updated dependency is not in the DIG.** 11 are never called from the project's Java code
+  (e.g. JDBC drivers, `h2`, `checkstyle`): a limit of static call graphs. 6 are calls the resolver credits to a different artifact of the same group
+  (e.g. `dropwizard-client` calls attributed to `dropwizard-core`; all `junit-jupiter` calls to `junit-jupiter-api`). A quick offline check that
+  matched those 6 by groupId gave a ranking for all of them and a top-1 hit for 3 of 6. That is too few samples to act on, but it suggests fixing
+  the attribution in `graph-model/dependency_resolver.py`.
+- Ground-truth files are mostly test files taken from test/compile logs, which favours code that tests exercise.
+
+## Triage tiers vs. true labels (57 samples with a DIG)
+
+| Scheme | Tier | n | Breaking | Safe |
+|---|---|---|---|---|
+| score only tier | SAFE | 36 | 28 | 8 |
+| score only tier | RISKY | 2 | 2 | 0 |
+| score only tier | CRITICAL | 19 | 19 | 0 |
+| triage tier | SAFE | 5 | 3 | 2 |
+| triage tier | RISKY | 33 | 27 | 6 |
+| triage tier | CRITICAL | 19 | 19 | 0 |
+
+- **CRITICAL is clean** on this data (every sample at or above 0.7 was breaking); the score-only SAFE tier is not (most of its samples were breaking).
+  The evidence rules therefore never call a dependency that is missing from the graph SAFE.
+- **The SAFE tier cannot be validated**: with 8 safe samples, 3 of the 5 in the triage SAFE tier were breaking. The CLI words SAFE as "no evidence of impact", not as a guarantee.
+- Tier boundaries were sanity-checked, not statistically calibrated.
+
+## Reproducibility notes
+
+- Deterministic arms (always-breaking rule, version heuristic, logistic regression) reproduce exactly across machines.
+- `model_comparison.csv` was produced with the library versions in `eval-system/requirements.txt`. Re-running `train_models.py --no-gnn` with
+  Python 3.12.3, scikit-learn 1.8.0, XGBoost 3.4.1 and NumPy 2.4.4 gave identical results to the original code on `main` in that environment, but RF and
+  XGBoost AUCs moved by up to about 0.016 compared with the committed files, similar to the seed standard deviation. Record library versions when quoting these numbers
+  and treat tree-model differences below about 0.02 AUC as noise.
+- The localization and triage results depend on `analyzer.py` traversing the DIG in a fixed order; this was made deterministic (`sorted(target_apis)`), and the outputs are
+  byte-identical across Python hash seeds.
