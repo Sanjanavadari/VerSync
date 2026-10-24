@@ -309,7 +309,9 @@ def traverse_impacted_callsites(
     function_depths: Dict[str, int] = {}
     function_apis: Dict[str, List[str]] = collections.defaultdict(list)
 
-    for api_id in target_apis:
+    # sorted(): set iteration order of strings varies between Python processes (hash
+    # randomization), which made the traversal order, and therefore tie order, non-reproducible.
+    for api_id in sorted(target_apis):
         direct_callers = callers_by_target.get(api_id, [])
         for caller_func_id in direct_callers:
             function_apis[caller_func_id].append(api_id)
