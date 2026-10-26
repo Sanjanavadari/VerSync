@@ -106,15 +106,18 @@ def load_dataset_with_commits(
     enriched = []
     for r in rows:
         src_json = r.get("source_json", "")
-        stem = os.path.splitext(src_json)[0] if src_json else ""
+        # CI-labelled samples have no BUMP file; their pre-update commit names the DIG.
+        stem = os.path.splitext(src_json)[0] if src_json else (r.get("pre_commit_sha") or "").strip()
 
         # Derive commit target
         t2 = task2_map.get(src_json) or task2_map.get((r.get("project"), r.get("dependency_artifact_id")))
         parent_commit = t2.get("parent_commit") if t2 else None
         breaking_commit = t2.get("breaking_commit") if t2 else None
+        if not parent_commit and r.get("pre_commit_sha"):
+            parent_commit = r["pre_commit_sha"].strip()  # merge base of a CI-labelled PR
 
         # Fallback commit from 40-char hex source_json stem if valid git SHA
-        if not breaking_commit and re.match(r"^[0-9a-fA-F]{40}$", stem):
+        if not breaking_commit and src_json and re.match(r"^[0-9a-fA-F]{40}$", stem):
             breaking_commit = stem
 
         entry = {
@@ -255,7 +258,7 @@ def generate_dig_for_sample(
     out_filename = f"{project}_{stem}.json" if stem else f"{project}.json"
     out_path = os.path.join(output_dir, out_filename)
     report = {k: "" for k in REPORT_FIELDS}
-    report.update(project=project, source_json=sample.get("source_json", ""),
+    report.update(project=project, source_json=sample.get("source_json", "") or f"ci:{stem}",
                   classification=sample.get("classification", ""), dig_file=out_filename)
     t0 = time.time()
 
@@ -333,8 +336,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Batch generate DIGs for VerSync dataset.")
     parser.add_argument(
         "--dataset",
-        default=os.path.join(REPO_ROOT, "person1", "final_verified_dataset.csv"),
-        help="Path to final_verified_dataset.csv",
+        default=os.path.join(REPO_ROOT, "person1", "combined_dataset.csv"),
+        help="Dataset CSV (default: person1/combined_dataset.csv, 104 samples)",
     )
     parser.add_argument(
         "--task2-json",
@@ -360,7 +363,7 @@ def main() -> None:
     parser.add_argument(
         "--safe-only",
         action="store_true",
-        help="Only process the 8 SAFE samples",
+        help="Only process SAFE samples",
     )
     parser.add_argument(
         "--rebuild",

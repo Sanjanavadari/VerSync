@@ -169,21 +169,32 @@ def extract_semver_features_row(old_v: str, new_v: str) -> Dict[str, float]:
     }
 
 
+def sample_stem(source_json: str, pre_commit_sha: str = "") -> str:
+    """
+    File-name stem identifying a sample's DIG: the BUMP benchmark file's stem, or,
+    for CI-labelled samples (no source_json), their pre-update commit SHA. A bare
+    project name is not unique: one project can have several samples.
+    """
+    if source_json:
+        return os.path.splitext(source_json)[0]
+    return (pre_commit_sha or "").strip()
+
+
 def find_dig_for_sample(
     project: str,
     source_json: str,
     dig_dir: Optional[str],
+    pre_commit_sha: str = "",
 ) -> Optional[dict]:
     """Look up a pre-generated DIG JSON file for this sample in dig_dir."""
     if not dig_dir or not os.path.isdir(dig_dir):
         return None
 
-    stem = os.path.splitext(source_json)[0] if source_json else ""
+    stem = sample_stem(source_json, pre_commit_sha)
     candidates = [
         os.path.join(dig_dir, f"{project}_{stem}.json"),
-        os.path.join(dig_dir, f"{project}.json"),
         os.path.join(dig_dir, f"{stem}.json"),
-    ]
+    ] if stem else [os.path.join(dig_dir, f"{project}.json")]
     for c in candidates:
         if os.path.isfile(c):
             try:
@@ -270,7 +281,7 @@ def load_and_featurize_dataset(
         src_json = r.get("source_json", "")
 
         semver_f = extract_semver_features_row(old_v, new_v)
-        dig_data = find_dig_for_sample(r["project"], src_json, dig_dir)
+        dig_data = find_dig_for_sample(r["project"], src_json, dig_dir, r.get("pre_commit_sha", ""))
         graph_f = extract_graph_features_row(dig_data, dep, old_v, new_v)
 
         combined = {**semver_f, **graph_f}

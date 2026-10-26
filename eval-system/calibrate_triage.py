@@ -50,7 +50,8 @@ def load_scored_samples(dataset_csv: str, dig_report_csv: str, dig_dir: str) -> 
     samples: List[Dict[str, Any]] = []
     with open(dataset_csv, encoding="utf-8-sig", newline="") as fh:
         for row in csv.DictReader(fh):
-            rep = report.get(row.get("source_json", "")) if row.get("source_json") else None
+            key = row.get("source_json") or (f"ci:{row['pre_commit_sha']}" if row.get("pre_commit_sha") else "")
+            rep = report.get(key) if key else None
             if not rep or rep.get("status") != "built":
                 continue
             path = os.path.join(dig_dir, rep["dig_file"])

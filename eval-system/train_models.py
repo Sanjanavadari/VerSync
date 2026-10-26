@@ -179,7 +179,8 @@ def load_all_features(dataset: str, dig_dir: Optional[str]) -> Dict[str, Any]:
     for r, fd in zip(rows, feat_dicts):
         dep = f"{r['dependency_group_id']}:{r['dependency_artifact_id']}"
         deps.append(dep)
-        dig = find_dig_for_sample(r["project"], r.get("source_json", ""), dig_dir) if fd["has_graph"] else None
+        dig = (find_dig_for_sample(r["project"], r.get("source_json", ""), dig_dir, r.get("pre_commit_sha", ""))
+               if fd["has_graph"] else None)
         struct_dicts.append(extract_structural_features(dig, dep))
         meta = (dig or {}).get("build_metadata", {})
         provenance.append(meta.get("checkout_mode", "unknown" if dig else "no_dig"))
@@ -417,7 +418,8 @@ def run(args: argparse.Namespace) -> None:
         gnn_graphs = []
         for i in sub_idx:
             r = data["rows"][i]
-            dig = find_dig_for_sample(r["project"], r.get("source_json", ""), args.dig_dir)
+            dig = find_dig_for_sample(r["project"], r.get("source_json", ""), args.dig_dir,
+                                      r.get("pre_commit_sha", ""))
             gnn_graphs.append(build_impact_subgraph(dig, data["deps"][i]))
         X_sv = data["X"]["SemVer"][sub_idx]
         p = gnn_oof_probs(gnn_graphs, X_sv, y_sub, g_sub, seed=DEFAULT_SEED, use_graph=True)
