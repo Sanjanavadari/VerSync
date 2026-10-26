@@ -1,253 +1,106 @@
 {
-  "arm": "XGB SV+G+Struct (n=57)",
-  "model": "XGB",
-  "features": "SemVer+Graph+Struct",
+  "arm": "RF SemVer+Graph (n=102)",
+  "model": "RF",
+  "features": "SemVer+Graph",
   "selection": "highest pooled OOF ROC-AUC among RF/XGB arms (tie-break MCC)",
   "importance": [
     {
-      "feature": "declared_deps",
-      "builtin_importance": 0.40906,
-      "oof_permutation_auc_drop_mean": 0.25562,
-      "oof_permutation_auc_drop_sd": 0.07192,
-      "oof_mean_abs_shap": 0.8869
-    },
-    {
-      "feature": "version_distance",
-      "builtin_importance": 0.12578,
-      "oof_permutation_auc_drop_mean": 0.05817,
-      "oof_permutation_auc_drop_sd": 0.03829,
-      "oof_mean_abs_shap": 0.50767
-    },
-    {
-      "feature": "unknown_api_share",
-      "builtin_importance": 0.08956,
-      "oof_permutation_auc_drop_mean": 0.0276,
-      "oof_permutation_auc_drop_sd": 0.01758,
-      "oof_mean_abs_shap": 0.19529
-    },
-    {
-      "feature": "dep_found_in_graph",
-      "builtin_importance": 0.04099,
-      "oof_permutation_auc_drop_mean": 0.00119,
-      "oof_permutation_auc_drop_sd": 0.00216,
-      "oof_mean_abs_shap": 0.03043
-    },
-    {
-      "feature": "direct_calls_log",
-      "builtin_importance": 0.07497,
-      "oof_permutation_auc_drop_mean": 0.00051,
-      "oof_permutation_auc_drop_sd": 0.00139,
-      "oof_mean_abs_shap": 0.01751
-    },
-    {
       "feature": "is_major",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "is_patch",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "maj_delta",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "min_delta",
-      "builtin_importance": 0.00203,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.00139
-    },
-    {
-      "feature": "indirect_calls_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "affected_functions_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "affected_files_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "max_depth",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
+      "builtin_importance": 0.11845,
+      "oof_permutation_auc_drop_mean": 0.02016,
+      "oof_permutation_auc_drop_sd": 0.01243,
+      "oof_mean_abs_shap": 0.07212
     },
     {
       "feature": "ratio_affected_files",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
+      "builtin_importance": 0.08655,
+      "oof_permutation_auc_drop_mean": 0.01427,
+      "oof_permutation_auc_drop_sd": 0.00822,
+      "oof_mean_abs_shap": 0.03672
     },
     {
-      "feature": "target_api_count_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
+      "feature": "is_patch",
+      "builtin_importance": 0.04838,
+      "oof_permutation_auc_drop_mean": 0.01246,
+      "oof_permutation_auc_drop_sd": 0.00781,
+      "oof_mean_abs_shap": 0.03683
     },
     {
-      "feature": "api_fanin_mean_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
+      "feature": "version_distance",
+      "builtin_importance": 0.14346,
+      "oof_permutation_auc_drop_mean": 0.01236,
+      "oof_permutation_auc_drop_sd": 0.00819,
+      "oof_mean_abs_shap": 0.05973
     },
     {
-      "feature": "api_fanin_max_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
+      "feature": "maj_delta",
+      "builtin_importance": 0.11489,
+      "oof_permutation_auc_drop_mean": 0.01108,
+      "oof_permutation_auc_drop_sd": 0.01371,
+      "oof_mean_abs_shap": 0.06429
     },
     {
-      "feature": "dep_call_share",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "dep_pagerank_share",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "depth_frac_1",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "depth_frac_2",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "depth_frac_3plus",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "depth_mean",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "caller_fanout_mean_log",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "caller_dep_focus",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "affected_modules",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "frac_modules_reached",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "frac_files_reached",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "frac_functions_reached",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "test_file_share",
-      "builtin_importance": 0.0,
-      "oof_permutation_auc_drop_mean": 0.0,
-      "oof_permutation_auc_drop_sd": 0.0,
-      "oof_mean_abs_shap": 0.0
-    },
-    {
-      "feature": "is_minor",
-      "builtin_importance": 0.03688,
-      "oof_permutation_auc_drop_mean": -6e-05,
-      "oof_permutation_auc_drop_sd": 0.00168,
-      "oof_mean_abs_shap": 0.02592
-    },
-    {
-      "feature": "graph_nodes_log",
-      "builtin_importance": 0.02813,
-      "oof_permutation_auc_drop_mean": -0.00508,
-      "oof_permutation_auc_drop_sd": 0.0028,
-      "oof_mean_abs_shap": 0.04612
-    },
-    {
-      "feature": "graph_density_log10",
-      "builtin_importance": 0.0849,
-      "oof_permutation_auc_drop_mean": -0.00509,
-      "oof_permutation_auc_drop_sd": 0.00479,
-      "oof_mean_abs_shap": 0.14955
+      "feature": "direct_calls_log",
+      "builtin_importance": 0.07553,
+      "oof_permutation_auc_drop_mean": 0.00946,
+      "oof_permutation_auc_drop_sd": 0.00825,
+      "oof_mean_abs_shap": 0.03206
     },
     {
       "feature": "pat_delta",
-      "builtin_importance": 0.0333,
-      "oof_permutation_auc_drop_mean": -0.00526,
-      "oof_permutation_auc_drop_sd": 0.00349,
-      "oof_mean_abs_shap": 0.05767
+      "builtin_importance": 0.08136,
+      "oof_permutation_auc_drop_mean": 0.00527,
+      "oof_permutation_auc_drop_sd": 0.00863,
+      "oof_mean_abs_shap": 0.02497
     },
     {
-      "feature": "graph_files_log",
-      "builtin_importance": 0.07439,
-      "oof_permutation_auc_drop_mean": -0.01257,
-      "oof_permutation_auc_drop_sd": 0.00637,
-      "oof_mean_abs_shap": 0.10568
+      "feature": "dep_found_in_graph",
+      "builtin_importance": 0.02515,
+      "oof_permutation_auc_drop_mean": 0.00515,
+      "oof_permutation_auc_drop_sd": 0.00537,
+      "oof_mean_abs_shap": 0.02052
+    },
+    {
+      "feature": "affected_files_log",
+      "builtin_importance": 0.06038,
+      "oof_permutation_auc_drop_mean": 0.00496,
+      "oof_permutation_auc_drop_sd": 0.00593,
+      "oof_mean_abs_shap": 0.02584
+    },
+    {
+      "feature": "max_depth",
+      "builtin_importance": 0.03996,
+      "oof_permutation_auc_drop_mean": 0.00306,
+      "oof_permutation_auc_drop_sd": 0.00566,
+      "oof_mean_abs_shap": 0.02399
+    },
+    {
+      "feature": "affected_functions_log",
+      "builtin_importance": 0.06309,
+      "oof_permutation_auc_drop_mean": 0.00131,
+      "oof_permutation_auc_drop_sd": 0.00531,
+      "oof_mean_abs_shap": 0.02894
+    },
+    {
+      "feature": "indirect_calls_log",
+      "builtin_importance": 0.02714,
+      "oof_permutation_auc_drop_mean": -0.0034,
+      "oof_permutation_auc_drop_sd": 0.00364,
+      "oof_mean_abs_shap": 0.0061
+    },
+    {
+      "feature": "is_minor",
+      "builtin_importance": 0.0361,
+      "oof_permutation_auc_drop_mean": -0.00448,
+      "oof_permutation_auc_drop_sd": 0.00676,
+      "oof_mean_abs_shap": 0.01728
+    },
+    {
+      "feature": "min_delta",
+      "builtin_importance": 0.07956,
+      "oof_permutation_auc_drop_mean": -0.00614,
+      "oof_permutation_auc_drop_sd": 0.00684,
+      "oof_mean_abs_shap": 0.02506
     }
   ]
 }
