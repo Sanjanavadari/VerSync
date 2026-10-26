@@ -5,7 +5,11 @@ extract_call_graph.py
 Walks a cloned Java repository, parses every .java file with javalang, and
 builds a lightweight method-level call graph edge list distinguishing
 internal calls (within the same project) from external API calls
-(methods belonging to imported third-party / JDK libraries). External calls
+(methods belonging to imported third-party / JDK libraries). Constructor
+calls (`new Foo()`, recorded as "pkg.Foo.<init>") and annotations
+("pkg.Foo.<annotation>") on explicitly imported external types count as
+external API uses too: many libraries (JUnit params, Spring, validation)
+are used mainly that way, never through a method call. External calls
 are additionally resolved, on a best-effort basis, to the Maven dependency
 that provides them (see dependency_resolver.py).
 
@@ -22,6 +26,8 @@ import sys
 
 import javalang
 from javalang.tree import (
+    Annotation,
+    ClassCreator,
     ClassDeclaration,
     ConstructorDeclaration,
     EnumDeclaration,
@@ -225,13 +231,61 @@ def resolve_call(qualifier, member, enclosing_class, var_types, type_to_fqn,
     return f"{qualifier}.{member}", True
 
 
+def external_type_fqn(simple_name, type_to_fqn, internal_classes):
+    """FQN of an explicitly imported, non-project type, else None."""
+    if not simple_name or simple_name in internal_classes:
+        return None
+    return type_to_fqn.get(simple_name)
+
+
+def iter_external_type_uses(node, type_to_fqn, internal_classes, skip_nested_methods):
+    """
+    Yield "pkg.Foo.<init>" for `new Foo(...)` and "pkg.Foo.<annotation>" for
+    `@Foo` inside `node`, for imported external types only. Annotations can
+    also be written fully qualified (`@org.junit.jupiter.api.Test`).
+    """
+    for path, n in node:
+        if skip_nested_methods and any(isinstance(p, METHOD_KINDS) for p in path[1:]):
+            continue
+        if isinstance(n, ClassCreator):
+            fqn = external_type_fqn(type_name(n.type), type_to_fqn, internal_classes)
+            if fqn:
+                yield f"{fqn}.<init>"
+        elif isinstance(n, Annotation):
+            name = n.name or ""
+            fqn = name if "." in name else external_type_fqn(name, type_to_fqn, internal_classes)
+            if fqn:
+                yield f"{fqn}.<annotation>"
+
+
 def extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_methods_by_class,
                             declared_dependencies, dependency_cache):
     edges = []
 
+    def add_external(function, calls_str):
+        if calls_str not in dependency_cache:
+            dependency_cache[calls_str] = resolve_dependency(calls_str, declared_dependencies)
+        edges.append({
+            "file": rel_path,
+            "function": function,
+            "calls": calls_str,
+            "external": True,
+            "dependency": dependency_cache[calls_str],
+        })
+
     for type_decl in iter_type_declarations(comp_unit):
         class_name = type_decl.name
         type_to_fqn, static_method_map, static_wildcard_classes = build_import_maps(comp_unit)
+
+        # Class- and field-level annotations / initializers belong to no
+        # method; they are attributed to a "<class>" pseudo-function.
+        class_level = list(type_decl.annotations or [])
+        for _, field in type_decl.filter(FieldDeclaration):
+            if not any(isinstance(p, METHOD_KINDS) for p in _):
+                class_level.append(field)
+        for item in class_level:
+            for calls_str in iter_external_type_uses(item, type_to_fqn, internal_classes, True):
+                add_external("<class>", calls_str)
 
         for _, method in filter_types(type_decl, METHOD_KINDS):
             method_name = getattr(method, "name", "<init>") or "<init>"
@@ -268,6 +322,9 @@ def extract_edges_for_file(rel_path, comp_unit, internal_classes, internal_metho
                     "external": is_external,
                     "dependency": dependency,
                 })
+
+            for calls_str in iter_external_type_uses(method, type_to_fqn, internal_classes, True):
+                add_external(method_name, calls_str)
 
     return edges
 
