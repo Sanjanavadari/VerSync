@@ -1,181 +1,160 @@
 # VerSync Evaluation & CLI System
 
-This directory contains the user-facing command-line tool and performance
-evaluation pipeline for **VerSync** — a dependency update risk predictor.
+This directory contains the user-facing command-line tool and the evaluation pipeline for **VerSync**,
+a dependency update risk predictor. Results produced by these scripts are written to [`../results`](../results/README.md).
 
 ## Overview
 
-VerSync helps developers understand the risk of upgrading a dependency
-*before* they do it. Given a repository, a dependency name, and an old/new
-version pair, it produces a risk report: a numerical score, a risk category
-(`SAFE` / `RISKY` / `CRITICAL`), a list of likely-affected files/functions,
-and a plain-English explanation with a recommendation.
+Given a repository, a dependency and an old/new version, VerSync reports how risky the update is
+(`SAFE` / `RISKY` / `CRITICAL`), which functions and files are likely affected, and what to do next.
+It does this by walking the repository's **Dependency-Impact Graph (DIG)** backwards from the updated
+dependency to the project code that calls it, and combining the size of that blast radius with the SemVer
+bump type.
 
-This directory holds two related but separate things:
+This directory holds two related things:
 
-1. The **user-facing CLI** (`cli.py` + `analyzer.py`) that runs a risk
-   analysis on a single dependency update and prints a report.
-2. The **evaluation pipeline** (`evaluator.py` + `run_eval_demo.py`) that
-   measures how good the underlying predictions are (Precision, Recall,
-   F1-Score, ROC-AUC) once we have real predictions and ground-truth
-   outcomes to check them against.
+1. The **CLI** (`cli.py` + `analyzer.py`): analyse one dependency update and print a report.
+2. The **evaluation pipeline** (`train_baseline.py`, `train_models.py`, `evaluate_localization.py`,
+   `calibrate_triage.py`, `evaluator.py`): measure how good the predictions are against labelled updates.
 
-Right now, `analyzer.py` is a **mock/stub** — it returns deterministic,
-hash-based fake results so the rest of the system (CLI, reports, evaluation
-harness) can be built and tested end-to-end before the real graph/ML model
-exists. See the [Integration Guide](#integration-guide-for-team-collaboration)
-below for how that gets swapped in.
+The analyzer scores updates with a hand-written heuristic (`_compute_graph_heuristic_score`), not a trained
+model. The trained models live in `train_baseline.py` / `train_models.py` and are not wired into the CLI.
 
 ## Directory Structure
 
 | File | Purpose |
 |---|---|
-| **`cli.py`** | Command-line entry point. Parses arguments, calls `analyzer.analyze_update`, and prints the report as a formatted text report or as JSON. |
-| **`analyzer.py`** | Risk evaluation wrapper. Currently returns a deterministic mock report based on hashing the inputs; will later call our graph-ML prediction backend. |
-| **`evaluator.py`** | Evaluation metrics harness (Precision, Recall, F1-Score, ROC-AUC) implemented in pure Python — no external dependencies (no numpy/scikit-learn) required. |
-| **`run_eval_demo.py`** | Demo script that generates a synthetic set of 100 mock update outcomes and runs them through `evaluator.py` to show the metrics table in action. |
+| `cli.py` | Command-line entry point. Prints a text report (triage, evidence, blast radius, next steps, impact tree, affected files) or JSON. |
+| `analyzer.py` | DIG loading, reverse traversal, heuristic score, triage rules (`compute_triage`), impact tree (`build_impact_tree`). Falls back to a clearly-labelled **simulated** result when no usable graph exists. |
+| `evaluator.py` | Pure-Python Precision / Recall / F1 / ROC-AUC (rank-sum method, ties averaged). No third-party packages. |
+| `run_eval_demo.py` | Demo of `evaluator.py` on 100 synthetic outcomes. |
+| `train_baseline.py` | Ablation (always-breaking rule, version heuristic, SemVer / graph logistic regression, analyzer heuristic), 5-fold grouped CV, bootstrap CIs, results split by SemVer bump type. |
+| `train_models.py`, `graph_features.py`, `gnn_model.py` | Random forest / XGBoost / structural-graph / GNN comparison (see the Person 2 section below). |
+| `batch_build_digs.py` | Build pre-update DIGs for dataset samples. |
+| `evaluate_localization.py` | Hit@k, Precision@k, Recall@k and MRR of the ranked impacted files against the real failing files. |
+| `calibrate_triage.py` | Checks the triage tiers against labelled samples using the same code the CLI runs. |
+| `test_evaluate_localization.py`, `test_triage.py` | Unit tests (58 in total). |
+| `requirements.txt` | Dependencies for the training / evaluation scripts. |
 
 ---
 
 ## Getting Started / Running the Code
 
-Requires Python 3.7+ and no third-party packages — everything here is
-pure standard library.
+`cli.py`, `analyzer.py`, `evaluator.py` and `run_eval_demo.py` use only the standard library. The training and
+evaluation scripts need `pip install -r eval-system/requirements.txt`. Commands below run from the repository root.
 
-### 1. Run the Risk Prediction CLI
-
-Run the CLI tool using Python 3:
+### 1. Run the risk CLI
 
 ```bash
-python cli.py --repo-path /path/to/repo --dependency pandas --old-version 2.1.4 --new-version 2.2.0
+python eval-system/cli.py \
+  --repo-path . \
+  --dig-path dataset/digs/quickfixj_00a7cc31784ac4a9cc27d506a73ae589d6df36d6.json \
+  --dependency org.apache.mina:mina-core --old-version 2.1.5 --new-version 2.2.1
 ```
 
-This prints a formatted text report with the risk score, category,
-reasoning, recommendation, and a table of potentially affected files.
+| Flag | Meaning |
+|---|---|
+| `--repo-path` (required) | Repository being analysed. |
+| `--dependency` (required) | `groupId:artifactId` (an `artifactId` alone also works). |
+| `--old-version`, `--new-version` (required) | Version range of the update. |
+| `--dig-path` | A prebuilt DIG JSON. Without it the CLI uses `<repo>/dig.json`, then tries to build one with `graph-model/build_dig.py` (needs `javalang`), then falls back to a simulated result. |
+| `--format text\|json` | Text report (default) or JSON. |
+| `--require-graph` | Exit with code 2 instead of printing a simulated result. Use this in CI. |
+| `--no-tree` | Omit the impact tree from the text report. |
 
-**JSON output format** (for CI/CD integrations, scripting, or piping into
-other tools):
+The text report shows the risk tier and score, the **evidence** behind it (call sites found / dependency in graph
+but never called / dependency not in graph) with a confidence level, the blast radius, reasoning, numbered next
+steps, a plain-ASCII impact tree (`d1` = calls the dependency directly, `[test]` = test code) and the affected-files table.
+
+JSON output keeps the original keys (`dependency`, `old_version`, `new_version`, `risk_score`, `risk_category`,
+`impacted_files`, `reasoning`, `recommendation`) and adds `analysis_mode` (`graph` or `mock`), `graph_source`,
+`graph_stale`, `score_category`, `triage`, `blast_radius` and `impact_tree`. **`risk_category` is now the triage
+tier**, which can be higher than the tier implied by the score alone (`score_category`).
+
+#### How triage works
+
+The tier starts from the score (`< 0.4` SAFE, `< 0.7` RISKY, otherwise CRITICAL) and is then adjusted by evidence:
+
+| Situation | Tier |
+|---|---|
+| Dependency **not found in the graph** | At least RISKY (the graph has no evidence either way; 25 of the 31 such updates in the labelled data were breaking). |
+| Dependency in the graph, no call sites, MAJOR bump | At least RISKY. |
+| Call sites found | Score tier. |
+| No usable graph (simulated) | Labelled `[SIM]`, never presented as a real result. |
+
+#### Things to know
+
+- **A dependency only appears in the graph if the project's Java code calls into it.** Runtime-only libraries
+  (JDBC drivers, `h2`), build plugins and BOMs never appear, so their impact cannot be measured.
+- **The SAFE tier is not validated.** There are only 8 safe samples with a DIG, and 3 of the 5 samples that end up in the
+  triage SAFE tier were actually breaking (`results/triage_calibration.csv`). Treat SAFE as "no evidence of impact", not as a guarantee.
+  The CRITICAL boundary is clean on the data we have (19 of 19 breaking).
+- **Cached graphs can go stale.** A `<repo>/dig.json` is reused as-is. The report sets `graph_stale` and prints a warning when
+  `.java` files or `pom.xml` changed after it was built; delete `dig.json` to rebuild. Deleted files are not detected.
+- An empty graph (e.g. a directory with no Java sources) counts as "no graph" and gives a simulated result.
+- Building a DIG on demand writes `dig.json` into the target repository.
+
+### 2. Run the metrics demo
 
 ```bash
-python cli.py --repo-path /path/to/repo --dependency pandas --old-version 2.1.4 --new-version 2.2.0 --format json
+python eval-system/run_eval_demo.py
 ```
 
-**All CLI flags:**
-
-| Flag | Required | Description |
-|---|---|---|
-| `--repo-path` | Yes | Path to the target repository. |
-| `--dependency` | Yes | Name of the dependency being updated (e.g. `spring-web`). |
-| `--old-version` | Yes | Current version string (e.g. `5.3.24`). |
-| `--new-version` | Yes | Target version string (e.g. `6.0.7`). |
-| `--dig-path` | No | Path to a precomputed Dependency-Impact Graph JSON file (e.g. `graph-model/dig_sample_output.json`). |
-| `--format` | No | `text` (default) or `json`. |
-
-### 2. Run the Evaluation Metrics Demo
-
-Verify the metrics harness calculations and display layout on a synthetic
-dataset of 100 mock dependency updates:
-
-```bash
-python run_eval_demo.py
-```
-
-This will print how many of the 100 mock updates "broke" vs. were "safe,"
-followed by a metrics table (Precision, Recall, F1-Score, ROC-AUC) and the
-underlying confusion-matrix counts (TP/FP/FN/TN).
-
----
-
-## Integration Guide (For Team Collaboration)
-
-### Person 2: Integrating the Graph & ML Model
-
-When the graph construction and ML model are ready, the mock logic in
-`analyzer.py` needs to be swapped out for the real thing:
-
-1. Open `analyzer.py`.
-2. The function to replace is `analyze_update(repo_path, dependency, old_version, new_version)`.
-   Internally it currently calls four mock helpers you'll be replacing:
-   - `_deterministic_score(...)` → replace with your **ML model's** risk
-     score prediction (still a `float` between `0.0` and `1.0`).
-   - `_mock_impacted_files(...)` → replace with your **graph propagation**
-     logic that walks the dependency/call graph to find real affected
-     files and functions, each with a real impact probability.
-   - `_categorize_risk(...)` can likely stay as-is (it just buckets a score
-     into `SAFE` / `RISKY` / `CRITICAL` using `SAFE_THRESHOLD` /
-     `RISKY_THRESHOLD` at the top of the file) — but feel free to tune
-     those thresholds once we have real score distributions to calibrate
-     against.
-   - `_mock_reasoning(...)` / `_mock_recommendation(...)` → replace with
-     real explanations generated from your model/graph (e.g. which
-     deprecated APIs were actually detected, which breaking changes were
-     found in the changelog, etc).
-3. **Keep the return schema of `analyze_update` unchanged** — a dictionary
-   with `dependency`, `old_version`, `new_version`, `risk_score`,
-   `risk_category`, `impacted_files`, `reasoning`, and `recommendation` —
-   so `cli.py` continues to work out-of-the-box with no changes needed on
-   the CLI side.
-
-### Person 1 & 2: Testing Models During Training
-
-You can use the evaluation harness to validate your models directly from
-your own training/validation scripts — no need to go through the CLI at
-all:
-
-```python
-from evaluator import compute_binary_metrics, compute_roc_auc
-
-# During your evaluation loop:
-y_true = [...]  # Actual outcomes (0 or 1) from the BUMP/mined dataset
-y_pred = [...]  # Probabilities from your model
-
-metrics = compute_binary_metrics(y_true, y_pred, threshold=0.5)
-auc = compute_roc_auc(y_true, y_pred)
-
-print(metrics)   # {"precision": ..., "recall": ..., "f1": ..., "tp": ..., "fp": ..., "fn": ..., "tn": ...}
-print(auc)       # e.g. 0.94
-```
-
-If you want the same nicely formatted console table the CLI uses, combine
-the two results and pass them to `print_metrics_table`:
+### 3. Use the metrics harness from your own scripts
 
 ```python
 from evaluator import compute_binary_metrics, compute_roc_auc, print_metrics_table
 
-binary_metrics = compute_binary_metrics(y_true, y_pred, threshold=0.5)
-roc_auc = compute_roc_auc(y_true, y_pred)
+y_true = [...]   # 1 = the update broke the project, 0 = it did not
+y_pred = [...]   # predicted probabilities from your model
 
-print_metrics_table({
-    "precision": binary_metrics["precision"],
-    "recall": binary_metrics["recall"],
-    "f1": binary_metrics["f1"],
-    "roc_auc": roc_auc,
-})
+m = compute_binary_metrics(y_true, y_pred, threshold=0.5)   # precision, recall, f1, tp, fp, fn, tn
+auc = compute_roc_auc(y_true, y_pred)                       # returns 0.0 if only one class is present
+print_metrics_table({"precision": m["precision"], "recall": m["recall"], "f1": m["f1"], "roc_auc": auc})
 ```
 
-See `run_eval_demo.py` for a complete, runnable example of this pattern
-using synthetic data.
+Note that `compute_roc_auc` returns `0.0` when only one class is present (AUC is undefined). The scripts below
+pool out-of-fold predictions before computing AUC, so this does not affect their results.
 
-### 3. Run the Baseline Model & Ablation Harness
-
-Train and evaluate the baseline models against Person 1's verified BUMP dataset:
+### 4. Baseline ablation and per-bump-type results
 
 ```bash
-python train_baseline.py
+python eval-system/train_baseline.py                                   # 104 samples (person1/combined_dataset.csv)
+python eval-system/train_baseline.py --dataset person1/final_verified_dataset.csv   # the original 59
 ```
 
-This runs a 5-fold `StratifiedGroupKFold` cross-validation (grouped by repository)
-with out-of-fold probability pooling and reports a 5-arm ablation table:
-- **Majority Baseline** ("always breaking")
-- **SemVer only (all 59 samples)**
-- **SemVer only (graph subset)**
-- **Graph only (graph subset)**
-- **SemVer + Graph (graph subset)**
+5-fold `StratifiedGroupKFold` (grouped by project), pooled out-of-fold probabilities, 95% bootstrap CIs.
+Writes `results/ablation_combined.csv` and `results/stratified_by_bump.csv`. Arms:
 
-To generate pre-update DIGs for dataset samples:
+- **Always breaking (rule)**: a fixed rule, not the majority class.
+- **Version heuristic**: MAJOR -> breaking, PATCH -> safe, MINOR -> a 0.5 tie. No training.
+- **SemVer only** (all samples, docker-labelled samples, graph subset), **Graph only**, **SemVer + Graph**: logistic regression.
+- **Analyzer heuristic**: the untrained score the CLI uses, evaluated on the graph subset.
+
+Graph arms only cover samples that have a DIG (57), so compare arms only on the same sample subset. To build DIGs:
+
 ```bash
-python batch_build_digs.py [--limit <N>] [--safe-only]
+python eval-system/batch_build_digs.py [--limit <N>] [--safe-only]
 ```
+
+### 5. Localization evaluation
+
+```bash
+python eval-system/evaluate_localization.py
+```
+
+Compares the ranked impacted files with the files that actually failed (`person1/failure_ground_truth.csv`).
+Writes `results/localization_metrics.csv` (with CIs), `localization_per_sample.csv` and
+`localization_unmatched_dependencies.csv` (why 17 samples have no ranking). Paths match by equality or path-segment
+suffix, precision@k divides by k, and ties are broken deterministically. The report prints the sample accounting and the caveats.
+
+### 6. Triage calibration check and tests
+
+```bash
+python eval-system/calibrate_triage.py                     # writes results/triage_calibration.csv
+python -m unittest eval-system/test_evaluate_localization.py eval-system/test_triage.py
+```
+
 ---
 
 ## Person 2: Tree Models, Structural-Graph Features and GNN (`train_models.py`)

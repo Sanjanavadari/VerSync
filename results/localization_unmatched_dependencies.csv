@@ -1,0 +1,18 @@
+project,commit,dependency,bump,reason,api_calls_in_group_namespace,calls_resolved_to
+pdb,0305beafdecb0b28f7c94264ed20cdc4e41ff067,mysql:mysql-connector-java,MAJOR,never called from the project's Java code,0,
+code-coverage-api-plugin,06c5386831e97e94d9b9fd155d3ea4aa8711c4e7,org.jenkins-ci:acceptance-test-harness,MAJOR,never called from the project's Java code,0,
+opennlp,0771fe8d060aec9dc22344b8946e25ba8500afb9,com.puppycrawl.tools:checkstyle,MAJOR,never called from the project's Java code,0,
+camunda-platform-7-mockito,07ff1a34661db6c7f0ca03156ff5d8936b5123f5,org.springframework:spring-context,MAJOR,calls in its groupId namespace resolve to a different artifact,1,org.springframework:spring-beans
+fscrawler,097d93fbb2f9998ef1390ad10f92d1b70fda8b90,org.apache.poi:poi-ooxml,MAJOR,never called from the project's Java code,0,
+a,0c088ff435224b168f93d2a20b829af940bb67dd,org.graalvm.js:js-scriptengine,MAJOR,never called from the project's Java code,0,
+causeway,0ec1ab7e205e0ea1bafc0e0ab7be056716dd560b,com.sun.xml.bind.external:relaxng-datatype,MAJOR,never called from the project's Java code,0,
+lithium,10d7545c5771b03dd9f6122bd5973a759eb2cd03,io.dropwizard:dropwizard-client,MAJOR,calls in its groupId namespace resolve to a different artifact,22,io.dropwizard:dropwizard-core
+dropwizard-pac4j,115827c6675f532a4d33751d1a0c0ba394bbd304,jakarta.servlet:jakarta.servlet-api,MAJOR,never called from the project's Java code,0,
+geostore,12e237710199fafa086fd2299edefd5f8f05a63c,com.h2database:h2,MAJOR,never called from the project's Java code,0,
+pgpverify-maven-plugin,19249139eb66616953c389242c22edde60c4ac2f,org.junit.jupiter:junit-jupiter-params,MINOR,calls in its groupId namespace resolve to a different artifact,8,org.junit.jupiter:junit-jupiter-api
+wicket-crudifier,1a2fb9f65e12d6c43a8472b9b035299b29a75ce8,jakarta.validation:jakarta.validation-api,MAJOR,never called from the project's Java code,0,
+license-maven-plugin,1c0972fc3d905b9f2a305a78f8a158a0b3fd8639,org.apache.maven.shared:maven-dependency-tree,MINOR,calls in its groupId namespace resolve to a different artifact,13,org.apache.maven.shared:maven-shared-utils
+avans,1c3529eaf282deb4868f4b13439170ef47db3e8c,com.fasterxml.jackson.dataformat:jackson-dataformat-cbor,MINOR,never called from the project's Java code,0,
+webapp,1eb6d9d5b2a07720a0839457cee81e066dd932f2,org.apache.logging.log4j:log4j-api,MINOR,calls in its groupId namespace resolve to a different artifact,6,org.apache.logging.log4j:log4j-core
+pay-cardid,22eec990412b563439a1dfae84134b43d85d9815,org.dhatim:dropwizard-sentry,PATCH,never called from the project's Java code,0,
+java-firestore,20e787c7e1e6d0f8de9449551a3749575348a341,com.google.cloud:google-cloud-shared-dependencies,MINOR,calls in its groupId namespace resolve to a different artifact,162,com.google.cloud:proto-google-cloud-firestore-bundle-v1

@@ -44,29 +44,41 @@ tested independently:
 
 | Module | Status |
 |---|---|
-| `/dataset` | Started. `verified_samples.csv` holds 10 hand-verified BUMP examples (project, repo URL, dependency group/artifact, old/new version, failure category). All 10 are breaking updates; there are no safe-update examples yet. The GitHub crawler / mining code is not implemented. |
-| `/graph-model` | Call-graph extractor done (`extract_call_graph.py`, javalang-based). It turns a cloned Java repo into an edge list of `(file, function, calls, external)` and was tested on `apache/commons-lang`. The ML model and any dependency-impact scoring are not implemented. |
-| `/eval-system` | CLI (`cli.py`) and evaluation metrics (`evaluator.py`: Precision, Recall, F1, ROC-AUC) are working. `analyzer.py` is still a **mock** that returns deterministic fake scores and impacted files; it is not yet connected to `/graph-model` or `/dataset`. |
+| `/dataset` (mined data lives in `person1/`) | 59 verified BUMP samples (51 breaking, 8 safe) in `person1/final_verified_dataset.csv`, plus 45 safe updates mined from merged Dependabot/Renovate PRs with passing CI. Combined in `person1/combined_dataset.csv`: 104 samples (51 breaking, 53 safe); the `label_source` column separates docker-reproduced labels from GitHub-CI labels. Also: failure ground truth (`failure_ground_truth.csv`; 40 of the 51 verified breaking samples point to failing files), API diffs, changelogs, and a Python generalization set (25 breaking, 15 safe, 11 unverified). The 45 CI-labelled safe samples do not have DIGs yet. |
+| `/graph-model` | Java call-graph extractor, Maven dependency resolver and Dependency-Impact-Graph (DIG) builder (`build_dig.py`). 57 of the 59 verified samples have a pre-update DIG in `dataset/digs/`; 2 could not be built (see `dataset/DIG_BUILD_REPORT.md`). |
+| `/eval-system` | `analyzer.py` traverses the real DIG (no longer a mock). The CLI prints a SAFE / RISKY / CRITICAL triage with next steps, a blast-radius summary and an ASCII impact tree, and labels results as simulated when no usable graph exists. Evaluation: baseline ablation with bootstrap CIs, SemVer-stratified results and a version-heuristic baseline, RF / XGBoost / GNN comparison (`train_models.py`), localization metrics (Hit@k, Precision@k, Recall@k, MRR) and a triage calibration check. 58 unit tests. Outputs are in `/results`. |
 | `/docs` | Empty. |
+
+Headline result so far (`results/README.md`): a logistic regression on SemVer + graph features is the
+reference model (ROC-AUC 0.77, 95% CI 0.59-0.92, n = 57 samples with a DIG). Tree models and a small GNN
+do not beat it, a plain "major bump = risky" rule is competitive, and with only 8 safe samples with a
+DIG most differences between models are within noise.
 
 ## Quick start
 
 Each module has its own setup and usage instructions:
 
-- **Call-graph extractor** — see [`graph-model/README.md`](graph-model/README.md):
+- **Call-graph extractor** - see [`graph-model/README.md`](graph-model/README.md):
   `python extract_call_graph.py <path-to-cloned-repo> <output.json>`
-- **CLI and evaluation harness** — see [`eval-system/README.md`](eval-system/README.md):
-  `python cli.py --repo-path <path> --dependency <name> --old-version <v> --new-version <v>`
-- **Dataset** — see `dataset/verified_samples.csv`
+- **CLI** - see [`eval-system/README.md`](eval-system/README.md):
+  `python eval-system/cli.py --repo-path <path> --dependency <group:artifact> --old-version <v> --new-version <v> [--dig-path <dig.json>]`
+  (add `--require-graph` in CI so a simulated result can never pass for a real one)
+- **Evaluation** - `python eval-system/train_baseline.py` (ablation and per-bump-type results),
+  `python eval-system/evaluate_localization.py` (localization metrics),
+  `python eval-system/calibrate_triage.py` (triage tiers vs labels)
+- **Dataset** - see `person1/README.md`, `person1/final_verified_dataset.csv` and `person1/combined_dataset.csv`
 
 ## Next steps
 
-- Connect `eval-system/analyzer.py` to the call-graph extractor so the
-  impacted files/functions come from real analysis instead of the mock.
-- Extend the dataset with safe (non-breaking) updates and automate mining
-  with the GitHub crawler.
-- Build the risk model on features from the call graph, and evaluate it
-  with `evaluator.py` against the BUMP-derived labels.
+- **Fix dependency attribution in the DIG builder.** For 17 of the 39 localizable breaking samples the
+  updated dependency is missing from the DIG. 11 are never called from the project's Java code (a limit of
+  static call graphs); 6 are calls that the resolver credits to a different artifact of the same group
+  (see `results/localization_unmatched_dependencies.csv`).
+- **Build DIGs for the 45 CI-labelled safe samples**, so graph features can be trained and evaluated on the
+  larger, more balanced set.
+- **Collect safe samples that match the breaking ones** in bump type and age; today's gain from SemVer
+  features on the 104-sample set appears to come mostly from that mix (the same model on the 59
+  docker-labelled samples gets AUC 0.62), not from real signal.
 
 ## Team workflow
 
