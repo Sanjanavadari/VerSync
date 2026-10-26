@@ -58,6 +58,33 @@ def test_resolve_unknown_when_no_package():
     assert dep == "unknown", dep
 
 
+def test_resolve_prefers_declared_sibling_artifact():
+    # Several artifacts share io.dropwizard; the package names the right one.
+    declared = [{"groupId": "io.dropwizard", "artifactId": a, "version": "2.0"}
+                for a in ("dropwizard-core", "dropwizard-db", "dropwizard-client")]
+    assert resolve_dependency("io.dropwizard.db.DataSourceFactory.build", declared) == "io.dropwizard:dropwizard-db"
+    assert resolve_dependency("io.dropwizard.client.JerseyClientBuilder.build", declared) == \
+        "io.dropwizard:dropwizard-client"
+    assert resolve_dependency("io.dropwizard.setup.Environment.jersey", declared) == "io.dropwizard:dropwizard-core"
+
+
+def test_resolve_sibling_overrides_known_table_only_when_more_specific():
+    declared = [{"groupId": "org.junit.jupiter", "artifactId": a, "version": "5.9"}
+                for a in ("junit-jupiter", "junit-jupiter-api", "junit-jupiter-params")]
+    assert resolve_dependency("org.junit.jupiter.api.Assertions.assertEquals", declared) == \
+        "org.junit.jupiter:junit-jupiter-api"
+    assert resolve_dependency("org.junit.jupiter.params.provider.Arguments.of", declared) == \
+        "org.junit.jupiter:junit-jupiter-params"
+
+
+def test_resolve_log4j_api_vs_core():
+    declared = [{"groupId": "org.apache.logging.log4j", "artifactId": "log4j-core", "version": "2.20"}]
+    assert resolve_dependency("org.apache.logging.log4j.LogManager.getLogger", declared) == \
+        "org.apache.logging.log4j:log4j-api"
+    assert resolve_dependency("org.apache.logging.log4j.core.config.Configurator.initialize", declared) == \
+        "org.apache.logging.log4j:log4j-core"
+
+
 # ---------------------------------------------------------------------------
 # pom.xml parsing
 # ---------------------------------------------------------------------------
@@ -163,6 +190,55 @@ def test_extract_call_graph_end_to_end():
         shutil.rmtree(tmp_dir)
 
 
+PARAM_TEST_JAVA = """package com.example;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.api.extension.ExtendWith;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+@ExtendWith(Foo.class)
+public class FooTest {
+    private final ObjectMapper mapper = new ObjectMapper();
+
+    @ParameterizedTest
+    @ValueSource(strings = {"a", "b"})
+    void roundTrip(String s) {
+        new Foo().process(s);
+    }
+}
+"""
+
+
+def test_constructor_and_annotation_uses_are_external_edges():
+    tmp_dir = tempfile.mkdtemp()
+    try:
+        _make_sample_repo(tmp_dir)
+        test_dir = os.path.join(tmp_dir, "src", "test", "java", "com", "example")
+        os.makedirs(test_dir)
+        with open(os.path.join(test_dir, "FooTest.java"), "w") as fh:
+            fh.write(PARAM_TEST_JAVA)
+        out_path = os.path.join(tmp_dir, "out.json")
+        result = subprocess.run(
+            [sys.executable, os.path.join(HERE, "extract_call_graph.py"), tmp_dir, out_path],
+            capture_output=True, text=True,
+        )
+        assert result.returncode == 0, result.stderr
+        edges = {(e["function"], e["calls"]): e for e in json.load(open(out_path))["edges"]}
+
+        param = edges[("roundTrip", "org.junit.jupiter.params.ParameterizedTest.<annotation>")]
+        assert param["dependency"] == "org.junit.jupiter:junit-jupiter-params", param
+        assert ("roundTrip", "org.junit.jupiter.params.provider.ValueSource.<annotation>") in edges
+        # Class and field level uses go to the "<class>" pseudo-function.
+        assert edges[("<class>", "org.junit.jupiter.api.extension.ExtendWith.<annotation>")]["external"] is True
+        mapper_new = edges[("<class>", "com.fasterxml.jackson.databind.ObjectMapper.<init>")]
+        assert mapper_new["dependency"] == "com.fasterxml.jackson.core:jackson-databind", mapper_new
+        # `new Foo()` is a project class, not an external API use.
+        assert not any(c.startswith("Foo.<init>") or c.endswith(".Foo.<init>") for _, c in edges)
+    finally:
+        shutil.rmtree(tmp_dir)
+
+
 def test_build_dig_chain_connectivity():
     tmp_dir = tempfile.mkdtemp()
     try:
@@ -181,7 +257,7 @@ def test_build_dig_chain_connectivity():
             by_type.setdefault(n["type"], []).append(n)
         assert len(by_type.get("FILE", [])) == 1
         assert len(by_type.get("FUNCTION", [])) == 2  # process, helper
-        assert len(by_type.get("API", [])) == 3        # trim, writeValueAsString, toUpperCase
+        assert len(by_type.get("API", [])) == 4        # trim, ObjectMapper.<init>, writeValueAsString, toUpperCase
         assert len(by_type.get("DEPENDENCY", [])) == 3  # commons-lang3, jackson-databind, jdk
 
         # FILE --CONTAINS--> FUNCTION(process) --CALLS--> API(trim) --PROVIDED_BY--> DEPENDENCY(commons-lang3)

@@ -17,9 +17,9 @@
       "name": "com.amazonaws.services.s3.model.S3Object.setObjectContent"
     },
     {
-      "id": "dependency:com.amazonaws:aws-java-sdk-core",
+      "id": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "DEPENDENCY",
-      "name": "com.amazonaws:aws-java-sdk-core"
+      "name": "com.amazonaws:aws-java-sdk-s3"
     },
     {
       "id": "api:org.apache.commons.io.IOUtils.toInputStream",
@@ -112,6 +112,26 @@
       "name": "org.hamcrest.Matchers.equalTo"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:com.amazonaws.services.s3.model.S3Object.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.S3Object.<init>"
+    },
+    {
+      "id": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayOutputStream.<init>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
       "type": "FUNCTION",
       "name": "writesContentToAwsObject"
@@ -137,6 +157,21 @@
       "name": "org.mockito.Mockito.verify"
     },
     {
+      "id": "api:com.amazonaws.services.s3.model.PutObjectResult.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.PutObjectResult.<init>"
+    },
+    {
+      "id": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayInputStream.<init>"
+    },
+    {
+      "id": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.ObjectMetadata.<init>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::throwsWhenObjectNotFound",
       "type": "FUNCTION",
       "name": "throwsWhenObjectNotFound"
@@ -157,9 +192,24 @@
       "name": "meta"
     },
     {
+      "id": "api:com.amazonaws.services.s3.model.AmazonS3Exception.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.AmazonS3Exception.<init>"
+    },
+    {
       "id": "file:src/test/java/com/jcabi/s3/AwsOcketITCase.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/s3/AwsOcketITCase.java"
+    },
+    {
+      "id": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
     },
     {
       "id": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::readsAndWritesObjectContent",
@@ -232,6 +282,16 @@
       "name": "src/test/java/com/jcabi/s3/BucketRule.java"
     },
     {
+      "id": "function:src/test/java/com/jcabi/s3/BucketRule.java::apply",
+      "type": "FUNCTION",
+      "name": "apply"
+    },
+    {
+      "id": "api:org.junit.runners.model.Statement.<init>",
+      "type": "API",
+      "name": "org.junit.runners.model.Statement.<init>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/BucketRule.java::evaluate",
       "type": "FUNCTION",
       "name": "evaluate"
@@ -247,9 +307,9 @@
       "name": "com.jcabi.log.Logger.warn"
     },
     {
-      "id": "dependency:com.jcabi:jcabi-aspects",
+      "id": "dependency:com.jcabi:jcabi-log",
       "type": "DEPENDENCY",
-      "name": "com.jcabi:jcabi-aspects"
+      "name": "com.jcabi:jcabi-log"
     },
     {
       "id": "function:src/test/java/com/jcabi/s3/BucketRule.java::create",
@@ -327,6 +387,11 @@
       "name": "src/test/java/com/jcabi/s3/RegionITCase.java"
     },
     {
+      "id": "function:src/test/java/com/jcabi/s3/RegionITCase.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/RegionITCase.java::connectsToAmazon",
       "type": "FUNCTION",
       "name": "connectsToAmazon"
@@ -355,6 +420,11 @@
       "id": "file:src/test/java/com/jcabi/s3/AwsBucketITCase.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/s3/AwsBucketITCase.java"
+    },
+    {
+      "id": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsObjectsInBucket",
@@ -477,6 +547,16 @@
       "name": "thenThrow"
     },
     {
+      "id": "api:com.amazonaws.AmazonServiceException.<init>",
+      "type": "API",
+      "name": "com.amazonaws.AmazonServiceException.<init>"
+    },
+    {
+      "id": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "DEPENDENCY",
+      "name": "com.amazonaws:aws-java-sdk-core"
+    },
+    {
       "id": "file:src/test/java/com/jcabi/s3/package-info.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/s3/package-info.java"
@@ -485,6 +565,16 @@
       "id": "file:src/test/java/com/jcabi/s3/fake/FkRegionTest.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/s3/fake/FkRegionTest.java"
+    },
+    {
+      "id": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "API",
+      "name": "org.junit.rules.TemporaryFolder.<init>"
     },
     {
       "id": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::readsWritesContentFromFiles",
@@ -522,6 +612,11 @@
       "name": "src/test/java/com/jcabi/s3/fake/FkBucketTest.java"
     },
     {
+      "id": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::listsOckets",
       "type": "FUNCTION",
       "name": "listsOckets"
@@ -557,6 +652,11 @@
       "name": "src/test/java/com/jcabi/s3/fake/FkOcketTest.java"
     },
     {
+      "id": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -575,6 +675,11 @@
       "id": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::ocket",
       "type": "FUNCTION",
       "name": "ocket"
+    },
+    {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
     },
     {
       "id": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::readsContentTypeAndLengthFromMetadata",
@@ -657,6 +762,46 @@
       "name": "build"
     },
     {
+      "id": "api:com.amazonaws.auth.AWSStaticCredentialsProvider.<init>",
+      "type": "API",
+      "name": "com.amazonaws.auth.AWSStaticCredentialsProvider.<init>"
+    },
+    {
+      "id": "api:com.amazonaws.auth.BasicAWSCredentials.<init>",
+      "type": "API",
+      "name": "com.amazonaws.auth.BasicAWSCredentials.<init>"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/Region.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:lombok.ToString.<annotation>",
+      "type": "API",
+      "name": "lombok.ToString.<annotation>"
+    },
+    {
+      "id": "dependency:org.projectlombok:lombok",
+      "type": "DEPENDENCY",
+      "name": "org.projectlombok:lombok"
+    },
+    {
+      "id": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "API",
+      "name": "lombok.EqualsAndHashCode.<annotation>"
+    },
+    {
+      "id": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "API",
+      "name": "com.jcabi.aspects.Loggable.<annotation>"
+    },
+    {
+      "id": "dependency:com.jcabi:jcabi-aspects",
+      "type": "DEPENDENCY",
+      "name": "com.jcabi:jcabi-aspects"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/s3/Ocket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/Ocket.java"
@@ -697,9 +842,19 @@
       "name": "compareTo"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/Ocket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/s3/AwsBucket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/AwsBucket.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/AwsBucket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/AwsBucket.java::exists",
@@ -717,6 +872,11 @@
       "name": "com.jcabi.log.Logger.debug"
     },
     {
+      "id": "api:java.io.IOException.<init>",
+      "type": "API",
+      "name": "java.io.IOException.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/AwsBucket.java::remove",
       "type": "FUNCTION",
       "name": "remove"
@@ -730,6 +890,11 @@
       "id": "api:com.amazonaws.services.s3.AmazonS3.deleteObject",
       "type": "API",
       "name": "com.amazonaws.services.s3.AmazonS3.deleteObject"
+    },
+    {
+      "id": "api:com.amazonaws.services.s3.model.DeleteObjectRequest.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.DeleteObjectRequest.<init>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/AwsBucket.java::compareTo",
@@ -770,6 +935,11 @@
       "id": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::remove",
       "type": "FUNCTION",
       "name": "remove"
+    },
+    {
+      "id": "api:java.util.NoSuchElementException.<init>",
+      "type": "API",
+      "name": "java.util.NoSuchElementException.<init>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::aws",
@@ -822,9 +992,24 @@
       "name": "size"
     },
     {
+      "id": "api:com.amazonaws.services.s3.model.ListObjectsRequest.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.ListObjectsRequest.<init>"
+    },
+    {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/s3/AwsOcket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/AwsOcket.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/AwsOcket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/AwsOcket.java::meta",
@@ -855,6 +1040,11 @@
       "id": "api:com.amazonaws.services.s3.model.ObjectMetadata.getETag",
       "type": "API",
       "name": "com.amazonaws.services.s3.model.ObjectMetadata.getETag"
+    },
+    {
+      "id": "api:com.amazonaws.services.s3.model.GetObjectMetadataRequest.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.GetObjectMetadataRequest.<init>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/AwsOcket.java::exists",
@@ -917,6 +1107,11 @@
       "name": "getETag"
     },
     {
+      "id": "api:com.amazonaws.services.s3.model.GetObjectRequest.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.s3.model.GetObjectRequest.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/AwsOcket.java::write",
       "type": "FUNCTION",
       "name": "write"
@@ -977,6 +1172,11 @@
       "name": "org.apache.commons.io.input.CountingInputStream.close"
     },
     {
+      "id": "api:org.apache.commons.io.input.CountingInputStream.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.input.CountingInputStream.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/AwsOcket.java::compareTo",
       "type": "FUNCTION",
       "name": "compareTo"
@@ -1022,6 +1222,16 @@
       "name": "com.google.common.collect.Iterables.transform"
     },
     {
+      "id": "api:com.google.common.base.Function.<init>",
+      "type": "API",
+      "name": "com.google.common.base.Function.<init>"
+    },
+    {
+      "id": "api:com.google.common.base.Predicate.<init>",
+      "type": "API",
+      "name": "com.google.common.base.Predicate.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/Bucket.java::apply",
       "type": "FUNCTION",
       "name": "apply"
@@ -1047,9 +1257,24 @@
       "name": "compareTo"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/Bucket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/s3/retry/ReOcket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/retry/ReOcket.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "API",
+      "name": "com.jcabi.aspects.Immutable.<annotation>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::toString",
@@ -1070,6 +1295,11 @@
       "id": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::meta",
       "type": "FUNCTION",
       "name": "meta"
+    },
+    {
+      "id": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "API",
+      "name": "com.jcabi.aspects.RetryOnFailure.<annotation>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::exists",
@@ -1095,6 +1325,11 @@
       "id": "file:src/main/java/com/jcabi/s3/retry/ReBucket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/retry/ReBucket.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::toString",
@@ -1142,6 +1377,11 @@
       "name": "list.iterator"
     },
     {
+      "id": "api:java.util.Iterator.<init>",
+      "type": "API",
+      "name": "java.util.Iterator.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::hasNext",
       "type": "FUNCTION",
       "name": "hasNext"
@@ -1177,6 +1417,11 @@
       "name": "src/main/java/com/jcabi/s3/retry/ReRegion.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::toString",
       "type": "FUNCTION",
       "name": "toString"
@@ -1202,6 +1447,11 @@
       "name": "src/main/java/com/jcabi/s3/cached/CdOcket.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::toString",
       "type": "FUNCTION",
       "name": "toString"
@@ -1220,6 +1470,11 @@
       "id": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::meta",
       "type": "FUNCTION",
       "name": "meta"
+    },
+    {
+      "id": "api:com.jcabi.aspects.Cacheable.<annotation>",
+      "type": "API",
+      "name": "com.jcabi.aspects.Cacheable.<annotation>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::exists",
@@ -1242,6 +1497,11 @@
       "name": "write"
     },
     {
+      "id": "api:Cacheable.FlushAfter.<annotation>",
+      "type": "API",
+      "name": "Cacheable.FlushAfter.<annotation>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::compareTo",
       "type": "FUNCTION",
       "name": "compareTo"
@@ -1255,6 +1515,11 @@
       "id": "file:src/main/java/com/jcabi/s3/cached/CdBucket.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/s3/cached/CdBucket.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::toString",
@@ -1307,6 +1572,11 @@
       "name": "src/main/java/com/jcabi/s3/cached/CdRegion.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::toString",
       "type": "FUNCTION",
       "name": "toString"
@@ -1327,6 +1597,11 @@
       "name": "src/main/java/com/jcabi/s3/fake/FkBucket.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::FkBucket",
       "type": "FUNCTION",
       "name": "FkBucket"
@@ -1345,6 +1620,21 @@
       "id": "api:java.nio.file.Path.toFile",
       "type": "API",
       "name": "java.nio.file.Path.toFile"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::region",
+      "type": "FUNCTION",
+      "name": "region"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::ocket",
+      "type": "FUNCTION",
+      "name": "ocket"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::remove",
@@ -1412,6 +1702,11 @@
       "name": "src/main/java/com/jcabi/s3/fake/FkRegion.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::FkRegion",
       "type": "FUNCTION",
       "name": "FkRegion"
@@ -1420,6 +1715,11 @@
       "id": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::path",
       "type": "FUNCTION",
       "name": "path"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::bucket",
+      "type": "FUNCTION",
+      "name": "bucket"
     },
     {
       "id": "api:java.io.File.isDirectory",
@@ -1432,9 +1732,19 @@
       "name": "src/main/java/com/jcabi/s3/fake/FkOcket.java"
     },
     {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::FkOcket",
       "type": "FUNCTION",
       "name": "FkOcket"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::bucket",
+      "type": "FUNCTION",
+      "name": "bucket"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::meta",
@@ -1487,6 +1797,16 @@
       "name": "com.amazonaws.services.s3.model.ObjectMetadata.setExpirationTime"
     },
     {
+      "id": "api:javax.activation.MimetypesFileTypeMap.<init>",
+      "type": "API",
+      "name": "javax.activation.MimetypesFileTypeMap.<init>"
+    },
+    {
+      "id": "api:java.util.Date.<init>",
+      "type": "API",
+      "name": "java.util.Date.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::exists",
       "type": "FUNCTION",
       "name": "exists"
@@ -1512,6 +1832,11 @@
       "name": "java.io.OutputStream.close"
     },
     {
+      "id": "api:java.io.FileInputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileInputStream.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::write",
       "type": "FUNCTION",
       "name": "write"
@@ -1525,6 +1850,11 @@
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::mkdirs",
       "type": "FUNCTION",
       "name": "mkdirs"
+    },
+    {
+      "id": "api:java.io.FileOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileOutputStream.<init>"
     },
     {
       "id": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::compareTo",
@@ -1555,7 +1885,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.S3Object.setObjectContent",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -1664,6 +1994,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::readsContentFromAwsObject",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::readsContentFromAwsObject",
+      "target": "api:com.amazonaws.services.s3.model.S3Object.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.S3Object.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::readsContentFromAwsObject",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsOcketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
       "type": "CONTAINS"
@@ -1729,6 +2089,41 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
+      "target": "api:com.amazonaws.services.s3.model.PutObjectResult.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.PutObjectResult.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::writesContentToAwsObject",
+      "target": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsOcketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::throwsWhenObjectNotFound",
       "type": "CONTAINS"
@@ -1784,6 +2179,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::throwsWhenObjectNotFound",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketTest.java::throwsWhenObjectNotFound",
+      "target": "api:com.amazonaws.services.s3.model.AmazonS3Exception.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.AmazonS3Exception.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/AwsOcketITCase.java",
+      "target": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsOcketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::readsAndWritesObjectContent",
       "type": "CONTAINS"
@@ -1821,6 +2246,11 @@
     {
       "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::readsAndWritesObjectContent",
       "target": "function:src/main/java/com/jcabi/s3/Bucket.java::remove",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::readsAndWritesObjectContent",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1874,6 +2304,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::readsAndWritesLargeObjectContent",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsOcketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::checksObjectExistenceInBucket",
       "type": "CONTAINS"
@@ -1919,6 +2354,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::checksObjectExistenceInBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsOcketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::throwsWhenObjectIsAbsent",
       "type": "CONTAINS"
@@ -1937,6 +2377,26 @@
       "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::throwsWhenObjectIsAbsent",
       "target": "function:src/main/java/com/jcabi/s3/Bucket.java::ocket",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsOcketITCase.java::throwsWhenObjectIsAbsent",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/BucketRule.java",
+      "target": "function:src/test/java/com/jcabi/s3/BucketRule.java::apply",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/BucketRule.java::apply",
+      "target": "api:org.junit.runners.model.Statement.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runners.model.Statement.<init>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/jcabi/s3/BucketRule.java",
@@ -1960,7 +2420,7 @@
     },
     {
       "source": "api:com.jcabi.log.Logger.warn",
-      "target": "dependency:com.jcabi:jcabi-aspects",
+      "target": "dependency:com.jcabi:jcabi-log",
       "type": "PROVIDED_BY"
     },
     {
@@ -2035,7 +2495,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.createBucket",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2045,7 +2505,7 @@
     },
     {
       "source": "api:com.jcabi.log.Logger.info",
-      "target": "dependency:com.jcabi:jcabi-aspects",
+      "target": "dependency:com.jcabi:jcabi-log",
       "type": "PROVIDED_BY"
     },
     {
@@ -2070,7 +2530,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.doesBucketExistV2",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2085,12 +2545,22 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.deleteBucket",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/test/java/com/jcabi/s3/BucketRule.java::drop",
       "target": "api:com.jcabi.log.Logger.info",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/RegionITCase.java",
+      "target": "function:src/test/java/com/jcabi/s3/RegionITCase.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/RegionITCase.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2131,6 +2601,21 @@
     {
       "source": "function:src/test/java/com/jcabi/s3/RegionITCase.java::connectsToAmazon",
       "target": "api:org.hamcrest.Matchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/RegionITCase.java::connectsToAmazon",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/AwsBucketITCase.java",
+      "target": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2204,6 +2689,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsObjectsInBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsObjectsInPrefixedBucket",
       "type": "CONTAINS"
@@ -2259,6 +2749,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsObjectsInPrefixedBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsInPrefixedBucketWithouCollisions",
       "type": "CONTAINS"
@@ -2309,6 +2804,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::listsInPrefixedBucketWithouCollisions",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketITCase.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::existsExistingBucket",
       "type": "CONTAINS"
@@ -2331,6 +2831,11 @@
     {
       "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::existsExistingBucket",
       "target": "api:org.hamcrest.Matchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::existsExistingBucket",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2379,6 +2884,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketITCase.java::existsNonExistingBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::findsAndReturnsOckets",
       "type": "CONTAINS"
@@ -2407,6 +2917,11 @@
       "source": "api:org.hamcrest.Matchers.notNullValue",
       "target": "dependency:org.hamcrest:hamcrest",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::findsAndReturnsOckets",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketTest.java",
@@ -2459,6 +2974,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsExistingBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsNonExistingBucket",
       "type": "CONTAINS"
@@ -2504,6 +3024,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsNonExistingBucket",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/AwsBucketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsThrowsIoException",
       "type": "CONTAINS"
@@ -2542,6 +3067,41 @@
       "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsThrowsIoException",
       "target": "function:src/main/java/com/jcabi/s3/Bucket.java::exists",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsThrowsIoException",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/AwsBucketTest.java::existsThrowsIoException",
+      "target": "api:com.amazonaws.AmazonServiceException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.AmazonServiceException.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/fake/FkRegionTest.java",
+      "target": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::<class>",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.rules.TemporaryFolder.<init>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkRegionTest.java",
@@ -2594,6 +3154,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkRegionTest.java::readsWritesContentFromFiles",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/fake/FkBucketTest.java",
+      "target": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::<class>",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkBucketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::listsOckets",
       "type": "CONTAINS"
@@ -2644,6 +3224,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::listsOckets",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkBucketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::listsOcketsWithDifferentPrefixes",
       "type": "CONTAINS"
@@ -2684,6 +3269,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkBucketTest.java::listsOcketsWithDifferentPrefixes",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/s3/fake/FkOcketTest.java",
+      "target": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::<class>",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkOcketTest.java",
       "target": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::setUp",
       "type": "CONTAINS"
@@ -2702,6 +3307,16 @@
       "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::setUp",
       "target": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::ocket",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkOcketTest.java",
@@ -2740,7 +3355,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.getContentType",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2755,7 +3370,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.getContentLength",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2772,6 +3387,11 @@
       "source": "api:java.lang.String.length",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::readsContentTypeAndLengthFromMetadata",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/com/jcabi/s3/fake/FkOcketTest.java",
@@ -2805,12 +3425,17 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.getRawMetadataValue",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::readsDateFromMetadata",
       "target": "api:org.hamcrest.Matchers.notNullValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/s3/fake/FkOcketTest.java::readsDateFromMetadata",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2825,7 +3450,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3ClientBuilder.standard",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2842,6 +3467,61 @@
       "source": "function:src/main/java/com/jcabi/s3/Region.java::Simple",
       "target": "function:src/main/java/com/jcabi/s3/Region.java::build",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Region.java::Simple",
+      "target": "api:com.amazonaws.auth.AWSStaticCredentialsProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.auth.AWSStaticCredentialsProvider.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Region.java::Simple",
+      "target": "api:com.amazonaws.auth.BasicAWSCredentials.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.auth.BasicAWSCredentials.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/Region.java",
+      "target": "function:src/main/java/com/jcabi/s3/Region.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Region.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.ToString.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Region.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.EqualsAndHashCode.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Region.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "target": "dependency:com.jcabi:jcabi-aspects",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/Ocket.java",
@@ -2864,6 +3544,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::read",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/Ocket.java",
       "target": "function:src/main/java/com/jcabi/s3/Ocket.java::write",
       "type": "CONTAINS"
@@ -2880,7 +3565,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setContentType",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2890,7 +3575,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setContentLength",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2905,7 +3590,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setContentEncoding",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -2917,6 +3602,16 @@
       "source": "api:StandardCharsets.UTF_8.displayName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::write",
+      "target": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::write",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/Ocket.java",
@@ -2969,6 +3664,46 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::meta",
+      "target": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/Ocket.java",
+      "target": "function:src/main/java/com/jcabi/s3/Ocket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Ocket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/AwsBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/AwsBucket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/AwsBucket.java",
       "target": "function:src/main/java/com/jcabi/s3/AwsBucket.java::exists",
       "type": "CONTAINS"
@@ -2995,7 +3730,17 @@
     },
     {
       "source": "api:com.jcabi.log.Logger.debug",
-      "target": "dependency:com.jcabi:jcabi-aspects",
+      "target": "dependency:com.jcabi:jcabi-log",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::exists",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.IOException.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -3025,7 +3770,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.deleteObject",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3036,6 +3781,21 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::remove",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::remove",
+      "target": "api:com.amazonaws.services.s3.model.DeleteObjectRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.DeleteObjectRequest.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsBucket.java::remove",
+      "target": "api:java.io.IOException.<init>",
       "type": "CALLS"
     },
     {
@@ -3089,6 +3849,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::next",
+      "target": "api:java.util.NoSuchElementException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.NoSuchElementException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/AwsListIterator.java",
       "target": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::load",
       "type": "CONTAINS"
@@ -3110,7 +3880,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.listObjects",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3135,7 +3905,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectListing.getNextMarker",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3145,7 +3915,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectListing.getObjectSummaries",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3184,6 +3954,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::load",
+      "target": "api:com.amazonaws.services.s3.model.ListObjectsRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.ListObjectsRequest.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsListIterator.java::load",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/AwsOcket.java",
+      "target": "function:src/main/java/com/jcabi/s3/AwsOcket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/AwsOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/AwsOcket.java::meta",
       "type": "CONTAINS"
@@ -3210,7 +4015,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.getObjectMetadata",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3230,12 +4035,27 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.getETag",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::meta",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::meta",
+      "target": "api:com.amazonaws.services.s3.model.GetObjectMetadataRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.GetObjectMetadataRequest.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::meta",
+      "target": "api:java.io.IOException.<init>",
       "type": "CALLS"
     },
     {
@@ -3304,6 +4124,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::exists",
+      "target": "api:com.amazonaws.services.s3.model.ListObjectsRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::exists",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/AwsOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/AwsOcket.java::read",
       "type": "CONTAINS"
@@ -3330,7 +4160,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.AmazonS3.getObject",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3345,7 +4175,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.S3Object.getObjectContent",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3380,7 +4210,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.S3Object.getObjectMetadata",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3391,6 +4221,21 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::read",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::read",
+      "target": "api:com.amazonaws.services.s3.model.GetObjectRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.s3.model.GetObjectRequest.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::read",
+      "target": "api:java.io.IOException.<init>",
       "type": "CALLS"
     },
     {
@@ -3420,7 +4265,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.transfer.TransferManagerBuilder.standard",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3440,7 +4285,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.transfer.TransferManager.upload",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3455,7 +4300,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.transfer.Upload.waitForUploadResult",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3480,7 +4325,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.transfer.model.UploadResult.getETag",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3490,7 +4335,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.transfer.TransferManager.shutdownNow",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -3522,6 +4367,21 @@
       "source": "api:org.apache.commons.io.input.CountingInputStream.close",
       "target": "dependency:commons-io:commons-io",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::write",
+      "target": "api:org.apache.commons.io.input.CountingInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.input.CountingInputStream.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/AwsOcket.java::write",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/AwsOcket.java",
@@ -3639,6 +4499,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/Bucket.java::list",
+      "target": "api:com.google.common.base.Function.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.base.Function.<init>",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Bucket.java::list",
+      "target": "api:com.google.common.base.Predicate.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.base.Predicate.<init>",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/Bucket.java",
       "target": "function:src/main/java/com/jcabi/s3/Bucket.java::apply",
       "type": "CONTAINS"
@@ -3694,6 +4574,51 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/com/jcabi/s3/Bucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/Bucket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Bucket.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Bucket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/Bucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/retry/ReOcket.java",
+      "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "target": "dependency:com.jcabi:jcabi-aspects",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::toString",
       "type": "CONTAINS"
@@ -3734,6 +4659,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::meta",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "target": "dependency:com.jcabi:jcabi-aspects",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::exists",
       "type": "CONTAINS"
@@ -3741,6 +4676,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::exists",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::exists",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3754,6 +4694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::read",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::write",
       "type": "CONTAINS"
@@ -3761,6 +4706,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::write",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::write",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::write",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3781,6 +4731,26 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReOcket.java::compareTo",
       "target": "function:src/main/java/com/jcabi/s3/Ocket.java::key",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/retry/ReBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3844,6 +4814,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::remove",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReBucket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::list",
       "type": "CONTAINS"
@@ -3851,6 +4826,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::list",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::list",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::list",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3869,6 +4849,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::iterator",
+      "target": "api:java.util.Iterator.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Iterator.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReBucket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::hasNext",
       "type": "CONTAINS"
@@ -3884,6 +4874,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::hasNext",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReBucket.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::next",
       "type": "CONTAINS"
@@ -3897,6 +4892,11 @@
       "source": "api:iterator.next",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::next",
+      "target": "api:com.jcabi.aspects.RetryOnFailure.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReBucket.java::remove",
@@ -3930,6 +4930,26 @@
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/retry/ReRegion.java",
+      "target": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/retry/ReRegion.java",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::toString",
       "type": "CONTAINS"
     },
@@ -3956,6 +4976,26 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::aws",
       "target": "function:src/main/java/com/jcabi/s3/retry/ReRegion.java::aws",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/cached/CdOcket.java",
+      "target": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3999,6 +5039,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::meta",
+      "target": "api:com.jcabi.aspects.Cacheable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jcabi.aspects.Cacheable.<annotation>",
+      "target": "dependency:com.jcabi:jcabi-aspects",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/cached/CdOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::exists",
       "type": "CONTAINS"
@@ -4006,6 +5056,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::exists",
       "target": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::exists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::exists",
+      "target": "api:com.jcabi.aspects.Cacheable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4039,6 +5094,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::write",
+      "target": "api:Cacheable.FlushAfter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Cacheable.FlushAfter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/cached/CdOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::compareTo",
       "type": "CONTAINS"
@@ -4057,6 +5122,36 @@
       "source": "api:java.io.ByteArrayOutputStream.toByteArray",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::read",
+      "target": "api:com.jcabi.aspects.Cacheable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdOcket.java::read",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/cached/CdBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/cached/CdBucket.java",
@@ -4140,6 +5235,26 @@
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/cached/CdRegion.java",
+      "target": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/cached/CdRegion.java",
       "target": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::toString",
       "type": "CONTAINS"
     },
@@ -4166,6 +5281,26 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::aws",
       "target": "function:src/main/java/com/jcabi/s3/cached/CdRegion.java::aws",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4205,6 +5340,31 @@
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::region",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::region",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkBucket.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::ocket",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::ocket",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkBucket.java",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::remove",
       "type": "CONTAINS"
     },
@@ -4216,6 +5376,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::remove",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::home",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::remove",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -4242,6 +5407,16 @@
       "source": "api:org.apache.commons.io.FileUtils.listFiles",
       "target": "dependency:commons-io:commons-io",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::list",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::list",
+      "target": "api:com.google.common.base.Function.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkBucket.java",
@@ -4309,6 +5484,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkBucket.java::home",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkRegion.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkRegion.java",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::FkRegion",
       "type": "CONTAINS"
@@ -4325,7 +5525,22 @@
     },
     {
       "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::FkRegion",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::FkRegion",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::path",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkRegion.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::bucket",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkRegion.java::bucket",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -4355,6 +5570,26 @@
     },
     {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkOcket.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Immutable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::<class>",
+      "target": "api:com.jcabi.aspects.Loggable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::FkOcket",
       "type": "CONTAINS"
     },
@@ -4371,6 +5606,16 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::FkOcket",
       "target": "api:java.io.File.getAbsolutePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/s3/fake/FkOcket.java",
+      "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::bucket",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::bucket",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -4415,7 +5660,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setHeader",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -4425,7 +5670,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setLastModified",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -4440,7 +5685,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setCacheControl",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -4455,7 +5700,7 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setContentMD5",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
       "type": "PROVIDED_BY"
     },
     {
@@ -4465,7 +5710,32 @@
     },
     {
       "source": "api:com.amazonaws.services.s3.model.ObjectMetadata.setExpirationTime",
-      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "target": "dependency:com.amazonaws:aws-java-sdk-s3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::meta",
+      "target": "api:com.amazonaws.services.s3.model.ObjectMetadata.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::meta",
+      "target": "api:javax.activation.MimetypesFileTypeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.activation.MimetypesFileTypeMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::meta",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Date.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -4534,6 +5804,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::read",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::write",
       "type": "CONTAINS"
@@ -4584,6 +5864,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::write",
+      "target": "api:java.io.FileOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/s3/fake/FkOcket.java",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::compareTo",
       "type": "CONTAINS"
@@ -4606,6 +5896,11 @@
     {
       "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::file",
       "target": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/s3/fake/FkOcket.java::file",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     }
   ],

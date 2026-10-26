@@ -37,6 +37,16 @@
       "name": "isFalse"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
       "id": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_null_package_java",
       "type": "FUNCTION",
       "name": "should_return_true_when_isCheckFileNecessary_input_with_parent_null_package_java"
@@ -72,6 +82,21 @@
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java"
     },
     {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "API",
+      "name": "org.apache.maven.plugin.testing.MojoRule.<init>"
+    },
+    {
+      "id": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven:maven-plugin-api"
+    },
+    {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java::should_return_one_compiled_jsp_when_executeMojo_on_project_one_jsp_with_no_options",
       "type": "FUNCTION",
       "name": "should_return_one_compiled_jsp_when_executeMojo_on_project_one_jsp_with_no_options"
@@ -80,11 +105,6 @@
       "id": "api:org.apache.maven.plugin.testing.MojoRule.executeMojo",
       "type": "API",
       "name": "org.apache.maven.plugin.testing.MojoRule.executeMojo"
-    },
-    {
-      "id": "dependency:org.apache.maven:maven-plugin-api",
-      "type": "DEPENDENCY",
-      "name": "org.apache.maven:maven-plugin-api"
     },
     {
       "id": "api:Paths.get",
@@ -232,6 +252,11 @@
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java"
     },
     {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_same_compiled_jsp_as_monothread_reference_when_executeMojo_on_project_many_jsp_with_4_threads",
       "type": "FUNCTION",
       "name": "should_return_same_compiled_jsp_as_monothread_reference_when_executeMojo_on_project_many_jsp_with_4_threads"
@@ -245,6 +270,11 @@
       "id": "api:Files.readAllBytes",
       "type": "API",
       "name": "Files.readAllBytes"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
     },
     {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_one_time_jsp_declaration_in_web_xml_when_executeMojo_on_project_one_jsp_with_4_threads",
@@ -272,6 +302,11 @@
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java"
     },
     {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_with_4_threads_ParallelJDTCompiler",
       "type": "FUNCTION",
       "name": "should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_with_4_threads_ParallelJDTCompiler"
@@ -285,6 +320,11 @@
       "id": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java",
       "type": "FILE",
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java"
+    },
+    {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::should_throw_error_when_not_escaped",
@@ -317,6 +357,16 @@
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java"
     },
     {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::shouldRespectIncludesAndExcludes",
       "type": "FUNCTION",
       "name": "shouldRespectIncludesAndExcludes"
@@ -340,6 +390,11 @@
       "id": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java",
       "type": "FILE",
       "name": "src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java"
+    },
+    {
+      "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_ParallelJDTCompiler",
@@ -537,6 +592,26 @@
       "name": "SmapUtil.installSmap"
     },
     {
+      "id": "api:org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>",
+      "type": "API",
+      "name": "org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>"
+    },
+    {
+      "id": "api:org.eclipse.jdt.internal.compiler.impl.CompilerOptions.<init>",
+      "type": "API",
+      "name": "org.eclipse.jdt.internal.compiler.impl.CompilerOptions.<init>"
+    },
+    {
+      "id": "api:org.eclipse.jdt.internal.compiler.Compiler.<init>",
+      "type": "API",
+      "name": "org.eclipse.jdt.internal.compiler.Compiler.<init>"
+    },
+    {
+      "id": "api:org.apache.jasper.JasperException.<init>",
+      "type": "API",
+      "name": "org.apache.jasper.JasperException.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::getFileName",
       "type": "FUNCTION",
       "name": "getFileName"
@@ -650,6 +725,11 @@
       "id": "api:ByteArrayOutputStream.toByteArray",
       "type": "API",
       "name": "ByteArrayOutputStream.toByteArray"
+    },
+    {
+      "id": "api:org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>",
+      "type": "API",
+      "name": "org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::isPackage",
@@ -967,6 +1047,26 @@
       "name": "src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java"
     },
     {
+      "id": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.apache.maven.plugins.annotations.Mojo.<annotation>",
+      "type": "API",
+      "name": "org.apache.maven.plugins.annotations.Mojo.<annotation>"
+    },
+    {
+      "id": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "type": "API",
+      "name": "org.apache.maven.plugins.annotations.Parameter.<annotation>"
+    },
+    {
+      "id": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.ConcurrentHashMap.<init>"
+    },
+    {
       "id": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::execute",
       "type": "FUNCTION",
       "name": "execute"
@@ -1025,6 +1125,11 @@
       "id": "api:TimeUnit.MINUTES.toSeconds",
       "type": "API",
       "name": "TimeUnit.MINUTES.toSeconds"
+    },
+    {
+      "id": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
+      "type": "API",
+      "name": "org.apache.maven.plugin.MojoExecutionException.<init>"
     },
     {
       "id": "api:java.lang.Thread.currentThread",
@@ -1120,6 +1225,16 @@
       "id": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::manageResults",
       "type": "FUNCTION",
       "name": "manageResults"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
+      "id": "api:java.net.URLClassLoader.<init>",
+      "type": "API",
+      "name": "java.net.URLClassLoader.<init>"
     },
     {
       "id": "api:java.util.Collections.addAll",
@@ -1322,6 +1437,11 @@
       "name": "org.codehaus.plexus.util.DirectoryScanner.getExcludedDirectories"
     },
     {
+      "id": "api:org.codehaus.plexus.util.DirectoryScanner.<init>",
+      "type": "API",
+      "name": "org.codehaus.plexus.util.DirectoryScanner.<init>"
+    },
+    {
       "id": "api:java.io.File.isDirectory",
       "type": "API",
       "name": "java.io.File.isDirectory"
@@ -1392,6 +1512,21 @@
       "name": "validateWithXsd"
     },
     {
+      "id": "api:java.io.BufferedReader.<init>",
+      "type": "API",
+      "name": "java.io.BufferedReader.<init>"
+    },
+    {
+      "id": "api:java.io.InputStreamReader.<init>",
+      "type": "API",
+      "name": "java.io.InputStreamReader.<init>"
+    },
+    {
+      "id": "api:java.io.FileInputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileInputStream.<init>"
+    },
+    {
       "id": "api:java.io.File.toURI",
       "type": "API",
       "name": "java.io.File.toURI"
@@ -1457,6 +1592,11 @@
       "name": "javax.xml.validation.Validator.validate"
     },
     {
+      "id": "api:javax.xml.transform.stream.StreamSource.<init>",
+      "type": "API",
+      "name": "javax.xml.transform.stream.StreamSource.<init>"
+    },
+    {
       "id": "api:java.lang.String.isEmpty",
       "type": "API",
       "name": "java.lang.String.isEmpty"
@@ -1470,6 +1610,11 @@
       "id": "api:java.net.URL.toExternalForm",
       "type": "API",
       "name": "java.net.URL.toExternalForm"
+    },
+    {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
     },
     {
       "id": "api:java.io.BufferedReader.readLine",
@@ -1614,6 +1759,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_false_when_isCheckFileNecessary_input_with_parent_jsp_package_01jsp",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_null_package_java",
       "type": "CONTAINS"
@@ -1636,6 +1791,11 @@
     {
       "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_null_package_java",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_null_package_java",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1664,6 +1824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_java_package_lang",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_javax_servlet_package_http",
       "type": "CONTAINS"
@@ -1686,6 +1851,11 @@
     {
       "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_javax_servlet_package_http",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_javax_servlet_package_http",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1714,6 +1884,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_false_when_isCheckFileNecessary_input_with_parent_java_util_package_Hashset",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_org_apache_jsp_tag_package_a_tagfile",
       "type": "CONTAINS"
@@ -1737,6 +1912,26 @@
       "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_org_apache_jsp_tag_package_a_tagfile",
       "target": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::isTrue",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/apache/jasper/compiler/TestParallelJDTCompiler.java::should_return_true_when_isCheckFileNecessary_input_with_parent_org_apache_jsp_tag_package_a_tagfile",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojo.java",
@@ -2100,6 +2295,16 @@
     },
     {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java",
       "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_same_compiled_jsp_as_monothread_reference_when_executeMojo_on_project_many_jsp_with_4_threads",
       "type": "CONTAINS"
     },
@@ -2132,6 +2337,16 @@
       "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_same_compiled_jsp_as_monothread_reference_when_executeMojo_on_project_many_jsp_with_4_threads",
       "target": "api:Paths.get",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_same_compiled_jsp_as_monothread_reference_when_executeMojo_on_project_many_jsp_with_4_threads",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java",
@@ -2174,6 +2389,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_one_time_jsp_declaration_in_web_xml_when_executeMojo_on_project_one_jsp_with_4_threads",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java",
       "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_one_time_jsp_declaration_in_web_xml_when_executeMojo_on_project_five_jsp_with_4_threads",
       "type": "CONTAINS"
@@ -2209,6 +2429,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreading.java::should_return_one_time_jsp_declaration_in_web_xml_when_executeMojo_on_project_five_jsp_with_4_threads",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java",
       "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_with_4_threads_ParallelJDTCompiler",
       "type": "CONTAINS"
@@ -2239,6 +2474,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoMultithreadingWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_with_4_threads_ParallelJDTCompiler",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java",
       "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::should_throw_error_when_not_escaped",
       "type": "CONTAINS"
@@ -2257,6 +2507,11 @@
       "source": "api:org.assertj.core.api.Assertions.fail",
       "target": "dependency:org.assertj:assertj-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::should_throw_error_when_not_escaped",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java",
@@ -2287,6 +2542,31 @@
       "source": "api:java.io.File.exists",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoStrictQuoteEscaping.java::should_compile_even_if_not_escaped",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java",
@@ -2324,6 +2604,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::shouldRespectIncludesAndExcludes",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestIncludesExcludesMojo.java::shouldRespectIncludesAndExcludes",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java",
+      "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::<class>",
+      "target": "api:org.apache.maven.plugin.testing.MojoRule.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java",
       "target": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_ParallelJDTCompiler",
       "type": "CONTAINS"
@@ -2351,6 +2651,11 @@
     {
       "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_ParallelJDTCompiler",
       "target": "api:Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/leonard/maven/plugins/jspc/TestJspcMojoWithDifferentCompiler.java::should_return_same_compiled_jsp_as_JDTCompiler_reference_when_executeMojo_on_project_many_jsp_ParallelJDTCompiler",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -2644,6 +2949,46 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.impl.CompilerOptions.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jdt.internal.compiler.impl.CompilerOptions.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.Compiler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jdt.internal.compiler.Compiler.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::generateClass",
+      "target": "api:org.apache.jasper.JasperException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.jasper.JasperException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java",
       "target": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::getFileName",
       "type": "CONTAINS"
@@ -2897,6 +3242,16 @@
       "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::findType",
       "target": "api:Localizer.getMessage",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java::findType",
+      "target": "api:org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/jasper/compiler/JspcMojoJDTCompiler.java",
@@ -3299,6 +3654,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.problem.DefaultProblemFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.impl.CompilerOptions.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::generateClass",
+      "target": "api:org.eclipse.jdt.internal.compiler.Compiler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::generateClass",
+      "target": "api:org.apache.jasper.JasperException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java",
       "target": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::getFileName",
       "type": "CONTAINS"
@@ -3456,6 +3831,11 @@
     {
       "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::findType",
       "target": "api:Log.error",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/jasper/compiler/ParallelJDTCompiler.java::findType",
+      "target": "api:org.eclipse.jdt.internal.compiler.classfmt.ClassFileReader.<init>",
       "type": "CALLS"
     },
     {
@@ -3770,6 +4150,41 @@
     },
     {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
+      "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::<class>",
+      "target": "api:org.apache.maven.plugins.annotations.Mojo.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugins.annotations.Mojo.<annotation>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::<class>",
+      "target": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::<class>",
+      "target": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::execute",
       "type": "CONTAINS"
     },
@@ -3856,6 +4271,16 @@
     {
       "source": "api:TimeUnit.MINUTES.toSeconds",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::execute",
+      "target": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -4019,6 +4444,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::compile",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::compile",
+      "target": "api:java.net.URLClassLoader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URLClassLoader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::initJspList",
       "type": "CONTAINS"
@@ -4032,6 +4477,11 @@
       "source": "api:java.util.Collections.addAll",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::initJspList",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
@@ -4092,6 +4542,11 @@
       "source": "api:java.util.List.size",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::initJspcWorkers",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
@@ -4269,6 +4724,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::manageResults",
+      "target": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getJspFiles",
       "type": "CONTAINS"
@@ -4384,6 +4844,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getJspFiles",
+      "target": "api:org.codehaus.plexus.util.DirectoryScanner.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.codehaus.plexus.util.DirectoryScanner.<init>",
+      "target": "dependency:org.codehaus.plexus:plexus-utils",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getJspFiles",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::cleanupSrcs",
       "type": "CONTAINS"
@@ -4431,6 +4906,11 @@
     {
       "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::cleanupSrcs",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::endsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::cleanupSrcs",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -4534,6 +5014,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::mergeWebXml",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::mergeWebXml",
+      "target": "api:java.io.BufferedReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.BufferedReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::mergeWebXml",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.InputStreamReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::mergeWebXml",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::createAndGetMergeWebXml",
       "type": "CONTAINS"
@@ -4624,6 +5139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::validateXmlContent",
+      "target": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::validateWithXsd",
       "type": "CONTAINS"
@@ -4681,6 +5201,21 @@
     {
       "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::validateWithXsd",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::restoreHttpProxy",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::validateWithXsd",
+      "target": "api:javax.xml.transform.stream.StreamSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.xml.transform.stream.StreamSource.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::validateWithXsd",
+      "target": "api:org.apache.maven.plugin.MojoExecutionException.<init>",
       "type": "CALLS"
     },
     {
@@ -4742,6 +5277,21 @@
       "source": "api:java.net.URL.toExternalForm",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getWebXmlSchema",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getWebXmlSchema",
+      "target": "api:javax.xml.transform.stream.StreamSource.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
@@ -4874,6 +5424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::writeXmlFragments",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::prepare",
       "type": "CONTAINS"
@@ -4892,6 +5447,11 @@
       "source": "api:java.io.File.mkdirs",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::prepare",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
@@ -5014,6 +5574,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::setUpClassPath",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java",
       "target": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getWebXmlFile",
       "type": "CONTAINS"
@@ -5042,6 +5607,11 @@
       "source": "api:java.io.File.compareTo",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/leonard/maven/plugins/jspc/JspcMojo.java::getWebXmlFile",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     }
   ],
   "build_metadata": {

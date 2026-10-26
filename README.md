@@ -44,15 +44,16 @@ tested independently:
 
 | Module | Status |
 |---|---|
-| `/dataset` (mined data lives in `person1/`) | 59 verified BUMP samples (51 breaking, 8 safe) in `person1/final_verified_dataset.csv`, plus 45 safe updates mined from merged Dependabot/Renovate PRs with passing CI. Combined in `person1/combined_dataset.csv`: 104 samples (51 breaking, 53 safe); the `label_source` column separates docker-reproduced labels from GitHub-CI labels. Also: failure ground truth (`failure_ground_truth.csv`; 40 of the 51 verified breaking samples point to failing files), API diffs, changelogs, and a Python generalization set (25 breaking, 15 safe, 11 unverified). The 45 CI-labelled safe samples do not have DIGs yet. |
-| `/graph-model` | Java call-graph extractor, Maven dependency resolver and Dependency-Impact-Graph (DIG) builder (`build_dig.py`). 57 of the 59 verified samples have a pre-update DIG in `dataset/digs/`; 2 could not be built (see `dataset/DIG_BUILD_REPORT.md`). |
-| `/eval-system` | `analyzer.py` traverses the real DIG (no longer a mock). The CLI prints a SAFE / RISKY / CRITICAL triage with next steps, a blast-radius summary and an ASCII impact tree, and labels results as simulated when no usable graph exists. Evaluation: baseline ablation with bootstrap CIs, SemVer-stratified results and a version-heuristic baseline, RF / XGBoost / GNN comparison (`train_models.py`), localization metrics (Hit@k, Precision@k, Recall@k, MRR) and a triage calibration check. 58 unit tests. Outputs are in `/results`. |
+| `/dataset` (mined data lives in `person1/`) | 59 verified BUMP samples (51 breaking, 8 safe) in `person1/final_verified_dataset.csv`, plus 45 safe updates mined from merged Dependabot/Renovate PRs with passing CI. Combined in `person1/combined_dataset.csv`: 104 samples (51 breaking, 53 safe); the `label_source` column separates docker-reproduced labels from GitHub-CI labels. Also: failure ground truth (`failure_ground_truth.csv`; 40 of the 51 verified breaking samples point to failing files), API diffs, changelogs, and a Python generalization set (25 breaking, 15 safe, 11 unverified). |
+| `/graph-model` | Java call-graph extractor (method calls, constructor calls and annotations on library types), Maven dependency resolver and Dependency-Impact-Graph (DIG) builder (`build_dig.py`). 102 of the 104 combined samples have a pre-update DIG in `dataset/digs/`; 2 could not be built (see `dataset/DIG_BUILD_REPORT.md`). |
+| `/eval-system` | `analyzer.py` traverses the real DIG (no longer a mock). The CLI prints a SAFE / RISKY / CRITICAL triage with next steps, a blast-radius summary and an ASCII impact tree, and labels results as simulated when no usable graph exists. Evaluation: baseline ablation with bootstrap CIs, SemVer-stratified results and a version-heuristic baseline, RF / XGBoost / GNN comparison (`train_models.py`), localization metrics (Hit@k, Precision@k, Recall@k, MRR), a triage calibration check and confound checks (`confound_checks.py`). 58 unit tests. Outputs are in `/results`. |
 | `/docs` | Empty. |
 
 Headline result so far (`results/README.md`): a logistic regression on SemVer + graph features is the
-reference model (ROC-AUC 0.77, 95% CI 0.59-0.92, n = 57 samples with a DIG). Tree models and a small GNN
-do not beat it, a plain "major bump = risky" rule is competitive, and with only 8 safe samples with a
-DIG most differences between models are within noise.
+reference model (ROC-AUC 0.84, 95% CI 0.76-0.91, MCC 0.67, n = 102 samples with a DIG, 53 of them safe).
+Graph features lift SemVer from 0.74 to 0.84, and the lift holds within projects and on docker labels
+only. About half of it comes from safe samples over-representing Maven-plugin updates (without them:
+0.78 -> 0.83). Tree models and a small GNN tie with LR.
 
 ## Quick start
 
@@ -65,20 +66,20 @@ Each module has its own setup and usage instructions:
   (add `--require-graph` in CI so a simulated result can never pass for a real one)
 - **Evaluation** - `python eval-system/train_baseline.py` (ablation and per-bump-type results),
   `python eval-system/evaluate_localization.py` (localization metrics),
-  `python eval-system/calibrate_triage.py` (triage tiers vs labels)
+  `python eval-system/calibrate_triage.py` (triage tiers vs labels),
+  `python eval-system/train_models.py --dataset person1/combined_dataset.csv` (model comparison),
+  `python eval-system/confound_checks.py` (is the graph gain real?)
 - **Dataset** - see `person1/README.md`, `person1/final_verified_dataset.csv` and `person1/combined_dataset.csv`
 
 ## Next steps
 
-- **Fix dependency attribution in the DIG builder.** For 17 of the 39 localizable breaking samples the
-  updated dependency is missing from the DIG. 11 are never called from the project's Java code (a limit of
-  static call graphs); 6 are calls that the resolver credits to a different artifact of the same group
-  (see `results/localization_unmatched_dependencies.csv`).
-- **Build DIGs for the 45 CI-labelled safe samples**, so graph features can be trained and evaluated on the
-  larger, more balanced set.
-- **Collect safe samples that match the breaking ones** in bump type and age; today's gain from SemVer
-  features on the 104-sample set appears to come mostly from that mix (the same model on the 59
-  docker-labelled samples gets AUC 0.62), not from real signal.
+- **Collect safe samples that match the breaking ones**: library (not Maven-plugin) updates and major
+  bumps. 12 of the 45 CI-labelled safe samples are plugin updates (vs 1 of 51 breaking), and SemVer alone
+  drops to AUC 0.62 on the docker-labelled samples, so both feature groups are partly confounded.
+- **Re-tune the triage tiers on the 102-sample set.** With 53 safe samples, 6 of 27 CRITICAL samples are
+  safe and 5 of 11 SAFE-tier samples break (`results/triage_calibration.csv`).
+- 12 of the 39 localizable breaking samples still have no ranking: 10 dependencies are never called from
+  Java code (a limit of static call graphs), 1 is a BOM, 1 is correctly attributed to a sibling artifact.
 
 ## Team workflow
 

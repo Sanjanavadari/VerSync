@@ -7,9 +7,89 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::stringBody",
+      "type": "FUNCTION",
+      "name": "stringBody"
+    },
+    {
+      "id": "api:javax.ws.rs.POST.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.POST.<annotation>"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "api:javax.ws.rs.Path.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Path.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::complexBody",
+      "type": "FUNCTION",
+      "name": "complexBody"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub",
+      "type": "FUNCTION",
+      "name": "pub"
+    },
+    {
+      "id": "api:javax.ws.rs.GET.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.GET.<annotation>"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.DocumentationScope.<annotation>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::priv",
+      "type": "FUNCTION",
+      "name": "priv"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub1",
+      "type": "FUNCTION",
+      "name": "pub1"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub2",
+      "type": "FUNCTION",
+      "name": "pub2"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::foo",
+      "type": "FUNCTION",
+      "name": "foo"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::bar",
+      "type": "FUNCTION",
+      "name": "bar"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.RestApiMountPoint.<annotation>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java",
@@ -17,9 +97,54 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.DocumentationRestApi.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::getWidget",
+      "type": "FUNCTION",
+      "name": "getWidget"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::stable",
+      "type": "FUNCTION",
+      "name": "stable"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::deprecated",
+      "type": "FUNCTION",
+      "name": "deprecated"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.DocumentationTraits.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimental",
+      "type": "FUNCTION",
+      "name": "experimental"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimentaldeprecated",
+      "type": "FUNCTION",
+      "name": "experimentaldeprecated"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java",
@@ -27,9 +152,69 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java::getReportForMountain",
+      "type": "FUNCTION",
+      "name": "getReportForMountain"
+    },
+    {
+      "id": "api:javax.ws.rs.PathParam.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.PathParam.<annotation>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsGet",
+      "type": "FUNCTION",
+      "name": "allMethodsGet"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPost",
+      "type": "FUNCTION",
+      "name": "allMethodsPost"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPut",
+      "type": "FUNCTION",
+      "name": "allMethodsPut"
+    },
+    {
+      "id": "api:javax.ws.rs.PUT.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.PUT.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsDelete",
+      "type": "FUNCTION",
+      "name": "allMethodsDelete"
+    },
+    {
+      "id": "api:javax.ws.rs.DELETE.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.DELETE.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsHead",
+      "type": "FUNCTION",
+      "name": "allMethodsHead"
+    },
+    {
+      "id": "api:javax.ws.rs.HEAD.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.HEAD.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsOptions",
+      "type": "FUNCTION",
+      "name": "allMethodsOptions"
+    },
+    {
+      "id": "api:javax.ws.rs.OPTIONS.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.OPTIONS.<annotation>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java",
@@ -37,9 +222,44 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::pub",
+      "type": "FUNCTION",
+      "name": "pub"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.AuthorizationScope.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::post",
+      "type": "FUNCTION",
+      "name": "post"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::classPathOnlyGet",
+      "type": "FUNCTION",
+      "name": "classPathOnlyGet"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java",
@@ -57,11 +277,6 @@
       "name": "javax.ws.rs.core.Response.ok"
     },
     {
-      "id": "dependency:jdk",
-      "type": "DEPENDENCY",
-      "name": "jdk"
-    },
-    {
       "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::build",
       "type": "FUNCTION",
       "name": "build"
@@ -70,6 +285,11 @@
       "id": "api:java.util.UUID.randomUUID",
       "type": "API",
       "name": "java.util.UUID.randomUUID"
+    },
+    {
+      "id": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "API",
+      "name": "org.versly.rest.wsdoc.ReturnType.<annotation>"
     },
     {
       "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePost",
@@ -97,9 +317,34 @@
       "name": "javax.ws.rs.core.Response.noContent"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseHead",
+      "type": "FUNCTION",
+      "name": "genericResponseHead"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWidgets",
+      "type": "FUNCTION",
+      "name": "getWidgets"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getGadgets",
+      "type": "FUNCTION",
+      "name": "getGadgets"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWhirlygigs",
+      "type": "FUNCTION",
+      "name": "getWhirlygigs"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
@@ -107,9 +352,64 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithJavadocAndInterestingArgs",
+      "type": "FUNCTION",
+      "name": "methodWithJavadocAndInterestingArgs"
+    },
+    {
+      "id": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.core.Context.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturn",
+      "type": "FUNCTION",
+      "name": "methodWithVoidReturn"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturnAndParams",
+      "type": "FUNCTION",
+      "name": "methodWithVoidReturnAndParams"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveParam",
+      "type": "FUNCTION",
+      "name": "recursiveParam"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveReturn",
+      "type": "FUNCTION",
+      "name": "recursiveReturn"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::getThing",
+      "type": "FUNCTION",
+      "name": "getThing"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::deleteThing",
+      "type": "FUNCTION",
+      "name": "deleteThing"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::getParticipant",
+      "type": "FUNCTION",
+      "name": "getParticipant"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java",
@@ -117,9 +417,19 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java::noPathGet",
+      "type": "FUNCTION",
+      "name": "noPathGet"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java::foo",
+      "type": "FUNCTION",
+      "name": "foo"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java",
@@ -127,9 +437,34 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getWidget",
+      "type": "FUNCTION",
+      "name": "getWidget"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::createWidget",
+      "type": "FUNCTION",
+      "name": "createWidget"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getGadgets",
+      "type": "FUNCTION",
+      "name": "getGadgets"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::getWidget",
+      "type": "FUNCTION",
+      "name": "getWidget"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java",
@@ -137,9 +472,64 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java::getEnumSet",
+      "type": "FUNCTION",
+      "name": "getEnumSet"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.RequestMapping.<annotation>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-web",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-web"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.ResponseBody.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.ResponseBody.<annotation>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub",
+      "type": "FUNCTION",
+      "name": "pub"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::priv",
+      "type": "FUNCTION",
+      "name": "priv"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub1",
+      "type": "FUNCTION",
+      "name": "pub1"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub2",
+      "type": "FUNCTION",
+      "name": "pub2"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::foo",
+      "type": "FUNCTION",
+      "name": "foo"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::bar",
+      "type": "FUNCTION",
+      "name": "bar"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java",
@@ -147,9 +537,39 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::stable",
+      "type": "FUNCTION",
+      "name": "stable"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::deprecated",
+      "type": "FUNCTION",
+      "name": "deprecated"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimental",
+      "type": "FUNCTION",
+      "name": "experimental"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimentaldeprecated",
+      "type": "FUNCTION",
+      "name": "experimentaldeprecated"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java",
@@ -157,9 +577,54 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java::getReportForMountain",
+      "type": "FUNCTION",
+      "name": "getReportForMountain"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.PathVariable.<annotation>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsGet",
+      "type": "FUNCTION",
+      "name": "allMethodsGet"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPost",
+      "type": "FUNCTION",
+      "name": "allMethodsPost"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPut",
+      "type": "FUNCTION",
+      "name": "allMethodsPut"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsDelete",
+      "type": "FUNCTION",
+      "name": "allMethodsDelete"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsHead",
+      "type": "FUNCTION",
+      "name": "allMethodsHead"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsOptions",
+      "type": "FUNCTION",
+      "name": "allMethodsOptions"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPatch",
+      "type": "FUNCTION",
+      "name": "allMethodsPatch"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java",
@@ -167,9 +632,94 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::pub",
+      "type": "FUNCTION",
+      "name": "pub"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::post",
+      "type": "FUNCTION",
+      "name": "post"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theGetMethod",
+      "type": "FUNCTION",
+      "name": "theGetMethod"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.GetMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.GetMapping.<annotation>"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.RequestParam.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.RequestParam.<annotation>"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePostMethod",
+      "type": "FUNCTION",
+      "name": "thePostMethod"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.PostMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.PostMapping.<annotation>"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.RequestBody.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.RequestBody.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePutMethod",
+      "type": "FUNCTION",
+      "name": "thePutMethod"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.PutMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.PutMapping.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theDeleteMethod",
+      "type": "FUNCTION",
+      "name": "theDeleteMethod"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.DeleteMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.DeleteMapping.<annotation>"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePatchMethod",
+      "type": "FUNCTION",
+      "name": "thePatchMethod"
+    },
+    {
+      "id": "api:org.springframework.web.bind.annotation.PatchMapping.<annotation>",
+      "type": "API",
+      "name": "org.springframework.web.bind.annotation.PatchMapping.<annotation>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java",
@@ -207,9 +757,19 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/UriFirstParameterValidation.java",
@@ -222,6 +782,11 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/NonRecursiveMultiUse.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/NonRecursiveMultiUse.java::foo",
+      "type": "FUNCTION",
+      "name": "foo"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/UriParameterNormalization.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/UriParameterNormalization.java"
@@ -232,9 +797,19 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java::getParent",
+      "type": "FUNCTION",
+      "name": "getParent"
     },
     {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java",
@@ -242,14 +817,29 @@
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java::getChild",
+      "type": "FUNCTION",
+      "name": "getChild"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java"
     },
     {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java::getChild",
+      "type": "FUNCTION",
+      "name": "getChild"
+    },
+    {
       "id": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java",
       "type": "FILE",
       "name": "src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java"
+    },
+    {
+      "id": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java::getFoo",
+      "type": "FUNCTION",
+      "name": "getFoo"
     },
     {
       "id": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
@@ -285,6 +875,11 @@
       "id": "api:java.io.File.mkdirs",
       "type": "API",
       "name": "java.io.File.mkdirs"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
     },
     {
       "id": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::processResource",
@@ -337,6 +932,16 @@
       "name": "fromStream"
     },
     {
+      "id": "api:java.io.FileInputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileInputStream.<init>"
+    },
+    {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
       "id": "api:java.io.BufferedReader.readLine",
       "type": "API",
       "name": "java.io.BufferedReader.readLine"
@@ -357,9 +962,19 @@
       "name": "fileWritten.equals"
     },
     {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
+      "id": "api:java.util.LinkedHashMap.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashMap.<init>"
+    },
+    {
+      "id": "api:java.io.BufferedReader.<init>",
+      "type": "API",
+      "name": "java.io.BufferedReader.<init>"
+    },
+    {
+      "id": "api:java.io.InputStreamReader.<init>",
+      "type": "API",
+      "name": "java.io.InputStreamReader.<init>"
     },
     {
       "id": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::getPackageToTest",
@@ -417,6 +1032,16 @@
       "name": "javax.tools.JavaCompiler.call"
     },
     {
+      "id": "api:javax.tools.SimpleJavaFileObject.<init>",
+      "type": "API",
+      "name": "javax.tools.SimpleJavaFileObject.<init>"
+    },
+    {
+      "id": "api:java.net.URI.<init>",
+      "type": "API",
+      "name": "java.net.URI.<init>"
+    },
+    {
       "id": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::getCharContent",
       "type": "FUNCTION",
       "name": "getCharContent"
@@ -450,6 +1075,11 @@
       "id": "api:java.lang.String.contains",
       "type": "API",
       "name": "java.lang.String.contains"
+    },
+    {
+      "id": "api:org.testng.annotations.Test.<annotation>",
+      "type": "API",
+      "name": "org.testng.annotations.Test.<annotation>"
     },
     {
       "id": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertReturnValueComments",
@@ -560,6 +1190,11 @@
       "id": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::getResource",
       "type": "FUNCTION",
       "name": "getResource"
+    },
+    {
+      "id": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "API",
+      "name": "org.raml.parser.visitor.RamlDocumentBuilder.<init>"
     },
     {
       "id": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriParameterNormalization",
@@ -817,6 +1452,16 @@
       "name": "src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java"
     },
     {
+      "id": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::setUp",
+      "type": "FUNCTION",
+      "name": "setUp"
+    },
+    {
+      "id": "api:org.testng.annotations.BeforeClass.<annotation>",
+      "type": "API",
+      "name": "org.testng.annotations.BeforeClass.<annotation>"
+    },
+    {
       "id": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertClassPathOnly",
       "type": "FUNCTION",
       "name": "assertClassPathOnly"
@@ -875,6 +1520,11 @@
       "id": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "type": "FILE",
       "name": "src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::setUp",
+      "type": "FUNCTION",
+      "name": "setUp"
     },
     {
       "id": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertMultipart",
@@ -1022,6 +1672,21 @@
       "name": "src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java"
     },
     {
+      "id": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.beust.jcommander.Parameter.<annotation>",
+      "type": "API",
+      "name": "com.beust.jcommander.Parameter.<annotation>"
+    },
+    {
+      "id": "dependency:com.beust:jcommander",
+      "type": "DEPENDENCY",
+      "name": "com.beust:jcommander"
+    },
+    {
       "id": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::main",
       "type": "FUNCTION",
       "name": "main"
@@ -1075,6 +1740,16 @@
       "id": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::writeDocumentation",
       "type": "FUNCTION",
       "name": "writeDocumentation"
+    },
+    {
+      "id": "api:com.beust.jcommander.JCommander.<init>",
+      "type": "API",
+      "name": "com.beust.jcommander.JCommander.<init>"
+    },
+    {
+      "id": "api:java.util.jar.JarFile.<init>",
+      "type": "API",
+      "name": "java.util.jar.JarFile.<init>"
     },
     {
       "id": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::RestDocAssembler",
@@ -1292,6 +1967,16 @@
       "name": "Writer.close"
     },
     {
+      "id": "api:freemarker.template.Configuration.<init>",
+      "type": "API",
+      "name": "freemarker.template.Configuration.<init>"
+    },
+    {
+      "id": "api:freemarker.template.DefaultObjectWrapper.<init>",
+      "type": "API",
+      "name": "freemarker.template.DefaultObjectWrapper.<init>"
+    },
+    {
       "id": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::getIdentifier",
       "type": "FUNCTION",
       "name": "getIdentifier"
@@ -1325,6 +2010,21 @@
       "id": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
       "type": "FILE",
       "name": "src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java"
+    },
+    {
+      "id": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.annotation.processing.SupportedAnnotationTypes.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.processing.SupportedAnnotationTypes.<annotation>"
+    },
+    {
+      "id": "api:javax.annotation.processing.SupportedSourceVersion.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.processing.SupportedSourceVersion.<annotation>"
     },
     {
       "id": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::init",
@@ -1405,6 +2105,11 @@
       "id": "api:java.io.OutputStream.close",
       "type": "API",
       "name": "java.io.OutputStream.close"
+    },
+    {
+      "id": "api:java.util.LinkedHashSet.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashSet.<init>"
     },
     {
       "id": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::getExtendedMappingAnnotationTypes",
@@ -1647,6 +2352,11 @@
       "name": "buildResponseFormat"
     },
     {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "api:javax.lang.model.element.ExecutableElement.getReturnType",
       "type": "API",
       "name": "javax.lang.model.element.ExecutableElement.getReturnType"
@@ -1740,6 +2450,11 @@
       "id": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildRequestBody",
       "type": "FUNCTION",
       "name": "buildRequestBody"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::setRequestBody",
@@ -2457,6 +3172,36 @@
       "name": "java.lang.Exception.getMessage"
     },
     {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.datatype.joda.JodaModule.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.datatype.joda.JodaModule.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.datatype:jackson-datatype-joda",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-joda"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.datatype.jdk8.Jdk8Module.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8Module.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper.<init>"
+    },
+    {
       "id": "api:_processingEnv.getMessager",
       "type": "API",
       "name": "_processingEnv.getMessager"
@@ -2772,11 +3517,6 @@
       "name": "org.springframework.web.bind.annotation.RequestMapping.value"
     },
     {
-      "id": "dependency:org.springframework:spring-web",
-      "type": "DEPENDENCY",
-      "name": "org.springframework:spring-web"
-    },
-    {
       "id": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVCRestImplementationSupport.java::getRequestMethod",
       "type": "FUNCTION",
       "name": "getRequestMethod"
@@ -2937,6 +3677,11 @@
       "name": "src/main/java/org/versly/rest/wsdoc/impl/Utils.java"
     },
     {
+      "id": "function:src/main/java/org/versly/rest/wsdoc/impl/Utils.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "api:java.lang.String.endsWith",
       "type": "API",
       "name": "java.lang.String.endsWith"
@@ -2970,6 +3715,11 @@
       "id": "file:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java",
       "type": "FILE",
       "name": "src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java"
+    },
+    {
+      "id": "function:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java::JsonPrimitive",
@@ -3054,6 +3804,541 @@
   ],
   "edges": [
     {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::stringBody",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::stringBody",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.POST.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::stringBody",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Path.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::complexBody",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::complexBody",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PostWithRequestBody.java::complexBody",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.GET.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::priv",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::priv",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::priv",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::priv",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub1",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub1",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub2",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub2",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::pub2",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::foo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::foo",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::foo",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::bar",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::bar",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::bar",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/PublicationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::getWidget",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::getWidget",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelTemplateDocs.java::getWidget",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::stable",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::stable",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::stable",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::deprecated",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::deprecated",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::deprecated",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::deprecated",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimental",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimental",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimental",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimental",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimentaldeprecated",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimentaldeprecated",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimentaldeprecated",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::experimentaldeprecated",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/TraitsAnnotations.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java::getReportForMountain",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java::getReportForMountain",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java::getReportForMountain",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/SnowReportController.java::getReportForMountain",
+      "target": "api:javax.ws.rs.PathParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.PathParam.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsGet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsGet",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsGet",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPost",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPost",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPost",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPut",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPut",
+      "target": "api:javax.ws.rs.PUT.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.PUT.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsPut",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsDelete",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsDelete",
+      "target": "api:javax.ws.rs.DELETE.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.DELETE.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsDelete",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsHead",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsHead",
+      "target": "api:javax.ws.rs.HEAD.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.HEAD.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsHead",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsOptions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsOptions",
+      "target": "api:javax.ws.rs.OPTIONS.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.OPTIONS.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AllMethods.java::allMethodsOptions",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::pub",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::pub",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::pub",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::get",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::get",
+      "target": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::get",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::get",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::post",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::post",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::post",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/AuthorizationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::classPathOnlyGet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ClassPathOnly.java::classPathOnlyGet",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseGet",
       "type": "CONTAINS"
@@ -3084,6 +4369,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseGet",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseGet",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseGet",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePost",
       "type": "CONTAINS"
@@ -3099,6 +4404,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePost",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePost",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePost",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePut",
       "type": "CONTAINS"
@@ -3106,6 +4426,21 @@
     {
       "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePut",
       "target": "api:java.util.UUID.randomUUID",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePut",
+      "target": "api:javax.ws.rs.PUT.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePut",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponsePut",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3129,6 +4464,796 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseDelete",
+      "target": "api:javax.ws.rs.DELETE.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseDelete",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseDelete",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseHead",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseHead",
+      "target": "api:javax.ws.rs.HEAD.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseHead",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::genericResponseHead",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWidgets",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWidgets",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWidgets",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getGadgets",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getGadgets",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getGadgets",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWhirlygigs",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWhirlygigs",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::getWhirlygigs",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/MultiApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithJavadocAndInterestingArgs",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithJavadocAndInterestingArgs",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.core.Context.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturn",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturn",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturnAndParams",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::methodWithVoidReturnAndParams",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveParam",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveParam",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveReturn",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::recursiveReturn",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::getThing",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::getThing",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::deleteThing",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/RestDocEndpoint.java::deleteThing",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::getParticipant",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::getParticipant",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriFirstParameterValidation.java::getParticipant",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java::noPathGet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NoPath.java::noPathGet",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java::foo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java::foo",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/NonRecursiveMultiUse.java::foo",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getWidget",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getWidget",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getWidget",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getWidget",
+      "target": "api:javax.ws.rs.PathParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::createWidget",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::createWidget",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::createWidget",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::createWidget",
+      "target": "api:javax.ws.rs.PathParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getGadgets",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getGadgets",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/UriParameterNormalization.java::getGadgets",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::getWidget",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::getWidget",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/ApiLevelDocs.java::getWidget",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java::getEnumSet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java::getEnumSet",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/EnumSetController.java::getEnumSet",
+      "target": "api:org.springframework.web.bind.annotation.ResponseBody.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.ResponseBody.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::priv",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::priv",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::priv",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub1",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub2",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::pub2",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::foo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::foo",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::bar",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::bar",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::<class>",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/PublicationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelTemplateDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::stable",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::stable",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::deprecated",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::deprecated",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::deprecated",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimental",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimental",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimental",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimentaldeprecated",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimentaldeprecated",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::experimentaldeprecated",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/TraitsAnnotations.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationTraits.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java::getReportForMountain",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java::getReportForMountain",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/SnowReportController.java::getReportForMountain",
+      "target": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsGet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsGet",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPost",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPost",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPut",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPut",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsDelete",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsDelete",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsHead",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsHead",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsOptions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsOptions",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPatch",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AllMethods.java::allMethodsPatch",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::pub",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::pub",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::post",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::post",
+      "target": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::post",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::get",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::get",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::<class>",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/AuthorizationScopes.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.AuthorizationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theGetMethod",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theGetMethod",
+      "target": "api:org.springframework.web.bind.annotation.GetMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.GetMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theGetMethod",
+      "target": "api:org.springframework.web.bind.annotation.RequestParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.RequestParam.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theGetMethod",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePostMethod",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePostMethod",
+      "target": "api:org.springframework.web.bind.annotation.PostMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.PostMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePostMethod",
+      "target": "api:org.springframework.web.bind.annotation.RequestBody.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.RequestBody.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePutMethod",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePutMethod",
+      "target": "api:org.springframework.web.bind.annotation.PutMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.PutMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePutMethod",
+      "target": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePutMethod",
+      "target": "api:org.springframework.web.bind.annotation.RequestBody.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theDeleteMethod",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theDeleteMethod",
+      "target": "api:org.springframework.web.bind.annotation.DeleteMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.DeleteMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::theDeleteMethod",
+      "target": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePatchMethod",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePatchMethod",
+      "target": "api:org.springframework.web.bind.annotation.PatchMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.web.bind.annotation.PatchMapping.<annotation>",
+      "target": "dependency:org.springframework:spring-web",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePatchMethod",
+      "target": "api:org.springframework.web.bind.annotation.PathVariable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/Spring43ComposedAnnotationController.java::thePatchMethod",
+      "target": "api:org.springframework.web.bind.annotation.RequestBody.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseGet",
       "type": "CONTAINS"
@@ -3149,6 +5274,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseGet",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseGet",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePost",
       "type": "CONTAINS"
@@ -3164,6 +5299,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePost",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePost",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePut",
       "type": "CONTAINS"
@@ -3171,6 +5316,16 @@
     {
       "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePut",
       "target": "api:java.util.UUID.randomUUID",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePut",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponsePut",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3189,6 +5344,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseDelete",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseDelete",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseHead",
       "type": "CONTAINS"
@@ -3201,6 +5366,106 @@
     {
       "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseHead",
       "target": "function:src/test/resources/org/versly/rest/wsdoc/jaxrs/GenericResponse.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseHead",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/GenericResponse.java::genericResponseHead",
+      "target": "api:org.versly.rest.wsdoc.ReturnType.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/MultiApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/RestDocEndpoint.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.RestApiMountPoint.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/NonRecursiveMultiUse.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/NonRecursiveMultiUse.java::foo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/NonRecursiveMultiUse.java::foo",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationRestApi.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/ApiLevelDocs.java::<class>",
+      "target": "api:org.versly.rest.wsdoc.DocumentationScope.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java::getParent",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ParentController.java::getParent",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java::getChild",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/ChildController.java::getChild",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java::getChild",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/AsyncController.java::getChild",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java",
+      "target": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java::getFoo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/resources/org/versly/rest/wsdoc/springmvc/genericdomain/WildcardController.java::getFoo",
+      "target": "api:org.springframework.web.bind.annotation.RequestMapping.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3255,6 +5520,16 @@
     },
     {
       "source": "api:java.io.File.mkdirs",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::setUp",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -3324,6 +5599,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::buildOutput",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::buildOutput",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::buildOutput",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::readOutput",
       "type": "CONTAINS"
@@ -3366,6 +5666,41 @@
     {
       "source": "api:fileWritten.equals",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::readOutput",
+      "target": "api:java.util.LinkedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::readOutput",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::readOutput",
+      "target": "api:java.io.BufferedReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.BufferedReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::readOutput",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.InputStreamReader.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -3474,6 +5809,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::runAnnotationProcessor",
+      "target": "api:javax.tools.SimpleJavaFileObject.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.tools.SimpleJavaFileObject.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::runAnnotationProcessor",
+      "target": "api:java.net.URI.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URI.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::getCharContent",
       "type": "CONTAINS"
@@ -3504,6 +5859,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::getCharContent",
+      "target": "api:java.io.BufferedReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::getCharContent",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertJavaDocComments",
       "type": "CONTAINS"
@@ -3529,6 +5894,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertJavaDocComments",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.testng.annotations.Test.<annotation>",
+      "target": "dependency:org.testng:testng",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertReturnValueComments",
       "type": "CONTAINS"
@@ -3546,6 +5921,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertReturnValueComments",
       "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertReturnValueComments",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3569,6 +5949,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertPathVariableWithOverriddenName",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertParams",
       "type": "CONTAINS"
@@ -3586,6 +5971,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertParams",
       "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertParams",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3624,6 +6014,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertOverriddenPaths",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUuidIsNotTraversedInto",
       "type": "CONTAINS"
@@ -3654,6 +6049,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUuidIsNotTraversedInto",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::generateExample",
       "type": "CONTAINS"
@@ -3661,6 +6061,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::generateExample",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::processResource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::generateExample",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3684,6 +6089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::nonRecursiveTypeWithMultipleUsesDoesNotHaveRecursionCircles",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertAllMethods",
       "type": "CONTAINS"
@@ -3704,6 +6114,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertAllMethods",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertGenericResponse",
       "type": "CONTAINS"
@@ -3721,6 +6136,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertGenericResponse",
       "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertGenericResponse",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3764,6 +6184,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::excludePatterns",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::genericTypeResolution",
       "type": "CONTAINS"
@@ -3771,6 +6196,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::genericTypeResolution",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::processResource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::genericTypeResolution",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3812,6 +6242,21 @@
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertNoRedundantUriParametersForResource",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::getResource",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertNoRedundantUriParametersForResource",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertNoRedundantUriParametersForResource",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "target": "dependency:org.raml:raml-parser",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
@@ -3864,6 +6309,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriParameterNormalization",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriParameterNormalization",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriFirstParameterValidation",
       "type": "CONTAINS"
@@ -3896,6 +6351,16 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriFirstParameterValidation",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriFirstParameterValidation",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::assertUriFirstParameterValidation",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -3974,6 +6439,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testEnumsTypesQueryForRaml",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testEnumsTypesQueryForRaml",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testEnumsTypesInPathForRaml",
       "type": "CONTAINS"
@@ -4029,6 +6504,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testEnumsTypesInPathForRaml",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testEnumsTypesInPathForRaml",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testPublicationScopes",
       "type": "CONTAINS"
@@ -4046,6 +6531,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testPublicationScopes",
       "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::testPublicationScopes",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4204,6 +6694,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::apiLevelDocs",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::apiLevelDocs",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::multiApiLevelDocs",
       "type": "CONTAINS"
@@ -4354,6 +6854,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::multiApiLevelDocs",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::multiApiLevelDocs",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::stabilitySettings",
       "type": "CONTAINS"
@@ -4476,6 +6986,16 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::stabilitySettings",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::stabilitySettings",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::stabilitySettings",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -4609,6 +7129,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::authScopeDocs",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::authScopeDocs",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::docTemplate",
       "type": "CONTAINS"
@@ -4689,6 +7219,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::docTemplate",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/AbstractRestAnnotationProcessorTest.java::docTemplate",
+      "target": "api:org.raml.parser.visitor.RamlDocumentBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java",
+      "target": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::setUp",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::setUp",
+      "target": "api:org.testng.annotations.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.testng.annotations.BeforeClass.<annotation>",
+      "target": "dependency:org.testng:testng",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertClassPathOnly",
       "type": "CONTAINS"
@@ -4724,6 +7279,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertClassPathOnly",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertNoPath",
       "type": "CONTAINS"
@@ -4746,6 +7306,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertNoPath",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertNoPath",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4774,6 +7339,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::assertRequestBody",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::main",
       "type": "CONTAINS"
@@ -4791,6 +7361,21 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::main",
       "target": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::lastIndexOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/JaxRSRestAnnotationProcessorTest.java::main",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
+      "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::setUp",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::setUp",
+      "target": "api:org.testng.annotations.BeforeClass.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4814,6 +7399,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertMultipart",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::processControllerThatReturnsDomainObjectWithGenericParentsExpectsSuccess",
       "type": "CONTAINS"
@@ -4831,6 +7421,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::processControllerThatReturnsDomainObjectWithGenericParentsExpectsSuccess",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::processControllerThatReturnsDomainObjectWithGenericParentsExpectsSuccess",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4854,6 +7449,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::processControllerThatReturnsGenericDomainObjectExpectsSuccess",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertQueryParams",
       "type": "CONTAINS"
@@ -4871,6 +7471,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertQueryParams",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertQueryParams",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4894,6 +7499,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::processControllerThatReturnsEnumSetExpectsSuccess",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::multipleBindingsForOneEndpoint",
       "type": "CONTAINS"
@@ -4911,6 +7521,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::multipleBindingsForOneEndpoint",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::multipleBindingsForOneEndpoint",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4939,6 +7554,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertOptionalIsNotTraversedInto",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertAllMethods",
       "type": "CONTAINS"
@@ -4959,6 +7579,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertAllMethods",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertWildcardTypes",
       "type": "CONTAINS"
@@ -4976,6 +7601,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertWildcardTypes",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertWildcardTypes",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5004,6 +7634,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertAsync",
+      "target": "api:org.testng.annotations.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertSpring43ComposedAnnotationController",
       "type": "CONTAINS"
@@ -5021,6 +7656,11 @@
     {
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertSpring43ComposedAnnotationController",
       "target": "api:defaultApiOutput.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::assertSpring43ComposedAnnotationController",
+      "target": "api:org.testng.annotations.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5042,6 +7682,26 @@
       "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::main",
       "target": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::lastIndexOf",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/versly/rest/wsdoc/SpringMVCRestAnnotationProcessorTest.java::main",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java",
+      "target": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::<class>",
+      "target": "api:com.beust.jcommander.Parameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.beust.jcommander.Parameter.<annotation>",
+      "target": "dependency:com.beust:jcommander",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java",
@@ -5152,6 +7812,26 @@
       "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::main",
       "target": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::writeDocumentation",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::main",
+      "target": "api:com.beust.jcommander.JCommander.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.beust.jcommander.JCommander.<init>",
+      "target": "dependency:com.beust:jcommander",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::main",
+      "target": "api:java.util.jar.JarFile.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.jar.JarFile.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java",
@@ -5544,6 +8224,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::writeDocumentation",
+      "target": "api:freemarker.template.Configuration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.Configuration.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::writeDocumentation",
+      "target": "api:freemarker.template.DefaultObjectWrapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:freemarker.template.DefaultObjectWrapper.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/RestDocAssembler.java::getOutputFileName",
       "type": "CONTAINS"
@@ -5597,6 +8297,36 @@
       "source": "api:java.lang.StringBuilder.toString",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
+      "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::<class>",
+      "target": "api:javax.annotation.processing.SupportedAnnotationTypes.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.processing.SupportedAnnotationTypes.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::<class>",
+      "target": "api:javax.annotation.processing.SupportedSourceVersion.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.processing.SupportedSourceVersion.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
@@ -5707,6 +8437,21 @@
       "source": "api:java.io.OutputStream.close",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::process",
+      "target": "api:java.util.LinkedHashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::process",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
@@ -6069,6 +8814,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::processRequestMappingMethod",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::getTypeFromAnnotation",
       "type": "CONTAINS"
@@ -6269,6 +9024,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildRequestBodies",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildRequestBody",
       "type": "CONTAINS"
@@ -6316,6 +9081,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildRequestBody",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::getRequestBody",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildRequestBody",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -6411,6 +9181,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::addUrlField",
       "target": "api:javax.lang.model.element.VariableElement.asType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::addUrlField",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -6694,6 +9469,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildPojoQueryParameters",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonTypeFromTypeMirror",
       "type": "CONTAINS"
@@ -6851,6 +9631,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildResponseFormat",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/RestDocumentation.java::getResponseBody",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildResponseFormat",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -7026,6 +9811,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::visitPrimitive",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonTypeFromTypeMirror",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::visitPrimitive",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -7206,6 +9996,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::visitDeclared",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::buildType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::visitDeclared",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -7459,6 +10254,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::addFieldFromBeanMethod",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::recurseForJsonType",
       "type": "CONTAINS"
@@ -7511,6 +10311,16 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::recurseForJsonType",
       "target": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonTypeForDeclaredType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::recurseForJsonType",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::recurseForJsonType",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -8051,6 +10861,46 @@
     {
       "source": "api:java.lang.Exception.getMessage",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonSchemaFromTypeMirror",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonSchemaFromTypeMirror",
+      "target": "api:com.fasterxml.jackson.datatype.joda.JodaModule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.datatype.joda.JodaModule.<init>",
+      "target": "dependency:com.fasterxml.jackson.datatype:jackson-datatype-joda",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonSchemaFromTypeMirror",
+      "target": "api:com.fasterxml.jackson.datatype.jdk8.Jdk8Module.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.datatype.jdk8.Jdk8Module.<init>",
+      "target": "dependency:com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/AnnotationProcessor.java::jsonSchemaFromTypeMirror",
+      "target": "api:com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.module:jackson-module-jsonSchema",
       "type": "PROVIDED_BY"
     },
     {
@@ -8784,6 +11634,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVCRestImplementationSupport.java::getExtendedMappingAnnotationTypes",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/versly/rest/wsdoc/impl/SpringMVCRestImplementationSupport.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVCRestImplementationSupport.java::getRequestPaths",
       "type": "CONTAINS"
@@ -8951,6 +11806,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getSpring43ComposedAnnotationTypes",
       "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getSpring43ComposedAnnotationTypes",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -9134,6 +11994,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getExtendedMappingAnnotationTypes",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getRequestPaths",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getRequestPaths",
       "type": "CALLS"
@@ -9161,6 +12026,16 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/impl/SpringMVC43RestImplementationSupport.java::getRequestMethod",
       "target": "api:java.util.Optional.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/versly/rest/wsdoc/impl/Utils.java",
+      "target": "function:src/main/java/org/versly/rest/wsdoc/impl/Utils.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/Utils.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -9255,6 +12130,16 @@
     },
     {
       "source": "file:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java",
+      "target": "function:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java",
       "target": "function:src/main/java/org/versly/rest/wsdoc/impl/JsonPrimitive.java::JsonPrimitive",
       "type": "CONTAINS"
     },
@@ -9286,6 +12171,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/impl/JaxRSRestImplementationSupport.java::getExtendedMappingAnnotationTypes",
       "target": "api:java.util.Arrays.asList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/JaxRSRestImplementationSupport.java::getExtendedMappingAnnotationTypes",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -9366,6 +12256,11 @@
     {
       "source": "function:src/main/java/org/versly/rest/wsdoc/impl/JaxRSRestImplementationSupport.java::getRequestMethod",
       "target": "api:java.util.List.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/versly/rest/wsdoc/impl/JaxRSRestImplementationSupport.java::getRequestMethod",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {

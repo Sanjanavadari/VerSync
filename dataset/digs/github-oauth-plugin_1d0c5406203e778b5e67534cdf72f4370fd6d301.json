@@ -7,6 +7,31 @@
       "name": "src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java"
     },
     {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.ClassRule.<annotation>",
+      "type": "API",
+      "name": "org.junit.ClassRule.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.JenkinsRule.<init>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testEquals_true",
       "type": "FUNCTION",
       "name": "testEquals_true"
@@ -17,9 +42,9 @@
       "name": "org.junit.Assert.assertEquals"
     },
     {
-      "id": "dependency:junit:junit",
-      "type": "DEPENDENCY",
-      "name": "junit:junit"
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testEquals_false",
@@ -92,6 +117,21 @@
       "name": "src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java"
     },
     {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.JenkinsSessionRule.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.JenkinsSessionRule.<init>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::correctBehavior",
       "type": "FUNCTION",
       "name": "correctBehavior"
@@ -100,11 +140,6 @@
       "id": "api:org.jvnet.hudson.test.JenkinsSessionRule.then",
       "type": "API",
       "name": "org.jvnet.hudson.test.JenkinsSessionRule.then"
-    },
-    {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
     },
     {
       "id": "api:hudson.model.User.getById",
@@ -155,6 +190,11 @@
       "id": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
       "type": "FILE",
       "name": "src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java"
+    },
+    {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
@@ -210,6 +250,31 @@
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setServerUrl",
       "type": "FUNCTION",
       "name": "setServerUrl"
+    },
+    {
+      "id": "api:org.eclipse.jetty.server.Server.<init>",
+      "type": "API",
+      "name": "org.eclipse.jetty.server.Server.<init>"
+    },
+    {
+      "id": "api:org.eclipse.jetty.server.ServerConnector.<init>",
+      "type": "API",
+      "name": "org.eclipse.jetty.server.ServerConnector.<init>"
+    },
+    {
+      "id": "api:org.eclipse.jetty.servlet.ServletContextHandler.<init>",
+      "type": "API",
+      "name": "org.eclipse.jetty.servlet.ServletContextHandler.<init>"
+    },
+    {
+      "id": "api:org.eclipse.jetty.servlet.ServletHolder.<init>",
+      "type": "API",
+      "name": "org.eclipse.jetty.servlet.ServletHolder.<init>"
+    },
+    {
+      "id": "api:java.net.URI.<init>",
+      "type": "API",
+      "name": "java.net.URI.<init>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::doGet",
@@ -297,6 +362,11 @@
       "name": "put"
     },
     {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
       "id": "api:java.util.List.add",
       "type": "API",
       "name": "java.util.List.add"
@@ -305,6 +375,11 @@
       "id": "api:net.sf.json.JSONArray.fromObject",
       "type": "API",
       "name": "net.sf.json.JSONArray.fromObject"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "api:javax.servlet.http.HttpServletResponse.setStatus",
@@ -347,6 +422,11 @@
       "name": "org.jvnet.hudson.test.JenkinsRule.createWebClient"
     },
     {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
+    },
+    {
       "id": "api:java.net.URI.toString",
       "type": "API",
       "name": "java.net.URI.toString"
@@ -370,6 +450,11 @@
       "id": "api:e.printStackTrace",
       "type": "API",
       "name": "e.printStackTrace"
+    },
+    {
+      "id": "api:org.junit.After.<annotation>",
+      "type": "API",
+      "name": "org.junit.After.<annotation>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::preventSessionFixation",
@@ -400,6 +485,26 @@
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::checkSessionFixationWithOAuth",
       "type": "FUNCTION",
       "name": "checkSessionFixationWithOAuth"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.Issue.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getIconFileName",
+      "type": "FUNCTION",
+      "name": "getIconFileName"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getDisplayName",
+      "type": "FUNCTION",
+      "name": "getDisplayName"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::doIndex",
@@ -472,6 +577,21 @@
       "name": "commons-lang:commons-lang"
     },
     {
+      "id": "api:com.gargoylesoftware.htmlunit.WebRequest.<init>",
+      "type": "API",
+      "name": "com.gargoylesoftware.htmlunit.WebRequest.<init>"
+    },
+    {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.TestExtension.<annotation>"
+    },
+    {
       "id": "file:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java",
       "type": "FILE",
       "name": "src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java"
@@ -490,6 +610,11 @@
       "id": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "type": "FILE",
       "name": "src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
@@ -662,6 +787,11 @@
       "name": "net.sf.json.JSONObject.getJSONArray"
     },
     {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "api:hudson.util.Scrambler.scramble",
       "type": "API",
       "name": "hudson.util.Scrambler.scramble"
@@ -717,6 +847,21 @@
       "name": "authenticate"
     },
     {
+      "id": "api:okhttp3.Request.<init>",
+      "type": "API",
+      "name": "okhttp3.Request.<init>"
+    },
+    {
+      "id": "dependency:com.squareup.okhttp3:okhttp",
+      "type": "DEPENDENCY",
+      "name": "com.squareup.okhttp3:okhttp"
+    },
+    {
+      "id": "api:okhttp3.Response.<init>",
+      "type": "API",
+      "name": "okhttp3.Response.<init>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
       "type": "FUNCTION",
       "name": "refusesPreemptiveOkHttpChallenge"
@@ -732,14 +877,14 @@
       "name": "okhttp3.Credentials.basic"
     },
     {
-      "id": "dependency:com.squareup.okhttp3:okhttp",
-      "type": "DEPENDENCY",
-      "name": "com.squareup.okhttp3:okhttp"
-    },
-    {
       "id": "api:okhttp3.Request.header",
       "type": "API",
       "name": "okhttp3.Request.header"
+    },
+    {
+      "id": "api:hudson.ProxyConfiguration.<init>",
+      "type": "API",
+      "name": "hudson.ProxyConfiguration.<init>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesAnyChallengeWhichIsNotBasicAuthentication",
@@ -752,6 +897,36 @@
       "name": "src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java"
     },
     {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.mockito.Mock.<annotation>",
+      "type": "API",
+      "name": "org.mockito.Mock.<annotation>"
+    },
+    {
+      "id": "dependency:org.mockito:mockito-core",
+      "type": "DEPENDENCY",
+      "name": "org.mockito:mockito-core"
+    },
+    {
+      "id": "api:hudson.security.Permission.<init>",
+      "type": "API",
+      "name": "hudson.security.Permission.<init>"
+    },
+    {
+      "id": "api:org.acegisecurity.providers.anonymous.AnonymousAuthenticationToken.<init>",
+      "type": "API",
+      "name": "org.acegisecurity.providers.anonymous.AnonymousAuthenticationToken.<init>"
+    },
+    {
+      "id": "api:org.acegisecurity.GrantedAuthorityImpl.<init>",
+      "type": "API",
+      "name": "org.acegisecurity.GrantedAuthorityImpl.<init>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -760,11 +935,6 @@
       "id": "api:org.mockito.MockitoAnnotations.openMocks",
       "type": "API",
       "name": "org.mockito.MockitoAnnotations.openMocks"
-    },
-    {
-      "id": "dependency:org.mockito:mockito-core",
-      "type": "DEPENDENCY",
-      "name": "org.mockito:mockito-core"
     },
     {
       "id": "api:org.mockito.Mockito.when",
@@ -1042,6 +1212,11 @@
       "name": "testNotGrantedBuildWhenNotUsingGitSCM"
     },
     {
+      "id": "api:hudson.scm.NullSCM.<init>",
+      "type": "API",
+      "name": "hudson.scm.NullSCM.<init>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenRepositoryIsEmpty",
       "type": "FUNCTION",
       "name": "testNotGrantedBuildWhenRepositoryIsEmpty"
@@ -1147,6 +1322,11 @@
       "name": "src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java"
     },
     {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -1222,6 +1402,11 @@
       "name": "src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java"
     },
     {
+      "id": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -1280,6 +1465,16 @@
       "id": "file:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java",
       "type": "FILE",
       "name": "src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java"
+    },
+    {
+      "id": "function:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Ignore.<annotation>",
+      "type": "API",
+      "name": "org.junit.Ignore.<annotation>"
     },
     {
       "id": "function:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java::testWithUserAPIToken",
@@ -1395,6 +1590,11 @@
       "id": "file:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java",
       "type": "FILE",
       "name": "src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.NonNull.<annotation>"
     },
     {
       "id": "api:java.util.logging.Logger.log",
@@ -1552,6 +1752,11 @@
       "name": "org.kohsuke.stapler.Stapler.getCurrentRequest"
     },
     {
+      "id": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.Nullable.<annotation>"
+    },
+    {
       "id": "api:hudson.security.Permission.getId",
       "type": "API",
       "name": "hudson.security.Permission.getId"
@@ -1622,9 +1827,19 @@
       "name": "part.trim"
     },
     {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
       "id": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "type": "FILE",
       "name": "src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::RepoRights",
@@ -1702,6 +1917,21 @@
       "name": "team.getSlug"
     },
     {
+      "id": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>"
+    },
+    {
+      "id": "api:org.acegisecurity.userdetails.UsernameNotFoundException.<init>",
+      "type": "API",
+      "name": "org.acegisecurity.userdetails.UsernameNotFoundException.<init>"
+    },
+    {
+      "id": "api:java.io.UncheckedIOException.<init>",
+      "type": "API",
+      "name": "java.io.UncheckedIOException.<init>"
+    },
+    {
       "id": "api:com.github.benmanes.caffeine.cache.Cache.invalidateAll",
       "type": "API",
       "name": "com.github.benmanes.caffeine.cache.Cache.invalidateAll"
@@ -1755,6 +1985,21 @@
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::withConnector",
       "type": "FUNCTION",
       "name": "withConnector"
+    },
+    {
+      "id": "api:java.io.IOException.<init>",
+      "type": "API",
+      "name": "java.io.IOException.<init>"
+    },
+    {
+      "id": "api:okhttp3.OkHttpClient.<init>",
+      "type": "API",
+      "name": "okhttp3.OkHttpClient.<init>"
+    },
+    {
+      "id": "api:org.kohsuke.github.extras.okhttp3.OkHttpGitHubConnector.<init>",
+      "type": "API",
+      "name": "org.kohsuke.github.extras.okhttp3.OkHttpGitHubConnector.<init>"
     },
     {
       "id": "api:jenkins.proxy.createProxy",
@@ -1972,14 +2217,39 @@
       "name": "src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java"
     },
     {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
+    },
+    {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubURL",
       "type": "FUNCTION",
       "name": "getGitHubURL"
     },
     {
+      "id": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.accmod.Restricted.<annotation>"
+    },
+    {
       "id": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "type": "FILE",
       "name": "src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.security.SecureRandom.<init>",
+      "type": "API",
+      "name": "java.security.SecureRandom.<init>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::GithubSecurityRealm",
@@ -1995,6 +2265,11 @@
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::setClientSecret",
       "type": "FUNCTION",
       "name": "setClientSecret"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundConstructor.<annotation>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::determineApiUri",
@@ -2122,6 +2397,11 @@
       "name": "setOauthScopes"
     },
     {
+      "id": "api:com.thoughtworks.xstream.converters.ConversionException.<init>",
+      "type": "API",
+      "name": "com.thoughtworks.xstream.converters.ConversionException.<init>"
+    },
+    {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getGithubUri",
       "type": "FUNCTION",
       "name": "getGithubUri"
@@ -2180,6 +2460,21 @@
       "id": "api:hudson.Util.join",
       "type": "API",
       "name": "hudson.Util.join"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.QueryParameter.<annotation>"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.Header.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.Header.<annotation>"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.HttpRedirect.<init>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.HttpRedirect.<init>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doFinishLogin",
@@ -2287,6 +2582,11 @@
       "name": "org.kohsuke.stapler.HttpResponses.redirectTo"
     },
     {
+      "id": "api:hudson.tasks.Mailer.<init>",
+      "type": "API",
+      "name": "hudson.tasks.Mailer.<init>"
+    },
+    {
       "id": "api:hudson.util.Secret.getPlainText",
       "type": "API",
       "name": "hudson.util.Secret.getPlainText"
@@ -2325,6 +2625,11 @@
       "id": "api:part.split",
       "type": "API",
       "name": "part.split"
+    },
+    {
+      "id": "api:org.apache.http.client.methods.HttpPost.<init>",
+      "type": "API",
+      "name": "org.apache.http.client.methods.HttpPost.<init>"
     },
     {
       "id": "api:org.apache.http.impl.client.HttpClients.createDefault",
@@ -2412,6 +2717,21 @@
       "name": "org.apache.http.impl.client.HttpClientBuilder.build"
     },
     {
+      "id": "api:org.apache.http.impl.client.BasicCredentialsProvider.<init>",
+      "type": "API",
+      "name": "org.apache.http.impl.client.BasicCredentialsProvider.<init>"
+    },
+    {
+      "id": "api:org.apache.http.auth.AuthScope.<init>",
+      "type": "API",
+      "name": "org.apache.http.auth.AuthScope.<init>"
+    },
+    {
+      "id": "api:org.apache.http.auth.UsernamePasswordCredentials.<init>",
+      "type": "API",
+      "name": "org.apache.http.auth.UsernamePasswordCredentials.<init>"
+    },
+    {
       "id": "api:java.lang.StringBuilder.append",
       "type": "API",
       "name": "java.lang.StringBuilder.append"
@@ -2462,6 +2782,21 @@
       "name": "java.net.InetSocketAddress.getPort"
     },
     {
+      "id": "api:org.apache.http.HttpHost.<init>",
+      "type": "API",
+      "name": "org.apache.http.HttpHost.<init>"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::createSecurityComponents",
+      "type": "FUNCTION",
+      "name": "createSecurityComponents"
+    },
+    {
+      "id": "api:org.acegisecurity.AuthenticationManager.<init>",
+      "type": "API",
+      "name": "org.acegisecurity.AuthenticationManager.<init>"
+    },
+    {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::authenticate",
       "type": "FUNCTION",
       "name": "authenticate"
@@ -2480,6 +2815,11 @@
       "id": "api:org.acegisecurity.providers.UsernamePasswordAuthenticationToken.getName",
       "type": "API",
       "name": "org.acegisecurity.providers.UsernamePasswordAuthenticationToken.getName"
+    },
+    {
+      "id": "api:org.acegisecurity.BadCredentialsException.<init>",
+      "type": "API",
+      "name": "org.acegisecurity.BadCredentialsException.<init>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getPostLogOutUrl",
@@ -2512,6 +2852,21 @@
       "name": "getAuthentication"
     },
     {
+      "id": "api:hudson.security.UserMayOrMayNotExistException.<init>",
+      "type": "API",
+      "name": "hudson.security.UserMayOrMayNotExistException.<init>"
+    },
+    {
+      "id": "api:org.springframework.dao.DataRetrievalFailureException.<init>",
+      "type": "API",
+      "name": "org.springframework.dao.DataRetrievalFailureException.<init>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-core",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-core"
+    },
+    {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -2530,6 +2885,11 @@
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::toHashCode",
       "type": "FUNCTION",
       "name": "toHashCode"
+    },
+    {
+      "id": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang.builder.HashCodeBuilder.<init>"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadGroupByGroupname",
@@ -2552,14 +2912,19 @@
       "name": "src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java"
     },
     {
-      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getACL",
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::GithubAuthorizationStrategy",
       "type": "FUNCTION",
-      "name": "getACL"
+      "name": "GithubAuthorizationStrategy"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getRootACL",
       "type": "FUNCTION",
       "name": "getRootACL"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getACL",
+      "type": "FUNCTION",
+      "name": "getACL"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::cloneForProject",
@@ -2692,6 +3057,11 @@
       "name": "hashCode"
     },
     {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java",
       "type": "FILE",
       "name": "src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java"
@@ -2762,9 +3132,29 @@
       "name": "GithubAccessTokenProperty"
     },
     {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "API",
+      "name": "org.jenkinsci.Symbol.<annotation>"
+    },
+    {
       "id": "file:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java",
       "type": "FILE",
       "name": "src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::GithubOAuthUserDetails",
+      "type": "FUNCTION",
+      "name": "GithubOAuthUserDetails"
     },
     {
       "id": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::getAuthorities",
@@ -2790,6 +3180,31 @@
   "edges": [
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::<class>",
+      "target": "api:org.junit.ClassRule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.ClassRule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testEquals_true",
       "type": "CONTAINS"
     },
@@ -2800,6 +3215,16 @@
     },
     {
       "source": "api:org.junit.Assert.assertEquals",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testEquals_true",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
       "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
@@ -2819,6 +3244,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testEquals_false",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testHasScope_true",
       "type": "CONTAINS"
@@ -2836,6 +3266,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testHasScope_true",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::hasScope",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testHasScope_true",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2859,6 +3294,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testHasScope_false",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultGithubWebUri",
       "type": "CONTAINS"
@@ -2871,6 +3311,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultGithubWebUri",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getDefaultGithubWebUri",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultGithubWebUri",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2889,6 +3334,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultGithubApiUri",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultOauthScopes",
       "type": "CONTAINS"
@@ -2902,6 +3352,36 @@
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultOauthScopes",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getDefaultOauthScopes",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecurityRealmTest.java::testDescriptorImplGetDefaultOauthScopes",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsSessionRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.JenkinsSessionRule.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java",
@@ -2976,6 +3456,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::correctBehavior",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::correctBehavior",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3061,6 +3546,26 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::correctBehaviorEvenAfterRestart",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubSecretStorageTest.java::correctBehaviorEvenAfterRestart",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
       "type": "CALLS"
     },
     {
@@ -3152,6 +3657,56 @@
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setServerUrl",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.server.Server.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jetty.server.Server.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.server.ServerConnector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jetty.server.ServerConnector.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.servlet.ServletContextHandler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jetty.servlet.ServletContextHandler.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.servlet.ServletHolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jetty.servlet.ServletHolder.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupMockGithubServer",
+      "target": "api:java.net.URI.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URI.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
@@ -3254,6 +3809,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUser",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserOrgs",
       "type": "CONTAINS"
@@ -3299,6 +3864,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserOrgs",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserOrgs",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onOrgs",
       "type": "CONTAINS"
@@ -3326,6 +3906,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onOrgs",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onOrgs",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -3389,6 +3974,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onOrgsTeam",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onOrgsTeam",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserTeams",
       "type": "CONTAINS"
@@ -3431,6 +4026,16 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserTeams",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserTeams",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::onUserTeams",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -3509,6 +4114,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::prepareRealmAndWebClient",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setupRealm",
       "type": "CONTAINS"
@@ -3556,6 +4171,16 @@
     {
       "source": "api:e.printStackTrace",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::stopEmbeddedJettyServer",
+      "target": "api:org.junit.After.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.After.<annotation>",
+      "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
     {
@@ -3611,6 +4236,46 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::preventSessionFixation",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::preventSessionFixation",
+      "target": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::preventSessionFixation",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getIconFileName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getIconFileName",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getDisplayName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::getDisplayName",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3734,6 +4399,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::checkSessionFixationWithOAuth",
+      "target": "api:com.gargoylesoftware.htmlunit.WebRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.gargoylesoftware.htmlunit.WebRequest.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::checkSessionFixationWithOAuth",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::<class>",
+      "target": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java::testEquals_true",
       "type": "CONTAINS"
@@ -3744,6 +4439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java::testEquals_true",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java::testEquals_false",
       "type": "CONTAINS"
@@ -3751,6 +4451,26 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java::testEquals_false",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthorizationStrategyTest.java::testEquals_false",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
       "type": "CALLS"
     },
     {
@@ -3801,6 +4521,31 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertySEC797Test.java::setServerUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.server.Server.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.server.ServerConnector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.servlet.ServletContextHandler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
+      "target": "api:org.eclipse.jetty.servlet.ServletHolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupMockGithubServer",
+      "target": "api:java.net.URI.<init>",
       "type": "CALLS"
     },
     {
@@ -3889,6 +4634,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUser",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserOrgs",
       "type": "CONTAINS"
@@ -3924,6 +4674,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserOrgs",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserOrgs",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onOrgs",
       "type": "CONTAINS"
@@ -3951,6 +4711,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onOrgs",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onOrgs",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -4019,6 +4784,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onOrgsTeam",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onOrgsTeam",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserTeams",
       "type": "CONTAINS"
@@ -4061,6 +4836,16 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserTeams",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserTeams",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::onUserTeams",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -4124,6 +4909,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::prepareRealmAndWebClient",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::setupRealm",
       "type": "CONTAINS"
@@ -4151,6 +4941,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::stopEmbeddedJettyServer",
       "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::stopEmbeddedJettyServer",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4224,6 +5019,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubToken",
+      "target": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubToken",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubToken",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubLogin",
       "type": "CONTAINS"
@@ -4284,6 +5094,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubLogin",
+      "target": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubLogin",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::testUsingGithubLogin",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestWithAuthCodeAndVerify",
       "type": "CONTAINS"
@@ -4314,6 +5139,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestWithAuthCodeAndVerify",
+      "target": "api:com.gargoylesoftware.htmlunit.WebRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestWithAuthCodeAndVerify",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestUsingOAuth",
       "type": "CONTAINS"
@@ -4341,6 +5176,16 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestUsingOAuth",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::assertResponse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestUsingOAuth",
+      "target": "api:com.gargoylesoftware.htmlunit.WebRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::makeRequestUsingOAuth",
+      "target": "api:java.net.URL.<init>",
       "type": "CALLS"
     },
     {
@@ -4407,6 +5252,16 @@
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::assertResponse",
       "target": "api:java.lang.String.format",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java::assertResponse",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAccessTokenPropertyTest.java",
@@ -4599,6 +5454,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesChallengeIfAuthenticationAlreadyFailed",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesChallengeIfAuthenticationAlreadyFailed",
+      "target": "api:okhttp3.Request.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:okhttp3.Request.<init>",
+      "target": "dependency:com.squareup.okhttp3:okhttp",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesChallengeIfAuthenticationAlreadyFailed",
+      "target": "api:okhttp3.Response.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:okhttp3.Response.<init>",
+      "target": "dependency:com.squareup.okhttp3:okhttp",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
       "type": "CONTAINS"
@@ -4646,6 +5526,21 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
       "target": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::authenticate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
+      "target": "api:okhttp3.Request.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesPreemptiveOkHttpChallenge",
+      "target": "api:okhttp3.Response.<init>",
       "type": "CALLS"
     },
     {
@@ -4719,6 +5614,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::acceptsBasicChallenge",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::acceptsBasicChallenge",
+      "target": "api:okhttp3.Request.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::acceptsBasicChallenge",
+      "target": "api:okhttp3.Response.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::acceptsBasicChallenge",
+      "target": "api:hudson.ProxyConfiguration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.ProxyConfiguration.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesAnyChallengeWhichIsNotBasicAuthentication",
       "type": "CONTAINS"
@@ -4769,6 +5689,66 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesAnyChallengeWhichIsNotBasicAuthentication",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesAnyChallengeWhichIsNotBasicAuthentication",
+      "target": "api:okhttp3.Request.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/JenkinsProxyAuthenticatorTest.java::refusesAnyChallengeWhichIsNotBasicAuthentication",
+      "target": "api:okhttp3.Response.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mock.<annotation>",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "target": "api:hudson.security.Permission.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.security.Permission.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "target": "api:org.acegisecurity.providers.anonymous.AnonymousAuthenticationToken.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.acegisecurity.providers.anonymous.AnonymousAuthenticationToken.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::<class>",
+      "target": "api:org.acegisecurity.GrantedAuthorityImpl.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.acegisecurity.GrantedAuthorityImpl.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::setUp",
       "type": "CONTAINS"
@@ -4806,6 +5786,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::setUp",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::hasScope",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5329,6 +6314,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::mockMultiBranchProject",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::tearDown",
       "type": "CONTAINS"
@@ -5346,6 +6336,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::tearDown",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::clearCaches",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::tearDown",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5429,6 +6424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAndBuildOneOfMyPrivateRepositories",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAndBuildAPublicRepository",
       "type": "CONTAINS"
@@ -5491,6 +6491,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAndBuildAPublicRepository",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAndBuildAPublicRepository",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5569,6 +6574,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAndBuildPrivateRepositoryIHavePullRightsOn",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanNotReadOrBuildRepositoryIDoNotCollaborateOn",
       "type": "CONTAINS"
@@ -5629,6 +6639,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanNotReadOrBuildRepositoryIDoNotCollaborateOn",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenNotUsingGitSCM",
       "type": "CONTAINS"
@@ -5684,6 +6699,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenNotUsingGitSCM",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenNotUsingGitSCM",
+      "target": "api:hudson.scm.NullSCM.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.scm.NullSCM.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenRepositoryIsEmpty",
       "type": "CONTAINS"
@@ -5721,6 +6751,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenRepositoryIsEmpty",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedBuildWhenRepositoryIsEmpty",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5789,6 +6824,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedReadWhenRepositoryUrlIsEmpty",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testNotGrantedReadWhenRepositoryUrlIsEmpty",
+      "target": "api:hudson.scm.NullSCM.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testGlobalReadAvailableDueToAuthenticatedUserReadPermission",
       "type": "CONTAINS"
@@ -5821,6 +6866,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testGlobalReadAvailableDueToAuthenticatedUserReadPermission",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testGlobalReadAvailableDueToAuthenticatedUserReadPermission",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5859,6 +6909,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testWithoutUseRepositoryPermissionsSetCanReadDueToAuthenticatedUserReadPermission",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testWithoutUseRepositoryPermissionsSetCannotReadWithoutAuthenticatedUserReadPermission",
       "type": "CONTAINS"
@@ -5891,6 +6946,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testWithoutUseRepositoryPermissionsSetCannotReadWithoutAuthenticatedUserReadPermission",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testWithoutUseRepositoryPermissionsSetCannotReadWithoutAuthenticatedUserReadPermission",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5929,6 +6989,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testUsersCannotCreateWithoutConfigurationEnabledPermission",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testUsersCanCreateWithConfigurationEnabledPermission",
       "type": "CONTAINS"
@@ -5961,6 +7026,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testUsersCanCreateWithConfigurationEnabledPermission",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testUsersCanCreateWithConfigurationEnabledPermission",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6009,6 +7079,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCanReadAProjectWithAuthenticatedUserReadPermission",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCannotReadAProjectWithoutAuthenticatedUserReadPermission",
       "type": "CONTAINS"
@@ -6046,6 +7121,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCannotReadAProjectWithoutAuthenticatedUserReadPermission",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCannotReadAProjectWithoutAuthenticatedUserReadPermission",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6104,6 +7184,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testCannotReadRepositoryWithInvalidRepoUrl",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanViewJobStatusWhenGranted",
       "type": "CONTAINS"
@@ -6129,6 +7214,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanViewJobStatusWhenGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotViewJobStatusWhenNotGranted",
       "type": "CONTAINS"
@@ -6151,6 +7241,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotViewJobStatusWhenNotGranted",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotViewJobStatusWhenNotGranted",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6219,6 +7314,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanReachWebhookWhenGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotReachWebhookIfNotGranted",
       "type": "CONTAINS"
@@ -6269,6 +7369,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotReachWebhookIfNotGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanReadAndDiscoverWhenGranted",
       "type": "CONTAINS"
@@ -6294,6 +7399,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanReadAndDiscoverWhenGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCantReadAndDiscoverWhenNotGranted",
       "type": "CONTAINS"
@@ -6316,6 +7426,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCantReadAndDiscoverWhenNotGranted",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCantReadAndDiscoverWhenNotGranted",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6369,6 +7484,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCanReachCCTrayWhenGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotReachCCTrayIfNotGranted",
       "type": "CONTAINS"
@@ -6419,6 +7539,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACLTest.java::testAnonymousCannotReachCCTrayIfNotGranted",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::setUp",
       "type": "CONTAINS"
@@ -6429,6 +7564,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::tearDown",
       "type": "CONTAINS"
@@ -6436,6 +7576,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::tearDown",
       "target": "api:AutoCloseable.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::tearDown",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6544,6 +7689,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::testTokenSerialization",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::after",
       "type": "CONTAINS"
@@ -6551,6 +7701,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::after",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::clearCaches",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubAuthenticationTokenTest.java::after",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6620,12 +7775,27 @@
     },
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::setUp",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::setUp",
       "target": "api:org.mockito.MockitoAnnotations.openMocks",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6636,6 +7806,11 @@
     {
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::tearDown",
       "target": "api:AutoCloseable.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::tearDown",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6729,6 +7904,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::testGetGitHubText_gh",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java",
       "target": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::testGetGitHubText_ghe",
       "type": "CONTAINS"
@@ -6757,6 +7937,26 @@
       "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::testGetGitHubText_ghe",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubText",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/GithubLogoutActionTest.java::testGetGitHubText_ghe",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java",
+      "target": "function:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java::<class>",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Ignore.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/jenkinsci/plugins/api/GihubAPITest.java",
@@ -7064,6 +8264,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::contains",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::retrieve",
       "type": "CONTAINS"
@@ -7104,6 +8314,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::retrieve",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::retrieve",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::put",
       "type": "CONTAINS"
@@ -7127,6 +8347,11 @@
       "source": "api:hudson.model.User.addProperty",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecretStorage.java::put",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
@@ -7259,6 +8484,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::hasPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::isInWhitelistedOrgs",
       "type": "CONTAINS"
@@ -7266,6 +8496,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::isInWhitelistedOrgs",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isMemberOfAnyOrganizationInList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::isInWhitelistedOrgs",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7369,6 +8604,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::requestURI",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::testBuildPermission",
       "type": "CONTAINS"
@@ -7389,6 +8634,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::testBuildPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::checkReadPermission",
       "type": "CONTAINS"
@@ -7404,6 +8654,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::checkReadPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::checkJobStatusPermission",
       "type": "CONTAINS"
@@ -7416,6 +8671,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::checkJobStatusPermission",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::checkJobStatusPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7509,6 +8769,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::getRepositoryName",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::GithubRequireOrganizationMembershipACL",
       "type": "CONTAINS"
@@ -7539,6 +8804,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::GithubRequireOrganizationMembershipACL",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::RepoRights",
       "type": "CONTAINS"
@@ -7561,6 +8846,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::RepoRights",
       "target": "api:org.kohsuke.github.GHRepository.isPrivate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::RepoRights",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7704,6 +8994,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::GithubAuthenticationToken",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::GithubAuthenticationToken",
+      "target": "api:org.acegisecurity.userdetails.UsernameNotFoundException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.acegisecurity.userdetails.UsernameNotFoundException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::GithubAuthenticationToken",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.UncheckedIOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::GithubAuthenticationToken",
+      "target": "api:org.acegisecurity.GrantedAuthorityImpl.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::clearCaches",
       "type": "CONTAINS"
@@ -7784,6 +9109,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getGitHub",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getGitHub",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.IOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getGitHub",
+      "target": "api:okhttp3.OkHttpClient.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:okhttp3.OkHttpClient.<init>",
+      "target": "dependency:com.squareup.okhttp3:okhttp",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getGitHub",
+      "target": "api:org.kohsuke.github.extras.okhttp3.OkHttpGitHubConnector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.github.extras.okhttp3.OkHttpGitHubConnector.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getProxy",
       "type": "CONTAINS"
@@ -7802,6 +9162,11 @@
       "source": "api:jenkins.proxy.createProxy",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getProxy",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
@@ -7859,6 +9224,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserOrgs",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserOrgs",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserOrgs",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isMemberOfAnyOrganizationInList",
       "type": "CONTAINS"
@@ -7877,6 +9257,11 @@
       "source": "api:java.util.Set.contains",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isMemberOfAnyOrganizationInList",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
@@ -7934,6 +9319,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::hasRepositoryPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isReadRelatedPermission",
       "type": "CONTAINS"
@@ -7941,6 +9331,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isReadRelatedPermission",
       "target": "api:hudson.security.Permission.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::isReadRelatedPermission",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8014,6 +9409,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::myRepositories",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::myRepositories",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::myRepositories",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadUser",
       "type": "CONTAINS"
@@ -8059,6 +9469,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadUser",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadUser",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadMyself",
       "type": "CONTAINS"
@@ -8099,6 +9519,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadMyself",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadOrganization",
       "type": "CONTAINS"
@@ -8126,6 +9551,16 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadOrganization",
       "target": "api:e.getMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadOrganization",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadOrganization",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8179,6 +9614,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadRepository",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadRepository",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadRepository",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadTeam",
       "type": "CONTAINS"
@@ -8219,6 +9669,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadTeam",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::loadTeam",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserDetails",
       "type": "CONTAINS"
@@ -8239,6 +9699,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserDetails",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getUserDetails",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubOAuthGroupDetails.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthGroupDetails.java::GithubOAuthGroupDetails",
       "type": "CONTAINS"
@@ -8252,6 +9722,11 @@
       "source": "api:org.kohsuke.github.GHTeam.getOrganization",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthGroupDetails.java::GithubOAuthGroupDetails",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubOAuthGroupDetails.java",
@@ -8325,6 +9800,21 @@
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubURL",
       "type": "CONTAINS"
     },
@@ -8342,6 +9832,16 @@
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubURL",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getGithubWebUri",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubURL",
+      "target": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java",
@@ -8364,6 +9864,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubLogoutAction.java::getGitHubText",
+      "target": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::<class>",
+      "target": "api:java.security.SecureRandom.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.security.SecureRandom.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::GithubSecurityRealm",
       "type": "CONTAINS"
@@ -8382,6 +9902,16 @@
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::GithubSecurityRealm",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::setClientSecret",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::GithubSecurityRealm",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
@@ -8629,6 +10159,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::setValue",
+      "target": "api:com.thoughtworks.xstream.converters.ConversionException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.thoughtworks.xstream.converters.ConversionException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getGithubUri",
       "type": "CONTAINS"
@@ -8730,6 +10270,41 @@
     },
     {
       "source": "api:hudson.Util.join",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doCommenceLogin",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doCommenceLogin",
+      "target": "api:org.kohsuke.stapler.Header.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.Header.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doCommenceLogin",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doCommenceLogin",
+      "target": "api:org.kohsuke.stapler.HttpRedirect.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.HttpRedirect.<init>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -8964,6 +10539,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::doFinishLogin",
+      "target": "api:hudson.tasks.Mailer.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.tasks.Mailer.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getAccessToken",
       "type": "CONTAINS"
@@ -9036,6 +10621,26 @@
     {
       "source": "api:part.split",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getAccessToken",
+      "target": "api:edu.umd.cs.findbugs.annotations.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getAccessToken",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getAccessToken",
+      "target": "api:org.apache.http.client.methods.HttpPost.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.http.client.methods.HttpPost.<init>",
+      "target": "dependency:org.apache.httpcomponents:httpclient",
       "type": "PROVIDED_BY"
     },
     {
@@ -9194,6 +10799,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::configureClientWithProxy",
+      "target": "api:org.apache.http.impl.client.BasicCredentialsProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.http.impl.client.BasicCredentialsProvider.<init>",
+      "target": "dependency:org.apache.httpcomponents:httpclient",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::configureClientWithProxy",
+      "target": "api:org.apache.http.auth.AuthScope.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.http.auth.AuthScope.<init>",
+      "target": "dependency:org.apache.httpcomponents:httpclient",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::configureClientWithProxy",
+      "target": "api:org.apache.http.auth.UsernamePasswordCredentials.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.http.auth.UsernamePasswordCredentials.<init>",
+      "target": "dependency:org.apache.httpcomponents:httpclient",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getSecureRandomString",
       "type": "CONTAINS"
@@ -9304,6 +10939,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::getProxy",
+      "target": "api:org.apache.http.HttpHost.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.http.HttpHost.<init>",
+      "target": "dependency:org.apache.httpcomponents:httpclient",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::createSecurityComponents",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::createSecurityComponents",
+      "target": "api:org.acegisecurity.AuthenticationManager.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.acegisecurity.AuthenticationManager.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::authenticate",
       "type": "CONTAINS"
@@ -9367,6 +11027,16 @@
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::authenticate",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthenticationToken.java::getAuthorities",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::authenticate",
+      "target": "api:org.acegisecurity.BadCredentialsException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.acegisecurity.BadCredentialsException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::authenticate",
@@ -9474,6 +11144,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadUserByUsername",
+      "target": "api:org.acegisecurity.userdetails.UsernameNotFoundException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadUserByUsername",
+      "target": "api:hudson.security.UserMayOrMayNotExistException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.security.UserMayOrMayNotExistException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadUserByUsername",
+      "target": "api:org.springframework.dao.DataRetrievalFailureException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.dao.DataRetrievalFailureException.<init>",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::equals",
       "type": "CONTAINS"
@@ -9549,6 +11244,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadGroupByGroupname",
       "type": "CONTAINS"
@@ -9609,6 +11314,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadGroupByGroupname",
+      "target": "api:org.acegisecurity.userdetails.UsernameNotFoundException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::loadGroupByGroupname",
+      "target": "api:org.springframework.dao.DataRetrievalFailureException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubSecurityRealm.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::GithubAuthorizationStrategy",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::GithubAuthorizationStrategy",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getRootACL",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getRootACL",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getACL",
       "type": "CONTAINS"
@@ -9621,6 +11361,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getACL",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubRequireOrganizationMembershipACL.java::cloneForProject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getACL",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9641,6 +11386,11 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getGroups",
       "target": "api:java.util.Collections.emptyList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::getGroups",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9824,6 +11574,16 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAuthorizationStrategy.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java::authenticate",
       "type": "CONTAINS"
@@ -9919,6 +11679,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java::authenticate",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/JenkinsProxyAuthenticator.java::authenticate",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java",
       "target": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::GithubAccessTokenProperty",
       "type": "CONTAINS"
@@ -9926,6 +11696,56 @@
     {
       "source": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::GithubAccessTokenProperty",
       "target": "api:hudson.util.Secret.fromString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::getAccessToken",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::getAccessToken",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubAccessTokenProperty.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.Symbol.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java",
+      "target": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::GithubOAuthUserDetails",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/jenkinsci/plugins/GithubOAuthUserDetails.java::GithubOAuthUserDetails",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {

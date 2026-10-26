@@ -122,6 +122,16 @@
       "name": "run"
     },
     {
+      "id": "api:org.openjdk.jmh.runner.options.OptionsBuilder.<init>",
+      "type": "API",
+      "name": "org.openjdk.jmh.runner.options.OptionsBuilder.<init>"
+    },
+    {
+      "id": "api:org.openjdk.jmh.runner.Runner.<init>",
+      "type": "API",
+      "name": "org.openjdk.jmh.runner.Runner.<init>"
+    },
+    {
       "id": "function:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java::tearDown",
       "type": "FUNCTION",
       "name": "tearDown"
@@ -137,6 +147,31 @@
       "name": "src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java"
     },
     {
+      "id": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.extension.ExtendWith.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:org.mockito.Mock.<annotation>",
+      "type": "API",
+      "name": "org.mockito.Mock.<annotation>"
+    },
+    {
+      "id": "dependency:org.mockito:mockito-core",
+      "type": "DEPENDENCY",
+      "name": "org.mockito:mockito-core"
+    },
+    {
       "id": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::setup",
       "type": "FUNCTION",
       "name": "setup"
@@ -145,11 +180,6 @@
       "id": "api:org.mockito.Mockito.when",
       "type": "API",
       "name": "org.mockito.Mockito.when"
-    },
-    {
-      "id": "dependency:org.mockito:mockito-core",
-      "type": "DEPENDENCY",
-      "name": "org.mockito:mockito-core"
     },
     {
       "id": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::thenReturn",
@@ -165,6 +195,11 @@
       "id": "dependency:io.dropwizard:dropwizard-core",
       "type": "DEPENDENCY",
       "name": "io.dropwizard:dropwizard-core"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeEach.<annotation>"
     },
     {
       "id": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthy",
@@ -252,6 +287,21 @@
       "name": "org.hamcrest.Matchers.hasSize"
     },
     {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "api:java.util.TreeMap.<init>",
+      "type": "API",
+      "name": "java.util.TreeMap.<init>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
       "id": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
       "type": "FUNCTION",
       "name": "checkHealthCheck_isHealthy"
@@ -270,6 +320,21 @@
       "id": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "type": "FILE",
       "name": "src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java"
+    },
+    {
+      "id": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:io.dropwizard.testing.junit5.DropwizardAppExtension.<init>",
+      "type": "API",
+      "name": "io.dropwizard.testing.junit5.DropwizardAppExtension.<init>"
+    },
+    {
+      "id": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "DEPENDENCY",
+      "name": "io.dropwizard:dropwizard-testing"
     },
     {
       "id": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindDiscoverCardInformation",
@@ -387,9 +452,19 @@
       "name": "src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java"
     },
     {
+      "id": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::tearDown",
       "type": "FUNCTION",
       "name": "tearDown"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterEach.<annotation>"
     },
     {
       "id": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldUseLoadersToInitialiseData",
@@ -467,11 +542,6 @@
       "name": "org.junit.jupiter.api.Assertions.assertTrue"
     },
     {
-      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
-      "type": "DEPENDENCY",
-      "name": "org.junit.jupiter:junit-jupiter-api"
-    },
-    {
       "id": "api:java.util.Optional.get",
       "type": "API",
       "name": "java.util.Optional.get"
@@ -535,6 +605,11 @@
       "id": "api:org.mockito.Mockito.verifyNoInteractions",
       "type": "API",
       "name": "org.mockito.Mockito.verifyNoInteractions"
+    },
+    {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
     },
     {
       "id": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadBinRangeDataAsCardInformationFromURL",
@@ -687,6 +762,11 @@
       "name": "src/test/java/uk/gov/pay/card/service/CardServiceTest.java"
     },
     {
+      "id": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::testShortCardNumber",
       "type": "FUNCTION",
       "name": "testShortCardNumber"
@@ -777,6 +857,16 @@
       "name": "registerSubtypes"
     },
     {
+      "id": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "type": "API",
+      "name": "io.dropwizard.configuration.SubstitutingSourceProvider.<init>"
+    },
+    {
+      "id": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "type": "API",
+      "name": "io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>"
+    },
+    {
       "id": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialiseCardInformationStore",
       "type": "FUNCTION",
       "name": "initialiseCardInformationStore"
@@ -832,6 +922,21 @@
       "name": "java.util.EnumSet.of"
     },
     {
+      "id": "api:com.codahale.metrics.health.HealthCheck.<init>",
+      "type": "API",
+      "name": "com.codahale.metrics.health.HealthCheck.<init>"
+    },
+    {
+      "id": "api:uk.gov.service.payments.logging.LoggingFilter.<init>",
+      "type": "API",
+      "name": "uk.gov.service.payments.logging.LoggingFilter.<init>"
+    },
+    {
+      "id": "dependency:uk.gov.service.payments:logging",
+      "type": "DEPENDENCY",
+      "name": "uk.gov.service.payments:logging"
+    },
+    {
       "id": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::check",
       "type": "FUNCTION",
       "name": "check"
@@ -882,6 +987,11 @@
       "name": "start"
     },
     {
+      "id": "api:com.codahale.metrics.graphite.GraphiteUDP.<init>",
+      "type": "API",
+      "name": "com.codahale.metrics.graphite.GraphiteUDP.<init>"
+    },
+    {
       "id": "api:java.util.List.of",
       "type": "API",
       "name": "java.util.List.of"
@@ -912,9 +1022,29 @@
       "name": "src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java"
     },
     {
+      "id": "function:src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "API",
+      "name": "javax.validation.constraints.NotNull.<annotation>"
+    },
+    {
       "id": "file:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java",
       "type": "FILE",
       "name": "src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java"
+    },
+    {
+      "id": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.ws.rs.Path.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Path.<annotation>"
     },
     {
       "id": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::runHealthChecks",
@@ -987,6 +1117,16 @@
       "name": "build"
     },
     {
+      "id": "api:javax.ws.rs.GET.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.GET.<annotation>"
+    },
+    {
+      "id": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Produces.<annotation>"
+    },
+    {
       "id": "api:java.util.Collection.stream",
       "type": "API",
       "name": "java.util.Collection.stream"
@@ -1000,6 +1140,11 @@
       "id": "file:src/main/java/uk/gov/pay/card/resources/CardIdResource.java",
       "type": "FILE",
       "name": "src/main/java/uk/gov/pay/card/resources/CardIdResource.java"
+    },
+    {
+      "id": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
@@ -1042,6 +1187,21 @@
       "name": "getCardNumber"
     },
     {
+      "id": "api:javax.ws.rs.POST.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.POST.<annotation>"
+    },
+    {
+      "id": "api:javax.ws.rs.Consumes.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Consumes.<annotation>"
+    },
+    {
+      "id": "api:javax.validation.Valid.<annotation>",
+      "type": "API",
+      "name": "javax.validation.Valid.<annotation>"
+    },
+    {
       "id": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::newCardInformationResponse",
       "type": "FUNCTION",
       "name": "newCardInformationResponse"
@@ -1050,6 +1210,36 @@
       "id": "file:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java",
       "type": "FILE",
       "name": "src/main/java/uk/gov/pay/card/model/CardInformationRequest.java"
+    },
+    {
+      "id": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonProperty.<annotation>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-annotations"
+    },
+    {
+      "id": "api:org.hibernate.validator.constraints.NotEmpty.<annotation>",
+      "type": "API",
+      "name": "org.hibernate.validator.constraints.NotEmpty.<annotation>"
+    },
+    {
+      "id": "dependency:org.hibernate:hibernate-core",
+      "type": "DEPENDENCY",
+      "name": "org.hibernate:hibernate-core"
+    },
+    {
+      "id": "api:javax.validation.constraints.Size.<annotation>",
+      "type": "API",
+      "name": "javax.validation.constraints.Size.<annotation>"
     },
     {
       "id": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::toString",
@@ -1075,6 +1265,11 @@
       "id": "file:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java",
       "type": "FILE",
       "name": "src/main/java/uk/gov/pay/card/model/CardInformationResponse.java"
+    },
+    {
+      "id": "function:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java::CardInformationResponse",
@@ -1180,6 +1375,11 @@
       "id": "api:com.google.common.collect.TreeRangeSet.create",
       "type": "API",
       "name": "com.google.common.collect.TreeRangeSet.create"
+    },
+    {
+      "id": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.ConcurrentHashMap.<init>"
     },
     {
       "id": "function:src/main/java/uk/gov/pay/card/db/RangeSetCardInformationStore.java::initialiseCardInformation",
@@ -1367,6 +1567,21 @@
       "name": "java.net.URL.toString"
     },
     {
+      "id": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicLong.<init>"
+    },
+    {
+      "id": "api:java.io.BufferedReader.<init>",
+      "type": "API",
+      "name": "java.io.BufferedReader.<init>"
+    },
+    {
+      "id": "api:java.io.InputStreamReader.<init>",
+      "type": "API",
+      "name": "java.io.InputStreamReader.<init>"
+    },
+    {
       "id": "file:src/main/java/uk/gov/pay/card/service/CardService.java",
       "type": "FILE",
       "name": "src/main/java/uk/gov/pay/card/service/CardService.java"
@@ -1499,6 +1714,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java::main",
+      "target": "api:org.openjdk.jmh.runner.options.OptionsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.openjdk.jmh.runner.options.OptionsBuilder.<init>",
+      "target": "dependency:org.openjdk.jmh:jmh-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java::main",
+      "target": "api:org.openjdk.jmh.runner.Runner.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.openjdk.jmh.runner.Runner.<init>",
+      "target": "dependency:org.openjdk.jmh:jmh-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java",
       "target": "function:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java::tearDown",
       "type": "CONTAINS"
@@ -1507,6 +1742,31 @@
       "source": "function:src/test/java/uk/gov/pay/card/bench/RangeSetCardInformationStoreBenchmark.java::tearDown",
       "target": "function:src/main/java/uk/gov/pay/card/db/CardInformationStore.java::destroy",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java",
+      "target": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mock.<annotation>",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java",
@@ -1536,6 +1796,16 @@
     {
       "source": "api:io.dropwizard.setup.Environment.healthChecks",
       "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::setup",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -1669,6 +1939,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthy",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthy",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.TreeMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthy",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
       "type": "CONTAINS"
@@ -1751,6 +2051,21 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
       "target": "api:org.hamcrest.Matchers.hasSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isHealthy",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -1839,6 +2154,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthyIfPartiallyHealthy",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthyIfPartiallyHealthy",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/resources/HealthCheckResourceTest.java::checkHealthCheck_isUnHealthyIfPartiallyHealthy",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
+      "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::<class>",
+      "target": "api:io.dropwizard.testing.junit5.DropwizardAppExtension.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.junit5.DropwizardAppExtension.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindDiscoverCardInformation",
       "type": "CONTAINS"
@@ -1866,6 +2216,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindDiscoverCardInformation",
       "target": "api:org.hamcrest.core.Is.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindDiscoverCardInformation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1899,6 +2254,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindTestCardInformation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindWorldpayCardInformation",
       "type": "CONTAINS"
@@ -1926,6 +2286,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindWorldpayCardInformation",
       "target": "api:org.hamcrest.core.Is.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindWorldpayCardInformation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1959,6 +2324,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindAmexCardInformation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindMastercardCreditCorporateCardInformation",
       "type": "CONTAINS"
@@ -1986,6 +2356,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindMastercardCreditCorporateCardInformation",
       "target": "api:org.hamcrest.core.Is.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindMastercardCreditCorporateCardInformation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2019,6 +2394,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldFindPrepaidCard",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn404WhenCardInformationNotFound",
       "type": "CONTAINS"
@@ -2031,6 +2411,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn404WhenCardInformationNotFound",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::statusCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn404WhenCardInformationNotFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2049,6 +2434,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenCardNumberIsTooSmall",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenCardNumberIsTooBig",
       "type": "CONTAINS"
@@ -2061,6 +2451,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenCardNumberIsTooBig",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::statusCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenCardNumberIsTooBig",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2090,7 +2485,7 @@
     },
     {
       "source": "api:io.dropwizard.testing.junit5.DropwizardAppExtension.getLocalPort",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
@@ -2121,6 +2516,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenJSONIsEmpty",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::statusCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenJSONIsEmpty",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2171,6 +2571,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenJSONIsMissing",
       "target": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::statusCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/it/resources/CardIdResourceITest.java::shouldReturn422WhenJSONIsMissing",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2230,6 +2635,16 @@
     },
     {
       "source": "file:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java",
+      "target": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::tearDown",
       "type": "CONTAINS"
     },
@@ -2237,6 +2652,16 @@
       "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::tearDown",
       "target": "function:src/main/java/uk/gov/pay/card/db/CardInformationStore.java::destroy",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::tearDown",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java",
@@ -2276,6 +2701,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldUseLoadersToInitialiseData",
       "target": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::loadDataTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldUseLoadersToInitialiseData",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2356,6 +2786,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldFindCorporateCreditCardType",
       "target": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::isCorporate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldFindCorporateCreditCardType",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2449,6 +2884,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/RangeSetCardInformationStoreTest.java::shouldFindCardInformationForCardIdPrefix",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadWorldpayBinRangesFromURL",
       "type": "CONTAINS"
@@ -2509,6 +2949,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadWorldpayBinRangesFromURL",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadDiscoverBinRangesFromURL",
       "type": "CONTAINS"
@@ -2559,6 +3004,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadDiscoverBinRangesFromURL",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldThrowExceptionWhenURLDoesNotExist",
       "type": "CONTAINS"
@@ -2596,6 +3046,21 @@
     {
       "source": "api:org.mockito.Mockito.verifyNoInteractions",
       "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldThrowExceptionWhenURLDoesNotExist",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldThrowExceptionWhenURLDoesNotExist",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -2639,6 +3104,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeDataLoaderTest.java::shouldLoadBinRangeDataAsCardInformationFromURL",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformJcbBrand",
       "type": "CONTAINS"
@@ -2664,6 +3134,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformJcbBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersBrand",
       "type": "CONTAINS"
@@ -2681,6 +3156,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2704,6 +3184,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMaestroBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformUnionPayBrand",
       "type": "CONTAINS"
@@ -2721,6 +3206,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformUnionPayBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformUnionPayBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2744,6 +3234,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformAmexBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersClubBrand",
       "type": "CONTAINS"
@@ -2761,6 +3256,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersClubBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformDinersClubBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2784,6 +3284,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMastercardBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMCIDebitMastercardBrand",
       "type": "CONTAINS"
@@ -2801,6 +3306,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMCIDebitMastercardBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMCIDebitMastercardBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2824,6 +3334,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformMCICreditMastercardBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaCreditBrand",
       "type": "CONTAINS"
@@ -2841,6 +3356,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaCreditBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaCreditBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2864,6 +3384,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaDebitBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaElectronBrand",
       "type": "CONTAINS"
@@ -2881,6 +3406,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaElectronBrand",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformVisaElectronBrand",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2904,6 +3434,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformTypeValueOfPToCardTypeOfDebit",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformTypeValueOfPToPrepaidStatusOfPrepaid",
       "type": "CONTAINS"
@@ -2921,6 +3456,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformTypeValueOfPToPrepaidStatusOfPrepaid",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformTypeValueOfPToPrepaidStatusOfPrepaid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2944,6 +3484,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldTransformCardValueOfNotCToPrepaidStatusOfNotPrepaid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldFindCardClass",
       "type": "CONTAINS"
@@ -2961,6 +3506,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldFindCardClass",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldFindCardClass",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2999,6 +3549,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldThrowNullPointerException_WhenNullValuePassed_forCardClass",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldThrowIllegalArgumentException_WhenInvalidValuePassed_forCardClass",
       "type": "CONTAINS"
@@ -3029,6 +3584,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldThrowIllegalArgumentException_WhenInvalidValuePassed_forCardClass",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldCalculateCardInformationMinForCardRangeLengthOf11",
       "type": "CONTAINS"
@@ -3049,6 +3609,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldCalculateCardInformationMinForCardRangeLengthOf11",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldCalculateCardInformationMaxForCardRangeLengthOf11",
       "type": "CONTAINS"
@@ -3066,6 +3631,26 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldCalculateCardInformationMaxForCardRangeLengthOf11",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/db/loader/BinRangeParserTest.java::shouldCalculateCardInformationMaxForCardRangeLengthOf11",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/uk/gov/pay/card/service/CardServiceTest.java",
+      "target": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3114,6 +3699,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::testShortCardNumber",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/service/CardServiceTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::test11DigitCardNumber",
       "type": "CONTAINS"
@@ -3154,6 +3744,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::test11DigitCardNumber",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/uk/gov/pay/card/service/CardServiceTest.java",
       "target": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::test12DigitCardNumberIsTruncated",
       "type": "CONTAINS"
@@ -3191,6 +3786,11 @@
     {
       "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::test12DigitCardNumberIsTruncated",
       "target": "api:org.hamcrest.core.Is.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/uk/gov/pay/card/service/CardServiceTest.java::test12DigitCardNumberIsTruncated",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3267,6 +3867,26 @@
       "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialize",
       "target": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::registerSubtypes",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialize",
+      "target": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialize",
+      "target": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/uk/gov/pay/card/app/CardApi.java",
@@ -3359,6 +3979,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::run",
+      "target": "api:com.codahale.metrics.health.HealthCheck.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.codahale.metrics.health.HealthCheck.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::run",
+      "target": "api:uk.gov.service.payments.logging.LoggingFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:uk.gov.service.payments.logging.LoggingFilter.<init>",
+      "target": "dependency:uk.gov.service.payments:logging",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/uk/gov/pay/card/app/CardApi.java",
       "target": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::check",
       "type": "CONTAINS"
@@ -3439,6 +4079,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialiseMetrics",
+      "target": "api:com.codahale.metrics.graphite.GraphiteUDP.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.codahale.metrics.graphite.GraphiteUDP.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/uk/gov/pay/card/app/CardApi.java",
       "target": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialiseCardInformationStore",
       "type": "CONTAINS"
@@ -3482,6 +4132,36 @@
       "source": "function:src/main/java/uk/gov/pay/card/app/CardApi.java::initialiseCardInformationStore",
       "target": "function:src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java::getTestCardDataLocation",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java",
+      "target": "function:src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/app/config/CardConfiguration.java::<class>",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.constraints.NotNull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java",
+      "target": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Path.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java",
@@ -3589,6 +4269,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::healthCheck",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.GET.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::healthCheck",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::healthCheck",
+      "target": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Produces.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java",
       "target": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::allHealthy",
       "type": "CONTAINS"
@@ -3606,6 +4311,16 @@
     {
       "source": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::allHealthy",
       "target": "function:src/main/java/uk/gov/pay/card/resources/HealthCheckResource.java::allMatch",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/uk/gov/pay/card/resources/CardIdResource.java",
+      "target": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3654,6 +4369,51 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.POST.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.ws.rs.Consumes.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Consumes.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::cardInformation",
+      "target": "api:javax.validation.Valid.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.Valid.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/uk/gov/pay/card/resources/CardIdResource.java",
       "target": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::newCardInformationResponse",
       "type": "CONTAINS"
@@ -3662,6 +4422,41 @@
       "source": "function:src/main/java/uk/gov/pay/card/resources/CardIdResource.java::newCardInformationResponse",
       "target": "api:org.slf4j.Logger.info",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java",
+      "target": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::<class>",
+      "target": "api:org.hibernate.validator.constraints.NotEmpty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.hibernate.validator.constraints.NotEmpty.<annotation>",
+      "target": "dependency:org.hibernate:hibernate-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java::<class>",
+      "target": "api:javax.validation.constraints.Size.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.constraints.Size.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/uk/gov/pay/card/model/CardInformationRequest.java",
@@ -3691,6 +4486,16 @@
     {
       "source": "function:src/main/java/uk/gov/pay/card/model/CardType.java::of",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java",
+      "target": "function:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/model/CardInformationResponse.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3816,6 +4621,16 @@
     {
       "source": "api:com.google.common.collect.TreeRangeSet.create",
       "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/db/RangeSetCardInformationStore.java::RangeSetCardInformationStore",
+      "target": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -4170,6 +4985,36 @@
     },
     {
       "source": "api:java.net.URL.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/db/loader/BinRangeDataLoader.java::loadDataTo",
+      "target": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/db/loader/BinRangeDataLoader.java::loadDataTo",
+      "target": "api:java.io.BufferedReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.BufferedReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/uk/gov/pay/card/db/loader/BinRangeDataLoader.java::loadDataTo",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.InputStreamReader.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },

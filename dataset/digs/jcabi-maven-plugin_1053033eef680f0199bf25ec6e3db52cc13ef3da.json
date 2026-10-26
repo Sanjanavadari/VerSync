@@ -17,6 +17,21 @@
       "name": "execute"
     },
     {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Disabled.<annotation>"
+    },
+    {
       "id": "file:src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java"
@@ -202,6 +217,11 @@
       "name": "org.hamcrest.Matchers.equalTo"
     },
     {
+      "id": "api:org.junit.jupiter.api.io.TempDir.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.io.TempDir.<annotation>"
+    },
+    {
       "id": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java"
@@ -217,9 +237,19 @@
       "name": "deleteResourceDirs"
     },
     {
+      "id": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeEach.<annotation>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanAfter",
       "type": "FUNCTION",
       "name": "cleanAfter"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterEach.<annotation>"
     },
     {
       "id": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenClasses",
@@ -242,6 +272,11 @@
       "name": "org.hamcrest.Matchers.is"
     },
     {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
       "id": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenTestClasses",
       "type": "FUNCTION",
       "name": "copiesUnwovenTestClasses"
@@ -255,6 +290,16 @@
       "id": "file:src/test/java/com/jcabi/maven/plugin/Mojo.java",
       "type": "FILE",
       "name": "src/test/java/com/jcabi/maven/plugin/Mojo.java"
+    },
+    {
+      "id": "function:src/test/java/com/jcabi/maven/plugin/Mojo.java::Mojo",
+      "type": "FUNCTION",
+      "name": "Mojo"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
     },
     {
       "id": "function:src/test/java/com/jcabi/maven/plugin/Mojo.java::with",
@@ -362,6 +407,16 @@
       "name": "lombokAnnotationsWork"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
       "id": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "type": "FUNCTION",
       "name": "aspectjAnnotationsWork"
@@ -375,6 +430,31 @@
       "id": "file:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java",
       "type": "FILE",
       "name": "src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java"
+    },
+    {
+      "id": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "API",
+      "name": "lombok.EqualsAndHashCode.<annotation>"
+    },
+    {
+      "id": "dependency:org.projectlombok:lombok",
+      "type": "DEPENDENCY",
+      "name": "org.projectlombok:lombok"
+    },
+    {
+      "id": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "FUNCTION",
+      "name": "notNull"
+    },
+    {
+      "id": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "API",
+      "name": "javax.validation.constraints.NotNull.<annotation>"
     },
     {
       "id": "file:src/it/versionalize/src/main/java/com/jcabi/foo/Sample.java",
@@ -402,6 +482,16 @@
       "name": "src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java"
     },
     {
+      "id": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "FUNCTION",
+      "name": "notNull"
+    },
+    {
       "id": "file:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java",
       "type": "FILE",
       "name": "src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java"
@@ -420,6 +510,16 @@
       "id": "file:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java",
       "type": "FILE",
       "name": "src/it/ajc/src/main/java/com/jcabi/foo/Sample.java"
+    },
+    {
+      "id": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "FUNCTION",
+      "name": "notNull"
     },
     {
       "id": "file:src/main/java/com/jcabi/maven/plugin/UnwovenClasses.java",
@@ -487,9 +587,24 @@
       "name": "ex.getMessage"
     },
     {
+      "id": "api:org.apache.maven.plugin.MojoFailureException.<init>",
+      "type": "API",
+      "name": "org.apache.maven.plugin.MojoFailureException.<init>"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "type": "API",
+      "name": "org.apache.maven.plugins.annotations.Parameter.<annotation>"
     },
     {
       "id": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::execute",
@@ -587,6 +702,11 @@
       "name": "java.lang.StringBuilder.toString"
     },
     {
+      "id": "api:java.util.Date.<init>",
+      "type": "API",
+      "name": "java.util.Date.<init>"
+    },
+    {
       "id": "api:org.apache.commons.io.FileUtils.listFilesAndDirs",
       "type": "API",
       "name": "org.apache.commons.io.FileUtils.listFilesAndDirs"
@@ -657,6 +777,11 @@
       "name": "getBytes"
     },
     {
+      "id": "api:org.apache.commons.io.filefilter.NotFileFilter.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.filefilter.NotFileFilter.<init>"
+    },
+    {
       "id": "api:java.lang.String.replaceAll",
       "type": "API",
       "name": "java.lang.String.replaceAll"
@@ -677,9 +802,29 @@
       "name": "file.getName"
     },
     {
+      "id": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.filefilter.WildcardFileFilter.<init>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "file:src/main/java/com/jcabi/maven/plugin/AjcMojo.java",
       "type": "FILE",
       "name": "src/main/java/com/jcabi/maven/plugin/AjcMojo.java"
+    },
+    {
+      "id": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.concurrent.CopyOnWriteArrayList.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.CopyOnWriteArrayList.<init>"
     },
     {
       "id": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::contextualize",
@@ -725,6 +870,11 @@
       "id": "api:org.apache.maven.artifact.handler.ArtifactHandler.getLanguage",
       "type": "API",
       "name": "org.apache.maven.artifact.handler.ArtifactHandler.getLanguage"
+    },
+    {
+      "id": "dependency:org.apache.maven:maven-artifact",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven:maven-artifact"
     },
     {
       "id": "api:com.jcabi.log.Logger.warn",
@@ -812,6 +962,11 @@
       "name": "org.aspectj.bridge.IMessageHolder.hasAnyMessage"
     },
     {
+      "id": "api:org.aspectj.tools.ajc.Main.<init>",
+      "type": "API",
+      "name": "org.aspectj.tools.ajc.Main.<init>"
+    },
+    {
       "id": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::scope",
       "type": "FUNCTION",
       "name": "scope"
@@ -840,6 +995,11 @@
       "id": "api:org.apache.maven.project.ProjectBuildingRequest.setProject",
       "type": "API",
       "name": "org.apache.maven.project.ProjectBuildingRequest.setProject"
+    },
+    {
+      "id": "dependency:org.apache.maven:maven-project",
+      "type": "DEPENDENCY",
+      "name": "org.apache.maven:maven-project"
     },
     {
       "id": "api:org.apache.maven.project.ProjectBuildingRequest.setRepositorySession",
@@ -875,6 +1035,16 @@
       "id": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::dependencies",
       "type": "FUNCTION",
       "name": "dependencies"
+    },
+    {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
+      "id": "api:org.apache.maven.project.DefaultProjectBuildingRequest.<init>",
+      "type": "API",
+      "name": "org.apache.maven.project.DefaultProjectBuildingRequest.<init>"
     },
     {
       "id": "api:org.apache.maven.shared.dependency.graph.DependencyNode.getArtifact",
@@ -1072,6 +1242,26 @@
       "source": "function:src/test/java/com/jcabi/maven/plugin/VersionalizeMojoTest.java::skipsExecutionWhenRequired",
       "target": "function:src/test/java/com/jcabi/maven/plugin/VersionalizeMojoTest.java::execute",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/VersionalizeMojoTest.java::skipsExecutionWhenRequired",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/VersionalizeMojoTest.java::skipsExecutionWhenRequired",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java",
@@ -1319,6 +1509,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java::testClassFilesWeaving",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java::testClassFilesWeaving",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/AjcMojoTest.java::testClassFilesWeaving",
+      "target": "api:org.junit.jupiter.api.io.TempDir.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.io.TempDir.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
       "target": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanBefore",
       "type": "CONTAINS"
@@ -1329,6 +1539,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanBefore",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
       "target": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanAfter",
       "type": "CONTAINS"
@@ -1337,6 +1557,16 @@
       "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanAfter",
       "target": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::deleteResourceDirs",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::cleanAfter",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
@@ -1369,6 +1599,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenClasses",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenClasses",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
       "target": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenTestClasses",
       "type": "CONTAINS"
@@ -1394,6 +1639,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenTestClasses",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::copiesUnwovenTestClasses",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java",
       "target": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::deleteResourceDirs",
       "type": "CONTAINS"
@@ -1406,6 +1661,26 @@
     {
       "source": "api:org.apache.commons.io.FileUtils.deleteDirectory",
       "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/UnwovenClassesTest.java::deleteResourceDirs",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/jcabi/maven/plugin/Mojo.java",
+      "target": "function:src/test/java/com/jcabi/maven/plugin/Mojo.java::Mojo",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/jcabi/maven/plugin/Mojo.java::Mojo",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -1554,6 +1829,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::lombokAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java",
       "target": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "type": "CONTAINS"
@@ -1562,6 +1847,41 @@
       "source": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "target": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::notNull",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.EqualsAndHashCode.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc_defaultCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.constraints.NotNull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java",
@@ -1579,6 +1899,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java::lombokAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java",
       "target": "function:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "type": "CONTAINS"
@@ -1586,6 +1911,31 @@
     {
       "source": "function:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "target": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::notNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/it/ajc_disableCopy/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc_disableCopy/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1604,6 +1954,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java::lombokAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java",
       "target": "function:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "type": "CONTAINS"
@@ -1611,6 +1966,31 @@
     {
       "source": "function:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
       "target": "function:src/it/ajc_defaultCopy/src/test/java/com/jcabi/foo/SampleTest.java::notNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/it/ajc/src/test/java/com/jcabi/foo/SampleTest.java::aspectjAnnotationsWork",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java",
+      "target": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/it/ajc/src/main/java/com/jcabi/foo/Sample.java::notNull",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1664,6 +2044,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/UnwovenClasses.java::copy",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/maven/plugin/UnwovenClasses.java",
       "target": "function:src/main/java/com/jcabi/maven/plugin/UnwovenClasses.java::copyContents",
       "type": "CONTAINS"
@@ -1701,6 +2086,31 @@
     {
       "source": "api:ex.getMessage",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/UnwovenClasses.java::copyContents",
+      "target": "api:org.apache.maven.plugin.MojoFailureException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugin.MojoFailureException.<init>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java",
+      "target": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::<class>",
+      "target": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "target": "dependency:org.apache.maven:maven-plugin-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -1766,6 +2176,16 @@
     {
       "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::execute",
       "target": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::versionalize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::execute",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::execute",
+      "target": "api:org.apache.maven.plugin.MojoFailureException.<init>",
       "type": "CALLS"
     },
     {
@@ -1842,6 +2262,21 @@
       "source": "api:java.lang.StringBuilder.toString",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::text",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Date.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::text",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java",
@@ -1974,6 +2409,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::versionalize",
+      "target": "api:org.apache.commons.io.filefilter.NotFileFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.filefilter.NotFileFilter.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::versionalize",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java",
       "target": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::cleanup",
       "type": "CONTAINS"
@@ -2021,6 +2471,46 @@
     {
       "source": "api:file.getName",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::files",
+      "target": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/VersionalizeMojo.java::files",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/jcabi/maven/plugin/AjcMojo.java",
+      "target": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::<class>",
+      "target": "api:org.apache.maven.plugins.annotations.Parameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::<class>",
+      "target": "api:java.util.concurrent.CopyOnWriteArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.CopyOnWriteArrayList.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -2080,7 +2570,7 @@
     },
     {
       "source": "api:org.apache.maven.artifact.handler.ArtifactHandler.getLanguage",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "target": "dependency:org.apache.maven:maven-artifact",
       "type": "PROVIDED_BY"
     },
     {
@@ -2219,6 +2709,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::executeAjc",
+      "target": "api:org.aspectj.tools.ajc.Main.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.aspectj.tools.ajc.Main.<init>",
+      "target": "dependency:org.aspectj:aspectjtools",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::executeAjc",
+      "target": "api:org.apache.maven.plugin.MojoFailureException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/maven/plugin/AjcMojo.java",
       "target": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::classpath",
       "type": "CONTAINS"
@@ -2260,7 +2765,7 @@
     },
     {
       "source": "api:org.apache.maven.project.ProjectBuildingRequest.setProject",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "target": "dependency:org.apache.maven:maven-project",
       "type": "PROVIDED_BY"
     },
     {
@@ -2270,7 +2775,7 @@
     },
     {
       "source": "api:org.apache.maven.project.ProjectBuildingRequest.setRepositorySession",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "target": "dependency:org.apache.maven:maven-project",
       "type": "PROVIDED_BY"
     },
     {
@@ -2319,6 +2824,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::classpath",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::classpath",
+      "target": "api:org.apache.maven.project.DefaultProjectBuildingRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.maven.project.DefaultProjectBuildingRequest.<init>",
+      "target": "dependency:org.apache.maven:maven-project",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/jcabi/maven/plugin/AjcMojo.java",
       "target": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::dependencies",
       "type": "CONTAINS"
@@ -2340,7 +2865,7 @@
     },
     {
       "source": "api:org.apache.maven.artifact.Artifact.getScope",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "target": "dependency:org.apache.maven:maven-artifact",
       "type": "PROVIDED_BY"
     },
     {
@@ -2360,7 +2885,7 @@
     },
     {
       "source": "api:org.apache.maven.artifact.Artifact.getFile",
-      "target": "dependency:org.apache.maven:maven-plugin-api",
+      "target": "dependency:org.apache.maven:maven-artifact",
       "type": "PROVIDED_BY"
     },
     {
@@ -2416,6 +2941,11 @@
     {
       "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::dependencies",
       "target": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::dependencies",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::dependencies",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {
@@ -2611,6 +3141,11 @@
     {
       "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::files",
       "target": "api:java.util.Collection.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/jcabi/maven/plugin/AjcMojo.java::files",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {

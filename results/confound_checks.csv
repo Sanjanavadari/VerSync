@@ -1,0 +1,18 @@
+check,group,value,n
+within_project_auc,LR SemVer (n=102),0.833,45
+within_project_auc,LR Graph (n=102),0.656,45
+within_project_auc,LR SemVer+Graph (n=102),0.922,45
+within_project_auc,RF SemVer+Graph (n=102),0.889,45
+within_project_auc,XGB SemVer+Graph (n=102),0.856,45
+within_project_auc,GNN impact-graph+SemVer,0.922,45
+artifact_kind,BREAKING/bump_docker_reproduction/bom/parent,5,
+artifact_kind,BREAKING/bump_docker_reproduction/library,40,
+artifact_kind,BREAKING/bump_docker_reproduction/maven-plugin,1,
+artifact_kind,BREAKING/bump_docker_reproduction/test-lib,5,
+artifact_kind,SAFE/bump_docker_reproduction/bom/parent,1,
+artifact_kind,SAFE/bump_docker_reproduction/library,6,
+artifact_kind,SAFE/bump_docker_reproduction/maven-plugin,1,
+artifact_kind,SAFE/github_ci/bom/parent,2,
+artifact_kind,SAFE/github_ci/library,29,
+artifact_kind,SAFE/github_ci/maven-plugin,12,
+artifact_kind,SAFE/github_ci/test-lib,2,

@@ -7,9 +7,34 @@
       "name": "src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "type": "API",
+      "name": "com.tngtech.archunit.junit.AnalyzeClasses.<annotation>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "type": "API",
+      "name": "com.tngtech.archunit.junit.ArchTest.<annotation>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java",
@@ -67,14 +92,24 @@
       "name": "edu.hm.hafner.util.FilteredLog.getInfoMessages"
     },
     {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
-    },
-    {
       "id": "api:edu.hm.hafner.util.FilteredLog.getErrorMessages",
       "type": "API",
       "name": "edu.hm.hafner.util.FilteredLog.getErrorMessages"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.FilteredLog.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForFirstDirectory",
@@ -135,6 +170,16 @@
       "id": "api:java.util.Optional.of",
       "type": "API",
       "name": "java.util.Optional.of"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.TestExtension.<annotation>"
     },
     {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java",
@@ -577,9 +622,19 @@
       "name": "hudson.model.ItemGroup.getFullName"
     },
     {
+      "id": "api:org.jenkinsci.plugins.workflow.job.WorkflowJob.<init>",
+      "type": "API",
+      "name": "org.jenkinsci.plugins.workflow.job.WorkflowJob.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerForPipelineWithNoScm",
       "type": "FUNCTION",
       "name": "shouldCreateNullBlamerForPipelineWithNoScm"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerIfNeitherProjectNorRootHaveScm",
@@ -1017,6 +1072,11 @@
       "name": "blame"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java"
@@ -1215,6 +1275,21 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setTargetBranch",
       "type": "FUNCTION",
       "name": "setTargetBranch"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::NullReferenceRecorder",
+      "type": "FUNCTION",
+      "name": "NullReferenceRecorder"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.VisibleForTesting.<annotation>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.util.JenkinsFacade.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::find",
@@ -1517,6 +1592,11 @@
       "name": "getAllJobs"
     },
     {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldValidateToOkIfEmpty",
       "type": "FUNCTION",
       "name": "shouldValidateToOkIfEmpty"
@@ -1645,6 +1725,16 @@
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.TreeStringBuilder.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldCreateEmptyCommit",
@@ -1847,6 +1937,11 @@
       "name": "io.jenkins.plugins.forensics.miner.ResultStubs.containsExactly"
     },
     {
+      "id": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.ChartModelConfiguration.<init>"
+    },
+    {
       "id": "api:io.jenkins.plugins.forensics.miner.ResultStubs.isEqualTo",
       "type": "API",
       "name": "io.jenkins.plugins.forensics.miner.ResultStubs.isEqualTo"
@@ -1905,6 +2000,11 @@
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics062",
@@ -2057,6 +2157,16 @@
       "name": "getDeletedLines"
     },
     {
+      "id": "api:edu.hm.hafner.echarts.Build.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.Build.<init>"
+    },
+    {
+      "id": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.BuildResult.<init>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java"
@@ -2105,6 +2215,21 @@
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldCorrectlyReturnWhetherTrendIsVisible",
@@ -2192,6 +2317,26 @@
       "name": "containsExactly"
     },
     {
+      "id": "api:org.junit.jupiter.params.ParameterizedTest.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.params.ParameterizedTest.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-params",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-params"
+    },
+    {
+      "id": "api:org.junit.jupiter.params.provider.ValueSource.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.params.provider.ValueSource.<annotation>"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::thenReturn",
       "type": "FUNCTION",
       "name": "thenReturn"
@@ -2215,11 +2360,6 @@
       "id": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString",
       "type": "API",
       "name": "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString"
-    },
-    {
-      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
-      "type": "DEPENDENCY",
-      "name": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java",
@@ -2335,6 +2475,11 @@
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::createSerializable",
@@ -2617,6 +2762,16 @@
       "name": "io.jenkins.plugins.forensics.assertions.Assertions.toJson"
     },
     {
+      "id": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.JacksonFacade.<init>"
+    },
+    {
+      "id": "api:edu.hm.hafner.echarts.PieChartModel.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.PieChartModel.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldGetFileDetailsViewInDynamic",
       "type": "FUNCTION",
       "name": "shouldGetFileDetailsViewInDynamic"
@@ -2657,6 +2812,11 @@
       "name": "io.jenkins.plugins.forensics.assertions.Assertions.times"
     },
     {
+      "id": "api:java.io.UncheckedIOException.<init>",
+      "type": "API",
+      "name": "java.io.UncheckedIOException.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowIOExceptionInGetDynamic",
       "type": "FUNCTION",
       "name": "shouldThrowIOExceptionInGetDynamic"
@@ -2685,6 +2845,11 @@
       "id": "api:java.util.function.Consumer.accept",
       "type": "API",
       "name": "java.util.function.Consumer.accept"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>"
     },
     {
       "id": "api:java.lang.String.hashCode",
@@ -2730,6 +2895,11 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::addAll",
       "type": "FUNCTION",
       "name": "addAll"
+    },
+    {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java",
@@ -3037,6 +3207,11 @@
       "name": "src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldCreateEmptyInstance",
       "type": "FUNCTION",
       "name": "shouldCreateEmptyInstance"
@@ -3165,6 +3340,11 @@
       "id": "api:org.assertj.core.api.Assertions.isEqualTo",
       "type": "API",
       "name": "org.assertj.core.api.Assertions.isEqualTo"
+    },
+    {
+      "id": "api:edu.hm.hafner.echarts.PieData.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.PieData.<init>"
     },
     {
       "id": "api:java.util.Set.add",
@@ -3322,6 +3502,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::Delta",
+      "type": "FUNCTION",
+      "name": "Delta"
+    },
+    {
       "id": "api:java.util.Map.containsKey",
       "type": "API",
       "name": "java.util.Map.containsKey"
@@ -3330,6 +3515,11 @@
       "id": "api:java.lang.String.format",
       "type": "API",
       "name": "java.lang.String.format"
+    },
+    {
+      "id": "api:java.util.NoSuchElementException.<init>",
+      "type": "API",
+      "name": "java.util.NoSuchElementException.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::equals",
@@ -3355,6 +3545,11 @@
       "id": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::FileChanges",
+      "type": "FUNCTION",
+      "name": "FileChanges"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::add",
@@ -3495,6 +3690,11 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::next",
       "type": "FUNCTION",
       "name": "next"
+    },
+    {
+      "id": "api:hudson.scm.NullSCM.<init>",
+      "type": "API",
+      "name": "hudson.scm.NullSCM.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::stream",
@@ -3677,6 +3877,21 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.PathUtil.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.PathUtil.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::readResolve",
       "type": "FUNCTION",
       "name": "readResolve"
@@ -3715,6 +3930,11 @@
       "id": "api:java.util.Objects.requireNonNull",
       "type": "API",
       "name": "java.util.Objects.requireNonNull"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.NonNull.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::getBlamesFor",
@@ -3787,6 +4007,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/blame/Blames.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::merge",
       "type": "FUNCTION",
       "name": "merge"
@@ -3837,6 +4062,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::mergeLine",
       "type": "FUNCTION",
       "name": "mergeLine"
@@ -3880,6 +4110,11 @@
       "id": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::getReferenceBuildLink",
@@ -3977,14 +4212,44 @@
       "name": "Messages.Messages_DisplayName"
     },
     {
+      "id": "api:io.jenkins.plugins.bootstrap5.MessagesViewModel.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.bootstrap5.MessagesViewModel.<init>"
+    },
+    {
+      "id": "dependency:io.jenkins.plugins:bootstrap5-api",
+      "type": "DEPENDENCY",
+      "name": "io.jenkins.plugins:bootstrap5-api"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::SimpleReferenceRecorder",
+      "type": "FUNCTION",
+      "name": "SimpleReferenceRecorder"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundConstructor.<annotation>"
+    },
+    {
       "id": "api:org.apache.commons.lang3.StringUtils.strip",
       "type": "API",
       "name": "org.apache.commons.lang3.StringUtils.strip"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundSetter.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::getReferenceJob",
@@ -4015,6 +4280,11 @@
       "id": "api:io.jenkins.plugins.util.LogHandler.log",
       "type": "API",
       "name": "io.jenkins.plugins.util.LogHandler.log"
+    },
+    {
+      "id": "api:io.jenkins.plugins.util.LogHandler.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.util.LogHandler.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::resolveReferenceJob",
@@ -4067,6 +4337,21 @@
       "name": "io.jenkins.plugins.util.JenkinsFacade.hasPermission"
     },
     {
+      "id": "api:org.kohsuke.stapler.verb.POST.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.verb.POST.<annotation>"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.AncestorInPath.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.AncestorInPath.<annotation>"
+    },
+    {
+      "id": "api:hudson.util.ComboBoxModel.<init>",
+      "type": "API",
+      "name": "hudson.util.ComboBoxModel.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doCheckReferenceJob",
       "type": "FUNCTION",
       "name": "doCheckReferenceJob"
@@ -4077,9 +4362,29 @@
       "name": "hudson.util.FormValidation.ok"
     },
     {
+      "id": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.QueryParameter.<annotation>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
+    },
+    {
+      "id": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "API",
+      "name": "org.jenkinsci.Symbol.<annotation>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setLatestBuildIfNotFound",
+      "type": "FUNCTION",
+      "name": "setLatestBuildIfNotFound"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setDefaultBranch",
@@ -4090,6 +4395,11 @@
       "id": "api:org.apache.commons.lang3.StringUtils.stripToEmpty",
       "type": "API",
       "name": "org.apache.commons.lang3.StringUtils.stripToEmpty"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setScm",
+      "type": "FUNCTION",
+      "name": "setScm"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::findReferenceJob",
@@ -4202,6 +4512,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::ReferenceJobModelValidation",
+      "type": "FUNCTION",
+      "name": "ReferenceJobModelValidation"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::isPresent",
       "type": "FUNCTION",
       "name": "isPresent"
@@ -4312,6 +4627,11 @@
       "name": "getClass"
     },
     {
+      "id": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.Generated.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::hashCode",
       "type": "FUNCTION",
       "name": "hashCode"
@@ -4330,6 +4650,11 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::getSimpleName",
       "type": "FUNCTION",
       "name": "getSimpleName"
+    },
+    {
+      "id": "api:java.util.StringJoiner.<init>",
+      "type": "API",
+      "name": "java.util.StringJoiner.<init>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMiner.java",
@@ -4397,6 +4722,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createIterator",
       "type": "FUNCTION",
       "name": "createIterator"
@@ -4432,6 +4762,16 @@
       "name": "findAny"
     },
     {
+      "id": "api:io.jenkins.plugins.echarts.BuildActionIterator.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.echarts.BuildActionIterator.<init>"
+    },
+    {
+      "id": "dependency:io.jenkins.plugins:echarts-api",
+      "type": "DEPENDENCY",
+      "name": "io.jenkins.plugins:echarts-api"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createChartModel",
       "type": "FUNCTION",
       "name": "createChartModel"
@@ -4450,6 +4790,11 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::getDisplayName",
       "type": "FUNCTION",
       "name": "getDisplayName"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::getIconFileName",
+      "type": "FUNCTION",
+      "name": "getIconFileName"
     },
     {
       "id": "api:edu.hm.hafner.echarts.ChartModelConfiguration.fromJson",
@@ -4492,6 +4837,11 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::toJson",
       "type": "FUNCTION",
       "name": "toJson"
@@ -4500,6 +4850,11 @@
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::createChartModel",
       "type": "FUNCTION",
       "name": "createChartModel"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::getChart",
@@ -4717,6 +5072,11 @@
       "name": "Messages.Table_Column_DeletedLines"
     },
     {
+      "id": "api:io.jenkins.plugins.datatables.TableColumn.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.datatables.TableColumn.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getRows",
       "type": "FUNCTION",
       "name": "getRows"
@@ -4787,6 +5147,16 @@
       "name": "edu.hm.hafner.echarts.LinesChartModel.addSeries"
     },
     {
+      "id": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.LinesChartModel.<init>"
+    },
+    {
+      "id": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.LineSeries.<init>"
+    },
+    {
       "id": "api:edu.hm.hafner.echarts.LinesDataSet.add",
       "type": "API",
       "name": "edu.hm.hafner.echarts.LinesDataSet.add"
@@ -4807,6 +5177,11 @@
       "name": "computeSeries"
     },
     {
+      "id": "api:edu.hm.hafner.echarts.LinesDataSet.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.echarts.LinesDataSet.<init>"
+    },
+    {
       "id": "api:fileStatistics.getCommits",
       "type": "API",
       "name": "fileStatistics.getCommits"
@@ -4825,6 +5200,21 @@
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::RepositoryMinerStep",
+      "type": "FUNCTION",
+      "name": "RepositoryMinerStep"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::readResolve",
+      "type": "FUNCTION",
+      "name": "readResolve"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::setScm",
+      "type": "FUNCTION",
+      "name": "setScm"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::perform",
@@ -4912,6 +5302,11 @@
       "name": "Messages.Step_Name"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilder.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilder.java"
@@ -4965,6 +5360,11 @@
       "id": "api:edu.hm.hafner.echarts.Palette.color",
       "type": "API",
       "name": "edu.hm.hafner.echarts.Palette.color"
+    },
+    {
+      "id": "api:java.util.TreeMap.<init>",
+      "type": "API",
+      "name": "java.util.TreeMap.<init>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java",
@@ -5027,6 +5427,11 @@
       "name": "resolve"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::readResolve",
+      "type": "FUNCTION",
+      "name": "readResolve"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::createProjectAction",
       "type": "FUNCTION",
       "name": "createProjectAction"
@@ -5060,6 +5465,11 @@
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::readResolve",
@@ -5227,6 +5637,16 @@
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::readResolve",
+      "type": "FUNCTION",
+      "name": "readResolve"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::getLinesOfCode",
       "type": "FUNCTION",
       "name": "getLinesOfCode"
@@ -5365,6 +5785,11 @@
       "id": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::hasReferenceBuild",
@@ -5654,6 +6079,46 @@
   ],
   "edges": [
     {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/PackageArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/PluginArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectNullDeltaCalculatorIfNoCalculatorIsFound",
       "type": "CONTAINS"
@@ -5739,6 +6204,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectNullDeltaCalculatorIfNoCalculatorIsFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectNullDeltaCalculatorIfNoCalculatorIsFound",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForFirstDirectory",
       "type": "CONTAINS"
@@ -5776,6 +6261,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForFirstDirectory",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForFirstDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForFirstDirectory",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -5841,6 +6336,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForSecondDirectory",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForSecondDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::shouldSelectDeltaCalculatorForSecondDirectory",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -5929,6 +6434,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactoryITest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java::testFileChangesGetter",
       "type": "CONTAINS"
@@ -5979,6 +6499,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java::testFileChangesGetter",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java::shouldObeyEqualsContract",
       "type": "CONTAINS"
@@ -6012,6 +6537,11 @@
       "source": "api:io.jenkins.plugins.forensics.assertions.Assertions.verify",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java::shouldObeyEqualsContract",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java",
@@ -6124,6 +6654,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/FileChangesTest.java::shouldAddChange",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::testDeltaGetters",
       "type": "CONTAINS"
@@ -6156,6 +6691,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::testDeltaGetters",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::getFileChangesMap",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::testDeltaGetters",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6202,6 +6742,11 @@
       "source": "api:io.jenkins.plugins.forensics.assertions.Assertions.withMessage",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::shouldThrowExceptionWhenGettingFileChangesWithUnknownFileId",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java",
@@ -6264,6 +6809,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::shouldAddFileChanges",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::shouldObeyEqualsContract",
       "type": "CONTAINS"
@@ -6281,6 +6831,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::shouldObeyEqualsContract",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/DeltaTest.java::shouldObeyEqualsContract",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6349,6 +6904,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldHaveWorkingGetters",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldInitializeChangedLinesPerDefault",
       "type": "CONTAINS"
@@ -6369,6 +6929,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldInitializeChangedLinesPerDefault",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldObeyEqualsContract",
       "type": "CONTAINS"
@@ -6386,6 +6951,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldObeyEqualsContract",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/delta/model/ChangeTest.java::shouldObeyEqualsContract",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6417,6 +6987,11 @@
       "source": "api:org.assertj.core.api.Assertions.mock",
       "target": "dependency:org.assertj:assertj-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerOnNullScm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java",
@@ -6471,6 +7046,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmOnGitScm",
       "target": "api:org.assertj.core.api.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmOnGitScm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6534,6 +7114,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmOnGitScmOnRoot",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForPipeline",
       "type": "CONTAINS"
@@ -6581,6 +7166,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForPipeline",
       "target": "api:org.assertj.core.api.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForPipeline",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6641,6 +7231,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForSCMTriggerItem",
       "target": "api:org.assertj.core.api.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForSCMTriggerItem",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6724,6 +7319,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldSkipDuplicateScms",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldFilterScms",
       "type": "CONTAINS"
@@ -6781,6 +7381,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldFilterScms",
       "target": "api:org.assertj.core.api.Assertions.getScms",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldFilterScms",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6851,6 +7456,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForPipelineWithFlowNode",
       "target": "api:org.assertj.core.api.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldResolveScmForPipelineWithFlowNode",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6954,6 +7564,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::createPipeline",
+      "target": "api:org.jenkinsci.plugins.workflow.job.WorkflowJob.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.plugins.workflow.job.WorkflowJob.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerForPipelineWithNoScm",
       "type": "CONTAINS"
@@ -6999,6 +7619,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerForPipelineWithNoScm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerForPipelineWithNoScm",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerIfNeitherProjectNorRootHaveScm",
       "type": "CONTAINS"
@@ -7036,6 +7671,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerIfNeitherProjectNorRootHaveScm",
       "target": "api:org.assertj.core.api.Assertions.isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/util/ScmResolverTest.java::shouldCreateNullBlamerIfNeitherProjectNorRootHaveScm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7184,6 +7824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldCreateEmptyInstance",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldAddBlamesOfSingleFile",
       "type": "CONTAINS"
@@ -7284,6 +7929,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldAddBlamesOfSingleFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldConcatenateWorkspacePath",
       "type": "CONTAINS"
@@ -7344,6 +7994,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldConcatenateWorkspacePath",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldAddBlamesOfTwoFiles",
       "type": "CONTAINS"
@@ -7361,6 +8016,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldAddBlamesOfTwoFiles",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::verifyBlamesOfTwoFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldAddBlamesOfTwoFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7386,6 +8046,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldMergeBlames",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::verifyBlamesOfTwoFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesTest.java::shouldMergeBlames",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7574,6 +8239,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldCreateEmptyInstance",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldCreateSingleBlame",
       "type": "CONTAINS"
@@ -7634,6 +8304,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldCreateSingleBlame",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldAddAdditionalLinesToRequest",
       "type": "CONTAINS"
@@ -7671,6 +8346,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldAddAdditionalLinesToRequest",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::getLines",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldAddAdditionalLinesToRequest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7739,6 +8419,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::shouldCreateTwoDifferentBlamerInput",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileLocationsTest.java::createSerializable",
       "type": "CONTAINS"
@@ -7764,6 +8449,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfWarnings520",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfForensics070",
       "type": "CONTAINS"
@@ -7779,6 +8469,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfForensics070",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfForensics062",
       "type": "CONTAINS"
@@ -7791,6 +8486,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfForensics062",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::read",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadBlamesOfForensics062",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7831,6 +8531,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadAndWriteBlames",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::assertThatBlamesAreCorrect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamesXmlStreamTest.java::shouldReadAndWriteBlames",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7951,6 +8656,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldCreateInstance",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::verifyDetails",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldCreateInstance",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8089,6 +8799,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldMergeRequest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldReturnMeaningfulDefaults",
       "type": "CONTAINS"
@@ -8129,6 +8844,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldReturnMeaningfulDefaults",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldNormalizeFileName",
       "type": "CONTAINS"
@@ -8156,6 +8876,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldNormalizeFileName",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::getFileName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/FileBlameTest.java::shouldNormalizeFileName",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8239,6 +8964,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectNullBlamer",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectNullBlamer",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForFirstDirectory",
       "type": "CONTAINS"
@@ -8291,6 +9026,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForFirstDirectory",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.hasFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForFirstDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForFirstDirectory",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -8364,6 +9109,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForSecondDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::shouldSelectBlamerForSecondDirectory",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::createBlamer",
       "type": "CONTAINS"
@@ -8429,6 +9184,16 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/blame/BlamerFactoryITest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldInitCorrectly",
       "type": "CONTAINS"
@@ -8467,6 +9232,11 @@
       "source": "api:io.jenkins.plugins.forensics.assertions.Assertions.hasScm",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldInitCorrectly",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
@@ -8569,6 +9339,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldObtainReferenceFromPullRequestTarget",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldFindReferenceJobUsingPrimaryBranch",
       "type": "CONTAINS"
@@ -8636,6 +9411,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldFindReferenceJobUsingPrimaryBranch",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::getReferenceBuildId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldFindReferenceJobUsingPrimaryBranch",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8724,6 +9504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::targetShouldHavePrecedenceBeforePullRequestTarget",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::targetShouldHavePrecedenceBeforePrimaryBranchTarget",
       "type": "CONTAINS"
@@ -8804,6 +9589,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::targetShouldHavePrecedenceBeforePrimaryBranchTarget",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldNotFindReferenceJobForMultiBranchProject",
       "type": "CONTAINS"
@@ -8869,6 +9659,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::shouldNotFindReferenceJobForMultiBranchProject",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::createSut",
       "type": "CONTAINS"
@@ -8876,6 +9671,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::createSut",
       "target": "api:io.jenkins.plugins.forensics.assertions.Assertions.mock",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::createLog",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::createLog",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -9195,6 +10000,31 @@
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::NullReferenceRecorder",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::NullReferenceRecorder",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::NullReferenceRecorder",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceRecorderTest.java::find",
       "type": "CONTAINS"
     },
@@ -9236,6 +10066,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::shouldNotFindReferenceIfThereIsNoAction",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::createLogger",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::shouldNotFindReferenceIfThereIsNoAction",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9286,6 +10121,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::shouldNotFindReferenceIfThereActionWithOutResult",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::createLogger",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::shouldNotFindReferenceIfThereActionWithOutResult",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9349,6 +10189,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::shouldFindReference",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::createLogger",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceFinderTest.java::createLogger",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldAttachBuild",
       "type": "CONTAINS"
@@ -9381,6 +10236,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldAttachBuild",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::onLoad",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldAttachBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9539,6 +10399,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldHandleMissingReferenceBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldHandleValidReferenceBuild",
       "type": "CONTAINS"
@@ -9616,6 +10481,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldHandleValidReferenceBuild",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::getUrlName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldHandleValidReferenceBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9749,6 +10619,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceBuildTest.java::shouldHandleValidReferenceBuildId",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldReportErrorBecauseReferenceJobIsUndefined",
       "type": "CONTAINS"
@@ -9797,6 +10672,11 @@
       "source": "api:org.assertj.core.api.Assertions.getConsoleLog",
       "target": "dependency:org.assertj:assertj-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldReportErrorBecauseReferenceJobIsUndefined",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java",
@@ -9849,6 +10729,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldFindReferenceBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldUseLatestReferenceBuild",
       "type": "CONTAINS"
@@ -9886,6 +10771,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldUseLatestReferenceBuild",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::findReferenceBuild",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldUseLatestReferenceBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9939,6 +10829,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::shouldFindNoReferenceBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::findReferenceBuild",
       "type": "CONTAINS"
@@ -9946,6 +10841,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::findReferenceBuild",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceFinder.java::findReference",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorderITest.java::findReferenceBuild",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -10054,6 +10954,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldHaveEmptyListModel",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldHaveEmptyListModel",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldValidateToOkIfEmpty",
       "type": "CONTAINS"
@@ -10096,6 +11011,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldValidateToOkIfEmpty",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::validateJob",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldValidateToOkIfEmpty",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10146,6 +11066,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::doCheckReferenceJobShouldBeOkWithValidValues",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::validateJob",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::doCheckReferenceJobShouldBeOkWithValidValues",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10224,6 +11149,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidationTest.java::shouldContainSingleElementAndPlaceHolder",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountCommitStatisticsSeriesBuilderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountCommitStatisticsSeriesBuilderTest.java::computeSeries",
       "type": "CONTAINS"
@@ -10257,6 +11187,11 @@
       "source": "api:io.jenkins.plugins.forensics.miner.RelativeCountForensicsSeriesBuilder.containsEntry",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountCommitStatisticsSeriesBuilderTest.java::computeSeries",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountCommitStatisticsSeriesBuilderTest.java",
@@ -10315,12 +11250,32 @@
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldCreateEmptyCommit",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldCreateEmptyCommit",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::verifyEmptyCommit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldCreateEmptyCommit",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10454,6 +11409,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldChangeLines",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldAddPaths",
       "type": "CONTAINS"
@@ -10517,6 +11477,11 @@
       "source": "api:io.jenkins.plugins.forensics.assertions.Assertions.isDelete",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java::shouldAddPaths",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitDiffItemTest.java",
@@ -10699,6 +11664,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChartTest.java::shouldCreateLinesChartModel",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChartTest.java::shouldCreateLinesChartModel",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChartTest.java::shouldCreateLinesChartModel",
+      "target": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChartTest.java::verifySeries",
       "type": "CONTAINS"
@@ -10809,6 +11794,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricSeriesBuilderTest.java::shouldComputeRelativeCountStatistics",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics062",
       "type": "CONTAINS"
@@ -10824,6 +11824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics062",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics070",
       "type": "CONTAINS"
@@ -10836,6 +11841,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics070",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::read",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldReadBlamesOfForensics070",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11029,6 +12039,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::shouldWriteReport",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStreamTest.java::createSerializable",
       "type": "CONTAINS"
@@ -11071,6 +12086,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::shouldCreate",
       "target": "api:edu.hm.hafner.echarts.LinesChartModel.getSeries",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::shouldCreate",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::shouldCreate",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -11134,6 +12159,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::shouldCreateWithData",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createBuildResultsWithData",
       "type": "CONTAINS"
@@ -11146,6 +12176,21 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createBuildResultsWithData",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createResult",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createBuildResultsWithData",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createChartModelConfiguration",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createChartModelConfiguration",
+      "target": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
       "type": "CALLS"
     },
     {
@@ -11184,6 +12229,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.Build.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.Build.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChartTest.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java::shouldComputeSeries",
       "type": "CONTAINS"
@@ -11217,6 +12282,11 @@
       "source": "api:io.jenkins.plugins.forensics.miner.AddedVersusDeletedLinesForensicsSeriesBuilder.containsEntry",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java::shouldComputeSeries",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java",
@@ -11267,6 +12337,21 @@
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilderTest.java::createCommitStatisticsBuildActionStub",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::getDeletedLines",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::<class>",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java",
@@ -11331,6 +12416,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldCorrectlyReturnWhetherTrendIsVisible",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldCorrectlyReturnWhetherTrendIsVisible",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11422,6 +12512,36 @@
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldReturnBuildTrendModel",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::containsExactly",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldReturnBuildTrendModel",
+      "target": "api:org.junit.jupiter.params.ParameterizedTest.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.params.ParameterizedTest.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-params",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldReturnBuildTrendModel",
+      "target": "api:org.junit.jupiter.params.provider.ValueSource.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.params.provider.ValueSource.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-params",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java::shouldReturnBuildTrendModel",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobActionTest.java",
@@ -11559,6 +12679,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::shouldHaveEmptyDataSetForEmptyIterator",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::shouldHaveEmptyDataSetForEmptyIterator",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::createConfiguration",
       "type": "CONTAINS"
@@ -11694,6 +12824,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::shouldHaveThreeValuesForSingleBuild",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::shouldHaveNotMoreValuesThatAllowed",
       "type": "CONTAINS"
@@ -11789,6 +12924,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilderTest.java::shouldHaveNotMoreValuesThatAllowed",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::createSerializable",
       "type": "CONTAINS"
@@ -11806,6 +12956,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::createSerializable",
       "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::createSerializable",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -11959,6 +13114,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::shouldCountCorrectly",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::shouldCountCorrectly",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::shouldIgnoreCapitalizationOfEmailNames",
       "type": "CONTAINS"
@@ -11979,6 +13144,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::shouldIgnoreCapitalizationOfEmailNames",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::shouldIgnoreCapitalizationOfEmailNames",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::asTreeString",
       "type": "CONTAINS"
@@ -11996,6 +13171,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::logCommits",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::logCommits",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CommitStatisticsTest.java::logCommits",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -12051,6 +13231,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldReturnEmptyStatisticsIfActionIsMissing",
       "target": "api:edu.hm.hafner.util.FilteredLog.getInfoMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldReturnEmptyStatisticsIfActionIsMissing",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12114,6 +13299,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldReturnEmptyStatisticsIfFilesAreEmpty",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldFindSelectedFile",
       "type": "CONTAINS"
@@ -12171,6 +13361,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldFindSelectedFile",
       "target": "api:edu.hm.hafner.util.FilteredLog.getInfoMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldFindSelectedFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12264,6 +13459,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldFindSelectedFileForSelectedRepositories",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldNotFindSelectedFile",
       "type": "CONTAINS"
@@ -12324,6 +13524,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldNotFindSelectedFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldHandleExistingAndNotExistingFiles",
       "type": "CONTAINS"
@@ -12381,6 +13586,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldHandleExistingAndNotExistingFiles",
       "target": "api:edu.hm.hafner.util.FilteredLog.getInfoMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::shouldHandleExistingAndNotExistingFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12494,6 +13704,16 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::createLogger",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerServiceTest.java::createLogger",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::shouldCreateEmptyChart",
       "type": "CONTAINS"
@@ -12542,6 +13762,16 @@
       "source": "api:edu.hm.hafner.echarts.LinesChartModel.getDomainAxisLabels",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::shouldCreateEmptyChart",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::shouldCreateEmptyChart",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java",
@@ -12604,6 +13834,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::shouldCreateWithData",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createBuildResultsWithData",
       "type": "CONTAINS"
@@ -12619,6 +13854,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createBuildResultsWithData",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createResult",
       "type": "CONTAINS"
@@ -12626,6 +13866,26 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createResult",
       "target": "api:org.assertj.core.api.Assertions.mock",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.Build.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createChartModelConfiguration",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChartTest.java::createChartModelConfiguration",
+      "target": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
       "type": "CALLS"
     },
     {
@@ -12729,6 +13989,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldHandleEmptyModel",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::createEmptyAuthorsModel",
       "type": "CONTAINS"
@@ -12741,6 +14006,26 @@
     {
       "source": "api:io.jenkins.plugins.forensics.assertions.Assertions.toJson",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::createEmptyAuthorsModel",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::createEmptyAuthorsModel",
+      "target": "api:edu.hm.hafner.echarts.PieChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.PieChartModel.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -12801,6 +14086,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldGetFileDetailsViewInDynamic",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::createLink",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldGetFileDetailsViewInDynamic",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12869,6 +14159,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowNoSuchElementExceptionInGetDynamic",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowNoSuchElementExceptionInGetDynamic",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.UncheckedIOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowIOExceptionInGetDynamic",
       "type": "CONTAINS"
@@ -12924,6 +14229,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowIOExceptionInGetDynamic",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::shouldThrowIOExceptionInGetDynamic",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::runWithNullDecorator",
       "type": "CONTAINS"
@@ -12971,6 +14286,16 @@
     {
       "source": "api:java.util.function.Consumer.accept",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsViewModelTest.java::runWithNullDecorator",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -13034,6 +14359,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectNullMinerIfNoScmIsGiven",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectNullMinerIfNoScmIsGiven",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectMinerForFirstDirectory",
       "type": "CONTAINS"
@@ -13081,6 +14416,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectMinerForFirstDirectory",
       "target": "api:edu.hm.hafner.util.FilteredLog.getInfoMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectMinerForFirstDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::shouldSelectMinerForFirstDirectory",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -13146,6 +14491,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::mine",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::addAll",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/MinerFactoryITest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.TestExtension.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13224,6 +14579,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::shouldCreateFileStatistics",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::shouldConvertWindowsName",
       "type": "CONTAINS"
@@ -13241,6 +14601,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::shouldConvertWindowsName",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::createStatistics",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::shouldConvertWindowsName",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13286,6 +14651,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::createSerializable",
       "target": "api:java.util.Collections.singleton",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/FileStatisticsTest.java::createSerializable",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13434,6 +14804,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java::shouldCreateForensicsTableModel",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java::shouldReturnRows",
       "type": "CONTAINS"
@@ -13492,6 +14867,11 @@
       "source": "api:org.mockito.Mockito.hasAuthorsSize",
       "target": "dependency:org.mockito:mockito-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java::shouldReturnRows",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java",
@@ -13654,6 +15034,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ForensicsTableModelTest.java::checkForensicsRowGetters",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java::shouldCreate",
       "type": "CONTAINS"
@@ -13701,6 +15086,21 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java::shouldCreate",
       "target": "api:io.jenkins.plugins.forensics.miner.ResultStubs.isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java::shouldCreate",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java::shouldCreate",
+      "target": "api:edu.hm.hafner.echarts.ChartModelConfiguration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChartTest.java::shouldCreate",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -13799,6 +15199,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilderTest.java::shouldCreateSeriesWithMockito",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilderTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilderTest.java::createCommitStatistics",
       "type": "CONTAINS"
@@ -13821,6 +15226,21 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilderTest.java::createCommitStatistics",
       "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilderTest.java::createCommitStatistics",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13909,6 +15329,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldCreateEmptyInstance",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddStatisticsFor1File",
       "type": "CONTAINS"
@@ -13926,6 +15351,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddStatisticsFor1File",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::verifyTotalsStatistics",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddStatisticsFor1File",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13951,6 +15381,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddAllStatisticsFor1File",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::verifyTotalsStatistics",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddAllStatisticsFor1File",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14079,6 +15514,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::shouldAddStatisticsFor1Commit",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsTest.java::createCommit",
       "type": "CONTAINS"
@@ -14124,6 +15564,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ResultStubs.java::createResult",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ResultStubs.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.Build.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/ResultStubs.java::createResult",
+      "target": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::shouldCreateEmptyModel",
       "type": "CONTAINS"
@@ -14157,6 +15612,11 @@
       "source": "api:edu.hm.hafner.echarts.PieChartModel.getData",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::shouldCreateEmptyModel",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java",
@@ -14224,6 +15684,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::shouldCreateSinglePiSegment",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getPieData",
       "type": "CONTAINS"
@@ -14232,6 +15697,21 @@
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getPieData",
       "target": "api:java.util.List.add",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getPieData",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getPieData",
+      "target": "api:edu.hm.hafner.echarts.PieData.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.PieData.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java",
@@ -14276,6 +15756,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getRepositoryStatisticsStub",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::getFileStatistics",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::getRepositoryStatisticsStub",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -14326,6 +15811,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::shouldCreateTwoPieSegments",
       "target": "api:edu.hm.hafner.echarts.PieChartModel.getData",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/forensics/miner/SizePieChartTest.java::shouldCreateTwoPieSegments",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14464,6 +15954,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/DeltaCalculatorFactory.java::findAllDeltaCalculatorFactoryInstances",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/DeltaCalculator.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/DeltaCalculator.java::calculateDelta",
       "type": "CONTAINS"
@@ -14510,6 +16005,26 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::Delta",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::Delta",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::getFileChangesMap",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::getFileChangesMap",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::getFileChangesById",
       "type": "CONTAINS"
     },
@@ -14535,6 +16050,16 @@
     },
     {
       "source": "api:java.lang.String.format",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/Delta.java::getFileChangesById",
+      "target": "api:java.util.NoSuchElementException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.NoSuchElementException.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -14585,6 +16110,26 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::FileChanges",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::FileChanges",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::getChanges",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::getChanges",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::getChangesByType",
       "type": "CONTAINS"
     },
@@ -14596,6 +16141,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::getChangesByType",
       "target": "api:java.util.Map.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/delta/model/FileChanges.java::getChangesByType",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -14769,6 +16319,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java::findCommitDecorator",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java::findAllExtensions",
       "type": "CONTAINS"
@@ -14776,6 +16331,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java::findAllExtensions",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java::getExtensionsFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/util/CommitDecoratorFactory.java::findAllExtensions",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
       "type": "CALLS"
     },
     {
@@ -14802,6 +16362,16 @@
       "source": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::getScm",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::next",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::getScm",
+      "target": "api:hudson.scm.NullSCM.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.scm.NullSCM.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java",
@@ -14907,6 +16477,11 @@
       "source": "api:java.util.Set.remove",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java::getScms",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/util/ScmResolver.java",
@@ -15119,6 +16694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/BlamerFactory.java::findAllExtensions",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/BlamesXmlStream.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/BlamesXmlStream.java::configureXStream",
       "type": "CONTAINS"
@@ -15132,6 +16712,46 @@
       "source": "api:hudson.util.XStream2.alias",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "target": "api:edu.hm.hafner.util.PathUtil.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.PathUtil.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java",
@@ -15176,6 +16796,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::readResolve",
       "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::readResolve",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -15237,6 +16862,16 @@
       "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::iterator",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::iterator",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java::iterator",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileBlame.java",
@@ -15505,6 +17140,16 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::add",
       "type": "CONTAINS"
     },
@@ -15619,6 +17264,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::getFiles",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::getBlame",
       "type": "CONTAINS"
@@ -15636,6 +17286,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::getBlame",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/Blames.java::getBlame",
+      "target": "api:java.util.NoSuchElementException.<init>",
       "type": "CALLS"
     },
     {
@@ -15675,6 +17330,16 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::addLine",
       "type": "CONTAINS"
     },
@@ -15706,6 +17371,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::mergeLine",
       "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::mergeLine",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -15799,6 +17469,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::getLines",
+      "target": "api:java.util.NoSuchElementException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::equals",
       "type": "CONTAINS"
@@ -15826,6 +17501,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/blame/FileLocations.java::hashCode",
       "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15874,6 +17559,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::getReferenceBuildLink",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::ReferenceBuild",
       "type": "CONTAINS"
@@ -15881,6 +17571,21 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::ReferenceBuild",
       "target": "api:hudson.model.Run.getExternalizableId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::ReferenceBuild",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::ReferenceBuild",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::ReferenceBuild",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -16079,6 +17784,46 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceBuild.java::getTarget",
+      "target": "api:io.jenkins.plugins.bootstrap5.MessagesViewModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.bootstrap5.MessagesViewModel.<init>",
+      "target": "dependency:io.jenkins.plugins:bootstrap5-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::<class>",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::SimpleReferenceRecorder",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::SimpleReferenceRecorder",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::SimpleReferenceRecorder",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::setReferenceJob",
       "type": "CONTAINS"
@@ -16096,6 +17841,16 @@
     {
       "source": "api:org.apache.commons.lang3.StringUtils.strip",
       "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::setReferenceJob",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -16140,6 +17895,26 @@
     },
     {
       "source": "api:io.jenkins.plugins.util.LogHandler.log",
+      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::perform",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::perform",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::perform",
+      "target": "api:io.jenkins.plugins.util.LogHandler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.util.LogHandler.<init>",
       "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
     },
@@ -16284,6 +18059,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::getDisplayName",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doFillReferenceJobItems",
       "type": "CONTAINS"
@@ -16302,6 +18082,36 @@
       "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doFillReferenceJobItems",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::getAllJobs",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doFillReferenceJobItems",
+      "target": "api:org.kohsuke.stapler.verb.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.verb.POST.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doFillReferenceJobItems",
+      "target": "api:org.kohsuke.stapler.AncestorInPath.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.AncestorInPath.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doFillReferenceJobItems",
+      "target": "api:hudson.util.ComboBoxModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.ComboBoxModel.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java",
@@ -16329,6 +18139,56 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doCheckReferenceJob",
+      "target": "api:org.kohsuke.stapler.verb.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doCheckReferenceJob",
+      "target": "api:org.kohsuke.stapler.AncestorInPath.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::doCheckReferenceJob",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/SimpleReferenceRecorder.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.Symbol.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setLatestBuildIfNotFound",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setLatestBuildIfNotFound",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setDefaultBranch",
       "type": "CONTAINS"
@@ -16344,6 +18204,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setDefaultBranch",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setTargetBranch",
       "type": "CONTAINS"
@@ -16351,6 +18216,31 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setTargetBranch",
       "target": "api:org.apache.commons.lang3.StringUtils.stripToEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setTargetBranch",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setScm",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::setScm",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::getScmFacade",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceRecorder.java::getScmFacade",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16720,12 +18610,32 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::ReferenceJobModelValidation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::ReferenceJobModelValidation",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::ReferenceJobModelValidation",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::getAllJobs",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::getAllJobs",
       "target": "api:io.jenkins.plugins.util.JenkinsFacade.getAllJobNames",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/reference/ReferenceJobModelValidation.java::getAllJobs",
+      "target": "api:hudson.util.ComboBoxModel.<init>",
       "type": "CALLS"
     },
     {
@@ -16821,6 +18731,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilder.java::computeAddedVsDeletedSeries",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::getDeletedLines",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesForensicsSeriesBuilder.java::computeAddedVsDeletedSeries",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -16964,6 +18879,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::equals",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::hashCode",
       "type": "CONTAINS"
@@ -16971,6 +18896,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::hashCode",
       "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::hashCode",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16992,6 +18922,21 @@
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::toString",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::getSimpleName",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::toString",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::toString",
+      "target": "api:java.util.StringJoiner.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.StringJoiner.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/MinerFactory.java",
@@ -17074,6 +19019,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/MinerFactory.java::findAllExtensions",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::<class>",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createIterator",
       "type": "CONTAINS"
@@ -17129,6 +19089,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createIterator",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createIterator",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createIterator",
+      "target": "api:io.jenkins.plugins.echarts.BuildActionIterator.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.echarts.BuildActionIterator.<init>",
+      "target": "dependency:io.jenkins.plugins:echarts-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::createChartModel",
       "type": "CONTAINS"
@@ -17151,6 +19131,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::getDisplayName",
       "target": "api:Messages.Forensics_Action",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::getIconFileName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsJobAction.java::getIconFileName",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17220,6 +19210,16 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::<class>",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::getConfigurableBuildTrendModel",
       "type": "CONTAINS"
     },
@@ -17231,6 +19231,21 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::getConfigurableBuildTrendModel",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::createChartModel",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::getConfigurableBuildTrendModel",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::getConfigurableBuildTrendModel",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
       "type": "CALLS"
     },
     {
@@ -17394,6 +19409,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::createBuildHistory",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::createBuildHistory",
+      "target": "api:edu.hm.hafner.echarts.Build.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::createBuildHistory",
+      "target": "api:edu.hm.hafner.echarts.BuildResult.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsJobAction.java::isTrendVisible",
       "type": "CONTAINS"
@@ -17451,6 +19481,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CodeMetricSeriesBuilder.java::computeSeries",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::getTotalChurn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CodeMetricSeriesBuilder.java::computeSeries",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -17544,6 +19579,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::filterStatistics",
+      "target": "api:java.util.NoSuchElementException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::createChartModel",
       "type": "CONTAINS"
@@ -17564,6 +19604,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getCommitUrl",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getBuildTrendModel",
       "type": "CONTAINS"
@@ -17576,6 +19621,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getBuildTrendModel",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::createChartModel",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getBuildTrendModel",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getBuildTrendModel",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
       "type": "CALLS"
     },
     {
@@ -17666,6 +19721,21 @@
     {
       "source": "api:Messages.Table_Column_DeletedLines",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getColumns",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::getColumns",
+      "target": "api:io.jenkins.plugins.datatables.TableColumn.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.datatables.TableColumn.<init>",
+      "target": "dependency:io.jenkins.plugins:plugin-util-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -17814,6 +19884,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::create",
+      "target": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::create",
+      "target": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::createDataSetPerCommit",
       "type": "CONTAINS"
@@ -17854,6 +19944,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::createDataSetPerCommit",
+      "target": "api:edu.hm.hafner.echarts.LinesDataSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.echarts.LinesDataSet.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::computeSeries",
       "type": "CONTAINS"
@@ -17871,6 +19971,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::computeSeries",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitDiffItem.java::getTotalDeletedLines",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileDetailsView.java::computeSeries",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -17929,6 +20034,46 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FilesCountTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::RepositoryMinerStep",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::RepositoryMinerStep",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::readResolve",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::readResolve",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::setScm",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::setScm",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::perform",
       "type": "CONTAINS"
@@ -17936,6 +20081,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::perform",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::mineRepositories",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::perform",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18001,6 +20151,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::mineRepositories",
       "target": "api:hudson.model.Run.addAction",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::mineRepositories",
+      "target": "api:io.jenkins.plugins.util.LogHandler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::mineRepositories",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -18092,6 +20252,26 @@
       "source": "api:Messages.Step_Name",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::getDisplayName",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryMinerStep.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesCommitStatisticsSeriesBuilder.java",
@@ -18199,6 +20379,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/SizePieChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.PieChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/SizePieChart.java::create",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.TreeMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/SizePieChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.PieData.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::ForensicsBuildAction",
       "type": "CONTAINS"
@@ -18261,6 +20461,21 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::ForensicsBuildAction",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::resolve",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::ForensicsBuildAction",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::readResolve",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsBuildAction.java::readResolve",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18335,6 +20550,26 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::readResolve",
       "type": "CONTAINS"
     },
@@ -18364,6 +20599,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::readResolve",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::readResolve",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::writeReplace",
       "type": "CONTAINS"
@@ -18377,6 +20622,11 @@
       "source": "api:java.util.Map.values",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::writeReplace",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java",
@@ -18486,6 +20736,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::get",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatistics.java::get",
+      "target": "api:java.util.NoSuchElementException.<init>",
       "type": "CALLS"
     },
     {
@@ -18724,6 +20979,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChart.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChart.java::getSeries",
       "type": "CONTAINS"
@@ -18744,6 +21004,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RelativeCountTrendChart.java::getSeries",
+      "target": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilder.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilder.java::computeSeries",
       "type": "CONTAINS"
@@ -18759,6 +21024,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FilesCountSeriesBuilder.java::computeSeries",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::<class>",
+      "target": "api:edu.hm.hafner.util.TreeStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::<class>",
+      "target": "api:edu.hm.hafner.util.PathUtil.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::getFileName",
       "type": "CONTAINS"
@@ -18766,6 +21056,21 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::getFileName",
       "target": "api:edu.hm.hafner.util.TreeString.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::readResolve",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::readResolve",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::readResolve",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -18934,6 +21239,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::toString",
+      "target": "api:java.util.StringJoiner.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/FileStatistics.java::build",
       "type": "CONTAINS"
@@ -18984,6 +21294,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CodeMetricTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LineSeries.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStream.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/RepositoryStatisticsXmlStream.java::configureXStream",
       "type": "CONTAINS"
@@ -19019,6 +21339,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getAuthorsModel",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getAuthorsModel",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getCommitsModel",
       "type": "CONTAINS"
@@ -19031,6 +21361,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getCommitsModel",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::create",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getCommitsModel",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsViewModel.java::getCommitsModel",
+      "target": "api:edu.hm.hafner.echarts.JacksonFacade.<init>",
       "type": "CALLS"
     },
     {
@@ -19052,6 +21392,16 @@
       "source": "api:org.kohsuke.stapler.StaplerResponse.sendRedirect2",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java",
+      "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java",
@@ -19081,6 +21431,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::getReferenceBuild",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::getAction",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatisticsBuildAction.java::getReferenceBuild",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -19144,6 +21499,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChart.java::create",
+      "target": "api:edu.hm.hafner.echarts.LinesChartModel.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChart.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChart.java::getSeries",
       "type": "CONTAINS"
@@ -19161,6 +21521,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChart.java::getSeries",
       "target": "api:edu.hm.hafner.echarts.LinesDataSet.getSeries",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/AddedVersusDeletedLinesTrendChart.java::getSeries",
+      "target": "api:edu.hm.hafner.echarts.LineSeries.<init>",
       "type": "CALLS"
     },
     {
@@ -19304,6 +21669,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/RelativeCountForensicsSeriesBuilder.java::computeRelativeCountStatistics",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::CommitStatistics",
       "type": "CONTAINS"
@@ -19389,6 +21759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::equals",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::hashCode",
       "type": "CONTAINS"
@@ -19396,6 +21771,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::hashCode",
       "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::hashCode",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
       "type": "CALLS"
     },
     {
@@ -19416,6 +21796,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::toString",
       "target": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::toString",
+      "target": "api:edu.hm.hafner.util.Generated.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/CommitStatistics.java::toString",
+      "target": "api:java.util.StringJoiner.<init>",
       "type": "CALLS"
     },
     {
@@ -19691,6 +22081,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsTableModel.java::getColumns",
       "target": "api:Messages.Table_Column_Churn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsTableModel.java::getColumns",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/forensics/miner/ForensicsTableModel.java::getColumns",
+      "target": "api:io.jenkins.plugins.datatables.TableColumn.<init>",
       "type": "CALLS"
     },
     {

@@ -19,6 +19,10 @@ explainable signals:
      libraries that *do* follow the groupId-as-package-prefix convention
      (e.g. org.apache.commons:commons-lang3 -> org.apache.commons.lang3.*).
 
+When several declared artifacts share the matched groupId, the one whose
+name best matches the package wins (io.dropwizard.db -> dropwizard-db, not
+whichever io.dropwizard artifact the POM happened to list first).
+
 If neither signal produces a match, we do not guess — we return "unknown".
 See README.md for the full list of known prefixes and limitations.
 """
@@ -39,6 +43,7 @@ UNKNOWN = "unknown"
 # matching prefix wins, so more specific entries should stay specific rather
 # than collapsed into a broader prefix (e.g. Jackson's submodules).
 KNOWN_PACKAGE_PREFIXES: Dict[str, str] = {
+    "org.junit.jupiter.params": "org.junit.jupiter:junit-jupiter-params",
     "org.junit.jupiter": "org.junit.jupiter:junit-jupiter-api",
     "org.junit": "junit:junit",
     "org.hamcrest": "org.hamcrest:hamcrest",
@@ -59,7 +64,9 @@ KNOWN_PACKAGE_PREFIXES: Dict[str, str] = {
     "org.apache.commons.text": "org.apache.commons:commons-text",
     "org.apache.commons.csv": "org.apache.commons:commons-csv",
     "org.slf4j": "org.slf4j:slf4j-api",
-    "org.apache.logging.log4j": "org.apache.logging.log4j:log4j-core",
+    # LogManager/Logger live in log4j-api; only the .core packages are log4j-core.
+    "org.apache.logging.log4j.core": "org.apache.logging.log4j:log4j-core",
+    "org.apache.logging.log4j": "org.apache.logging.log4j:log4j-api",
     "ch.qos.logback": "ch.qos.logback:logback-classic",
     "org.springframework.boot": "org.springframework.boot:spring-boot",
     "org.springframework.web": "org.springframework:spring-web",
@@ -195,6 +202,35 @@ def _longest_prefix_match(package: str, table_keys) -> Optional[str]:
     return None
 
 
+def _artifact_specificity(package: str, group_id: str, artifact_id: str) -> int:
+    """
+    How many of an artifact's own name tokens (those not already in its
+    groupId) appear as segments of the package: io.dropwizard.db scores 1 for
+    io.dropwizard:dropwizard-db ("db") and 0 for io.dropwizard:dropwizard-core.
+    """
+    group_tokens = set(group_id.lower().split("."))
+    tokens = {t for t in re.split(r"[-._]", artifact_id.lower()) if t and t not in group_tokens}
+    return len(tokens & set(package.lower().split(".")))
+
+
+def _prefer_specific_sibling(package: str, dependency: str, declared_dependencies: List[Dict[str, str]]) -> str:
+    """
+    Several artifacts of one groupId often share a package root
+    (dropwizard-core / dropwizard-db / dropwizard-client). If the project
+    declares a sibling of `dependency` whose name matches the package more
+    closely, attribute the call to that sibling instead.
+    """
+    group_id, _, artifact_id = dependency.partition(":")
+    best, best_score = dependency, _artifact_specificity(package, group_id, artifact_id)
+    for dep in declared_dependencies:
+        if dep["groupId"] != group_id:
+            continue
+        score = _artifact_specificity(package, group_id, dep["artifactId"])
+        if score > best_score:
+            best, best_score = f"{group_id}:{dep['artifactId']}", score
+    return best
+
+
 def resolve_dependency(calls_str: str, declared_dependencies: List[Dict[str, str]]) -> Optional[str]:
     """
     Resolve an external call string to a dependency identifier.
@@ -215,7 +251,7 @@ def resolve_dependency(calls_str: str, declared_dependencies: List[Dict[str, str
     # more specific known match must win before the blanket JDK fallback.
     known_match = _longest_prefix_match(package, KNOWN_PACKAGE_PREFIXES)
     if known_match:
-        return KNOWN_PACKAGE_PREFIXES[known_match]
+        return _prefer_specific_sibling(package, KNOWN_PACKAGE_PREFIXES[known_match], declared_dependencies)
 
     if package == "java" or package.startswith("java.") or package == "javax" or package.startswith("javax."):
         return JDK
@@ -229,6 +265,7 @@ def resolve_dependency(calls_str: str, declared_dependencies: List[Dict[str, str
                 best_dep = dep
 
     if best_group_id is not None:
-        return f"{best_dep['groupId']}:{best_dep['artifactId']}"
+        return _prefer_specific_sibling(package, f"{best_dep['groupId']}:{best_dep['artifactId']}",
+                                        declared_dependencies)
 
     return UNKNOWN

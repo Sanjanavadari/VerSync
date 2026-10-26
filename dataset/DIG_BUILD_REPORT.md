@@ -1,5 +1,32 @@
 # DIG build report
 
+## Update 2026-10-26: 102 of 104 combined samples
+
+All DIGs were rebuilt with the fixed extractor/resolver, and DIGs were added for the 45 CI-labelled SAFE
+samples in `person1/combined_dataset.csv`:
+
+```
+python eval-system/batch_build_digs.py --rebuild --no-head-fallback --only <all projects except google-cloud-java>
+```
+
+| | Samples |
+|---|---|
+| Combined dataset | 104 (51 BREAKING, 53 SAFE) |
+| **DIGs** | **102 (49 BREAKING, 53 SAFE)**, all at the intended pre-update commit (0 HEAD fallbacks) |
+| DIG files | 97: 5 CI-labelled samples share their pre-update commit with another sample of the same project, so they share its DIG |
+| Not built | `docker-adapter` (repository deleted), `google-cloud-java` (skipped: over the build timeout, and its update is a BOM) |
+
+- CI-labelled samples have no BUMP `source_json`, so their DIG is named `<project>_<pre_commit_sha>.json`
+  and their report row has `source_json = ci:<pre_commit_sha>`.
+- Extractor/resolver changes (see `graph-model/`): constructor calls and annotations on imported library
+  types are recorded as API uses; `log4j-api` vs `log4j-core` and `junit-jupiter-params` are mapped
+  correctly; among several declared artifacts of one groupId, the one whose name matches the package wins.
+- The updated dependency is now a DEPENDENCY node in **31 of the original 57 DIGs** (was 26; none lost),
+  43 of all 102. The largest DIG is 41 MB (causeway).
+
+The sections below describe the earlier 57-DIG build.
+
+
 Per-sample details are in [`dig_build_report.csv`](dig_build_report.csv). Each DIG also has a
 `build_metadata` block that records which commit was analyzed.
 

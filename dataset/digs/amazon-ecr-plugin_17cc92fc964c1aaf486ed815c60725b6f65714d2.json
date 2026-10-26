@@ -12,6 +12,16 @@
       "name": "AmazonECSRegistryCredential"
     },
     {
+      "id": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.Nonnull.<annotation>"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
       "id": "api:com.amazonaws.regions.Regions.getName",
       "type": "API",
       "name": "com.amazonaws.regions.Regions.getName"
@@ -32,6 +42,16 @@
       "name": "commons-lang:commons-lang"
     },
     {
+      "id": "api:javax.annotation.CheckForNull.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.CheckForNull.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "type": "FUNCTION",
+      "name": "getCredentialsId"
+    },
+    {
       "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
       "type": "FUNCTION",
       "name": "getCredentials"
@@ -40,11 +60,6 @@
       "id": "api:java.util.logging.Logger.log",
       "type": "API",
       "name": "java.util.logging.Logger.log"
-    },
-    {
-      "id": "dependency:jdk",
-      "type": "DEPENDENCY",
-      "name": "jdk"
     },
     {
       "id": "api:com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials",
@@ -207,19 +222,19 @@
       "name": "getAuthorizationToken"
     },
     {
-      "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
-      "type": "FILE",
-      "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java"
+      "id": "api:com.amazonaws.ClientConfiguration.<init>",
+      "type": "API",
+      "name": "com.amazonaws.ClientConfiguration.<init>"
     },
     {
-      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
-      "type": "FUNCTION",
-      "name": "convert"
+      "id": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenRequest.<init>",
+      "type": "API",
+      "name": "com.amazonaws.services.ecr.model.GetAuthorizationTokenRequest.<init>"
     },
     {
-      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getUsername",
       "type": "FUNCTION",
-      "name": "getCredentialsId"
+      "name": "getUsername"
     },
     {
       "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getEmail",
@@ -227,14 +242,44 @@
       "name": "getEmail"
     },
     {
+      "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
+      "type": "FILE",
+      "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "type": "FUNCTION",
+      "name": "convert"
+    },
+    {
       "id": "api:hudson.util.Secret.toString",
       "type": "API",
       "name": "hudson.util.Secret.toString"
     },
     {
+      "id": "api:org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryToken.<init>",
+      "type": "API",
+      "name": "org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryToken.<init>"
+    },
+    {
       "id": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java",
       "type": "FILE",
       "name": "src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java"
+    },
+    {
+      "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
@@ -290,6 +335,11 @@
       "id": "api:com.amazonaws.regions.Regions.values",
       "type": "API",
       "name": "com.amazonaws.regions.Regions.values"
+    },
+    {
+      "id": "api:javax.annotation.Nullable.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.Nullable.<annotation>"
     }
   ],
   "edges": [
@@ -297,6 +347,16 @@
       "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
       "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
       "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.Nonnull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
@@ -317,6 +377,26 @@
       "source": "api:org.apache.commons.lang.StringUtils.isNotBlank",
       "target": "dependency:commons-lang:commons-lang",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::AmazonECSRegistryCredential",
+      "target": "api:javax.annotation.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.CheckForNull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentialsId",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
@@ -399,6 +479,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getCredentials",
+      "target": "api:javax.annotation.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
       "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getDescription",
       "type": "CONTAINS"
@@ -412,6 +497,11 @@
       "source": "api:java.util.logging.Logger.finest",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getDescription",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
@@ -654,6 +744,66 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.ClientConfiguration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.ClientConfiguration.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "target": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenRequest.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.amazonaws.services.ecr.model.GetAuthorizationTokenRequest.<init>",
+      "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getUsername",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getUsername",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getEmail",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getEmail",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java",
       "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
       "type": "CONTAINS"
@@ -686,6 +836,31 @@
     {
       "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
       "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredential.java::getPassword",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryTokenSource.java::convert",
+      "target": "api:org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryToken.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.plugins.docker.commons.credentials.DockerRegistryToken.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java",
+      "target": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
       "type": "CALLS"
     },
     {
@@ -781,6 +956,21 @@
     {
       "source": "api:com.amazonaws.regions.Regions.values",
       "target": "dependency:com.amazonaws:aws-java-sdk-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/cloudbees/jenkins/plugins/amazonecr/AmazonECSRegistryCredentialsProvider.java::getCredentials",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.Nullable.<annotation>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     }
   ],

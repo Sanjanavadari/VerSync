@@ -107,6 +107,16 @@
       "name": "getLoggerPrecision"
     },
     {
+      "id": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "API",
+      "name": "com.thoughtworks.xstream.XStream.<init>"
+    },
+    {
+      "id": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "API",
+      "name": "com.thoughtworks.xstream.io.xml.DomDriver.<init>"
+    },
+    {
       "id": "file:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java",
       "type": "FILE",
       "name": "src/test/java/org/apache/log4j/xml/XMLDecoderTest.java"
@@ -145,6 +155,16 @@
       "id": "api:java.nio.CharBuffer.toString",
       "type": "API",
       "name": "java.nio.CharBuffer.toString"
+    },
+    {
+      "id": "api:java.io.FileNotFoundException.<init>",
+      "type": "API",
+      "name": "java.io.FileNotFoundException.<init>"
+    },
+    {
+      "id": "api:java.io.InputStreamReader.<init>",
+      "type": "API",
+      "name": "java.io.InputStreamReader.<init>"
     },
     {
       "id": "function:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java::testDecodeEventsString1",
@@ -212,6 +232,16 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/GeneratorBeanInfo.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/GeneratorBeanInfo.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
+      "id": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "API",
+      "name": "java.beans.PropertyDescriptor.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiver.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawReceiver.java"
@@ -225,6 +255,21 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.apache.logging.log4j.core.config.plugins.Plugin.<annotation>",
+      "type": "API",
+      "name": "org.apache.logging.log4j.core.config.plugins.Plugin.<annotation>"
+    },
+    {
+      "id": "dependency:org.apache.logging.log4j:log4j-core",
+      "type": "DEPENDENCY",
+      "name": "org.apache.logging.log4j:log4j-core"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::createAppender",
@@ -247,6 +292,16 @@
       "name": "LOGGER.error"
     },
     {
+      "id": "api:org.apache.logging.log4j.core.config.plugins.PluginFactory.<annotation>",
+      "type": "API",
+      "name": "org.apache.logging.log4j.core.config.plugins.PluginFactory.<annotation>"
+    },
+    {
+      "id": "api:org.apache.logging.log4j.core.config.plugins.PluginAttribute.<annotation>",
+      "type": "API",
+      "name": "org.apache.logging.log4j.core.config.plugins.PluginAttribute.<annotation>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::append",
       "type": "FUNCTION",
       "name": "append"
@@ -265,11 +320,6 @@
       "id": "api:org.apache.logging.log4j.core.LogEvent.getLoggerName",
       "type": "API",
       "name": "org.apache.logging.log4j.core.LogEvent.getLoggerName"
-    },
-    {
-      "id": "dependency:org.apache.logging.log4j:log4j-core",
-      "type": "DEPENDENCY",
-      "name": "org.apache.logging.log4j:log4j-core"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::setMessage",
@@ -487,6 +537,11 @@
       "name": "org.apache.logging.log4j.Logger.error"
     },
     {
+      "id": "dependency:org.apache.logging.log4j:log4j-api",
+      "type": "DEPENDENCY",
+      "name": "org.apache.logging.log4j:log4j-api"
+    },
+    {
       "id": "api:java.lang.Object.notifyAll",
       "type": "API",
       "name": "java.lang.Object.notifyAll"
@@ -515,6 +570,21 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.swing.event.EventListenerList.<init>",
+      "type": "API",
+      "name": "javax.swing.event.EventListenerList.<init>"
+    },
+    {
+      "id": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "API",
+      "name": "java.beans.PropertyChangeSupport.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java::ChainsawCyclicBufferTableModel",
@@ -1862,6 +1932,16 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.Stack.<init>",
+      "type": "API",
+      "name": "java.util.Stack.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java::WelcomePanel",
       "type": "FUNCTION",
       "name": "WelcomePanel"
@@ -2170,6 +2250,16 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/LogPanel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.text.SimpleDateFormat.<init>",
+      "type": "API",
+      "name": "java.text.SimpleDateFormat.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::LogPanel",
@@ -2942,6 +3032,16 @@
       "name": "JScrollPane.addMouseListener"
     },
     {
+      "id": "api:java.beans.PropertyChangeListener.<init>",
+      "type": "API",
+      "name": "java.beans.PropertyChangeListener.<init>"
+    },
+    {
+      "id": "api:javax.swing.table.TableColumn.<init>",
+      "type": "API",
+      "name": "javax.swing.table.TableColumn.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::actionPerformed",
       "type": "FUNCTION",
       "name": "actionPerformed"
@@ -3590,6 +3690,11 @@
       "id": "api:java.awt.datatransfer.Clipboard.setContents",
       "type": "API",
       "name": "java.awt.datatransfer.Clipboard.setContents"
+    },
+    {
+      "id": "api:java.awt.datatransfer.StringSelection.<init>",
+      "type": "API",
+      "name": "java.awt.datatransfer.StringSelection.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::isDocked",
@@ -5432,6 +5537,11 @@
       "name": "java.io.File.delete"
     },
     {
+      "id": "api:java.io.FileReader.<init>",
+      "type": "API",
+      "name": "java.io.FileReader.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::saveSettings",
       "type": "FUNCTION",
       "name": "saveSettings"
@@ -5445,6 +5555,16 @@
       "id": "api:java.io.FileWriter.close",
       "type": "API",
       "name": "java.io.FileWriter.close"
+    },
+    {
+      "id": "api:java.io.FileWriter.<init>",
+      "type": "API",
+      "name": "java.io.FileWriter.<init>"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/BasicPrefPanel.java",
@@ -5465,6 +5585,21 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.Vector.<init>",
+      "type": "API",
+      "name": "java.util.Vector.<init>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::firePropertyChange",
@@ -5922,6 +6057,21 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/SmallButton.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.swing.border.EmptyBorder.<init>",
+      "type": "API",
+      "name": "javax.swing.border.EmptyBorder.<init>"
+    },
+    {
+      "id": "api:javax.swing.border.SoftBevelBorder.<init>",
+      "type": "API",
+      "name": "javax.swing.border.SoftBevelBorder.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::SmallButton",
       "type": "FUNCTION",
       "name": "SmallButton"
@@ -6022,6 +6172,16 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::LoggingEventWrapper",
       "type": "FUNCTION",
       "name": "LoggingEventWrapper"
@@ -6080,6 +6240,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java::SmallToggleButton",
@@ -6252,6 +6417,16 @@
       "name": "Writer.close"
     },
     {
+      "id": "api:java.util.zip.ZipOutputStream.<init>",
+      "type": "API",
+      "name": "java.util.zip.ZipOutputStream.<init>"
+    },
+    {
+      "id": "api:java.util.zip.ZipEntry.<init>",
+      "type": "API",
+      "name": "java.util.zip.ZipEntry.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/PopupListener.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/PopupListener.java"
@@ -6290,6 +6465,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::ChainsawToolBarAndMenus",
@@ -6737,6 +6917,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/LogUI.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::LogUI",
       "type": "FUNCTION",
       "name": "LogUI"
@@ -6890,6 +7075,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::setShutdownAction",
       "type": "FUNCTION",
       "name": "setShutdownAction"
+    },
+    {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::getPermissions",
@@ -7792,6 +7982,21 @@
       "name": "java.io.FileOutputStream.close"
     },
     {
+      "id": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "type": "API",
+      "name": "javax.xml.transform.dom.DOMSource.<init>"
+    },
+    {
+      "id": "api:java.io.FileOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileOutputStream.<init>"
+    },
+    {
+      "id": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "type": "API",
+      "name": "javax.xml.transform.stream.StreamResult.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/CheckListCellRenderer.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/CheckListCellRenderer.java"
@@ -8137,6 +8342,11 @@
       "name": "java.io.FileInputStream.close"
     },
     {
+      "id": "api:java.io.FileInputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileInputStream.<init>"
+    },
+    {
       "id": "api:java.io.File.toURI",
       "type": "API",
       "name": "java.io.File.toURI"
@@ -8227,9 +8437,24 @@
       "name": "equalsIgnoreCase"
     },
     {
+      "id": "api:org.xml.sax.InputSource.<init>",
+      "type": "API",
+      "name": "org.xml.sax.InputSource.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java::getLoggerNames",
@@ -9082,6 +9307,11 @@
       "name": "setSnapToTicks"
     },
     {
+      "id": "api:java.util.Hashtable.<init>",
+      "type": "API",
+      "name": "java.util.Hashtable.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java::setChosenLevel",
       "type": "FUNCTION",
       "name": "setChosenLevel"
@@ -9105,6 +9335,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java::TableColorizingRenderer",
@@ -9537,6 +9772,11 @@
       "name": "javax.swing.tree.DefaultMutableTreeNode.setAllowsChildren"
     },
     {
+      "id": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "API",
+      "name": "javax.swing.tree.DefaultMutableTreeNode.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ModifiableListModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ModifiableListModel.java"
@@ -9622,6 +9862,11 @@
       "name": "setSaveConfigFile"
     },
     {
+      "id": "api:java.awt.event.ActionListener.<init>",
+      "type": "API",
+      "name": "java.awt.event.ActionListener.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::actionPerformed",
       "type": "FUNCTION",
       "name": "actionPerformed"
@@ -9630,6 +9875,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::setCancelled",
       "type": "FUNCTION",
       "name": "setCancelled"
+    },
+    {
+      "id": "api:java.awt.event.ActionEvent.<init>",
+      "type": "API",
+      "name": "java.awt.event.ActionEvent.<init>"
     },
     {
       "id": "api:JComboBox.getSelectedItem",
@@ -9670,6 +9920,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getFont",
       "type": "FUNCTION",
       "name": "getFont"
+    },
+    {
+      "id": "api:javax.swing.text.SimpleAttributeSet.<init>",
+      "type": "API",
+      "name": "javax.swing.text.SimpleAttributeSet.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildNetworkReceiverPanel",
@@ -9755,6 +10010,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::addFocusListener",
       "type": "FUNCTION",
       "name": "addFocusListener"
+    },
+    {
+      "id": "api:java.awt.event.FocusListener.<init>",
+      "type": "API",
+      "name": "java.awt.event.FocusListener.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::focusGained",
@@ -10082,6 +10342,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java::getColumns",
       "type": "FUNCTION",
       "name": "getColumns"
@@ -10187,6 +10452,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java::getColumnsNames",
       "type": "FUNCTION",
       "name": "getColumnsNames"
@@ -10255,6 +10525,16 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::ChainsawReceiverSkeleton",
+      "type": "FUNCTION",
+      "name": "ChainsawReceiverSkeleton"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::addChainsawEventBatchListener",
@@ -10602,6 +10882,11 @@
       "name": "createTreeModel"
     },
     {
+      "id": "api:javax.swing.tree.DefaultTreeModel.<init>",
+      "type": "API",
+      "name": "javax.swing.tree.DefaultTreeModel.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::ColumnSelectorPanel",
       "type": "FUNCTION",
       "name": "ColumnSelectorPanel"
@@ -10645,6 +10930,11 @@
       "id": "api:Box.createVerticalGlue",
       "type": "API",
       "name": "Box.createVerticalGlue"
+    },
+    {
+      "id": "api:java.awt.event.MouseAdapter.<init>",
+      "type": "API",
+      "name": "java.awt.event.MouseAdapter.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::isSelected",
@@ -10990,6 +11280,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::ApplicationPreferenceModelPanel",
@@ -11667,6 +11962,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::removeChangeListener",
       "type": "FUNCTION",
       "name": "removeChangeListener"
@@ -11685,6 +11985,11 @@
       "id": "api:javax.swing.event.ChangeListener.stateChanged",
       "type": "API",
       "name": "javax.swing.event.ChangeListener.stateChanged"
+    },
+    {
+      "id": "api:javax.swing.event.ChangeEvent.<init>",
+      "type": "API",
+      "name": "javax.swing.event.ChangeEvent.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::getMRUList",
@@ -11715,6 +12020,16 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.Properties.<init>",
+      "type": "API",
+      "name": "java.util.Properties.<init>"
     },
     {
       "id": "api:java.util.Properties.put",
@@ -11790,6 +12105,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::SettingsManager",
@@ -12207,6 +12527,11 @@
       "name": "getWaitMillis"
     },
     {
+      "id": "api:java.util.zip.GZIPInputStream.<init>",
+      "type": "API",
+      "name": "java.util.zip.GZIPInputStream.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiver.java::UserNamePasswordDialog",
       "type": "FUNCTION",
       "name": "UserNamePasswordDialog"
@@ -12245,6 +12570,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/osx/OSXIntegration.java",
@@ -12345,6 +12675,11 @@
       "id": "api:e.getDot",
       "type": "API",
       "name": "e.getDot"
+    },
+    {
+      "id": "api:javax.swing.event.DocumentListener.<init>",
+      "type": "API",
+      "name": "javax.swing.event.DocumentListener.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::changedUpdate",
@@ -12527,6 +12862,11 @@
       "name": "org.apache.logging.log4j.core.lookup.StrSubstitutor.replace"
     },
     {
+      "id": "api:org.apache.logging.log4j.core.lookup.StrSubstitutor.<init>",
+      "type": "API",
+      "name": "org.apache.logging.log4j.core.lookup.StrSubstitutor.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java"
@@ -12582,9 +12922,19 @@
       "name": "trim"
     },
     {
+      "id": "api:java.io.BufferedReader.<init>",
+      "type": "API",
+      "name": "java.io.BufferedReader.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java::addDropTargetToComponent",
@@ -12775,6 +13125,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::setSelectionInterval",
       "type": "FUNCTION",
       "name": "setSelectionInterval"
+    },
+    {
+      "id": "api:javax.swing.table.DefaultTableModel.<init>",
+      "type": "API",
+      "name": "javax.swing.table.DefaultTableModel.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/color/ColorPanel.java::actionPerformed",
@@ -13222,6 +13577,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java::RuleColorizer",
       "type": "FUNCTION",
       "name": "RuleColorizer"
@@ -13290,6 +13650,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::ReceiversTreeModel",
@@ -13407,6 +13772,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::ReceiversPanel",
       "type": "FUNCTION",
       "name": "ReceiversPanel"
@@ -13482,6 +13852,11 @@
       "name": "add"
     },
     {
+      "id": "api:javax.swing.tree.TreePath.<init>",
+      "type": "API",
+      "name": "javax.swing.tree.TreePath.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::treeNodesChanged",
       "type": "FUNCTION",
       "name": "treeNodesChanged"
@@ -13525,6 +13900,11 @@
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::getLastPathComponent",
       "type": "FUNCTION",
       "name": "getLastPathComponent"
+    },
+    {
+      "id": "api:javax.swing.tree.ExpandVetoException.<init>",
+      "type": "API",
+      "name": "javax.swing.tree.ExpandVetoException.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::actionPerformed",
@@ -14037,6 +14417,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::PluginPropertyEditorPanel",
       "type": "FUNCTION",
       "name": "PluginPropertyEditorPanel"
@@ -14232,6 +14617,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::ChainsawLoggingEvent",
+      "type": "FUNCTION",
+      "name": "ChainsawLoggingEvent"
+    },
+    {
       "id": "api:java.util.Map.remove",
       "type": "API",
       "name": "java.util.Map.remove"
@@ -14240,6 +14630,11 @@
       "id": "api:java.util.Map.keySet",
       "type": "API",
       "name": "java.util.Map.keySet"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::getProperties",
+      "type": "FUNCTION",
+      "name": "getProperties"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/logevents/LocationInfo.java",
@@ -14312,6 +14707,11 @@
       "name": "Graphics2D.drawLine"
     },
     {
+      "id": "api:java.awt.image.BufferedImage.<init>",
+      "type": "API",
+      "name": "java.awt.image.BufferedImage.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::paintIcon",
       "type": "FUNCTION",
       "name": "paintIcon"
@@ -14325,6 +14725,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::LevelIconFactory",
@@ -14370,6 +14775,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java::getRowCount",
@@ -14477,6 +14887,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::addAutoConnectDevice",
       "type": "FUNCTION",
       "name": "addAutoConnectDevice"
@@ -14500,6 +14915,11 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java::EventTypeEntryContainer",
@@ -14585,11 +15005,6 @@
       "id": "file:src/main/java/org/apache/log4j/chainsaw/filter/FilterModel.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/chainsaw/filter/FilterModel.java"
-    },
-    {
-      "id": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::getProperties",
-      "type": "FUNCTION",
-      "name": "getProperties"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/helper/OkCancelPanel.java",
@@ -14737,6 +15152,11 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::HelpManager",
       "type": "FUNCTION",
       "name": "HelpManager"
@@ -14822,9 +15242,19 @@
       "name": "src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "api:ClassLoader.getResource",
       "type": "API",
       "name": "ClassLoader.getResource"
+    },
+    {
+      "id": "api:java.net.URLClassLoader.<init>",
+      "type": "API",
+      "name": "java.net.URLClassLoader.<init>"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/chainsaw/xstream/TableColumnConverter.java",
@@ -14887,6 +15317,21 @@
       "name": "src/main/java/org/apache/log4j/net/ECSLogEvent.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.owlike.genson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.owlike.genson.annotation.JsonProperty.<annotation>"
+    },
+    {
+      "id": "dependency:com.owlike:genson",
+      "type": "DEPENDENCY",
+      "name": "com.owlike:genson"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::toChainsawLoggingEvent",
       "type": "FUNCTION",
       "name": "toChainsawLoggingEvent"
@@ -14927,9 +15372,19 @@
       "name": "src/main/java/org/apache/log4j/net/MulticastReceiverBeanInfo.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/net/MulticastReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/net/MulticastReceiver.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/MulticastReceiver.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::shutdown",
@@ -15072,6 +15527,11 @@
       "name": "src/main/java/org/apache/log4j/net/JsonReceiverFactory.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/net/JsonReceiverFactory.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/net/UDPReceiver.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/UDPReceiver.java"
@@ -15095,6 +15555,11 @@
       "id": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::start",
       "type": "FUNCTION",
       "name": "start"
+    },
+    {
+      "id": "api:java.net.DatagramSocket.<init>",
+      "type": "API",
+      "name": "java.net.DatagramSocket.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::UDPReceiverThread",
@@ -15130,6 +15595,11 @@
       "id": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::append",
       "type": "FUNCTION",
       "name": "append"
+    },
+    {
+      "id": "api:java.net.DatagramPacket.<init>",
+      "type": "API",
+      "name": "java.net.DatagramPacket.<init>"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/net/JsonReceiver.java",
@@ -15202,6 +15672,11 @@
       "name": "java.net.Socket.close"
     },
     {
+      "id": "api:java.net.ServerSocket.<init>",
+      "type": "API",
+      "name": "java.net.ServerSocket.<init>"
+    },
+    {
       "id": "api:java.net.Socket.getInputStream",
       "type": "API",
       "name": "java.net.Socket.getInputStream"
@@ -15220,11 +15695,6 @@
       "id": "api:com.owlike.genson.Genson.deserializeValues",
       "type": "API",
       "name": "com.owlike.genson.Genson.deserializeValues"
-    },
-    {
-      "id": "dependency:com.owlike:genson",
-      "type": "DEPENDENCY",
-      "name": "com.owlike:genson"
     },
     {
       "id": "api:java.util.Iterator.hasNext",
@@ -15247,14 +15717,29 @@
       "name": "java.io.InputStream.close"
     },
     {
+      "id": "api:com.owlike.genson.GensonBuilder.<init>",
+      "type": "API",
+      "name": "com.owlike.genson.GensonBuilder.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/net/UDPReceiverFactory.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/UDPReceiverFactory.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/net/UDPReceiverFactory.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/XMLSocketReceiver.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::activateOptions",
@@ -15327,6 +15812,11 @@
       "name": "src/main/java/org/apache/log4j/net/MulticastReceiverFactory.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/net/MulticastReceiverFactory.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/net/NetworkBased.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/NetworkBased.java"
@@ -15340,6 +15830,11 @@
       "id": "file:src/main/java/org/apache/log4j/net/XMLReceiverFactory.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/net/XMLReceiverFactory.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/net/XMLReceiverFactory.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
     },
     {
       "id": "file:src/main/java/org/apache/log4j/net/PortBased.java",
@@ -15637,14 +16132,29 @@
       "name": "src/main/java/org/apache/log4j/varia/LogFilePatternReceiverFactory.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverFactory.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "FUNCTION",
+      "name": "getPropertyDescriptors"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/scheduler/Scheduler.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/scheduler/Scheduler.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/scheduler/Scheduler.java::Scheduler",
+      "type": "FUNCTION",
+      "name": "Scheduler"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/scheduler/Scheduler.java::findIndex",
@@ -15737,6 +16247,11 @@
       "name": "java.lang.Class.getClassLoader"
     },
     {
+      "id": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayInputStream.<init>"
+    },
+    {
       "id": "file:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java"
@@ -15795,6 +16310,11 @@
       "id": "api:LineNumberReader.close",
       "type": "API",
       "name": "LineNumberReader.close"
+    },
+    {
+      "id": "api:java.util.zip.ZipInputStream.<init>",
+      "type": "API",
+      "name": "java.util.zip.ZipInputStream.<init>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::equals",
@@ -15955,6 +16475,11 @@
       "id": "file:src/main/java/org/apache/log4j/xml/XMLDecoder.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/xml/XMLDecoder.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::XMLDecoder",
@@ -16207,6 +16732,16 @@
       "name": "src/main/java/org/apache/log4j/rule/RuleFactory.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/rule/RuleFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
       "id": "api:java.util.Collection.contains",
       "type": "API",
       "name": "java.util.Collection.contains"
@@ -16287,6 +16822,11 @@
       "name": "src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::TimestampEqualsRule",
       "type": "FUNCTION",
       "name": "TimestampEqualsRule"
@@ -16342,6 +16882,11 @@
       "name": "src/main/java/org/apache/log4j/rule/LevelEqualsRule.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::populateLevels",
       "type": "FUNCTION",
       "name": "populateLevels"
@@ -16392,6 +16937,11 @@
       "name": "src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::TimestampInequalityRule",
       "type": "FUNCTION",
       "name": "TimestampInequalityRule"
@@ -16420,6 +16970,11 @@
       "id": "file:src/main/java/org/apache/log4j/rule/InFixToPostFix.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/rule/InFixToPostFix.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::infixToPostFix",
@@ -16572,6 +17127,11 @@
       "name": "java.readObject"
     },
     {
+      "id": "api:java.io.IOException.<init>",
+      "type": "API",
+      "name": "java.io.IOException.<init>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::writeObject",
       "type": "FUNCTION",
       "name": "writeObject"
@@ -16672,6 +17232,11 @@
       "name": "src/main/java/org/apache/log4j/rule/AbstractRule.java"
     },
     {
+      "id": "function:src/main/java/org/apache/log4j/rule/AbstractRule.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/org/apache/log4j/rule/AbstractRule.java::addPropertyChangeListener",
       "type": "FUNCTION",
       "name": "addPropertyChangeListener"
@@ -16690,6 +17255,11 @@
       "id": "file:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::populateLevels",
@@ -16835,6 +17405,11 @@
       "id": "file:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java",
       "type": "FILE",
       "name": "src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java"
+    },
+    {
+      "id": "function:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java::LoggingEventFieldResolver",
@@ -17064,6 +17639,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/apache/log4j/chainsaw/LogPanelPreferenceModelTest.java::testLogPanelPreferenceModelSerialization",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.thoughtworks.xstream.XStream.<init>",
+      "target": "dependency:com.thoughtworks.xstream:xstream",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/apache/log4j/chainsaw/LogPanelPreferenceModelTest.java::testLogPanelPreferenceModelSerialization",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "target": "dependency:com.thoughtworks.xstream:xstream",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java",
       "target": "function:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java::getStringFromResource",
       "type": "CONTAINS"
@@ -17110,6 +17705,26 @@
     },
     {
       "source": "api:java.nio.CharBuffer.toString",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java::getStringFromResource",
+      "target": "api:java.io.FileNotFoundException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileNotFoundException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/apache/log4j/xml/XMLDecoderTest.java::getStringFromResource",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.InputStreamReader.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -17219,6 +17834,36 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/GeneratorBeanInfo.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/GeneratorBeanInfo.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/GeneratorBeanInfo.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.beans.PropertyDescriptor.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::<class>",
+      "target": "api:org.apache.logging.log4j.core.config.plugins.Plugin.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.logging.log4j.core.config.plugins.Plugin.<annotation>",
+      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::createAppender",
       "type": "CONTAINS"
@@ -17241,6 +17886,26 @@
     {
       "source": "api:LOGGER.error",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::createAppender",
+      "target": "api:org.apache.logging.log4j.core.config.plugins.PluginFactory.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.logging.log4j.core.config.plugins.PluginFactory.<annotation>",
+      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawAppender.java::createAppender",
+      "target": "api:org.apache.logging.log4j.core.config.plugins.PluginAttribute.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.logging.log4j.core.config.plugins.PluginAttribute.<annotation>",
+      "target": "dependency:org.apache.logging.log4j:log4j-core",
       "type": "PROVIDED_BY"
     },
     {
@@ -17575,7 +18240,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.Logger.error",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -17621,6 +18286,31 @@
     {
       "source": "api:LOG.error",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java::<class>",
+      "target": "api:javax.swing.event.EventListenerList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.event.EventListenerList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawCyclicBufferTableModel.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.beans.PropertyChangeSupport.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -18025,7 +18715,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.Logger.debug",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -20215,6 +20905,21 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java::<class>",
+      "target": "api:java.util.Stack.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Stack.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/WelcomePanel.java::WelcomePanel",
       "type": "CONTAINS"
     },
@@ -20765,6 +21470,21 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::<class>",
+      "target": "api:java.text.SimpleDateFormat.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.text.SimpleDateFormat.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::LogPanel",
       "type": "CONTAINS"
     },
@@ -21130,7 +21850,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.Logger.info",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -21944,6 +22664,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::LogPanel",
+      "target": "api:java.beans.PropertyChangeListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.beans.PropertyChangeListener.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::LogPanel",
+      "target": "api:javax.swing.table.TableColumn.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.table.TableColumn.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::actionPerformed",
       "type": "CONTAINS"
@@ -22136,6 +22876,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::propertyChange",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java::setDefaultDatePatternFormat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::propertyChange",
+      "target": "api:java.text.SimpleDateFormat.<init>",
       "type": "CALLS"
     },
     {
@@ -23255,6 +24000,16 @@
     },
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::actionPerformed",
+      "target": "api:java.awt.datatransfer.StringSelection.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.datatransfer.StringSelection.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::actionPerformed",
       "target": "api:JTable.columnAtPoint",
       "type": "CALLS"
     },
@@ -24149,6 +24904,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::loadSettings",
+      "target": "api:javax.swing.table.TableColumn.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::saveSettings",
       "type": "CONTAINS"
@@ -24352,6 +25112,16 @@
       "source": "api:com.thoughtworks.xstream.XStream.registerConverter",
       "target": "dependency:com.thoughtworks.xstream:xstream",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::buildXStreamForLogPanelPreference",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::buildXStreamForLogPanelPreference",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanel.java",
@@ -25765,7 +26535,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.Logger.warn",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -28699,6 +29469,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::loadSettings",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::loadSettings",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::loadSettings",
+      "target": "api:java.io.FileReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::saveSettings",
       "type": "CONTAINS"
@@ -28734,6 +29524,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::saveSettings",
+      "target": "api:java.io.FileWriter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileWriter.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::getApplicationPreferenceXMLFile",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelSaver.java::getApplicationPreferenceXMLFile",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/BasicPrefPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/BasicPrefPanel.java::toString",
       "type": "CONTAINS"
@@ -28742,6 +29567,36 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/BasicPrefPanel.java::toString",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/BasicPrefPanel.java::getTitle",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::<class>",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Vector.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModel.java",
@@ -29620,6 +30475,31 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/SmallButton.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::<class>",
+      "target": "api:javax.swing.border.EmptyBorder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.border.EmptyBorder.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::<class>",
+      "target": "api:javax.swing.border.SoftBevelBorder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.border.SoftBevelBorder.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/SmallButton.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/SmallButton.java::SmallButton",
       "type": "CONTAINS"
     },
@@ -29735,6 +30615,26 @@
     },
     {
       "source": "api:java.util.List.toArray",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/CyclicBufferList.java::remove",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -29891,6 +30791,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::toString",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LoggingEventWrapper.java::getForeground",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/SmallToggleButton.java::<class>",
+      "target": "api:javax.swing.border.SoftBevelBorder.<init>",
       "type": "CALLS"
     },
     {
@@ -30154,6 +31064,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/FileSaveAction.java::actionPerformed",
+      "target": "api:java.util.zip.ZipOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.zip.ZipOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/FileSaveAction.java::actionPerformed",
+      "target": "api:java.util.zip.ZipEntry.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.zip.ZipEntry.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/PopupListener.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/PopupListener.java::mousePressed",
       "type": "CONTAINS"
@@ -30222,6 +31152,16 @@
       "source": "api:java.awt.event.MouseEvent.getY",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java",
@@ -30832,6 +31772,11 @@
       "source": "api:JMenuBar.add",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::createMenuBar",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawToolBarAndMenus.java::actionPerformed",
@@ -31475,6 +32420,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogUI.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::<class>",
+      "target": "api:javax.swing.event.EventListenerList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/LogUI.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::LogUI",
       "type": "CONTAINS"
     },
@@ -31690,7 +32645,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.LogManager.getContext",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -31801,6 +32756,21 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::createChainsawGUI",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::setShutdownAction",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::createChainsawGUI",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::createChainsawGUI",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -34199,6 +35169,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::saveReceiversToFile",
+      "target": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::saveReceiversToFile",
+      "target": "api:java.io.FileOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::saveReceiversToFile",
+      "target": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/CheckListCellRenderer.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/CheckListCellRenderer.java::CheckListCellRenderer",
       "type": "CONTAINS"
@@ -34739,6 +35739,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/CopyEventsToClipboardAction.java::actionPerformed",
+      "target": "api:java.awt.datatransfer.StringSelection.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java::getTimeStampFormat",
       "type": "CONTAINS"
@@ -34934,6 +35939,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java::getPropertiesFileAppenderConfiguration",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java::getXMLFileAppenderConfiguration",
       "type": "CONTAINS"
@@ -35116,6 +36131,36 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java::getXMLFileAppenderConfiguration",
       "target": "api:Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogFilePatternLayoutBuilder.java::getXMLFileAppenderConfiguration",
+      "target": "api:org.xml.sax.InputSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.xml.sax.InputSource.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameModelSupport.java::<class>",
+      "target": "api:javax.swing.event.EventListenerList.<init>",
       "type": "CALLS"
     },
     {
@@ -37669,6 +38714,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java::ThresholdSlider",
+      "target": "api:java.util.Hashtable.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Hashtable.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java::setChosenLevel",
       "type": "CONTAINS"
@@ -37696,6 +38751,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java::getSelectedLevel",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ThresholdSlider.java::getValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java::<class>",
+      "target": "api:java.text.SimpleDateFormat.<init>",
       "type": "CALLS"
     },
     {
@@ -37837,6 +38902,11 @@
       "source": "api:JTextPane.setParagraphAttributes",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java::TableColorizingRenderer",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/TableColorizingRenderer.java",
@@ -38844,6 +39914,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LoggerNameTree.java::LoggerNameTree",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ModifiableListModel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ModifiableListModel.java::fireContentsChanged",
       "type": "CONTAINS"
@@ -39009,6 +40089,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildDontWarnAndOKPanel",
+      "target": "api:java.awt.event.ActionListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.event.ActionListener.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildDontWarnAndOKPanel",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::actionPerformed",
       "type": "CONTAINS"
@@ -39022,6 +40117,16 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::actionPerformed",
       "target": "api:java.awt.event.ActionListener.actionPerformed",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::actionPerformed",
+      "target": "api:java.awt.event.ActionEvent.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.event.ActionEvent.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::actionPerformed",
@@ -39112,6 +40217,16 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildBottomDescriptionPanel",
       "target": "api:JPanel.add",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildBottomDescriptionPanel",
+      "target": "api:javax.swing.text.SimpleAttributeSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.text.SimpleAttributeSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java",
@@ -39339,6 +40454,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::buildUseExistingConfigurationPanel",
+      "target": "api:java.awt.event.FocusListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.event.FocusListener.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::focusGained",
       "type": "CONTAINS"
@@ -39559,6 +40684,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::PanelModel",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::isNetworkReceiverMode",
       "type": "CONTAINS"
@@ -39644,6 +40774,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getConfigToLoad",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getDefaultConfigFileURL",
       "type": "CONTAINS"
@@ -39681,6 +40816,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getLogFileURL",
       "target": "api:org.apache.logging.log4j.Logger.error",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getLogFileURL",
+      "target": "api:java.net.URL.<init>",
       "type": "CALLS"
     },
     {
@@ -39786,6 +40926,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getLog4jConfigFile",
       "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getLog4jConfigFile",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ReceiverConfigurationPanel.java::getLog4jConfigFile",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -40066,6 +41216,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/SortHeaderRenderer.java::getTableCellRendererComponent",
       "target": "api:UIManager.getBorder",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferenceModel.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
       "type": "CALLS"
     },
     {
@@ -40710,6 +41870,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawColumns.java::getColumnName",
       "type": "CONTAINS"
     },
@@ -40827,6 +41997,31 @@
       "source": "api:JLabel.getText",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::ChainsawReceiverSkeleton",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::ChainsawReceiverSkeleton",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java",
@@ -41029,6 +42224,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::run",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawReceiverSkeleton.java::enqueue",
       "target": "api:mutex.notify",
       "type": "CALLS"
@@ -41184,6 +42384,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::saveSettings",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::saveSettings",
+      "target": "api:java.io.FileWriter.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
       "type": "CONTAINS"
@@ -41236,6 +42456,26 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
       "target": "api:java.io.File.delete",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawTabbedPane.java::loadSettings",
+      "target": "api:java.io.FileReader.<init>",
       "type": "CALLS"
     },
     {
@@ -41449,6 +42689,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::createTreeModel",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::createTreeModel",
+      "target": "api:javax.swing.tree.DefaultTreeModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.tree.DefaultTreeModel.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::ColumnSelectorPanel",
       "type": "CONTAINS"
@@ -41582,6 +42837,21 @@
       "source": "api:Box.createVerticalGlue",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::initComponents",
+      "target": "api:java.awt.event.MouseAdapter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.event.MouseAdapter.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java::initComponents",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/LogPanelPreferencePanel.java",
@@ -42754,6 +44024,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ChainsawSplash.java::ChainsawSplash",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::<class>",
+      "target": "api:java.util.Hashtable.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::ApplicationPreferenceModelPanel",
       "type": "CONTAINS"
@@ -42765,7 +44050,7 @@
     },
     {
       "source": "api:org.apache.logging.log4j.LogManager.getLogger",
-      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "target": "dependency:org.apache.logging.log4j:log4j-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -42891,6 +44176,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::createTreeModel",
       "target": "api:javax.swing.tree.DefaultMutableTreeNode.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::createTreeModel",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::createTreeModel",
+      "target": "api:javax.swing.tree.DefaultTreeModel.<init>",
       "type": "CALLS"
     },
     {
@@ -43424,6 +44719,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::verify",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::browseForConfiguration",
       "type": "CONTAINS"
@@ -43531,6 +44831,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::browseForConfiguration",
       "target": "api:e1.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/ApplicationPreferenceModelPanel.java::browseForConfiguration",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -44480,6 +45785,21 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::<class>",
+      "target": "api:javax.swing.event.EventListenerList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::addChangeListener",
       "type": "CONTAINS"
     },
@@ -44544,6 +45864,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::fireChangeEvent",
+      "target": "api:javax.swing.event.ChangeEvent.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.event.ChangeEvent.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::getMRUList",
       "type": "CONTAINS"
@@ -44574,6 +45904,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromXML",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromXML",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromReader",
       "type": "CONTAINS"
@@ -44587,6 +45927,31 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromReader",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::fireChangeEvent",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromReader",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileList.java::loadLog4jMRUListFromReader",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java::<class>",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SaveSettingsEvent.java",
@@ -44669,6 +46034,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::loadSettings",
+      "target": "api:java.io.FileReader.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::saveSettings",
       "type": "CONTAINS"
@@ -44714,6 +46084,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.XStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::saveSettings",
+      "target": "api:com.thoughtworks.xstream.io.xml.DomDriver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::saveSettings",
+      "target": "api:java.io.FileWriter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::getMRULocation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/MRUFileListPreferenceSaver.java::getMRULocation",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/ProfileManager.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/ProfileManager.java::configure",
       "type": "CONTAINS"
@@ -44731,6 +46126,26 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/ProfileManager.java::configure",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/Profileable.java::loadSettings",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/ProfileManager.java::configure",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::<class>",
+      "target": "api:javax.swing.event.EventListenerList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::<class>",
+      "target": "api:java.util.Properties.<init>",
       "type": "CALLS"
     },
     {
@@ -44884,6 +46299,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::createProfilebleEvent",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::loadProperties",
       "type": "CONTAINS"
@@ -44936,6 +46356,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::loadProperties",
       "target": "api:e1.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::loadProperties",
+      "target": "api:java.util.Properties.<init>",
       "type": "CALLS"
     },
     {
@@ -45161,6 +46586,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::loadGlobalProperties",
       "target": "api:e1.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/prefs/SettingsManager.java::loadGlobalProperties",
+      "target": "api:java.util.Properties.<init>",
       "type": "CALLS"
     },
     {
@@ -45599,6 +47029,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiver.java::run",
+      "target": "api:java.util.zip.GZIPInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.zip.GZIPInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiver.java::UserNamePasswordDialog",
       "type": "CONTAINS"
@@ -45676,6 +47116,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiver.java::run",
       "target": "api:logger.debug",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/vfs/VFSLogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
       "type": "CALLS"
     },
     {
@@ -45864,6 +47314,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::setupListeners",
+      "target": "api:javax.swing.event.DocumentListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.event.DocumentListener.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::changedUpdate",
       "type": "CONTAINS"
@@ -45996,6 +47456,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::createEvent",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::setProperty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::createEvent",
+      "target": "api:java.util.Hashtable.<init>",
       "type": "CALLS"
     },
     {
@@ -46146,6 +47611,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::configureDatetimeFormatters",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::updatePreview",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/LayoutEditorPane.java::configureDatetimeFormatters",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -46389,6 +47859,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/EventDetailLayout.java::format",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/EventDetailLayout.java::format",
+      "target": "api:org.apache.logging.log4j.core.lookup.StrSubstitutor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.logging.log4j.core.lookup.StrSubstitutor.<init>",
+      "target": "dependency:org.apache.logging.log4j:log4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java::getDefaultPatternLayout",
       "type": "CONTAINS"
@@ -46506,6 +47991,36 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java::getPatternLayout",
       "target": "api:java.lang.String.length",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java::getPatternLayout",
+      "target": "api:java.io.BufferedReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.BufferedReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/layout/DefaultLayoutFactory.java::getPatternLayout",
+      "target": "api:java.io.InputStreamReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/dnd/FileDnDTarget.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
       "type": "CALLS"
     },
     {
@@ -46972,6 +48487,16 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/color/ColorPanel.java::ColorPanel",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogPanel.java::setSelectionInterval",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/color/ColorPanel.java::ColorPanel",
+      "target": "api:javax.swing.table.DefaultTableModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.table.DefaultTableModel.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/color/ColorPanel.java",
@@ -48270,6 +49795,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/color/RuleColorizer.java::RuleColorizer",
       "type": "CONTAINS"
     },
@@ -48650,6 +50185,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::<class>",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::ReceiversTreeModel",
       "type": "CONTAINS"
     },
@@ -48661,6 +50206,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::ReceiversTreeModel",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::refresh",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::ReceiversTreeModel",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
       "type": "CALLS"
     },
     {
@@ -48814,6 +50364,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::receiverAdded",
+      "target": "api:javax.swing.tree.DefaultMutableTreeNode.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::receiverRemoved",
       "type": "CONTAINS"
@@ -48856,6 +50411,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::receiverRemoved",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversTreeModel.java::nodesWereInserted",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -49049,6 +50614,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::ReceiversPanel",
+      "target": "api:javax.swing.tree.TreePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.tree.TreePath.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::treeNodesChanged",
       "type": "CONTAINS"
@@ -49109,6 +50684,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::expandRoot",
+      "target": "api:javax.swing.tree.TreePath.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::treeWillCollapse",
       "type": "CONTAINS"
@@ -49127,6 +50707,16 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::treeWillCollapse",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::getLastPathComponent",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::treeWillCollapse",
+      "target": "api:javax.swing.tree.ExpandVetoException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.swing.tree.ExpandVetoException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java",
@@ -49369,6 +50959,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::getSelectedReceivers",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::getCurrentlySelectedUserObject",
       "type": "CONTAINS"
@@ -49516,6 +51111,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::saveSettings",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/LogUI.java::saveReceiversToFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/ReceiversPanel.java::saveSettings",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -50235,6 +51835,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::<class>",
+      "target": "api:javax.swing.table.DefaultTableModel.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::PluginPropertyEditorPanel",
       "type": "CONTAINS"
     },
@@ -50277,6 +51887,11 @@
       "source": "api:JTable.setModel",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java::initComponents",
+      "target": "api:javax.swing.table.DefaultTableModel.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/receivers/PluginPropertyEditorPanel.java",
@@ -50635,6 +52250,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::ChainsawLoggingEvent",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::ChainsawLoggingEvent",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::setProperty",
       "type": "CONTAINS"
     },
@@ -50684,6 +52309,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::getProperties",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEvent.java::getProperties",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::copyFromEvent",
       "type": "CONTAINS"
@@ -50691,6 +52326,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::copyFromEvent",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::clear",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::copyFromEvent",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -50711,6 +52351,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::addMDCEntry",
       "target": "api:java.util.Map.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::addMDCEntry",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -50799,6 +52444,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::createExpandIcon",
+      "target": "api:java.awt.image.BufferedImage.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.awt.image.BufferedImage.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::createCollapseIcon",
       "type": "CONTAINS"
@@ -50849,6 +52504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::createCollapseIcon",
+      "target": "api:java.awt.image.BufferedImage.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::paintIcon",
       "type": "CONTAINS"
@@ -50871,6 +52531,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/icons/LineIconFactory.java::paintIcon",
       "target": "api:Graphics2D.drawLine",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -50931,6 +52601,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::LevelIconFactory",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/icons/LevelIconFactory.java::getScaledInstance",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfDeviceModel.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -51130,6 +52810,21 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/zeroconf/ZeroConfPreferenceModel.java::addAutoConnectDevice",
       "type": "CONTAINS"
     },
@@ -51162,6 +52857,21 @@
       "source": "api:java.util.Set.remove",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/filter/EventTypeEntryContainer.java",
@@ -51609,6 +53319,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/helper/SwingHelper.java::orderOKCancelButtons",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/helper/SwingHelper.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/helper/SwingHelper.java::promptForFile",
       "type": "CONTAINS"
@@ -51719,6 +53434,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/helper/SwingHelper.java::promptForFile",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::HelpManager",
       "type": "CONTAINS"
@@ -51781,6 +53511,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::HelpManager",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::getClassLoader",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::HelpManager",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpManager.java::HelpManager",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -51875,6 +53615,16 @@
     },
     {
       "source": "file:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java",
+      "target": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::installClassloaderLocator",
       "type": "CONTAINS"
     },
@@ -51937,6 +53687,21 @@
       "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::findResource",
       "target": "api:e.printStackTrace",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::findResource",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::findResource",
+      "target": "api:java.net.URLClassLoader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URLClassLoader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/org/apache/log4j/chainsaw/help/HelpLocator.java::findResource",
@@ -52049,6 +53814,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/chainsaw/xstream/TableColumnConverter.java::unmarshal",
+      "target": "api:javax.swing.table.TableColumn.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/ECSLogEvent.java",
+      "target": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::<class>",
+      "target": "api:com.owlike.genson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.owlike.genson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.owlike:genson",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/net/ECSLogEvent.java",
       "target": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::toChainsawLoggingEvent",
       "type": "CONTAINS"
@@ -52101,6 +53886,26 @@
     {
       "source": "function:src/main/java/org/apache/log4j/net/ECSLogEvent.java::toChainsawLoggingEvent",
       "target": "function:src/main/java/org/apache/log4j/chainsaw/logevents/ChainsawLoggingEventBuilder.java::create",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/MulticastReceiverBeanInfo.java",
+      "target": "function:src/main/java/org/apache/log4j/net/MulticastReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/MulticastReceiverBeanInfo.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/MulticastReceiver.java",
+      "target": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -52274,6 +54079,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::run",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/net/MulticastReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/net/MulticastReceiver.java::MulticastReceiverThread",
       "type": "CONTAINS"
@@ -52369,6 +54179,16 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/org/apache/log4j/net/JsonReceiverFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/net/JsonReceiverFactory.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/JsonReceiverFactory.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/net/UDPReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::shutdown",
       "type": "CONTAINS"
@@ -52417,6 +54237,16 @@
       "source": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::start",
       "target": "api:ioe.printStackTrace",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::start",
+      "target": "api:java.net.DatagramSocket.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.DatagramSocket.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/net/UDPReceiver.java",
@@ -52477,6 +54307,16 @@
       "source": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::run",
       "target": "api:ioe.printStackTrace",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::run",
+      "target": "api:java.net.DatagramPacket.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.DatagramPacket.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/org/apache/log4j/net/UDPReceiver.java::run",
@@ -52649,6 +54489,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/net/JsonReceiver.java::run",
+      "target": "api:java.net.ServerSocket.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.ServerSocket.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/net/JsonReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/net/JsonReceiver.java::parseIncomingData",
       "type": "CONTAINS"
@@ -52732,6 +54582,36 @@
       "source": "api:java.io.InputStream.close",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/JsonReceiver.java::parseIncomingData",
+      "target": "api:com.owlike.genson.GensonBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.owlike.genson.GensonBuilder.<init>",
+      "target": "dependency:com.owlike:genson",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/UDPReceiverFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/net/UDPReceiverFactory.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/UDPReceiverFactory.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java",
+      "target": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::<class>",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java",
@@ -52864,6 +54744,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::run",
+      "target": "api:java.net.ServerSocket.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::start",
       "type": "CONTAINS"
@@ -52946,6 +54831,26 @@
     {
       "source": "function:src/main/java/org/apache/log4j/net/XMLSocketReceiver.java::parseIncomingData",
       "target": "api:java.io.InputStream.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/MulticastReceiverFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/net/MulticastReceiverFactory.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/MulticastReceiverFactory.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/net/XMLReceiverFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/net/XMLReceiverFactory.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/net/XMLReceiverFactory.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
       "type": "CALLS"
     },
     {
@@ -53464,6 +55369,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiver.java::initialize",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiver.java::initialize",
+      "target": "api:java.text.SimpleDateFormat.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/varia/LogFilePatternReceiver.java",
       "target": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiver.java::updateCustomLevelDefinitionMap",
       "type": "CONTAINS"
@@ -53824,6 +55739,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiver.java::run",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverFactory.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverFactory.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java",
+      "target": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/varia/LogFilePatternReceiverBeanInfo.java::getPropertyDescriptors",
+      "target": "api:java.beans.PropertyDescriptor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/scheduler/Scheduler.java",
+      "target": "function:src/main/java/org/apache/log4j/scheduler/Scheduler.java::Scheduler",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/scheduler/Scheduler.java::Scheduler",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/scheduler/Scheduler.java",
       "target": "function:src/main/java/org/apache/log4j/scheduler/Scheduler.java::findIndex",
       "type": "CONTAINS"
@@ -54044,6 +55994,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/xml/Log4jEntityResolver.java::resolveEntity",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/Log4jEntityResolver.java::resolveEntity",
+      "target": "api:org.xml.sax.InputSource.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java",
       "target": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::UtilLoggingXMLDecoder",
       "type": "CONTAINS"
@@ -54116,6 +56081,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::parse",
       "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::parse",
+      "target": "api:org.xml.sax.InputSource.<init>",
       "type": "CALLS"
     },
     {
@@ -54192,6 +56162,16 @@
       "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::decode",
       "target": "api:e.printStackTrace",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java::decode",
+      "target": "api:java.util.zip.ZipInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.zip.ZipInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/xml/UtilLoggingXMLDecoder.java",
@@ -54664,6 +56644,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/xml/LogFileXMLReceiver.java::start",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/xml/UtilLoggingEntityResolver.java",
       "target": "function:src/main/java/org/apache/log4j/xml/UtilLoggingEntityResolver.java::resolveEntity",
       "type": "CONTAINS"
@@ -54671,6 +56656,26 @@
     {
       "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingEntityResolver.java::resolveEntity",
       "target": "api:java.lang.String.endsWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingEntityResolver.java::resolveEntity",
+      "target": "api:org.xml.sax.InputSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/UtilLoggingEntityResolver.java::resolveEntity",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/xml/XMLDecoder.java",
+      "target": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -54716,6 +56721,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::parse",
       "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::parse",
+      "target": "api:org.xml.sax.InputSource.<init>",
       "type": "CALLS"
     },
     {
@@ -54786,6 +56796,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::decode",
       "target": "api:e.printStackTrace",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::decode",
+      "target": "api:java.util.zip.ZipInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::decode",
+      "target": "api:java.util.Vector.<init>",
       "type": "CALLS"
     },
     {
@@ -55019,6 +57039,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::decodeEvents",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::decodeEvents",
+      "target": "api:java.util.Hashtable.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/xml/XMLDecoder.java",
       "target": "function:src/main/java/org/apache/log4j/xml/XMLDecoder.java::getCData",
       "type": "CONTAINS"
@@ -55139,6 +57169,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/OrRule.java::evaluate",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/OrRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/ExpressionRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/ExpressionRule.java::getRule",
       "type": "CONTAINS"
@@ -55254,6 +57294,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/ExpressionRule.java::compileExpression",
+      "target": "api:java.util.Stack.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/EqualsRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/EqualsRule.java::EqualsRule",
       "type": "CONTAINS"
@@ -55342,6 +57387,26 @@
       "source": "function:src/main/java/org/apache/log4j/rule/EqualsRule.java::evaluate",
       "target": "api:java.util.Set.add",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/EqualsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/RuleFactory.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/RuleFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/RuleFactory.java::<class>",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/rule/RuleFactory.java",
@@ -55499,6 +57564,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotRule.java::evaluate",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/ExistsRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/ExistsRule.java::ExistsRule",
       "type": "CONTAINS"
@@ -55564,6 +57639,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/ExistsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::<class>",
+      "target": "api:java.text.SimpleDateFormat.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::TimestampEqualsRule",
       "type": "CONTAINS"
@@ -55616,6 +57706,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::evaluate",
       "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/TimestampEqualsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -55694,6 +57789,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotEqualsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::<class>",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::populateLevels",
       "type": "CONTAINS"
@@ -55764,6 +57874,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::populateLevels",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::getRule",
       "type": "CONTAINS"
@@ -55806,6 +57921,21 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::evaluate",
       "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/LevelEqualsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::<class>",
+      "target": "api:java.text.SimpleDateFormat.<init>",
       "type": "CALLS"
     },
     {
@@ -55861,6 +57991,31 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::evaluate",
       "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/TimestampInequalityRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/InFixToPostFix.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::<class>",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::<class>",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {
@@ -55996,6 +58151,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::infixToPostFix",
       "target": "api:java.util.Stack.push",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/InFixToPostFix.java::infixToPostFix",
+      "target": "api:java.util.Stack.<init>",
       "type": "CALLS"
     },
     {
@@ -56354,6 +58514,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/AndRule.java::evaluate",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/AndRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/LikeRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::LikeRule",
       "type": "CONTAINS"
@@ -56459,6 +58629,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/LikeRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::readObject",
       "type": "CONTAINS"
@@ -56482,6 +58657,16 @@
       "source": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::readObject",
       "target": "api:e.getMessage",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/LikeRule.java::readObject",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.IOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/apache/log4j/rule/LikeRule.java",
@@ -56589,6 +58774,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/PartialTextMatchRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/InequalityRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/InequalityRule.java::InequalityRule",
       "type": "CONTAINS"
@@ -56689,6 +58879,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/InequalityRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/ColorRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/ColorRule.java::evaluate",
       "type": "CONTAINS"
@@ -56711,6 +58906,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/ColorRule.java::toString",
       "target": "api:java.lang.StringBuffer.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/AbstractRule.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/AbstractRule.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/AbstractRule.java::<class>",
+      "target": "api:java.beans.PropertyChangeSupport.<init>",
       "type": "CALLS"
     },
     {
@@ -56741,6 +58946,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/AbstractRule.java::firePropertyChange",
       "target": "api:java.beans.PropertyChangeSupport.firePropertyChange",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java",
+      "target": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::<class>",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {
@@ -56781,6 +58996,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::populateLevels",
       "target": "api:Level.TRACE.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::populateLevels",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {
@@ -56829,6 +59049,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/apache/log4j/rule/NotLevelEqualsRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java",
       "target": "function:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java::populateLevels",
       "type": "CONTAINS"
@@ -56866,6 +59091,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java::populateLevels",
       "target": "api:Level.TRACE.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java::populateLevels",
+      "target": "api:java.util.LinkedList.<init>",
       "type": "CALLS"
     },
     {
@@ -56926,6 +59156,11 @@
     {
       "source": "function:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java::evaluate",
       "target": "api:java.util.Set.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/rule/LevelInequalityRule.java::evaluate",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -57126,6 +59361,16 @@
     {
       "source": "function:src/main/java/org/apache/log4j/spi/SimpleULogger.java::error",
       "target": "function:src/main/java/org/apache/log4j/spi/SimpleULogger.java::parameterizedLog",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java",
+      "target": "function:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/apache/log4j/spi/LoggingEventFieldResolver.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {

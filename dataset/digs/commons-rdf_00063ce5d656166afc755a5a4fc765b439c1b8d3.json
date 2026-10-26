@@ -42,6 +42,11 @@
       "name": "junit:junit"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
       "id": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JTest.java",
       "type": "FILE",
       "name": "commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JTest.java"
@@ -120,6 +125,21 @@
       "id": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java",
       "type": "FILE",
       "name": "commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java"
+    },
+    {
+      "id": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "API",
+      "name": "org.junit.rules.TemporaryFolder.<init>"
     },
     {
       "id": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::createGraph",
@@ -207,6 +227,31 @@
       "name": "org.eclipse.rdf4j.repository.sail.SailRepository.initialize"
     },
     {
+      "id": "dependency:org.eclipse.rdf4j:rdf4j-repository-sail",
+      "type": "DEPENDENCY",
+      "name": "org.eclipse.rdf4j:rdf4j-repository-sail"
+    },
+    {
+      "id": "api:org.eclipse.rdf4j.sail.nativerdf.NativeStore.<init>",
+      "type": "API",
+      "name": "org.eclipse.rdf4j.sail.nativerdf.NativeStore.<init>"
+    },
+    {
+      "id": "dependency:org.eclipse.rdf4j:rdf4j-sail-nativerdf",
+      "type": "DEPENDENCY",
+      "name": "org.eclipse.rdf4j:rdf4j-sail-nativerdf"
+    },
+    {
+      "id": "api:org.eclipse.rdf4j.repository.sail.SailRepository.<init>",
+      "type": "API",
+      "name": "org.eclipse.rdf4j.repository.sail.SailRepository.<init>"
+    },
+    {
+      "id": "api:java.io.UncheckedIOException.<init>",
+      "type": "API",
+      "name": "java.io.UncheckedIOException.<init>"
+    },
+    {
       "id": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::shutdownAndDelete",
       "type": "FUNCTION",
       "name": "shutdownAndDelete"
@@ -227,6 +272,11 @@
       "name": "System.out.println"
     },
     {
+      "id": "api:org.junit.After.<annotation>",
+      "type": "API",
+      "name": "org.junit.After.<annotation>"
+    },
+    {
       "id": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/BlankNodeTest.java",
       "type": "FILE",
       "name": "commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/BlankNodeTest.java"
@@ -240,6 +290,21 @@
       "id": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java",
       "type": "FILE",
       "name": "commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java"
+    },
+    {
+      "id": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.eclipse.rdf4j.sail.memory.model.MemValueFactory.<init>",
+      "type": "API",
+      "name": "org.eclipse.rdf4j.sail.memory.model.MemValueFactory.<init>"
+    },
+    {
+      "id": "dependency:org.eclipse.rdf4j:rdf4j-sail-memory",
+      "type": "DEPENDENCY",
+      "name": "org.eclipse.rdf4j:rdf4j-sail-memory"
     },
     {
       "id": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::createBlankNode",
@@ -285,6 +350,16 @@
       "id": "api:org.eclipse.rdf4j.repository.Repository.initialize",
       "type": "API",
       "name": "org.eclipse.rdf4j.repository.Repository.initialize"
+    },
+    {
+      "id": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
+      "type": "DEPENDENCY",
+      "name": "org.eclipse.rdf4j:rdf4j-repository-api"
+    },
+    {
+      "id": "api:org.eclipse.rdf4j.sail.memory.MemoryStore.<init>",
+      "type": "API",
+      "name": "org.eclipse.rdf4j.sail.memory.MemoryStore.<init>"
     },
     {
       "id": "file:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/RDF4JIRI.java",
@@ -797,6 +872,11 @@
       "name": "org.eclipse.rdf4j.rio.turtle.TurtleUtil.encodeString"
     },
     {
+      "id": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
+      "type": "DEPENDENCY",
+      "name": "org.eclipse.rdf4j:rdf4j-rio-turtle"
+    },
+    {
       "id": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/LiteralImpl.java::isPresent",
       "type": "FUNCTION",
       "name": "isPresent"
@@ -1042,6 +1122,11 @@
       "name": "java.util.Collections.unmodifiableSet"
     },
     {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "file:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java",
       "type": "FILE",
       "name": "commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java"
@@ -1130,6 +1215,11 @@
       "id": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java::getBytes",
       "type": "FUNCTION",
       "name": "getBytes"
+    },
+    {
+      "id": "api:java.util.UUID.<init>",
+      "type": "API",
+      "name": "java.util.UUID.<init>"
     },
     {
       "id": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java::toString",
@@ -1250,6 +1340,11 @@
       "id": "api:org.eclipse.rdf4j.repository.Repository.getValueFactory",
       "type": "API",
       "name": "org.eclipse.rdf4j.repository.Repository.getValueFactory"
+    },
+    {
+      "id": "api:org.apache.commons.rdf.rdf4j.RDF4J.<init>",
+      "type": "API",
+      "name": "org.apache.commons.rdf.rdf4j.RDF4J.<init>"
     },
     {
       "id": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/AbstractRepositoryGraphLike.java::close",
@@ -1540,6 +1635,11 @@
       "id": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::createFactory",
       "type": "FUNCTION",
       "name": "createFactory"
+    },
+    {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
     },
     {
       "id": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNode",
@@ -2472,6 +2572,11 @@
       "name": "topic.getGraphName"
     },
     {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamDefaultGraphNameAlice",
       "type": "FUNCTION",
       "name": "streamDefaultGraphNameAlice"
@@ -2650,6 +2755,11 @@
       "id": "api:g3.contains",
       "type": "API",
       "name": "g3.contains"
+    },
+    {
+      "id": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.ConcurrentHashMap.<init>"
     },
     {
       "id": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/BlankNodeOrIRI.java::ntriplesString",
@@ -3362,6 +3472,16 @@
       "name": "commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java"
     },
     {
+      "id": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.LinkedHashSet.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashSet.<init>"
+    },
+    {
       "id": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java::ntriplesString",
       "type": "FUNCTION",
       "name": "ntriplesString"
@@ -3647,9 +3767,24 @@
       "name": "com.github.jsonldjava.core.JsonLdProcessor.toRDF"
     },
     {
+      "id": "api:com.github.jsonldjava.core.JsonLdOptions.<init>",
+      "type": "API",
+      "name": "com.github.jsonldjava.core.JsonLdOptions.<init>"
+    },
+    {
       "id": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java",
       "type": "FILE",
       "name": "commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java"
+    },
+    {
+      "id": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.runner.RunWith.<annotation>"
     },
     {
       "id": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::AllToAllTest",
@@ -3670,6 +3805,11 @@
       "id": "api:java.util.Collection.add",
       "type": "API",
       "name": "java.util.Collection.add"
+    },
+    {
+      "id": "api:org.junit.runners.Parameterized.Parameters.<annotation>",
+      "type": "API",
+      "name": "org.junit.runners.Parameterized.Parameters.<annotation>"
     },
     {
       "id": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::addTermsFromOtherFactory",
@@ -4642,6 +4782,16 @@
       "name": "org.apache.jena.riot.RDFLanguages.contentTypeToLang"
     },
     {
+      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToQuad",
+      "type": "FUNCTION",
+      "name": "streamJenaToQuad"
+    },
+    {
+      "id": "api:org.apache.jena.riot.system.StreamRDFBase.<init>",
+      "type": "API",
+      "name": "org.apache.jena.riot.system.StreamRDFBase.<init>"
+    },
+    {
       "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::quad",
       "type": "FUNCTION",
       "name": "quad"
@@ -4652,6 +4802,11 @@
       "name": "consumer.accept"
     },
     {
+      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedTriple",
+      "type": "FUNCTION",
+      "name": "streamJenaToGeneralizedTriple"
+    },
+    {
       "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::triple",
       "type": "FUNCTION",
       "name": "triple"
@@ -4660,6 +4815,11 @@
       "id": "api:generalizedConsumer.accept",
       "type": "API",
       "name": "generalizedConsumer.accept"
+    },
+    {
+      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedQuad",
+      "type": "FUNCTION",
+      "name": "streamJenaToGeneralizedQuad"
     },
     {
       "id": "api:org.apache.jena.query.DatasetFactory.wrap",
@@ -4980,6 +5140,11 @@
       "id": "api:java.io.StringWriter.toString",
       "type": "API",
       "name": "java.io.StringWriter.toString"
+    },
+    {
+      "id": "api:java.io.StringWriter.<init>",
+      "type": "API",
+      "name": "java.io.StringWriter.<init>"
     },
     {
       "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaGraphImpl.java::asJenaModel",
@@ -5482,21 +5647,6 @@
       "name": "org.apache.jena.riot.system.StreamRDFLib.graph"
     },
     {
-      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedQuad",
-      "type": "FUNCTION",
-      "name": "streamJenaToGeneralizedQuad"
-    },
-    {
-      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedTriple",
-      "type": "FUNCTION",
-      "name": "streamJenaToGeneralizedTriple"
-    },
-    {
-      "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToQuad",
-      "type": "FUNCTION",
-      "name": "streamJenaToQuad"
-    },
-    {
       "id": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/experimental/JenaRDFParser.java::getRdfTermFactory",
       "type": "FUNCTION",
       "name": "getRdfTermFactory"
@@ -5665,6 +5815,11 @@
       "id": "file:commons-rdf-examples/src/example/UserGuideTest.java",
       "type": "FILE",
       "name": "commons-rdf-examples/src/example/UserGuideTest.java"
+    },
+    {
+      "id": "function:commons-rdf-examples/src/example/UserGuideTest.java::factory",
+      "type": "FUNCTION",
+      "name": "factory"
     },
     {
       "id": "function:commons-rdf-examples/src/example/UserGuideTest.java::creating",
@@ -6017,6 +6172,11 @@
       "name": "toString"
     },
     {
+      "id": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "API",
+      "name": "com.github.jsonldjava.core.RDFDataset.<init>"
+    },
+    {
       "id": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdGraphTest.java",
       "type": "FILE",
       "name": "commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdGraphTest.java"
@@ -6035,6 +6195,26 @@
       "id": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java",
       "type": "FILE",
       "name": "commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java"
+    },
+    {
+      "id": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidLiteralLang",
+      "type": "FUNCTION",
+      "name": "testInvalidLiteralLang"
+    },
+    {
+      "id": "api:org.junit.Ignore.<annotation>",
+      "type": "API",
+      "name": "org.junit.Ignore.<annotation>"
+    },
+    {
+      "id": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidIRI",
+      "type": "FUNCTION",
+      "name": "testInvalidIRI"
+    },
+    {
+      "id": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testPossiblyInvalidBlankNode",
+      "type": "FUNCTION",
+      "name": "testPossiblyInvalidBlankNode"
     },
     {
       "id": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdGraph.java",
@@ -6742,6 +6922,11 @@
       "name": "toURL"
     },
     {
+      "id": "api:java.net.URI.<init>",
+      "type": "API",
+      "name": "java.net.URI.<init>"
+    },
+    {
       "id": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::checkSource",
       "type": "FUNCTION",
       "name": "checkSource"
@@ -6835,6 +7020,11 @@
       "id": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::getTarget",
       "type": "FUNCTION",
       "name": "getTarget"
+    },
+    {
+      "id": "api:java.io.IOException.<init>",
+      "type": "API",
+      "name": "java.io.IOException.<init>"
     },
     {
       "id": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::getRdfTermFactory",
@@ -6982,9 +7172,19 @@
       "name": "java.util.Collections.shuffle"
     },
     {
+      "id": "api:org.junit.BeforeClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.BeforeClass.<annotation>"
+    },
+    {
       "id": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::tearDownClass",
       "type": "FUNCTION",
       "name": "tearDownClass"
+    },
+    {
+      "id": "api:org.junit.AfterClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.AfterClass.<annotation>"
     },
     {
       "id": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraphTiming",
@@ -7140,6 +7340,11 @@
       "id": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "type": "FILE",
       "name": "commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java"
+    },
+    {
+      "id": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::createTempFile",
@@ -7337,6 +7542,11 @@
       "name": "parseInputStreamFailsIfBaseMissing"
     },
     {
+      "id": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayInputStream.<init>"
+    },
+    {
       "id": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithBase",
       "type": "FUNCTION",
       "name": "parseInputStreamWithBase"
@@ -7497,6 +7707,11 @@
       "name": "commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java"
     },
     {
+      "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::add",
       "type": "FUNCTION",
       "name": "add"
@@ -7625,6 +7840,11 @@
       "id": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java",
       "type": "FILE",
       "name": "commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java"
+    },
+    {
+      "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java::add",
@@ -7832,6 +8052,11 @@
       "name": "setLanguageTag"
     },
     {
+      "id": "api:java.util.Locale.<init>",
+      "type": "API",
+      "name": "java.util.Locale.<init>"
+    },
+    {
       "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/LiteralImpl.java::getLanguageTag",
       "type": "FUNCTION",
       "name": "getLanguageTag"
@@ -7915,6 +8140,16 @@
       "id": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java",
       "type": "FILE",
       "name": "commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java"
+    },
+    {
+      "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicLong.<init>"
     },
     {
       "id": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java::BlankNodeImpl",
@@ -8254,6 +8489,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JServiceLoaderTest.java::testServiceLoaderLookup",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JTest.java",
       "target": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JTest.java::testInvalidLiteralLang",
       "type": "CONTAINS"
@@ -8341,6 +8586,36 @@
     {
       "source": "api:RDF4J.asRDFTerm",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/RDF4JMethodOverloadsTest.java::testAsRDFTermOverloads",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java",
+      "target": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::<class>",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.rules.TemporaryFolder.<init>",
+      "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
     {
@@ -8475,7 +8750,27 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.sail.SailRepository.initialize",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-sail",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::createRepository",
+      "target": "api:org.eclipse.rdf4j.sail.nativerdf.NativeStore.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.rdf4j.sail.nativerdf.NativeStore.<init>",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-sail-nativerdf",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::createRepository",
+      "target": "api:org.eclipse.rdf4j.repository.sail.SailRepository.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.rdf4j.repository.sail.SailRepository.<init>",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-sail",
       "type": "PROVIDED_BY"
     },
     {
@@ -8487,6 +8782,16 @@
       "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::getRepository",
       "target": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::createRepository",
       "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::getRepository",
+      "target": "api:java.io.UncheckedIOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.UncheckedIOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java",
@@ -8510,7 +8815,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.sail.SailRepository.shutDown",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-sail",
       "type": "PROVIDED_BY"
     },
     {
@@ -8524,6 +8829,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/NativeStoreGraphTest.java::shutdownAndDelete",
+      "target": "api:org.junit.After.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.After.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/BlankNodeTest.java",
       "target": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/BlankNodeTest.java::getBlankNode",
       "type": "CONTAINS"
@@ -8532,6 +8847,21 @@
       "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/BlankNodeTest.java::getBlankNode",
       "target": "api:RDF4J.createBlankNode",
       "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java",
+      "target": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::<class>",
+      "target": "api:org.eclipse.rdf4j.sail.memory.model.MemValueFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.rdf4j.sail.memory.model.MemValueFactory.<init>",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-sail-memory",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java",
@@ -8610,12 +8940,27 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.Repository.initialize",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::createGraph",
       "target": "api:RDF4J.asGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::createGraph",
+      "target": "api:org.eclipse.rdf4j.sail.memory.MemoryStore.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.rdf4j.sail.memory.MemoryStore.<init>",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-sail-memory",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/test/java/org/apache/commons/rdf/rdf4j/MemoryGraphTest.java::createGraph",
+      "target": "api:org.eclipse.rdf4j.repository.sail.SailRepository.<init>",
       "type": "CALLS"
     },
     {
@@ -9440,7 +9785,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.rio.turtle.TurtleUtil.encodeString",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
       "type": "PROVIDED_BY"
     },
     {
@@ -9480,7 +9825,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.rio.turtle.TurtleUtil.encodeURIString",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
       "type": "PROVIDED_BY"
     },
     {
@@ -9520,7 +9865,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryConnection.getStatements",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9535,7 +9880,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryResult.close",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9545,7 +9890,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryConnection.close",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9560,7 +9905,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryResult.hasNext",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9590,7 +9935,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryResult.next",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9934,6 +10279,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/RepositoryGraphImpl.java::getContextMask",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java",
       "target": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java::BlankNodeImpl",
       "type": "CONTAINS"
@@ -10015,7 +10370,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.rio.turtle.TurtleUtil.isBLANK_NODE_LABEL_StartChar",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
       "type": "PROVIDED_BY"
     },
     {
@@ -10045,7 +10400,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.rio.turtle.TurtleUtil.isBLANK_NODE_LABEL_Char",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
       "type": "PROVIDED_BY"
     },
     {
@@ -10092,6 +10447,16 @@
       "source": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java::uniqueReference",
       "target": "api:value.getID",
       "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java::uniqueReference",
+      "target": "api:java.util.UUID.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.UUID.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/BlankNodeImpl.java",
@@ -10385,7 +10750,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.RepositoryConnection.getContextIDs",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -10420,7 +10785,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.Repository.isInitialized",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -10435,7 +10800,17 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.Repository.getValueFactory",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-rdf4j/src/main/java/org/apache/commons/rdf/rdf4j/impl/AbstractRepositoryGraphLike.java::AbstractRepositoryGraphLike",
+      "target": "api:org.apache.commons.rdf.rdf4j.RDF4J.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.rdf.rdf4j.RDF4J.<init>",
+      "target": "dependency:org.apache.commons:commons-rdf-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -10450,7 +10825,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.Repository.shutDown",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -10465,7 +10840,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.repository.Repository.getConnection",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-repository-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -10499,6 +10874,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::add",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::addSPO",
       "type": "CONTAINS"
@@ -10506,6 +10886,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::addSPO",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::addSPO",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10526,6 +10911,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::contains",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::contains",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10554,6 +10944,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::containsSPO",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::clearNotSupported",
       "type": "CONTAINS"
@@ -10561,6 +10956,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::clearNotSupported",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::clear",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::clearNotSupported",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10574,6 +10974,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::remove",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::removeSPO",
       "type": "CONTAINS"
@@ -10581,6 +10986,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::removeSPO",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::remove",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::removeSPO",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10596,6 +11006,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::size",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::size",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10632,6 +11047,11 @@
       "source": "api:org.junit.Assert.get",
       "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::stream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
@@ -10674,6 +11094,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::streamFiltered",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraph",
       "type": "CONTAINS"
@@ -10686,6 +11111,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraph",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::getGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraph",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10709,6 +11139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNull",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNamed",
       "type": "CONTAINS"
@@ -10726,6 +11161,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNamed",
       "target": "api:org.junit.Assert.isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNamed",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10751,6 +11191,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNames",
       "target": "api:org.junit.Assert.isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDatasetTest.java::getGraphNames",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10859,6 +11304,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::close",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultGetTriples",
       "type": "CONTAINS"
@@ -10894,6 +11344,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultGetTriples",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultGetTriplesFiltered",
       "type": "CONTAINS"
@@ -10924,6 +11379,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultGetTriplesFiltered",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultIterate",
       "type": "CONTAINS"
@@ -10946,6 +11406,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultIterate",
       "target": "api:org.junit.Assert.assertTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultIterate",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10974,6 +11439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultGraphTest.java::defaultFilteredIterate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::setUp",
       "type": "CONTAINS"
@@ -10982,6 +11452,16 @@
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::setUp",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::createFactory",
       "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
@@ -11009,6 +11489,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierEmpty",
       "type": "CONTAINS"
@@ -11019,6 +11504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierEmpty",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifier",
       "type": "CONTAINS"
@@ -11026,6 +11516,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifier",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createBlankNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifier",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11056,6 +11551,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierTwice",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierTwice",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11091,6 +11591,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierTwiceDifferentFactories",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/BlankNode.java::uniqueReference",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateBlankNodeIdentifierTwiceDifferentFactories",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11159,6 +11664,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateGraph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateIRI",
       "type": "CONTAINS"
@@ -11181,6 +11691,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateIRI",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/IRI.java::ntriplesString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11239,6 +11754,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteral",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralDateTime",
       "type": "CONTAINS"
@@ -11294,6 +11814,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralDateTime",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLang",
       "type": "CONTAINS"
@@ -11339,6 +11864,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLang",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangISO693_3",
       "type": "CONTAINS"
@@ -11376,6 +11906,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangISO693_3",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Literal.java::ntriplesString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangISO693_3",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11439,6 +11974,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangCaseInsensitiveOther",
       "type": "CONTAINS"
@@ -11451,6 +11991,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangCaseInsensitiveOther",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangCaseInsensitiveOther",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11544,6 +12089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralLangCaseInsensitiveInTurkish",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralString",
       "type": "CONTAINS"
@@ -11599,6 +12149,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateLiteralString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeBnode",
       "type": "CONTAINS"
@@ -11639,6 +12194,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeBnode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeIRI",
       "type": "CONTAINS"
@@ -11676,6 +12236,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeIRI",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::getObject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11724,6 +12289,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testCreateTripleBnodeTriple",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testPossiblyInvalidBlankNode",
       "type": "CONTAINS"
@@ -11764,6 +12334,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testPossiblyInvalidBlankNode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidIRI",
       "type": "CONTAINS"
@@ -11774,6 +12349,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidIRI",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidLiteralLang",
       "type": "CONTAINS"
@@ -11781,6 +12361,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidLiteralLang",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidLiteralLang",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11796,6 +12381,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidTriplePredicate",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::testInvalidTriplePredicate",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11834,6 +12424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeBlankNode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeIRI",
       "type": "CONTAINS"
@@ -11861,6 +12456,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeIRI",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/IRI.java::hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11904,6 +12504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeLiteral",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeTriple",
       "type": "CONTAINS"
@@ -11931,6 +12536,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeTriple",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractRDFTest.java::hashCodeTriple",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12034,6 +12644,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::getSubject",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::getPredicate",
       "type": "CONTAINS"
@@ -12046,6 +12661,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::getPredicate",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::getPredicate",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::getPredicate",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12064,6 +12684,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::getObject",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::equals",
       "type": "CONTAINS"
@@ -12071,6 +12696,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::equals",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::equals",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12106,6 +12736,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::testHashCode",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyTripleTest.java::testHashCode",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12199,6 +12834,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testInternalIdentifier",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testEquals",
       "type": "CONTAINS"
@@ -12216,6 +12856,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testEquals",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testEquals",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12244,6 +12889,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testHashCode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testNtriplesString",
       "type": "CONTAINS"
@@ -12269,6 +12919,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractBlankNodeTest.java::testNtriplesString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtension",
       "type": "CONTAINS"
@@ -12286,6 +12941,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtension",
       "target": "api:org.junit.Assert.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtension",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12309,6 +12969,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtensionFailsWithoutDot",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtensionLowerCase",
       "type": "CONTAINS"
@@ -12326,6 +12991,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtensionLowerCase",
       "target": "api:org.junit.Assert.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtensionLowerCase",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12349,6 +13019,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byFileExtensionUnknown",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaType",
       "type": "CONTAINS"
@@ -12366,6 +13041,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaType",
       "target": "api:org.junit.Assert.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaType",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12394,6 +13074,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeContentType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeLowerCase",
       "type": "CONTAINS"
@@ -12414,6 +13099,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeLowerCase",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeUnknown",
       "type": "CONTAINS"
@@ -12431,6 +13121,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeUnknown",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDFSyntax.java::byMediaType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byMediaTypeUnknown",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12512,6 +13207,11 @@
       "source": "api:RDFSyntax.TURTLE.fileExtension",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::fileExtension",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
@@ -12599,6 +13299,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::fileExtensions",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::mediaType",
       "type": "CONTAINS"
@@ -12677,6 +13382,11 @@
       "source": "api:RDFSyntax.TURTLE.mediaType",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::mediaType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
@@ -12764,6 +13474,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::mediaTypes",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::string",
       "type": "CONTAINS"
@@ -12792,6 +13507,11 @@
       "source": "api:RDFSyntax.TURTLE.toString",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::string",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java",
@@ -12829,6 +13549,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/RDFSyntaxTest.java::byName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getGraphName",
       "type": "CONTAINS"
@@ -12849,6 +13574,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getGraphName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getSubject",
       "type": "CONTAINS"
@@ -12861,6 +13591,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getSubject",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Quad.java::getSubject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getSubject",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12879,6 +13614,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getPredicate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getObject",
       "type": "CONTAINS"
@@ -12894,6 +13634,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::getObject",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::equals",
       "type": "CONTAINS"
@@ -12901,6 +13646,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::equals",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::equals",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12944,6 +13694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyQuadTest.java::testHashCode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::i",
       "type": "CONTAINS"
@@ -12951,6 +13706,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::i",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::i",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12964,6 +13724,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::equals",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::notEquals",
       "type": "CONTAINS"
@@ -12971,6 +13736,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::notEquals",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::notEquals",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12989,6 +13759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::ntriplesString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::getIRIString",
       "type": "CONTAINS"
@@ -13001,6 +13776,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::getIRIString",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRI.java::getIRIString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::getIRIString",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13024,6 +13804,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyIRITest.java::testHashCode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::close",
       "type": "CONTAINS"
@@ -13031,6 +13816,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::close",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyDataset.java::close",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::close",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13059,6 +13849,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::defaultIterate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::defaultFilteredIterate",
       "type": "CONTAINS"
@@ -13081,6 +13876,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::defaultFilteredIterate",
       "target": "api:org.junit.Assert.assertTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultDatasetTest.java::defaultFilteredIterate",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13149,6 +13949,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::createDatasetAndAdd",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::size",
       "type": "CONTAINS"
@@ -13161,6 +13966,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::size",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::size",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13314,6 +14124,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterate",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterate",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamDefaultGraphNameAlice",
       "type": "CONTAINS"
@@ -13394,6 +14224,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamDefaultGraphNameAlice",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamDefaultGraphNameByPattern",
       "type": "CONTAINS"
@@ -13454,6 +14289,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamDefaultGraphNameByPattern",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterateFilter",
       "type": "CONTAINS"
@@ -13511,6 +14351,16 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterateFilter",
       "target": "api:org.junit.Assert.fail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterateFilter",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::iterateFilter",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -13584,6 +14434,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::contains",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::remove",
       "type": "CONTAINS"
@@ -13649,6 +14504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::remove",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::clear",
       "type": "CONTAINS"
@@ -13676,6 +14536,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::clear",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Dataset.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::clear",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13729,6 +14594,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getQuads",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getQuadsQuery",
       "type": "CONTAINS"
@@ -13761,6 +14631,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getQuadsQuery",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getQuadsQuery",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13926,6 +14801,26 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::addBlankNodesFromMultipleDatasets",
       "target": "api:org.junit.Assert.assertFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::addBlankNodesFromMultipleDatasets",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::addBlankNodesFromMultipleDatasets",
+      "target": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::addBlankNodesFromMultipleDatasets",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -14169,6 +15064,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraphNames",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraph",
       "type": "CONTAINS"
@@ -14209,6 +15109,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraphNull",
       "type": "CONTAINS"
@@ -14241,6 +15146,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraphNull",
       "target": "api:defaultGraph.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraphNull",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14287,6 +15197,11 @@
       "source": "api:g1.contains",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraph1",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
@@ -14369,6 +15284,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::getGraph2",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::containsLanguageTagsCaseInsensitive",
       "type": "CONTAINS"
@@ -14401,6 +15321,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::containsLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createQuad",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::containsLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14469,6 +15394,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::containsLanguageTagsCaseInsensitiveTurkish",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::removeLanguageTagsCaseInsensitive",
       "type": "CONTAINS"
@@ -14506,6 +15436,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::removeLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createQuad",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::removeLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14576,6 +15511,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createQuad",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::streamLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14704,6 +15644,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractDatasetTest.java::whyJavaStreamsMightNotTakeOverFromSparql",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::createGraphAndAdd",
       "type": "CONTAINS"
@@ -14754,6 +15699,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::createGraphAndAdd",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::size",
       "type": "CONTAINS"
@@ -14781,6 +15731,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::size",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::size",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14854,6 +15809,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterate",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterateFilter",
       "type": "CONTAINS"
@@ -14896,6 +15861,16 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterateFilter",
       "target": "api:org.junit.Assert.fail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterateFilter",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::iterateFilter",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -14954,6 +15929,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::contains",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::remove",
       "type": "CONTAINS"
@@ -15009,6 +15989,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::remove",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::clear",
       "type": "CONTAINS"
@@ -15036,6 +16021,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::clear",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::clear",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15079,6 +16069,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::getTriples",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::getTriplesQuery",
       "type": "CONTAINS"
@@ -15106,6 +16101,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::getTriplesQuery",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::getTriplesQuery",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15234,6 +16234,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::addBlankNodesFromMultipleGraphs",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::addBlankNodesFromMultipleGraphs",
+      "target": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::addBlankNodesFromMultipleGraphs",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::containsLanguageTagsCaseInsensitive",
       "type": "CONTAINS"
@@ -15271,6 +16286,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::containsLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::containsLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15354,6 +16374,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::containsLanguageTagsCaseInsensitiveTurkish",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::removeLanguageTagsCaseInsensitive",
       "type": "CONTAINS"
@@ -15396,6 +16421,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::removeLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::removeLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15466,6 +16496,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::streamLanguageTagsCaseInsensitive",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::streamLanguageTagsCaseInsensitive",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15724,6 +16759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/AbstractGraphTest.java::whyJavaStreamsMightNotTakeOverFromSparql",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultQuadTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultQuadTest.java::asQuad",
       "type": "CONTAINS"
@@ -15791,6 +16831,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultQuadTest.java::asQuad",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::hashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultQuadTest.java::asQuad",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15924,6 +16969,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createBlankNode",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createBlankNodeName",
       "type": "CONTAINS"
@@ -15931,6 +16981,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createBlankNodeName",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDFTermFactory.java::createBlankNode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createBlankNodeName",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15944,6 +16999,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createGraph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createIRI",
       "type": "CONTAINS"
@@ -15951,6 +17011,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createIRI",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDFTermFactory.java::createIRI",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15964,6 +17029,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createLiteral",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createLiteralLang",
       "type": "CONTAINS"
@@ -15971,6 +17041,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createLiteralLang",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDFTermFactory.java::createLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createLiteralLang",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15984,6 +17059,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createLiteralTyped",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createTriple",
       "type": "CONTAINS"
@@ -15991,6 +17071,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createTriple",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDFTermFactory.java::createTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DefaultRDFTermFactoryTest.java::createTriple",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16004,6 +17089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::add",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::addSPO",
       "type": "CONTAINS"
@@ -16011,6 +17101,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::addSPO",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::addSPO",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16026,6 +17121,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::contains",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::contains",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16049,6 +17149,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::containsSPO",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::clearNotSupported",
       "type": "CONTAINS"
@@ -16056,6 +17161,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::clearNotSupported",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::clear",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::clearNotSupported",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16069,6 +17179,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::remove",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java",
       "target": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::removeSPO",
       "type": "CONTAINS"
@@ -16076,6 +17191,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::removeSPO",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::remove",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::removeSPO",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16091,6 +17211,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::size",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::size",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16116,6 +17241,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::stream",
       "target": "api:org.junit.Assert.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::stream",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16151,6 +17281,11 @@
     {
       "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::streamFiltered",
       "target": "api:org.junit.Assert.isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/test/java/org/apache/commons/rdf/api/DummyGraphTest.java::streamFiltered",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16342,6 +17477,21 @@
       "source": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::iterate",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Graph.java::stream",
       "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java",
+      "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java::<class>",
+      "target": "api:java.util.LinkedHashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/W3CRDFSyntax.java",
@@ -16634,6 +17784,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::checkTestResources",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::checkGraph",
       "type": "CONTAINS"
@@ -16659,6 +17814,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jenaParseEmbedded",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jenaParseCached",
       "type": "CONTAINS"
@@ -16666,6 +17826,11 @@
     {
       "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jenaParseCached",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jenaParse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jenaParseCached",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16734,6 +17899,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParseEmbedded",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParseCached",
       "type": "CONTAINS"
@@ -16741,6 +17911,11 @@
     {
       "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParseCached",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParseCached",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16760,7 +17935,7 @@
     },
     {
       "source": "api:org.eclipse.rdf4j.rio.Rio.parse",
-      "target": "dependency:org.eclipse.rdf4j:rdf4j-model",
+      "target": "dependency:org.eclipse.rdf4j:rdf4j-rio-turtle",
       "type": "PROVIDED_BY"
     },
     {
@@ -16779,6 +17954,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::rdf4jParse",
+      "target": "api:org.apache.commons.rdf.rdf4j.RDF4J.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParseEmbedded",
       "type": "CONTAINS"
@@ -16789,6 +17969,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParseEmbedded",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParseCached",
       "type": "CONTAINS"
@@ -16796,6 +17981,11 @@
     {
       "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParseCached",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParseCached",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16859,6 +18049,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/JSONLDParsingTest.java::jsonldParse",
+      "target": "api:com.github.jsonldjava.core.JsonLdOptions.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.jsonldjava.core.JsonLdOptions.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java",
+      "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runner.RunWith.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java",
       "target": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::AllToAllTest",
       "type": "CONTAINS"
@@ -16892,6 +18107,21 @@
       "source": "api:java.util.Collection.add",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::data",
+      "target": "api:org.junit.runners.Parameterized.Parameters.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runners.Parameterized.Parameters.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::data",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java",
@@ -16971,6 +18201,11 @@
     {
       "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::addTermsFromOtherFactory",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::getSubject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::addTermsFromOtherFactory",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17054,6 +18289,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-integration-tests/src/test/java/org/apache/commons/rdf/integrationtests/AllToAllTest.java::addTriplesFromOtherFactory",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaServiceLoaderTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaServiceLoaderTest.java::testServiceLoaderLookup",
       "type": "CONTAINS"
@@ -17066,6 +18306,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaServiceLoaderTest.java::testServiceLoaderLookup",
       "target": "api:org.junit.Assert.fail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaServiceLoaderTest.java::testServiceLoaderLookup",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17129,6 +18374,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::bnodeProperty",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::literalPredicate",
       "type": "CONTAINS"
@@ -17189,6 +18439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::literalPredicate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::literalSubject",
       "type": "CONTAINS"
@@ -17246,6 +18501,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::literalSubject",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::isLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::literalSubject",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17329,6 +18589,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFTripleTest.java::asGeneralizedTriple",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestBlankNodeJena.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestBlankNodeJena.java::getBlankNode",
       "type": "CONTAINS"
@@ -17389,6 +18654,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DatasetJenaTest.java::datasetImplToStringTest",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaRDFTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaRDFTest.java::roundTripDatasetGraphShouldMaintainIdentity",
       "type": "CONTAINS"
@@ -17427,6 +18697,11 @@
       "source": "api:org.junit.Assert.assertSame",
       "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaRDFTest.java::roundTripDatasetGraphShouldMaintainIdentity",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaRDFTest.java",
@@ -17629,6 +18904,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/JenaRDFTest.java::testSimpleDatasetConversion",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromNull",
       "type": "CONTAINS"
@@ -17676,6 +18956,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromNull",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::getGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromNull",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17731,6 +19016,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphIRI",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17799,6 +19089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromForeignDefaultGraph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphNodeGeneratedIRINode",
       "type": "CONTAINS"
@@ -17851,6 +19146,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphNodeGeneratedIRINode",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphNodeGeneratedIRINode",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -17914,6 +19214,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::createFromDefaultGraphNodeGeneratedIRIString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::defaultGraphIRI",
       "type": "CONTAINS"
@@ -17956,6 +19261,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::defaultGraphIRI",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::isDefaultGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::defaultGraphIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18014,6 +19324,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::defaultGraphNodeGenerated",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::unionGraph",
       "type": "CONTAINS"
@@ -18059,6 +19374,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/DefaultGraphInQuadTest.java::unionGraph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java::preparePath",
       "type": "CONTAINS"
@@ -18094,6 +19414,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java::preparePath",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java::deletePath",
       "type": "CONTAINS"
@@ -18107,6 +19432,11 @@
       "source": "api:java.nio.file.Files.deleteIfExists",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java::deletePath",
+      "target": "api:org.junit.After.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java",
@@ -18164,6 +19494,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestRDFParserBuilder.java::parseTurtle",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::preparePath",
       "type": "CONTAINS"
@@ -18189,6 +19524,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::preparePath",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::deletePath",
       "type": "CONTAINS"
@@ -18196,6 +19536,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::deletePath",
       "target": "api:java.nio.file.Files.deleteIfExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::deletePath",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18349,6 +19694,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/TestJenaGraphToCommonsRDFGraph.java::jenaToCommonsRDF",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::bnodeProperty",
       "type": "CONTAINS"
@@ -18429,6 +19779,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::bnodeProperty",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalPredicate",
       "type": "CONTAINS"
@@ -18504,6 +19859,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalPredicate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalSubject",
       "type": "CONTAINS"
@@ -18576,6 +19936,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalSubject",
       "target": "api:org.junit.Assert.isLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalSubject",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18669,6 +20034,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalSubjectDefaultGraphGen",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::asGeneralizedQuad",
       "type": "CONTAINS"
@@ -18749,6 +20119,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::asGeneralizedQuad",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java",
       "target": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalGraph",
       "type": "CONTAINS"
@@ -18821,6 +20196,11 @@
     {
       "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalGraph",
       "target": "api:org.junit.Assert.isLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/test/java/org/apache/commons/rdf/jena/GeneralizedRDFQuadTest.java::literalGraph",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -19310,6 +20690,21 @@
     },
     {
       "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java",
+      "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToQuad",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToQuad",
+      "target": "api:org.apache.jena.riot.system.StreamRDFBase.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.jena.riot.system.StreamRDFBase.<init>",
+      "target": "dependency:org.apache.jena:jena-osgi",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java",
       "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::quad",
       "type": "CONTAINS"
     },
@@ -19330,6 +20725,16 @@
     },
     {
       "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java",
+      "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedTriple",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedTriple",
+      "target": "api:org.apache.jena.riot.system.StreamRDFBase.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java",
       "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::triple",
       "type": "CONTAINS"
     },
@@ -19346,6 +20751,16 @@
     {
       "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::triple",
       "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::asGeneralizedTriple",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java",
+      "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedQuad",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/JenaRDF.java::streamJenaToGeneralizedQuad",
+      "target": "api:org.apache.jena.riot.system.StreamRDFBase.<init>",
       "type": "CALLS"
     },
     {
@@ -20004,6 +21419,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaGraphImpl.java::toString",
+      "target": "api:java.io.StringWriter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.StringWriter.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaGraphImpl.java",
       "target": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaGraphImpl.java::asJenaModel",
       "type": "CONTAINS"
@@ -20381,6 +21806,11 @@
     {
       "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaDatasetImpl.java::toString",
       "target": "api:java.io.StringWriter.toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jena/src/main/java/org/apache/commons/rdf/jena/impl/JenaDatasetImpl.java::toString",
+      "target": "api:java.io.StringWriter.<init>",
       "type": "CALLS"
     },
     {
@@ -21179,6 +22609,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-examples/src/example/IntroToRDFTest.java::runIntroToRDF",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-examples/src/example/IntroToRDF.java",
       "target": "function:commons-rdf-examples/src/example/IntroToRDF.java::main",
       "type": "CONTAINS"
@@ -21340,6 +22775,16 @@
     },
     {
       "source": "file:commons-rdf-examples/src/example/UserGuideTest.java",
+      "target": "function:commons-rdf-examples/src/example/UserGuideTest.java::factory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::factory",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-examples/src/example/UserGuideTest.java",
       "target": "function:commons-rdf-examples/src/example/UserGuideTest.java::creating",
       "type": "CONTAINS"
     },
@@ -21384,6 +22829,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::creating",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-examples/src/example/UserGuideTest.java",
       "target": "function:commons-rdf-examples/src/example/UserGuideTest.java::ntriples",
       "type": "CONTAINS"
@@ -21411,6 +22861,11 @@
     {
       "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::ntriples",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/RDF.java::createLiteral",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::ntriples",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -21446,6 +22901,11 @@
     {
       "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::blanknode",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/BlankNode.java::uniqueReference",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::blanknode",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -21524,6 +22984,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::literal",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-examples/src/example/UserGuideTest.java",
       "target": "function:commons-rdf-examples/src/example/UserGuideTest.java::triple",
       "type": "CONTAINS"
@@ -21586,6 +23051,11 @@
     {
       "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::triple",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::triple",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -21666,6 +23136,11 @@
     {
       "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::quad",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/TripleLike.java::getSubject",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::quad",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -21824,6 +23299,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-examples/src/example/UserGuideTest.java::graph",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-examples/src/example/UserGuideTest.java",
       "target": "function:commons-rdf-examples/src/example/UserGuideTest.java::tripleAsString",
       "type": "CONTAINS"
@@ -21944,6 +23424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByUrl",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByPath",
       "type": "CONTAINS"
@@ -22024,6 +23509,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByPath",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByStream",
       "type": "CONTAINS"
@@ -22081,6 +23571,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByStream",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::checkGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdParserBuilderTest.java::parseByStream",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22144,6 +23639,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalEqual",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqual",
       "type": "CONTAINS"
@@ -22156,6 +23656,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqual",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqual",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22174,6 +23679,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalEqualLang",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualLang",
       "type": "CONTAINS"
@@ -22186,6 +23696,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualLang",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualLang",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22204,6 +23719,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalEqualType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualType",
       "type": "CONTAINS"
@@ -22216,6 +23736,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualType",
       "target": "api:org.junit.Assert.assertNotEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::literalNotEqualType",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22256,6 +23781,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::grahContains",
       "target": "api:org.junit.Assert.assertFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::grahContains",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22314,6 +23844,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::datasetContains",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::datasetRemove",
       "type": "CONTAINS"
@@ -22366,6 +23901,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::datasetRemove",
       "target": "api:org.junit.Assert.assertFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::datasetRemove",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22429,6 +23969,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdComparisonTest.java::datasetStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdBlankNodeTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdBlankNodeTest.java::getBlankNode",
       "type": "CONTAINS"
@@ -22449,6 +23994,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdBlankNodeTest.java::getBlankNode",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdServiceLoaderTest.java",
       "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdServiceLoaderTest.java::testServiceLoaderLookup",
       "type": "CONTAINS"
@@ -22461,6 +24016,61 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdServiceLoaderTest.java::testServiceLoaderLookup",
       "target": "api:org.junit.Assert.fail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdServiceLoaderTest.java::testServiceLoaderLookup",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java",
+      "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidLiteralLang",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidLiteralLang",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Ignore.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidLiteralLang",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java",
+      "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidIRI",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidIRI",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testInvalidIRI",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java",
+      "target": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testPossiblyInvalidBlankNode",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testPossiblyInvalidBlankNode",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/test/java/org/apache/commons/rdf/jsonldjava/JsonLdRDFTest.java::testPossiblyInvalidBlankNode",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -22824,6 +24434,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::asJsonLdNode",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::asJsonLdQuad",
       "type": "CONTAINS"
@@ -22904,9 +24519,19 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createBlankNode",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createLiteral",
       "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createLiteral",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
     },
     {
       "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createLiteral",
@@ -23056,6 +24681,11 @@
     {
       "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createJsonLdQuad",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::asJsonLdString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdRDF.java::createJsonLdQuad",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
       "type": "CALLS"
     },
     {
@@ -23664,6 +25294,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdDataset.java::getGraphNames",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdDataset.java",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdDataset.java::remove",
       "type": "CONTAINS"
@@ -23779,6 +25414,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdIRI.java::JsonLdIRIImpl",
+      "target": "api:com.github.jsonldjava.core.RDFDataset.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdIRI.java",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/JsonLdIRI.java::ntriplesString",
       "type": "CONTAINS"
@@ -23877,6 +25517,16 @@
       "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::asURL",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/IRI.java::getIRIString",
       "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::asURL",
+      "target": "api:java.net.URI.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URI.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java",
@@ -24009,6 +25659,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::parseSynchronusly",
+      "target": "api:com.github.jsonldjava.core.JsonLdOptions.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::parseSynchronusly",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.IOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java",
       "target": "function:commons-rdf-jsonld-java/src/main/java/org/apache/commons/rdf/jsonldjava/experimental/JsonLdParser.java::getJsonLdFactory",
       "type": "CONTAINS"
@@ -24109,6 +25774,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java::testGetIRIString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java::testNtriplesString",
       "type": "CONTAINS"
@@ -24127,6 +25797,11 @@
       "source": "api:Types.RDF_LANGSTRING.ntriplesString",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java::testNtriplesString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java",
@@ -24169,6 +25844,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TypesTest.java::testGet",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleDatasetTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleDatasetTest.java::datasetToString",
       "type": "CONTAINS"
@@ -24199,6 +25879,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleDatasetTest.java::datasetToString",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleGraphTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleGraphTest.java::graphToString",
       "type": "CONTAINS"
@@ -24226,6 +25911,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleGraphTest.java::graphToString",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleGraphTest.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleGraphTest.java::graphToString",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24294,6 +25984,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraph",
+      "target": "api:org.junit.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.BeforeClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraph",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::tearDownClass",
       "type": "CONTAINS"
@@ -24304,6 +26009,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::tearDownClass",
+      "target": "api:org.junit.AfterClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.AfterClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraphTiming",
       "type": "CONTAINS"
@@ -24311,6 +26026,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraphTiming",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraph",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::createGraphTiming",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24346,6 +26066,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::countQuery",
       "target": "api:org.junit.Assert.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::countQuery",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24414,6 +26139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::writeGraphFromStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::writeGraphFromStreamFiltered",
       "type": "CONTAINS"
@@ -24456,6 +26186,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::writeGraphFromStreamFiltered",
       "target": "api:java.nio.file.Files.write",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::writeGraphFromStreamFiltered",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24504,6 +26239,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/TestWritingGraph.java::writeGraphFromStreamFilteredNoMatches",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleServiceLoaderTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleServiceLoaderTest.java::testServiceLoaderLookup",
       "type": "CONTAINS"
@@ -24516,6 +26256,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleServiceLoaderTest.java::testServiceLoaderLookup",
       "target": "api:org.junit.Assert.fail",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/SimpleServiceLoaderTest.java::testServiceLoaderLookup",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24625,6 +26370,16 @@
     },
     {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
+      "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::createTempFile",
       "type": "CONTAINS"
     },
@@ -24664,6 +26419,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::createTempFile",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::deleteTempFiles",
       "type": "CONTAINS"
@@ -24671,6 +26431,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::deleteTempFiles",
       "target": "api:java.nio.file.Files.deleteIfExists",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::deleteTempFiles",
+      "target": "api:org.junit.After.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24701,6 +26466,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::guessRDFSyntax",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::guessRDFSyntax",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -24879,6 +26649,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFile",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileSymlink",
       "type": "CONTAINS"
@@ -24949,6 +26724,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileSymlink",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseNoSource",
       "type": "CONTAINS"
@@ -24966,6 +26746,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseNoSource",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/DummyRDFParserBuilder.java::parse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseNoSource",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -25014,6 +26799,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseBaseAndContentTypeNoSource",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileMissing",
       "type": "CONTAINS"
@@ -25041,6 +26831,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileMissing",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/experimental/RDFParser.java::parse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileMissing",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -25124,6 +26919,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseFileContentType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::firstPredicate",
       "type": "CONTAINS"
@@ -25177,6 +26977,21 @@
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamFailsIfBaseMissing",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/experimental/RDFParser.java::parse",
       "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamFailsIfBaseMissing",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamFailsIfBaseMissing",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
@@ -25251,6 +27066,16 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithBase",
       "target": "api:org.junit.Assert.assertNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithBase",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithBase",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
       "type": "CALLS"
     },
     {
@@ -25329,6 +27154,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithNQuads",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseInputStreamWithNQuads",
+      "target": "api:java.io.ByteArrayInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java",
       "target": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseIRI",
       "type": "CONTAINS"
@@ -25386,6 +27221,11 @@
     {
       "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseIRI",
       "target": "api:org.junit.Assert.assertNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseIRI",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -25462,6 +27302,11 @@
       "source": "api:RDFSyntax.TURTLE.name",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/test/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParserTest.java::parseIRIBaseContentType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/IRIImpl.java",
@@ -25761,6 +27606,16 @@
     {
       "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/TripleImpl.java::equals",
       "target": "function:commons-rdf-api/src/main/java/org/apache/commons/rdf/api/Triple.java::getObject",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java",
+      "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -26066,6 +27921,16 @@
     {
       "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::toString",
       "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/GraphImpl.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java",
+      "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/DatasetImpl.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -26629,6 +28494,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/LiteralImpl.java::LiteralImpl",
+      "target": "api:java.util.Locale.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Locale.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/LiteralImpl.java",
       "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/LiteralImpl.java::getLanguageTag",
       "type": "CONTAINS"
@@ -26862,6 +28737,21 @@
       "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/Types.java::get",
       "target": "api:java.util.Optional.empty",
       "type": "CALLS"
+    },
+    {
+      "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java",
+      "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java::<class>",
+      "target": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicLong.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/BlankNodeImpl.java",
@@ -27261,6 +29151,11 @@
     {
       "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParser.java::checkSource",
       "target": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParser.java::filter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:commons-rdf-simple/src/main/java/org/apache/commons/rdf/simple/experimental/AbstractRDFParser.java::checkSource",
+      "target": "api:java.io.IOException.<init>",
       "type": "CALLS"
     },
     {

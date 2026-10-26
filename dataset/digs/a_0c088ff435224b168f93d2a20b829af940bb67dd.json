@@ -7,6 +7,36 @@
       "name": "src/test/java/co/nordlander/a/BaseTest.java"
     },
     {
+      "id": "function:src/test/java/co/nordlander/a/BaseTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.springframework.beans.factory.annotation.Autowired.<annotation>",
+      "type": "API",
+      "name": "org.springframework.beans.factory.annotation.Autowired.<annotation>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-beans",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-beans"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "API",
+      "name": "org.junit.rules.TemporaryFolder.<init>"
+    },
+    {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::setupJMS",
       "type": "FUNCTION",
       "name": "setupJMS"
@@ -72,6 +102,11 @@
       "name": "clearQueue"
     },
     {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
+    },
+    {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::disconnectJMS",
       "type": "FUNCTION",
       "name": "disconnectJMS"
@@ -90,6 +125,11 @@
       "id": "api:java.util.concurrent.ExecutorService.shutdown",
       "type": "API",
       "name": "java.util.concurrent.ExecutorService.shutdown"
+    },
+    {
+      "id": "api:org.junit.After.<annotation>",
+      "type": "API",
+      "name": "org.junit.After.<annotation>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutQueue",
@@ -140,6 +180,11 @@
       "id": "api:javax.jms.TextMessage.getText",
       "type": "API",
       "name": "javax.jms.TextMessage.getText"
+    },
+    {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutBytesQueue",
@@ -347,11 +392,6 @@
       "name": "org.junit.rules.TemporaryFolder.newFolder"
     },
     {
-      "id": "dependency:junit:junit",
-      "type": "DEPENDENCY",
-      "name": "junit:junit"
-    },
-    {
       "id": "api:org.apache.commons.io.FileUtils.writeStringToFile",
       "type": "API",
       "name": "org.apache.commons.io.FileUtils.writeStringToFile"
@@ -375,6 +415,11 @@
       "id": "api:javax.jms.MapMessage.getInt",
       "type": "API",
       "name": "javax.jms.MapMessage.getInt"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::testReadFolder",
@@ -495,6 +540,11 @@
       "id": "dependency:commons-codec:commons-codec",
       "type": "DEPENDENCY",
       "name": "commons-codec:commons-codec"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages_RollbackOnError",
@@ -647,6 +697,11 @@
       "name": "java.util.List.toArray"
     },
     {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "api:javax.jms.Destination.toString",
       "type": "API",
       "name": "javax.jms.Destination.toString"
@@ -655,6 +710,36 @@
       "id": "file:src/test/java/co/nordlander/a/AOpenWireTest.java",
       "type": "FILE",
       "name": "src/test/java/co/nordlander/a/AOpenWireTest.java"
+    },
+    {
+      "id": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.runner.RunWith.<annotation>"
+    },
+    {
+      "id": "api:org.springframework.test.context.ContextConfiguration.<annotation>",
+      "type": "API",
+      "name": "org.springframework.test.context.ContextConfiguration.<annotation>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-context-support",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-context-support"
+    },
+    {
+      "id": "api:org.springframework.test.annotation.DirtiesContext.<annotation>",
+      "type": "API",
+      "name": "org.springframework.test.annotation.DirtiesContext.<annotation>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-test",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-test"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::jndiConnectTest",
@@ -702,6 +787,26 @@
       "name": "org.junit.Assert.assertTrue"
     },
     {
+      "id": "api:org.junit.Ignore.<annotation>",
+      "type": "API",
+      "name": "org.junit.Ignore.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::getConnectionFactory",
+      "type": "FUNCTION",
+      "name": "getConnectionFactory"
+    },
+    {
+      "id": "api:org.apache.activemq.ActiveMQConnectionFactory.<init>",
+      "type": "API",
+      "name": "org.apache.activemq.ActiveMQConnectionFactory.<init>"
+    },
+    {
+      "id": "dependency:org.apache.activemq:activemq-client",
+      "type": "DEPENDENCY",
+      "name": "org.apache.activemq:activemq-client"
+    },
+    {
       "id": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::clearBroker",
       "type": "FUNCTION",
       "name": "clearBroker"
@@ -735,6 +840,11 @@
       "id": "file:src/test/java/co/nordlander/a/AMQPTest.java",
       "type": "FILE",
       "name": "src/test/java/co/nordlander/a/AMQPTest.java"
+    },
+    {
+      "id": "function:src/test/java/co/nordlander/a/AMQPTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/AMQPTest.java::getConnectionFactory",
@@ -792,9 +902,19 @@
       "name": "org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.start"
     },
     {
-      "id": "dependency:org.apache.activemq:activemq-client",
+      "id": "dependency:org.apache.activemq:artemis-jms-server",
       "type": "DEPENDENCY",
-      "name": "org.apache.activemq:activemq-client"
+      "name": "org.apache.activemq:artemis-jms-server"
+    },
+    {
+      "id": "api:org.junit.BeforeClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.BeforeClass.<annotation>"
+    },
+    {
+      "id": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.<init>",
+      "type": "API",
+      "name": "org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.<init>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/ArtemisJmsTest.java::getConnectionFactory",
@@ -805,6 +925,11 @@
       "id": "api:org.apache.activemq.artemis.api.jms.ActiveMQJMSClient.createConnectionFactory",
       "type": "API",
       "name": "org.apache.activemq.artemis.api.jms.ActiveMQJMSClient.createConnectionFactory"
+    },
+    {
+      "id": "dependency:org.apache.activemq:artemis-jms-client",
+      "type": "DEPENDENCY",
+      "name": "org.apache.activemq:artemis-jms-client"
     },
     {
       "id": "api:e.printStackTrace",
@@ -835,6 +960,11 @@
       "id": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.stop",
       "type": "API",
       "name": "org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.stop"
+    },
+    {
+      "id": "api:org.junit.AfterClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.AfterClass.<annotation>"
     },
     {
       "id": "function:src/test/java/co/nordlander/a/ArtemisJmsTest.java::clearBroker",
@@ -927,6 +1057,16 @@
       "name": "src/main/java/co/nordlander/a/MessageDump.java"
     },
     {
+      "id": "function:src/main/java/co/nordlander/a/MessageDump.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
       "id": "function:src/main/java/co/nordlander/a/MessageDump.java::encode",
       "type": "FUNCTION",
       "name": "encode"
@@ -945,6 +1085,16 @@
       "id": "file:src/main/java/co/nordlander/a/MessageDumpTransformer.java",
       "type": "FILE",
       "name": "src/main/java/co/nordlander/a/MessageDumpTransformer.java"
+    },
+    {
+      "id": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.TreeMap.<init>",
+      "type": "API",
+      "name": "java.util.TreeMap.<init>"
     },
     {
       "id": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::MessageDumpTransformer",
@@ -1382,6 +1532,16 @@
       "name": "javax.jms.Connection.setClientID"
     },
     {
+      "id": "api:java.util.Properties.<init>",
+      "type": "API",
+      "name": "java.util.Properties.<init>"
+    },
+    {
+      "id": "api:javax.naming.InitialContext.<init>",
+      "type": "API",
+      "name": "javax.naming.InitialContext.<init>"
+    },
+    {
       "id": "api:e.getMessage",
       "type": "API",
       "name": "e.getMessage"
@@ -1460,6 +1620,21 @@
       "id": "api:file.getName",
       "type": "API",
       "name": "file.getName"
+    },
+    {
+      "id": "api:org.apache.commons.io.filefilter.AndFileFilter.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.filefilter.AndFileFilter.<init>"
+    },
+    {
+      "id": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.filefilter.WildcardFileFilter.<init>"
+    },
+    {
+      "id": "api:org.apache.commons.io.filefilter.AgeFileFilter.<init>",
+      "type": "API",
+      "name": "org.apache.commons.io.filefilter.AgeFileFilter.<init>"
     },
     {
       "id": "api:java.io.File.exists",
@@ -1677,6 +1852,16 @@
       "name": "java.util.Map.get"
     },
     {
+      "id": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.core.type.TypeReference.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-core",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
       "id": "api:org.apache.commons.io.FileUtils.readFileToByteArray",
       "type": "API",
       "name": "org.apache.commons.io.FileUtils.readFileToByteArray"
@@ -1800,6 +1985,11 @@
       "id": "function:src/main/java/co/nordlander/a/A.java::getName",
       "type": "FUNCTION",
       "name": "getName"
+    },
+    {
+      "id": "api:java.io.FileOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileOutputStream.<init>"
     },
     {
       "id": "api:org.apache.activemq.command.ActiveMQMessage.getJMSDestination",
@@ -1960,6 +2150,16 @@
       "id": "api:java.text.Format.format",
       "type": "API",
       "name": "java.text.Format.format"
+    },
+    {
+      "id": "api:java.util.Date.<init>",
+      "type": "API",
+      "name": "java.util.Date.<init>"
+    },
+    {
+      "id": "api:java.text.SimpleDateFormat.<init>",
+      "type": "API",
+      "name": "java.text.SimpleDateFormat.<init>"
     },
     {
       "id": "function:src/main/java/co/nordlander/a/AOutput.java::output",
@@ -2140,6 +2340,41 @@
   "edges": [
     {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
+      "target": "function:src/test/java/co/nordlander/a/BaseTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::<class>",
+      "target": "api:org.springframework.beans.factory.annotation.Autowired.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.beans.factory.annotation.Autowired.<annotation>",
+      "target": "dependency:org.springframework:spring-beans",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::<class>",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.rules.TemporaryFolder.<init>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::setupJMS",
       "type": "CONTAINS"
     },
@@ -2239,6 +2474,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::setupJMS",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::disconnectJMS",
       "type": "CONTAINS"
@@ -2271,6 +2516,16 @@
     {
       "source": "api:java.util.concurrent.ExecutorService.shutdown",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::disconnectJMS",
+      "target": "api:org.junit.After.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.After.<annotation>",
+      "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
     {
@@ -2349,6 +2604,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutQueue",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutBytesQueue",
       "type": "CONTAINS"
@@ -2406,6 +2671,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutBytesQueue",
       "target": "api:co.nordlander.a.A.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutBytesQueue",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2467,6 +2737,11 @@
       "source": "api:javax.jms.TextMessage.getJMSType",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutWithPriorityAndType",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
@@ -2544,6 +2819,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutTopic",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutQueueWithSlash",
       "type": "CONTAINS"
@@ -2591,6 +2871,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutQueueWithSlash",
       "target": "api:javax.jms.TextMessage.getText",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testPutQueueWithSlash",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2657,6 +2942,11 @@
       "source": "api:java.lang.String.contains",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetQueue",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
@@ -2729,6 +3019,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetQueueWithSelector",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetTopic",
       "type": "CONTAINS"
@@ -2786,6 +3081,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetTopic",
       "target": "api:java.lang.String.contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetTopic",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2849,6 +3149,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopyQueue",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopyQueueWithTransformer",
       "type": "CONTAINS"
@@ -2909,6 +3214,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopyQueueWithTransformer",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveQueue",
       "type": "CONTAINS"
@@ -2956,6 +3266,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveQueue",
       "target": "api:co.nordlander.a.A.assertNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveQueue",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3014,6 +3329,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveQueueWithTransformer",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveZeroCountQueue",
       "type": "CONTAINS"
@@ -3061,6 +3381,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveZeroCountQueue",
       "target": "api:co.nordlander.a.A.assertNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveZeroCountQueue",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3114,6 +3439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveCountQueue",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetCount",
       "type": "CONTAINS"
@@ -3161,6 +3491,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetCount",
       "target": "api:co.nordlander.a.A.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testGetCount",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3244,6 +3579,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testMoveSelector",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopySelector",
       "type": "CONTAINS"
@@ -3311,6 +3651,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopySelector",
       "target": "api:co.nordlander.a.A.getText",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testCopySelector",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3395,6 +3740,21 @@
     },
     {
       "source": "api:javax.jms.MapMessage.getInt",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testSendMapMessage",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testSendMapMessage",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -3497,6 +3857,16 @@
       "source": "api:co.nordlander.a.A.getName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testReadFolder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testReadFolder",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
@@ -3739,6 +4109,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages_RollbackOnError",
       "type": "CONTAINS"
@@ -3852,6 +4242,16 @@
       "source": "api:javax.jms.Message.getJMSCorrelationID",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages_RollbackOnError",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessages_RollbackOnError",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
@@ -3996,6 +4396,21 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpManyMessages",
       "target": "api:org.apache.commons.codec.binary.Base64.decodeBase64",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpManyMessages",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpManyMessages",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpManyMessages",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -4229,6 +4644,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testRestoreDump",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessagesAndTransform",
       "type": "CONTAINS"
@@ -4319,6 +4739,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessagesAndTransform",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessagesAndTransform",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testDumpMessagesAndTransform",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::testBatch",
       "type": "CONTAINS"
@@ -4404,6 +4839,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testBatch",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::testBatch",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::splitCmdLine",
       "type": "CONTAINS"
@@ -4469,6 +4914,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::splitCmdLine",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/BaseTest.java",
       "target": "function:src/test/java/co/nordlander/a/BaseTest.java::getAllMessages",
       "type": "CONTAINS"
@@ -4481,6 +4936,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/BaseTest.java::getAllMessages",
       "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/BaseTest.java::getAllMessages",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -4516,6 +4976,41 @@
     {
       "source": "api:javax.jms.Destination.toString",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/co/nordlander/a/AOpenWireTest.java",
+      "target": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runner.RunWith.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::<class>",
+      "target": "api:org.springframework.test.context.ContextConfiguration.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.test.context.ContextConfiguration.<annotation>",
+      "target": "dependency:org.springframework:spring-context-support",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::<class>",
+      "target": "api:org.springframework.test.annotation.DirtiesContext.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.test.annotation.DirtiesContext.<annotation>",
+      "target": "dependency:org.springframework:spring-test",
       "type": "PROVIDED_BY"
     },
     {
@@ -4566,6 +5061,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::jndiConnectTest",
       "target": "api:javax.jms.TextMessage.getText",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::jndiConnectTest",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4629,6 +5129,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::listQueuesTest",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::listQueuesTest",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Ignore.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/co/nordlander/a/AOpenWireTest.java",
+      "target": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::getConnectionFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::getConnectionFactory",
+      "target": "api:org.apache.activemq.ActiveMQConnectionFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.activemq.ActiveMQConnectionFactory.<init>",
+      "target": "dependency:org.apache.activemq:activemq-client",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/AOpenWireTest.java",
       "target": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::clearBroker",
       "type": "CONTAINS"
@@ -4666,6 +5196,26 @@
     {
       "source": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::clearBroker",
       "target": "function:src/test/java/co/nordlander/a/AOpenWireTest.java::getAdminConnectionContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/co/nordlander/a/AMQPTest.java",
+      "target": "function:src/test/java/co/nordlander/a/AMQPTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AMQPTest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AMQPTest.java::<class>",
+      "target": "api:org.springframework.test.context.ContextConfiguration.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AMQPTest.java::<class>",
+      "target": "api:org.springframework.test.annotation.DirtiesContext.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4716,6 +5266,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/AMQPTest.java::JndiConnectTest",
       "target": "api:javax.jms.TextMessage.getText",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/AMQPTest.java::JndiConnectTest",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4775,7 +5330,27 @@
     },
     {
       "source": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.start",
-      "target": "dependency:org.apache.activemq:activemq-client",
+      "target": "dependency:org.apache.activemq:artemis-jms-server",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/ArtemisJmsTest.java::createArtemisBroker",
+      "target": "api:org.junit.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.BeforeClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/ArtemisJmsTest.java::createArtemisBroker",
+      "target": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.<init>",
+      "target": "dependency:org.apache.activemq:artemis-jms-server",
       "type": "PROVIDED_BY"
     },
     {
@@ -4790,7 +5365,7 @@
     },
     {
       "source": "api:org.apache.activemq.artemis.api.jms.ActiveMQJMSClient.createConnectionFactory",
-      "target": "dependency:org.apache.activemq:activemq-client",
+      "target": "dependency:org.apache.activemq:artemis-jms-client",
       "type": "PROVIDED_BY"
     },
     {
@@ -4875,7 +5450,17 @@
     },
     {
       "source": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.stop",
-      "target": "dependency:org.apache.activemq:activemq-client",
+      "target": "dependency:org.apache.activemq:artemis-jms-server",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/ArtemisJmsTest.java::tearDownBroker",
+      "target": "api:org.junit.AfterClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.AfterClass.<annotation>",
+      "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
     {
@@ -4890,7 +5475,7 @@
     },
     {
       "source": "api:org.apache.activemq.artemis.core.server.embedded.EmbeddedActiveMQ.getActiveMQServer",
-      "target": "dependency:org.apache.activemq:activemq-client",
+      "target": "dependency:org.apache.activemq:artemis-jms-server",
       "type": "PROVIDED_BY"
     },
     {
@@ -4949,6 +5534,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/co/nordlander/a/DataStructureTypeAsStringTest.java::assertBrokerInfo",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/co/nordlander/a/DataStructureTypeAsStringTest.java",
       "target": "function:src/test/java/co/nordlander/a/DataStructureTypeAsStringTest.java::assertUnknownForUnknown",
       "type": "CONTAINS"
@@ -4961,6 +5551,11 @@
     {
       "source": "function:src/test/java/co/nordlander/a/DataStructureTypeAsStringTest.java::assertUnknownForUnknown",
       "target": "function:src/main/java/co/nordlander/a/A.java::dataStructureTypeToString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/co/nordlander/a/DataStructureTypeAsStringTest.java::assertUnknownForUnknown",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5030,6 +5625,21 @@
     },
     {
       "source": "file:src/main/java/co/nordlander/a/MessageDump.java",
+      "target": "function:src/main/java/co/nordlander/a/MessageDump.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDump.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/co/nordlander/a/MessageDump.java",
       "target": "function:src/main/java/co/nordlander/a/MessageDump.java::encode",
       "type": "CONTAINS"
     },
@@ -5057,6 +5667,21 @@
       "source": "function:src/main/java/co/nordlander/a/MessageDump.java::decode",
       "target": "api:org.apache.commons.codec.binary.Base64.decodeBase64",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/co/nordlander/a/MessageDumpTransformer.java",
+      "target": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::<class>",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.TreeMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/co/nordlander/a/MessageDumpTransformer.java",
@@ -5169,6 +5794,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::toScript",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/MessageDumpTransformer.java",
       "target": "function:src/main/java/co/nordlander/a/MessageDumpTransformer.java::doTransformMessage",
       "type": "CONTAINS"
@@ -5249,6 +5879,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::messagesToJsonString",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::messagesToJsonString",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/MessageDumpWriter.java",
       "target": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toJson",
       "type": "CONTAINS"
@@ -5256,6 +5896,11 @@
     {
       "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toJson",
       "target": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toJson",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -5271,6 +5916,11 @@
     {
       "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toDumpMessages",
       "target": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toDumpMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpWriter.java::toDumpMessages",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -6029,6 +6679,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::connect",
+      "target": "api:org.apache.activemq.ActiveMQConnectionFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::connect",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::connect",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::connect",
+      "target": "api:javax.naming.InitialContext.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.naming.InitialContext.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::createAMQPCF",
       "type": "CONTAINS"
@@ -6289,6 +6969,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeReadFolder",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeReadFolder",
+      "target": "api:org.apache.commons.io.filefilter.AndFileFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.filefilter.AndFileFilter.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeReadFolder",
+      "target": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.filefilter.WildcardFileFilter.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeReadFolder",
+      "target": "api:org.apache.commons.io.filefilter.AgeFileFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.io.filefilter.AgeFileFilter.<init>",
+      "target": "dependency:commons-io:commons-io",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::executeReadDump",
       "type": "CONTAINS"
@@ -6414,6 +7129,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeReadDump",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::executeWriteDump",
       "type": "CONTAINS"
@@ -6524,6 +7244,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::executeWriteDump",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::executeShowVersion",
       "type": "CONTAINS"
@@ -6601,6 +7326,11 @@
     {
       "source": "function:src/main/java/co/nordlander/a/A.java::consumeMessages",
       "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::consumeMessages",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -6929,6 +7659,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::putBatchMessage",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::transformMessage",
       "type": "CONTAINS"
@@ -7029,6 +7764,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromInput",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromInput",
+      "target": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::createMessageFromFile",
       "type": "CONTAINS"
@@ -7091,6 +7841,21 @@
     {
       "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromFile",
       "target": "api:java.util.Map.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromFile",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromFile",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::createMessageFromFile",
+      "target": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
       "type": "CALLS"
     },
     {
@@ -7474,6 +8239,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::outputMessage",
+      "target": "api:java.io.FileOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::displayAdvisoryMessage",
       "type": "CONTAINS"
@@ -7824,6 +8599,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/A.java::getNextFilename",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/A.java",
       "target": "function:src/main/java/co/nordlander/a/A.java::outputHeaders",
       "type": "CONTAINS"
@@ -7935,6 +8715,26 @@
     },
     {
       "source": "api:java.text.Format.format",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::timestampToString",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Date.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/A.java::timestampToString",
+      "target": "api:java.text.SimpleDateFormat.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.text.SimpleDateFormat.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -8099,6 +8899,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::loadMessagesFromJson",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/co/nordlander/a/MessageDumpReader.java",
       "target": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toDumpMessages",
       "type": "CONTAINS"
@@ -8106,6 +8911,16 @@
     {
       "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toDumpMessages",
       "target": "api:com.fasterxml.jackson.databind.ObjectMapper.readValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toDumpMessages",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toDumpMessages",
+      "target": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
       "type": "CALLS"
     },
     {
@@ -8121,6 +8936,11 @@
     {
       "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toMessages",
       "target": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toJmsMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/co/nordlander/a/MessageDumpReader.java::toMessages",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
