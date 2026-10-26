@@ -53,7 +53,9 @@ Headline result so far (`results/README.md`): a logistic regression on SemVer + 
 reference model (ROC-AUC 0.84, 95% CI 0.76-0.91, MCC 0.67, n = 102 samples with a DIG, 53 of them safe).
 Graph features lift SemVer from 0.74 to 0.84, and the lift holds within projects and on docker labels
 only. About half of it comes from safe samples over-representing Maven-plugin updates (without them:
-0.78 -> 0.83). Tree models and a small GNN tie with LR.
+0.78 -> 0.83). Tree models and a small GNN tie with LR. Adding 7 safe MAJOR library updates
+(`results/matched/`, 111 samples) drops SemVer alone to 0.67 while SemVer + Graph stays at 0.80, and the
+graph gain without plugin updates grows to +0.09, so the graph signal holds up on better-matched data.
 
 ## Quick start
 
@@ -73,11 +75,12 @@ Each module has its own setup and usage instructions:
 
 ## Next steps
 
-- **Collect safe samples that match the breaking ones**: library (not Maven-plugin) updates and major
-  bumps. 12 of the 45 CI-labelled safe samples are plugin updates (vs 1 of 51 breaking), and SemVer alone
-  drops to AUC 0.62 on the docker-labelled samples, so both feature groups are partly confounded.
-- **Re-tune the triage tiers on the 102-sample set.** With 53 safe samples, 6 of 27 CRITICAL samples are
-  safe and 5 of 11 SAFE-tier samples break (`results/triage_calibration.csv`).
+- **More safe MAJOR library updates.** `person1/mine_matched_safe_samples.py` found only 7 (safe MAJOR:
+  2 -> 9): most candidates have no CI record left on GitHub. A docker rebuild of older bot PRs (like BUMP
+  does) would be the way to get more, and to get labels stronger than CI.
+- **Triage SAFE tier.** 5 of its 11 samples break, and cross-validated threshold tuning does not fix it
+  reliably (`results/triage_threshold_cv.csv`), so thresholds are unchanged. It likely needs a better
+  score than the hand-made one (for example the trained LR model's probability).
 - 12 of the 39 localizable breaking samples still have no ranking: 10 dependencies are never called from
   Java code (a limit of static call graphs), 1 is a BOM, 1 is correctly attributed to a sibling artifact.
 
