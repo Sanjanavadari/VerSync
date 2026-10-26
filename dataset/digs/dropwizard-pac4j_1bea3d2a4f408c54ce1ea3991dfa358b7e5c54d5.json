@@ -1,0 +1,4524 @@
+{
+  "repo": "dropwizard-pac4j_1bea3d2a4f408c54ce1ea3991dfa358b7e5c54d5",
+  "nodes": [
+    {
+      "id": "file:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "type": "FUNCTION",
+      "name": "shouldKeepUserDefinedSessionStoreFactory"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.setSessionStoreFactory",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.setSessionStoreFactory"
+    },
+    {
+      "id": "dependency:org.pac4j:pac4j-core",
+      "type": "DEPENDENCY",
+      "name": "org.pac4j:pac4j-core"
+    },
+    {
+      "id": "api:org.pac4j.core.adapter.FrameworkAdapter.applyDefaultSettingsIfUndefined",
+      "type": "API",
+      "name": "org.pac4j.core.adapter.FrameworkAdapter.applyDefaultSettingsIfUndefined"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Assertions.assertSame",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Assertions.assertSame"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.getSessionStoreFactory",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.getSessionStoreFactory"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.<init>",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.pac4j.NoOpSessionStoreFactory.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.pac4j.NoOpSessionStoreFactory.<init>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "type": "FUNCTION",
+      "name": "shouldSetDefaultSessionStoreFactoryIfUndefined"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Assertions.assertNull",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Assertions.assertNull"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Assertions.assertNotNull",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Assertions.assertNotNull"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.glassfish.jersey.client.JerseyClientBuilder.<init>",
+      "type": "API",
+      "name": "org.glassfish.jersey.client.JerseyClientBuilder.<init>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setup",
+      "type": "FUNCTION",
+      "name": "setup"
+    },
+    {
+      "id": "api:io.dropwizard.testing.ResourceHelpers.resourceFilePath",
+      "type": "API",
+      "name": "io.dropwizard.testing.ResourceHelpers.resourceFilePath"
+    },
+    {
+      "id": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "DEPENDENCY",
+      "name": "io.dropwizard:dropwizard-testing"
+    },
+    {
+      "id": "api:io.dropwizard.testing.DropwizardTestSupport.before",
+      "type": "API",
+      "name": "io.dropwizard.testing.DropwizardTestSupport.before"
+    },
+    {
+      "id": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "type": "API",
+      "name": "io.dropwizard.testing.DropwizardTestSupport.<init>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::tearDown",
+      "type": "FUNCTION",
+      "name": "tearDown"
+    },
+    {
+      "id": "api:io.dropwizard.testing.DropwizardTestSupport.after",
+      "type": "API",
+      "name": "io.dropwizard.testing.DropwizardTestSupport.after"
+    },
+    {
+      "id": "api:jakarta.ws.rs.client.Client.close",
+      "type": "API",
+      "name": "jakarta.ws.rs.client.Client.close"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterEach.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getUrlPrefix",
+      "type": "FUNCTION",
+      "name": "getUrlPrefix"
+    },
+    {
+      "id": "api:io.dropwizard.testing.DropwizardTestSupport.getLocalPort",
+      "type": "API",
+      "name": "io.dropwizard.testing.DropwizardTestSupport.getLocalPort"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "type": "FUNCTION",
+      "name": "mkAuthField"
+    },
+    {
+      "id": "api:com.google.common.io.BaseEncoding.base64",
+      "type": "API",
+      "name": "com.google.common.io.BaseEncoding.base64"
+    },
+    {
+      "id": "dependency:com.google.guava:guava",
+      "type": "DEPENDENCY",
+      "name": "com.google.guava:guava"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::encode",
+      "type": "FUNCTION",
+      "name": "encode"
+    },
+    {
+      "id": "api:java.lang.String.format",
+      "type": "API",
+      "name": "java.lang.String.format"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getBytes",
+      "type": "FUNCTION",
+      "name": "getBytes"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getPac4jFactory",
+      "type": "FUNCTION",
+      "name": "getPac4jFactory"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonProperty.<annotation>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-annotations"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setPac4jFactory",
+      "type": "FUNCTION",
+      "name": "setPac4jFactory"
+    },
+    {
+      "id": "api:C.getPac4jFactory",
+      "type": "API",
+      "name": "C.getPac4jFactory"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::initialize",
+      "type": "FUNCTION",
+      "name": "initialize"
+    },
+    {
+      "id": "api:io.dropwizard.core.setup.Bootstrap.addBundle",
+      "type": "API",
+      "name": "io.dropwizard.core.setup.Bootstrap.addBundle"
+    },
+    {
+      "id": "dependency:io.dropwizard:dropwizard-core",
+      "type": "DEPENDENCY",
+      "name": "io.dropwizard:dropwizard-core"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "type": "FUNCTION",
+      "name": "getPac4jFactory"
+    },
+    {
+      "id": "api:io.dropwizard.jackson.Jackson.newObjectMapper",
+      "type": "API",
+      "name": "io.dropwizard.jackson.Jackson.newObjectMapper"
+    },
+    {
+      "id": "api:org.mockito.Mockito.mock",
+      "type": "API",
+      "name": "org.mockito.Mockito.mock"
+    },
+    {
+      "id": "dependency:org.mockito:mockito-core",
+      "type": "DEPENDENCY",
+      "name": "org.mockito:mockito-core"
+    },
+    {
+      "id": "api:org.mockito.Mockito.when",
+      "type": "API",
+      "name": "org.mockito.Mockito.when"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::thenReturn",
+      "type": "FUNCTION",
+      "name": "thenReturn"
+    },
+    {
+      "id": "api:io.dropwizard.core.setup.Bootstrap.getObjectMapper",
+      "type": "API",
+      "name": "io.dropwizard.core.setup.Bootstrap.getObjectMapper"
+    },
+    {
+      "id": "api:fs.setup",
+      "type": "API",
+      "name": "fs.setup"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "api:com.google.common.io.Resources.getResource",
+      "type": "API",
+      "name": "com.google.common.io.Resources.getResource"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::toURI",
+      "type": "FUNCTION",
+      "name": "toURI"
+    },
+    {
+      "id": "api:io.dropwizard.jersey.validation.Validators.newValidator",
+      "type": "API",
+      "name": "io.dropwizard.jersey.validation.Validators.newValidator"
+    },
+    {
+      "id": "api:io.dropwizard.configuration.YamlConfigurationFactory.<init>",
+      "type": "API",
+      "name": "io.dropwizard.configuration.YamlConfigurationFactory.<init>"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::featuresSupported",
+      "type": "FUNCTION",
+      "name": "featuresSupported"
+    },
+    {
+      "id": "api:java.util.ArrayList.add",
+      "type": "API",
+      "name": "java.util.ArrayList.add"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.assertj.core.api.Condition.<init>",
+      "type": "API",
+      "name": "org.assertj.core.api.Condition.<init>"
+    },
+    {
+      "id": "dependency:org.assertj:assertj-core",
+      "type": "DEPENDENCY",
+      "name": "org.assertj:assertj-core"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "type": "FUNCTION",
+      "name": "noPac4jInConfig"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::setup",
+      "type": "FUNCTION",
+      "name": "setup"
+    },
+    {
+      "id": "api:dropwizardTestSupport.getApplication",
+      "type": "API",
+      "name": "dropwizardTestSupport.getApplication"
+    },
+    {
+      "id": "api:dropwizardTestSupport.getObjectMapper",
+      "type": "API",
+      "name": "dropwizardTestSupport.getObjectMapper"
+    },
+    {
+      "id": "api:dropwizardTestSupport.getEnvironment",
+      "type": "API",
+      "name": "dropwizardTestSupport.getEnvironment"
+    },
+    {
+      "id": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "API",
+      "name": "org.assertj.core.api.Assertions.assertThat"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNull",
+      "type": "FUNCTION",
+      "name": "isNull"
+    },
+    {
+      "id": "api:app.bundle.getConfig",
+      "type": "API",
+      "name": "app.bundle.getConfig"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNotNull",
+      "type": "FUNCTION",
+      "name": "isNotNull"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.findMixInClassFor",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.findMixInClassFor"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::doesNotHave",
+      "type": "FUNCTION",
+      "name": "doesNotHave"
+    },
+    {
+      "id": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "API",
+      "name": "io.dropwizard.core.setup.Environment.jersey"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getResourceConfig",
+      "type": "FUNCTION",
+      "name": "getResourceConfig"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSingletons",
+      "type": "FUNCTION",
+      "name": "getSingletons"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "type": "FUNCTION",
+      "name": "emptyPac4jInConfig"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::haveAtLeastOne",
+      "type": "FUNCTION",
+      "name": "haveAtLeastOne"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isInstanceOf",
+      "type": "FUNCTION",
+      "name": "isInstanceOf"
+    },
+    {
+      "id": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "type": "API",
+      "name": "io.dropwizard.core.setup.Environment.getApplicationContext"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSessionHandler",
+      "type": "FUNCTION",
+      "name": "getSessionHandler"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "type": "FUNCTION",
+      "name": "sessionEnabledForced"
+    },
+    {
+      "id": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "API",
+      "name": "io.dropwizard.testing.ConfigOverride.config"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "type": "FUNCTION",
+      "name": "sessiondisabledForced"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::run",
+      "type": "FUNCTION",
+      "name": "run"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::register",
+      "type": "FUNCTION",
+      "name": "register"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "type": "FUNCTION",
+      "name": "grantsAccessToResourcesForm"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::setup",
+      "type": "FUNCTION",
+      "name": "setup"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getSimpleName",
+      "type": "FUNCTION",
+      "name": "getSimpleName"
+    },
+    {
+      "id": "api:jakarta.ws.rs.core.Form.param",
+      "type": "API",
+      "name": "jakarta.ws.rs.core.Form.param"
+    },
+    {
+      "id": "api:client.target",
+      "type": "API",
+      "name": "client.target"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::request",
+      "type": "FUNCTION",
+      "name": "request"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::post",
+      "type": "FUNCTION",
+      "name": "post"
+    },
+    {
+      "id": "api:jakarta.ws.rs.client.Entity.entity",
+      "type": "API",
+      "name": "jakarta.ws.rs.client.Entity.entity"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getUrlPrefix",
+      "type": "FUNCTION",
+      "name": "getUrlPrefix"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::isEqualTo",
+      "type": "FUNCTION",
+      "name": "isEqualTo"
+    },
+    {
+      "id": "api:jakarta.ws.rs.core.Form.<init>",
+      "type": "API",
+      "name": "jakarta.ws.rs.core.Form.<init>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "type": "FUNCTION",
+      "name": "grantsAccessToResources"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::header",
+      "type": "FUNCTION",
+      "name": "header"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::mkAuthField",
+      "type": "FUNCTION",
+      "name": "mkAuthField"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "type": "FUNCTION",
+      "name": "restrictsAccessToResources"
+    },
+    {
+      "id": "api:jakarta.ws.rs.core.Response.getStatusInfo",
+      "type": "API",
+      "name": "jakarta.ws.rs.core.Response.getStatusInfo"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::register",
+      "type": "FUNCTION",
+      "name": "register"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::run",
+      "type": "FUNCTION",
+      "name": "run"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::register",
+      "type": "FUNCTION",
+      "name": "register"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "type": "FUNCTION",
+      "name": "grantsAccessToResourcesForm"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::setup",
+      "type": "FUNCTION",
+      "name": "setup"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getSimpleName",
+      "type": "FUNCTION",
+      "name": "getSimpleName"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::request",
+      "type": "FUNCTION",
+      "name": "request"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::post",
+      "type": "FUNCTION",
+      "name": "post"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getUrlPrefix",
+      "type": "FUNCTION",
+      "name": "getUrlPrefix"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::isEqualTo",
+      "type": "FUNCTION",
+      "name": "isEqualTo"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "type": "FUNCTION",
+      "name": "grantsAccessToResources"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::header",
+      "type": "FUNCTION",
+      "name": "header"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::mkAuthField",
+      "type": "FUNCTION",
+      "name": "mkAuthField"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "type": "FUNCTION",
+      "name": "restrictsAccessToResources"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:jakarta.ws.rs.Path.<annotation>",
+      "type": "API",
+      "name": "jakarta.ws.rs.Path.<annotation>"
+    },
+    {
+      "id": "api:jakarta.ws.rs.Produces.<annotation>",
+      "type": "API",
+      "name": "jakarta.ws.rs.Produces.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "type": "FUNCTION",
+      "name": "getDog"
+    },
+    {
+      "id": "api:java.util.Optional.of",
+      "type": "API",
+      "name": "java.util.Optional.of"
+    },
+    {
+      "id": "api:jakarta.ws.rs.GET.<annotation>",
+      "type": "API",
+      "name": "jakarta.ws.rs.GET.<annotation>"
+    },
+    {
+      "id": "api:jakarta.ws.rs.PathParam.<annotation>",
+      "type": "API",
+      "name": "jakarta.ws.rs.PathParam.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "type": "FUNCTION",
+      "name": "getDogPost"
+    },
+    {
+      "id": "api:jakarta.ws.rs.POST.<annotation>",
+      "type": "API",
+      "name": "jakarta.ws.rs.POST.<annotation>"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::addClient",
+      "type": "FUNCTION",
+      "name": "addClient"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::setAuthorizer",
+      "type": "FUNCTION",
+      "name": "setAuthorizer"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::setMatcher",
+      "type": "FUNCTION",
+      "name": "setMatcher"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::excludeRegex",
+      "type": "FUNCTION",
+      "name": "excludeRegex"
+    },
+    {
+      "id": "api:org.pac4j.oauth.client.FacebookClient.<init>",
+      "type": "API",
+      "name": "org.pac4j.oauth.client.FacebookClient.<init>"
+    },
+    {
+      "id": "dependency:org.pac4j:pac4j-oauth",
+      "type": "DEPENDENCY",
+      "name": "org.pac4j:pac4j-oauth"
+    },
+    {
+      "id": "api:org.pac4j.core.authorization.authorizer.IsAnonymousAuthorizer.<init>",
+      "type": "API",
+      "name": "org.pac4j.core.authorization.authorizer.IsAnonymousAuthorizer.<init>"
+    },
+    {
+      "id": "api:org.pac4j.core.matching.matcher.PathMatcher.<init>",
+      "type": "API",
+      "name": "org.pac4j.core.matching.matcher.PathMatcher.<init>"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "api:org.pac4j.http.credentials.authenticator.test.SimpleTestUsernamePasswordAuthenticator.<init>",
+      "type": "API",
+      "name": "org.pac4j.http.credentials.authenticator.test.SimpleTestUsernamePasswordAuthenticator.<init>"
+    },
+    {
+      "id": "dependency:org.pac4j:pac4j-http",
+      "type": "DEPENDENCY",
+      "name": "org.pac4j:pac4j-http"
+    },
+    {
+      "id": "api:org.pac4j.http.client.direct.DirectBasicAuthClient.<init>",
+      "type": "API",
+      "name": "org.pac4j.http.client.direct.DirectBasicAuthClient.<init>"
+    },
+    {
+      "id": "api:org.pac4j.http.client.direct.DirectFormClient.<init>",
+      "type": "API",
+      "name": "org.pac4j.http.client.direct.DirectFormClient.<init>"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "type": "FUNCTION",
+      "name": "configFactory"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getPac4jFactory",
+      "type": "FUNCTION",
+      "name": "getPac4jFactory"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isExactlyInstanceOf",
+      "type": "FUNCTION",
+      "name": "isExactlyInstanceOf"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::hasSize",
+      "type": "FUNCTION",
+      "name": "hasSize"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.getClients",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.getClients"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getClients",
+      "type": "FUNCTION",
+      "name": "getClients"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::get",
+      "type": "FUNCTION",
+      "name": "get"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isEqualTo",
+      "type": "FUNCTION",
+      "name": "isEqualTo"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.getAuthorizers",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.getAuthorizers"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::size",
+      "type": "FUNCTION",
+      "name": "size"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.getMatchers",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.getMatchers"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::values",
+      "type": "FUNCTION",
+      "name": "values"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::iterator",
+      "type": "FUNCTION",
+      "name": "iterator"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::next",
+      "type": "FUNCTION",
+      "name": "next"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isInstanceOf",
+      "type": "FUNCTION",
+      "name": "isInstanceOf"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::containsExactlyInAnyOrder",
+      "type": "FUNCTION",
+      "name": "containsExactlyInAnyOrder"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "type": "FUNCTION",
+      "name": "defaultsUnset"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isNull",
+      "type": "FUNCTION",
+      "name": "isNull"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getConfigFactory",
+      "type": "FUNCTION",
+      "name": "getConfigFactory"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isNotNull",
+      "type": "FUNCTION",
+      "name": "isNotNull"
+    },
+    {
+      "id": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isEmpty",
+      "type": "FUNCTION",
+      "name": "isEmpty"
+    },
+    {
+      "id": "file:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java",
+      "type": "FILE",
+      "name": "src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "type": "FUNCTION",
+      "name": "applyDefaultSettingsIfUndefined"
+    },
+    {
+      "id": "api:org.pac4j.core.util.CommonHelper.assertNotNull",
+      "type": "API",
+      "name": "org.pac4j.core.util.CommonHelper.assertNotNull"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.setWebContextFactoryIfUndefined",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.setWebContextFactoryIfUndefined"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.setSessionStoreFactoryIfUndefined",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.setSessionStoreFactoryIfUndefined"
+    },
+    {
+      "id": "api:JEESessionStoreFactory.INSTANCE.newSessionStore",
+      "type": "API",
+      "name": "JEESessionStoreFactory.INSTANCE.newSessionStore"
+    },
+    {
+      "id": "api:ServletSessionStoreFactory.INSTANCE.newSessionStore",
+      "type": "API",
+      "name": "ServletSessionStoreFactory.INSTANCE.newSessionStore"
+    },
+    {
+      "id": "api:org.pac4j.core.config.Config.setHttpActionAdapterIfUndefined",
+      "type": "API",
+      "name": "org.pac4j.core.config.Config.setHttpActionAdapterIfUndefined"
+    },
+    {
+      "id": "api:DefaultJaxRsHttpActionAdapter.INSTANCE.adapt",
+      "type": "API",
+      "name": "DefaultJaxRsHttpActionAdapter.INSTANCE.adapt"
+    },
+    {
+      "id": "api:JEEHttpActionAdapter.INSTANCE.adapt",
+      "type": "API",
+      "name": "JEEHttpActionAdapter.INSTANCE.adapt"
+    },
+    {
+      "id": "api:var.getAjaxRequestResolver",
+      "type": "API",
+      "name": "var.getAjaxRequestResolver"
+    },
+    {
+      "id": "api:var.setAjaxRequestResolver",
+      "type": "API",
+      "name": "var.setAjaxRequestResolver"
+    },
+    {
+      "id": "api:var.getUrlResolver",
+      "type": "API",
+      "name": "var.getUrlResolver"
+    },
+    {
+      "id": "api:var.setUrlResolver",
+      "type": "API",
+      "name": "var.setUrlResolver"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.pac4j.JaxRsAjaxRequestResolver.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.pac4j.JaxRsAjaxRequestResolver.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.pac4j.JaxRsUrlResolver.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.pac4j.JaxRsUrlResolver.<init>"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::buildWebContext",
+      "type": "FUNCTION",
+      "name": "buildWebContext"
+    },
+    {
+      "id": "api:DefaultJaxRsWebContextFactory.INSTANCE.newContext",
+      "type": "API",
+      "name": "DefaultJaxRsWebContextFactory.INSTANCE.newContext"
+    },
+    {
+      "id": "api:JEEContextFactory.INSTANCE.newContext",
+      "type": "API",
+      "name": "JEEContextFactory.INSTANCE.newContext"
+    },
+    {
+      "id": "api:org.pac4j.core.exception.TechnicalException.<init>",
+      "type": "API",
+      "name": "org.pac4j.core.exception.TechnicalException.<init>"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/Pac4jMixins.java"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerators",
+      "type": "FUNCTION",
+      "name": "setAuthorizationGenerators"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonIgnore.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerator",
+      "type": "FUNCTION",
+      "name": "setAuthorizationGenerator"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonTypeInfo.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonTypeInfo.<annotation>"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/Pac4jBundle.java"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::initialize",
+      "type": "FUNCTION",
+      "name": "initialize"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::supportedFeatures",
+      "type": "FUNCTION",
+      "name": "supportedFeatures"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "type": "FUNCTION",
+      "name": "run"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getPac4jFactory",
+      "type": "FUNCTION",
+      "name": "getPac4jFactory"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::register",
+      "type": "FUNCTION",
+      "name": "register"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getGlobalFilters",
+      "type": "FUNCTION",
+      "name": "getGlobalFilters"
+    },
+    {
+      "id": "api:fConf.getSkipResponse",
+      "type": "API",
+      "name": "fConf.getSkipResponse"
+    },
+    {
+      "id": "api:fConf.getAuthorizers",
+      "type": "API",
+      "name": "fConf.getAuthorizers"
+    },
+    {
+      "id": "api:fConf.getClients",
+      "type": "API",
+      "name": "fConf.getClients"
+    },
+    {
+      "id": "api:fConf.getMatchers",
+      "type": "API",
+      "name": "fConf.getMatchers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getServlet",
+      "type": "FUNCTION",
+      "name": "getServlet"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getSecurity",
+      "type": "FUNCTION",
+      "name": "getSecurity"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "type": "FUNCTION",
+      "name": "registerSecurityFilter"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getCallback",
+      "type": "FUNCTION",
+      "name": "getCallback"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "type": "FUNCTION",
+      "name": "registerCallbackFilter"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getLogout",
+      "type": "FUNCTION",
+      "name": "getLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "type": "FUNCTION",
+      "name": "registerLogoutFilter"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSessionEnabled",
+      "type": "FUNCTION",
+      "name": "getSessionEnabled"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "type": "FUNCTION",
+      "name": "setupJettySession"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.features.JaxRsConfigProvider.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.features.JaxRsConfigProvider.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.features.JaxRsSessionStoreProvider.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.features.JaxRsSessionStoreProvider.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.servlet.features.Pac4JServletFeature.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.servlet.features.Pac4JServletFeature.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.features.Pac4JSecurityFilterFeature.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.features.Pac4JSecurityFilterFeature.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.servlet.features.ServletJaxRsContextFactoryProvider.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.servlet.features.ServletJaxRsContextFactoryProvider.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.features.Pac4JSecurityFeature.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.features.Pac4JSecurityFeature.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jax.rs.jersey.features.Pac4JValueFactoryProvider.<init>",
+      "type": "API",
+      "name": "org.pac4j.jax.rs.jersey.features.Pac4JValueFactoryProvider.<init>"
+    },
+    {
+      "id": "api:io.dropwizard.jetty.MutableServletContextHandler.getSessionHandler",
+      "type": "API",
+      "name": "io.dropwizard.jetty.MutableServletContextHandler.getSessionHandler"
+    },
+    {
+      "id": "api:io.dropwizard.jetty.MutableServletContextHandler.setSessionHandler",
+      "type": "API",
+      "name": "io.dropwizard.jetty.MutableServletContextHandler.setSessionHandler"
+    },
+    {
+      "id": "api:org.eclipse.jetty.ee10.servlet.SessionHandler.<init>",
+      "type": "API",
+      "name": "org.eclipse.jetty.ee10.servlet.SessionHandler.<init>"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/Pac4jFeatureSupport.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/Pac4jFeatureSupport.java"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "type": "FUNCTION",
+      "name": "setup"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.addMixIn",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.addMixIn"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::sessionStoreMixin",
+      "type": "FUNCTION",
+      "name": "sessionStoreMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authorizerMixin",
+      "type": "FUNCTION",
+      "name": "authorizerMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::httpActionAdapterMixin",
+      "type": "FUNCTION",
+      "name": "httpActionAdapterMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::matcherMixin",
+      "type": "FUNCTION",
+      "name": "matcherMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::securityLogicMixin",
+      "type": "FUNCTION",
+      "name": "securityLogicMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::callbackLogicMixin",
+      "type": "FUNCTION",
+      "name": "callbackLogicMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::logoutLogicMixin",
+      "type": "FUNCTION",
+      "name": "logoutLogicMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::clientMixin",
+      "type": "FUNCTION",
+      "name": "clientMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::baseClientMixin",
+      "type": "FUNCTION",
+      "name": "baseClientMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::ajaxRequestResolverMixin",
+      "type": "FUNCTION",
+      "name": "ajaxRequestResolverMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::urlResolverMixin",
+      "type": "FUNCTION",
+      "name": "urlResolverMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::callbackUrlResolverMixin",
+      "type": "FUNCTION",
+      "name": "callbackUrlResolverMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authorizationGeneratorMixin",
+      "type": "FUNCTION",
+      "name": "authorizationGeneratorMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authenticatorMixin",
+      "type": "FUNCTION",
+      "name": "authenticatorMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::credentialExtractorMixin",
+      "type": "FUNCTION",
+      "name": "credentialExtractorMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::profileCreatorMixin",
+      "type": "FUNCTION",
+      "name": "profileCreatorMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::redirectionActionBuilderMixin",
+      "type": "FUNCTION",
+      "name": "redirectionActionBuilderMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::logoutActionBuilderMixin",
+      "type": "FUNCTION",
+      "name": "logoutActionBuilderMixin"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::passwordEncoderMixin",
+      "type": "FUNCTION",
+      "name": "passwordEncoderMixin"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/Pac4jConfiguration.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/Pac4jConfiguration.java"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/Pac4jFactory.java"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:jakarta.validation.constraints.NotNull.<annotation>",
+      "type": "API",
+      "name": "jakarta.validation.constraints.NotNull.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setConfigFactory",
+      "type": "FUNCTION",
+      "name": "setConfigFactory"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setGlobalFilters",
+      "type": "FUNCTION",
+      "name": "setGlobalFilters"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setServlet",
+      "type": "FUNCTION",
+      "name": "setServlet"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSessionEnabled",
+      "type": "FUNCTION",
+      "name": "setSessionEnabled"
+    },
+    {
+      "id": "api:java.lang.String.isBlank",
+      "type": "API",
+      "name": "java.lang.String.isBlank"
+    },
+    {
+      "id": "api:org.pac4j.core.config.ConfigBuilder.build",
+      "type": "API",
+      "name": "org.pac4j.core.config.ConfigBuilder.build"
+    },
+    {
+      "id": "api:FrameworkAdapter.INSTANCE.applyDefaultSettingsIfUndefined",
+      "type": "API",
+      "name": "FrameworkAdapter.INSTANCE.applyDefaultSettingsIfUndefined"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSecurity",
+      "type": "FUNCTION",
+      "name": "getSecurity"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCallback",
+      "type": "FUNCTION",
+      "name": "getCallback"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogout",
+      "type": "FUNCTION",
+      "name": "getLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSecurity",
+      "type": "FUNCTION",
+      "name": "setSecurity"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCallback",
+      "type": "FUNCTION",
+      "name": "setCallback"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogout",
+      "type": "FUNCTION",
+      "name": "setLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSkipResponse",
+      "type": "FUNCTION",
+      "name": "getSkipResponse"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSkipResponse",
+      "type": "FUNCTION",
+      "name": "setSkipResponse"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "type": "FUNCTION",
+      "name": "getMapping"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMapping",
+      "type": "FUNCTION",
+      "name": "setMapping"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getClients",
+      "type": "FUNCTION",
+      "name": "getClients"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getAuthorizers",
+      "type": "FUNCTION",
+      "name": "getAuthorizers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMatchers",
+      "type": "FUNCTION",
+      "name": "getMatchers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setClients",
+      "type": "FUNCTION",
+      "name": "setClients"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setAuthorizers",
+      "type": "FUNCTION",
+      "name": "setAuthorizers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMatchers",
+      "type": "FUNCTION",
+      "name": "setMatchers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDefaultUrl",
+      "type": "FUNCTION",
+      "name": "getDefaultUrl"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getRenewSession",
+      "type": "FUNCTION",
+      "name": "getRenewSession"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDefaultUrl",
+      "type": "FUNCTION",
+      "name": "setDefaultUrl"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setRenewSession",
+      "type": "FUNCTION",
+      "name": "setRenewSession"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogoutUrlPattern",
+      "type": "FUNCTION",
+      "name": "getLogoutUrlPattern"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLocalLogout",
+      "type": "FUNCTION",
+      "name": "getLocalLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDestroySession",
+      "type": "FUNCTION",
+      "name": "getDestroySession"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCentralLogout",
+      "type": "FUNCTION",
+      "name": "getCentralLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogoutUrlPattern",
+      "type": "FUNCTION",
+      "name": "setLogoutUrlPattern"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLocalLogout",
+      "type": "FUNCTION",
+      "name": "setLocalLogout"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDestroySession",
+      "type": "FUNCTION",
+      "name": "setDestroySession"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCentralLogout",
+      "type": "FUNCTION",
+      "name": "setCentralLogout"
+    },
+    {
+      "id": "file:src/main/java/org/pac4j/dropwizard/J2EHelper.java",
+      "type": "FILE",
+      "name": "src/main/java/org/pac4j/dropwizard/J2EHelper.java"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.SecurityFilter.setClients",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.SecurityFilter.setClients"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.SecurityFilter.setAuthorizers",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.SecurityFilter.setAuthorizers"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.SecurityFilter.setMatchers",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.SecurityFilter.setMatchers"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "type": "FUNCTION",
+      "name": "registerFilter"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.SecurityFilter.<init>",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.SecurityFilter.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.CallbackFilter.setDefaultUrl",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.CallbackFilter.setDefaultUrl"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.CallbackFilter.setRenewSession",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.CallbackFilter.setRenewSession"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.CallbackFilter.<init>",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.CallbackFilter.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.setDefaultUrl",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.setDefaultUrl"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.setLogoutUrlPattern",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.setLogoutUrlPattern"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.setLocalLogout",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.setLocalLogout"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.setDestroySession",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.setDestroySession"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.setCentralLogout",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.setCentralLogout"
+    },
+    {
+      "id": "api:org.pac4j.jee.filter.LogoutFilter.<init>",
+      "type": "API",
+      "name": "org.pac4j.jee.filter.LogoutFilter.<init>"
+    },
+    {
+      "id": "api:org.pac4j.jee.config.AbstractConfigFilter.setConfig",
+      "type": "API",
+      "name": "org.pac4j.jee.config.AbstractConfigFilter.setConfig"
+    },
+    {
+      "id": "api:io.dropwizard.core.setup.Environment.servlets",
+      "type": "API",
+      "name": "io.dropwizard.core.setup.Environment.servlets"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::addFilter",
+      "type": "FUNCTION",
+      "name": "addFilter"
+    },
+    {
+      "id": "api:org.pac4j.jee.config.AbstractConfigFilter.getClass",
+      "type": "API",
+      "name": "org.pac4j.jee.config.AbstractConfigFilter.getClass"
+    },
+    {
+      "id": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::getName",
+      "type": "FUNCTION",
+      "name": "getName"
+    },
+    {
+      "id": "api:jakarta.servlet.FilterRegistration.addMappingForUrlPatterns",
+      "type": "API",
+      "name": "jakarta.servlet.FilterRegistration.addMappingForUrlPatterns"
+    },
+    {
+      "id": "api:java.util.EnumSet.of",
+      "type": "API",
+      "name": "java.util.EnumSet.of"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java",
+      "target": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.pac4j.core.config.Config.setSessionStoreFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.setSessionStoreFactory",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.pac4j.core.adapter.FrameworkAdapter.applyDefaultSettingsIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.adapter.FrameworkAdapter.applyDefaultSettingsIfUndefined",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.junit.jupiter.api.Assertions.assertSame",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Assertions.assertSame",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.pac4j.core.config.Config.getSessionStoreFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.getSessionStoreFactory",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.pac4j.core.config.Config.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldKeepUserDefinedSessionStoreFactory",
+      "target": "api:org.pac4j.jax.rs.pac4j.NoOpSessionStoreFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.pac4j.NoOpSessionStoreFactory.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java",
+      "target": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.junit.jupiter.api.Assertions.assertNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Assertions.assertNull",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.getSessionStoreFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.pac4j.core.adapter.FrameworkAdapter.applyDefaultSettingsIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.junit.jupiter.api.Assertions.assertNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Assertions.assertNotNull",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/framework/adapter/FrameworkAdapterImplTest.java::shouldSetDefaultSessionStoreFactoryIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::<class>",
+      "target": "api:org.glassfish.jersey.client.JerseyClientBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.glassfish.jersey.client.JerseyClientBuilder.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setup",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setup",
+      "target": "api:io.dropwizard.testing.ResourceHelpers.resourceFilePath",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.ResourceHelpers.resourceFilePath",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setup",
+      "target": "api:io.dropwizard.testing.DropwizardTestSupport.before",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.DropwizardTestSupport.before",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setup",
+      "target": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::tearDown",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::tearDown",
+      "target": "api:io.dropwizard.testing.DropwizardTestSupport.after",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.DropwizardTestSupport.after",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::tearDown",
+      "target": "api:jakarta.ws.rs.client.Client.close",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.client.Client.close",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::tearDown",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getUrlPrefix",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getUrlPrefix",
+      "target": "api:io.dropwizard.testing.DropwizardTestSupport.getLocalPort",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.DropwizardTestSupport.getLocalPort",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "target": "api:com.google.common.io.BaseEncoding.base64",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.io.BaseEncoding.base64",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::encode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.format",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::mkAuthField",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getBytes",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getPac4jFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getPac4jFactory",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setPac4jFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::setPac4jFactory",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::getPac4jFactory",
+      "target": "api:C.getPac4jFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:C.getPac4jFactory",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::initialize",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractApplicationTest.java::initialize",
+      "target": "api:io.dropwizard.core.setup.Bootstrap.addBundle",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.core.setup.Bootstrap.addBundle",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:io.dropwizard.jackson.Jackson.newObjectMapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.jackson.Jackson.newObjectMapper",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:org.mockito.Mockito.mock",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mockito.mock",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:org.mockito.Mockito.when",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mockito.when",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::thenReturn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:io.dropwizard.core.setup.Bootstrap.getObjectMapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.core.setup.Bootstrap.getObjectMapper",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:fs.setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:fs.setup",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:com.google.common.io.Resources.getResource",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.google.common.io.Resources.getResource",
+      "target": "dependency:com.google.guava:guava",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::toURI",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:io.dropwizard.jersey.validation.Validators.newValidator",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.jersey.validation.Validators.newValidator",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:io.dropwizard.configuration.YamlConfigurationFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.configuration.YamlConfigurationFactory.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::featuresSupported",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::featuresSupported",
+      "target": "api:java.util.ArrayList.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::featuresSupported",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::getPac4jFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/AbstractConfigurationTest.java::featuresSupported",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::<class>",
+      "target": "api:org.assertj.core.api.Condition.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.Condition.<init>",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getApplication",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:dropwizardTestSupport.getApplication",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getObjectMapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:dropwizardTestSupport.getObjectMapper",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:dropwizardTestSupport.getEnvironment",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.assertj.core.api.Assertions.assertThat",
+      "target": "dependency:org.assertj:assertj-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:app.bundle.getConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:app.bundle.getConfig",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.findMixInClassFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.findMixInClassFor",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::doesNotHave",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.core.setup.Environment.jersey",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getResourceConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSingletons",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::noPac4jInConfig",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getApplication",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getObjectMapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:dropwizardTestSupport.getEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:app.bundle.getConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.findMixInClassFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::haveAtLeastOne",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getResourceConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSingletons",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSessionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::emptyPac4jInConfig",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.ConfigOverride.config",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:dropwizardTestSupport.getApplication",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:dropwizardTestSupport.getEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:app.bundle.getConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSessionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessionEnabledForced",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:dropwizardTestSupport.getApplication",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:dropwizardTestSupport.getEnvironment",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:app.bundle.getConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::isNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::getSessionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::sessiondisabledForced",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::run",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::run",
+      "target": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::run",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::register",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.core.Form.param",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.core.Form.param",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:client.target",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::post",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.client.Entity.entity",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.client.Entity.entity",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.core.Form.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.core.Form.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::header",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::mkAuthField",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::grantsAccessToResources",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::header",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::mkAuthField",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "api:jakarta.ws.rs.core.Response.getStatusInfo",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.core.Response.getStatusInfo",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::restrictsAccessToResources",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndTest.java::run",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::register",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::run",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::run",
+      "target": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::run",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::register",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.core.Form.param",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::post",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.client.Entity.entity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResourcesForm",
+      "target": "api:jakarta.ws.rs.core.Form.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::header",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::mkAuthField",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::grantsAccessToResources",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "api:io.dropwizard.testing.ConfigOverride.config",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "api:client.target",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::request",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::header",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::mkAuthField",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::getUrlPrefix",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "api:jakarta.ws.rs.core.Response.getStatusInfo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::restrictsAccessToResources",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/EndToEndServletTest.java::run",
+      "target": "function:src/test/java/org/pac4j/dropwizard/bundle/BundleFactoryTest.java::register",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::<class>",
+      "target": "api:jakarta.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.Path.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::<class>",
+      "target": "api:jakarta.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.Produces.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Optional.of",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "target": "api:jakarta.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.GET.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "target": "api:jakarta.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDog",
+      "target": "api:jakarta.ws.rs.PathParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.PathParam.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "target": "api:jakarta.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.POST.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "target": "api:jakarta.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/e2e/DogsResource.java::getDogPost",
+      "target": "api:jakarta.ws.rs.PathParam.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::addClient",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::setAuthorizer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfig.java::setMatcher",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::excludeRegex",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "api:org.pac4j.oauth.client.FacebookClient.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.oauth.client.FacebookClient.<init>",
+      "target": "dependency:org.pac4j:pac4j-oauth",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "api:org.pac4j.core.authorization.authorizer.IsAnonymousAuthorizer.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.authorization.authorizer.IsAnonymousAuthorizer.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/FakeConfigFactory.java::build",
+      "target": "api:org.pac4j.core.matching.matcher.PathMatcher.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.matching.matcher.PathMatcher.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "target": "api:org.pac4j.http.credentials.authenticator.test.SimpleTestUsernamePasswordAuthenticator.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.http.credentials.authenticator.test.SimpleTestUsernamePasswordAuthenticator.<init>",
+      "target": "dependency:org.pac4j:pac4j-http",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "target": "api:org.pac4j.http.client.direct.DirectBasicAuthClient.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.http.client.direct.DirectBasicAuthClient.<init>",
+      "target": "dependency:org.pac4j:pac4j-http",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "target": "api:org.pac4j.http.client.direct.DirectFormClient.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.http.client.direct.DirectFormClient.<init>",
+      "target": "dependency:org.pac4j:pac4j-http",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DirectClientsConfigFactory.java::build",
+      "target": "api:org.pac4j.core.config.Config.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getPac4jFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isExactlyInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::hasSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "api:org.pac4j.core.config.Config.getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.getClients",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "api:org.pac4j.core.config.Config.getAuthorizers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.getAuthorizers",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "api:org.pac4j.core.config.Config.getMatchers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.getMatchers",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::values",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::iterator",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isInstanceOf",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::containsExactlyInAnyOrder",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::configFactory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getPac4jFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "api:org.assertj.core.api.Assertions.assertThat",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getConfigFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "api:org.pac4j.core.config.Config.getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/pac4j/dropwizard/factory/DefaultConfigurationTest.java::defaultsUnset",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java",
+      "target": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.core.util.CommonHelper.assertNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.util.CommonHelper.assertNotNull",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.setWebContextFactoryIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.setWebContextFactoryIfUndefined",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.setSessionStoreFactoryIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.setSessionStoreFactoryIfUndefined",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:JEESessionStoreFactory.INSTANCE.newSessionStore",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JEESessionStoreFactory.INSTANCE.newSessionStore",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:ServletSessionStoreFactory.INSTANCE.newSessionStore",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ServletSessionStoreFactory.INSTANCE.newSessionStore",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.setHttpActionAdapterIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.Config.setHttpActionAdapterIfUndefined",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:DefaultJaxRsHttpActionAdapter.INSTANCE.adapt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:DefaultJaxRsHttpActionAdapter.INSTANCE.adapt",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:JEEHttpActionAdapter.INSTANCE.adapt",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JEEHttpActionAdapter.INSTANCE.adapt",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.core.config.Config.getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:var.getAjaxRequestResolver",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:var.getAjaxRequestResolver",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:var.setAjaxRequestResolver",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:var.setAjaxRequestResolver",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:var.getUrlResolver",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:var.getUrlResolver",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:var.setUrlResolver",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:var.setUrlResolver",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.jax.rs.pac4j.JaxRsAjaxRequestResolver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.pac4j.JaxRsAjaxRequestResolver.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::applyDefaultSettingsIfUndefined",
+      "target": "api:org.pac4j.jax.rs.pac4j.JaxRsUrlResolver.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.pac4j.JaxRsUrlResolver.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java",
+      "target": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::buildWebContext",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::buildWebContext",
+      "target": "api:DefaultJaxRsWebContextFactory.INSTANCE.newContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:DefaultJaxRsWebContextFactory.INSTANCE.newContext",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::buildWebContext",
+      "target": "api:JEEContextFactory.INSTANCE.newContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:JEEContextFactory.INSTANCE.newContext",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/framework/adapter/FrameworkAdapterImpl.java::buildWebContext",
+      "target": "api:org.pac4j.core.exception.TechnicalException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.exception.TechnicalException.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerators",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerators",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerators",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerator",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::setAuthorizationGenerator",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jMixins.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonTypeInfo.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonTypeInfo.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::initialize",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::initialize",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::supportedFeatures",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::initialize",
+      "target": "api:fs.setup",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::supportedFeatures",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::supportedFeatures",
+      "target": "api:java.util.ArrayList.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::supportedFeatures",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getPac4jFactory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:io.dropwizard.core.setup.Environment.jersey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::register",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getGlobalFilters",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:fConf.getSkipResponse",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:fConf.getSkipResponse",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:fConf.getAuthorizers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:fConf.getAuthorizers",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:fConf.getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:fConf.getClients",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:fConf.getMatchers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:fConf.getMatchers",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getServlet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getSecurity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getCallback",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::getLogout",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSessionEnabled",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.features.JaxRsConfigProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.features.JaxRsConfigProvider.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.features.JaxRsSessionStoreProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.features.JaxRsSessionStoreProvider.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.servlet.features.Pac4JServletFeature.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.servlet.features.Pac4JServletFeature.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.features.Pac4JSecurityFilterFeature.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.features.Pac4JSecurityFilterFeature.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.servlet.features.ServletJaxRsContextFactoryProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.servlet.features.ServletJaxRsContextFactoryProvider.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.features.Pac4JSecurityFeature.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.features.Pac4JSecurityFeature.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::run",
+      "target": "api:org.pac4j.jax.rs.jersey.features.Pac4JValueFactoryProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jax.rs.jersey.features.Pac4JValueFactoryProvider.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "target": "api:io.dropwizard.core.setup.Environment.getApplicationContext",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "target": "api:io.dropwizard.jetty.MutableServletContextHandler.getSessionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.jetty.MutableServletContextHandler.getSessionHandler",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "target": "api:io.dropwizard.jetty.MutableServletContextHandler.setSessionHandler",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.jetty.MutableServletContextHandler.setSessionHandler",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jBundle.java::setupJettySession",
+      "target": "api:org.eclipse.jetty.ee10.servlet.SessionHandler.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.eclipse.jetty.ee10.servlet.SessionHandler.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "api:io.dropwizard.core.setup.Bootstrap.getObjectMapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.addMixIn",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.addMixIn",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::sessionStoreMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authorizerMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::httpActionAdapterMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::matcherMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::securityLogicMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::callbackLogicMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::logoutLogicMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::clientMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::baseClientMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::ajaxRequestResolverMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::urlResolverMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::callbackUrlResolverMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authorizationGeneratorMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::authenticatorMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::credentialExtractorMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::profileCreatorMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::redirectionActionBuilderMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::logoutActionBuilderMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::setup",
+      "target": "function:src/main/java/org/pac4j/dropwizard/DefaultFeatureSupport.java::passwordEncoderMixin",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::<class>",
+      "target": "api:jakarta.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.validation.constraints.NotNull.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getConfigFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getConfigFactory",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setConfigFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setConfigFactory",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getGlobalFilters",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getGlobalFilters",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setGlobalFilters",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setGlobalFilters",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getServlet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getServlet",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setServlet",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setServlet",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSessionEnabled",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSessionEnabled",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSessionEnabled",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSessionEnabled",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "target": "api:java.lang.String.isBlank",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.lang.String.isBlank",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "target": "api:org.pac4j.core.config.ConfigBuilder.build",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.core.config.ConfigBuilder.build",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "target": "api:FrameworkAdapter.INSTANCE.applyDefaultSettingsIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:FrameworkAdapter.INSTANCE.applyDefaultSettingsIfUndefined",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::build",
+      "target": "api:org.pac4j.core.config.Config.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSecurity",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSecurity",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCallback",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCallback",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSecurity",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSecurity",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCallback",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCallback",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSkipResponse",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getSkipResponse",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSkipResponse",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setSkipResponse",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMapping",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMapping",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getClients",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getClients",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getAuthorizers",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getAuthorizers",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMatchers",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMatchers",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setClients",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setClients",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setAuthorizers",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setAuthorizers",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMatchers",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setMatchers",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDefaultUrl",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDefaultUrl",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getRenewSession",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getRenewSession",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDefaultUrl",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDefaultUrl",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setRenewSession",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setRenewSession",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogoutUrlPattern",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogoutUrlPattern",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLocalLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLocalLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDestroySession",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDestroySession",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCentralLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCentralLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogoutUrlPattern",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLogoutUrlPattern",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLocalLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setLocalLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDestroySession",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setDestroySession",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCentralLogout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::setCentralLogout",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/J2EHelper.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "api:org.pac4j.jee.filter.SecurityFilter.setClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.SecurityFilter.setClients",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getClients",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "api:org.pac4j.jee.filter.SecurityFilter.setAuthorizers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.SecurityFilter.setAuthorizers",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getAuthorizers",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "api:org.pac4j.jee.filter.SecurityFilter.setMatchers",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.SecurityFilter.setMatchers",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMatchers",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerSecurityFilter",
+      "target": "api:org.pac4j.jee.filter.SecurityFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.SecurityFilter.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/J2EHelper.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "api:org.pac4j.jee.filter.CallbackFilter.setDefaultUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.CallbackFilter.setDefaultUrl",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDefaultUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "api:org.pac4j.jee.filter.CallbackFilter.setRenewSession",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.CallbackFilter.setRenewSession",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getRenewSession",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerCallbackFilter",
+      "target": "api:org.pac4j.jee.filter.CallbackFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.CallbackFilter.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/J2EHelper.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.setDefaultUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.setDefaultUrl",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDefaultUrl",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.setLogoutUrlPattern",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.setLogoutUrlPattern",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLogoutUrlPattern",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.setLocalLogout",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.setLocalLogout",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getLocalLogout",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.setDestroySession",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.setDestroySession",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getDestroySession",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.setCentralLogout",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.setCentralLogout",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getCentralLogout",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/Pac4jFactory.java::getMapping",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerLogoutFilter",
+      "target": "api:org.pac4j.jee.filter.LogoutFilter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.filter.LogoutFilter.<init>",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/pac4j/dropwizard/J2EHelper.java",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:FrameworkAdapter.INSTANCE.applyDefaultSettingsIfUndefined",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:org.pac4j.jee.config.AbstractConfigFilter.setConfig",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.config.AbstractConfigFilter.setConfig",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:io.dropwizard.core.setup.Environment.servlets",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.core.setup.Environment.servlets",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::addFilter",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:org.pac4j.jee.config.AbstractConfigFilter.getClass",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.pac4j.jee.config.AbstractConfigFilter.getClass",
+      "target": "dependency:org.pac4j:pac4j-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:jakarta.servlet.FilterRegistration.addMappingForUrlPatterns",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.servlet.FilterRegistration.addMappingForUrlPatterns",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/pac4j/dropwizard/J2EHelper.java::registerFilter",
+      "target": "api:java.util.EnumSet.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.EnumSet.of",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    }
+  ],
+  "build_metadata": {
+    "checkout_mode": "parent_commit",
+    "checkout_commit": "1bea3d2a4f408c54ce1ea3991dfa358b7e5c54d5",
+    "java_files": 19,
+    "parse_failed_files": 0,
+    "parse_failed_examples": []
+  }
+}
