@@ -67,9 +67,39 @@
       "name": "junit:junit"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "type": "FILE",
       "name": "src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java"
+    },
+    {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.JenkinsRule.<init>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::before",
@@ -87,9 +117,29 @@
       "name": "java.util.logging.Logger.setLevel"
     },
     {
+      "id": "api:org.junit.BeforeClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.BeforeClass.<annotation>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::after",
       "type": "FUNCTION",
       "name": "after"
+    },
+    {
+      "id": "api:org.junit.AfterClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.AfterClass.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::afterTest",
+      "type": "FUNCTION",
+      "name": "afterTest"
+    },
+    {
+      "id": "api:org.junit.After.<annotation>",
+      "type": "API",
+      "name": "org.junit.After.<annotation>"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::setUp",
@@ -105,6 +155,26 @@
       "id": "api:org.junit.rules.TemporaryFolder.getRoot",
       "type": "API",
       "name": "org.junit.rules.TemporaryFolder.getRoot"
+    },
+    {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
+    },
+    {
+      "id": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "API",
+      "name": "org.junit.rules.TemporaryFolder.<init>"
+    },
+    {
+      "id": "api:jenkins.plugins.publish_over.BPBuildInfo.<init>",
+      "type": "API",
+      "name": "jenkins.plugins.publish_over.BPBuildInfo.<init>"
+    },
+    {
+      "id": "api:hudson.FilePath.<init>",
+      "type": "API",
+      "name": "hudson.FilePath.<init>"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithOverridePassword",
@@ -145,11 +215,6 @@
       "id": "api:JSch.getSession",
       "type": "API",
       "name": "JSch.getSession"
-    },
-    {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::getUsername",
@@ -617,6 +682,16 @@
       "name": "src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java"
     },
     {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::before",
       "type": "FUNCTION",
       "name": "before"
@@ -690,6 +765,11 @@
       "id": "api:com.jcraft.jsch.ChannelSftp.stat",
       "type": "API",
       "name": "com.jcraft.jsch.ChannelSftp.stat"
+    },
+    {
+      "id": "api:com.jcraft.jsch.SftpException.<init>",
+      "type": "API",
+      "name": "com.jcraft.jsch.SftpException.<init>"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::changeDirectory",
@@ -920,6 +1000,11 @@
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::deleteTree",
       "type": "FUNCTION",
       "name": "deleteTree"
+    },
+    {
+      "id": "api:java.util.Vector.<init>",
+      "type": "API",
+      "name": "java.util.Vector.<init>"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesFiles",
@@ -1272,6 +1357,11 @@
       "name": "src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java"
     },
     {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::testIntegration",
       "type": "FUNCTION",
       "name": "testIntegration"
@@ -1412,6 +1502,11 @@
       "name": "org.mockito.Matchers.eq"
     },
     {
+      "id": "api:org.jvnet.hudson.test.TestBuilder.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.TestBuilder.<init>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::perform",
       "type": "FUNCTION",
       "name": "perform"
@@ -1452,6 +1547,11 @@
       "name": "src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java"
     },
     {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1Minimal",
       "type": "FUNCTION",
       "name": "testLoadR0x1Minimal"
@@ -1490,6 +1590,11 @@
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::getConfiguredPublisherPlugin",
       "type": "FUNCTION",
       "name": "getConfiguredPublisherPlugin"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.recipes.LocalData.<annotation>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.recipes.LocalData.<annotation>"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1",
@@ -1567,6 +1672,16 @@
       "name": "src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java"
     },
     {
+      "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.Random.<init>",
+      "type": "API",
+      "name": "java.util.Random.<init>"
+    },
+    {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::RandomFile",
       "type": "FUNCTION",
       "name": "RandomFile"
@@ -1630,6 +1745,16 @@
       "id": "api:java.util.Calendar.getInstance",
       "type": "API",
       "name": "java.util.Calendar.getInstance"
+    },
+    {
+      "id": "api:jenkins.plugins.publish_over.BPBuildEnv.<init>",
+      "type": "API",
+      "name": "jenkins.plugins.publish_over.BPBuildEnv.<init>"
+    },
+    {
+      "id": "api:java.util.TreeMap.<init>",
+      "type": "API",
+      "name": "java.util.TreeMap.<init>"
     },
     {
       "id": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
@@ -1697,6 +1822,16 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.Stack.<init>",
+      "type": "API",
+      "name": "java.util.Stack.<init>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::BapSshClient",
       "type": "FUNCTION",
       "name": "BapSshClient"
@@ -1755,6 +1890,11 @@
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::isAvoidSameFileUpload",
       "type": "FUNCTION",
       "name": "isAvoidSameFileUpload"
+    },
+    {
+      "id": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "API",
+      "name": "jenkins.plugins.publish_over.BapPublisherException.<init>"
     },
     {
       "id": "api:ChannelSftp.stat",
@@ -2172,6 +2312,11 @@
       "name": "e.getLocalizedMessage"
     },
     {
+      "id": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>"
+    },
+    {
       "id": "api:Messages.sftpExec_getFile",
       "type": "API",
       "name": "Messages.sftpExec_getFile"
@@ -2180,6 +2325,11 @@
       "id": "api:ChannelSftp.get",
       "type": "API",
       "name": "ChannelSftp.get"
+    },
+    {
+      "id": "api:java.io.FileOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileOutputStream.<init>"
     },
     {
       "id": "api:hudson.Util.replaceMacro",
@@ -2492,6 +2642,16 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::BapSshPublisher",
+      "type": "FUNCTION",
+      "name": "BapSshPublisher"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundConstructor.<annotation>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::isSftpRequired",
       "type": "FUNCTION",
       "name": "isSftpRequired"
@@ -2562,6 +2722,16 @@
       "name": "isEquals"
     },
     {
+      "id": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang.builder.EqualsBuilder.<init>"
+    },
+    {
+      "id": "dependency:commons-lang:commons-lang",
+      "type": "DEPENDENCY",
+      "name": "commons-lang:commons-lang"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::hashCode",
       "type": "FUNCTION",
       "name": "hashCode"
@@ -2577,6 +2747,11 @@
       "name": "toHashCode"
     },
     {
+      "id": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang.builder.HashCodeBuilder.<init>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::toString",
       "type": "FUNCTION",
       "name": "toString"
@@ -2587,9 +2762,19 @@
       "name": "addToToString"
     },
     {
+      "id": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang.builder.ToStringBuilder.<init>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::BapSshCredentials",
+      "type": "FUNCTION",
+      "name": "BapSshCredentials"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::getDescriptor",
@@ -2657,6 +2842,11 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::BapSshCommonConfiguration",
+      "type": "FUNCTION",
+      "name": "BapSshCommonConfiguration"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::getDescriptor",
       "type": "FUNCTION",
       "name": "getDescriptor"
@@ -2720,6 +2910,11 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::BapSshParamPublish",
+      "type": "FUNCTION",
+      "name": "BapSshParamPublish"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::getDescriptor",
@@ -2787,9 +2982,24 @@
       "name": "Messages.paramPublish_descriptor_displayName"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::BapSshRetry",
+      "type": "FUNCTION",
+      "name": "BapSshRetry"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::getDescriptor",
@@ -2867,6 +3077,11 @@
       "name": "hudson.util.FormValidation.validateNonNegativeInteger"
     },
     {
+      "id": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.QueryParameter.<annotation>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::doCheckRetryDelay",
       "type": "FUNCTION",
       "name": "doCheckRetryDelay"
@@ -2875,6 +3090,11 @@
       "id": "api:hudson.util.FormValidation.validatePositiveInteger",
       "type": "API",
       "name": "hudson.util.FormValidation.validatePositiveInteger"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshUtil.java",
@@ -2890,6 +3110,11 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::BapSshPromotionPublisherPlugin",
+      "type": "FUNCTION",
+      "name": "BapSshPromotionPublisherPlugin"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::perform",
@@ -2920,11 +3145,6 @@
       "id": "api:org.apache.commons.lang.builder.HashCodeBuilder.append",
       "type": "API",
       "name": "org.apache.commons.lang.builder.HashCodeBuilder.append"
-    },
-    {
-      "id": "dependency:commons-lang:commons-lang",
-      "type": "DEPENDENCY",
-      "name": "commons-lang:commons-lang"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::addToEquals",
@@ -3012,6 +3232,11 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java"
@@ -3035,6 +3260,26 @@
       "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
       "type": "DEPENDENCY",
       "name": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.core.type.TypeReference.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-core",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
     },
     {
       "id": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValue",
@@ -3122,6 +3367,11 @@
       "name": "java.security.MessageDigest.digest"
     },
     {
+      "id": "api:java.security.DigestInputStream.<init>",
+      "type": "API",
+      "name": "java.security.DigestInputStream.<init>"
+    },
+    {
       "id": "api:java.util.Arrays.equals",
       "type": "API",
       "name": "java.util.Arrays.equals"
@@ -3130,6 +3380,11 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::BapSshPublisherLabel",
+      "type": "FUNCTION",
+      "name": "BapSshPublisherLabel"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::getDescriptor",
@@ -3197,9 +3452,19 @@
       "name": "Messages.publisherLabel_descriptor_displayName"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::BapSshPostBuildWrapper",
+      "type": "FUNCTION",
+      "name": "BapSshPostBuildWrapper"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::tearDown",
@@ -3277,9 +3542,19 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::BapSshBuilderPlugin",
+      "type": "FUNCTION",
+      "name": "BapSshBuilderPlugin"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::perform",
@@ -3357,14 +3632,49 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::BapSshTransfer",
+      "type": "FUNCTION",
+      "name": "BapSshTransfer"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecCommand",
+      "type": "FUNCTION",
+      "name": "setExecCommand"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundSetter.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecTimeout",
+      "type": "FUNCTION",
+      "name": "setExecTimeout"
+    },
+    {
       "id": "api:hudson.Util.fixEmptyAndTrim",
       "type": "API",
       "name": "hudson.Util.fixEmptyAndTrim"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUsePty",
+      "type": "FUNCTION",
+      "name": "setUsePty"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUseSftpForExec",
+      "type": "FUNCTION",
+      "name": "setUseSftpForExec"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::getDescriptor",
@@ -3570,6 +3880,11 @@
       "id": "api:hudson.util.Secret.toString",
       "type": "API",
       "name": "hudson.util.Secret.toString"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setSecretProxyPassword",
+      "type": "FUNCTION",
+      "name": "setSecretProxyPassword"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::readResolve",
@@ -3800,6 +4115,11 @@
       "id": "api:Messages.console_sftp_opened",
       "type": "API",
       "name": "Messages.console_sftp_opened"
+    },
+    {
+      "id": "api:java.util.Properties.<init>",
+      "type": "API",
+      "name": "java.util.Properties.<init>"
     },
     {
       "id": "api:Messages.console_session_connecting",
@@ -4152,9 +4472,24 @@
       "name": "getConfiguration"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "API",
+      "name": "org.jenkinsci.Symbol.<annotation>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::BapSshPreBuildWrapper",
+      "type": "FUNCTION",
+      "name": "BapSshPreBuildWrapper"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::setUp",
@@ -4227,9 +4562,19 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::SshOverridePublisherLabelDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverridePublisherLabelDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::getDescriptor",
@@ -4250,6 +4595,11 @@
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::getViewPage",
       "type": "FUNCTION",
       "name": "getViewPage"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOptions.java",
@@ -4292,6 +4642,11 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::SshOverrideInstanceConfigDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverrideInstanceConfigDefaults"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::getDescriptor",
       "type": "FUNCTION",
       "name": "getDescriptor"
@@ -4302,9 +4657,19 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::SshOverridePublisherDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverridePublisherDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::getDescriptor",
@@ -4327,9 +4692,19 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::SshOverrideRetryDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverrideRetryDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::getDescriptor",
@@ -4362,9 +4737,19 @@
       "name": "getViewPage"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::SshOverrideDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverrideDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::getDisplayName",
@@ -4377,9 +4762,19 @@
       "name": "jenkins.plugins.publish_over.view_defaults.manage_jenkins.Messages.defaults_overrideDefaults"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::SshOverrideTransferDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverrideTransferDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::getDescriptor",
@@ -4392,9 +4787,24 @@
       "name": "getDescriptorByType"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::setUseAgentForwarding",
+      "type": "FUNCTION",
+      "name": "setUseAgentForwarding"
+    },
+    {
+      "id": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.accmod.Restricted.<annotation>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::doCheckExecTimeout",
       "type": "FUNCTION",
       "name": "doCheckExecTimeout"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaultsHandler.java",
@@ -4447,6 +4857,11 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::SshOverrideParamPublishDefaults",
+      "type": "FUNCTION",
+      "name": "SshOverrideParamPublishDefaults"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::getDescriptor",
       "type": "FUNCTION",
       "name": "getDescriptor"
@@ -4467,9 +4882,29 @@
       "name": "getViewPage"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:jenkins.plugins.publish_over.options.GlobalDefaults.<init>",
+      "type": "API",
+      "name": "jenkins.plugins.publish_over.options.GlobalDefaults.<init>"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::SshPluginDefaults",
+      "type": "FUNCTION",
+      "name": "SshPluginDefaults"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::getDisplayName",
@@ -4485,6 +4920,11 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doCheckUsername",
@@ -4552,9 +4992,19 @@
       "name": "validateConnection"
     },
     {
+      "id": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.interceptor.RequirePOST.<annotation>"
+    },
+    {
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::getDisplayName",
@@ -4627,6 +5077,11 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::getDisplayName",
       "type": "FUNCTION",
       "name": "getDisplayName"
@@ -4655,6 +5110,16 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.util.CopyOnWriteList.<init>",
+      "type": "API",
+      "name": "hudson.util.CopyOnWriteList.<init>"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::BapSshPublisherPluginDescriptor",
@@ -4867,6 +5332,11 @@
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java"
     },
     {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::getDisplayName",
       "type": "FUNCTION",
       "name": "getDisplayName"
@@ -4935,6 +5405,11 @@
       "id": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java",
       "type": "FILE",
       "name": "src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java"
+    },
+    {
+      "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::getDisplayName",
@@ -5014,6 +5489,51 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/SftpForExecTest.java::testSftpExecCommandsParsing",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/SftpForExecTest.java::testSftpExecCommandsParsing",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::before",
       "type": "CONTAINS"
@@ -5044,6 +5564,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::before",
+      "target": "api:org.junit.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.BeforeClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::after",
       "type": "CONTAINS"
@@ -5057,6 +5587,31 @@
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::after",
       "target": "api:java.util.logging.Logger.setLevel",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::after",
+      "target": "api:org.junit.AfterClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.AfterClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::afterTest",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::afterTest",
+      "target": "api:org.junit.After.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.After.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
@@ -5084,6 +5639,46 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::setUp",
+      "target": "api:org.junit.rules.TemporaryFolder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.rules.TemporaryFolder.<init>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::setUp",
+      "target": "api:jenkins.plugins.publish_over.BPBuildInfo.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.plugins.publish_over.BPBuildInfo.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::setUp",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.FilePath.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithOverridePassword",
       "type": "CONTAINS"
@@ -5091,6 +5686,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithOverridePassword",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateWithDefaultInfo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithOverridePassword",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5289,6 +5889,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithRelativeRemoteDir",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithDefaultPassword",
       "type": "CONTAINS"
@@ -5399,6 +6004,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithDefaultPassword",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithDefaultKey",
       "type": "CONTAINS"
@@ -5406,6 +6016,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithDefaultKey",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateClientWithDefaultKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithDefaultKey",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5431,6 +6046,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithGlobalExecDisabled",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::isDisableExec",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithGlobalExecDisabled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5729,6 +6349,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithOverrideKeyPath",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWillUseKeyIfKeyAndKeyPathPresent",
       "type": "CONTAINS"
@@ -5851,6 +6476,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWillUseKeyIfKeyAndKeyPathPresent",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateClient",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWillUseKeyIfKeyAndKeyPathPresent",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5989,6 +6619,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWillUseJumpHostIfPresent",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientFailsIfPwdReturnsRelativePath",
       "type": "CONTAINS"
@@ -6124,6 +6759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientFailsIfPwdReturnsRelativePath",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::failToConnectSftpChannel",
       "type": "CONTAINS"
@@ -6234,6 +6874,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::failToConnectSftpChannel",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::failToOpenSftpChannel",
       "type": "CONTAINS"
@@ -6326,6 +6971,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::failToOpenSftpChannel",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateClientThrowsException",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::failToOpenSftpChannel",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6439,6 +7089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testFailToConnectJumphost",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testFailToConnect",
       "type": "CONTAINS"
@@ -6531,6 +7186,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testFailToConnect",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateClientThrowsException",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testFailToConnect",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6654,6 +7314,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testFailToCreateSession",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithExecDisabled",
       "type": "CONTAINS"
@@ -6686,6 +7351,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithExecDisabled",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::isDisableExec",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithExecDisabled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6796,6 +7466,16 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testDontConnectSftpIfNoSourceFilesInAnyTransfers",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testDontConnectSftpIfNoSourceFilesInAnyTransfers",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testDontConnectSftpIfNoSourceFilesInAnyTransfers",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -6939,6 +7619,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithHTTPProxy",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithSocks4Proxy",
       "type": "CONTAINS"
@@ -7069,6 +7754,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithSocks4Proxy",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithSocks5Proxy",
       "type": "CONTAINS"
@@ -7196,6 +7886,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithSocks5Proxy",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::assertCreateClient",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshHostConfigurationTest.java::testCreateClientWithSocks5Proxy",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7374,6 +8069,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsEmptyJumpHosts",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsOneJumpHosts",
       "type": "CONTAINS"
@@ -7401,6 +8101,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsOneJumpHosts",
       "target": "api:org.hamcrest.Matchers.arrayContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsOneJumpHosts",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7434,6 +8139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsTwoJumpHosts",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsTwoJumpHostsSeparator",
       "type": "CONTAINS"
@@ -7461,6 +8171,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsTwoJumpHostsSeparator",
       "target": "api:org.hamcrest.Matchers.arrayContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsTwoJumpHostsSeparator",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7494,6 +8209,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/HostsHelperTest.java::testGetHostsTwoJumpHostsSeparatorSemicolon",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::<class>",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::<class>",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::before",
       "type": "CONTAINS"
@@ -7509,6 +8249,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::before",
+      "target": "api:org.junit.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::after",
       "type": "CONTAINS"
@@ -7519,6 +8264,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::after",
+      "target": "api:org.junit.AfterClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::setUp",
       "type": "CONTAINS"
@@ -7526,6 +8276,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::setUp",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::setSftp",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7541,6 +8296,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testGetSession",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getSession",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testGetSession",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7561,6 +8321,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testAddSession",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getSession",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testAddSession",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7589,6 +8354,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectory",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryNotADirectory",
       "type": "CONTAINS"
@@ -7601,6 +8371,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryNotADirectory",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::assertChangeDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryNotADirectory",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7632,6 +8407,21 @@
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryCannotStat",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::assertChangeDirectory",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryCannotStat",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryCannotStat",
+      "target": "api:com.jcraft.jsch.SftpException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jcraft.jsch.SftpException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
@@ -7694,6 +8484,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryCdFails",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testChangeDirectoryCdFails",
+      "target": "api:com.jcraft.jsch.SftpException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::run",
       "type": "CONTAINS"
@@ -7724,6 +8524,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectory",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryRefuseAttemptAtSubDirectories",
       "type": "CONTAINS"
@@ -7734,6 +8539,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryRefuseAttemptAtSubDirectories",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryRefuseAttemptAtSubDirectoriesOnWindows",
       "type": "CONTAINS"
@@ -7741,6 +8551,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryRefuseAttemptAtSubDirectoriesOnWindows",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::assertMakeDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryRefuseAttemptAtSubDirectoriesOnWindows",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7766,6 +8581,16 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryMkdirFails",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::assertMakeDirectory",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryMkdirFails",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testMakeDirectoryMkdirFails",
+      "target": "api:com.jcraft.jsch.SftpException.<init>",
       "type": "CALLS"
     },
     {
@@ -7851,6 +8676,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testTransferFile",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testTransferFile",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7989,6 +8819,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testKeepPermissions",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testKeepPermissions",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnect",
       "type": "CONTAINS"
@@ -8059,6 +8899,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnect",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectTwoSessions",
       "type": "CONTAINS"
@@ -8109,6 +8954,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectTwoSessions",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectNotConnected",
       "type": "CONTAINS"
@@ -8144,6 +8994,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectNotConnected",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectHandleNulls",
       "type": "CONTAINS"
@@ -8171,6 +9026,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectHandleNulls",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::assertDisconnect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectHandleNulls",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8259,6 +9119,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDisconnectQuietlySuppressExceptions",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeIgnoresCurrentDirAndParentDirEntries",
       "type": "CONTAINS"
@@ -8319,6 +9184,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeIgnoresCurrentDirAndParentDirEntries",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeIgnoresCurrentDirAndParentDirEntries",
+      "target": "api:java.util.Vector.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Vector.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesFiles",
       "type": "CONTAINS"
@@ -8366,6 +9246,16 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesFiles",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesFiles",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesFiles",
+      "target": "api:java.util.Vector.<init>",
       "type": "CALLS"
     },
     {
@@ -8461,6 +9351,16 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesDirectoryWithFiles",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesDirectoryWithFiles",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testDeleteTreeDeletesDirectoryWithFiles",
+      "target": "api:java.util.Vector.<init>",
       "type": "CALLS"
     },
     {
@@ -8634,6 +9534,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testBeginTransfersFailIfNoSourceFilesAndNoExecCommand",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testBeginTransfersFailIfNoSourceFilesWhenExecDisabled",
       "type": "CONTAINS"
@@ -8671,6 +9576,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testBeginTransfersFailIfNoSourceFilesWhenExecDisabled",
       "target": "api:bpe.getMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testBeginTransfersFailIfNoSourceFilesWhenExecDisabled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8744,6 +9654,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersAndCanUseEnvVars",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersThrowsExceptionIfCommandFailed",
       "type": "CONTAINS"
@@ -8791,6 +9706,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersThrowsExceptionIfCommandFailed",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::isUsePty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersThrowsExceptionIfCommandFailed",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8849,6 +9769,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersThrowsExceptionIfCommandTimesOut",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersDoesNothingIfNoExecCommand",
       "type": "CONTAINS"
@@ -8866,6 +9791,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersDoesNothingIfNoExecCommand",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersDoesNothingIfNoExecCommand",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8891,6 +9821,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersDoesNothingIfExecDisabled",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testEndTransfersDoesNothingIfExecDisabled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8949,6 +9884,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testCanExecInPty",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testUseAgentForwarding",
       "type": "CONTAINS"
@@ -9004,6 +9944,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testUseAgentForwarding",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testKeepFilePermissions",
       "type": "CONTAINS"
@@ -9051,6 +9996,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testKeepFilePermissions",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::isKeepFilePermissions",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/BapSshClientTest.java::testKeepFilePermissions",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9325,6 +10275,21 @@
     },
     {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::testIntegration",
       "type": "CONTAINS"
     },
@@ -9549,6 +10514,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::testIntegration",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::testIntegration",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::testIntegration",
+      "target": "api:org.jvnet.hudson.test.TestBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.TestBuilder.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/IntegrationTest.java::perform",
       "type": "CONTAINS"
@@ -9602,6 +10587,21 @@
       "source": "api:hudson.model.AbstractBuild.setResult",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java",
@@ -9679,6 +10679,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1Minimal",
+      "target": "api:org.jvnet.hudson.test.recipes.LocalData.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.recipes.LocalData.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1Minimal",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1Minimal",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1",
       "type": "CONTAINS"
@@ -9691,6 +10711,16 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::assertPublisherPluginConfiguration",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1",
+      "target": "api:org.jvnet.hudson.test.recipes.LocalData.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x1",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9736,6 +10766,21 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x12",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::getConfiguredBuildWrapper",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x12",
+      "target": "api:org.jvnet.hudson.test.recipes.LocalData.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x12",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::testLoadR0x12",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -9791,6 +10836,11 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::assertPublisherPluginConfiguration",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::getConfiguredPublisherPlugin",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/jenkins/LegacyConfigurationTest.java::assertPublisherPluginConfiguration",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -9905,8 +10955,28 @@
     },
     {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java",
+      "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::<class>",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Random.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::RandomFile",
       "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::RandomFile",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
     },
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/RandomFile.java::RandomFile",
@@ -10009,6 +11079,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmptyBuildEnv",
+      "target": "api:jenkins.plugins.publish_over.BPBuildEnv.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.plugins.publish_over.BPBuildEnv.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmptyBuildEnv",
+      "target": "api:java.util.TreeMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.TreeMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmptyBuildEnv",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmptyBuildEnv",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
       "type": "CONTAINS"
@@ -10076,6 +11176,21 @@
     {
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
       "target": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::getEnvVars",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
+      "target": "api:jenkins.plugins.publish_over.BPBuildInfo.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::createEmpty",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -10157,6 +11272,21 @@
       "source": "function:src/test/java/jenkins/plugins/publish_over_ssh/helper/BapSshTestHelper.java::assertBPE",
       "target": "api:org.easymock.classextension.IMocksControl.verify",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::<class>",
+      "target": "api:java.util.Stack.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Stack.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
@@ -10264,6 +11394,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::beginTransfers",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::changeDirectory",
       "type": "CONTAINS"
@@ -10362,6 +11502,11 @@
       "source": "api:Messages.exception_cwdException",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::changeDirectory",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
@@ -10497,6 +11642,11 @@
       "source": "api:Messages.exception_client_dele",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::delete",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
@@ -11419,6 +12569,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFileList",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFileList",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFile",
       "type": "CONTAINS"
@@ -11471,6 +12636,21 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFile",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::success",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFile",
+      "target": "api:java.io.FileOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::getFile",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -11624,6 +12804,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::sftpExec",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::exec",
       "type": "CONTAINS"
@@ -11774,6 +12959,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::exec",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::connectExecChannel",
       "type": "CONTAINS"
@@ -11864,6 +13054,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::connectExecChannel",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::openExecChannel",
       "type": "CONTAINS"
@@ -11921,6 +13116,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::openExecChannel",
       "target": "api:org.apache.commons.logging.Log.warn",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::openExecChannel",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
       "type": "CALLS"
     },
     {
@@ -12199,6 +13399,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::waitForExec",
+      "target": "api:jenkins.plugins.publish_over.BapPublisherException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshClient.java::run",
       "type": "CONTAINS"
@@ -12240,6 +13445,21 @@
     },
     {
       "source": "api:LOG.warn",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::BapSshPublisher",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::BapSshPublisher",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -12334,6 +13554,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::hashCode",
       "type": "CONTAINS"
@@ -12349,6 +13579,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::toString",
       "type": "CONTAINS"
@@ -12361,6 +13601,26 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisher.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "target": "dependency:commons-lang:commons-lang",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::BapSshCredentials",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::BapSshCredentials",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12434,6 +13694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::hashCode",
       "type": "CONTAINS"
@@ -12449,6 +13714,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::toString",
       "type": "CONTAINS"
@@ -12461,6 +13731,21 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCredentials.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::BapSshCommonConfiguration",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::BapSshCommonConfiguration",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12534,6 +13819,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::hashCode",
       "type": "CONTAINS"
@@ -12549,6 +13839,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::toString",
       "type": "CONTAINS"
@@ -12561,6 +13856,21 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshCommonConfiguration.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::BapSshParamPublish",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::BapSshParamPublish",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12604,6 +13914,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::hashCode",
       "type": "CONTAINS"
@@ -12616,6 +13931,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::hashCode",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::toHashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -12634,6 +13954,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::getDisplayName",
       "type": "CONTAINS"
@@ -12647,6 +13972,31 @@
       "source": "api:Messages.paramPublish_descriptor_displayName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshParamPublish.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::BapSshRetry",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::BapSshRetry",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
@@ -12689,6 +14039,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::hashCode",
       "type": "CONTAINS"
@@ -12704,6 +14059,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::toString",
       "type": "CONTAINS"
@@ -12716,6 +14076,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -12749,6 +14114,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::doCheckRetries",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::doCheckRetryDelay",
       "type": "CONTAINS"
@@ -12764,6 +14139,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::doCheckRetryDelay",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshRetry.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshUtil.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshUtil.java::toBytes",
       "type": "CONTAINS"
@@ -12777,6 +14167,16 @@
       "source": "api:java.lang.String.getBytes",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::BapSshPromotionPublisherPlugin",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::BapSshPromotionPublisherPlugin",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
@@ -12869,6 +14269,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::hashCode",
       "type": "CONTAINS"
@@ -12884,6 +14289,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::toString",
       "type": "CONTAINS"
@@ -12896,6 +14306,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -12954,6 +14369,16 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::BapSshTransferCache",
       "type": "CONTAINS"
@@ -12979,6 +14404,41 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::BapSshTransferCache",
+      "target": "api:hudson.FilePath.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::BapSshTransferCache",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::BapSshTransferCache",
+      "target": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.core.type.TypeReference.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::BapSshTransferCache",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::save",
       "type": "CONTAINS"
@@ -12992,6 +14452,11 @@
       "source": "api:com.fasterxml.jackson.databind.ObjectMapper.writeValue",
       "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::save",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java",
@@ -13046,6 +14511,16 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::checkCachedResource",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::mustUpdateWith",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::checkCachedResource",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::checkCachedResource",
+      "target": "api:java.io.File.<init>",
       "type": "CALLS"
     },
     {
@@ -13144,6 +14619,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::getHashValue",
+      "target": "api:java.security.DigestInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.security.DigestInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransferCache.java::mustUpdateWith",
       "type": "CONTAINS"
@@ -13177,6 +14662,16 @@
       "source": "api:java.util.Arrays.equals",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::BapSshPublisherLabel",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::BapSshPublisherLabel",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
@@ -13219,6 +14714,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::hashCode",
       "type": "CONTAINS"
@@ -13231,6 +14731,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::hashCode",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::toHashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13249,6 +14754,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::getDisplayName",
       "type": "CONTAINS"
@@ -13262,6 +14772,26 @@
       "source": "api:Messages.publisherLabel_descriptor_displayName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherLabel.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::BapSshPostBuildWrapper",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::BapSshPostBuildWrapper",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
@@ -13329,6 +14859,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::hashCode",
       "type": "CONTAINS"
@@ -13344,6 +14879,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::toString",
       "type": "CONTAINS"
@@ -13356,6 +14896,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13389,8 +14934,28 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPostBuildWrapper.java::getPublisherDescriptor",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::getDescriptorByType",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::BapSshBuilderPlugin",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::BapSshBuilderPlugin",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13459,6 +15024,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::hashCode",
       "type": "CONTAINS"
@@ -13474,6 +15044,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::toString",
       "type": "CONTAINS"
@@ -13486,6 +15061,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13534,8 +15114,53 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshBuilderPlugin.java::getPublisherDescriptor",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::getDescriptorByType",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::BapSshTransfer",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::BapSshTransfer",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecCommand",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecCommand",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecTimeout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setExecTimeout",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13556,6 +15181,46 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::hasExecCommand",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::getExecCommand",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUsePty",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUsePty",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUseSftpForExec",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUseSftpForExec",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUseAgentForwarding",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setUseAgentForwarding",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setKeepFilePermissions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::setKeepFilePermissions",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13629,6 +15294,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::hashCode",
       "type": "CONTAINS"
@@ -13644,6 +15314,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::toString",
       "type": "CONTAINS"
@@ -13656,6 +15331,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshTransfer.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13694,6 +15374,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::hashCode",
       "type": "CONTAINS"
@@ -13706,6 +15391,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::hashCode",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::toHashCode",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -13724,6 +15414,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshAlwaysRunPublisherPlugin.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::BapSshHostConfiguration",
       "type": "CONTAINS"
@@ -13739,6 +15434,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::BapSshHostConfiguration",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setJumpHost",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setJumpHost",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::getName",
       "type": "CONTAINS"
@@ -13752,6 +15462,46 @@
       "source": "api:org.apache.commons.lang.StringEscapeUtils.unescapeJavaScript",
       "target": "dependency:commons-lang:commons-lang",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setHostname",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setHostname",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setRemoteRootDir",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setRemoteRootDir",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setPort",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setPort",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setTimeout",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setTimeout",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
@@ -13794,6 +15544,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setEncryptedPassword",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::getKeyPath",
       "type": "CONTAINS"
@@ -13811,6 +15566,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setKeyPath",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::setKeyPath",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setKeyPath",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13834,6 +15594,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setKey",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setOverrideKey",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setOverrideKey",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setDisableExec",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setDisableExec",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::getProxyPassword",
       "type": "CONTAINS"
@@ -13850,12 +15635,67 @@
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyType",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyType",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyHost",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyHost",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyPort",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyPort",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyUser",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyUser",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyPassword",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyPassword",
       "target": "api:hudson.util.Secret.fromString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setProxyPassword",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setSecretProxyPassword",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::setSecretProxyPassword",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14042,6 +15882,11 @@
       "source": "api:java.util.ArrayList.toArray",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::getHosts",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
@@ -14404,6 +16249,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::getSessionProperties",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::connect",
       "type": "CONTAINS"
@@ -14689,6 +16544,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::hashCode",
       "type": "CONTAINS"
@@ -14704,6 +16564,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::toString",
       "type": "CONTAINS"
@@ -14716,6 +16581,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshHostConfiguration.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -14909,6 +16779,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::hashCode",
       "type": "CONTAINS"
@@ -14924,6 +16799,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::toString",
       "type": "CONTAINS"
@@ -14936,6 +16816,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshKeyInfo.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -14964,6 +16849,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::BapSshPublisherPlugin",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::getParamPublish",
       "type": "CONTAINS"
@@ -14991,6 +16881,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setParamPublish",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setParamPublish",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setParamPublish",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15024,6 +16919,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setPublishers",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::isContinueOnError",
       "type": "CONTAINS"
@@ -15051,6 +16951,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setContinueOnError",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setContinueOnError",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setContinueOnError",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15084,6 +16989,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setFailOnError",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::isAlwaysPublishFromMaster",
       "type": "CONTAINS"
@@ -15114,6 +17024,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setAlwaysPublishFromMaster",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::getMasterNodeName",
       "type": "CONTAINS"
@@ -15141,6 +17056,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setMasterNodeName",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setMasterNodeName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::setMasterNodeName",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15169,6 +17089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::hashCode",
       "type": "CONTAINS"
@@ -15184,6 +17109,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::toString",
       "type": "CONTAINS"
@@ -15196,6 +17126,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -15226,6 +17161,36 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::getConfiguration",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::getConfiguration",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPublisherPlugin.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.Symbol.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::BapSshPreBuildWrapper",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::BapSshPreBuildWrapper",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15294,6 +17259,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::equals",
+      "target": "api:org.apache.commons.lang.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::hashCode",
       "type": "CONTAINS"
@@ -15309,6 +17279,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::hashCode",
+      "target": "api:org.apache.commons.lang.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::toString",
       "type": "CONTAINS"
@@ -15321,6 +17296,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::toString",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::toString",
+      "target": "api:org.apache.commons.lang.builder.ToStringBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -15354,8 +17334,28 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPreBuildWrapper.java::getPublisherDescriptor",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/BapSshPromotionPublisherPlugin.java::getDescriptorByType",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::SshOverridePublisherLabelDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::SshOverridePublisherLabelDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15381,6 +17381,16 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::getConfigPage",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::getViewPage",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherLabelDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15420,6 +17430,16 @@
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::SshOverrideInstanceConfigDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::SshOverrideInstanceConfigDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::getDescriptor",
       "type": "CONTAINS"
     },
@@ -15431,6 +17451,26 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::getDescriptor",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::getDescriptorByType",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideInstanceConfigDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::SshOverridePublisherDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::SshOverridePublisherDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15464,6 +17504,26 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverridePublisherDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::SshOverrideRetryDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::SshOverrideRetryDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::getDescriptor",
       "type": "CONTAINS"
@@ -15489,6 +17549,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::doCheckRetries",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::doCheckRetryDelay",
       "type": "CONTAINS"
@@ -15499,6 +17564,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::doCheckRetryDelay",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::getConfigPage",
       "type": "CONTAINS"
@@ -15506,6 +17576,26 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::getConfigPage",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::getViewPage",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideRetryDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::SshOverrideDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::SshOverrideDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15524,6 +17614,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::SshOverrideTransferDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::SshOverrideTransferDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::getDescriptor",
       "type": "CONTAINS"
@@ -15540,12 +17650,47 @@
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::setUseAgentForwarding",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::setUseAgentForwarding",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::setUseAgentForwarding",
+      "target": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.accmod.Restricted.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::doCheckExecTimeout",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::doCheckExecTimeout",
       "target": "api:hudson.util.FormValidation.validateNonNegativeInteger",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::doCheckExecTimeout",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideTransferDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15600,6 +17745,16 @@
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::SshOverrideParamPublishDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::SshOverrideParamPublishDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::getDescriptor",
       "type": "CONTAINS"
     },
@@ -15624,6 +17779,41 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshOverrideParamPublishDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::<class>",
+      "target": "api:jenkins.plugins.publish_over.options.GlobalDefaults.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.plugins.publish_over.options.GlobalDefaults.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::SshPluginDefaults",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::SshPluginDefaults",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::getDisplayName",
       "type": "CONTAINS"
@@ -15639,6 +17829,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/options/SshPluginDefaults.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doCheckUsername",
       "type": "CONTAINS"
@@ -15652,6 +17857,11 @@
       "source": "api:hudson.util.FormValidation.validateRequired",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doCheckUsername",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java",
@@ -15697,6 +17907,11 @@
       "source": "api:hudson.util.FormValidation.ok",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doCheckKeyPath",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java",
@@ -15754,6 +17969,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doTestConnection",
+      "target": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCredentialsDescriptor.java::doTestConnection",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::getDisplayName",
       "type": "CONTAINS"
@@ -15776,6 +18021,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckExecTimeout",
       "target": "api:hudson.util.FormValidation.validateNonNegativeInteger",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckExecTimeout",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15839,6 +18089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckSourceFiles",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckPatternSeparator",
       "type": "CONTAINS"
@@ -15854,6 +18109,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckPatternSeparator",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckExecCommand",
       "type": "CONTAINS"
@@ -15861,6 +18121,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckExecCommand",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::checkTransferSet",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::doCheckExecCommand",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15901,6 +18166,21 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshTransferDescriptor.java::haveAtLeastOne",
       "target": "api:hudson.Util.fixEmptyAndTrim",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15947,6 +18227,26 @@
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::getTransferDescriptor",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherDescriptor.java::getDescriptorByType",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::<class>",
+      "target": "api:hudson.util.CopyOnWriteList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.CopyOnWriteList.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java",
@@ -16032,6 +18332,11 @@
       "source": "api:java.util.Comparator.comparing",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::getHostConfigurations",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java",
@@ -16244,6 +18549,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::doTestConnection",
+      "target": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::validateConnection",
       "type": "CONTAINS"
@@ -16359,6 +18669,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshPublisherPluginDescriptor.java::createDummyBuildInfo",
+      "target": "api:jenkins.plugins.publish_over.BPBuildInfo.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::getDisplayName",
       "type": "CONTAINS"
@@ -16389,6 +18714,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckName",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckHostname",
       "type": "CONTAINS"
@@ -16396,6 +18726,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckHostname",
       "target": "api:hudson.util.FormValidation.validateRequired",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckHostname",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16409,6 +18744,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckUsername",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckPort",
       "type": "CONTAINS"
@@ -16419,6 +18759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckPort",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckTimeout",
       "type": "CONTAINS"
@@ -16426,6 +18771,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckTimeout",
       "target": "api:hudson.util.FormValidation.validateNonNegativeInteger",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckTimeout",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -16452,6 +18802,16 @@
       "source": "api:jenkins.plugins.publish_over.BPValidators.validateFileOnMaster",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckKeyPath",
+      "target": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doCheckKeyPath",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java",
@@ -16484,6 +18844,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshHostConfigurationDescriptor.java::doTestConnection",
+      "target": "api:org.kohsuke.stapler.interceptor.RequirePOST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java",
+      "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java",
       "target": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::getDisplayName",
       "type": "CONTAINS"
@@ -16501,6 +18876,11 @@
     {
       "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::doCheckKeyPath",
       "target": "api:jenkins.plugins.publish_over.BPValidators.validateFileOnMaster",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/jenkins/plugins/publish_over_ssh/descriptor/BapSshCommonConfigurationDescriptor.java::doCheckKeyPath",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
       "type": "CALLS"
     }
   ],

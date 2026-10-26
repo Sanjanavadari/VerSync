@@ -32,6 +32,31 @@
       "name": "com.github.tomakehurst.wiremock.client.WireMock.startStubRecording"
     },
     {
+      "id": "api:org.junit.BeforeClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.BeforeClass.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:com.github.tomakehurst.wiremock.core.WireMockConfiguration.<init>",
+      "type": "API",
+      "name": "com.github.tomakehurst.wiremock.core.WireMockConfiguration.<init>"
+    },
+    {
+      "id": "api:com.github.tomakehurst.wiremock.WireMockServer.<init>",
+      "type": "API",
+      "name": "com.github.tomakehurst.wiremock.WireMockServer.<init>"
+    },
+    {
+      "id": "api:com.github.tomakehurst.wiremock.client.WireMock.<init>",
+      "type": "API",
+      "name": "com.github.tomakehurst.wiremock.client.WireMock.<init>"
+    },
+    {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::shutdownBrowser",
       "type": "FUNCTION",
       "name": "shutdownBrowser"
@@ -50,6 +75,11 @@
       "id": "api:com.github.tomakehurst.wiremock.WireMockServer.shutdown",
       "type": "API",
       "name": "com.github.tomakehurst.wiremock.WireMockServer.shutdown"
+    },
+    {
+      "id": "api:org.junit.AfterClass.<annotation>",
+      "type": "API",
+      "name": "org.junit.AfterClass.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listCountries",
@@ -100,6 +130,11 @@
       "id": "api:java.util.Map.get",
       "type": "API",
       "name": "java.util.Map.get"
+    },
+    {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listCodecs",
@@ -382,6 +417,11 @@
       "name": "org.hamcrest.MatcherAssert.getStationUUID"
     },
     {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
+    },
+    {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsBy",
       "type": "FUNCTION",
       "name": "listStationsBy"
@@ -430,6 +470,11 @@
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewStation",
       "type": "FUNCTION",
       "name": "postNewStation"
+    },
+    {
+      "id": "api:org.junit.Ignore.<annotation>",
+      "type": "API",
+      "name": "org.junit.Ignore.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithSuccess",
@@ -520,6 +565,21 @@
       "id": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::init",
+      "type": "FUNCTION",
+      "name": "init"
+    },
+    {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
+    },
+    {
+      "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::createWithNull",
+      "type": "FUNCTION",
+      "name": "createWithNull"
     },
     {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::apiUrls",
@@ -792,6 +852,11 @@
       "name": "org.hamcrest.collection.IsArrayWithSize.emptyArray"
     },
     {
+      "id": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "API",
+      "name": "jakarta.ws.rs.core.MultivaluedHashMap.<init>"
+    },
+    {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderSet",
       "type": "FUNCTION",
       "name": "applyToWithOrderSet"
@@ -805,6 +870,11 @@
       "id": "api:jakarta.ws.rs.core.MultivaluedMap.get",
       "type": "API",
       "name": "jakarta.ws.rs.core.MultivaluedMap.get"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
     },
     {
       "id": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
@@ -947,9 +1017,54 @@
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java"
     },
     {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-annotations"
+    },
+    {
+      "id": "api:lombok.Getter.<annotation>",
+      "type": "API",
+      "name": "lombok.Getter.<annotation>"
+    },
+    {
+      "id": "dependency:org.projectlombok:lombok",
+      "type": "DEPENDENCY",
+      "name": "org.projectlombok:lombok"
+    },
+    {
+      "id": "api:lombok.Setter.<annotation>",
+      "type": "API",
+      "name": "lombok.Setter.<annotation>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonProperty.<annotation>"
+    },
+    {
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:lombok.Builder.<annotation>",
+      "type": "API",
+      "name": "lombok.Builder.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java::apply",
@@ -1007,9 +1122,24 @@
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java"
     },
     {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "type": "API",
+      "name": "lombok.extern.slf4j.Slf4j.<annotation>"
+    },
+    {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::RadioBrowser",
       "type": "FUNCTION",
       "name": "RadioBrowser"
+    },
+    {
+      "id": "api:lombok.NonNull.<annotation>",
+      "type": "API",
+      "name": "lombok.NonNull.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RestClientFactory.java::newClient",
@@ -1087,6 +1217,11 @@
       "name": "java.lang.Integer.parseInt"
     },
     {
+      "id": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "type": "API",
+      "name": "jakarta.ws.rs.core.GenericType.<init>"
+    },
+    {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithPaging",
       "type": "FUNCTION",
       "name": "listStationsPathWithPaging"
@@ -1135,6 +1270,11 @@
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::stream",
       "type": "FUNCTION",
       "name": "stream"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "api:java.util.UUID.toString",
@@ -1267,14 +1407,39 @@
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java"
     },
     {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:lombok.ToString.<annotation>",
+      "type": "API",
+      "name": "lombok.ToString.<annotation>"
+    },
+    {
+      "id": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "API",
+      "name": "lombok.EqualsAndHashCode.<annotation>"
+    },
+    {
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java"
     },
     {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "api:log.info",
@@ -1292,14 +1457,39 @@
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java"
     },
     {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonIgnore.<annotation>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonFormat.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonFormat.<annotation>"
+    },
+    {
       "id": "api:java.lang.String.join",
       "type": "API",
       "name": "java.lang.String.join"
     },
     {
+      "id": "api:com.fasterxml.jackson.annotation.JsonGetter.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonGetter.<annotation>"
+    },
+    {
       "id": "api:java.lang.String.split",
       "type": "API",
       "name": "java.lang.String.split"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonSetter.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonSetter.<annotation>"
     },
     {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getLanguage",
@@ -1365,6 +1555,16 @@
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::EndpointDiscovery",
+      "type": "FUNCTION",
+      "name": "EndpointDiscovery"
     },
     {
       "id": "api:java.util.List.add",
@@ -1457,9 +1657,19 @@
       "name": "findFirst"
     },
     {
+      "id": "api:lombok.Value.<annotation>",
+      "type": "API",
+      "name": "lombok.Value.<annotation>"
+    },
+    {
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::getOrder",
@@ -1490,6 +1700,11 @@
       "id": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java",
       "type": "FILE",
       "name": "radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java"
+    },
+    {
+      "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java::PagingSpliterator",
@@ -1634,6 +1849,46 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::createBrowser",
+      "target": "api:org.junit.BeforeClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.BeforeClass.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::createBrowser",
+      "target": "api:com.github.tomakehurst.wiremock.core.WireMockConfiguration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.tomakehurst.wiremock.core.WireMockConfiguration.<init>",
+      "target": "dependency:com.github.tomakehurst:wiremock",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::createBrowser",
+      "target": "api:com.github.tomakehurst.wiremock.WireMockServer.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.tomakehurst.wiremock.WireMockServer.<init>",
+      "target": "dependency:com.github.tomakehurst:wiremock",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::createBrowser",
+      "target": "api:com.github.tomakehurst.wiremock.client.WireMock.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.tomakehurst.wiremock.client.WireMock.<init>",
+      "target": "dependency:com.github.tomakehurst:wiremock",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::shutdownBrowser",
       "type": "CONTAINS"
@@ -1666,6 +1921,16 @@
     {
       "source": "api:com.github.tomakehurst.wiremock.WireMockServer.shutdown",
       "target": "dependency:com.github.tomakehurst:wiremock",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::shutdownBrowser",
+      "target": "api:org.junit.AfterClass.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.AfterClass.<annotation>",
+      "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
     },
     {
@@ -1739,6 +2004,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listCountries",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listCodecs",
       "type": "CONTAINS"
@@ -1784,6 +2059,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listCodecs",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLanguages",
       "type": "CONTAINS"
@@ -1824,6 +2104,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLanguages",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTags",
       "type": "CONTAINS"
@@ -1861,6 +2146,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTags",
       "target": "api:java.util.Map.containsKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTags",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1906,6 +2196,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStations",
       "target": "api:org.hamcrest.MatcherAssert.not",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1981,6 +2276,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithStream",
       "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2074,6 +2374,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithStreamAndOrder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithFullStream",
       "type": "CONTAINS"
@@ -2119,6 +2424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithFullStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listBrokenStations",
       "type": "CONTAINS"
@@ -2151,6 +2461,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listBrokenStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::getSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listBrokenStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2209,6 +2524,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listBrokenStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopClickStations",
       "type": "CONTAINS"
@@ -2241,6 +2561,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopClickStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::getSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopClickStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2299,6 +2624,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopClickStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopVoteStations",
       "type": "CONTAINS"
@@ -2331,6 +2661,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopVoteStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::getSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopVoteStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2389,6 +2724,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listTopVoteStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastClickStations",
       "type": "CONTAINS"
@@ -2421,6 +2761,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastClickStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::getSize",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastClickStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2479,6 +2824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastClickStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastChangedStations",
       "type": "CONTAINS"
@@ -2511,6 +2861,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastChangedStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::getLimit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastChangedStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2566,6 +2921,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastChangedStationsWithStream",
       "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listLastChangedStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2629,6 +2989,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::getStationByUUID",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listImprovableStations",
       "type": "CONTAINS"
@@ -2656,6 +3021,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listImprovableStations",
       "target": "api:org.hamcrest.MatcherAssert.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listImprovableStations",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2691,6 +3061,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listImprovableStationsWithStream",
       "target": "api:java.util.Collections.emptyList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listImprovableStationsWithStream",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2739,6 +3114,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsByWithName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::resolveStreamUrl",
       "type": "CONTAINS"
@@ -2782,6 +3162,21 @@
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::resolveStreamUrl",
       "target": "api:org.hamcrest.MatcherAssert.is",
       "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::resolveStreamUrl",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::resolveStreamUrl",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
@@ -2854,6 +3249,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsBy",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsByWithStream",
       "type": "CONTAINS"
@@ -2904,6 +3304,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsByWithStream",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithFail",
       "type": "CONTAINS"
@@ -2926,6 +3331,21 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithFail",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewStation",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithFail",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Ignore.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithFail",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2994,6 +3414,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::postNewWithSuccess",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::voteStation",
       "type": "CONTAINS"
@@ -3059,6 +3484,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::voteStation",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::getServerStats",
       "type": "CONTAINS"
@@ -3086,6 +3516,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::getServerStats",
       "target": "api:org.hamcrest.MatcherAssert.nullValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::getServerStats",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3179,6 +3614,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserTest.java::listStationsWithAdvancedSearch",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
+      "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::init",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::init",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
+      "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::createWithNull",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::createWithNull",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::apiUrls",
       "type": "CONTAINS"
@@ -3232,6 +3697,11 @@
       "source": "api:java.util.Collections.singletonList",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::apiUrls",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
@@ -3319,6 +3789,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::discoverApiUrls",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::discover",
       "type": "CONTAINS"
@@ -3369,6 +3844,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::discover",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::getStats",
       "type": "CONTAINS"
@@ -3414,6 +3894,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/EndpointDiscoveryTest.java::getStats",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::before",
       "type": "CONTAINS"
@@ -3426,6 +3911,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::before",
       "target": "api:java.util.Optional.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::before",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3469,6 +3959,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListCountries",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListCodecs",
       "type": "CONTAINS"
@@ -3501,6 +3996,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListCodecs",
       "target": "api:org.hamcrest.Matchers.notNullValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListCodecs",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3539,6 +4039,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListLanguages",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListTags",
       "type": "CONTAINS"
@@ -3571,6 +4076,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListTags",
       "target": "api:org.hamcrest.Matchers.notNullValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListTags",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3609,6 +4119,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testListStations",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testGetServerStats",
       "type": "CONTAINS"
@@ -3641,6 +4156,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testGetServerStats",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::getTags",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testGetServerStats",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3686,6 +4206,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testAdvancedSearch",
       "target": "api:org.hamcrest.Matchers.greaterThan",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserIT.java::testAdvancedSearch",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3769,6 +4294,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingSpliteratorTest.java::testPagingSpliterator",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::create",
       "type": "CONTAINS"
@@ -3812,6 +4342,11 @@
       "source": "api:org.hamcrest.CoreMatchers.nullValue",
       "target": "dependency:org.hamcrest:hamcrest",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::create",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java",
@@ -3869,6 +4404,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithNothingSet",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithNothingSet",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderSet",
       "type": "CONTAINS"
@@ -3919,6 +4469,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderSet",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderSet",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderSet",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
       "type": "CONTAINS"
@@ -3961,6 +4531,21 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
       "target": "api:jakarta.ws.rs.core.MultivaluedMap.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithReverseSet",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -4024,6 +4609,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderAndReverseSet",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderAndReverseSet",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/ListParameterTest.java::applyToWithOrderAndReverseSet",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/StationTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/StationTest.java::setTagsCommaSeparated",
       "type": "CONTAINS"
@@ -4051,6 +4651,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/StationTest.java::setTagsCommaSeparated",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getTagList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/StationTest.java::setTagsCommaSeparated",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4084,6 +4689,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/StationTest.java::getTagsCommaSeparated",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::at",
       "type": "CONTAINS"
@@ -4114,6 +4724,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::at",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::atWithZeroLimit",
       "type": "CONTAINS"
@@ -4124,6 +4739,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::atWithZeroLimit",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::atWithNegativeOffset",
       "type": "CONTAINS"
@@ -4131,6 +4751,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::atWithNegativeOffset",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::at",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::atWithNegativeOffset",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4169,6 +4794,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::next",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::previousWithBeginning",
       "type": "CONTAINS"
@@ -4201,6 +4831,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::previousWithBeginning",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::getLimit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::previousWithBeginning",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4239,6 +4874,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/PagingTest.java::previous",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java",
       "target": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java::newWithMessage",
       "type": "CONTAINS"
@@ -4256,6 +4896,11 @@
     {
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java::newWithMessage",
       "target": "api:org.hamcrest.CoreMatchers.is",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java::newWithMessage",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4277,6 +4922,71 @@
       "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java::newWithCause",
       "target": "api:org.hamcrest.CoreMatchers.is",
       "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/test/java/de/sfuhrm/radiobrowser4j/RadioBrowserExceptionTest.java::newWithCause",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.Getter.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "target": "api:lombok.Setter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.Setter.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Stats.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java::<class>",
+      "target": "api:lombok.Builder.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.Builder.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/AdvancedSearch.java",
@@ -4345,8 +5055,33 @@
     },
     {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::<class>",
+      "target": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::RadioBrowser",
       "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::RadioBrowser",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.NonNull.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::RadioBrowser",
@@ -4474,6 +5209,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::retrieveValueStationCountList",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::retrieveValueStationCountList",
+      "target": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listCountries",
       "type": "CONTAINS"
@@ -4594,6 +5344,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithPaging",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithPaging",
+      "target": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithLimit",
       "type": "CONTAINS"
@@ -4664,6 +5424,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithLimit",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsPathWithLimit",
+      "target": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStations",
       "type": "CONTAINS"
@@ -4682,6 +5452,11 @@
       "source": "api:java.util.Optional.of",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStations",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStations",
@@ -4710,6 +5485,11 @@
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listBrokenStations",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listBrokenStations",
       "target": "api:java.util.stream.StreamSupport.stream",
       "type": "CALLS"
     },
@@ -4730,8 +5510,23 @@
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listImprovableStations",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listImprovableStations",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::stream",
       "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listImprovableStations",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
@@ -4746,6 +5541,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listTopClickStations",
       "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listTopClickStations",
+      "target": "api:lombok.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4775,6 +5575,11 @@
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listTopVoteStations",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listTopVoteStations",
       "target": "api:java.util.stream.StreamSupport.stream",
       "type": "CALLS"
     },
@@ -4800,6 +5605,11 @@
     },
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listLastClickStations",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listLastClickStations",
       "target": "api:java.util.stream.StreamSupport.stream",
       "type": "CALLS"
     },
@@ -4821,6 +5631,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listLastChangedStations",
       "target": "api:java.util.Optional.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listLastChangedStations",
+      "target": "api:lombok.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4886,6 +5701,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::getStationByUUID",
       "target": "api:java.util.List.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::getStationByUUID",
+      "target": "api:lombok.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4961,6 +5781,21 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsBy",
       "target": "api:response.readEntity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsBy",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsBy",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsBy",
+      "target": "api:jakarta.ws.rs.core.GenericType.<init>",
       "type": "CALLS"
     },
     {
@@ -5049,6 +5884,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::resolveStreamUrl",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::resolveStreamUrl",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewStation",
       "type": "CONTAINS"
@@ -5056,6 +5901,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewStation",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewOrEditStation",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewStation",
+      "target": "api:lombok.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5106,6 +5956,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::voteForStation",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::getMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::voteForStation",
+      "target": "api:lombok.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5194,6 +6049,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsWithAdvancedSearch",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsWithAdvancedSearch",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::listStationsWithAdvancedSearch",
+      "target": "api:jakarta.ws.rs.core.GenericType.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewOrEditStation",
       "type": "CONTAINS"
@@ -5261,6 +6131,16 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewOrEditStation",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::getUuid",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewOrEditStation",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/RadioBrowser.java::postNewOrEditStation",
+      "target": "api:jakarta.ws.rs.core.MultivaluedHashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -5344,6 +6224,76 @@
       "type": "CALLS"
     },
     {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.ToString.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.EqualsAndHashCode.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Limit.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/UrlResponse.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "target": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Paging.java::apply",
       "type": "CONTAINS"
@@ -5390,6 +6340,61 @@
     },
     {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:lombok.EqualsAndHashCode.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnoreProperties.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:lombok.Setter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonFormat.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonFormat.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getTags",
       "type": "CONTAINS"
     },
@@ -5401,6 +6406,16 @@
     {
       "source": "api:java.lang.String.join",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getTags",
+      "target": "api:com.fasterxml.jackson.annotation.JsonGetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonGetter.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
       "type": "PROVIDED_BY"
     },
     {
@@ -5424,6 +6439,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::setTags",
+      "target": "api:com.fasterxml.jackson.annotation.JsonSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonSetter.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getLanguage",
       "type": "CONTAINS"
@@ -5431,6 +6456,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getLanguage",
       "target": "api:java.lang.String.join",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::getLanguage",
+      "target": "api:com.fasterxml.jackson.annotation.JsonGetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5446,6 +6476,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::setLanguage",
       "target": "api:java.lang.String.split",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/Station.java::setLanguage",
+      "target": "api:com.fasterxml.jackson.annotation.JsonSetter.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5520,6 +6555,26 @@
     },
     {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::<class>",
+      "target": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::EndpointDiscovery",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::EndpointDiscovery",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::apiUrls",
       "type": "CONTAINS"
     },
@@ -5576,6 +6631,11 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::apiUrls",
       "target": "api:java.util.stream.Collectors.toList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::apiUrls",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -5669,6 +6729,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::discoverApiUrls",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::getStats",
       "type": "CONTAINS"
@@ -5754,6 +6819,46 @@
       "type": "CALLS"
     },
     {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/EndpointDiscovery.java::<class>",
+      "target": "api:lombok.Value.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:lombok.Value.<annotation>",
+      "target": "dependency:org.projectlombok:lombok",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::<class>",
+      "target": "api:lombok.extern.slf4j.Slf4j.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::<class>",
+      "target": "api:lombok.ToString.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::<class>",
+      "target": "api:lombok.Getter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::order",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::order",
+      "target": "api:lombok.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::apply",
       "type": "CONTAINS"
@@ -5796,6 +6901,16 @@
     {
       "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::apply",
       "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/ListParameter.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java",
+      "target": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:radiobrowser4j/src/main/java/de/sfuhrm/radiobrowser4j/PagingSpliterator.java::<class>",
+      "target": "api:lombok.extern.slf4j.Slf4j.<annotation>",
       "type": "CALLS"
     },
     {

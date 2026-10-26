@@ -62,9 +62,39 @@
       "name": "org.mockito.Mockito.verifyNoMoreInteractions"
     },
     {
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.test.ProcessEngineRule.<init>"
+    },
+    {
+      "id": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "DEPENDENCY",
+      "name": "org.camunda.bpm:camunda-engine"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::deploy_and_run_process_with_manually_registered_mocks",
@@ -102,11 +132,6 @@
       "name": "org.camunda.bpm.engine.variable.Variables.createVariables"
     },
     {
-      "id": "dependency:org.camunda.bpm:camunda-engine",
-      "type": "DEPENDENCY",
-      "name": "org.camunda.bpm:camunda-engine"
-    },
-    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::putValue",
       "type": "FUNCTION",
       "name": "putValue"
@@ -125,11 +150,6 @@
       "id": "api:org.junit.Assert.assertThat",
       "type": "API",
       "name": "org.junit.Assert.assertThat"
-    },
-    {
-      "id": "dependency:junit:junit",
-      "type": "DEPENDENCY",
-      "name": "junit:junit"
     },
     {
       "id": "api:org.camunda.bpm.engine.test.ProcessEngineRule.getTaskService",
@@ -217,14 +237,29 @@
       "name": "org.camunda.community.mockito.DelegateExpressions.getExecutionListenerMock"
     },
     {
+      "id": "api:org.camunda.bpm.engine.test.Deployment.<annotation>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.test.Deployment.<annotation>"
+    },
+    {
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
+    },
+    {
+      "id": "api:org.junit.Before.<annotation>",
+      "type": "API",
+      "name": "org.junit.Before.<annotation>"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates",
@@ -317,6 +352,16 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.Ignore.<annotation>",
+      "type": "API",
+      "name": "org.junit.Ignore.<annotation>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::mock_taskQuery",
       "type": "FUNCTION",
       "name": "mock_taskQuery"
@@ -352,6 +397,21 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.function.Supplier.<init>",
+      "type": "API",
+      "name": "java.util.function.Supplier.<init>"
+    },
+    {
+      "id": "dependency:jdk",
+      "type": "DEPENDENCY",
+      "name": "jdk"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::get",
       "type": "FUNCTION",
       "name": "get"
@@ -377,6 +437,16 @@
       "name": "setCustomJobHandlers"
     },
     {
+      "id": "api:org.camunda.bpm.engine.test.mock.MockExpressionManager.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.test.mock.MockExpressionManager.<init>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::addCustomJobHandler",
       "type": "FUNCTION",
       "name": "addCustomJobHandler"
@@ -397,11 +467,6 @@
       "name": "java.util.Objects.requireNonNull"
     },
     {
-      "id": "dependency:jdk",
-      "type": "DEPENDENCY",
-      "name": "jdk"
-    },
-    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::addCustomPostBpmnParseListener",
       "type": "FUNCTION",
       "name": "addCustomPostBpmnParseListener"
@@ -415,6 +480,11 @@
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::setUp",
@@ -857,6 +927,11 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -1037,6 +1112,16 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.mockito.Mock.<annotation>",
+      "type": "API",
+      "name": "org.mockito.Mock.<annotation>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::setUp",
       "type": "FUNCTION",
       "name": "setUp"
@@ -1080,6 +1165,11 @@
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::setUp",
@@ -1200,6 +1290,11 @@
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::setUp",
@@ -2587,6 +2682,16 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::stringValue",
+      "type": "FUNCTION",
+      "name": "stringValue"
+    },
+    {
+      "id": "api:org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withFields",
       "type": "FUNCTION",
       "name": "withFields"
@@ -2775,11 +2880,6 @@
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseVariableInstanceFake.java::create",
       "type": "FUNCTION",
       "name": "create"
-    },
-    {
-      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::stringValue",
-      "type": "FUNCTION",
-      "name": "stringValue"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_update",
@@ -3132,6 +3232,31 @@
       "name": "typeOf"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.inject.Named.<annotation>",
+      "type": "API",
+      "name": "javax.inject.Named.<annotation>"
+    },
+    {
+      "id": "api:org.springframework.stereotype.Component.<annotation>",
+      "type": "API",
+      "name": "org.springframework.stereotype.Component.<annotation>"
+    },
+    {
+      "id": "dependency:org.springframework:spring-core",
+      "type": "DEPENDENCY",
+      "name": "org.springframework:spring-core"
+    },
+    {
+      "id": "api:org.springframework.stereotype.Service.<annotation>",
+      "type": "API",
+      "name": "org.springframework.stereotype.Service.<annotation>"
+    },
+    {
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java"
@@ -3347,6 +3472,16 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.runner.RunWith.<annotation>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_single_result",
       "type": "FUNCTION",
       "name": "should_not_throw_stubbing_exception_on_only_single_result"
@@ -3392,6 +3527,11 @@
       "name": "src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java"
     },
     {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java::mock_authorizationQuery",
       "type": "FUNCTION",
       "name": "mock_authorizationQuery"
@@ -3430,6 +3570,11 @@
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java",
       "type": "FILE",
       "name": "src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::should_mock_query_and_return_singleResult",
@@ -3547,6 +3692,11 @@
       "name": "desc"
     },
     {
+      "id": "api:java.util.Date.<init>",
+      "type": "API",
+      "name": "java.util.Date.<init>"
+    },
+    {
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::count_on_taskQuery",
       "type": "FUNCTION",
       "name": "count_on_taskQuery"
@@ -3580,6 +3730,11 @@
       "id": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::getSimpleName",
       "type": "FUNCTION",
       "name": "getSimpleName"
+    },
+    {
+      "id": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java",
@@ -3975,6 +4130,11 @@
       "id": "api:java.lang.String.startsWith",
       "type": "API",
       "name": "java.lang.String.startsWith"
+    },
+    {
+      "id": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.Nonnull.<annotation>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::apply",
@@ -5007,6 +5167,11 @@
       "name": "doAnswer"
     },
     {
+      "id": "api:org.camunda.bpm.engine.delegate.TaskListener.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.delegate.TaskListener.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::setVariables",
       "type": "FUNCTION",
       "name": "setVariables"
@@ -5062,6 +5227,11 @@
       "name": "doAnswer"
     },
     {
+      "id": "api:org.camunda.bpm.engine.delegate.JavaDelegate.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.delegate.JavaDelegate.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::setVariables",
       "type": "FUNCTION",
       "name": "setVariables"
@@ -5095,6 +5265,11 @@
       "id": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::doAnswer",
       "type": "FUNCTION",
       "name": "doAnswer"
+    },
+    {
+      "id": "api:org.camunda.bpm.engine.delegate.ExecutionListener.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.delegate.ExecutionListener.<init>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::notify",
@@ -5187,6 +5362,11 @@
       "name": "onExecutionThrowBpmnError"
     },
     {
+      "id": "api:org.camunda.bpm.engine.delegate.BpmnError.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.delegate.BpmnError.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/mock/FluentMock.java::any",
       "type": "FUNCTION",
       "name": "any"
@@ -5220,6 +5400,16 @@
       "id": "file:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicInteger.<init>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java::CaseExecutionEntityFake",
@@ -5387,6 +5577,11 @@
       "name": "org.mockito.ArgumentMatchers.eq"
     },
     {
+      "id": "api:java.util.concurrent.atomic.AtomicReference.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicReference.<init>"
+    },
+    {
       "id": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java"
@@ -5410,6 +5605,16 @@
       "id": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::DelegateExecutionFake",
@@ -5490,6 +5695,16 @@
       "id": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.LinkedHashSet.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashSet.<init>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::groupIds",
@@ -5587,6 +5802,16 @@
       "name": "getCaseExecution"
     },
     {
+      "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::identityLink",
+      "type": "FUNCTION",
+      "name": "identityLink"
+    },
+    {
+      "id": "api:org.camunda.bpm.engine.task.IdentityLink.<init>",
+      "type": "API",
+      "name": "org.camunda.bpm.engine.task.IdentityLink.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::getId",
       "type": "FUNCTION",
       "name": "getId"
@@ -5627,6 +5852,11 @@
       "name": "getSimpleName"
     },
     {
+      "id": "api:java.util.StringJoiner.<init>",
+      "type": "API",
+      "name": "java.util.StringJoiner.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::addCandidateUser",
       "type": "FUNCTION",
       "name": "addCandidateUser"
@@ -5645,11 +5875,6 @@
       "id": "api:java.util.Set.add",
       "type": "API",
       "name": "java.util.Set.add"
-    },
-    {
-      "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::identityLink",
-      "type": "FUNCTION",
-      "name": "identityLink"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::deleteCandidateGroup",
@@ -5770,6 +5995,11 @@
       "id": "file:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java::getExecutionId",
@@ -5967,6 +6197,21 @@
       "name": "java.io.StringWriter.toString"
     },
     {
+      "id": "api:java.io.StringWriter.<init>",
+      "type": "API",
+      "name": "java.io.StringWriter.<init>"
+    },
+    {
+      "id": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "type": "API",
+      "name": "javax.xml.transform.dom.DOMSource.<init>"
+    },
+    {
+      "id": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "type": "API",
+      "name": "javax.xml.transform.stream.StreamResult.<init>"
+    },
+    {
       "id": "file:src/main/java/org/camunda/community/mockito/function/DeployProcess.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/function/DeployProcess.java"
@@ -6032,6 +6277,16 @@
       "name": "src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java"
     },
     {
+      "id": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.function.Function.<init>",
+      "type": "API",
+      "name": "java.util.function.Function.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::newTransformer",
       "type": "FUNCTION",
       "name": "newTransformer"
@@ -6087,6 +6342,21 @@
       "name": "src/main/java/org/camunda/community/mockito/function/NameForType.java"
     },
     {
+      "id": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.function.Predicate.<init>",
+      "type": "API",
+      "name": "java.util.function.Predicate.<init>"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "api:java.lang.Class.getSimpleName",
       "type": "API",
       "name": "java.lang.Class.getSimpleName"
@@ -6125,6 +6395,11 @@
       "id": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::invoke",
       "type": "FUNCTION",
       "name": "invoke"
+    },
+    {
+      "id": "api:javax.annotation.Nullable.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.Nullable.<annotation>"
     },
     {
       "id": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::test",
@@ -6282,6 +6557,21 @@
       "name": "src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java"
     },
     {
+      "id": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::LockedExternalTaskFake",
+      "type": "FUNCTION",
+      "name": "LockedExternalTaskFake"
+    },
+    {
+      "id": "api:java.beans.ConstructorProperties.<annotation>",
+      "type": "API",
+      "name": "java.beans.ConstructorProperties.<annotation>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -6320,6 +6610,21 @@
       "id": "file:src/main/java/org/camunda/community/mockito/task/TaskFake.java",
       "type": "FILE",
       "name": "src/main/java/org/camunda/community/mockito/task/TaskFake.java"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::TaskFake",
+      "type": "FUNCTION",
+      "name": "TaskFake"
+    },
+    {
+      "id": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::delegate",
+      "type": "FUNCTION",
+      "name": "delegate"
+    },
+    {
+      "id": "api:org.apache.commons.lang3.NotImplementedException.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang3.NotImplementedException.<init>"
     },
     {
       "id": "file:src/main/java/org/camunda/community/mockito/service/RuntimeServiceFluentMock.java",
@@ -6667,6 +6972,16 @@
       "name": "src/main/java/org/camunda/community/mockito/process/CallActivityMock.java"
     },
     {
+      "id": "function:src/main/java/org/camunda/community/mockito/process/CallActivityMock.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.text.SimpleDateFormat.<init>",
+      "type": "API",
+      "name": "java.text.SimpleDateFormat.<init>"
+    },
+    {
       "id": "function:src/main/java/org/camunda/community/mockito/process/CallActivityMock.java::CallActivityMock",
       "type": "FUNCTION",
       "name": "CallActivityMock"
@@ -6984,6 +7299,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MessageCorrelationMockExample.java::mock_messageCorrelation",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/MessageCorrelationMockExample.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/MessageCorrelationMockExample.java::correlate",
       "type": "CONTAINS"
@@ -7012,6 +7337,31 @@
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MessageCorrelationMockExample.java::correlate",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/MessageCorrelationMockExample.java::correlate",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::<class>",
+      "target": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java",
@@ -7224,6 +7574,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::deploy_and_run_process_with_manually_registered_mocks",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/ManualMockProcessTest.java::deploy_and_run_process_with_manually_registered_mocks",
+      "target": "api:org.camunda.bpm.engine.test.Deployment.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.test.Deployment.<annotation>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::<class>",
+      "target": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::setUp",
       "type": "CONTAINS"
@@ -7232,6 +7612,16 @@
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::setUp",
       "target": "api:org.camunda.bpm.engine.test.ProcessEngineRule.getTaskService",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Before.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
@@ -7319,6 +7709,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates",
+      "target": "api:org.camunda.bpm.engine.test.Deployment.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates_noNS",
       "type": "CONTAINS"
@@ -7389,6 +7789,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates_noNS",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::register_mocks_for_all_listeners_and_delegates_noNS",
+      "target": "api:org.camunda.bpm.engine.test.Deployment.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/AutoMockProcessTest.java::verifyMocks",
       "type": "CONTAINS"
@@ -7450,6 +7860,21 @@
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::<class>",
+      "target": "api:org.junit.Ignore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Ignore.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::mock_taskQuery",
       "type": "CONTAINS"
     },
@@ -7494,6 +7919,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/QueryMocksExample.java::mock_taskQuery",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::<class>",
+      "target": "api:java.util.function.Supplier.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.function.Supplier.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::get",
       "type": "CONTAINS"
@@ -7517,6 +7962,26 @@
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::MostUsefulProcessEngineConfiguration",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::setCustomJobHandlers",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::MostUsefulProcessEngineConfiguration",
+      "target": "api:org.camunda.bpm.engine.test.mock.MockExpressionManager.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.test.mock.MockExpressionManager.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java::MostUsefulProcessEngineConfiguration",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/MostUsefulProcessEngineConfiguration.java",
@@ -7565,12 +8030,32 @@
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::<class>",
+      "target": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::setUp",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::setUp",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::prepareProcessWithOneSubprocess",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7654,6 +8139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_addVar",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withOwnConsumer",
       "type": "CONTAINS"
@@ -7729,6 +8219,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withOwnConsumer",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withReceiveMessage",
       "type": "CONTAINS"
@@ -7776,6 +8271,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withReceiveMessage",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::isWaitingAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withReceiveMessage",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7831,6 +8331,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withReceiveSignal",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::isWaitingAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withReceiveSignal",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7919,6 +8424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withSendMessage",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withTimerDate",
       "type": "CONTAINS"
@@ -7974,6 +8484,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withTimerDate",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withTimerDuration",
       "type": "CONTAINS"
@@ -8024,6 +8539,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withTimerDuration",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withException",
       "type": "CONTAINS"
@@ -8051,6 +8571,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withException",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::startProcess",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_withException",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8174,6 +8699,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocesses_mocks_withVariables",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocesses_mocks_withWaitMessage_and_timer_and_setVariable",
       "type": "CONTAINS"
@@ -8294,6 +8824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocesses_mocks_withWaitMessage_and_timer_and_setVariable",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_throwEscalation",
       "type": "CONTAINS"
@@ -8392,6 +8927,11 @@
       "source": "api:org.junit.Assert.assertEquals",
       "target": "dependency:junit:junit",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java::register_subprocess_mock_throwEscalation",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockExampleTest.java",
@@ -8780,6 +9320,21 @@
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::<class>",
+      "target": "api:org.camunda.bpm.engine.test.ProcessEngineRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::setUp",
       "type": "CONTAINS"
     },
@@ -8837,6 +9392,11 @@
       "source": "api:org.camunda.bpm.engine.repository.DeploymentBuilder.deploy",
       "target": "dependency:org.camunda.bpm:camunda-engine",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java",
@@ -8909,6 +9469,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/CallActivityMockBindingDeploymentTest.java::mock_runs_with_binding_deployment",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java::can_add_to_fake",
       "type": "CONTAINS"
@@ -8979,6 +9544,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java::can_add_to_fake",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java::to_variableMap",
       "type": "CONTAINS"
@@ -9024,6 +9594,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/typedvalues/VariableContextFakeTest.java::to_variableMap",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mock.<annotation>",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::setUp",
       "type": "CONTAINS"
@@ -9037,6 +9627,11 @@
       "source": "api:org.mockito.MockitoAnnotations.initMocks",
       "target": "dependency:org.mockito:mockito-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java",
@@ -9084,6 +9679,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/AbstractAnswerTest.java::shouldDelegateToGenericAnswer",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::setUp",
       "type": "CONTAINS"
@@ -9091,6 +9706,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::setUp",
       "target": "api:org.mockito.MockitoAnnotations.initMocks",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9159,6 +9779,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::shouldReturnFluentAnserOrNull",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::shouldThrowClassCastExceptionUsingSubtypes",
       "type": "CONTAINS"
@@ -9191,6 +9816,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::shouldThrowClassCastExceptionUsingSubtypes",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::subType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/answer/FluentAnswerTest.java::shouldThrowClassCastExceptionUsingSubtypes",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9250,12 +9880,27 @@
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::setUp",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::setUp",
       "target": "api:org.mockito.MockitoAnnotations.initMocks",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::setUp",
+      "target": "api:org.junit.Before.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9276,6 +9921,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteCalled",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::executed",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteCalled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9309,6 +9959,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteCalledTwice",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteNotCalled",
       "type": "CONTAINS"
@@ -9321,6 +9976,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteNotCalled",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::executedNever",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/verify/MockitoVerificationTest.java::shouldVerifyExecuteNotCalled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9359,6 +10019,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::throws_bpmnError",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::throws_exception",
       "type": "CONTAINS"
@@ -9381,6 +10046,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::throws_exception",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::execute",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::throws_exception",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9421,6 +10091,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::set_single_variable",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::getVariable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::set_single_variable",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9484,6 +10159,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/mock/FluentJavaDelegateMockTest.java::set_single_variable_via_factory",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testEmptyBuilder",
       "type": "CONTAINS"
@@ -9536,6 +10216,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testEmptyBuilder",
       "target": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionFake.java::isTerminated",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testEmptyBuilder",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9621,6 +10306,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testStateChange",
       "target": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionFake.java::isTerminated",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testStateChange",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9799,6 +10489,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseExecutionFakeTest.java::testFullBuilder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testEmptyBuilder",
       "type": "CONTAINS"
@@ -9861,6 +10556,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testEmptyBuilder",
       "target": "function:src/main/java/org/camunda/community/mockito/cases/CaseInstanceFake.java::isTerminated",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testEmptyBuilder",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9956,6 +10656,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testStateChange",
       "target": "function:src/main/java/org/camunda/community/mockito/cases/CaseInstanceFake.java::isTerminated",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testStateChange",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10154,6 +10859,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::testFullBuilder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::prepare_with_service_mock",
       "type": "CONTAINS"
@@ -10279,6 +10989,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/cases/CaseInstanceFakeTest.java::prepare_with_service_mock",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::initially_not_set",
       "type": "CONTAINS"
@@ -10301,6 +11016,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::initially_not_set",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/ProcessEngineServicesAwareFake.java::getProcessEngineServices",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::initially_not_set",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10344,6 +11064,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::with_processEngineServices",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::with_processEngine_sets_both",
       "type": "CONTAINS"
@@ -10384,6 +11109,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/ProcessEngineServicesAwareFakeTest.java::with_processEngine_sets_both",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::withId",
       "type": "CONTAINS"
@@ -10406,6 +11136,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::withId",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::getId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::withId",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10439,6 +11174,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setDescription",
       "type": "CONTAINS"
@@ -10469,6 +11209,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setDescription",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setPriority",
       "type": "CONTAINS"
@@ -10494,6 +11239,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setPriority",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::addCandidateGroup",
       "type": "CONTAINS"
@@ -10516,6 +11266,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::addCandidateGroup",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::candidateGroupIds",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::addCandidateGroup",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10546,6 +11301,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setAssignee",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::setAssignee",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10584,6 +11344,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::addAndDeleteUserAssignee",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::candidateUsers",
       "type": "CONTAINS"
@@ -10609,6 +11374,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::candidateUsers",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::candidateGroups",
       "type": "CONTAINS"
@@ -10631,6 +11401,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::candidateGroups",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::candidateGroupIds",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::candidateGroups",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10666,6 +11441,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateExecution_can_be_set",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::getExecutionFake",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateExecution_can_be_set",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10739,6 +11519,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateExecution_use_attributes_from_execution",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateCaseExecution_use_attributes_from_execution",
       "type": "CONTAINS"
@@ -10806,6 +11591,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateCaseExecution_use_attributes_from_execution",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::getCaseInstanceId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::delegateCaseExecution_use_attributes_from_execution",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10909,6 +11699,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::taskListenerSetsCandidateGroup",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::has_toString",
       "type": "CONTAINS"
@@ -10941,6 +11736,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::has_toString",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateTaskFakeTest.java::has_toString",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -10989,6 +11789,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withId",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseInstanceId",
       "type": "CONTAINS"
@@ -11016,6 +11821,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseInstanceId",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseInstanceId",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11049,6 +11859,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withEventName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withBusinessKey",
       "type": "CONTAINS"
@@ -11076,6 +11891,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withBusinessKey",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withBusinessKey",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11109,6 +11929,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseBusinessKey",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseDefinitionId",
       "type": "CONTAINS"
@@ -11136,6 +11961,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseDefinitionId",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withCaseDefinitionId",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11169,6 +11999,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withParentId",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withActivityId",
       "type": "CONTAINS"
@@ -11196,6 +12031,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withActivityId",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withActivityId",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11229,6 +12069,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withActivityName",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withTenantId",
       "type": "CONTAINS"
@@ -11256,6 +12101,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withTenantId",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withTenantId",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11291,6 +12141,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withProcessEngineServices",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withProcessEngineServices",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11354,6 +12209,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withOutState",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_active",
       "type": "CONTAINS"
@@ -11376,6 +12236,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_active",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::isActive",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_active",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11404,6 +12269,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_available",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_closed",
       "type": "CONTAINS"
@@ -11426,6 +12296,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_closed",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::isClosed",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_closed",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11454,6 +12329,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_completed",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_disabled",
       "type": "CONTAINS"
@@ -11476,6 +12356,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_disabled",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::isDisabled",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_disabled",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11504,6 +12389,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_enabled",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_failed",
       "type": "CONTAINS"
@@ -11526,6 +12416,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_failed",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::isFailed",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_failed",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11554,6 +12449,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_suspended",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_terminated",
       "type": "CONTAINS"
@@ -11576,6 +12476,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_terminated",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::isTerminated",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::withState_terminated",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11602,6 +12507,26 @@
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::modelInstance_not_supported",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::getCmmnModelElementInstance",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseExecutionFakeTest.java::modelInstance_not_supported",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::stringValue",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::stringValue",
+      "target": "api:org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java",
@@ -11754,6 +12679,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withFields",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withTypedValue",
       "type": "CONTAINS"
@@ -11786,6 +12716,16 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withTypedValue",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::getValue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withTypedValue",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withTypedValue",
+      "target": "api:org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>",
       "type": "CALLS"
     },
     {
@@ -11826,6 +12766,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withValue_undefined",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::getType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::withValue_undefined",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11884,6 +12829,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_create",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_update",
       "type": "CONTAINS"
@@ -11936,6 +12886,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_update",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseVariableInstanceFake.java::getEventName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_update",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -11994,6 +12949,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateCaseVariableInstanceFakeTest.java::variable_delete",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::with_variable_local",
       "type": "CONTAINS"
@@ -12034,6 +12994,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::with_variable_local",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::with_variable_local_via_factory",
       "type": "CONTAINS"
@@ -12066,6 +13031,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::with_variable_local_via_factory",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::getLocal",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::with_variable_local_via_factory",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12119,6 +13089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::create_and_resolve_incident",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::model_element_type",
       "type": "CONTAINS"
@@ -12154,6 +13129,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/DelegateExecutionFakeTest.java::model_element_type",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::create_withVariable",
       "type": "CONTAINS"
@@ -12186,6 +13166,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::create_withVariable",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/VariableScopeFake.java::getVariableNames",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::create_withVariable",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12239,6 +13224,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variablesTyped",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variable_from_factory",
       "type": "CONTAINS"
@@ -12289,6 +13279,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variable_from_factory",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variablesLocal",
       "type": "CONTAINS"
@@ -12316,6 +13311,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variablesLocal",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/delegate/VariableScopeFakeTest.java::variablesLocal",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12349,6 +13349,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ParseDelegateExpressionsTest.java::gets_pairs_for_mockProcess",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_pojo",
       "type": "CONTAINS"
@@ -12374,6 +13379,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_pojo",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_default",
       "type": "CONTAINS"
@@ -12391,6 +13401,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_default",
       "target": "api:org.camunda.community.mockito.function.NameForType.juelNameFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_default",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12414,6 +13429,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_bar",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_component",
       "type": "CONTAINS"
@@ -12431,6 +13451,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_component",
       "target": "api:org.camunda.community.mockito.function.NameForType.juelNameFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_component",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12454,6 +13479,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_component",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_service",
       "type": "CONTAINS"
@@ -12474,6 +13504,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_service",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_service",
       "type": "CONTAINS"
@@ -12491,6 +13526,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_service",
       "target": "api:org.camunda.community.mockito.function.NameForType.juelNameFor",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::resolves_named_service",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12524,6 +13564,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_value_from_component",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_value_from_service",
       "type": "CONTAINS"
@@ -12546,6 +13591,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_value_from_service",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::getAnnotation",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_value_from_service",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12574,6 +13624,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_name_for_mock_byClass",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_name_for_mock_byAnnotation",
       "type": "CONTAINS"
@@ -12596,6 +13651,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_name_for_mock_byAnnotation",
       "target": "api:org.mockito.Mockito.mock",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::gets_name_for_mock_byAnnotation",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12627,6 +13687,46 @@
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::getTypeOfMock",
       "target": "api:org.mockito.Mockito.mock",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::getTypeOfMock",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::<class>",
+      "target": "api:javax.inject.Named.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.inject.Named.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::<class>",
+      "target": "api:org.springframework.stereotype.Component.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.stereotype.Component.<annotation>",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/NameForExpressionTypeTest.java::<class>",
+      "target": "api:org.springframework.stereotype.Service.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.springframework.stereotype.Service.<annotation>",
+      "target": "dependency:org.springframework:spring-core",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java",
@@ -12666,6 +13766,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java::returns_document_for_resource",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java::returns_document_for_resource",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -12759,6 +13864,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java::parse_xml",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/function/ReadXmlDocumentFromResourceTest.java::getResource",
       "type": "CONTAINS"
@@ -12849,6 +13959,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableBehavior",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableLocalBehavior",
       "type": "CONTAINS"
@@ -12912,6 +14027,11 @@
       "source": "api:org.camunda.bpm.engine.RuntimeService.getVariablesLocal",
       "target": "dependency:org.camunda.bpm:camunda-engine",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableLocalBehavior",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java",
@@ -12979,6 +14099,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableLocalTypedBehavior",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableTypedBehavior",
       "type": "CONTAINS"
@@ -13044,6 +14169,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/service/RuntimeServiceFluentMockTest.java::testSetVariableTypedBehavior",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runner.RunWith.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_single_result",
       "type": "CONTAINS"
@@ -13089,6 +14239,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_single_result",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_list",
       "type": "CONTAINS"
@@ -13131,6 +14286,21 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_list",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/ProcessInstanceQueryMockTest.java::should_not_throw_stubbing_exception_on_only_list",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java::<class>",
+      "target": "api:org.junit.Ignore.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13184,6 +14354,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/AuthorizationQueryMockTest.java::mock_authorizationQuery",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::should_mock_query_and_return_singleResult",
       "type": "CONTAINS"
@@ -13219,6 +14409,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::should_mock_query_and_return_singleResult",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::singleResult_for_activityName",
       "type": "CONTAINS"
@@ -13251,6 +14446,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::singleResult_for_activityName",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::taskDefinitionKey",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::singleResult_for_activityName",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13369,6 +14569,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::singleResult_for_everything",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::singleResult_for_everything",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Date.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::count_on_taskQuery",
       "type": "CONTAINS"
@@ -13409,6 +14624,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/query/TaskQueryMockTest.java::count_on_taskQuery",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::notify",
       "type": "CONTAINS"
@@ -13431,6 +14651,21 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::notify",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java",
+      "target": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::<class>",
+      "target": "api:org.springframework.stereotype.Component.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/spring/SpringListeners.java::<class>",
+      "target": "api:org.springframework.stereotype.Service.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13484,6 +14719,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::testEmptyBuilder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::testStateChange",
       "type": "CONTAINS"
@@ -13521,6 +14761,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::testStateChange",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::isTrue",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::testStateChange",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13689,6 +14934,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessDefinitionFakeTest.java::testBuilder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java",
       "target": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testEmptyBuilder",
       "type": "CONTAINS"
@@ -13721,6 +14971,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testEmptyBuilder",
       "target": "function:src/main/java/org/camunda/community/mockito/process/ProcessInstanceFake.java::isSuspended",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testEmptyBuilder",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13766,6 +15021,11 @@
     {
       "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testStateChange",
       "target": "function:src/main/java/org/camunda/community/mockito/process/ProcessInstanceFake.java::setSuspended",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testStateChange",
+      "target": "api:org.junit.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13869,6 +15129,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/org/camunda/bpm/extension/mockito/process/ProcessInstanceFakeTest.java::testFullBuilder",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/org/camunda/community/mockito/task/LockedExternalTaskFakeTest.java",
       "target": "function:src/test/java/org/camunda/community/mockito/task/LockedExternalTaskFakeTest.java::create_locked_task",
       "type": "CONTAINS"
@@ -13954,6 +15219,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/org/camunda/community/mockito/task/LockedExternalTaskFakeTest.java::create_locked_task",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/DelegateExpressions.java",
       "target": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
       "type": "CONTAINS"
@@ -13977,6 +15247,16 @@
       "source": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
       "target": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.Nonnull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
@@ -14176,6 +15456,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/CamundaMockito.java::autoMock",
       "target": "function:src/main/java/org/camunda/community/mockito/DelegateExpressions.java::autoMock",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/CamundaMockito.java::autoMock",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -14892,6 +16177,11 @@
       "source": "api:java.util.List.add",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/Expressions.java::findNestedClasses",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/Expressions.java",
@@ -15649,6 +16939,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/answer/FluentAnswer.java::answer",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/answer/ExecutionListenerAnswer.java",
       "target": "function:src/main/java/org/camunda/community/mockito/answer/ExecutionListenerAnswer.java::notify",
       "type": "CONTAINS"
@@ -15721,6 +17016,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/answer/FluentMessageCorrelationBuilderAnswer.java::answer",
       "target": "api:org.mockito.invocation.InvocationOnMock.getMock",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/answer/FluentMessageCorrelationBuilderAnswer.java::answer",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -15924,6 +17224,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::onExecutionSetVariables",
+      "target": "api:org.camunda.bpm.engine.delegate.TaskListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.delegate.TaskListener.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::notify",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::setVariables",
       "type": "CALLS"
@@ -15939,6 +17249,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::onExecutionThrowBpmnError",
+      "target": "api:org.camunda.bpm.engine.delegate.TaskListener.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::onExecutionThrowException",
       "type": "CONTAINS"
@@ -15946,6 +17261,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::onExecutionThrowException",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::doAnswer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentTaskListenerMock.java::onExecutionThrowException",
+      "target": "api:org.camunda.bpm.engine.delegate.TaskListener.<init>",
       "type": "CALLS"
     },
     {
@@ -16014,6 +17334,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::onExecutionSetVariables",
+      "target": "api:org.camunda.bpm.engine.delegate.JavaDelegate.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.delegate.JavaDelegate.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::execute",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::setVariables",
       "type": "CALLS"
@@ -16029,6 +17359,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::onExecutionThrowBpmnError",
+      "target": "api:org.camunda.bpm.engine.delegate.JavaDelegate.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::onExecutionThrowException",
       "type": "CONTAINS"
@@ -16036,6 +17371,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::onExecutionThrowException",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::doAnswer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentJavaDelegateMock.java::onExecutionThrowException",
+      "target": "api:org.camunda.bpm.engine.delegate.JavaDelegate.<init>",
       "type": "CALLS"
     },
     {
@@ -16084,6 +17424,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::onExecutionSetVariables",
+      "target": "api:org.camunda.bpm.engine.delegate.ExecutionListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.delegate.ExecutionListener.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::notify",
       "type": "CONTAINS"
@@ -16104,6 +17454,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::onExecutionThrowBpmnError",
+      "target": "api:org.camunda.bpm.engine.delegate.ExecutionListener.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::onExecutionThrowException",
       "type": "CONTAINS"
@@ -16111,6 +17466,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::onExecutionThrowException",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::doAnswer",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentExecutionListenerMock.java::onExecutionThrowException",
+      "target": "api:org.camunda.bpm.engine.delegate.ExecutionListener.<init>",
       "type": "CALLS"
     },
     {
@@ -16259,6 +17619,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/mock/FluentMock.java::onExecutionThrowBpmnError",
+      "target": "api:org.camunda.bpm.engine.delegate.BpmnError.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.delegate.BpmnError.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/mock/FluentMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/mock/FluentMock.java::any",
       "type": "CONTAINS"
@@ -16286,6 +17656,21 @@
     {
       "source": "api:org.camunda.bpm.engine.variable.VariableMap.putValue",
       "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/cases/CaseExecutionEntityFake.java::<class>",
+      "target": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -16594,6 +17979,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/cases/CaseInstanceFake.java::prepareMock",
+      "target": "api:java.util.concurrent.atomic.AtomicReference.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicReference.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::DelegateCaseExecutionFake",
       "type": "CONTAINS"
@@ -16617,6 +18012,21 @@
       "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::toString",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseExecutionFake.java::getProcessEngineServices",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java",
@@ -16737,6 +18147,21 @@
       "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::toString",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateExecutionFake.java::getProcessEngineServices",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::<class>",
+      "target": "api:java.util.LinkedHashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
@@ -17035,6 +18460,21 @@
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::identityLink",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::identityLink",
+      "target": "api:org.camunda.bpm.engine.task.IdentityLink.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.camunda.bpm.engine.task.IdentityLink.<init>",
+      "target": "dependency:org.camunda.bpm:camunda-engine",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::getId",
       "type": "CONTAINS"
     },
@@ -17112,6 +18552,16 @@
       "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::toString",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::getSimpleName",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java::toString",
+      "target": "api:java.util.StringJoiner.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.StringJoiner.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/DelegateTaskFake.java",
@@ -17504,6 +18954,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/DelegateCaseVariableInstanceFake.java::withValue",
+      "target": "api:org.camunda.bpm.engine.variable.impl.value.AbstractTypedValue.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java::<class>",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java",
       "target": "function:src/main/java/org/camunda/community/mockito/delegate/IncidentFake.java::getExecutionId",
       "type": "CONTAINS"
@@ -17764,6 +19229,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NodeToString.java::apply",
+      "target": "api:java.io.StringWriter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.StringWriter.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NodeToString.java::apply",
+      "target": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NodeToString.java::apply",
+      "target": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.xml.transform.stream.StreamResult.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/function/DeployProcess.java",
       "target": "function:src/main/java/org/camunda/community/mockito/function/DeployProcess.java::addToDeployment",
       "type": "CONTAINS"
@@ -17855,6 +19350,21 @@
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::<class>",
+      "target": "api:java.util.function.Function.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.function.Function.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java",
       "target": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
       "type": "CONTAINS"
     },
@@ -17891,6 +19401,26 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
       "target": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::toString",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
+      "target": "api:java.io.StringWriter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
+      "target": "api:javax.xml.transform.dom.DOMSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
+      "target": "api:javax.xml.transform.stream.StreamResult.<init>",
       "type": "CALLS"
     },
     {
@@ -17952,6 +19482,36 @@
       "source": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::apply",
       "target": "function:src/main/java/org/camunda/community/mockito/function/ReadXmlDocumentFromResource.java::normalize",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/function/NameForType.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::<class>",
+      "target": "api:java.util.function.Function.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::<class>",
+      "target": "api:java.util.function.Predicate.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.function.Predicate.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::<class>",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/function/NameForType.java",
@@ -18039,6 +19599,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::apply",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.Nullable.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/function/NameForType.java",
       "target": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::test",
       "type": "CONTAINS"
@@ -18061,6 +19631,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::test",
       "target": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/NameForType.java::test",
+      "target": "api:javax.annotation.Nullable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18274,6 +19849,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/function/ParseDelegateExpressions.java::apply",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/function/CreateInstance.java",
       "target": "function:src/main/java/org/camunda/community/mockito/function/CreateInstance.java::mockInstance",
       "type": "CONTAINS"
@@ -18302,6 +19882,31 @@
       "source": "function:src/main/java/org/camunda/community/mockito/function/CreateInstance.java::newInstanceByDefaultConstructor",
       "target": "function:src/main/java/org/camunda/community/mockito/function/CreateInstance.java::newInstance",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::LockedExternalTaskFake",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::LockedExternalTaskFake",
+      "target": "api:java.beans.ConstructorProperties.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.beans.ConstructorProperties.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java",
@@ -18362,6 +19967,31 @@
       "source": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::variable",
       "target": "function:src/main/java/org/camunda/community/mockito/task/LockedExternalTaskFake.java::set",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/task/TaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::TaskFake",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::TaskFake",
+      "target": "api:java.beans.ConstructorProperties.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/task/TaskFake.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::delegate",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/task/TaskFake.java::delegate",
+      "target": "api:org.apache.commons.lang3.NotImplementedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang3.NotImplementedException.<init>",
+      "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/org/camunda/community/mockito/service/RuntimeServiceFluentMock.java",
@@ -18639,6 +20269,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/org/camunda/community/mockito/query/AbstractQueryMock.java::AbstractQueryMock",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/org/camunda/community/mockito/query/AbstractQueryMock.java",
       "target": "function:src/main/java/org/camunda/community/mockito/query/AbstractQueryMock.java::createMethod",
       "type": "CONTAINS"
@@ -18656,6 +20291,11 @@
     {
       "source": "function:src/main/java/org/camunda/community/mockito/query/AbstractQueryMock.java::createMethod",
       "target": "api:java.lang.Class.getSimpleName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/query/AbstractQueryMock.java::createMethod",
+      "target": "api:javax.annotation.Nonnull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -18805,6 +20445,21 @@
     },
     {
       "source": "api:java.lang.reflect.Method.invoke",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/org/camunda/community/mockito/process/CallActivityMock.java",
+      "target": "function:src/main/java/org/camunda/community/mockito/process/CallActivityMock.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/org/camunda/community/mockito/process/CallActivityMock.java::<class>",
+      "target": "api:java.text.SimpleDateFormat.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.text.SimpleDateFormat.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },

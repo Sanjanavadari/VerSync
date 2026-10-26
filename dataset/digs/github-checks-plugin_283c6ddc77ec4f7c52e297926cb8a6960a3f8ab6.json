@@ -7,6 +7,26 @@
       "name": "src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "type": "API",
+      "name": "com.tngtech.archunit.junit.AnalyzeClasses.<annotation>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
+      "id": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "type": "API",
+      "name": "com.tngtech.archunit.junit.ArchTest.<annotation>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java"
@@ -40,11 +60,6 @@
       "id": "api:hudson.model.Run.getParent",
       "type": "API",
       "name": "hudson.model.Run.getParent"
-    },
-    {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
     },
     {
       "id": "api:hudson.model.Job.getLastBuild",
@@ -105,6 +120,16 @@
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
       "type": "FUNCTION",
       "name": "createPublisher"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnGitHubChecksPublisherFromJobProjectWithValidGitHubSCMSource",
@@ -187,6 +212,46 @@
       "name": "src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.runner.RunWith.<annotation>"
+    },
+    {
+      "id": "dependency:junit:junit",
+      "type": "DEPENDENCY",
+      "name": "junit:junit"
+    },
+    {
+      "id": "api:Parameterized.Parameter.<annotation>",
+      "type": "API",
+      "name": "Parameterized.Parameter.<annotation>"
+    },
+    {
+      "id": "api:org.junit.Rule.<annotation>",
+      "type": "API",
+      "name": "org.junit.Rule.<annotation>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.LoggerRule.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.LoggerRule.<init>"
+    },
+    {
+      "id": "api:com.github.tomakehurst.wiremock.junit.WireMockRule.<init>",
+      "type": "API",
+      "name": "com.github.tomakehurst.wiremock.junit.WireMockRule.<init>"
+    },
+    {
+      "id": "dependency:com.github.tomakehurst:wiremock-jre8",
+      "type": "DEPENDENCY",
+      "name": "com.github.tomakehurst:wiremock-jre8"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::contextBuilders",
       "type": "FUNCTION",
       "name": "contextBuilders"
@@ -195,6 +260,11 @@
       "id": "api:java.util.Arrays.asList",
       "type": "API",
       "name": "java.util.Arrays.asList"
+    },
+    {
+      "id": "api:Parameterized.Parameters.<annotation>",
+      "type": "API",
+      "name": "Parameterized.Parameters.<annotation>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
@@ -352,9 +422,49 @@
       "name": "com.github.tomakehurst.wiremock.junit.WireMockRule.baseUrl"
     },
     {
-      "id": "dependency:com.github.tomakehurst:wiremock-jre8",
+      "id": "api:org.junit.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.Test.<annotation>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>"
+    },
+    {
+      "id": "dependency:io.jenkins.plugins:checks-api",
       "type": "DEPENDENCY",
-      "name": "com.github.tomakehurst:wiremock-jre8"
+      "name": "io.jenkins.plugins:checks-api"
+    },
+    {
+      "id": "api:io.jenkins.plugins.checks.api.ChecksOutput.ChecksOutputBuilder.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.checks.api.ChecksOutput.ChecksOutputBuilder.<init>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.ChecksAnnotationBuilder.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.checks.api.ChecksAnnotation.ChecksAnnotationBuilder.<init>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.checks.api.ChecksImage.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.checks.api.ChecksImage.<init>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.checks.api.ChecksAction.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.checks.api.ChecksAction.<init>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.util.PluginLogger.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.util.PluginLogger.<init>"
+    },
+    {
+      "id": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "DEPENDENCY",
+      "name": "io.jenkins.plugins:plugin-util-api"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
@@ -422,6 +532,11 @@
       "name": "com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.get"
     },
     {
+      "id": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.Issue.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createStubCheckRun",
       "type": "FUNCTION",
       "name": "createStubCheckRun"
@@ -470,6 +585,21 @@
       "id": "api:java.lang.String.format",
       "type": "API",
       "name": "java.lang.String.format"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.introspect.VisibilityChecker.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.introspect.VisibilityChecker.<init>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.InjectableValues.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.InjectableValues.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::testChecksPublisherUpdatesCorrectly",
@@ -582,6 +712,11 @@
       "name": "com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.isPresent"
     },
     {
+      "id": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createGitHubChecksContextWithGitHubSCMFreestyle",
       "type": "FUNCTION",
       "name": "createGitHubChecksContextWithGitHubSCMFreestyle"
@@ -610,6 +745,11 @@
       "id": "api:org.jenkinsci.plugins.workflow.job.WorkflowJob.setDefinition",
       "type": "API",
       "name": "org.jenkinsci.plugins.workflow.job.WorkflowJob.setDefinition"
+    },
+    {
+      "id": "api:org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.<init>",
+      "type": "API",
+      "name": "org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.<init>"
     },
     {
       "id": "api:com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.buildSuccessfully",
@@ -792,6 +932,11 @@
       "name": "src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldBeApplicableForJobWithGitHubSCMSource",
       "type": "FUNCTION",
       "name": "shouldBeApplicableForJobWithGitHubSCMSource"
@@ -902,11 +1047,6 @@
       "name": "io.jenkins.plugins.util.JenkinsFacade.getBuild"
     },
     {
-      "id": "dependency:io.jenkins.plugins:plugin-util-api",
-      "type": "DEPENDENCY",
-      "name": "io.jenkins.plugins:plugin-util-api"
-    },
-    {
       "id": "api:io.jenkins.plugins.util.JenkinsFacade.getFullNameOf",
       "type": "API",
       "name": "io.jenkins.plugins.util.JenkinsFacade.getFullNameOf"
@@ -1002,6 +1142,16 @@
       "name": "org.assertj.core.api.Assertions.getFile"
     },
     {
+      "id": "api:org.jenkinsci.plugins.github.extension.GHSubscriberEvent.<init>",
+      "type": "API",
+      "name": "org.jenkinsci.plugins.github.extension.GHSubscriberEvent.<init>"
+    },
+    {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java"
@@ -1050,6 +1200,16 @@
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getCredentialsId",
       "type": "FUNCTION",
       "name": "getCredentialsId"
+    },
+    {
+      "id": "api:hudson.plugins.git.BranchSpec.<init>",
+      "type": "API",
+      "name": "hudson.plugins.git.BranchSpec.<init>"
+    },
+    {
+      "id": "api:hudson.plugins.git.GitSCM.<init>",
+      "type": "API",
+      "name": "hudson.plugins.git.GitSCM.<init>"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromPipeline",
@@ -1192,6 +1352,11 @@
       "name": "edu.hm.hafner.util.FilteredLog.getErrorMessages"
     },
     {
+      "id": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.FilteredLog.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidGitHubAppCredentials",
       "type": "FUNCTION",
       "name": "shouldReturnFalseWhenValidateContextButHasNoValidGitHubAppCredentials"
@@ -1237,6 +1402,16 @@
       "name": "java.io.ByteArrayOutputStream.toString"
     },
     {
+      "id": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayOutputStream.<init>"
+    },
+    {
+      "id": "api:hudson.util.StreamTaskListener.<init>",
+      "type": "API",
+      "name": "hudson.util.StreamTaskListener.<init>"
+    },
+    {
       "id": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java",
       "type": "FILE",
       "name": "src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java"
@@ -1275,6 +1450,11 @@
       "id": "api:org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.notificationsDisabled",
       "type": "API",
       "name": "org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.notificationsDisabled"
+    },
+    {
+      "id": "api:org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.<init>",
+      "type": "API",
+      "name": "org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.<init>"
     },
     {
       "id": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java",
@@ -1357,6 +1537,11 @@
       "name": "setSuppressLogs"
     },
     {
+      "id": "api:hudson.util.DescribableList.<init>",
+      "type": "API",
+      "name": "hudson.util.DescribableList.<init>"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitHubSCMSourceStatusChecksTraitIsNotAdded",
       "type": "FUNCTION",
       "name": "shouldUseDefaultPropertiesWhenGitHubSCMSourceStatusChecksTraitIsNotAdded"
@@ -1417,6 +1602,11 @@
       "name": "SCMSource.SourceByItem.findSource"
     },
     {
+      "id": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::findGitSCMSource",
       "type": "FUNCTION",
       "name": "findGitSCMSource"
@@ -1440,6 +1630,11 @@
       "id": "api:java.util.List.get",
       "type": "API",
       "name": "java.util.List.get"
+    },
+    {
+      "id": "api:hudson.plugins.git.UserRemoteConfig.<init>",
+      "type": "API",
+      "name": "hudson.plugins.git.UserRemoteConfig.<init>"
     },
     {
       "id": "api:com.cloudbees.plugins.credentials.CredentialsProvider.lookupCredentials",
@@ -1487,6 +1682,11 @@
       "name": "extractFromPipeline"
     },
     {
+      "id": "api:hudson.scm.NullSCM.<init>",
+      "type": "API",
+      "name": "hudson.scm.NullSCM.<init>"
+    },
+    {
       "id": "api:java.util.Collection.isEmpty",
       "type": "API",
       "name": "java.util.Collection.isEmpty"
@@ -1517,6 +1717,16 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::GitHubChecksPublisherFactory",
       "type": "FUNCTION",
       "name": "GitHubChecksPublisherFactory"
@@ -1525,6 +1735,11 @@
       "id": "api:org.jenkinsci.plugins.displayurlapi.DisplayURLProvider.get",
       "type": "API",
       "name": "org.jenkinsci.plugins.displayurlapi.DisplayURLProvider.get"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.VisibleForTesting.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::getChecksConfig",
@@ -1612,6 +1827,21 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::CheckRunGHEventSubscriber",
+      "type": "FUNCTION",
+      "name": "CheckRunGHEventSubscriber"
+    },
+    {
+      "id": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.util.JenkinsFacade.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::isApplicable",
       "type": "FUNCTION",
       "name": "isApplicable"
@@ -1630,6 +1860,11 @@
       "id": "api:java.util.Collections.unmodifiableSet",
       "type": "API",
       "name": "java.util.Collections.unmodifiableSet"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::onEvent",
@@ -1707,6 +1942,16 @@
       "name": "java.lang.String.replaceAll"
     },
     {
+      "id": "api:java.io.StringReader.<init>",
+      "type": "API",
+      "name": "java.io.StringReader.<init>"
+    },
+    {
+      "id": "api:org.json.JSONObject.<init>",
+      "type": "API",
+      "name": "org.json.JSONObject.<init>"
+    },
+    {
       "id": "api:org.kohsuke.github.GHEventPayload.getRepository",
       "type": "API",
       "name": "org.kohsuke.github.GHEventPayload.getRepository"
@@ -1762,9 +2007,24 @@
       "name": "org.kohsuke.github.GHRepository.getFullName"
     },
     {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
+      "id": "api:hudson.model.CauseAction.<init>",
+      "type": "API",
+      "name": "hudson.model.CauseAction.<init>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::GitHubSCMSourceChecksContext",
@@ -1877,6 +2137,11 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::getCredentialsId",
+      "type": "FUNCTION",
+      "name": "getCredentialsId"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::getCredentials",
       "type": "FUNCTION",
       "name": "getCredentials"
@@ -1890,11 +2155,6 @@
       "id": "api:org.apache.commons.lang3.StringUtils.defaultIfEmpty",
       "type": "API",
       "name": "org.apache.commons.lang3.StringUtils.defaultIfEmpty"
-    },
-    {
-      "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::getCredentialsId",
-      "type": "FUNCTION",
-      "name": "getCredentialsId"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::findGitHubAppCredentials",
@@ -2317,6 +2577,11 @@
       "name": "io.jenkins.plugins.checks.api.ChecksOutput.getChecksImages"
     },
     {
+      "id": "api:org.kohsuke.github.GHCheckRunBuilder.Output.<init>",
+      "type": "API",
+      "name": "org.kohsuke.github.GHCheckRunBuilder.Output.<init>"
+    },
+    {
       "id": "api:io.jenkins.plugins.checks.api.ChecksDetails.getActions",
       "type": "API",
       "name": "io.jenkins.plugins.checks.api.ChecksDetails.getActions"
@@ -2350,6 +2615,11 @@
       "id": "api:io.jenkins.plugins.checks.api.ChecksAction.getIdentifier",
       "type": "API",
       "name": "io.jenkins.plugins.checks.api.ChecksAction.getIdentifier"
+    },
+    {
+      "id": "api:org.kohsuke.github.GHCheckRunBuilder.Action.<init>",
+      "type": "API",
+      "name": "org.kohsuke.github.GHCheckRunBuilder.Action.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getAnnotation",
@@ -2427,6 +2697,11 @@
       "name": "io.jenkins.plugins.checks.api.ChecksAnnotation.getMessage"
     },
     {
+      "id": "api:org.kohsuke.github.GHCheckRunBuilder.Annotation.<init>",
+      "type": "API",
+      "name": "org.kohsuke.github.GHCheckRunBuilder.Annotation.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getImage",
       "type": "FUNCTION",
       "name": "getImage"
@@ -2450,6 +2725,11 @@
       "id": "api:io.jenkins.plugins.checks.api.ChecksImage.getImageUrl",
       "type": "API",
       "name": "io.jenkins.plugins.checks.api.ChecksImage.getImageUrl"
+    },
+    {
+      "id": "api:org.kohsuke.github.GHCheckRunBuilder.Image.<init>",
+      "type": "API",
+      "name": "org.kohsuke.github.GHCheckRunBuilder.Image.<init>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java",
@@ -2552,6 +2832,11 @@
       "name": "java.lang.String.split"
     },
     {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getScmFacade",
       "type": "FUNCTION",
       "name": "getScmFacade"
@@ -2627,6 +2912,41 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::GitHubSCMSourceChecksTrait",
+      "type": "FUNCTION",
+      "name": "GitHubSCMSourceChecksTrait"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundConstructor.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::setVerboseConsoleLog",
+      "type": "FUNCTION",
+      "name": "setVerboseConsoleLog"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundSetter.<annotation>"
+    },
+    {
+      "id": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "API",
+      "name": "org.jenkinsci.Symbol.<annotation>"
+    },
+    {
+      "id": "api:jenkins.scm.impl.trait.Discovery.<annotation>",
+      "type": "API",
+      "name": "jenkins.scm.impl.trait.Discovery.<annotation>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitHubChecksConfig.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/checks/github/config/GitHubChecksConfig.java"
@@ -2637,6 +2957,21 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::GitSCMChecksExtension",
+      "type": "FUNCTION",
+      "name": "GitSCMChecksExtension"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::setVerboseConsoleLog",
+      "type": "FUNCTION",
+      "name": "setVerboseConsoleLog"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/config/DefaultGitHubChecksConfig.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/checks/github/config/DefaultGitHubChecksConfig.java"
@@ -2645,6 +2980,16 @@
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::GitHubStatusChecksProperties",
+      "type": "FUNCTION",
+      "name": "GitHubStatusChecksProperties"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::isPresent",
@@ -2702,6 +3047,16 @@
       "name": "src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::GitHubSCMSourceStatusChecksTrait",
+      "type": "FUNCTION",
+      "name": "GitHubSCMSourceStatusChecksTrait"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkipProgressUpdates",
+      "type": "FUNCTION",
+      "name": "setSkipProgressUpdates"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::isSkipNotifications",
       "type": "FUNCTION",
       "name": "isSkipNotifications"
@@ -2722,14 +3077,39 @@
       "name": "hudson.util.FormValidation.ok"
     },
     {
+      "id": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.QueryParameter.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::GitSCMStatusChecksExtension",
+      "type": "FUNCTION",
+      "name": "GitSCMStatusChecksExtension"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSkipProgressUpdates",
+      "type": "FUNCTION",
+      "name": "setSkipProgressUpdates"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::doCheckName",
       "type": "FUNCTION",
       "name": "doCheckName"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksConfigurations.java",
@@ -2738,6 +3118,31 @@
     }
   ],
   "edges": [
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.tngtech.archunit.junit.AnalyzeClasses.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/ArchitectureTest.java::<class>",
+      "target": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.tngtech.archunit.junit.ArchTest.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
     {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateGitHubChecksPublisherFromRunForProjectWithValidGitHubSCMSource",
@@ -2864,6 +3269,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateGitHubChecksPublisherFromRunForProjectWithValidGitHubSCMSource",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnGitHubChecksPublisherFromJobProjectWithValidGitHubSCMSource",
       "type": "CONTAINS"
@@ -2946,6 +3361,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnGitHubChecksPublisherFromJobProjectWithValidGitHubSCMSource",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnGitHubChecksPublisherFromJobProjectWithValidGitHubSCMSource",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3059,6 +3479,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateGitHubChecksPublisherFromRunForProjectWithValidGitSCM",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnEmptyFromRunForInvalidProject",
       "type": "CONTAINS"
@@ -3089,6 +3514,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldReturnEmptyFromRunForInvalidProject",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateNullPublisherFromJobForInvalidProject",
       "type": "CONTAINS"
@@ -3111,6 +3541,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateNullPublisherFromJobForInvalidProject",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactoryTest.java::shouldCreateNullPublisherFromJobForInvalidProject",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3155,6 +3590,61 @@
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "target": "api:org.junit.runner.RunWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.runner.RunWith.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "target": "api:Parameterized.Parameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Parameterized.Parameter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Rule.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.LoggerRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.LoggerRule.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::<class>",
+      "target": "api:com.github.tomakehurst.wiremock.junit.WireMockRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.github.tomakehurst.wiremock.junit.WireMockRule.<init>",
+      "target": "dependency:com.github.tomakehurst:wiremock-jre8",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::contextBuilders",
       "type": "CONTAINS"
     },
@@ -3166,6 +3656,16 @@
     {
       "source": "api:java.util.Arrays.asList",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::contextBuilders",
+      "target": "api:Parameterized.Parameters.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:Parameterized.Parameters.<annotation>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -3469,6 +3969,76 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.Test.<annotation>",
+      "target": "dependency:junit:junit",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksOutput.ChecksOutputBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.ChecksOutputBuilder.<init>",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.ChecksAnnotationBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.ChecksAnnotationBuilder.<init>",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksImage.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.checks.api.ChecksImage.<init>",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksAction.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.checks.api.ChecksAction.<init>",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldPublishGitHubCheckRunCorrectly",
+      "target": "api:io.jenkins.plugins.util.PluginLogger.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.util.PluginLogger.<init>",
+      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
       "type": "CONTAINS"
@@ -3694,6 +4264,41 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.Issue.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksOutput.ChecksOutputBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.ChecksAnnotationBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::shouldLogChecksParametersIfExceptionHappensWhenPublishChecks",
+      "target": "api:io.jenkins.plugins.util.PluginLogger.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createStubCheckRun",
       "type": "CONTAINS"
@@ -3776,6 +4381,36 @@
     {
       "source": "api:java.lang.String.format",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createStubCheckRun",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createStubCheckRun",
+      "target": "api:com.fasterxml.jackson.databind.introspect.VisibilityChecker.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.introspect.VisibilityChecker.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createStubCheckRun",
+      "target": "api:com.fasterxml.jackson.databind.InjectableValues.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.InjectableValues.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
       "type": "PROVIDED_BY"
     },
     {
@@ -4044,6 +4679,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::testChecksPublisherUpdatesCorrectly",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::testChecksPublisherUpdatesCorrectly",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::testChecksPublisherUpdatesCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::testChecksPublisherUpdatesCorrectly",
+      "target": "api:io.jenkins.plugins.util.PluginLogger.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createGitHubChecksContextWithGitHubSCMFreestyle",
       "type": "CONTAINS"
@@ -4092,6 +4752,16 @@
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createGitHubChecksContextWithGitHubSCMFromPipeline",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createGitHubChecksContextWithGitHubSCM",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java::createGitHubChecksContextWithGitHubSCMFromPipeline",
+      "target": "api:org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherITest.java",
@@ -4339,6 +5009,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnAllGitHubObjectsCorrectly",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnAllGitHubObjectsCorrectly",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnEmptyWhenDetailsURLIsBlank",
       "type": "CONTAINS"
@@ -4371,6 +5051,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnEmptyWhenDetailsURLIsBlank",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getDetailsURL",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnEmptyWhenDetailsURLIsBlank",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldReturnEmptyWhenDetailsURLIsBlank",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
       "type": "CALLS"
     },
     {
@@ -4419,6 +5109,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldThrowIllegalStateExceptionWhenDetailsURLIsNotHttpOrHttpsScheme",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubChecksDetailsTest.java::shouldThrowIllegalStateExceptionWhenDetailsURLIsNotHttpOrHttpsScheme",
+      "target": "api:io.jenkins.plugins.checks.api.ChecksDetails.ChecksDetailsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextTest.java::shouldGetRepository",
       "type": "CONTAINS"
@@ -4447,6 +5147,26 @@
       "source": "api:org.mockito.Mockito.mock",
       "target": "dependency:org.mockito:mockito-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextTest.java::shouldGetRepository",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::<class>",
+      "target": "api:org.junit.Rule.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.LoggerRule.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
@@ -4504,6 +5224,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldBeApplicableForJobWithGitHubSCMSource",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotBeApplicableForJobWithoutGitHubSCMSource",
       "type": "CONTAINS"
@@ -4534,6 +5259,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotBeApplicableForJobWithoutGitHubSCMSource",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotBeApplicableForItemThatNotInstanceOfJob",
       "type": "CONTAINS"
@@ -4556,6 +5286,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotBeApplicableForItemThatNotInstanceOfJob",
       "target": "api:org.assertj.core.api.Assertions.isApplicable",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotBeApplicableForItemThatNotInstanceOfJob",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4587,6 +5322,11 @@
       "source": "api:org.assertj.core.api.Assertions.events",
       "target": "dependency:org.assertj:assertj-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldSubscribeToCheckRunEvent",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
@@ -4669,6 +5409,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldProcessCheckRunEventWithRerequestedAction",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldThrowExceptionWhenCheckSuitesMissingFromPayload",
       "type": "CONTAINS"
@@ -4706,6 +5451,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldThrowExceptionWhenCheckSuitesMissingFromPayload",
       "target": "api:org.assertj.core.api.Assertions.mock",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldThrowExceptionWhenCheckSuitesMissingFromPayload",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4764,6 +5514,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldIgnoreHeadBranchMissingFromPayload",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldIgnoreCheckRunEventWithoutRerequestedAction",
       "type": "CONTAINS"
@@ -4811,6 +5566,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldIgnoreCheckRunEventWithoutRerequestedAction",
       "target": "api:org.jvnet.hudson.test.LoggerRule.getMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldIgnoreCheckRunEventWithoutRerequestedAction",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4939,6 +5699,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldScheduleRerunForPR",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldScheduleRerunForMaster",
       "type": "CONTAINS"
@@ -5034,6 +5799,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldScheduleRerunForMaster",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotScheduleRerunWhenNoProperBuildFound",
       "type": "CONTAINS"
@@ -5079,6 +5849,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldNotScheduleRerunWhenNoProperBuildFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldContainsUserAndBranchInShortDescriptionOfGitHubChecksRerunActionCause",
       "type": "CONTAINS"
@@ -5099,6 +5874,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldContainsUserAndBranchInShortDescriptionOfGitHubChecksRerunActionCause",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldHaveAccessableBranchNameInGitHubChecksRerunActionCause",
       "type": "CONTAINS"
@@ -5116,6 +5896,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldHaveAccessableBranchNameInGitHubChecksRerunActionCause",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::getBranchName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::shouldHaveAccessableBranchNameInGitHubChecksRerunActionCause",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5214,6 +5999,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::createEventWithRerunRequest",
+      "target": "api:org.jenkinsci.plugins.github.extension.GHSubscriberEvent.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.plugins.github.extension.GHSubscriberEvent.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriberTest.java::createEventWithRerunRequest",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromFreeStyleBuild",
       "type": "CONTAINS"
@@ -5299,6 +6104,31 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromFreeStyleBuild",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromFreeStyleBuild",
+      "target": "api:hudson.plugins.git.BranchSpec.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.plugins.git.BranchSpec.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromFreeStyleBuild",
+      "target": "api:hudson.plugins.git.GitSCM.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.plugins.git.GitSCM.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromPipeline",
       "type": "CONTAINS"
@@ -5349,6 +6179,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromPipeline",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitSCMChecksContextITest.java::shouldRetrieveContextFromPipeline",
+      "target": "api:org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromMasterBranch",
       "type": "CONTAINS"
@@ -5389,6 +6229,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromMasterBranch",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromPullRequest",
       "type": "CONTAINS"
@@ -5421,6 +6266,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromPullRequest",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithRevision",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromPullRequest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5479,6 +6329,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetHeadShaFromRun",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSCMHeadAvailable",
       "type": "CONTAINS"
@@ -5531,6 +6386,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSCMHeadAvailable",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSCMHeadAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5604,6 +6464,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSCMRevisionAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSuitableSCMRevisionAvailable",
       "type": "CONTAINS"
@@ -5651,6 +6516,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSuitableSCMRevisionAvailable",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithRevision",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetHeadShaButNoSuitableSCMRevisionAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5714,6 +6584,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetRepositoryName",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetRepositoryButNoGitHubSCMSourceAvailable",
       "type": "CONTAINS"
@@ -5769,6 +6644,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetRepositoryButNoGitHubSCMSourceAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetCredentials",
       "type": "CONTAINS"
@@ -5806,6 +6686,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetCredentials",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithCredentials",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetCredentials",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5859,6 +6744,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetCredentialsButNoCredentialsAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetCredentialsButNoSourceAvailable",
       "type": "CONTAINS"
@@ -5904,6 +6794,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldThrowIllegalStateExceptionWhenGetCredentialsButNoSourceAvailable",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetURLForJob",
       "type": "CONTAINS"
@@ -5941,6 +6836,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetURLForJob",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetURLForJob",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5991,6 +6891,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetURLForRun",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::createGitHubSCMFacadeWithSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldGetURLForRun",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6045,6 +6950,21 @@
     },
     {
       "source": "api:edu.hm.hafner.util.FilteredLog.getErrorMessages",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidCredentials",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidCredentials",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -6106,6 +7026,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidGitHubAppCredentials",
       "target": "api:edu.hm.hafner.util.FilteredLog.getErrorMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidGitHubAppCredentials",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidGitHubAppCredentials",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -6176,6 +7106,16 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidSHA",
       "target": "api:edu.hm.hafner.util.FilteredLog.getErrorMessages",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidSHA",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContextTest.java::shouldReturnFalseWhenValidateContextButHasNoValidSHA",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
       "type": "CALLS"
     },
     {
@@ -6334,6 +7274,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/config/GitHubChecksConfigITest.java::shouldUseDefaultConfigWhenNoSCM",
+      "target": "api:org.junit.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/config/GitHubChecksConfigITest.java::shouldUseDefaultConfigWhenNoSCM",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/config/GitHubChecksConfigITest.java::shouldUseDefaultConfigWhenNoSCM",
+      "target": "api:hudson.util.StreamTaskListener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.StreamTaskListener.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java::shouldOnlyApplyTraitConfigurationsToGitHubBranchSourceNotificationsWhenItsNotDisabled",
       "type": "CONTAINS"
@@ -6385,6 +7350,21 @@
     },
     {
       "source": "api:org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.notificationsDisabled",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java::shouldOnlyApplyTraitConfigurationsToGitHubBranchSourceNotificationsWhenItsNotDisabled",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTraitTest.java::shouldOnlyApplyTraitConfigurationsToGitHubBranchSourceNotificationsWhenItsNotDisabled",
+      "target": "api:org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.plugins.github_branch_source.GitHubSCMSourceContext.<init>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -6464,6 +7444,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUsePropertiesFromGitHubSCMSourceTrait",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUsePropertiesFromGitSCMExtension",
       "type": "CONTAINS"
@@ -6534,6 +7519,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUsePropertiesFromGitSCMExtension",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUsePropertiesFromGitSCMExtension",
+      "target": "api:hudson.util.DescribableList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.util.DescribableList.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitHubSCMSourceStatusChecksTraitIsNotAdded",
       "type": "CONTAINS"
@@ -6566,6 +7566,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitHubSCMSourceStatusChecksTraitIsNotAdded",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::assertJobWithStatusChecksProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitHubSCMSourceStatusChecksTraitIsNotAdded",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6614,6 +7619,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitSCMStatusChecksExtensionIsNotAdded",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldUseDefaultPropertiesWhenGitSCMStatusChecksExtensionIsNotAdded",
+      "target": "api:hudson.util.DescribableList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldNotApplicableToJobWithoutSupportedSCM",
       "type": "CONTAINS"
@@ -6651,6 +7666,11 @@
     {
       "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldNotApplicableToJobWithoutSupportedSCM",
       "target": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::assertJobWithStatusChecksProperties",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksPropertiesTest.java::shouldNotApplicableToJobWithoutSupportedSCM",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6705,6 +7725,16 @@
     },
     {
       "source": "api:SCMSource.SourceByItem.findSource",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::findSCMSource",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -6811,6 +7841,16 @@
     {
       "source": "api:java.util.List.get",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::getUserRemoteConfig",
+      "target": "api:hudson.plugins.git.UserRemoteConfig.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.plugins.git.UserRemoteConfig.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -6969,6 +8009,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::getScm",
+      "target": "api:hudson.scm.NullSCM.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.scm.NullSCM.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::extractFromPipeline",
       "type": "CONTAINS"
@@ -6996,6 +8046,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::extractFromPipeline",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::next",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::extractFromPipeline",
+      "target": "api:hudson.scm.NullSCM.<init>",
       "type": "CALLS"
     },
     {
@@ -7029,6 +8084,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/SCMFacade.java::extractFromProject",
+      "target": "api:hudson.scm.NullSCM.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::GitHubChecksPublisherFactory",
       "type": "CONTAINS"
@@ -7040,6 +8115,16 @@
     },
     {
       "source": "api:org.jenkinsci.plugins.displayurlapi.DisplayURLProvider.get",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::GitHubChecksPublisherFactory",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
@@ -7131,6 +8216,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
       "target": "api:java.util.Optional.empty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisherFactory.java::createPublisher",
+      "target": "api:io.jenkins.plugins.util.PluginLogger.<init>",
       "type": "CALLS"
     },
     {
@@ -7235,6 +8330,36 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::CheckRunGHEventSubscriber",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::CheckRunGHEventSubscriber",
+      "target": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.util.JenkinsFacade.<init>",
+      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::CheckRunGHEventSubscriber",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::isApplicable",
       "type": "CONTAINS"
     },
@@ -7246,6 +8371,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::isApplicable",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::isPresent",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::isApplicable",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7267,6 +8397,16 @@
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::events",
       "target": "api:java.util.Collections.singletonList",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::events",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java",
@@ -7376,6 +8516,31 @@
     {
       "source": "api:java.lang.String.replaceAll",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::onEvent",
+      "target": "api:edu.umd.cs.findbugs.annotations.SuppressFBWarnings.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::onEvent",
+      "target": "api:java.io.StringReader.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.StringReader.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::onEvent",
+      "target": "api:org.json.JSONObject.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.json.JSONObject.<init>",
+      "target": "dependency:org.json:json",
       "type": "PROVIDED_BY"
     },
     {
@@ -7524,6 +8689,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::scheduleRerun",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::scheduleRerun",
+      "target": "api:hudson.model.CauseAction.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.model.CauseAction.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::getShortDescription",
       "type": "CONTAINS"
@@ -7531,6 +8716,16 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/CheckRunGHEventSubscriber.java::getShortDescription",
       "target": "api:java.lang.String.format",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::<class>",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7566,6 +8761,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::GitHubSCMSourceChecksContext",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveHeadSha",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::GitHubSCMSourceChecksContext",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7684,6 +8884,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::getCredentialsId",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveSource",
       "type": "CONTAINS"
@@ -7706,6 +8911,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveSource",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::orElse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveSource",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7750,7 +8960,22 @@
     },
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveHeadSha",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::resolveHeadSha",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubSCMSourceChecksContext.java::findHead",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::getCredentialsId",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksContext.java::getCredentialsId",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8189,6 +9414,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java::getUpdater",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java::getCreator",
       "type": "CONTAINS"
@@ -8271,6 +9501,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java::getCreator",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java::applyDetails",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksPublisher.java::getCreator",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8445,7 +9680,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getConclusion",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8455,7 +9690,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getStatus",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8465,7 +9700,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getCompletedAt",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8485,7 +9720,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getName",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8520,7 +9755,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getDetailsURL",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8580,7 +9815,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getStartedAt",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8685,7 +9920,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getOutput",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8710,7 +9945,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.getText",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8725,7 +9960,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.getTitle",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8740,7 +9975,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.getSummary",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8750,7 +9985,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.getChecksAnnotations",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8775,7 +10010,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksOutput.getChecksImages",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8789,6 +10024,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getOutput",
+      "target": "api:org.kohsuke.github.GHCheckRunBuilder.Output.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.github.GHCheckRunBuilder.Output.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getActions",
       "type": "CONTAINS"
@@ -8800,7 +10045,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksDetails.getActions",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8840,7 +10085,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAction.getLabel",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8855,7 +10100,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAction.getDescription",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8865,7 +10110,17 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAction.getIdentifier",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getAction",
+      "target": "api:org.kohsuke.github.GHCheckRunBuilder.Action.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.github.GHCheckRunBuilder.Action.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -8885,7 +10140,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getTitle",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8905,7 +10160,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getRawDetails",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8920,7 +10175,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getStartColumn",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8935,7 +10190,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getEndColumn",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8945,7 +10200,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getPath",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8960,7 +10215,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getStartLine",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8970,7 +10225,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getEndLine",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8985,7 +10240,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getAnnotationLevel",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -8995,7 +10250,17 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksAnnotation.getMessage",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getAnnotation",
+      "target": "api:org.kohsuke.github.GHCheckRunBuilder.Annotation.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.github.GHCheckRunBuilder.Annotation.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -9015,7 +10280,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksImage.getCaption",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9030,7 +10295,7 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksImage.getAlt",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -9045,7 +10310,17 @@
     },
     {
       "source": "api:io.jenkins.plugins.checks.api.ChecksImage.getImageUrl",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:checks-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitHubChecksDetails.java::getImage",
+      "target": "api:org.kohsuke.github.GHCheckRunBuilder.Image.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.github.GHCheckRunBuilder.Image.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -9244,6 +10519,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getRepository",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getRepository",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getCredentialsId",
       "type": "CONTAINS"
@@ -9256,6 +10546,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getCredentialsId",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getCredentialsId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/GitSCMChecksContext.java::getCredentialsId",
+      "target": "api:edu.umd.cs.findbugs.annotations.CheckForNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9392,6 +10687,116 @@
       "source": "api:java.util.Objects.requireNonNull",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::GitHubSCMSourceChecksTrait",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::GitHubSCMSourceChecksTrait",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::setVerboseConsoleLog",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::setVerboseConsoleLog",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jenkinsci.Symbol.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitHubSCMSourceChecksTrait.java::<class>",
+      "target": "api:jenkins.scm.impl.trait.Discovery.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.scm.impl.trait.Discovery.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::GitSCMChecksExtension",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::GitSCMChecksExtension",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::setVerboseConsoleLog",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/config/GitSCMChecksExtension.java::setVerboseConsoleLog",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::GitHubStatusChecksProperties",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java::GitHubStatusChecksProperties",
+      "target": "api:edu.hm.hafner.util.VisibleForTesting.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubStatusChecksProperties.java",
@@ -9580,6 +10985,76 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::GitHubSCMSourceStatusChecksTrait",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::GitHubSCMSourceStatusChecksTrait",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkipProgressUpdates",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkipProgressUpdates",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setName",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkip",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkip",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setUnstableBuildNeutral",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setUnstableBuildNeutral",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkipNotifications",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSkipNotifications",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSuppressLogs",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::setSuppressLogs",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::decorateContext",
       "type": "CONTAINS"
     },
@@ -9619,6 +11094,96 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::doCheckName",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::<class>",
+      "target": "api:org.jenkinsci.Symbol.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitHubSCMSourceStatusChecksTrait.java::<class>",
+      "target": "api:jenkins.scm.impl.trait.Discovery.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::GitSCMStatusChecksExtension",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::GitSCMStatusChecksExtension",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSkipProgressUpdates",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSkipProgressUpdates",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setName",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setName",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSkip",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSkip",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setUnstableBuildNeutral",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setUnstableBuildNeutral",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSuppressLogs",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::setSuppressLogs",
+      "target": "api:org.kohsuke.stapler.DataBoundSetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
       "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::doCheckName",
       "type": "CONTAINS"
@@ -9636,6 +11201,21 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::doCheckName",
       "target": "api:hudson.util.FormValidation.ok",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::doCheckName",
+      "target": "api:org.kohsuke.stapler.QueryParameter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java",
+      "target": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/checks/github/status/GitSCMStatusChecksExtension.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
       "type": "CALLS"
     }
   ],

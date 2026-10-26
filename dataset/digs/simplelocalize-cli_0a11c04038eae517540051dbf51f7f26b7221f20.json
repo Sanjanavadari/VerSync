@@ -87,6 +87,21 @@
       "name": "e.printStackTrace"
     },
     {
+      "id": "api:java.io.File.<init>",
+      "type": "API",
+      "name": "java.io.File.<init>"
+    },
+    {
+      "id": "api:java.io.FileInputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileInputStream.<init>"
+    },
+    {
+      "id": "api:java.util.Properties.<init>",
+      "type": "API",
+      "name": "java.util.Properties.<init>"
+    },
+    {
       "id": "api:java.nio.channels.Channels.newChannel",
       "type": "API",
       "name": "java.nio.channels.Channels.newChannel"
@@ -115,6 +130,16 @@
       "id": "api:java.nio.channels.ReadableByteChannel.close",
       "type": "API",
       "name": "java.nio.channels.ReadableByteChannel.close"
+    },
+    {
+      "id": "api:java.net.URL.<init>",
+      "type": "API",
+      "name": "java.net.URL.<init>"
+    },
+    {
+      "id": "api:java.io.FileOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.FileOutputStream.<init>"
     },
     {
       "id": "file:src/test/resources/android/src/com/jpomykala/Win.java",
@@ -182,6 +207,31 @@
       "name": "src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.extension.ExtendWith.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:org.mockito.InjectMocks.<annotation>",
+      "type": "API",
+      "name": "org.mockito.InjectMocks.<annotation>"
+    },
+    {
+      "id": "dependency:org.mockito:mockito-core",
+      "type": "DEPENDENCY",
+      "name": "org.mockito:mockito-core"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::startServer",
       "type": "FUNCTION",
       "name": "startServer"
@@ -192,6 +242,11 @@
       "name": "org.mockserver.integration.ClientAndServer.startClientAndServer"
     },
     {
+      "id": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeAll.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::stopServer",
       "type": "FUNCTION",
       "name": "stopServer"
@@ -200,6 +255,21 @@
       "id": "api:org.mockserver.integration.ClientAndServer.stop",
       "type": "API",
       "name": "org.mockserver.integration.ClientAndServer.stop"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterAll.<annotation>"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::main",
+      "type": "FUNCTION",
+      "name": "main"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::extract",
@@ -407,6 +477,16 @@
       "name": "src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Disabled.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUpload",
       "type": "FUNCTION",
       "name": "shouldUpload"
@@ -430,6 +510,16 @@
       "id": "api:io.micronaut.configuration.picocli.PicocliRunner.run",
       "type": "API",
       "name": "io.micronaut.configuration.picocli.PicocliRunner.run"
+    },
+    {
+      "id": "api:java.io.PrintStream.<init>",
+      "type": "API",
+      "name": "java.io.PrintStream.<init>"
+    },
+    {
+      "id": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayOutputStream.<init>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
@@ -535,11 +625,6 @@
       "id": "api:org.junit.jupiter.api.Assertions.assertThrows",
       "type": "API",
       "name": "org.junit.jupiter.api.Assertions.assertThrows"
-    },
-    {
-      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
-      "type": "DEPENDENCY",
-      "name": "org.junit.jupiter:junit-jupiter-api"
     },
     {
       "id": "file:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java",
@@ -807,6 +892,11 @@
       "name": "ch.qos.logback.classic.Logger.addAppender"
     },
     {
+      "id": "api:ch.qos.logback.core.read.ListAppender.<init>",
+      "type": "API",
+      "name": "ch.qos.logback.core.read.ListAppender.<init>"
+    },
+    {
       "id": "file:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java"
@@ -972,6 +1062,16 @@
       "name": "src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.mockito.Mock.<annotation>",
+      "type": "API",
+      "name": "org.mockito.Mock.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::invoke",
       "type": "FUNCTION",
       "name": "invoke"
@@ -995,11 +1095,6 @@
       "id": "api:org.mockito.Mockito.when",
       "type": "API",
       "name": "org.mockito.Mockito.when"
-    },
-    {
-      "id": "dependency:org.mockito:mockito-core",
-      "type": "DEPENDENCY",
-      "name": "org.mockito:mockito-core"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::thenReturn",
@@ -1077,6 +1172,11 @@
       "name": "src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::shouldDownloadMultipleFiles",
       "type": "FUNCTION",
       "name": "shouldDownloadMultipleFiles"
@@ -1152,6 +1252,11 @@
       "name": "src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToDirectoryWithPrefix",
       "type": "FUNCTION",
       "name": "shouldDownloadToDirectoryWithPrefix"
@@ -1185,6 +1290,11 @@
       "id": "file:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::shouldFetchProjectDetails",
@@ -1242,14 +1352,29 @@
       "name": "src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::beforeAll",
       "type": "FUNCTION",
       "name": "beforeAll"
     },
     {
+      "id": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeEach.<annotation>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::tearDown",
       "type": "FUNCTION",
       "name": "tearDown"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterEach.<annotation>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadTwelveFiles",
@@ -1352,6 +1477,11 @@
       "name": "src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::shouldFetchProjectDetails",
       "type": "FUNCTION",
       "name": "shouldFetchProjectDetails"
@@ -1360,6 +1490,11 @@
       "id": "file:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::invoke",
@@ -1417,6 +1552,11 @@
       "name": "src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::shouldFetchHostingResources",
       "type": "FUNCTION",
       "name": "shouldFetchHostingResources"
@@ -1435,6 +1575,11 @@
       "id": "file:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::invoke",
@@ -1470,6 +1615,11 @@
       "id": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::uploadKeys",
       "type": "FUNCTION",
       "name": "uploadKeys"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
     },
     {
       "id": "file:src/test/java/io/simplelocalize/cli/extraction/AndroidProcessorTest.java",
@@ -1532,6 +1682,11 @@
       "name": "src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java"
     },
     {
+      "id": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::shouldThrowWhenWrongPath",
       "type": "FUNCTION",
       "name": "shouldThrowWhenWrongPath"
@@ -1555,6 +1710,11 @@
       "id": "file:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::shouldFindFilesToProcess",
@@ -1730,6 +1890,11 @@
       "id": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java",
       "type": "FILE",
       "name": "src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java"
+    },
+    {
+      "id": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::shouldSendKeys",
@@ -2062,6 +2227,21 @@
       "name": "src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "API",
+      "name": "picocli.CommandLine.Command.<annotation>"
+    },
+    {
+      "id": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "API",
+      "name": "picocli.CommandLine.Option.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::main",
       "type": "FUNCTION",
       "name": "main"
@@ -2242,9 +2422,34 @@
       "name": "e.getMessage"
     },
     {
+      "id": "api:org.yaml.snakeyaml.constructor.Constructor.<init>",
+      "type": "API",
+      "name": "org.yaml.snakeyaml.constructor.Constructor.<init>"
+    },
+    {
+      "id": "api:org.yaml.snakeyaml.Yaml.<init>",
+      "type": "API",
+      "name": "org.yaml.snakeyaml.Yaml.<init>"
+    },
+    {
       "id": "file:src/main/java/io/simplelocalize/cli/configuration/Configuration.java",
       "type": "FILE",
       "name": "src/main/java/io/simplelocalize/cli/configuration/Configuration.java"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/configuration/Configuration.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "API",
+      "name": "io.micronaut.core.annotation.Introspected.<annotation>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/configuration/ConfigurationValidator.java",
@@ -2275,6 +2480,11 @@
       "id": "file:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java",
       "type": "FILE",
       "name": "src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/util/WindowsUtils.java",
@@ -2467,6 +2677,21 @@
       "name": "src/main/java/io/simplelocalize/cli/io/JsonReader.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::JsonReader",
+      "type": "FUNCTION",
+      "name": "JsonReader"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::read",
       "type": "FUNCTION",
       "name": "read"
@@ -2495,6 +2720,16 @@
       "id": "dependency:com.jayway.jsonpath:json-path",
       "type": "DEPENDENCY",
       "name": "com.jayway.jsonpath:json-path"
+    },
+    {
+      "id": "api:com.jayway.jsonpath.spi.json.JacksonJsonProvider.<init>",
+      "type": "API",
+      "name": "com.jayway.jsonpath.spi.json.JacksonJsonProvider.<init>"
+    },
+    {
+      "id": "api:com.jayway.jsonpath.spi.mapper.JacksonMappingProvider.<init>",
+      "type": "API",
+      "name": "com.jayway.jsonpath.spi.mapper.JacksonMappingProvider.<init>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/command/StatusCommand.java",
@@ -2675,6 +2910,11 @@
       "id": "function:src/main/java/io/simplelocalize/cli/command/PullHostingCommand.java::matches",
       "type": "FUNCTION",
       "name": "matches"
+    },
+    {
+      "id": "api:com.jayway.jsonpath.TypeRef.<init>",
+      "type": "API",
+      "name": "com.jayway.jsonpath.TypeRef.<init>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/command/DownloadCommand.java",
@@ -2970,6 +3210,11 @@
       "id": "function:src/main/java/io/simplelocalize/cli/extraction/keys/AndroidXmlKeysExtractor.java::extractKeysFromFile",
       "type": "FUNCTION",
       "name": "extractKeysFromFile"
+    },
+    {
+      "id": "api:java.util.LinkedHashSet.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashSet.<init>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/extraction/files/GenericExtensionFilesFinder.java",
@@ -3392,11 +3637,6 @@
       "name": "com.fasterxml.jackson.databind.ObjectMapper.readValue"
     },
     {
-      "id": "dependency:com.fasterxml.jackson.core:jackson-databind",
-      "type": "DEPENDENCY",
-      "name": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::getFiles",
       "type": "FUNCTION",
       "name": "getFiles"
@@ -3522,6 +3762,16 @@
       "name": "src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::SimpleLocalizeHttpRequestFactory",
+      "type": "FUNCTION",
+      "name": "SimpleLocalizeHttpRequestFactory"
+    },
+    {
+      "id": "api:java.security.SecureRandom.<init>",
+      "type": "API",
+      "name": "java.security.SecureRandom.<init>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::POST",
       "type": "FUNCTION",
       "name": "POST"
@@ -3552,6 +3802,11 @@
       "name": "java.util.Map.put"
     },
     {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::GET",
       "type": "FUNCTION",
       "name": "GET"
@@ -3570,6 +3825,11 @@
       "id": "file:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java",
       "type": "FILE",
       "name": "src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "api:java.util.Collection.stream",
@@ -3697,6 +3957,11 @@
       "name": "src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -3727,6 +3992,26 @@
       "name": "src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonProperty.<annotation>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-annotations"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonIgnore.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -3752,6 +4037,16 @@
       "name": "hashCode"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::getAdditionalProperties",
+      "type": "FUNCTION",
+      "name": "getAdditionalProperties"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonAnyGetter.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonAnyGetter.<annotation>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::setAdditionalProperty",
       "type": "FUNCTION",
       "name": "setAdditionalProperty"
@@ -3760,6 +4055,11 @@
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::put",
       "type": "FUNCTION",
       "name": "put"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonAnySetter.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonAnySetter.<annotation>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/client/dto/FileToUpload.java",
@@ -3807,6 +4107,11 @@
       "name": "src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -3827,6 +4132,11 @@
       "name": "isEquals"
     },
     {
+      "id": "api:org.apache.commons.lang3.builder.EqualsBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang3.builder.EqualsBuilder.<init>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::hashCode",
       "type": "FUNCTION",
       "name": "hashCode"
@@ -3835,6 +4145,11 @@
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::toHashCode",
       "type": "FUNCTION",
       "name": "toHashCode"
+    },
+    {
+      "id": "api:org.apache.commons.lang3.builder.HashCodeBuilder.<init>",
+      "type": "API",
+      "name": "org.apache.commons.lang3.builder.HashCodeBuilder.<init>"
     },
     {
       "id": "file:src/main/java/io/simplelocalize/cli/client/dto/UploadRequest.java",
@@ -3850,6 +4165,16 @@
       "id": "file:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java",
       "type": "FILE",
       "name": "src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::HostingResource",
+      "type": "FUNCTION",
+      "name": "HostingResource"
     },
     {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::equals",
@@ -3872,6 +4197,11 @@
       "name": "src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java"
     },
     {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::equals",
       "type": "FUNCTION",
       "name": "equals"
@@ -3890,6 +4220,11 @@
       "id": "file:src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java",
       "type": "FILE",
       "name": "src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java"
+    },
+    {
+      "id": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     }
   ],
   "edges": [
@@ -4009,6 +4344,36 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.File.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileInputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::main",
+      "target": "api:java.util.Properties.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Properties.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:.mvn/wrapper/MavenWrapperDownloader.java",
       "target": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
       "type": "CONTAINS"
@@ -4065,6 +4430,26 @@
     },
     {
       "source": "api:java.nio.channels.ReadableByteChannel.close",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:java.net.URL.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.net.URL.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:.mvn/wrapper/MavenWrapperDownloader.java::downloadFileFromURL",
+      "target": "api:java.io.FileOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.FileOutputStream.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -4135,6 +4520,31 @@
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.InjectMocks.<annotation>",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::startServer",
       "type": "CONTAINS"
     },
@@ -4146,6 +4556,16 @@
     {
       "source": "api:org.mockserver.integration.ClientAndServer.startClientAndServer",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::startServer",
+      "target": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -4161,6 +4581,31 @@
     {
       "source": "api:org.mockserver.integration.ClientAndServer.stop",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::stopServer",
+      "target": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::main",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::main",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -4249,6 +4694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::extract",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::sync",
       "type": "CONTAINS"
@@ -4329,6 +4779,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::sync",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::upload",
       "type": "CONTAINS"
@@ -4404,6 +4859,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::upload",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::download",
       "type": "CONTAINS"
@@ -4476,6 +4936,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::download",
       "target": "api:java.util.List.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::download",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4579,6 +5044,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::pull",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::status",
       "type": "CONTAINS"
@@ -4669,6 +5139,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::status",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::publishLatest",
       "type": "CONTAINS"
@@ -4756,6 +5231,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::publishLatest",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::publish",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::publishLatest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4854,6 +5334,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandTest.java::publishProduction",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/TestResourcesUtility.java",
       "target": "function:src/test/java/io/simplelocalize/cli/TestResourcesUtility.java::read",
       "type": "CONTAINS"
@@ -4905,6 +5390,21 @@
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::<class>",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUpload",
       "type": "CONTAINS"
     },
@@ -4939,6 +5439,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUpload",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUpload",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.PrintStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUpload",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
       "type": "CONTAINS"
@@ -4956,6 +5481,21 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
       "target": "api:io.micronaut.configuration.picocli.PicocliRunner.run",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldStartAutoTranslation",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
       "type": "CALLS"
     },
     {
@@ -4979,6 +5519,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldInitFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldInitFile",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldInitFile",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownload",
       "type": "CONTAINS"
@@ -4996,6 +5551,21 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownload",
       "target": "api:io.micronaut.configuration.picocli.PicocliRunner.run",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownload",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownload",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownload",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
       "type": "CALLS"
     },
     {
@@ -5019,6 +5589,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWithMultiFileMode",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWithMultiFileMode",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWithMultiFileMode",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWithMultiFileMode",
       "type": "CONTAINS"
@@ -5036,6 +5621,21 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWithMultiFileMode",
       "target": "api:io.micronaut.configuration.picocli.PicocliRunner.run",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWithMultiFileMode",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWithMultiFileMode",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWithMultiFileMode",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
       "type": "CALLS"
     },
     {
@@ -5059,6 +5659,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWhenMinimalParameters",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWhenMinimalParameters",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldUploadWhenMinimalParameters",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWhenNoParameters",
       "type": "CONTAINS"
@@ -5076,6 +5691,21 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWhenNoParameters",
       "target": "api:io.micronaut.configuration.picocli.PicocliRunner.run",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWhenNoParameters",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWhenNoParameters",
+      "target": "api:java.io.PrintStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/SimplelocalizeCliCommandIT.java::shouldDownloadWhenNoParameters",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
       "type": "CALLS"
     },
     {
@@ -5114,6 +5744,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java::validateUploadConfiguration",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java::validateDownloadConfiguration",
       "type": "CONTAINS"
@@ -5146,6 +5781,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java::validateDownloadConfiguration",
       "target": "function:src/main/java/io/simplelocalize/cli/configuration/ConfigurationValidator.java::validateDownloadConfiguration",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java::validateDownloadConfiguration",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5194,6 +5834,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationValidatorTest.java::shouldThrowWhenApiKeyIsMissing",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldReturnDefaultConfigurationNotFound",
       "type": "CONTAINS"
@@ -5224,6 +5869,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldReturnDefaultConfigurationNotFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldReturnDefaultConfigurationWhenNoPathProvided",
       "type": "CONTAINS"
@@ -5241,6 +5891,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldReturnDefaultConfigurationWhenNoPathProvided",
       "target": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldReturnDefaultConfigurationWhenNoPathProvided",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5369,6 +6024,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldLoadConfiguration",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldThrowErrorWhenInvalidFile",
       "type": "CONTAINS"
@@ -5429,6 +6089,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/configuration/ConfigurationLoaderTest.java::shouldThrowErrorWhenInvalidFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/ListsUtilTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/ListsUtilTest.java::shouldCombineTwoLists",
       "type": "CONTAINS"
@@ -5464,6 +6129,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/ListsUtilTest.java::shouldCombineTwoLists",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java::shouldReturnEmptyStringWhenFileNotFound",
       "type": "CONTAINS"
@@ -5491,6 +6161,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java::shouldReturnEmptyStringWhenFileNotFound",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java::isEmpty",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java::shouldReturnEmptyStringWhenFileNotFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5534,6 +6209,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileContentReaderTest.java::shouldTryReadContent",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/TestLogEventFactory.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/TestLogEventFactory.java::createAndGetLogEventList",
       "type": "CONTAINS"
@@ -5565,6 +6245,16 @@
     },
     {
       "source": "api:ch.qos.logback.classic.Logger.addAppender",
+      "target": "dependency:ch.qos.logback:logback-classic",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/TestLogEventFactory.java::createAndGetLogEventList",
+      "target": "api:ch.qos.logback.core.read.ListAppender.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ch.qos.logback.core.read.ListAppender.<init>",
       "target": "dependency:ch.qos.logback:logback-classic",
       "type": "PROVIDED_BY"
     },
@@ -5624,6 +6314,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindJsonFilesWithInLocaleDirectoryWhenNamespaceFirst",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindJsonFilesWithInLocaleDirectory",
       "type": "CONTAINS"
@@ -5671,6 +6366,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindJsonFilesWithInLocaleDirectory",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindJsonFilesWithInLocaleDirectory",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5724,6 +6424,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInDirectoryName",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInDirectoryNameWithPrefix",
       "type": "CONTAINS"
@@ -5771,6 +6476,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInDirectoryNameWithPrefix",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInDirectoryNameWithPrefix",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5824,6 +6534,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInFilename",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInFilenameAndProperties",
       "type": "CONTAINS"
@@ -5871,6 +6586,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInFilenameAndProperties",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindFilesWithLangInFilenameAndProperties",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -5924,6 +6644,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindOneWithoutTemplateKeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindTranslationsWhenExtremeEdgeCases",
       "type": "CONTAINS"
@@ -5971,6 +6696,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindTranslationsWhenExtremeEdgeCases",
       "target": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::shouldFindTranslationsWhenExtremeEdgeCases",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6029,6 +6759,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/FileListReaderTest.java::langAsDirectoriesNsAsFilename",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::beforeAll",
       "type": "CONTAINS"
@@ -6044,6 +6779,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::beforeAll",
+      "target": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::tearDown",
       "type": "CONTAINS"
@@ -6057,6 +6797,11 @@
       "source": "api:java.lang.System.setProperty",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::tearDown",
+      "target": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java",
@@ -6089,6 +6834,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::shouldReturnTrueWhenWindows",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::shouldReturnFalseWhenMacOS",
       "type": "CONTAINS"
@@ -6111,6 +6861,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::shouldReturnFalseWhenMacOS",
       "target": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::isFalse",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::shouldReturnFalseWhenMacOS",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6137,6 +6892,36 @@
       "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::convertToWindowsPathWhenWindows",
       "target": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::isEqualTo",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/util/WindowsUtilsTest.java::convertToWindowsPathWhenWindows",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.mockito.Mock.<annotation>",
+      "target": "dependency:org.mockito:mockito-core",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java",
@@ -6284,6 +7069,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandTest.java::invoke",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::shouldDownloadMultipleFiles",
       "type": "CONTAINS"
@@ -6404,6 +7209,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandTest.java::shouldDownloadMultipleFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::<class>",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToDirectoryWithPrefix",
       "type": "CONTAINS"
@@ -6446,6 +7266,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToDirectoryWithPrefix",
       "target": "api:java.nio.file.Path.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToDirectoryWithPrefix",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6494,6 +7319,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToDirectoryWithSuffixAndPrefix",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToFileWithLanguageName",
       "type": "CONTAINS"
@@ -6539,6 +7369,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToFileWithLanguageName",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToOneFile",
       "type": "CONTAINS"
@@ -6581,6 +7416,31 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToOneFile",
       "target": "api:java.nio.file.Path.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/DownloadCommandIT.java::shouldDownloadToOneFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
       "type": "CALLS"
     },
     {
@@ -6674,6 +7534,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandTest.java::shouldFetchProjectDetails",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::beforeAll",
       "type": "CONTAINS"
@@ -6684,6 +7564,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::beforeAll",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::tearDown",
       "type": "CONTAINS"
@@ -6692,6 +7582,16 @@
       "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::tearDown",
       "target": "api:java.lang.System.setProperty",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::tearDown",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
@@ -6789,6 +7689,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadTwelveFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadOneFileWithLangTemplate",
       "type": "CONTAINS"
@@ -6879,6 +7784,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadOneFileWithLangTemplate",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadOneFileWithOnlyTranslationKeys",
       "type": "CONTAINS"
@@ -6964,6 +7874,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadOneFileWithOnlyTranslationKeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldSkipEmptyFile",
       "type": "CONTAINS"
@@ -6997,6 +7912,11 @@
       "source": "api:org.mockito.Mockito.verifyNoInteractions",
       "target": "dependency:org.mockito:mockito-core",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldSkipEmptyFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
@@ -7089,6 +8009,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadOneFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadZeroFiles",
       "type": "CONTAINS"
@@ -7116,6 +8041,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadZeroFiles",
       "target": "api:org.mockito.Mockito.verifyNoInteractions",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldUploadZeroFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7154,6 +8084,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/UploadCommandTest.java::shouldThrowMatchingFilesCouldNotBeFoundWhenFakeWindows",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::<class>",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::shouldFetchProjectDetails",
       "type": "CONTAINS"
@@ -7166,6 +8111,31 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::shouldFetchProjectDetails",
       "target": "function:src/main/java/io/simplelocalize/cli/command/StatusCommand.java::invoke",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/StatusCommandIT.java::shouldFetchProjectDetails",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7264,6 +8234,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PublishHostingCommandTest.java::invoke",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::<class>",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::shouldFetchHostingResources",
       "type": "CONTAINS"
@@ -7286,6 +8271,26 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::shouldFetchHostingResources",
       "target": "function:src/main/java/io/simplelocalize/cli/command/PullHostingCommand.java::invoke",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/PullHostingCommandIT.java::shouldFetchHostingResources",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::<class>",
+      "target": "api:org.mockito.Mock.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7359,6 +8364,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::invoke",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/command/ExtractCommandTest.java::invoke",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/AndroidProcessorTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/AndroidProcessorTest.java::shouldFindFilesToProcess",
       "type": "CONTAINS"
@@ -7394,6 +8414,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/AndroidProcessorTest.java::shouldFindFilesToProcess",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java::shouldCreateProjectProcessorWhenKnownProjectType",
       "type": "CONTAINS"
@@ -7414,6 +8439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java::shouldCreateProjectProcessorWhenKnownProjectType",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java::shouldThrowWhenUnknownProjectType",
       "type": "CONTAINS"
@@ -7426,6 +8456,26 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java::shouldThrowWhenUnknownProjectType",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/ProjectProcessorFactory.java::createForType",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/ExtractionProcessorFactoryTest.java::shouldThrowWhenUnknownProjectType",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7446,6 +8496,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::shouldThrowWhenWrongPath",
       "target": "api:java.nio.file.Paths.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::shouldThrowWhenWrongPath",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7481,6 +8536,26 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::shouldFindFilesToProcess",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/ExtractionResult.java::getKeys",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/YahooReactIntlProcessorTest.java::shouldFindFilesToProcess",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::<class>",
+      "target": "api:org.junit.jupiter.api.extension.ExtendWith.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::<class>",
+      "target": "api:org.mockito.InjectMocks.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7524,6 +8599,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/processor/iOSProcessorTest.java::shouldFindFilesToProcess",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java::shouldFindFiles",
       "type": "CONTAINS"
@@ -7549,6 +8629,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java::shouldFindFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java::shouldThrowWhenFileNotFound",
       "type": "CONTAINS"
@@ -7566,6 +8651,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java::shouldThrowWhenFileNotFound",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinder.java::findFilesToProcess",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/files/JavaScriptAndTypeScriptFilesFinderTest.java::shouldThrowWhenFileNotFound",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7624,6 +8714,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/EjsKeyExtractorTest.java::shouldExtractKeysFromLines",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromLines",
       "type": "CONTAINS"
@@ -7671,6 +8766,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromLines",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::containsExactlyInAnyOrder",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromLines",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7724,6 +8824,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromProblematicCase2",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromProblematicCase3",
       "type": "CONTAINS"
@@ -7771,6 +8876,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromProblematicCase3",
       "target": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::contains",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/ReactIntlKeyExtractorTest.java::shouldExtractKeysFromProblematicCase3",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7824,6 +8934,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/extraction/keys/IEighteenNextKeyExtractorTest.java::shouldExtractKeysFromLines",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java",
+      "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::<class>",
+      "target": "api:org.junit.jupiter.api.Disabled.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::shouldSendKeys",
       "type": "CONTAINS"
@@ -7841,6 +8966,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::shouldSendKeys",
       "target": "api:java.util.List.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::shouldSendKeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7904,6 +9034,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientIT.java::shouldUploadFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::startServer",
       "type": "CONTAINS"
@@ -7914,6 +9049,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::startServer",
+      "target": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::stopServer",
       "type": "CONTAINS"
@@ -7921,6 +9061,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::stopServer",
       "target": "api:org.mockserver.integration.ClientAndServer.stop",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::stopServer",
+      "target": "api:org.junit.jupiter.api.AfterAll.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8001,6 +9146,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldSendKeys",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::uploadKeys",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldSendKeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8109,6 +9259,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldUploadFileWithLanguageKey",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldUploadFile",
       "type": "CONTAINS"
@@ -8211,6 +9366,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldUploadFile",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::uploadFile",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldUploadFile",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8334,6 +9494,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldLogApiErrorMessageWhenUploadFileFailed",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldGetDownloadableFiles",
       "type": "CONTAINS"
@@ -8426,6 +9591,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldGetDownloadableFiles",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::fetchDownloadableFiles",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldGetDownloadableFiles",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8524,6 +9694,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldDownloadWithManyOptions",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldDownloadS3File",
       "type": "CONTAINS"
@@ -8616,6 +9791,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldDownloadS3File",
       "target": "api:java.nio.file.Path.of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldDownloadS3File",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8719,6 +9899,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/SimpleLocalizeClientTest.java::shouldDownloadAndTruncateBeforeWriting",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::ofKeysBody",
       "type": "CONTAINS"
@@ -8741,6 +9926,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::ofKeysBody",
       "target": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::ofKeysBody",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8776,6 +9966,11 @@
     {
       "source": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::ofMimeMultipartData",
       "target": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::isNotNull",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/ClientBodyBuildersTest.java::ofMimeMultipartData",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -8844,6 +10039,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::shouldReturnTrueIfWhenSameObject",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::shouldReturnFalseIfObjectsAreDifferent",
       "type": "CONTAINS"
@@ -8909,6 +10109,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::shouldReturnFalseIfObjectsAreDifferent",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java",
       "target": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::testHashCode",
       "type": "CONTAINS"
@@ -8967,6 +10172,36 @@
       "source": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::testHashCode",
       "target": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::isEqualTo",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/simplelocalize/cli/client/dto/UploadRequestTest.java::testHashCode",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::<class>",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:picocli.CommandLine.Command.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::<class>",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:picocli.CommandLine.Option.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
@@ -9054,6 +10289,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::extract",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::extract",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::sync",
       "type": "CONTAINS"
@@ -9066,6 +10311,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::sync",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::download",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::sync",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::sync",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9179,6 +10434,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::upload",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::upload",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::download",
       "type": "CONTAINS"
@@ -9264,6 +10529,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::download",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::download",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::pull",
       "type": "CONTAINS"
@@ -9339,6 +10614,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::pull",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::pull",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::startAutoTranslation",
       "type": "CONTAINS"
@@ -9409,6 +10694,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::startAutoTranslation",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::startAutoTranslation",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::init",
       "type": "CONTAINS"
@@ -9426,6 +10721,11 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::init",
       "target": "api:java.lang.System.exit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::init",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9486,6 +10786,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::status",
       "target": "api:java.lang.System.exit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::status",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::status",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9551,6 +10861,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::publish",
       "target": "api:java.lang.System.exit",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::publish",
+      "target": "api:picocli.CommandLine.Command.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/SimplelocalizeCliCommand.java::publish",
+      "target": "api:picocli.CommandLine.Option.<annotation>",
       "type": "CALLS"
     },
     {
@@ -9666,6 +10986,61 @@
     {
       "source": "api:e.getMessage",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/ConfigurationLoader.java::load",
+      "target": "api:java.io.File.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/ConfigurationLoader.java::load",
+      "target": "api:org.yaml.snakeyaml.constructor.Constructor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.yaml.snakeyaml.constructor.Constructor.<init>",
+      "target": "dependency:org.yaml:snakeyaml",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/ConfigurationLoader.java::load",
+      "target": "api:org.yaml.snakeyaml.Yaml.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.yaml.snakeyaml.Yaml.<init>",
+      "target": "dependency:org.yaml:snakeyaml",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/ConfigurationLoader.java::load",
+      "target": "api:java.io.FileInputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/configuration/Configuration.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/configuration/Configuration.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/Configuration.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "target": "dependency:io.micronaut:micronaut-inject",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/Configuration.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -9869,6 +11244,21 @@
       "type": "CALLS"
     },
     {
+      "source": "file:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/configuration/AutoTranslationConfiguration.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/util/WindowsUtils.java",
       "target": "function:src/main/java/io/simplelocalize/cli/util/WindowsUtils.java::isWindows",
       "type": "CONTAINS"
@@ -9947,6 +11337,11 @@
       "source": "api:java.util.ArrayList.addAll",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/util/ListsUtil.java::combine",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/io/FileContentReader.java",
@@ -10230,6 +11625,21 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/io/JsonReader.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::JsonReader",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::JsonReader",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/io/JsonReader.java",
       "target": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::read",
       "type": "CONTAINS"
     },
@@ -10255,6 +11665,26 @@
     },
     {
       "source": "api:com.jayway.jsonpath.JsonPath.parse",
+      "target": "dependency:com.jayway.jsonpath:json-path",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::read",
+      "target": "api:com.jayway.jsonpath.spi.json.JacksonJsonProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jayway.jsonpath.spi.json.JacksonJsonProvider.<init>",
+      "target": "dependency:com.jayway.jsonpath:json-path",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/io/JsonReader.java::read",
+      "target": "api:com.jayway.jsonpath.spi.mapper.JacksonMappingProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jayway.jsonpath.spi.mapper.JacksonMappingProvider.<init>",
       "target": "dependency:com.jayway.jsonpath:json-path",
       "type": "PROVIDED_BY"
     },
@@ -10484,6 +11914,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/command/ExtractCommand.java::invoke",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/command/InitCommand.java",
       "target": "function:src/main/java/io/simplelocalize/cli/command/InitCommand.java::invoke",
       "type": "CONTAINS"
@@ -10672,6 +12107,16 @@
       "source": "function:src/main/java/io/simplelocalize/cli/command/PullHostingCommand.java::invoke",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::downloadFile",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/command/PullHostingCommand.java::invoke",
+      "target": "api:com.jayway.jsonpath.TypeRef.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.jayway.jsonpath.TypeRef.<init>",
+      "target": "dependency:com.jayway.jsonpath:json-path",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/command/DownloadCommand.java",
@@ -11174,6 +12619,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/YahooReactIntlProcessor.java::process",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/extraction/processor/EjsProcessor.java",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/processor/EjsProcessor.java::process",
       "type": "CONTAINS"
@@ -11196,6 +12646,11 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/EjsProcessor.java::process",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/ExtractionResult.java::of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/EjsProcessor.java::process",
+      "target": "api:java.util.HashSet.<init>",
       "type": "CALLS"
     },
     {
@@ -11224,6 +12679,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/IEighteenNextProcessor.java::process",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/extraction/processor/iOSProcessor.java",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/processor/iOSProcessor.java::process",
       "type": "CONTAINS"
@@ -11246,6 +12706,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/iOSProcessor.java::process",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/ExtractionResult.java::of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/iOSProcessor.java::process",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/iOSProcessor.java::process",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -11291,6 +12761,21 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/AndroidProcessor.java::process",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/ExtractionResult.java::of",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/AndroidProcessor.java::process",
+      "target": "api:java.util.LinkedHashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/processor/AndroidProcessor.java::process",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -11869,6 +13354,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/extraction/keys/IEighteenNextKeyExtractor.java::extractKeysFromFile",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/extraction/keys/IEighteenNextKeyExtractor.java",
       "target": "function:src/main/java/io/simplelocalize/cli/extraction/keys/IEighteenNextKeyExtractor.java::matchI18nKey",
       "type": "CONTAINS"
@@ -12051,6 +13541,11 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::SimpleLocalizeClient",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::build",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeClient.java::SimpleLocalizeClient",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -12555,6 +14050,21 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::SimpleLocalizeHttpRequestFactory",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::SimpleLocalizeHttpRequestFactory",
+      "target": "api:java.security.SecureRandom.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.security.SecureRandom.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::createSendKeysRequest",
       "type": "CONTAINS"
     },
@@ -12639,6 +14149,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::createUploadFileRequest",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::createGetRequest",
       "type": "CONTAINS"
@@ -12676,6 +14196,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::createBaseRequest",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeHttpRequestFactory.java::header",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java::<class>",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -12834,6 +14364,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/ClientBodyBuilders.java::ofMimeMultipartData",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeUriFactory.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/SimpleLocalizeUriFactory.java::buildSendKeysURI",
       "type": "CONTAINS"
@@ -12985,6 +14520,16 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/DownloadableFile.java::equals",
       "type": "CONTAINS"
     },
@@ -13022,6 +14567,41 @@
       "source": "api:java.util.Objects.hash",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonIgnore.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::<class>",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java",
@@ -13070,6 +14650,21 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::getAdditionalProperties",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::getAdditionalProperties",
+      "target": "api:com.fasterxml.jackson.annotation.JsonAnyGetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonAnyGetter.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::setAdditionalProperty",
       "type": "CONTAINS"
     },
@@ -13077,6 +14672,16 @@
       "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::setAdditionalProperty",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::put",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ExportResponse.java::setAdditionalProperty",
+      "target": "api:com.fasterxml.jackson.annotation.JsonAnySetter.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonAnySetter.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/FileToUpload.java",
@@ -13140,6 +14745,16 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::equals",
       "type": "CONTAINS"
     },
@@ -13164,6 +14779,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::equals",
+      "target": "api:org.apache.commons.lang3.builder.EqualsBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang3.builder.EqualsBuilder.<init>",
+      "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::hashCode",
       "type": "CONTAINS"
@@ -13177,6 +14802,16 @@
       "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::hashCode",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::toHashCode",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportForm.java::hashCode",
+      "target": "api:org.apache.commons.lang3.builder.HashCodeBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.commons.lang3.builder.HashCodeBuilder.<init>",
+      "target": "dependency:org.apache.commons:commons-lang3",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/UploadRequest.java",
@@ -13206,6 +14841,26 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/client/dto/UploadRequest.java::hashCode",
       "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::HostingResource",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/HostingResource.java::HostingResource",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
       "type": "CALLS"
     },
     {
@@ -13240,6 +14895,16 @@
     },
     {
       "source": "file:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java",
       "target": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::equals",
       "type": "CONTAINS"
     },
@@ -13266,6 +14931,16 @@
     {
       "source": "function:src/main/java/io/simplelocalize/cli/client/dto/StartAutoTranslationRequest.java::hashCode",
       "target": "api:java.util.Objects.hash",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java",
+      "target": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/simplelocalize/cli/client/dto/ImportKey.java::<class>",
+      "target": "api:io.micronaut.core.annotation.Introspected.<annotation>",
       "type": "CALLS"
     }
   ],

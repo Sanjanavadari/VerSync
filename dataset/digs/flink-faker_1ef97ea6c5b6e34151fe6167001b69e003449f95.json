@@ -67,6 +67,26 @@
       "name": "com.github.knaufk.flink.faker.TestUtils.getString"
     },
     {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:org.apache.flink.configuration.Configuration.<init>",
+      "type": "API",
+      "name": "org.apache.flink.configuration.Configuration.<init>"
+    },
+    {
+      "id": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "DEPENDENCY",
+      "name": "org.apache.flink:flink-table-api-java-bridge"
+    },
+    {
       "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
       "type": "FUNCTION",
       "name": "testREADME"
@@ -75,11 +95,6 @@
       "id": "api:org.apache.flink.table.data.RowData.getArity",
       "type": "API",
       "name": "org.apache.flink.table.data.RowData.getArity"
-    },
-    {
-      "id": "dependency:org.apache.flink:flink-table-api-java-bridge",
-      "type": "DEPENDENCY",
-      "name": "org.apache.flink:flink-table-api-java-bridge"
     },
     {
       "id": "api:com.github.knaufk.flink.faker.TestUtils.isFalse",
@@ -287,6 +302,16 @@
       "name": "src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java"
     },
     {
+      "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
       "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
       "type": "FUNCTION",
       "name": "testLookupWithMultipleKeys"
@@ -375,6 +400,11 @@
       "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
       "type": "FUNCTION",
       "name": "withStackTraceContaining"
+    },
+    {
+      "id": "api:java.util.HashMap.<init>",
+      "type": "API",
+      "name": "java.util.HashMap.<init>"
     },
     {
       "id": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
@@ -512,6 +542,11 @@
       "name": "java.lang.System.currentTimeMillis"
     },
     {
+      "id": "api:java.util.Random.<init>",
+      "type": "API",
+      "name": "java.util.Random.<init>"
+    },
+    {
       "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::flatMap",
       "type": "FUNCTION",
       "name": "flatMap"
@@ -580,6 +615,16 @@
       "id": "api:java.util.List.toArray",
       "type": "API",
       "name": "java.util.List.toArray"
+    },
+    {
+      "id": "api:org.apache.flink.annotation.VisibleForTesting.<annotation>",
+      "type": "API",
+      "name": "org.apache.flink.annotation.VisibleForTesting.<annotation>"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.GenericRowData.<init>",
+      "type": "API",
+      "name": "org.apache.flink.table.data.GenericRowData.<init>"
     },
     {
       "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::getRuntimeContext",
@@ -732,6 +777,11 @@
       "name": "toString"
     },
     {
+      "id": "api:org.apache.flink.table.api.ValidationException.<init>",
+      "type": "API",
+      "name": "org.apache.flink.table.api.ValidationException.<init>"
+    },
+    {
       "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::floatType",
       "type": "FUNCTION",
       "name": "floatType"
@@ -752,6 +802,16 @@
       "name": "contains"
     },
     {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::requiredOptions",
+      "type": "FUNCTION",
+      "name": "requiredOptions"
+    },
+    {
+      "id": "api:java.util.HashSet.<init>",
+      "type": "API",
+      "name": "java.util.HashSet.<init>"
+    },
+    {
       "id": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
       "type": "FUNCTION",
       "name": "optionalOptions"
@@ -765,6 +825,16 @@
       "id": "file:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java",
       "type": "FILE",
       "name": "src/main/java/com/github/knaufk/flink/faker/FakerUtils.java"
+    },
+    {
+      "id": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.time.format.DateTimeFormatterBuilder.<init>",
+      "type": "API",
+      "name": "java.time.format.DateTimeFormatterBuilder.<init>"
     },
     {
       "id": "api:org.apache.flink.table.types.logical.LogicalType.getTypeRoot",
@@ -867,6 +937,26 @@
       "name": "java.util.Map.get"
     },
     {
+      "id": "api:java.math.BigDecimal.<init>",
+      "type": "API",
+      "name": "java.math.BigDecimal.<init>"
+    },
+    {
+      "id": "api:java.math.BigInteger.<init>",
+      "type": "API",
+      "name": "java.math.BigInteger.<init>"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.GenericArrayData.<init>",
+      "type": "API",
+      "name": "org.apache.flink.table.data.GenericArrayData.<init>"
+    },
+    {
+      "id": "api:org.apache.flink.table.data.GenericMapData.<init>",
+      "type": "API",
+      "name": "org.apache.flink.table.data.GenericMapData.<init>"
+    },
+    {
       "id": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
       "type": "FILE",
       "name": "src/main/java/com/github/knaufk/flink/faker/DateTime.java"
@@ -880,6 +970,11 @@
       "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
       "type": "FUNCTION",
       "name": "getTime"
+    },
+    {
+      "id": "api:java.sql.Timestamp.<init>",
+      "type": "API",
+      "name": "java.sql.Timestamp.<init>"
     },
     {
       "id": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
@@ -1004,6 +1099,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSimpleExpressions",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.configuration.Configuration.<init>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
       "type": "CONTAINS"
@@ -1069,6 +1184,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testREADME",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
       "type": "CONTAINS"
@@ -1116,6 +1241,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
       "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testSupportedDataTypes",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
       "type": "CALLS"
     },
     {
@@ -1176,6 +1311,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
       "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerGeneratorTest.java::testNullsForAllDatatypes",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
       "type": "CALLS"
     },
     {
@@ -1304,6 +1449,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testRandomResultsWithoutParallelism",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
       "type": "CONTAINS"
@@ -1359,6 +1509,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testWithComputedColumn",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
       "type": "CONTAINS"
@@ -1406,6 +1561,11 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::isEqualTo",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithLimitedNumberOfRows",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1477,6 +1637,11 @@
       "source": "api:org.apache.flink.types.Row.getField",
       "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testFlinkFakerWithComplexTypes",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java",
@@ -1584,6 +1749,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerIntegrationTest.java::testLimitPushDown",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
+      "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
       "type": "CONTAINS"
@@ -1659,6 +1844,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
       "type": "CONTAINS"
@@ -1721,6 +1911,11 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
       "target": "api:org.apache.flink.table.data.RowData.isNullAt",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunctionTest.java::testLookupWithMultipleKeysButOnlyNullValues",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -1789,6 +1984,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testSchemaWithNonSupportedTypesIsInvalid",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
       "type": "CONTAINS"
@@ -1806,6 +2016,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidNullRateIsValid",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -1844,6 +2064,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNegativeNullRateIsInvalid",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
       "type": "CONTAINS"
@@ -1876,6 +2106,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::withStackTraceContaining",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testNullRateGreaterOneIsInvalid",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -1914,6 +2154,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testPropertiesWithoutExpressionForOnecolumnIsInvalid",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
       "type": "CONTAINS"
@@ -1949,6 +2199,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testInvalidExpressionIsInvalid",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
       "type": "CONTAINS"
@@ -1966,6 +2226,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testValidTableSourceIsValid",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -2036,6 +2306,16 @@
     {
       "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
       "target": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::testTimestamps",
+      "target": "api:java.util.HashMap.<init>",
       "type": "CALLS"
     },
     {
@@ -2144,6 +2424,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactoryTest.java::createTableSource",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
       "type": "CONTAINS"
@@ -2155,6 +2445,16 @@
     },
     {
       "source": "api:java.lang.System.currentTimeMillis",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::open",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Random.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -2291,6 +2591,31 @@
     {
       "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
       "target": "api:java.util.List.size",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:org.apache.flink.annotation.VisibleForTesting.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.annotation.VisibleForTesting.<annotation>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:org.apache.flink.table.data.GenericRowData.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.GenericRowData.<init>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerGenerator.java::generateNextRow",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
@@ -2449,6 +2774,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::createDynamicTableSource",
+      "target": "api:org.apache.flink.configuration.Configuration.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
       "type": "CONTAINS"
@@ -2509,6 +2839,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateCollectionLength",
+      "target": "api:org.apache.flink.table.api.ValidationException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.api.ValidationException.<init>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
       "type": "CONTAINS"
@@ -2531,6 +2871,11 @@
     {
       "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
       "target": "api:org.apache.flink.configuration.Configuration.get",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateNullRate",
+      "target": "api:org.apache.flink.table.api.ValidationException.<init>",
       "type": "CALLS"
     },
     {
@@ -2599,6 +2944,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::readAndValidateFieldExpression",
+      "target": "api:org.apache.flink.table.api.ValidationException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
       "type": "CONTAINS"
@@ -2619,6 +2969,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::validateDataType",
+      "target": "api:org.apache.flink.table.api.ValidationException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::requiredOptions",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::requiredOptions",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.HashSet.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
       "type": "CONTAINS"
@@ -2630,6 +3000,26 @@
     },
     {
       "source": "api:java.util.Set.add",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerTableSourceFactory.java::optionalOptions",
+      "target": "api:java.util.HashSet.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::<class>",
+      "target": "api:java.time.format.DateTimeFormatterBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.time.format.DateTimeFormatterBuilder.<init>",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
@@ -2844,6 +3234,56 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.math.BigDecimal.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.math.BigDecimal.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.math.BigInteger.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.math.BigInteger.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.GenericArrayData.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.GenericArrayData.<init>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:java.util.HashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.GenericMapData.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.apache.flink.table.data.GenericMapData.<init>",
+      "target": "dependency:org.apache.flink:flink-table-api-java-bridge",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FakerUtils.java::stringValueToType",
+      "target": "api:org.apache.flink.table.data.GenericRowData.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::past",
       "type": "CONTAINS"
@@ -2854,6 +3294,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::past",
+      "target": "api:java.sql.Timestamp.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.sql.Timestamp.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
       "type": "CONTAINS"
@@ -2861,6 +3311,11 @@
     {
       "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::getTime",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::future",
+      "target": "api:java.sql.Timestamp.<init>",
       "type": "CALLS"
     },
     {
@@ -2874,6 +3329,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::between",
+      "target": "api:java.sql.Timestamp.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/DateTime.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::birthday",
       "type": "CONTAINS"
@@ -2884,6 +3344,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/DateTime.java::birthday",
+      "target": "api:java.sql.Timestamp.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
       "type": "CONTAINS"
@@ -2891,6 +3356,21 @@
     {
       "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
       "target": "api:java.util.List.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::FlinkFakerLookupFunction",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java",
+      "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::open",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::open",
+      "target": "api:java.util.Random.<init>",
       "type": "CALLS"
     },
     {
@@ -2941,6 +3421,16 @@
     {
       "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
       "target": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::collect",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:org.apache.flink.table.data.GenericRowData.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/github/knaufk/flink/faker/FlinkFakerLookupFunction.java::eval",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     }
   ],

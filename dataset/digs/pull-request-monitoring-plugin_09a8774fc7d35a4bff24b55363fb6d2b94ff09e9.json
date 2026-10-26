@@ -7,6 +7,21 @@
       "name": "src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java"
     },
     {
+      "id": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "API",
+      "name": "org.jvnet.hudson.test.JenkinsRule.<init>"
+    },
+    {
+      "id": "dependency:unknown",
+      "type": "DEPENDENCY",
+      "name": "unknown"
+    },
+    {
       "id": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::init",
       "type": "FUNCTION",
       "name": "init"
@@ -15,11 +30,6 @@
       "id": "api:jenkins.scm.impl.mock.MockSCMController.create",
       "type": "API",
       "name": "jenkins.scm.impl.mock.MockSCMController.create"
-    },
-    {
-      "id": "dependency:unknown",
-      "type": "DEPENDENCY",
-      "name": "unknown"
     },
     {
       "id": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::teardown",
@@ -217,9 +227,39 @@
       "name": "add"
     },
     {
+      "id": "api:jenkins.branch.BranchSource.<init>",
+      "type": "API",
+      "name": "jenkins.branch.BranchSource.<init>"
+    },
+    {
+      "id": "api:jenkins.scm.impl.mock.MockSCMSource.<init>",
+      "type": "API",
+      "name": "jenkins.scm.impl.mock.MockSCMSource.<init>"
+    },
+    {
+      "id": "api:jenkins.scm.impl.mock.MockSCMDiscoverChangeRequests.<init>",
+      "type": "API",
+      "name": "jenkins.scm.impl.mock.MockSCMDiscoverChangeRequests.<init>"
+    },
+    {
+      "id": "api:jenkins.scm.impl.mock.MockSCMDiscoverBranches.<init>",
+      "type": "API",
+      "name": "jenkins.scm.impl.mock.MockSCMDiscoverBranches.<init>"
+    },
+    {
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:hudson.Extension.<annotation>",
+      "type": "API",
+      "name": "hudson.Extension.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::createFor",
@@ -250,6 +290,11 @@
       "id": "api:java.util.Collections.singletonList",
       "type": "API",
       "name": "java.util.Collections.singletonList"
+    },
+    {
+      "id": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "API",
+      "name": "edu.umd.cs.findbugs.annotations.NonNull.<annotation>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorPortletFactory.java",
@@ -302,6 +347,11 @@
       "name": "src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::createFor",
       "type": "FUNCTION",
       "name": "createFor"
@@ -325,6 +375,16 @@
       "id": "api:java.util.List.add",
       "type": "API",
       "name": "java.util.List.add"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/DemoPortlet.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java",
@@ -452,6 +512,11 @@
       "name": "java.util.logging.Logger.log"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::newInstance",
+      "type": "FUNCTION",
+      "name": "newInstance"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::getDisplayName",
       "type": "FUNCTION",
       "name": "getDisplayName"
@@ -460,6 +525,11 @@
       "id": "api:Messages.Property_DisplayName",
       "type": "API",
       "name": "Messages.Property_DisplayName"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
@@ -652,9 +722,19 @@
       "name": "io.jenkins.plugins.forensics.reference.ReferenceFinder.findReference"
     },
     {
-      "id": "dependency:io.jenkins.plugins:plugin-util-api",
+      "id": "dependency:io.jenkins.plugins:forensics-api",
       "type": "DEPENDENCY",
-      "name": "io.jenkins.plugins:plugin-util-api"
+      "name": "io.jenkins.plugins:forensics-api"
+    },
+    {
+      "id": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "API",
+      "name": "edu.hm.hafner.util.FilteredLog.<init>"
+    },
+    {
+      "id": "api:io.jenkins.plugins.forensics.reference.ReferenceFinder.<init>",
+      "type": "API",
+      "name": "io.jenkins.plugins.forensics.reference.ReferenceFinder.<init>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getPullRequestMetadataBody",
@@ -802,6 +882,11 @@
       "name": "org.apache.commons.collections.CollectionUtils.removeAll"
     },
     {
+      "id": "api:org.json.JSONArray.<init>",
+      "type": "API",
+      "name": "org.json.JSONArray.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::hasChanges",
       "type": "FUNCTION",
       "name": "hasChanges"
@@ -837,9 +922,19 @@
       "name": "com.fasterxml.jackson.databind.JsonNode.equals"
     },
     {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::updateMonitorConfiguration",
       "type": "FUNCTION",
       "name": "updateMonitorConfiguration"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>"
     },
     {
       "id": "api:j2html.TagCreator.getConfig",
@@ -897,6 +992,11 @@
       "name": "src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java"
     },
     {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::createFor",
       "type": "FUNCTION",
       "name": "createFor"
@@ -905,6 +1005,16 @@
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/Monitor.java",
       "type": "FILE",
       "name": "src/main/java/io/jenkins/plugins/monitoring/Monitor.java"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::Monitor",
+      "type": "FUNCTION",
+      "name": "Monitor"
+    },
+    {
+      "id": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "API",
+      "name": "org.kohsuke.stapler.DataBoundConstructor.<annotation>"
     },
     {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::run",
@@ -1025,6 +1135,11 @@
       "id": "api:Messages.Step_DisplayName",
       "type": "API",
       "name": "Messages.Step_DisplayName"
+    },
+    {
+      "id": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectAction.java",
@@ -1217,6 +1332,11 @@
       "name": "toArray"
     },
     {
+      "id": "api:org.json.JSONObject.<init>",
+      "type": "API",
+      "name": "org.json.JSONObject.<init>"
+    },
+    {
       "id": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::getResourceAsStream",
       "type": "FUNCTION",
       "name": "getResourceAsStream"
@@ -1235,9 +1355,29 @@
       "id": "api:org.everit.json.schema.Schema.validate",
       "type": "API",
       "name": "org.everit.json.schema.Schema.validate"
+    },
+    {
+      "id": "api:org.json.JSONTokener.<init>",
+      "type": "API",
+      "name": "org.json.JSONTokener.<init>"
     }
   ],
   "edges": [
+    {
+      "source": "file:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java",
+      "target": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::<class>",
+      "target": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jvnet.hudson.test.JenkinsRule.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
     {
       "source": "file:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::init",
@@ -1814,6 +1954,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithPr",
+      "target": "api:jenkins.branch.BranchSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.branch.BranchSource.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithPr",
+      "target": "api:jenkins.scm.impl.mock.MockSCMSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.scm.impl.mock.MockSCMSource.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithPr",
+      "target": "api:jenkins.scm.impl.mock.MockSCMDiscoverChangeRequests.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.scm.impl.mock.MockSCMDiscoverChangeRequests.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java",
       "target": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithoutPr",
       "type": "CONTAINS"
@@ -1874,6 +2044,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithoutPr",
+      "target": "api:jenkins.branch.BranchSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithoutPr",
+      "target": "api:jenkins.scm.impl.mock.MockSCMSource.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/io/jenkins/plugins/monitoring/MonitorTest.java::createRepositoryWithoutPr",
+      "target": "api:jenkins.scm.impl.mock.MockSCMDiscoverBranches.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:jenkins.scm.impl.mock.MockSCMDiscoverBranches.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:hudson.Extension.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::createFor",
       "type": "CONTAINS"
@@ -1921,6 +2126,16 @@
     {
       "source": "api:java.util.Collections.singletonList",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultActionFactory.java::createFor",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -1985,12 +2200,27 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::createFor",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::createFor",
       "target": "api:java.util.Collections.singletonList",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectActionFactory.java::createFor",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
       "type": "CALLS"
     },
     {
@@ -2007,6 +2237,26 @@
       "source": "api:java.util.List.add",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/DemoPortlet.java::getPortlets",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/DemoPortlet.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/DemoPortlet.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/DemoPortlet.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java",
@@ -2225,6 +2475,16 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::newInstance",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::newInstance",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::getDisplayName",
       "type": "CONTAINS"
     },
@@ -2237,6 +2497,21 @@
       "source": "api:Messages.Property_DisplayName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::getDisplayName",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitorConfigurationProperty.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
@@ -2685,13 +2960,33 @@
     },
     {
       "source": "api:io.jenkins.plugins.forensics.reference.ReferenceFinder.findReference",
-      "target": "dependency:io.jenkins.plugins:plugin-util-api",
+      "target": "dependency:io.jenkins.plugins:forensics-api",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getReferenceBuild",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getRun",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getReferenceBuild",
+      "target": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:edu.hm.hafner.util.FilteredLog.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getReferenceBuild",
+      "target": "api:io.jenkins.plugins.forensics.reference.ReferenceFinder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.jenkins.plugins.forensics.reference.ReferenceFinder.<init>",
+      "target": "dependency:io.jenkins.plugins:forensics-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
@@ -2969,6 +3264,21 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getUnavailablePortlets",
+      "target": "api:org.json.JSONArray.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.json.JSONArray.<init>",
+      "target": "dependency:org.json:json",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getUnavailablePortlets",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::hasChanges",
       "type": "CONTAINS"
@@ -3044,6 +3354,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::areJsonNodesEquals",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::updateMonitorConfiguration",
       "type": "CONTAINS"
@@ -3067,6 +3387,16 @@
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::updateMonitorConfiguration",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getConfigurationId",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::updateMonitorConfiguration",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
@@ -3109,6 +3439,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getConfiguration",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::isMonitorConfigurationSynced",
       "type": "CONTAINS"
@@ -3144,6 +3479,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::isMonitorConfigurationSynced",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::resolvePortlets",
       "type": "CONTAINS"
@@ -3166,6 +3506,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::resolvePortlets",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringCustomAction.java::getPortlets",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::resolvePortlets",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3196,6 +3541,11 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::resetMonitorConfiguration",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::getConfigurationId",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringDefaultAction.java::resetMonitorConfiguration",
+      "target": "api:org.kohsuke.stapler.bind.JavaScriptMethod.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3240,6 +3590,16 @@
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::createFor",
       "type": "CONTAINS"
     },
@@ -3262,6 +3622,26 @@
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::createFor",
       "target": "api:java.util.Collections.singletonList",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/MonitoringWorkflowJobActionFactory.java::createFor",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/Monitor.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::Monitor",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::Monitor",
+      "target": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.kohsuke.stapler.DataBoundConstructor.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/Monitor.java",
@@ -3409,6 +3789,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::run",
+      "target": "api:org.json.JSONArray.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::run",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/Monitor.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::log",
       "type": "CONTAINS"
@@ -3467,6 +3857,21 @@
       "source": "api:Messages.Step_DisplayName",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::getDisplayName",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/io/jenkins/plugins/monitoring/Monitor.java",
+      "target": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/Monitor.java::<class>",
+      "target": "api:hudson.Extension.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/MonitoringMultibranchProjectAction.java",
@@ -3849,6 +4254,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::getDefaultPortletsAsConfiguration",
+      "target": "api:org.json.JSONArray.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::getDefaultPortletsAsConfiguration",
+      "target": "api:org.json.JSONObject.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.json.JSONObject.<init>",
+      "target": "dependency:org.json:json",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java",
       "target": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
       "type": "CONTAINS"
@@ -3881,6 +4301,31 @@
     {
       "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
       "target": "api:java.util.logging.Logger.log",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
+      "target": "api:edu.umd.cs.findbugs.annotations.NonNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
+      "target": "api:org.json.JSONObject.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
+      "target": "api:org.json.JSONTokener.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.json.JSONTokener.<init>",
+      "target": "dependency:org.json:json",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/io/jenkins/plugins/monitoring/util/PortletUtils.java::isValidConfiguration",
+      "target": "api:org.json.JSONArray.<init>",
       "type": "CALLS"
     }
   ],

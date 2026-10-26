@@ -47,6 +47,16 @@
       "name": "com.wire:xenon"
     },
     {
+      "id": "api:com.wire.xenon.crypto.storage.JdbiStorage.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.crypto.storage.JdbiStorage.<init>"
+    },
+    {
+      "id": "api:com.wire.bots.cryptobox.CryptoDb.<init>",
+      "type": "API",
+      "name": "com.wire.bots.cryptobox.CryptoDb.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::clean",
       "type": "FUNCTION",
       "name": "clean"
@@ -162,6 +172,11 @@
       "name": "System.out.printf"
     },
     {
+      "id": "api:java.util.Date.<init>",
+      "type": "API",
+      "name": "java.util.Date.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentSingleSession",
       "type": "FUNCTION",
       "name": "testConcurrentSingleSession"
@@ -217,6 +232,21 @@
       "name": "Assertions.fail"
     },
     {
+      "id": "api:java.util.concurrent.ScheduledThreadPoolExecutor.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.ScheduledThreadPoolExecutor.<init>"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicInteger.<init>"
+    },
+    {
+      "id": "api:java.util.concurrent.atomic.AtomicBoolean.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.atomic.AtomicBoolean.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
       "type": "FUNCTION",
       "name": "testConcurrentMultipleSessions"
@@ -225,6 +255,11 @@
       "id": "api:var.add",
       "type": "API",
       "name": "var.add"
+    },
+    {
+      "id": "api:java.util.ArrayList.<init>",
+      "type": "API",
+      "name": "java.util.ArrayList.<init>"
     },
     {
       "id": "file:src/test/java/com/wire/lithium/CryptoFileTest.java",
@@ -242,6 +277,26 @@
       "name": "com.wire.xenon.crypto.CryptoFile.newPreKeys"
     },
     {
+      "id": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeEach.<annotation>"
+    },
+    {
+      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "DEPENDENCY",
+      "name": "org.junit.jupiter:junit-jupiter-api"
+    },
+    {
+      "id": "api:com.wire.xenon.crypto.CryptoFile.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.crypto.CryptoFile.<init>"
+    },
+    {
+      "id": "api:com.wire.xenon.models.otr.PreKeys.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.models.otr.PreKeys.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::clean",
       "type": "FUNCTION",
       "name": "clean"
@@ -250,6 +305,11 @@
       "id": "api:com.wire.xenon.crypto.CryptoFile.close",
       "type": "API",
       "name": "com.wire.xenon.crypto.CryptoFile.close"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterEach.<annotation>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testAliceToBob",
@@ -287,14 +347,14 @@
       "name": "org.junit.jupiter.api.Assertions.assertArrayEquals"
     },
     {
-      "id": "dependency:org.junit.jupiter:junit-jupiter-api",
-      "type": "DEPENDENCY",
-      "name": "org.junit.jupiter:junit-jupiter-api"
-    },
-    {
       "id": "api:org.junit.jupiter.api.Assertions.assertEquals",
       "type": "API",
       "name": "org.junit.jupiter.api.Assertions.assertEquals"
+    },
+    {
+      "id": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.Test.<annotation>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testBobToAlice",
@@ -310,6 +370,11 @@
       "id": "api:com.wire.xenon.models.otr.Missing.add",
       "type": "API",
       "name": "com.wire.xenon.models.otr.Missing.add"
+    },
+    {
+      "id": "api:com.wire.xenon.models.otr.Missing.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.models.otr.Missing.<init>"
     },
     {
       "id": "file:src/test/java/com/wire/lithium/DatabaseTestBase.java",
@@ -407,6 +472,26 @@
       "name": "installPlugin"
     },
     {
+      "id": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.BeforeAll.<annotation>"
+    },
+    {
+      "id": "api:io.dropwizard.db.DataSourceFactory.<init>",
+      "type": "API",
+      "name": "io.dropwizard.db.DataSourceFactory.<init>"
+    },
+    {
+      "id": "api:com.codahale.metrics.MetricRegistry.<init>",
+      "type": "API",
+      "name": "com.codahale.metrics.MetricRegistry.<init>"
+    },
+    {
+      "id": "api:org.jdbi.v3.sqlobject.SqlObjectPlugin.<init>",
+      "type": "API",
+      "name": "org.jdbi.v3.sqlobject.SqlObjectPlugin.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::classCleanup",
       "type": "FUNCTION",
       "name": "classCleanup"
@@ -417,6 +502,11 @@
       "name": "org.flywaydb.core.Flyway.clean"
     },
     {
+      "id": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "type": "API",
+      "name": "org.junit.jupiter.api.AfterAll.<annotation>"
+    },
+    {
       "id": "file:src/test/java/com/wire/lithium/PostgresStateTest.java",
       "type": "FILE",
       "name": "src/test/java/com/wire/lithium/PostgresStateTest.java"
@@ -425,6 +515,11 @@
       "id": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::setup",
       "type": "FUNCTION",
       "name": "setup"
+    },
+    {
+      "id": "api:com.wire.xenon.state.JdbiState.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.state.JdbiState.<init>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::teardown",
@@ -462,6 +557,16 @@
       "name": "com.wire.xenon.state.JdbiState.removeState"
     },
     {
+      "id": "api:com.wire.xenon.backend.models.NewBot.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.backend.models.NewBot.<init>"
+    },
+    {
+      "id": "api:com.wire.xenon.backend.models.Conversation.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.backend.models.Conversation.<init>"
+    },
+    {
       "id": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
       "type": "FILE",
       "name": "src/test/java/com/wire/lithium/WireBackendTest.java"
@@ -485,6 +590,11 @@
       "id": "api:io.dropwizard.testing.ConfigOverride.config",
       "type": "API",
       "name": "io.dropwizard.testing.ConfigOverride.config"
+    },
+    {
+      "id": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "DEPENDENCY",
+      "name": "io.dropwizard:dropwizard-testing"
     },
     {
       "id": "api:var.size",
@@ -520,6 +630,16 @@
       "id": "api:io.dropwizard.testing.DropwizardTestSupport.getLocalPort",
       "type": "API",
       "name": "io.dropwizard.testing.DropwizardTestSupport.getLocalPort"
+    },
+    {
+      "id": "api:java.util.LinkedList.<init>",
+      "type": "API",
+      "name": "java.util.LinkedList.<init>"
+    },
+    {
+      "id": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "type": "API",
+      "name": "io.dropwizard.testing.DropwizardTestSupport.<init>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/WireBackendTest.java::cleanup",
@@ -632,6 +752,11 @@
       "name": "javax.ws.rs.core.Response.readEntity"
     },
     {
+      "id": "api:com.wire.xenon.backend.models.User.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.backend.models.User.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/WireBackendTest.java::path",
       "type": "FUNCTION",
       "name": "path"
@@ -640,6 +765,11 @@
       "id": "api:java.util.UUID.toString",
       "type": "API",
       "name": "java.util.UUID.toString"
+    },
+    {
+      "id": "api:com.wire.xenon.backend.models.Payload.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.backend.models.Payload.<init>"
     },
     {
       "id": "api:Messages.GenericMessage.newBuilder",
@@ -677,6 +807,16 @@
       "name": "toByteArray"
     },
     {
+      "id": "function:src/test/java/com/wire/lithium/WireBackendTest.java::createHandler",
+      "type": "FUNCTION",
+      "name": "createHandler"
+    },
+    {
+      "id": "api:com.wire.xenon.MessageHandlerBase.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.MessageHandlerBase.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/WireBackendTest.java::onPing",
       "type": "FUNCTION",
       "name": "onPing"
@@ -710,6 +850,11 @@
       "id": "api:com.wire.xenon.crypto.CryptoDatabase.newPreKeys",
       "type": "API",
       "name": "com.wire.xenon.crypto.CryptoDatabase.newPreKeys"
+    },
+    {
+      "id": "api:com.wire.xenon.crypto.CryptoDatabase.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.crypto.CryptoDatabase.<init>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::clean",
@@ -847,6 +992,11 @@
       "name": "com.wire.bots.cryptobox.IRecord.persist"
     },
     {
+      "id": "api:java.util.Random.<init>",
+      "type": "API",
+      "name": "java.util.Random.<init>"
+    },
+    {
       "id": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchIdentity",
       "type": "FUNCTION",
       "name": "testFetchIdentity"
@@ -875,6 +1025,11 @@
       "id": "api:com.wire.xenon.crypto.storage.JdbiStorage.insertPrekey",
       "type": "API",
       "name": "com.wire.xenon.crypto.storage.JdbiStorage.insertPrekey"
+    },
+    {
+      "id": "api:com.wire.bots.cryptobox.PreKey.<init>",
+      "type": "API",
+      "name": "com.wire.bots.cryptobox.PreKey.<init>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
@@ -950,6 +1105,16 @@
       "id": "file:src/test/java/com/wire/lithium/helpers/MemStorage.java",
       "type": "FILE",
       "name": "src/test/java/com/wire/lithium/helpers/MemStorage.java"
+    },
+    {
+      "id": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "API",
+      "name": "java.util.concurrent.ConcurrentHashMap.<init>"
     },
     {
       "id": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::fetchSession",
@@ -1057,9 +1222,49 @@
       "name": "com.wire.xenon.state.State.removeState"
     },
     {
+      "id": "api:java.io.IOException.<init>",
+      "type": "API",
+      "name": "java.io.IOException.<init>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/Configuration.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/Configuration.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/Configuration.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonProperty.<annotation>"
+    },
+    {
+      "id": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "DEPENDENCY",
+      "name": "com.fasterxml.jackson.core:jackson-annotations"
+    },
+    {
+      "id": "api:javax.validation.Valid.<annotation>",
+      "type": "API",
+      "name": "javax.validation.Valid.<annotation>"
+    },
+    {
+      "id": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "API",
+      "name": "javax.validation.constraints.NotNull.<annotation>"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/Configuration.java::getJerseyClient",
+      "type": "FUNCTION",
+      "name": "getJerseyClient"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/Configuration.java::setJerseyClient",
+      "type": "FUNCTION",
+      "name": "setJerseyClient"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/Configuration.java::_JerseyClientConfiguration",
@@ -1115,6 +1320,21 @@
       "id": "api:io.dropwizard.setup.Bootstrap.addBundle",
       "type": "API",
       "name": "io.dropwizard.setup.Bootstrap.addBundle"
+    },
+    {
+      "id": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "type": "API",
+      "name": "io.dropwizard.configuration.SubstitutingSourceProvider.<init>"
+    },
+    {
+      "id": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "type": "API",
+      "name": "io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>"
+    },
+    {
+      "id": "api:io.federecio.dropwizard.swagger.SwaggerBundle.<init>",
+      "type": "API",
+      "name": "io.federecio.dropwizard.swagger.SwaggerBundle.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/Server.java::run",
@@ -1197,6 +1417,16 @@
       "name": "getName"
     },
     {
+      "id": "api:io.dropwizard.client.JerseyClientBuilder.<init>",
+      "type": "API",
+      "name": "io.dropwizard.client.JerseyClientBuilder.<init>"
+    },
+    {
+      "id": "dependency:io.dropwizard:dropwizard-client",
+      "type": "DEPENDENCY",
+      "name": "io.dropwizard:dropwizard-client"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/Server.java::getStorageFactory",
       "type": "FUNCTION",
       "name": "getStorageFactory"
@@ -1235,6 +1465,11 @@
       "id": "api:io.dropwizard.setup.Environment.metrics",
       "type": "API",
       "name": "io.dropwizard.setup.Environment.metrics"
+    },
+    {
+      "id": "api:javax.annotation.Nullable.<annotation>",
+      "type": "API",
+      "name": "javax.annotation.Nullable.<annotation>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/Server.java::dataSource",
@@ -1285,6 +1520,11 @@
       "id": "function:src/main/java/com/wire/lithium/Server.java::getJdbi",
       "type": "FUNCTION",
       "name": "getJdbi"
+    },
+    {
+      "id": "api:com.wire.xenon.state.FileState.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.state.FileState.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/Server.java::addResource",
@@ -1397,6 +1637,11 @@
       "name": "src/main/java/com/wire/lithium/API.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/API.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/API.java::API",
       "type": "FUNCTION",
       "name": "API"
@@ -1430,6 +1675,11 @@
       "id": "api:javax.ws.rs.client.WebTarget.register",
       "type": "API",
       "name": "javax.ws.rs.client.WebTarget.register"
+    },
+    {
+      "id": "api:org.glassfish.jersey.logging.LoggingFeature.<init>",
+      "type": "API",
+      "name": "org.glassfish.jersey.logging.LoggingFeature.<init>"
     },
     {
       "id": "api:java.lang.System.getProperty",
@@ -1485,6 +1735,11 @@
       "id": "api:Response.readEntity",
       "type": "API",
       "name": "Response.readEntity"
+    },
+    {
+      "id": "api:com.wire.xenon.exceptions.HttpException.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.exceptions.HttpException.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/API.java::sendPartialMessage",
@@ -1602,6 +1857,11 @@
       "name": "java.io.ByteArrayOutputStream.toByteArray"
     },
     {
+      "id": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "API",
+      "name": "java.io.ByteArrayOutputStream.<init>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/API.java::getMultiPart",
       "type": "FUNCTION",
       "name": "getMultiPart"
@@ -1625,6 +1885,16 @@
       "id": "function:src/main/java/com/wire/lithium/API.java::bodyPart",
       "type": "FUNCTION",
       "name": "bodyPart"
+    },
+    {
+      "id": "api:org.glassfish.jersey.media.multipart.BodyPart.<init>",
+      "type": "API",
+      "name": "org.glassfish.jersey.media.multipart.BodyPart.<init>"
+    },
+    {
+      "id": "api:org.glassfish.jersey.media.multipart.MultiPart.<init>",
+      "type": "API",
+      "name": "org.glassfish.jersey.media.multipart.MultiPart.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/API.java::downloadAsset",
@@ -1662,6 +1932,41 @@
       "name": "Response.close"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/API.java::deleteConversation",
+      "type": "FUNCTION",
+      "name": "deleteConversation"
+    },
+    {
+      "id": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "API",
+      "name": "javax.ws.rs.NotSupportedException.<init>"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::addService",
+      "type": "FUNCTION",
+      "name": "addService"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::addParticipants",
+      "type": "FUNCTION",
+      "name": "addParticipants"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::createConversation",
+      "type": "FUNCTION",
+      "name": "createConversation"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::createOne2One",
+      "type": "FUNCTION",
+      "name": "createOne2One"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::leaveConversation",
+      "type": "FUNCTION",
+      "name": "leaveConversation"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/API.java::getUser",
       "type": "FUNCTION",
       "name": "getUser"
@@ -1685,6 +1990,31 @@
       "id": "api:Collections.singletonList",
       "type": "API",
       "name": "Collections.singletonList"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::getUserId",
+      "type": "FUNCTION",
+      "name": "getUserId"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::hasDevice",
+      "type": "FUNCTION",
+      "name": "hasDevice"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::getTeam",
+      "type": "FUNCTION",
+      "name": "getTeam"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::getTeamMembers",
+      "type": "FUNCTION",
+      "name": "getTeamMembers"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/API.java::acceptConnection",
+      "type": "FUNCTION",
+      "name": "acceptConnection"
     },
     {
       "id": "file:src/main/java/com/wire/lithium/tools/AuthValidator.java",
@@ -1827,6 +2157,16 @@
       "name": "src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.ws.rs.ext.Provider.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.ext.Provider.<annotation>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java::configure",
       "type": "FUNCTION",
       "name": "configure"
@@ -1852,6 +2192,11 @@
       "name": "src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::filter",
       "type": "FUNCTION",
       "name": "filter"
@@ -1875,6 +2220,11 @@
       "id": "function:src/test/java/com/wire/lithium/helpers/Util.java::extractToken",
       "type": "FUNCTION",
       "name": "extractToken"
+    },
+    {
+      "id": "api:javax.ws.rs.WebApplicationException.<init>",
+      "type": "API",
+      "name": "javax.ws.rs.WebApplicationException.<init>"
     },
     {
       "id": "file:src/main/java/com/wire/lithium/server/tasks/TaskBase.java",
@@ -1957,6 +2307,11 @@
       "name": "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString"
     },
     {
+      "id": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.databind.ObjectMapper.<init>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/server/tasks/ConversationTask.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/tasks/ConversationTask.java"
@@ -1980,6 +2335,26 @@
       "id": "file:src/main/java/com/wire/lithium/server/resources/BotsResource.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/resources/BotsResource.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Produces.<annotation>"
+    },
+    {
+      "id": "api:javax.ws.rs.Consumes.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Consumes.<annotation>"
+    },
+    {
+      "id": "api:javax.ws.rs.Path.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.Path.<annotation>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
@@ -2052,6 +2427,26 @@
       "name": "status"
     },
     {
+      "id": "api:javax.ws.rs.POST.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.POST.<annotation>"
+    },
+    {
+      "id": "api:com.codahale.metrics.annotation.Metered.<annotation>",
+      "type": "API",
+      "name": "com.codahale.metrics.annotation.Metered.<annotation>"
+    },
+    {
+      "id": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.core.Context.<annotation>"
+    },
+    {
+      "id": "api:com.wire.xenon.backend.models.ErrorMessage.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.backend.models.ErrorMessage.<init>"
+    },
+    {
       "id": "api:com.wire.xenon.MessageHandlerBase.onNewBot",
       "type": "API",
       "name": "com.wire.xenon.MessageHandlerBase.onNewBot"
@@ -2060,6 +2455,11 @@
       "id": "file:src/main/java/com/wire/lithium/server/resources/MessageResource.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/resources/MessageResource.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::newMessage",
@@ -2102,9 +2502,19 @@
       "name": "client.send"
     },
     {
+      "id": "api:com.wire.xenon.assets.Reaction.<init>",
+      "type": "API",
+      "name": "com.wire.xenon.assets.Reaction.<init>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java::shouldIgnoreEvent",
@@ -2177,6 +2587,16 @@
       "name": "src/main/java/com/wire/lithium/server/monitoring/StatusResource.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:io.swagger.annotations.Api.<annotation>",
+      "type": "API",
+      "name": "io.swagger.annotations.Api.<annotation>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::statusEmpty",
       "type": "FUNCTION",
       "name": "statusEmpty"
@@ -2187,9 +2607,29 @@
       "name": "build"
     },
     {
+      "id": "api:javax.ws.rs.GET.<annotation>",
+      "type": "API",
+      "name": "javax.ws.rs.GET.<annotation>"
+    },
+    {
+      "id": "api:io.swagger.annotations.ApiOperation.<annotation>",
+      "type": "API",
+      "name": "io.swagger.annotations.ApiOperation.<annotation>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonTypeName.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonTypeName.<annotation>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::build",
@@ -2230,6 +2670,11 @@
       "id": "api:ch.qos.logback.core.ConsoleAppender.start",
       "type": "API",
       "name": "ch.qos.logback.core.ConsoleAppender.start"
+    },
+    {
+      "id": "api:ch.qos.logback.core.ConsoleAppender.<init>",
+      "type": "API",
+      "name": "ch.qos.logback.core.ConsoleAppender.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::getFilterFactories",
@@ -2310,6 +2755,11 @@
       "id": "file:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::filter",
@@ -2417,6 +2867,11 @@
       "name": "finalizeLog"
     },
     {
+      "id": "api:java.util.LinkedHashMap.<init>",
+      "type": "API",
+      "name": "java.util.LinkedHashMap.<init>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java"
@@ -2492,6 +2947,16 @@
       "name": "src/main/java/com/wire/lithium/server/monitoring/VersionResource.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:javax.validation.constraints.NotEmpty.<annotation>",
+      "type": "API",
+      "name": "javax.validation.constraints.NotEmpty.<annotation>"
+    },
+    {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
       "type": "FUNCTION",
       "name": "get"
@@ -2507,14 +2972,44 @@
       "name": "getVersion"
     },
     {
+      "id": "api:io.swagger.annotations.ApiResponses.<annotation>",
+      "type": "API",
+      "name": "io.swagger.annotations.ApiResponses.<annotation>"
+    },
+    {
+      "id": "api:io.swagger.annotations.ApiResponse.<annotation>",
+      "type": "API",
+      "name": "io.swagger.annotations.ApiResponse.<annotation>"
+    },
+    {
       "id": "api:file.readLine",
       "type": "API",
       "name": "file.readLine"
     },
     {
+      "id": "api:java.io.RandomAccessFile.<init>",
+      "type": "API",
+      "name": "java.io.RandomAccessFile.<init>"
+    },
+    {
       "id": "file:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::build",
+      "type": "FUNCTION",
+      "name": "build"
+    },
+    {
+      "id": "api:ch.qos.logback.core.filter.Filter.<init>",
+      "type": "API",
+      "name": "ch.qos.logback.core.filter.Filter.<init>"
     },
     {
       "id": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::decide",
@@ -2532,9 +3027,24 @@
       "name": "src/main/java/com/wire/lithium/models/NewBotResponseModel.java"
     },
     {
+      "id": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
+    },
+    {
+      "id": "api:com.fasterxml.jackson.annotation.JsonInclude.<annotation>",
+      "type": "API",
+      "name": "com.fasterxml.jackson.annotation.JsonInclude.<annotation>"
+    },
+    {
       "id": "file:src/main/java/com/wire/blender/Blender.java",
       "type": "FILE",
       "name": "src/main/java/com/wire/blender/Blender.java"
+    },
+    {
+      "id": "function:src/main/java/com/wire/blender/Blender.java::<class>",
+      "type": "FUNCTION",
+      "name": "<class>"
     },
     {
       "id": "function:src/main/java/com/wire/blender/Blender.java::registerListener",
@@ -2595,6 +3105,26 @@
     },
     {
       "source": "api:com.wire.bots.cryptobox.CryptoDb.newPreKeys",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::setUp",
+      "target": "api:com.wire.xenon.crypto.storage.JdbiStorage.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.crypto.storage.JdbiStorage.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::setUp",
+      "target": "api:com.wire.bots.cryptobox.CryptoDb.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.bots.cryptobox.CryptoDb.<init>",
       "target": "dependency:com.wire:xenon",
       "type": "PROVIDED_BY"
     },
@@ -2869,6 +3399,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testIdentity",
+      "target": "api:com.wire.bots.cryptobox.CryptoDb.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoPostgresTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testSynchronousSingleSession",
       "type": "CONTAINS"
@@ -2921,6 +3456,16 @@
     {
       "source": "api:System.out.printf",
       "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testSynchronousSingleSession",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Date.<init>",
+      "target": "dependency:jdk",
       "type": "PROVIDED_BY"
     },
     {
@@ -3064,6 +3609,41 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentSingleSession",
+      "target": "api:java.util.concurrent.ScheduledThreadPoolExecutor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.ScheduledThreadPoolExecutor.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentSingleSession",
+      "target": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentSingleSession",
+      "target": "api:java.util.concurrent.atomic.AtomicBoolean.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.atomic.AtomicBoolean.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentSingleSession",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoPostgresTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
       "type": "CONTAINS"
@@ -3169,6 +3749,41 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:com.wire.bots.cryptobox.CryptoDb.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:java.util.concurrent.atomic.AtomicInteger.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.ArrayList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:java.util.concurrent.ScheduledThreadPoolExecutor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:java.util.Date.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoPostgresTest.java::testConcurrentMultipleSessions",
+      "target": "api:java.util.concurrent.atomic.AtomicBoolean.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoFileTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::setUp",
       "type": "CONTAINS"
@@ -3185,6 +3800,36 @@
     },
     {
       "source": "api:com.wire.xenon.crypto.CryptoFile.newPreKeys",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::setUp",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::setUp",
+      "target": "api:com.wire.xenon.crypto.CryptoFile.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.crypto.CryptoFile.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::setUp",
+      "target": "api:com.wire.xenon.models.otr.PreKeys.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.models.otr.PreKeys.<init>",
       "target": "dependency:com.wire:xenon",
       "type": "PROVIDED_BY"
     },
@@ -3207,6 +3852,16 @@
       "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::clean",
       "target": "function:src/test/java/com/wire/lithium/helpers/Util.java::deleteDir",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::clean",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterEach.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/wire/lithium/CryptoFileTest.java",
@@ -3284,6 +3939,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testAliceToBob",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.Test.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoFileTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testBobToAlice",
       "type": "CONTAINS"
@@ -3326,6 +3991,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testBobToAlice",
       "target": "api:org.junit.jupiter.api.Assertions.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testBobToAlice",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3382,6 +4052,21 @@
       "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testSessions",
       "target": "api:org.junit.jupiter.api.Assertions.assertEquals",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testSessions",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoFileTest.java::testSessions",
+      "target": "api:com.wire.xenon.models.otr.Missing.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.models.otr.Missing.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/wire/lithium/DatabaseTestBase.java",
@@ -3519,6 +4204,46 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::initiate",
+      "target": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.BeforeAll.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::initiate",
+      "target": "api:io.dropwizard.db.DataSourceFactory.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.db.DataSourceFactory.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::initiate",
+      "target": "api:com.codahale.metrics.MetricRegistry.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.codahale.metrics.MetricRegistry.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::initiate",
+      "target": "api:org.jdbi.v3.sqlobject.SqlObjectPlugin.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.jdbi.v3.sqlobject.SqlObjectPlugin.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/DatabaseTestBase.java",
       "target": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::classCleanup",
       "type": "CONTAINS"
@@ -3531,6 +4256,16 @@
     {
       "source": "api:org.flywaydb.core.Flyway.clean",
       "target": "dependency:org.flywaydb:flyway-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/DatabaseTestBase.java::classCleanup",
+      "target": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.junit.jupiter.api.AfterAll.<annotation>",
+      "target": "dependency:org.junit.jupiter:junit-jupiter-api",
       "type": "PROVIDED_BY"
     },
     {
@@ -3549,6 +4284,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::setup",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::setup",
+      "target": "api:com.wire.xenon.state.JdbiState.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.state.JdbiState.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/PostgresStateTest.java",
       "target": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::teardown",
       "type": "CONTAINS"
@@ -3556,6 +4306,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::teardown",
       "target": "api:flyway.clean",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::teardown",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3624,6 +4379,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::test",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::test",
+      "target": "api:com.wire.xenon.backend.models.NewBot.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.backend.models.NewBot.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresStateTest.java::test",
+      "target": "api:com.wire.xenon.backend.models.Conversation.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.backend.models.Conversation.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
       "target": "function:src/test/java/com/wire/lithium/WireBackendTest.java::setup",
       "type": "CONTAINS"
@@ -3660,7 +4440,7 @@
     },
     {
       "source": "api:io.dropwizard.testing.ConfigOverride.config",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
@@ -3690,7 +4470,7 @@
     },
     {
       "source": "api:io.dropwizard.testing.DropwizardTestSupport.before",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
@@ -3700,7 +4480,7 @@
     },
     {
       "source": "api:io.dropwizard.testing.DropwizardTestSupport.getApplication",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
@@ -3725,7 +4505,32 @@
     },
     {
       "source": "api:io.dropwizard.testing.DropwizardTestSupport.getLocalPort",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::setup",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::setup",
+      "target": "api:java.util.LinkedList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedList.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::setup",
+      "target": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.testing.DropwizardTestSupport.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
@@ -3740,12 +4545,17 @@
     },
     {
       "source": "api:io.dropwizard.testing.DropwizardTestSupport.after",
-      "target": "dependency:io.dropwizard:dropwizard-core",
+      "target": "dependency:io.dropwizard:dropwizard-testing",
       "type": "PROVIDED_BY"
     },
     {
       "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::cleanup",
       "target": "api:flyway.clean",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::cleanup",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
       "type": "CALLS"
     },
     {
@@ -3864,6 +4674,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::incomingMessageFromBackendTest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::incomingMessageFromBackendTest",
+      "target": "api:com.wire.xenon.models.otr.PreKeys.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
       "target": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newBotFromBE",
       "type": "CONTAINS"
@@ -3924,6 +4744,31 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newBotFromBE",
+      "target": "api:com.wire.xenon.backend.models.NewBot.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newBotFromBE",
+      "target": "api:com.wire.xenon.backend.models.User.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.backend.models.User.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newBotFromBE",
+      "target": "api:com.wire.xenon.backend.models.Conversation.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newBotFromBE",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
       "target": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newOtrMessageFromBackend",
       "type": "CONTAINS"
@@ -3971,6 +4816,21 @@
     {
       "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newOtrMessageFromBackend",
       "target": "api:javax.ws.rs.client.Entity.entity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newOtrMessageFromBackend",
+      "target": "api:com.wire.xenon.backend.models.Payload.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.backend.models.Payload.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::newOtrMessageFromBackend",
+      "target": "api:java.util.Date.<init>",
       "type": "CALLS"
     },
     {
@@ -4035,6 +4895,21 @@
     },
     {
       "source": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
+      "target": "function:src/test/java/com/wire/lithium/WireBackendTest.java::createHandler",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/WireBackendTest.java::createHandler",
+      "target": "api:com.wire.xenon.MessageHandlerBase.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.MessageHandlerBase.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/test/java/com/wire/lithium/WireBackendTest.java",
       "target": "function:src/test/java/com/wire/lithium/WireBackendTest.java::onPing",
       "type": "CONTAINS"
     },
@@ -4089,6 +4964,26 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::setUp",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::setUp",
+      "target": "api:com.wire.xenon.crypto.CryptoDatabase.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.crypto.CryptoDatabase.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::setUp",
+      "target": "api:com.wire.xenon.models.otr.PreKeys.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoDatabaseTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::clean",
       "type": "CONTAINS"
@@ -4106,6 +5001,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::clean",
       "target": "function:src/test/java/com/wire/lithium/helpers/Util.java::deleteDir",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::clean",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4164,6 +5064,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testAliceToBob",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/CryptoDatabaseTest.java",
       "target": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testBobToAlice",
       "type": "CONTAINS"
@@ -4206,6 +5111,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testBobToAlice",
       "target": "api:org.junit.jupiter.api.Assertions.assertEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testBobToAlice",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4259,6 +5169,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testSessions",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/CryptoDatabaseTest.java::testSessions",
+      "target": "api:com.wire.xenon.models.otr.Missing.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/MentionTest.java",
       "target": "function:src/test/java/com/wire/lithium/MentionTest.java::beginExtractMentionTest",
       "type": "CONTAINS"
@@ -4304,6 +5224,11 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/MentionTest.java::beginExtractMentionTest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/MentionTest.java",
       "target": "function:src/test/java/com/wire/lithium/MentionTest.java::middleExtractMentionTest",
       "type": "CONTAINS"
@@ -4326,6 +5251,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/MentionTest.java::middleExtractMentionTest",
       "target": "api:java.lang.String.equals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/MentionTest.java::middleExtractMentionTest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4354,6 +5284,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/MentionTest.java::endExtractMentionTest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/MentionTest.java",
       "target": "function:src/test/java/com/wire/lithium/MentionTest.java::specialExtractMentionTest",
       "type": "CONTAINS"
@@ -4379,6 +5314,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/MentionTest.java::specialExtractMentionTest",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java",
       "target": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::setUp",
       "type": "CONTAINS"
@@ -4389,6 +5329,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::setUp",
+      "target": "api:org.junit.jupiter.api.BeforeEach.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::setUp",
+      "target": "api:com.wire.xenon.crypto.storage.JdbiStorage.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java",
       "target": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::clean",
       "type": "CONTAINS"
@@ -4396,6 +5346,11 @@
     {
       "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::clean",
       "target": "api:flyway.clean",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::clean",
+      "target": "api:org.junit.jupiter.api.AfterEach.<annotation>",
       "type": "CALLS"
     },
     {
@@ -4474,6 +5429,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchSession",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchSession",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.Random.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java",
       "target": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchIdentity",
       "type": "CONTAINS"
@@ -4521,6 +5491,16 @@
     {
       "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchIdentity",
       "target": "api:org.junit.jupiter.api.Assertions.assertArrayEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchIdentity",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchIdentity",
+      "target": "api:java.util.Random.<init>",
       "type": "CALLS"
     },
     {
@@ -4577,6 +5557,26 @@
       "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchLastPrekey",
       "target": "api:org.junit.jupiter.api.Assertions.assertArrayEquals",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchLastPrekey",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchLastPrekey",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchLastPrekey",
+      "target": "api:com.wire.bots.cryptobox.PreKey.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.bots.cryptobox.PreKey.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java",
@@ -4641,6 +5641,26 @@
     {
       "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
       "target": "api:org.junit.jupiter.api.Assertions.assertArrayEquals",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testFetchPrekeys",
+      "target": "api:com.wire.bots.cryptobox.PreKey.<init>",
       "type": "CALLS"
     },
     {
@@ -4709,6 +5729,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testPurge",
+      "target": "api:org.junit.jupiter.api.Test.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testPurge",
+      "target": "api:java.util.Random.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/PostgresCryptoStorageTest.java::testPurge",
+      "target": "api:com.wire.bots.cryptobox.PreKey.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/helpers/Util.java",
       "target": "function:src/test/java/com/wire/lithium/helpers/Util.java::deleteDir",
       "type": "CONTAINS"
@@ -4772,6 +5807,21 @@
       "source": "function:src/test/java/com/wire/lithium/helpers/Util.java::deleteDir",
       "target": "function:src/test/java/com/wire/lithium/helpers/Util.java::forEach",
       "type": "CALLS"
+    },
+    {
+      "source": "file:src/test/java/com/wire/lithium/helpers/MemStorage.java",
+      "target": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::<class>",
+      "target": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.concurrent.ConcurrentHashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/test/java/com/wire/lithium/helpers/MemStorage.java",
@@ -4869,6 +5919,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::insertPrekey",
+      "target": "api:com.wire.bots.cryptobox.PreKey.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::insertPrekey",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/test/java/com/wire/lithium/helpers/MemStorage.java",
       "target": "function:src/test/java/com/wire/lithium/helpers/MemStorage.java::purge",
       "type": "CONTAINS"
@@ -4954,6 +6014,71 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/ClientRepo.java::purgeBot",
+      "target": "api:java.io.IOException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.IOException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/Configuration.java",
+      "target": "function:src/main/java/com/wire/lithium/Configuration.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Configuration.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Configuration.java::<class>",
+      "target": "api:javax.validation.Valid.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.Valid.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Configuration.java::<class>",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.constraints.NotNull.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/Configuration.java",
+      "target": "function:src/main/java/com/wire/lithium/Configuration.java::getJerseyClient",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Configuration.java::getJerseyClient",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/Configuration.java",
+      "target": "function:src/main/java/com/wire/lithium/Configuration.java::setJerseyClient",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Configuration.java::setJerseyClient",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/Configuration.java",
       "target": "function:src/main/java/com/wire/lithium/Configuration.java::_JerseyClientConfiguration",
       "type": "CONTAINS"
@@ -5016,6 +6141,36 @@
     {
       "source": "api:io.dropwizard.setup.Bootstrap.addBundle",
       "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::initialize",
+      "target": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.configuration.SubstitutingSourceProvider.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::initialize",
+      "target": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.configuration.EnvironmentVariableSubstitutor.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-core",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::initialize",
+      "target": "api:io.federecio.dropwizard.swagger.SwaggerBundle.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.federecio.dropwizard.swagger.SwaggerBundle.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -5119,6 +6274,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::createHttpClient",
+      "target": "api:io.dropwizard.client.JerseyClientBuilder.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.dropwizard.client.JerseyClientBuilder.<init>",
+      "target": "dependency:io.dropwizard:dropwizard-client",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/Server.java",
       "target": "function:src/main/java/com/wire/lithium/Server.java::createClientRepo",
       "type": "CONTAINS"
@@ -5181,6 +6346,21 @@
     {
       "source": "function:src/main/java/com/wire/lithium/Server.java::buildJdbi",
       "target": "function:src/main/java/com/wire/lithium/Server.java::getName",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::buildJdbi",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.annotation.Nullable.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::buildJdbi",
+      "target": "api:org.jdbi.v3.sqlobject.SqlObjectPlugin.<init>",
       "type": "CALLS"
     },
     {
@@ -5279,6 +6459,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::getStorageFactory",
+      "target": "api:com.wire.xenon.state.FileState.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.state.FileState.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::getStorageFactory",
+      "target": "api:com.wire.xenon.state.JdbiState.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/Server.java",
       "target": "function:src/main/java/com/wire/lithium/Server.java::getCryptoFactory",
       "type": "CONTAINS"
@@ -5301,6 +6496,21 @@
     {
       "source": "function:src/main/java/com/wire/lithium/Server.java::getCryptoFactory",
       "target": "function:src/main/java/com/wire/lithium/Server.java::getJdbi",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::getCryptoFactory",
+      "target": "api:com.wire.xenon.crypto.CryptoFile.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::getCryptoFactory",
+      "target": "api:com.wire.xenon.crypto.CryptoDatabase.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/Server.java::getCryptoFactory",
+      "target": "api:com.wire.xenon.crypto.storage.JdbiStorage.<init>",
       "type": "CALLS"
     },
     {
@@ -5590,6 +6800,16 @@
     },
     {
       "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
       "target": "function:src/main/java/com/wire/lithium/API.java::API",
       "type": "CONTAINS"
     },
@@ -5646,6 +6866,16 @@
     {
       "source": "api:javax.ws.rs.client.WebTarget.register",
       "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::API",
+      "target": "api:org.glassfish.jersey.logging.LoggingFeature.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.glassfish.jersey.logging.LoggingFeature.<init>",
+      "target": "dependency:unknown",
       "type": "PROVIDED_BY"
     },
     {
@@ -5754,6 +6984,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/API.java::sendMessage",
+      "target": "api:com.wire.xenon.exceptions.HttpException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.exceptions.HttpException.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/API.java",
       "target": "function:src/main/java/com/wire/lithium/API.java::sendPartialMessage",
       "type": "CONTAINS"
@@ -5796,6 +7036,11 @@
     {
       "source": "function:src/main/java/com/wire/lithium/API.java::sendPartialMessage",
       "target": "api:Response.readEntity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::sendPartialMessage",
+      "target": "api:com.wire.xenon.exceptions.HttpException.<init>",
       "type": "CALLS"
     },
     {
@@ -5969,6 +7214,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getAvailablePrekeys",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/API.java",
       "target": "function:src/main/java/com/wire/lithium/API.java::uploadPreKeys",
       "type": "CONTAINS"
@@ -6011,6 +7261,11 @@
     {
       "source": "function:src/main/java/com/wire/lithium/API.java::uploadPreKeys",
       "target": "api:Response.readEntity",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::uploadPreKeys",
+      "target": "api:java.io.IOException.<init>",
       "type": "CALLS"
     },
     {
@@ -6164,6 +7419,21 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/API.java::uploadAsset",
+      "target": "api:java.io.ByteArrayOutputStream.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.ByteArrayOutputStream.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::uploadAsset",
+      "target": "api:com.wire.xenon.exceptions.HttpException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/API.java",
       "target": "function:src/main/java/com/wire/lithium/API.java::getMultiPart",
       "type": "CONTAINS"
@@ -6222,6 +7492,26 @@
       "source": "function:src/main/java/com/wire/lithium/API.java::getMultiPart",
       "target": "function:src/main/java/com/wire/lithium/API.java::bodyPart",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getMultiPart",
+      "target": "api:org.glassfish.jersey.media.multipart.BodyPart.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.glassfish.jersey.media.multipart.BodyPart.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getMultiPart",
+      "target": "api:org.glassfish.jersey.media.multipart.MultiPart.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:org.glassfish.jersey.media.multipart.MultiPart.<init>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/API.java",
@@ -6324,6 +7614,76 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/API.java::downloadAsset",
+      "target": "api:com.wire.xenon.exceptions.HttpException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::deleteConversation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::deleteConversation",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.NotSupportedException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::addService",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::addService",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::addParticipants",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::addParticipants",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::createConversation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::createConversation",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::createOne2One",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::createOne2One",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::leaveConversation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::leaveConversation",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/API.java",
       "target": "function:src/main/java/com/wire/lithium/API.java::getUser",
       "type": "CONTAINS"
@@ -6357,6 +7717,56 @@
       "source": "api:Collections.singletonList",
       "target": "dependency:unknown",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::getUserId",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getUserId",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::hasDevice",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::hasDevice",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::getTeam",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getTeam",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::getTeamMembers",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::getTeamMembers",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/API.java",
+      "target": "function:src/main/java/com/wire/lithium/API.java::acceptConnection",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/API.java::acceptConnection",
+      "target": "api:javax.ws.rs.NotSupportedException.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/API.java",
@@ -6531,6 +7941,11 @@
     {
       "source": "function:src/main/java/com/wire/lithium/healthchecks/StorageHealthCheck.java::check",
       "target": "api:e.getMessage",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/healthchecks/StorageHealthCheck.java::check",
+      "target": "api:com.wire.xenon.backend.models.NewBot.<init>",
       "type": "CALLS"
     },
     {
@@ -6709,6 +8124,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/healthchecks/Alice2Bob.java::check",
+      "target": "api:com.wire.xenon.models.otr.PreKeys.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java",
+      "target": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java::<class>",
+      "target": "api:javax.ws.rs.ext.Provider.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.ext.Provider.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java",
       "target": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFeature.java::configure",
       "type": "CONTAINS"
@@ -6737,6 +8172,16 @@
       "source": "api:javax.ws.rs.core.FeatureContext.register",
       "target": "dependency:jdk",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java",
+      "target": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::<class>",
+      "target": "api:javax.ws.rs.ext.Provider.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java",
@@ -6792,6 +8237,16 @@
       "source": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::filter",
       "target": "function:src/test/java/com/wire/lithium/helpers/Util.java::extractToken",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/filters/AuthenticationFilter.java::filter",
+      "target": "api:javax.ws.rs.WebApplicationException.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.WebApplicationException.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/tasks/TaskBase.java",
@@ -6944,6 +8399,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/tasks/AvailablePrekeysTask.java::execute",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-databind",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/tasks/ConversationTask.java",
       "target": "function:src/main/java/com/wire/lithium/server/tasks/ConversationTask.java::execute",
       "type": "CONTAINS"
@@ -6997,6 +8462,46 @@
       "source": "function:src/main/java/com/wire/lithium/server/tasks/ConversationTask.java::execute",
       "target": "api:e.getMessage",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/tasks/ConversationTask.java::execute",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/resources/BotsResource.java",
+      "target": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::<class>",
+      "target": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Produces.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::<class>",
+      "target": "api:javax.ws.rs.Consumes.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Consumes.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.Path.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/resources/BotsResource.java",
@@ -7144,6 +8649,56 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:javax.ws.rs.POST.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.POST.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:com.codahale.metrics.annotation.Metered.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.codahale.metrics.annotation.Metered.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:javax.ws.rs.core.Context.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.core.Context.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:javax.validation.Valid.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::newBot",
+      "target": "api:com.wire.xenon.backend.models.ErrorMessage.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.backend.models.ErrorMessage.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/resources/BotsResource.java",
       "target": "function:src/main/java/com/wire/lithium/server/resources/BotsResource.java::onNewBot",
       "type": "CONTAINS"
@@ -7157,6 +8712,16 @@
       "source": "api:com.wire.xenon.MessageHandlerBase.onNewBot",
       "target": "dependency:com.wire:xenon",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/resources/MessageResource.java",
+      "target": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::<class>",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/resources/MessageResource.java",
@@ -7239,6 +8804,26 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::newMessage",
+      "target": "api:com.codahale.metrics.annotation.Metered.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::newMessage",
+      "target": "api:javax.validation.Valid.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::newMessage",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::newMessage",
+      "target": "api:com.wire.xenon.backend.models.ErrorMessage.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/resources/MessageResource.java",
       "target": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::respondWithError",
       "type": "CONTAINS"
@@ -7274,6 +8859,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::respondWithError",
+      "target": "api:com.wire.xenon.assets.Reaction.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.wire.xenon.assets.Reaction.<init>",
+      "target": "dependency:com.wire:xenon",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/resources/MessageResource.java",
       "target": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::getWireClient",
       "type": "CONTAINS"
@@ -7281,6 +8876,16 @@
     {
       "source": "function:src/main/java/com/wire/lithium/server/resources/MessageResource.java::getWireClient",
       "target": "function:src/main/java/com/wire/lithium/ClientRepo.java::getClient",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java::<class>",
+      "target": "api:com.fasterxml.jackson.databind.ObjectMapper.<init>",
       "type": "CALLS"
     },
     {
@@ -7404,6 +9009,36 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/AbstractJsonLayout.java::finalizeLog",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::<class>",
+      "target": "api:io.swagger.annotations.Api.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.swagger.annotations.Api.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::<class>",
+      "target": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::statusEmpty",
       "type": "CONTAINS"
@@ -7417,6 +9052,41 @@
       "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::statusEmpty",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::build",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::statusEmpty",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.ws.rs.GET.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusResource.java::statusEmpty",
+      "target": "api:io.swagger.annotations.ApiOperation.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.swagger.annotations.ApiOperation.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonTypeName.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonTypeName.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java",
@@ -7480,6 +9150,16 @@
     },
     {
       "source": "api:ch.qos.logback.core.ConsoleAppender.start",
+      "target": "dependency:ch.qos.logback:logback-classic",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/WireAppenderFactory.java::build",
+      "target": "api:ch.qos.logback.core.ConsoleAppender.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ch.qos.logback.core.ConsoleAppender.<init>",
       "target": "dependency:ch.qos.logback:logback-classic",
       "type": "PROVIDED_BY"
     },
@@ -7619,6 +9299,16 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/MDCUtils.java::put",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/MDCUtils.java::put",
+      "target": "api:javax.annotation.Nullable.<annotation>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/MDCUtils.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/MDCUtils.java::removeKey",
       "type": "CONTAINS"
@@ -7632,6 +9322,21 @@
       "source": "api:org.slf4j.MDC.remove",
       "target": "dependency:org.slf4j:slf4j-api",
       "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/MDCUtils.java::removeKey",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::<class>",
+      "target": "api:javax.ws.rs.ext.Provider.<annotation>",
+      "type": "CALLS"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java",
@@ -7676,6 +9381,11 @@
     {
       "source": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::addIfNotNull",
       "target": "api:org.slf4j.MDC.put",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/RequestMdcFactoryFilter.java::addIfNotNull",
+      "target": "api:javax.annotation.Nullable.<annotation>",
       "type": "CALLS"
     },
     {
@@ -7804,6 +9514,16 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/AccessEventJsonLayout.java::doLayout",
+      "target": "api:java.util.LinkedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.util.LinkedHashMap.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java::doLayout",
       "type": "CONTAINS"
@@ -7884,6 +9604,11 @@
       "type": "CALLS"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java::doLayout",
+      "target": "api:java.util.LinkedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java::exception",
       "type": "CONTAINS"
@@ -7924,6 +9649,46 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/LoggingEventJsonLayout.java::exception",
+      "target": "api:java.util.LinkedHashMap.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "target": "api:io.swagger.annotations.Api.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "target": "api:javax.ws.rs.Path.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "target": "api:javax.ws.rs.Produces.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "target": "api:javax.validation.constraints.NotNull.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::<class>",
+      "target": "api:javax.validation.constraints.NotEmpty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:javax.validation.constraints.NotEmpty.<annotation>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
       "type": "CONTAINS"
@@ -7942,6 +9707,36 @@
       "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::getVersion",
       "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
+      "target": "api:javax.ws.rs.GET.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
+      "target": "api:io.swagger.annotations.ApiOperation.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
+      "target": "api:io.swagger.annotations.ApiResponses.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.swagger.annotations.ApiResponses.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::get",
+      "target": "api:io.swagger.annotations.ApiResponse.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:io.swagger.annotations.ApiResponse.<annotation>",
+      "target": "dependency:unknown",
+      "type": "PROVIDED_BY"
     },
     {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java",
@@ -7964,6 +9759,41 @@
       "type": "PROVIDED_BY"
     },
     {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/VersionResource.java::getVersion",
+      "target": "api:java.io.RandomAccessFile.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:java.io.RandomAccessFile.<init>",
+      "target": "dependency:jdk",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonTypeName.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java",
+      "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::build",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::build",
+      "target": "api:ch.qos.logback.core.filter.Filter.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:ch.qos.logback.core.filter.Filter.<init>",
+      "target": "dependency:ch.qos.logback:logback-classic",
+      "type": "PROVIDED_BY"
+    },
+    {
       "source": "file:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java",
       "target": "function:src/main/java/com/wire/lithium/server/monitoring/StatusCheckFilter.java::decide",
       "type": "CONTAINS"
@@ -7980,12 +9810,47 @@
     },
     {
       "source": "file:src/main/java/com/wire/lithium/models/NewBotResponseModel.java",
+      "target": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonInclude.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "api:com.fasterxml.jackson.annotation.JsonInclude.<annotation>",
+      "target": "dependency:com.fasterxml.jackson.core:jackson-annotations",
+      "type": "PROVIDED_BY"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::<class>",
+      "target": "api:com.fasterxml.jackson.annotation.JsonProperty.<annotation>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/lithium/models/NewBotResponseModel.java",
       "target": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::addAsset",
       "type": "CONTAINS"
     },
     {
       "source": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::addAsset",
       "target": "api:java.util.ArrayList.add",
+      "type": "CALLS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/lithium/models/NewBotResponseModel.java::addAsset",
+      "target": "api:java.util.ArrayList.<init>",
+      "type": "CALLS"
+    },
+    {
+      "source": "file:src/main/java/com/wire/blender/Blender.java",
+      "target": "function:src/main/java/com/wire/blender/Blender.java::<class>",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "function:src/main/java/com/wire/blender/Blender.java::<class>",
+      "target": "api:java.util.ArrayList.<init>",
       "type": "CALLS"
     },
     {
