@@ -81,11 +81,12 @@ _RECOMMENDATION_BY_CATEGORY: Dict[str, str] = {
 }
 
 
-def _categorize_risk(score: float) -> str:
+def _categorize_risk(score: float, safe_threshold: float = SAFE_THRESHOLD,
+                     risky_threshold: float = RISKY_THRESHOLD) -> str:
     """Map a numerical risk score to a risk category."""
-    if score < SAFE_THRESHOLD:
+    if score < safe_threshold:
         return "SAFE"
-    if score < RISKY_THRESHOLD:
+    if score < risky_threshold:
         return "RISKY"
     return "CRITICAL"
 
@@ -568,6 +569,8 @@ def compute_triage(
     dependency: str = "",
     old_version: str = "",
     new_version: str = "",
+    safe_threshold: float = SAFE_THRESHOLD,
+    risky_threshold: float = RISKY_THRESHOLD,
 ) -> Dict[str, Any]:
     """
     Standardized SAFE / RISKY / CRITICAL triage with actionable next steps.
@@ -580,7 +583,7 @@ def compute_triage(
     CRITICAL is never assigned without call-site evidence because the score cannot reach 0.7
     without it.
     """
-    score_category = _categorize_risk(risk_score)
+    score_category = _categorize_risk(risk_score, safe_threshold, risky_threshold)
     matched = bool(features.get("matched_dep_nodes"))
     n_funcs = features.get("affected_functions", 0)
     n_files = features.get("affected_files", 0)
@@ -989,4 +992,4 @@ if __name__ == "__main__":
         new_version="6.0.7",
         dig_path=sample_dig if os.path.exists(sample_dig) else None,
     )
-    print(json.dumps(report, indent=2))
+    print(json.dumps(report, indent=2))

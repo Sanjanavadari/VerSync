@@ -30,8 +30,9 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
-ARMS = ["LR SemVer (n=102)", "LR Graph (n=102)", "LR SemVer+Graph (n=102)", "RF SemVer+Graph (n=102)",
-        "XGB SemVer+Graph (n=102)", "GNN impact-graph+SemVer"]
+# Arm-name prefixes in oof_predictions.csv; the "(n=...)" suffix depends on the dataset.
+ARMS = ["LR SemVer (n=", "LR Graph (n=", "LR SemVer+Graph (n=", "RF SemVer+Graph (n=",
+        "XGB SemVer+Graph (n=", "GNN impact-graph+SemVer"]
 
 
 def artifact_kind(group_id: str, artifact_id: str) -> str:
@@ -75,8 +76,11 @@ def main() -> None:
 
     out = []
     print("1. Within-project pairwise AUC (breaking vs safe of the same project, OOF probabilities)")
-    for arm in ARMS:
-        if oof and arm in oof[0]:
+    columns = list(oof[0]) if oof else []
+    for prefix in ARMS:
+        # The graph-subset arm, not an "(all N)" arm, so every arm is scored on the same samples.
+        arm = next((c for c in columns if c.startswith(prefix) and "all" not in c), None)
+        if arm:
             auc, pairs, projects = within_project_auc(oof, arm)
             print(f"   {arm:28s} AUC {auc:.3f}  ({pairs} pairs, {projects} projects)")
             out.append({"check": "within_project_auc", "group": arm, "value": round(auc, 3), "n": pairs})

@@ -9,14 +9,18 @@ compute_triage), so this table cannot drift from the shipped behaviour. It repor
   A. Score-only tiers (thresholds SAFE_THRESHOLD / RISKY_THRESHOLD), the pre-Task-5 behaviour.
   B. Triage tiers (score + graph-evidence rules), the Task 5 behaviour.
   C. Evidence level vs. class.
-  D. Sensitivity of the RISKY/CRITICAL boundary (the only boundary with enough data to check).
+  D. Sensitivity of the RISKY/CRITICAL boundary.
+  E. Cross-validated threshold choice: SAFE/CRITICAL thresholds picked on 4 folds
+     (StratifiedGroupKFold by project, as in the model evaluation) and scored on the
+     held-out fold, compared with the shipped thresholds on the same folds.
 
-Important limits (also printed): only samples with a DIG are scored, SAFE samples are scarce, and
-the original SAFE samples all come from projects that also contributed BREAKING samples. The tier
-boundaries are therefore a sanity check, not a statistically calibrated cut-off.
+Important limits (also printed): only samples with a DIG are scored, most SAFE labels come from CI
+rather than docker reproduction, and the class balance is far from the real-world mix (most real
+updates are safe). The tier boundaries are therefore a sanity check, not a calibrated cut-off.
 
 Usage:
     python eval-system/calibrate_triage.py [--dataset <csv>] [--out results/triage_calibration.csv]
+        [--cv-out results/triage_threshold_cv.csv]
 """
 
 from __future__ import annotations
@@ -26,7 +30,10 @@ import csv
 import json
 import os
 import sys
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Tuple
+
+import numpy as np
+from sklearn.model_selection import StratifiedGroupKFold
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from analyzer import (  # noqa: E402
@@ -40,6 +47,12 @@ from analyzer import (  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TIERS = ["SAFE", "RISKY", "CRITICAL"]
+SAFE_GRID = [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+CRITICAL_GRID = [0.5, 0.6, 0.7, 0.8, 0.9, 0.99]
+# Cost of each outcome when a tier is read as a decision: SAFE = merge, CRITICAL = block,
+# RISKY = a person reviews. A breaking update waved through as SAFE is the worst outcome.
+COST = {("SAFE", 1): 4.0, ("SAFE", 0): 0.0, ("RISKY", 1): 1.0, ("RISKY", 0): 1.0,
+        ("CRITICAL", 1): 0.0, ("CRITICAL", 0): 2.0}
 
 
 def load_scored_samples(dataset_csv: str, dig_report_csv: str, dig_dir: str) -> List[Dict[str, Any]]:
@@ -68,6 +81,7 @@ def load_scored_samples(dataset_csv: str, dig_report_csv: str, dig_dir: str) -> 
                 "dependency": dep,
                 "breaking": 1 if row["classification"].strip().upper() == "BREAKING" else 0,
                 "score": score,
+                "features": feats,
                 "score_tier": _categorize_risk(score),
                 "triage_tier": triage["tier"],
                 "evidence": triage["evidence"],
@@ -98,6 +112,29 @@ def _print_table(title: str, rows: List[Dict[str, Any]]) -> None:
         print(f"  {r['group']:<26} {r['n']:>4} {r['n_breaking']:>9} {r['n_safe']:>5} {rate:>14}")
 
 
+def _tier(s: Dict[str, Any], safe_t: float, crit_t: float) -> str:
+    return compute_triage(s["features"], s["score"], safe_threshold=safe_t, risky_threshold=crit_t)["tier"]
+
+
+def _cost(samples: List[Dict[str, Any]], safe_t: float, crit_t: float) -> float:
+    return sum(COST[(_tier(s, safe_t, crit_t), s["breaking"])] for s in samples)
+
+
+def cv_thresholds(samples: List[Dict[str, Any]], n_splits: int = 5) -> Tuple[List[Dict[str, Any]], List[Tuple]]:
+    """Pick (safe, critical) thresholds on training folds; tier the held-out fold with them."""
+    y = np.array([s["breaking"] for s in samples])
+    groups = np.array([s["project"] for s in samples])
+    grid = [(a, b) for a in SAFE_GRID for b in CRITICAL_GRID if a < b]
+    tuned, chosen = [], []
+    for train, test in StratifiedGroupKFold(n_splits=n_splits).split(np.zeros(len(y)), y, groups):
+        tr = [samples[i] for i in train]
+        best = min(grid, key=lambda g: (_cost(tr, *g), -g[0], g[1]))
+        chosen.append(best)
+        for i in test:
+            tuned.append({**samples[i], "cv_tier": _tier(samples[i], *best)})
+    return tuned, chosen
+
+
 def main() -> None:
     root = os.path.join(HERE, "..")
     ap = argparse.ArgumentParser(description="Check triage tiers against labelled DIG-backed samples.")
@@ -105,6 +142,7 @@ def main() -> None:
     ap.add_argument("--dig-report", default=os.path.join(root, "dataset", "dig_build_report.csv"))
     ap.add_argument("--dig-dir", default=os.path.join(root, "dataset", "digs"))
     ap.add_argument("--out", default=os.path.join(root, "results", "triage_calibration.csv"))
+    ap.add_argument("--cv-out", default=os.path.join(root, "results", "triage_threshold_cv.csv"))
     args = ap.parse_args()
 
     samples = load_scored_samples(args.dataset, args.dig_report, args.dig_dir)
@@ -134,14 +172,38 @@ def main() -> None:
     print("\nReading the tables")
     print(f"  * Score-only SAFE tier: {safe_a['n_breaking']} of {safe_a['n']} samples were actually breaking.")
     print(f"  * Triage SAFE tier:     {safe_b['n_breaking']} of {safe_b['n']} samples were actually breaking.")
-    print("  * The SAFE tier cannot be validated here: there are no SAFE samples with call-site evidence of safety,")
-    print("    and the class balance of this subset is far from the real-world mix.")
-    print("  * 'dependency-not-in-graph' is mostly breaking in this data, so it is never reported as SAFE.")
-    print("  * Treat boundaries as sanity-checked, not statistically calibrated (few SAFE samples).")
+    crit_b = next(r for r in table_b if r["group"] == "CRITICAL")
+    not_in = next(r for r in table_c if r["group"] == "dependency-not-in-graph")
+    print(f"  * CRITICAL tier: {crit_b['n_safe']} of {crit_b['n']} samples were actually safe.")
+    if not_in["n"]:
+        print(f"  * 'dependency-not-in-graph': {not_in['n_breaking']} of {not_in['n']} breaking. It is never reported as"
+              " SAFE (no evidence either way), so these land in RISKY.")
+    print("  * The class balance here is far from the real-world mix (most real updates are safe), so tier")
+    print("    breaking rates are not real-world probabilities.")
+
+    tuned, chosen = cv_thresholds(samples)
+    print("\nE. Cross-validated thresholds (picked on 4 folds, applied to the 5th; cost: SAFE&breaking 4,")
+    print("   CRITICAL&safe 2, RISKY 1, correct SAFE/CRITICAL 0)")
+    print("   thresholds chosen per fold (SAFE < s, CRITICAL >= c): " + ", ".join(f"({a}, {b})" for a, b in chosen))
+    shipped = [{**s, "cv_tier": s["triage_tier"]} for s in samples]
+    table_e = []
+    for name, rows in (("shipped", shipped), ("cv_tuned", tuned)):
+        counts = _counts(rows, "cv_tier", TIERS)
+        cost = sum(COST[(r["cv_tier"], r["breaking"])] for r in rows)
+        _print_table(f"   {name} thresholds (total cost {cost:.0f})", counts)
+        for r in counts:
+            table_e.append({"scheme": name, **r, "total_cost": cost})
+    with open(args.cv_out, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=["scheme", "group", "n", "n_breaking", "n_safe", "breaking_rate",
+                                           "total_cost"], lineterminator="\n")
+        w.writeheader()
+        for r in table_e:
+            w.writerow({**r, "breaking_rate": "" if r["breaking_rate"] is None else round(r["breaking_rate"], 4)})
+    print(f"[VerSync] Saved {args.cv_out}")
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     with open(args.out, "w", newline="", encoding="utf-8") as fh:
-        w = csv.writer(fh)
+        w = csv.writer(fh, lineterminator="\n")
         w.writerow(["table", "group", "n", "n_breaking", "n_safe", "breaking_rate"])
         for name, rows in (("score_only_tier", table_a), ("triage_tier", table_b),
                            ("evidence", table_c), ("critical_sweep", sweep)):
