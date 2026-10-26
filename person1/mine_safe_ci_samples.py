@@ -170,8 +170,12 @@ def parse_update(title: str, body: str) -> tuple[str, str, str]:
     if m:
         cells = RENOVATE_BODY.findall(body or "")
         news = {n for _, n in cells}
-        if len(cells) >= 1 and len(news) == 1 and m.group("new").lstrip("v") in news:
-            return m.group("dep"), cells[0][0], m.group("new").lstrip("v")
+        title_new = m.group("new").lstrip("v")
+        # Renovate major-update titles name only the major ("to v33"); the body has the full version.
+        if len(cells) >= 1 and len(news) == 1:
+            (body_new,) = news
+            if body_new == title_new or body_new.startswith(title_new + "."):
+                return m.group("dep"), cells[0][0], body_new
     return "", "", ""
 
 

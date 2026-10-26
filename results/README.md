@@ -1,5 +1,9 @@
 # VerSync results and interpretation
 
+> **See also [`matched/README.md`](matched/README.md)**: the same evaluation with 7 more SAFE updates that
+> are MAJOR library bumps (111 samples). SemVer-only drops to 0.67, SemVer+Graph is 0.80, and the graph
+> gain without Maven-plugin updates grows from +0.05 to +0.09. Quote those numbers alongside the ones below.
+
 All numbers below are on `person1/combined_dataset.csv`: 104 samples (51 BREAKING, 53 SAFE), of which
 **102 have a pre-update DIG** (49 BREAKING, 53 SAFE). The 2 without one: `docker-adapter` (repository
 deleted) and `google-cloud-java` (57k-file monorepo, over the build timeout). 59 labels come from BUMP
